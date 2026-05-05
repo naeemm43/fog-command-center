@@ -141,6 +141,63 @@ def headline_overlap(a: str, b: str) -> float:
     return len(sa & sb) / len(sa | sb)
 
 
+# ----------------------------- input validation -----------------------
+#
+# Two failure modes we've seen from web-search results:
+#   1. The model returns a homepage URL (e.g. "https://pehub.com") instead
+#      of the actual article URL. Reject these so they never become
+#      sources.
+#   2. The model uses a current-day date for an article that was actually
+#      published years earlier (the "search crawl date" looks like the
+#      publication date). When a result also includes a URL we can fetch
+#      the article and validate the date matches.
+#
+# We can't fully verify dates without an extra HTTP call per result, but
+# we can reject obviously-bad URLs and flag suspicious recent dates so the
+# operator can review.
+
+
+_HOMEPAGE_PATH_PATTERNS = (
+    "",        # no path
+    "/",       # root
+    "/home",
+    "/index",
+    "/index.html",
+    "/index.htm",
+    "/news",   # generic listing
+    "/news/",
+    "/blog",
+    "/blog/",
+)
+
+
+def looks_like_homepage(url: str) -> bool:
+    """Return True if `url` is a homepage / listing page rather than an
+    article. Used to reject placeholder source URLs at ingestion."""
+    if not url:
+        return True
+    try:
+        from urllib.parse import urlparse
+        p = urlparse(url.strip())
+    except Exception:
+        return True
+    if not p.netloc:
+        return True
+    path = (p.path or "").rstrip("/")
+    # Strip trailing /index.html etc.
+    return path.lower() in {x.rstrip("/") for x in _HOMEPAGE_PATH_PATTERNS}
+
+
+def valid_iso_date(s: str) -> bool:
+    if not isinstance(s, str) or len(s) < 8:
+        return False
+    try:
+        datetime.fromisoformat(s)
+        return True
+    except ValueError:
+        return False
+
+
 def is_duplicate_news(item: dict, existing: list[dict]) -> bool:
     h = item.get("headline", "")
     norm = normalize_headline(h)
@@ -242,10 +299,10 @@ Search ALL of the following queries (use the web_search tool, one query at a tim
 {window_note}
 
 For each relevant result, return a JSON object with these fields:
-- date (YYYY-MM-DD format; if only month is known, use the 15th)
+- date (YYYY-MM-DD format) — IMPORTANT: this MUST be the deal announcement or close date as stated in the article body, NOT today's date or the search index date. If the article body says "February 2024" use 2024-02-15 (mid-month). If you cannot determine the date from the article body, OMIT the result rather than guessing.
 - headline (article title)
 - source (publication name)
-- source_url (URL)
+- source_url (the EXACT article URL, deep-linking to the specific article — never a homepage like "https://example.com" or "/news" listing page; if you only have a homepage, OMIT the result)
 - category (one of: "M&A", "Regulation", "Market", "Company News")
 - summary (2-3 sentence summary)
 - is_deal (true if this is an M&A transaction announcement)
@@ -257,6 +314,7 @@ For each relevant result, return a JSON object with these fields:
 - multiple (EV/EBITDA if disclosed or inferrable, else "N/A")
 - deal_summary (array of 1-2 short bullets with context: customer count, fleet, route density, retention, etc.)
 - owner_classification (one of: "PE-Backed", "Public Company", "Family/Local", "Regional", "Municipal", "Unknown")
+- date_confidence ("verified" if the date is from the article body itself; "approximate" if you had to infer from "Q1 2024" or similar)
 
 Return ONLY a JSON array of result objects. No surrounding prose. Skip generic industry overviews — focus on specific deals, announcements, regulatory actions, and concrete company news. If a query returns nothing relevant, omit it from the output."""
 
@@ -311,8 +369,16 @@ def search_for_updates(queries: list[str] | None = None,
 
 
 def coerce_news_item(raw: dict) -> dict | None:
-    """Normalize a search result into the news_feed.json schema."""
+    """Normalize a search result into the news_feed.json schema. Rejects
+    items with malformed dates or homepage-like source URLs."""
     if not raw.get("headline") or not raw.get("date"):
+        return None
+    if not valid_iso_date(raw["date"]):
+        sys.stderr.write(f"reject (bad date): {raw.get('headline','')[:80]} — date={raw['date']!r}\n")
+        return None
+    src_url = (raw.get("source_url") or "").strip()
+    if src_url and looks_like_homepage(src_url):
+        sys.stderr.write(f"reject (homepage URL): {raw.get('headline','')[:80]} — url={src_url}\n")
         return None
     cat = raw.get("category") or "Company News"
     if cat not in {"M&A", "Regulation", "Market", "Company News"}:
@@ -321,7 +387,7 @@ def coerce_news_item(raw: dict) -> dict | None:
         "date": raw["date"],
         "headline": raw["headline"],
         "source": raw.get("source", ""),
-        "source_url": raw.get("source_url", ""),
+        "source_url": src_url,
         "category": cat,
         "summary": raw.get("summary", ""),
         "is_target_market": False,
@@ -355,8 +421,15 @@ def coerce_deal_from_news(raw: dict) -> dict | None:
         return None
     if not raw.get("buyer") or not raw.get("target"):
         return None
+    if not valid_iso_date(raw.get("date", "")):
+        sys.stderr.write(f"reject deal (bad date): {raw.get('target','')[:60]} — date={raw.get('date')!r}\n")
+        return None
+    src_url = (raw.get("source_url") or "").strip()
+    if src_url and looks_like_homepage(src_url):
+        sys.stderr.write(f"reject deal (homepage URL): {raw.get('target','')[:60]} — url={src_url}\n")
+        return None
     deal: dict = {
-        "date": raw.get("date", ""),
+        "date": raw["date"],
         "target": raw["target"],
         "acquirer": raw["buyer"],
         "sponsor": raw.get("sponsor", ""),
@@ -366,11 +439,12 @@ def coerce_deal_from_news(raw: dict) -> dict | None:
         "multiple": raw.get("multiple") or "N/A",
         "services": raw.get("services", ""),
         "source": raw.get("source", ""),
-        "source_url": raw.get("source_url", ""),
+        "source_url": src_url,
         "is_target_market": False,
         "target_market_name": None,
         "owner_classification": raw.get("owner_classification") or "Unknown",
         "deal_summary": _normalize_summary_bullets(raw.get("deal_summary")),
+        "date_confidence": raw.get("date_confidence") or "verified",
         "notes": raw.get("summary", ""),
     }
     near = nearest_target_market(raw.get("location"))

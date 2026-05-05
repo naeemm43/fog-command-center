@@ -686,8 +686,12 @@ __MAP_SCRIPTS__
   function renderRow(d, i) {
     var tmCls = d.is_target_market ? 'row-target-market' : '';
     var dot = d.is_target_market ? '🎯 ' : '';
+    var dateCell = escapeHtml(d.date || '');
+    if (d.date_confidence === 'approximate') {
+      dateCell = '<span style="font-style:italic; color:#888;" title="Approximate date — not confirmed against article body">' + dateCell + ' ~</span>';
+    }
     var html = '<tr class="row-clickable ' + tmCls + '" data-idx="' + i + '">' +
-      '<td>' + escapeHtml(d.date || '') + '</td>' +
+      '<td>' + dateCell + '</td>' +
       '<td><b>' + dot + escapeHtml(d.target || '') + '</b></td>' +
       '<td>' + escapeHtml(d.acquirer || '') + '</td>' +
       '<td>' + escapeHtml(d.sponsor || '—') + '</td>' +
@@ -707,9 +711,16 @@ __MAP_SCRIPTS__
       } else if (typeof summary === 'string' && summary.trim()) {
         summaryHtml = '<div style="margin-top:2px;"><b>Deal summary:</b> ' + escapeHtml(summary) + '</div>';
       }
+      var sourceHtml = '';
+      if (d.source_url) {
+        sourceHtml = '<div style="margin-top:6px;"><b>Source:</b> <a href="' + escapeHtml(d.source_url) + '" target="_blank" rel="noopener">' + escapeHtml(d.source || 'link') + ' ↗</a></div>';
+      } else if (d.source) {
+        sourceHtml = '<div style="margin-top:6px;"><b>Source:</b> ' + escapeHtml(d.source) +
+          ' <span style="color:#b03030; font-size:11px;">(URL not verified — original press release / blog post needs to be located)</span></div>';
+      }
       html += '<tr class="expanded-row"><td colspan="9" class="detail-cell">' +
         summaryHtml +
-        (d.source_url ? '<div style="margin-top:6px;"><b>Source:</b> <a href="' + escapeHtml(d.source_url) + '" target="_blank" rel="noopener">' + escapeHtml(d.source || 'link') + ' ↗</a></div>' : '') +
+        sourceHtml +
         (d.owner_classification ? '<div style="margin-top:4px;"><b>Owner type:</b> ' + escapeHtml(d.owner_classification) + '</div>' : '') +
         (d.notes ? '<div style="margin-top:6px;"><b>Notes:</b> ' + escapeHtml(d.notes) + '</div>' : '') +
         (d.is_target_market ? '<div style="margin-top:6px; color:#27ae60;"><b>Target market:</b> ' + escapeHtml(d.target_market_name || 'flagged') + '</div>' : '') +
