@@ -1,0 +1,44 @@
+name: Catch-Up Deal Sweep
+
+# One-shot deep sweep of historical M&A activity. Manually triggered via
+# the Actions tab → "Run workflow", or via the gh CLI:
+#   gh workflow run catchup.yml
+# Use this when seeding fresh data or when we suspect coverage gaps.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  catchup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run catchup sweep
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/catchup.py
+
+      - name: Commit and push catchup results
+        run: |
+          git config user.email "fog-bot@automated.local"
+          git config user.name "FOG Command Center Bot"
+          git add docs/ data/
+          if git diff --cached --quiet; then
+            echo "No new deals discovered."
+          else
+            git commit -m "Catchup sweep: $(date -u +%Y-%m-%d)"
+            git push
+          fi

@@ -169,12 +169,108 @@ def is_duplicate_deal(item: dict, existing: list[dict]) -> bool:
 
 # ----------------------------- web search -----------------------------
 
+# Daily refresh queries — broader than the original narrow "grease trap" /
+# "Wind River" / "LES" set so we catch deals that use different terminology
+# or involve smaller / regional players.
+EXPANDED_SEARCH_QUERIES = [
+    # Broader industry terms
+    '"liquid waste" acquired OR acquisition OR merger',
+    '"waste recycling" acquired OR acquisition',
+    '"septic" acquired OR acquisition OR sold',
+    '"grease" company acquired OR sold OR merger',
+    '"wastewater" company acquired OR acquisition',
+    '"environmental services" acquisition OR merger',
+    '"pumping" company acquired OR sold',
+    '"drain cleaning" acquired OR acquisition',
+    '"portable sanitation" acquisition OR merger',
 
-def search_for_updates() -> list[dict]:
-    """Ask Claude (with web_search tool) for fresh industry news.
-    Returns a list of dicts in the schema described in the prompt."""
+    # Industry-specific publications and sources
+    'site:wastetodaymagazine.com acquisition',
+    'site:waste360.com acquisition merger',
+    'site:pehub.com grease OR septic OR "liquid waste" OR wastewater',
+    'site:privsource.com environmental services',
+    'site:businesswire.com "liquid waste" OR "grease trap" OR "septic" acquired',
+
+    # Named players we should be monitoring (beyond the Big 4)
+    '"LJP Waste Solutions" acquisition',
+    '"Southwaste" acquisition',
+    '"Action Environmental" acquisition',
+    '"Mr. Rooter" OR "Roto-Rooter" grease acquisition',
+    '"National Waste Management" liquid waste',
+    '"Synagro" acquisition',
+    '"Clean Harbors" liquid waste',
+    '"US Ecology" OR "Republic Services" liquid waste',
+    '"Waste Connections" liquid waste acquisition',
+
+    # Deal announcement patterns
+    '"pleased to announce the acquisition of" grease OR septic OR "liquid waste" OR wastewater OR pumping',
+    '"has been acquired by" grease OR septic OR "liquid waste" OR wastewater',
+    '"announces sale of" septic OR "liquid waste" OR wastewater OR grease OR pumping',
+    '"private equity" "environmental services" "add-on" OR "platform"',
+
+    # Regional searches for under-covered markets
+    '"liquid waste" acquisition midwest OR texas OR southeast',
+    'grease trap company sold OR acquired {year}',
+]
+
+# One-time historical sweep run by scripts/catchup.py.
+CATCHUP_QUERIES = [
+    '"United Liquid Waste Recycling" "LJP Waste Solutions"',
+    '"liquid waste" acquisition 2024',
+    '"liquid waste" acquisition 2023',
+    '"grease trap" company sold 2024',
+    '"grease trap" company sold 2023',
+    '"septic company" acquired 2024',
+    '"septic company" acquired 2023',
+    '"wastewater services" acquired 2024 2025',
+    'site:privsource.com "liquid waste" OR "grease" OR "septic" OR "wastewater"',
+    'site:pehub.com "liquid waste" OR "grease trap" OR septic OR wastewater acquisition 2024 2025 2026',
+    'site:axial.net "liquid waste" OR grease OR septic OR wastewater',
+    '"environmental services" "add-on acquisition" 2024 2025 2026',
+    '"non-hazardous" waste acquisition private equity',
+    '"waste management" acquisition "grease trap" OR "liquid waste" OR septic',
+]
+
+
+def _build_search_prompt(today: str, year: int, queries: list[str], window_note: str) -> str:
+    enumerated = "\n".join(f"{i+1}. {q.format(year=year)}" for i, q in enumerate(queries))
+    return f"""Today is {today}. Search the web for news and M&A activity in the non-hazardous liquid waste, grease trap, FOG (fats oils grease), septic, wastewater services, and environmental services industry in the United States.
+
+Search ALL of the following queries (use the web_search tool, one query at a time):
+{enumerated}
+
+{window_note}
+
+For each relevant result, return a JSON object with these fields:
+- date (YYYY-MM-DD format; if only month is known, use the 15th)
+- headline (article title)
+- source (publication name)
+- source_url (URL)
+- category (one of: "M&A", "Regulation", "Market", "Company News")
+- summary (2-3 sentence summary)
+- is_deal (true if this is an M&A transaction announcement)
+- buyer (if M&A deal, the acquiring entity)
+- target (if M&A deal, the acquired entity)
+- sponsor (if PE-backed buyer, the sponsor name)
+- location (city, state if identifiable)
+- deal_size (e.g. "$120M EV", or "Undisclosed")
+- multiple (EV/EBITDA if disclosed or inferrable, else "N/A")
+- deal_summary (array of 1-2 short bullets with context: customer count, fleet, route density, retention, etc.)
+- owner_classification (one of: "PE-Backed", "Public Company", "Family/Local", "Regional", "Municipal", "Unknown")
+
+Return ONLY a JSON array of result objects. No surrounding prose. Skip generic industry overviews — focus on specific deals, announcements, regulatory actions, and concrete company news. If a query returns nothing relevant, omit it from the output."""
+
+
+def search_for_updates(queries: list[str] | None = None,
+                        window_note: str | None = None) -> list[dict]:
+    """Ask Claude (with web_search tool) for industry news.
+
+    queries:     list of search strings; defaults to EXPANDED_SEARCH_QUERIES.
+    window_note: instruction describing the time window of interest. Defaults
+                 to "last 30 days" for daily refresh.
+    """
     try:
-        import anthropic  # imported lazily so the script can run for tests
+        import anthropic
     except ImportError:
         sys.stderr.write("anthropic package not installed; skipping web search\n")
         return []
@@ -186,38 +282,14 @@ def search_for_updates() -> list[dict]:
     client = anthropic.Anthropic()
     today = datetime.now().strftime("%Y-%m-%d")
     year = datetime.now().year
+    qs = queries if queries is not None else EXPANDED_SEARCH_QUERIES
+    note = window_note or "Focus on items from the last 30 days."
 
-    prompt = f"""Today is {today}. Search the web for recent news and M&A activity in the non-hazardous liquid waste, grease trap, FOG (fats oils grease), and septic services industry in the United States.
-
-Search for ALL of the following queries:
-1. "grease trap" acquisition {year}
-2. "liquid waste" acquisition OR merger
-3. "Wind River Environmental" acquisition
-4. "Liquid Environmental Solutions" OR LES acquisition
-5. "septic" "private equity" acquisition
-6. "non-hazardous liquid waste" news
-7. "FOG" environmental services deal
-8. "grease trap" regulation enforcement
-9. "used cooking oil" renewable diesel market
-10. "Baker Commodities" OR "DAR PRO" acquisition
-
-For each relevant result, return a JSON object with:
-- date (YYYY-MM-DD format)
-- headline (article title)
-- source (publication name)
-- source_url (URL)
-- category (one of: "M&A", "Regulation", "Market", "Company News")
-- summary (2-3 sentence summary)
-- is_deal (true if this is an M&A transaction announcement)
-- buyer (if M&A deal, who is acquiring)
-- target (if M&A deal, who is being acquired)
-- location (city, state if identifiable)
-
-Return ONLY a JSON array of results. No other text. Focus on items from the last 30 days. Skip generic industry overviews — focus on specific deals, announcements, regulatory actions, and company news."""
+    prompt = _build_search_prompt(today, year, qs, note)
 
     response = client.messages.create(
         model="claude-sonnet-4-20250514",
-        max_tokens=4096,
+        max_tokens=8192,
         tools=[{"type": "web_search_20250305", "name": "web_search"}],
         messages=[{"role": "user", "content": prompt}],
     )
@@ -262,6 +334,22 @@ def coerce_news_item(raw: dict) -> dict | None:
     return item
 
 
+def _normalize_summary_bullets(s) -> list[str] | None:
+    if s is None:
+        return None
+    if isinstance(s, list):
+        out = [str(x).strip() for x in s if str(x).strip()]
+        return out or None
+    text = str(s).strip()
+    if not text:
+        return None
+    # If model returned newline-separated bullets, split them.
+    parts = [p.strip(" -*•\t").strip() for p in text.splitlines() if p.strip()]
+    if len(parts) > 1:
+        return parts
+    return [text]
+
+
 def coerce_deal_from_news(raw: dict) -> dict | None:
     if not raw.get("is_deal"):
         return None
@@ -275,12 +363,14 @@ def coerce_deal_from_news(raw: dict) -> dict | None:
         "location": raw.get("location", ""),
         "deal_type": raw.get("deal_type", "Add-On"),
         "deal_size": raw.get("deal_size", "Undisclosed"),
-        "multiple": raw.get("multiple"),
+        "multiple": raw.get("multiple") or "N/A",
         "services": raw.get("services", ""),
         "source": raw.get("source", ""),
         "source_url": raw.get("source_url", ""),
         "is_target_market": False,
         "target_market_name": None,
+        "owner_classification": raw.get("owner_classification") or "Unknown",
+        "deal_summary": _normalize_summary_bullets(raw.get("deal_summary")),
         "notes": raw.get("summary", ""),
     }
     near = nearest_target_market(raw.get("location"))

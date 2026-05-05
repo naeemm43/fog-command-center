@@ -68,6 +68,178 @@ def inject_map_handle(scripts: str) -> str:
     )
 
 
+# ============================================================================
+# Public-company reclassification (Change 2 in spec)
+#
+# The upstream map separates owners into Tier-1 consolidators (LES, WRE, BAK,
+# DAR, MAH, ...), Tier-2 "Other PE-Backed", regional, local, and municipal.
+# Several of those are actually publicly traded — they should not be tagged
+# PE-Backed. We add a new PUB tier (navy #2C3E50) and reclassify the affected
+# facilities at build time, leaving the upstream pipeline untouched.
+# ============================================================================
+
+# Records currently tagged with these `ct` values get fully migrated to PUB.
+# Both DAR (Darling) and BAR (Barrel Energy) facilities move wholesale.
+_CT_TO_PUBLIC_LABEL = {
+    "DAR": "Public: Darling Ingredients (NYSE: DAR)",
+    "BAR": "Public: Barrel Energy (OTC: BRLL)",
+}
+
+# For records currently tagged ct=PE (Tier-2), reclassify if the owner_type
+# string contains one of these substrings (case-insensitive).
+_OT_SUBSTRING_TO_PUBLIC_LABEL = [
+    ("hepaco", "Public: Clean Harbors (NYSE: CLH)"),
+    ("clean harbors", "Public: Clean Harbors (NYSE: CLH)"),
+    ("republic services", "Public: Republic Services (NYSE: RSG)"),
+    ("us ecology", "Public: Republic Services (NYSE: RSG)"),
+    ("waste connections", "Public: Waste Connections (NYSE: WCN)"),
+    ("gfl environmental", "Public: GFL Environmental (NYSE: GFL)"),
+    ("waste management", "Public: WM (NYSE: WM)"),
+    ("stericycle", "Public: Stericycle (NASDAQ: SRCL)"),
+    ("casella", "Public: Casella Waste (NASDAQ: CWST)"),
+]
+
+# Last-resort fuzzy match on facility name + operator (catches Barrel /
+# Happy Traps before they were added to the upstream brand list, and any
+# Darling-owned location whose `ct` somehow stayed un-tagged).
+_NAME_OP_PATTERNS_TO_PUBLIC_LABEL = [
+    (re.compile(r"\bbarrel energy\b|\bhappy traps\b", re.IGNORECASE),
+     "Public: Barrel Energy (OTC: BRLL)"),
+    (re.compile(r"\bdarling ingredients\b|\bdar pro\b|\bdar-pro\b|\bvalley proteins\b|\bdiamond green diesel\b",
+                re.IGNORECASE),
+     "Public: Darling Ingredients (NYSE: DAR)"),
+]
+
+
+def reclassify_to_public(records: list[dict]) -> dict[str, int]:
+    """Mutate records in place. Return a count breakdown by new label."""
+    counts: dict[str, int] = {}
+
+    def _bump(label: str) -> None:
+        counts[label] = counts.get(label, 0) + 1
+
+    for r in records:
+        ct = r.get("ct", "")
+        new_label = None
+
+        if ct in _CT_TO_PUBLIC_LABEL:
+            new_label = _CT_TO_PUBLIC_LABEL[ct]
+        elif ct == "PE":
+            ot_lower = (r.get("ot") or "").lower()
+            for sub, lbl in _OT_SUBSTRING_TO_PUBLIC_LABEL:
+                if sub in ot_lower:
+                    new_label = lbl
+                    break
+
+        if new_label is None:
+            text = ((r.get("n") or "") + " " + (r.get("op") or "")).lower()
+            for rx, lbl in _NAME_OP_PATTERNS_TO_PUBLIC_LABEL:
+                if rx.search(text):
+                    new_label = lbl
+                    break
+
+        if new_label is not None:
+            r["ot"] = new_label
+            r["ct"] = "PUB"
+            _bump(new_label)
+
+    return counts
+
+
+_NEW_CATEGORY_INFO = """const CATEGORY_INFO = {
+  "LES": {label:"LES (Goldman Sachs)",         color:"#e74c3c"},
+  "WRE": {label:"Wind River (Gryphon)",        color:"#3498db"},
+  "BAK": {label:"Baker Commodities",           color:"#27ae60"},
+  "MAH": {label:"Mahoney / Crimson",           color:"#9b59b6"},
+  "PUB": {label:"Public Company",              color:"#2C3E50"},
+  "MOM": {label:"Momentum Environmental",      color:"#6C3483"},
+  "SEP": {label:"Septic Blue (Georgia Oak)",   color:"#1E8449"},
+  "PE":  {label:"Other PE-Backed",             color:"#c0392b"},
+  "REG": {label:"Regional Operators",          color:"#1abc9c"},
+  "LOC": {label:"Local / Family",              color:"#95a5a6"},
+  "MUN": {label:"Municipal (flagged)",         color:"#7f8c8d"},
+  "UNK": {label:"Unknown",                     color:"#bdc3c7"},
+};"""
+
+_NEW_CAT_ORDER = (
+    'const CAT_ORDER = ["LES","WRE","BAK","MAH","PUB","MOM","SEP","PE","REG","LOC","MUN","UNK"];'
+)
+_NEW_NEW_ENTRANT_CATS = 'const NEW_ENTRANT_CATS = new Set(["MOM","SEP"]);'
+
+
+def patch_category_info(scripts: str) -> str:
+    """Replace CATEGORY_INFO / CAT_ORDER / NEW_ENTRANT_CATS in the original
+    map JS with the version that includes the PUB tier and drops standalone
+    DAR / BAR entries."""
+    # Inner per-category objects end with `},` so we can safely non-greedy
+    # match up to the first `};` which only occurs at the literal's end.
+    scripts, n = re.subn(
+        r"const CATEGORY_INFO = \{.*?\};",
+        _NEW_CATEGORY_INFO,
+        scripts, count=1, flags=re.DOTALL,
+    )
+    if n != 1:
+        sys.stderr.write("WARNING: CATEGORY_INFO replacement did not match\n")
+    scripts, n = re.subn(
+        r"const CAT_ORDER = \[[^\]]+\];",
+        _NEW_CAT_ORDER,
+        scripts, count=1,
+    )
+    if n != 1:
+        sys.stderr.write("WARNING: CAT_ORDER replacement did not match\n")
+    scripts, n = re.subn(
+        r"const NEW_ENTRANT_CATS = new Set\(\[[^\]]+\]\);",
+        _NEW_NEW_ENTRANT_CATS,
+        scripts, count=1,
+    )
+    if n != 1:
+        sys.stderr.write("WARNING: NEW_ENTRANT_CATS replacement did not match\n")
+    return scripts
+
+
+def patch_legend(body_inner: str) -> str:
+    """Insert a Public Company row in the legend; remove the standalone
+    Darling and Barrel rows (their facilities now live under PUB)."""
+    # Drop the Darling and Barrel rows.
+    body_inner = re.sub(
+        r'\s*<tr><td><span class="swatch" style="background:#f39c12"></span></td><td>Darling[^<]*</td></tr>',
+        "",
+        body_inner,
+    )
+    body_inner = re.sub(
+        r'\s*<tr><td><span class="swatch" style="background:#F5B041"></span></td><td>Barrel Energy[^<]*</td></tr>',
+        "",
+        body_inner,
+    )
+    # Insert PUB row right after the Mahoney row.
+    pub_row = (
+        '\n      <tr><td><span class="swatch" style="background:#2C3E50"></span></td>'
+        '<td>Public Company</td></tr>'
+    )
+    body_inner = re.sub(
+        r'(<tr><td><span class="swatch" style="background:#9b59b6"></span></td><td>Mahoney / Crimson</td></tr>)',
+        r"\1" + pub_row,
+        body_inner,
+        count=1,
+    )
+    return body_inner
+
+
+def patch_facility_data(scripts: str) -> tuple[str, dict[str, int]]:
+    """Find the FOG_DATA literal in the script block, parse it, apply
+    public-company reclassification, and write it back."""
+    m = re.search(r"const FOG_DATA = (\[.*?\]);\s*\n", scripts, flags=re.DOTALL)
+    if not m:
+        sys.stderr.write("WARNING: FOG_DATA literal not found; skipping reclassification\n")
+        return scripts, {}
+    raw = m.group(1)
+    records = json.loads(raw)
+    counts = reclassify_to_public(records)
+    new_literal = json.dumps(records, separators=(",", ":"))
+    scripts = scripts[: m.start()] + f"const FOG_DATA = {new_literal};\n" + scripts[m.end():]
+    return scripts, counts
+
+
 TEMPLATE = r"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -290,6 +462,7 @@ __ORIGINAL_STYLE__
             <th data-sort="location">Location <span class="arrow">↕</span></th>
             <th data-sort="deal_type">Type <span class="arrow">↕</span></th>
             <th data-sort="deal_size">Deal Size <span class="arrow">↕</span></th>
+            <th data-sort="multiple">EV/EBITDA <span class="arrow">↕</span></th>
             <th data-sort="services">Services <span class="arrow">↕</span></th>
           </tr>
         </thead>
@@ -521,12 +694,23 @@ __MAP_SCRIPTS__
       '<td>' + escapeHtml(d.location || '') + '</td>' +
       '<td>' + escapeHtml(d.deal_type || '') + '</td>' +
       '<td>' + escapeHtml(d.deal_size || '') + '</td>' +
+      '<td>' + escapeHtml(d.multiple || 'N/A') + '</td>' +
       '<td>' + escapeHtml(d.services || '') + '</td>' +
       '</tr>';
     if (compsState.expandedRows.has(i)) {
-      html += '<tr class="expanded-row"><td colspan="8" class="detail-cell">' +
-        (d.source_url ? '<div><b>Source:</b> <a href="' + escapeHtml(d.source_url) + '" target="_blank" rel="noopener">' + escapeHtml(d.source || 'link') + ' ↗</a></div>' : '') +
-        (d.multiple ? '<div><b>Multiple:</b> ' + escapeHtml(d.multiple) + '</div>' : '') +
+      var summaryHtml = '';
+      var summary = d.deal_summary;
+      if (Array.isArray(summary) && summary.length) {
+        summaryHtml = '<div style="margin-top:2px;"><b>Deal summary:</b><ul style="margin:4px 0 4px 18px; padding:0;">' +
+          summary.map(function (s) { return '<li style="margin-bottom:3px;">' + escapeHtml(s) + '</li>'; }).join('') +
+          '</ul></div>';
+      } else if (typeof summary === 'string' && summary.trim()) {
+        summaryHtml = '<div style="margin-top:2px;"><b>Deal summary:</b> ' + escapeHtml(summary) + '</div>';
+      }
+      html += '<tr class="expanded-row"><td colspan="9" class="detail-cell">' +
+        summaryHtml +
+        (d.source_url ? '<div style="margin-top:6px;"><b>Source:</b> <a href="' + escapeHtml(d.source_url) + '" target="_blank" rel="noopener">' + escapeHtml(d.source || 'link') + ' ↗</a></div>' : '') +
+        (d.owner_classification ? '<div style="margin-top:4px;"><b>Owner type:</b> ' + escapeHtml(d.owner_classification) + '</div>' : '') +
         (d.notes ? '<div style="margin-top:6px;"><b>Notes:</b> ' + escapeHtml(d.notes) + '</div>' : '') +
         (d.is_target_market ? '<div style="margin-top:6px; color:#27ae60;"><b>Target market:</b> ' + escapeHtml(d.target_market_name || 'flagged') + '</div>' : '') +
         '</td></tr>';
@@ -552,13 +736,14 @@ __MAP_SCRIPTS__
 
   function csvCell(v) {
     if (v === null || v === undefined) return '';
+    if (Array.isArray(v)) v = v.join(' | ');
     var s = String(v);
     if (/[",\n]/.test(s)) return '"' + s.replace(/"/g, '""') + '"';
     return s;
   }
   function exportCsv() {
     var rows = filteredComps();
-    var cols = ['date','target','acquirer','sponsor','location','deal_type','deal_size','multiple','services','source','source_url','is_target_market','target_market_name','notes'];
+    var cols = ['date','target','acquirer','sponsor','location','deal_type','deal_size','multiple','services','owner_classification','source','source_url','is_target_market','target_market_name','deal_summary','notes'];
     var csv = [cols.join(',')].concat(rows.map(function (r) {
       return cols.map(function (c) { return csvCell(r[c]); }).join(',');
     })).join('\n');
@@ -619,6 +804,9 @@ def main() -> int:
         return 2
 
     style_inner, body_inner, scripts = slice_original(SRC_MAP)
+    scripts, public_counts = patch_facility_data(scripts)
+    scripts = patch_category_info(scripts)
+    body_inner = patch_legend(body_inner)
     scripts = inject_map_handle(scripts)
 
     with open(NEWS_JSON, encoding="utf-8") as f:
@@ -645,6 +833,13 @@ def main() -> int:
         f.write(out)
     print(f"Wrote {DST} ({os.path.getsize(DST):,} bytes) — "
           f"{len(news)} news items, {len(comps)} deals")
+    if public_counts:
+        total = sum(public_counts.values())
+        print(f"Map: reclassified {total} facilities to Public Company tier:")
+        for label, n in sorted(public_counts.items(), key=lambda kv: -kv[1]):
+            print(f"  {n:>5}  {label}")
+    else:
+        print("Map: no facilities needed Public Company reclassification.")
     return 0
 
 
