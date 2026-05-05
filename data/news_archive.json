@@ -10,6 +10,16 @@
     "target_market_name": "Cincinnati/Columbus/Cleveland, OH"
   },
   {
+    "date": "2025-10-27",
+    "headline": "Wind River Environmental Acquires Keystone Wastewater Services",
+    "source": "Wind River Environmental",
+    "source_url": "https://www.wrenvironmental.com/blog/2025/october/wind-river-environmental-acquires-keystone-waste/",
+    "category": "M&A",
+    "summary": "Wind River acquired Keystone Wastewater Services, a 20+ year grease pumping and drain cleaning specialist operating in central Pennsylvania, Ohio, and Maryland. The acquisition expands Wind River's commercial grease and wastewater service capabilities.",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
     "date": "2025-09-02",
     "headline": "Goldman Sachs Alternatives Completes Acquisition of LES from Audax",
     "source": "BusinessWire",
@@ -26,6 +36,26 @@
     "source_url": "https://wrenvironmental.com",
     "category": "M&A",
     "summary": "Two Pennsylvania septic operators join Wind River, expanding coverage to Matamoras and Greentown.",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2025-08-11",
+    "headline": "Wind River Environmental Acquires M&S Septic Services and Fenkner Septic Services",
+    "source": "Wind River Environmental",
+    "source_url": "https://www.wrenvironmental.com/blog/2025/august/wind-river-environmental-acquires-m-s-septic-ser/",
+    "category": "M&A",
+    "summary": "Wind River acquired two Pennsylvania companies with 50+ year histories specializing in septic pumping, installations, inspections, repairs and drain cleaning. Both companies had built strong reputations in Matamoras and Greentown.",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2025-07-23",
+    "headline": "Goldman Sachs Acquires Liquid Waste Solutions Provider LES",
+    "source": "ESG Today",
+    "source_url": "https://www.esgtoday.com/goldman-sachs-acquires-liquid-waste-solutions-provider-les/",
+    "category": "M&A",
+    "summary": "Goldman Sachs Alternatives acquired LES from Audax Private Equity. LES operates 64 service locations and 26 treatment facilities managing non-hazardous liquid waste including grease traps, oil water separators, and used cooking oil.",
     "is_target_market": false,
     "target_market_name": null
   },
@@ -56,6 +86,16 @@
     "source_url": "https://wrenvironmental.com",
     "category": "M&A",
     "summary": "Wind River expands into southwestern Pennsylvania and West Virginia with acquisition of Hapchuk grease and septic pumping operations.",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2025-04-25",
+    "headline": "Wind River Environmental Acquires Hapchuk, Inc. and Liquid Assets Disposal, Inc.",
+    "source": "Wind River Environmental",
+    "source_url": "https://www.wrenvironmental.com/blog/2025/april/wind-river-environmental-acquires-hapchuk-inc-an/",
+    "category": "M&A",
+    "summary": "Wind River acquired Hapchuk Inc., a provider of grease pumping and septic services, plus its sister company Liquid Assets Disposal which operates a West Virginia treatment facility. The deal includes a 60-vehicle fleet.",
     "is_target_market": false,
     "target_market_name": null
   },

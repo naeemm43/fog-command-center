@@ -18,7 +18,7 @@
       "Materially expands LJP's liquid waste footprint across Wisconsin and the upper Midwest with United's existing route density and treatment capacity.",
       "First add-on of size for LJP under GreyLion Capital ownership, signaling a regional consolidation push beyond LJP's traditional dry-waste book."
     ],
-    "notes": "Deal flagged in user catchup — confirms upper-Midwest consolidation activity outside the named Big-4."
+    "notes": "Deal flagged in user catchup \u2014 confirms upper-Midwest consolidation activity outside the named Big-4."
   },
   {
     "date": "2026-04-02",
@@ -42,6 +42,26 @@
     "notes": "Continued LES add-on strategy under Goldman ownership."
   },
   {
+    "date": "2026-03-26",
+    "target": "Septic Blue, Inc.",
+    "acquirer": "Georgia Oak Partners",
+    "sponsor": "",
+    "location": "Atlanta, Georgia",
+    "deal_type": "Add-On",
+    "deal_size": "Undisclosed",
+    "multiple": "N/A",
+    "services": "",
+    "source": "Source Capital",
+    "source_url": "https://www.source-cap.com/source-capital-supports-georgia-oak-partners-investment-in-septic-blue",
+    "is_target_market": false,
+    "target_market_name": null,
+    "notes": "Private equity sponsor Georgia Oak Partners acquired Septic Blue, a Southeast regional leader in septic tank services operating in Atlanta, Charlotte, and Raleigh metro areas. Source Capital provided debt financing and equity co-investment.",
+    "owner_classification": "PE-Backed",
+    "deal_summary": [
+      "Private equity sponsor Georgia Oak Partners acquired Septic Blue, a Southeast regional leader in septic tank services operating in Atlanta, Charlotte, and Raleigh metro areas. Source Capital provided debt financing and equity co-investment."
+    ]
+  },
+  {
     "date": "2026-03-25",
     "target": "Happy Traps",
     "acquirer": "Barrel Energy (BRLL)",
@@ -60,7 +80,7 @@
       "Adds 200+ recurring commercial clients and 3,500+ annual grease trap cleanings to Barrel's Maine route.",
       "Public-company micro-cap acquirer (OTC: BRLL); deal disclosed in 8-K alongside revenue-uplift guidance."
     ],
-    "notes": "Public micro-cap consolidator — distinct from PE-backed peers."
+    "notes": "Public micro-cap consolidator \u2014 distinct from PE-backed peers."
   },
   {
     "date": "2026-03-20",
@@ -82,6 +102,26 @@
       "Adds dedicated transfer assets that improve disposal optionality for surrounding pumper add-ons."
     ],
     "notes": "Continues Wind River's 2024-2026 high-velocity tuck-in pace."
+  },
+  {
+    "date": "2026-03-11",
+    "target": "SES Mid Atlantic, Advantage Septic Service, and Joiner Micro Laboratories",
+    "acquirer": "Seekye Capital",
+    "sponsor": "",
+    "location": "Virginia",
+    "deal_type": "Add-On",
+    "deal_size": "Undisclosed",
+    "multiple": "N/A",
+    "services": "",
+    "source": "PrivSource",
+    "source_url": "https://www.privsource.com/acquisitions/deal/seekye-capital-acquires-ses-mid-atlantic-advantage-septic-and-joiner-micro-laboratories-n8SzxG",
+    "is_target_market": false,
+    "target_market_name": null,
+    "notes": "Private equity firm Seekye Capital announced its inaugural acquisition creating a comprehensive wastewater and environmental services platform. The deal brings together soil/environmental consulting, septic services, and environmental lab capabilities.",
+    "owner_classification": "PE-Backed",
+    "deal_summary": [
+      "Private equity firm Seekye Capital announced its inaugural acquisition creating a comprehensive wastewater and environmental services platform. The deal brings together soil/environmental consulting, septic services, and environmental lab capabilities."
+    ]
   },
   {
     "date": "2025-12-01",
@@ -120,7 +160,7 @@
     "target_market_name": "Cincinnati/Columbus/Cleveland, OH",
     "owner_classification": "PE-Backed",
     "deal_summary": [
-      "First Ohio exposure for the Gryphon-backed platform — entry vector into one of our Tier 2 target markets.",
+      "First Ohio exposure for the Gryphon-backed platform \u2014 entry vector into one of our Tier 2 target markets.",
       "Tri-state operator (PA, OH, MD) with both pumper and wastewater services."
     ],
     "notes": "First Ohio exposure for Wind River."
@@ -163,7 +203,7 @@
     "owner_classification": "PE-Backed",
     "deal_summary": [
       "PA coverage extension into Pike County.",
-      "Bundled announcement with Fenkner Septic — same-day press release."
+      "Bundled announcement with Fenkner Septic \u2014 same-day press release."
     ],
     "notes": "PA coverage extension."
   },
@@ -189,8 +229,28 @@
     "notes": "Bundled with M&S Septic announcement."
   },
   {
+    "date": "2025-07-23",
+    "target": "Liquid Environmental Solutions",
+    "acquirer": "Goldman Sachs Infrastructure Fund",
+    "sponsor": "",
+    "location": "Irving, Texas",
+    "deal_type": "Add-On",
+    "deal_size": "Undisclosed",
+    "multiple": "N/A",
+    "services": "",
+    "source": "ESG Today",
+    "source_url": "https://www.esgtoday.com/goldman-sachs-acquires-liquid-waste-solutions-provider-les/",
+    "is_target_market": false,
+    "target_market_name": null,
+    "notes": "Goldman Sachs Alternatives acquired LES from Audax Private Equity. LES operates 64 service locations and 26 treatment facilities managing non-hazardous liquid waste including grease traps, oil water separators, and used cooking oil.",
+    "owner_classification": "PE-Backed",
+    "deal_summary": [
+      "Goldman Sachs Alternatives acquired LES from Audax Private Equity. LES operates 64 service locations and 26 treatment facilities managing non-hazardous liquid waste including grease traps, oil water separators, and used cooking oil."
+    ]
+  },
+  {
     "date": "2025-07-22",
-    "target": "Liquid Environmental Solutions (LES) — sale agreement",
+    "target": "Liquid Environmental Solutions (LES) \u2014 sale agreement",
     "acquirer": "Goldman Sachs Alternatives (Infrastructure)",
     "sponsor": "Goldman Sachs Alternatives",
     "location": "Irving, TX",
@@ -289,7 +349,7 @@
     "owner_classification": "PE-Backed",
     "deal_summary": [
       "First TN entry for the Gryphon-backed platform.",
-      "Mid South Septic serves Memphis and Arlington plus counties in AR, MS, MO, and KY — a four-state footprint in a single tuck-in."
+      "Mid South Septic serves Memphis and Arlington plus counties in AR, MS, MO, and KY \u2014 a four-state footprint in a single tuck-in."
     ],
     "notes": "First TN entry. Coverage spans AR, MS, MO, KY."
   },
@@ -310,7 +370,7 @@
     "owner_classification": "PE-Backed",
     "deal_summary": [
       "Third NC acquisition in six months for Wind River, following Greenway and East Coast Resources.",
-      "Western NC mountain coverage — services Boone and Watauga County."
+      "Western NC mountain coverage \u2014 services Boone and Watauga County."
     ],
     "notes": "Third NC acquisition in six months."
   },
@@ -372,7 +432,7 @@
     "target_market_name": null,
     "owner_classification": "PE-Backed",
     "deal_summary": [
-      "Second NC add-on in 2024 — paired with Greenway to create coastal-to-mountain coverage.",
+      "Second NC add-on in 2024 \u2014 paired with Greenway to create coastal-to-mountain coverage.",
       "Liquid-waste and septic; supports tourism-economy seasonal demand."
     ],
     "notes": "Second NC add-on in 2024."
@@ -394,7 +454,7 @@
     "owner_classification": "PE-Backed",
     "deal_summary": [
       "Multi-target tuck-in series in Wind River's core Northeast footprint.",
-      "Densification rather than geographic expansion — improves route economics on existing dispatch."
+      "Densification rather than geographic expansion \u2014 improves route economics on existing dispatch."
     ],
     "notes": "Tuck-in series in core Northeast footprint."
   },
@@ -478,7 +538,7 @@
     "owner_classification": "PE-Backed",
     "deal_summary": [
       "Core Northeast densification in MetroWest Boston.",
-      "Pumper + grease combo — typical Wind River target profile."
+      "Pumper + grease combo \u2014 typical Wind River target profile."
     ],
     "notes": "Core Northeast densification."
   },
@@ -541,13 +601,13 @@
     "owner_classification": "PE-Backed",
     "deal_summary": [
       "Coastal Maine tuck-in.",
-      "Seasonal demand profile — pumper that complements Wind River's MA dispatch."
+      "Seasonal demand profile \u2014 pumper that complements Wind River's MA dispatch."
     ],
     "notes": "Coastal Maine tuck-in."
   },
   {
     "date": "2022-03-09",
-    "target": "Wind River Environmental — recapitalization",
+    "target": "Wind River Environmental \u2014 recapitalization",
     "acquirer": "Gryphon Investors",
     "sponsor": "Gryphon Investors",
     "location": "Marlborough, MA",
@@ -624,7 +684,7 @@
     "target_market_name": null,
     "owner_classification": "Family/Local",
     "deal_summary": [
-      "Family-owned (since 1937) — slow, opportunistic regional consolidation.",
+      "Family-owned (since 1937) \u2014 slow, opportunistic regional consolidation.",
       "No PE sponsor; deal pace dramatically slower than LES/Wind River cadence."
     ],
     "notes": "Family-owned Baker continued slow consolidation."
