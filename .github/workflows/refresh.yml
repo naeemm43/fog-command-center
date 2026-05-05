@@ -1,0 +1,48 @@
+name: Daily Data Refresh
+
+on:
+  schedule:
+    # 7 AM Central Time. CDT (Mar–Nov) is UTC-5 → 12:00 UTC; CST (Nov–Mar)
+    # is UTC-6 → 13:00 UTC. Run both so we always hit ~7 AM local; the
+    # script is idempotent if nothing changed.
+    - cron: '0 12 * * *'
+    - cron: '0 13 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: refresh-${{ github.ref }}
+      cancel-in-progress: false
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run refresh script
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/refresh_data.py
+
+      - name: Commit and push updates
+        run: |
+          git config user.email "fog-bot@automated.local"
+          git config user.name "FOG Command Center Bot"
+          git add docs/ data/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Daily refresh: $(date -u +%Y-%m-%d)"
+            git push
+          fi

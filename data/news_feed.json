@@ -1,0 +1,42 @@
+[
+  {
+    "date": "2026-04-02",
+    "headline": "Goldman Sachs-backed LES Acquires New Orleans Grease Trap Cleaning",
+    "source": "PE Hub",
+    "source_url": "https://pehub.com",
+    "category": "M&A",
+    "summary": "LES continues add-on acquisition strategy under Goldman Sachs ownership, adding a New Orleans-based grease trap cleaning operation to its network.",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2026-03-25",
+    "headline": "Barrel Energy Acquires Happy Traps in Portland, Maine",
+    "source": "StockTitan",
+    "source_url": "https://stocktitan.net",
+    "category": "M&A",
+    "summary": "Barrel Energy (OTC: BRLL) acquired Happy Traps, adding 200+ recurring commercial clients and 3,500+ annual grease trap cleanings to its portfolio.",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2026-03-20",
+    "headline": "Wind River Environmental Acquires J&M Transfer, Inc.",
+    "source": "Wind River Blog",
+    "source_url": "https://wrenvironmental.com",
+    "category": "M&A",
+    "summary": "Wind River continues aggressive expansion, acquiring J&M Transfer to extend its liquid waste transfer capabilities.",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2025-12-01",
+    "headline": "LES Acquires Grease Masters in St. Louis",
+    "source": "Waste Today",
+    "source_url": "https://wastetodaymagazine.com",
+    "category": "M&A",
+    "summary": "Goldman-backed LES acquires St. Louis-based Grease Masters, a grease trap, UCO, drain cleaning, and kitchen exhaust hood cleaning provider.",
+    "is_target_market": false,
+    "target_market_name": null
+  }
+]

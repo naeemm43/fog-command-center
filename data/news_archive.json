@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2025-10-27",
+    "headline": "Wind River Acquires Keystone Wastewater Services \u2014 Pushes into Ohio",
+    "source": "Wind River Blog",
+    "source_url": "https://wrenvironmental.com",
+    "category": "M&A",
+    "summary": "Keystone Wastewater Services, operating in central Pennsylvania, Ohio, and Maryland, joins Wind River. Marks first Ohio exposure for the Gryphon-backed platform.",
+    "is_target_market": true,
+    "target_market_name": "Cincinnati/Columbus/Cleveland, OH"
+  },
+  {
+    "date": "2025-09-02",
+    "headline": "Goldman Sachs Alternatives Completes Acquisition of LES from Audax",
+    "source": "BusinessWire",
+    "source_url": "https://businesswire.com",
+    "category": "M&A",
+    "summary": "Infrastructure at Goldman Sachs Alternatives completes acquisition of Liquid Environmental Solutions, the leading national NHLW provider with 64 service locations and 26 treatment plants.",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2025-08-11",
+    "headline": "Wind River Acquires M&S Septic and Fenkner Septic in Pennsylvania",
+    "source": "Wind River Blog",
+    "source_url": "https://wrenvironmental.com",
+    "category": "M&A",
+    "summary": "Two Pennsylvania septic operators join Wind River, expanding coverage to Matamoras and Greentown.",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2025-07-22",
+    "headline": "Goldman Sachs Alternatives Agrees to Acquire LES from Audax Private Equity",
+    "source": "Goldman Sachs AM",
+    "source_url": "https://am.gs.com",
+    "category": "M&A",
+    "summary": "Goldman Sachs infrastructure fund to acquire LES. Audax held since Q4 2017, executed 13 add-ons, nearly doubled footprint. Houlihan Lokey and Baird advised.",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2025-05-20",
+    "headline": "Momentum Environmental Acquires Environmental Service Group in New York",
+    "source": "BusinessWire",
+    "source_url": "https://businesswire.com",
+    "category": "M&A",
+    "summary": "PE-backed Momentum Environmental completes third acquisition since 2024, building a regional environmental services platform in New York.",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2025-04-25",
+    "headline": "Wind River Acquires Hapchuk and Liquid Assets Disposal in PA/WV",
+    "source": "Wind River Blog",
+    "source_url": "https://wrenvironmental.com",
+    "category": "M&A",
+    "summary": "Wind River expands into southwestern Pennsylvania and West Virginia with acquisition of Hapchuk grease and septic pumping operations.",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2025-04-23",
+    "headline": "Wind River Enters Tennessee via Mid South Septic Acquisition",
+    "source": "Wind River Blog",
+    "source_url": "https://wrenvironmental.com",
+    "category": "M&A",
+    "summary": "Wind River's first Tennessee entry. Mid South Septic serves Memphis and Arlington plus counties in AR, MS, MO, and KY.",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2025-04-08",
+    "headline": "Wind River Acquires Triple T Pumping in Boone, NC",
+    "source": "Wind River Blog",
+    "source_url": "https://wrenvironmental.com",
+    "category": "M&A",
+    "summary": "Third North Carolina acquisition in six months for Wind River, following Greenway and East Coast Resources.",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2025-01-01",
+    "headline": "GFL Environmental Sells Environmental Services Division for $8B to Apollo and BC Partners",
+    "source": "SEC Filing",
+    "source_url": "https://sec.gov",
+    "category": "M&A",
+    "summary": "GFL Environmental sells its environmental services business at $8.0B enterprise value. GFL retains $1.7B equity interest. Proceeds used for deleveraging and share repurchases.",
+    "is_target_market": false,
+    "target_market_name": null
+  }
+]
