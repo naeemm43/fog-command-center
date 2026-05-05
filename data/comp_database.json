@@ -16,6 +16,38 @@
     "notes": "Continued LES add-on strategy under Goldman ownership."
   },
   {
+    "date": "2026-04-02",
+    "target": "New Orleans Grease Trap Cleaning",
+    "acquirer": "Liquid Environmental Solutions",
+    "sponsor": "",
+    "location": "New Orleans, Louisiana",
+    "deal_type": "Add-On",
+    "deal_size": "Undisclosed",
+    "multiple": null,
+    "services": "",
+    "source": "Waste Today",
+    "source_url": "https://www.wastetodaymagazine.com/news/liquid-environmental-solutions-new-orleans-acquisition/",
+    "is_target_market": false,
+    "target_market_name": null,
+    "notes": "LES acquired New Orleans Grease Trap Cleaning (NOL), a grease trap and used cooking oil cleaning services provider founded in 2015. The acquisition adds to LES' network of nonhazardous wastewater collection facilities."
+  },
+  {
+    "date": "2026-03-26",
+    "target": "Septic Blue, Inc.",
+    "acquirer": "Georgia Oak Partners",
+    "sponsor": "",
+    "location": "Atlanta, Georgia",
+    "deal_type": "Add-On",
+    "deal_size": "Undisclosed",
+    "multiple": null,
+    "services": "",
+    "source": "Source Capital",
+    "source_url": "https://www.source-cap.com/source-capital-supports-georgia-oak-partners-investment-in-septic-blue",
+    "is_target_market": false,
+    "target_market_name": null,
+    "notes": "Private equity sponsor Georgia Oak Partners acquired Septic Blue, a Southeast regional leader in septic tank services operating in Atlanta, Charlotte, and Raleigh metro areas. Source Capital provided debt financing and equity co-investment."
+  },
+  {
     "date": "2026-03-25",
     "target": "Happy Traps",
     "acquirer": "Barrel Energy (BRLL)",
@@ -46,6 +78,22 @@
     "is_target_market": false,
     "target_market_name": null,
     "notes": "Extends liquid waste transfer capabilities."
+  },
+  {
+    "date": "2026-03-11",
+    "target": "SES Mid Atlantic, Advantage Septic Service, and Joiner Micro Laboratories",
+    "acquirer": "Seekye Capital",
+    "sponsor": "",
+    "location": "Virginia",
+    "deal_type": "Add-On",
+    "deal_size": "Undisclosed",
+    "multiple": null,
+    "services": "",
+    "source": "PrivSource",
+    "source_url": "https://www.privsource.com/acquisitions/deal/seekye-capital-acquires-ses-mid-atlantic-advantage-septic-and-joiner-micro-laboratories-n8SzxG",
+    "is_target_market": false,
+    "target_market_name": null,
+    "notes": "Private equity firm Seekye Capital announced its inaugural acquisition creating a comprehensive wastewater and environmental services platform. The deal brings together soil/environmental consulting, septic services, and environmental lab capabilities."
   },
   {
     "date": "2025-12-01",
@@ -128,6 +176,38 @@
     "notes": "Bundled with M&S Septic announcement."
   },
   {
+    "date": "2025-08-11",
+    "target": "M&S Septic Services and Fenkner Septic Services",
+    "acquirer": "Wind River Environmental",
+    "sponsor": "",
+    "location": "Matamoras and Greentown, Pennsylvania",
+    "deal_type": "Add-On",
+    "deal_size": "Undisclosed",
+    "multiple": null,
+    "services": "",
+    "source": "Wind River Environmental",
+    "source_url": "https://www.wrenvironmental.com/blog/2025/august/wind-river-environmental-acquires-m-s-septic-ser/",
+    "is_target_market": false,
+    "target_market_name": null,
+    "notes": "Wind River acquired two Pennsylvania companies with 50+ year histories specializing in septic pumping, installations, inspections, repairs and drain cleaning. Both companies had built strong reputations in Matamoras and Greentown."
+  },
+  {
+    "date": "2025-07-23",
+    "target": "Liquid Environmental Solutions",
+    "acquirer": "Goldman Sachs Infrastructure Fund",
+    "sponsor": "",
+    "location": "Irving, Texas",
+    "deal_type": "Add-On",
+    "deal_size": "Undisclosed",
+    "multiple": null,
+    "services": "",
+    "source": "ESG Today",
+    "source_url": "https://www.esgtoday.com/goldman-sachs-acquires-liquid-waste-solutions-provider-les/",
+    "is_target_market": false,
+    "target_market_name": null,
+    "notes": "Goldman Sachs Alternatives acquired LES from Audax Private Equity. LES operates 64 service locations and 26 treatment facilities managing non-hazardous liquid waste including grease traps, oil water separators, and used cooking oil."
+  },
+  {
     "date": "2025-05-20",
     "target": "Environmental Service Group",
     "acquirer": "Momentum Environmental",
@@ -174,6 +254,22 @@
     "is_target_market": false,
     "target_market_name": null,
     "notes": "First WV exposure for Wind River."
+  },
+  {
+    "date": "2025-04-25",
+    "target": "Hapchuk, Inc. and Liquid Assets Disposal, Inc.",
+    "acquirer": "Wind River Environmental",
+    "sponsor": "",
+    "location": "Washington, Pennsylvania and Wheeling, West Virginia",
+    "deal_type": "Add-On",
+    "deal_size": "Undisclosed",
+    "multiple": null,
+    "services": "",
+    "source": "Wind River Environmental",
+    "source_url": "https://www.wrenvironmental.com/blog/2025/april/wind-river-environmental-acquires-hapchuk-inc-an/",
+    "is_target_market": false,
+    "target_market_name": null,
+    "notes": "Wind River acquired Hapchuk Inc., a provider of grease pumping and septic services, plus its sister company Liquid Assets Disposal which operates a West Virginia treatment facility. The deal includes a 60-vehicle fleet."
   },
   {
     "date": "2025-04-23",

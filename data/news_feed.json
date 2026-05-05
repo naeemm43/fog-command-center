@@ -10,6 +10,26 @@
     "target_market_name": null
   },
   {
+    "date": "2026-04-02",
+    "headline": "Liquid Environmental Solutions makes New Orleans acquisition",
+    "source": "Waste Today",
+    "source_url": "https://www.wastetodaymagazine.com/news/liquid-environmental-solutions-new-orleans-acquisition/",
+    "category": "M&A",
+    "summary": "LES acquired New Orleans Grease Trap Cleaning (NOL), a grease trap and used cooking oil cleaning services provider founded in 2015. The acquisition adds to LES' network of nonhazardous wastewater collection facilities.",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2026-03-26",
+    "headline": "Georgia Oak Partners Acquires Septic Blue",
+    "source": "Source Capital",
+    "source_url": "https://www.source-cap.com/source-capital-supports-georgia-oak-partners-investment-in-septic-blue",
+    "category": "M&A",
+    "summary": "Private equity sponsor Georgia Oak Partners acquired Septic Blue, a Southeast regional leader in septic tank services operating in Atlanta, Charlotte, and Raleigh metro areas. Source Capital provided debt financing and equity co-investment.",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
     "date": "2026-03-25",
     "headline": "Barrel Energy Acquires Happy Traps in Portland, Maine",
     "source": "StockTitan",
@@ -26,6 +46,36 @@
     "source_url": "https://wrenvironmental.com",
     "category": "M&A",
     "summary": "Wind River continues aggressive expansion, acquiring J&M Transfer to extend its liquid waste transfer capabilities.",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "Seekye Capital Acquires SES Mid Atlantic, Advantage Septic and Joiner Micro Laboratories",
+    "source": "PrivSource",
+    "source_url": "https://www.privsource.com/acquisitions/deal/seekye-capital-acquires-ses-mid-atlantic-advantage-septic-and-joiner-micro-laboratories-n8SzxG",
+    "category": "M&A",
+    "summary": "Private equity firm Seekye Capital announced its inaugural acquisition creating a comprehensive wastewater and environmental services platform. The deal brings together soil/environmental consulting, septic services, and environmental lab capabilities.",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2026-02-17",
+    "headline": "City of Stanton RFP for Environmental Services for NPDES and FOG Programs",
+    "source": "ConstructConnect",
+    "source_url": "https://projects.constructconnect.com/details/7424691-rfp-environmental-services-for-npdes-ms4-and-fog-programs&find_loc=california-90680",
+    "category": "Regulation",
+    "summary": "The City of Stanton is requesting proposals from qualified consultants to provide services for National Pollutant Elimination Systems (NPDES) and Fats Oils & Grease (FOG) programs with question deadline March 11, 2026.",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2026-01-04",
+    "headline": "United Site Services Chapter 11 Filing",
+    "source": "Bondoro",
+    "source_url": "https://bondoro.com/united-site-services/",
+    "category": "Company News",
+    "summary": "United Site Services filed for Chapter 11 protection on December 29, 2025, reporting $1-10 billion in assets and liabilities. The company provides non-hazardous liquid waste services including grease trap waste removal.",
     "is_target_market": false,
     "target_market_name": null
   },
