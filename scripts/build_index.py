@@ -111,6 +111,24 @@ _NAME_OP_PATTERNS_TO_PUBLIC_LABEL = [
 ]
 
 
+# ============================================================================
+# Eazy Grease — Florida-rooted UCO consolidator we missed in the upstream
+# brand list. Until ownership.py adds them, patch matching facilities at
+# build time. Classified as a Regional platform (REG bucket).
+# ============================================================================
+_EAZY_GREASE_PATTERN = re.compile(
+    r"\beazy\s*grease\b|"
+    r"\bdht\s*grease\b|"
+    r"\brelentless\s*renewables\b|"
+    r"\bdaytona\s*biodiesel\b|"
+    r"\bcleanfri\b|"
+    r"\bliquid\s*recovery\s*solutions\b|"
+    r"\bgreen\s*nature\s*recycling\b",
+    re.IGNORECASE,
+)
+_EAZY_GREASE_LABEL = "Regional: Eazy Grease (Private)"
+
+
 def reclassify_to_public(records: list[dict]) -> dict[str, int]:
     """Mutate records in place. Return a count breakdown by new label."""
     counts: dict[str, int] = {}
@@ -144,6 +162,21 @@ def reclassify_to_public(records: list[dict]) -> dict[str, int]:
             _bump(new_label)
 
     return counts
+
+
+def reclassify_eazy_grease(records: list[dict]) -> int:
+    """Tag any facility whose name or operator matches an Eazy Grease brand
+    as Regional: Eazy Grease (Private). Returns count reclassified."""
+    n = 0
+    for r in records:
+        if r.get("ct") == "PUB":
+            continue  # leave public-co reclass alone
+        text = ((r.get("n") or "") + " " + (r.get("op") or "")).lower()
+        if _EAZY_GREASE_PATTERN.search(text):
+            r["ot"] = _EAZY_GREASE_LABEL
+            r["ct"] = "REG"
+            n += 1
+    return n
 
 
 _NEW_CATEGORY_INFO = """const CATEGORY_INFO = {
@@ -235,6 +268,9 @@ def patch_facility_data(scripts: str) -> tuple[str, dict[str, int]]:
     raw = m.group(1)
     records = json.loads(raw)
     counts = reclassify_to_public(records)
+    eazy_n = reclassify_eazy_grease(records)
+    if eazy_n:
+        counts["Regional: Eazy Grease (Private)"] = eazy_n
     new_literal = json.dumps(records, separators=(",", ":"))
     scripts = scripts[: m.start()] + f"const FOG_DATA = {new_literal};\n" + scripts[m.end():]
     return scripts, counts
@@ -844,13 +880,20 @@ def main() -> int:
         f.write(out)
     print(f"Wrote {DST} ({os.path.getsize(DST):,} bytes) — "
           f"{len(news)} news items, {len(comps)} deals")
-    if public_counts:
-        total = sum(public_counts.values())
+    pub_counts = {k: v for k, v in public_counts.items() if k.startswith("Public:")}
+    reg_counts = {k: v for k, v in public_counts.items() if k.startswith("Regional:")}
+    if pub_counts:
+        total = sum(pub_counts.values())
         print(f"Map: reclassified {total} facilities to Public Company tier:")
-        for label, n in sorted(public_counts.items(), key=lambda kv: -kv[1]):
+        for label, n in sorted(pub_counts.items(), key=lambda kv: -kv[1]):
             print(f"  {n:>5}  {label}")
-    else:
-        print("Map: no facilities needed Public Company reclassification.")
+    if reg_counts:
+        total = sum(reg_counts.values())
+        print(f"Map: reclassified {total} facilities to Regional brands:")
+        for label, n in sorted(reg_counts.items(), key=lambda kv: -kv[1]):
+            print(f"  {n:>5}  {label}")
+    if not pub_counts and not reg_counts:
+        print("Map: no facilities needed reclassification.")
     return 0
 
 

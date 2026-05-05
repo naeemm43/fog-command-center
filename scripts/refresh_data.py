@@ -268,6 +268,39 @@ EXPANDED_SEARCH_QUERIES = [
     # Regional searches for under-covered markets
     '"liquid waste" acquisition midwest OR texas OR southeast',
     'grease trap company sold OR acquired {year}',
+
+    # UCO / grease recycling — the Eazy Grease miss showed our coverage
+    # of the recycling/feedstock side of the value chain was missing.
+    '"used cooking oil" acquired OR acquisition OR merger',
+    '"UCO" collection acquired OR acquisition',
+    '"grease recycling" acquired OR acquisition',
+    '"cooking oil" collection company acquired OR sold',
+    '"biodiesel" grease acquisition',
+    '"renewable diesel" feedstock acquisition',
+    '"yellow grease" acquisition OR merger',
+    '"brown grease" acquisition OR merger',
+    '"rendering" acquisition OR merger',
+    '"Eazy Grease" acquisition OR expansion',
+
+    # Non-PE / privately-held platforms — searching for sponsor names
+    # only catches PE-backed deals. These pattern-match on the
+    # announcement language itself.
+    '"grease" company "pleased to announce" acquisition',
+    '"septic" company "pleased to announce" acquisition',
+    '"liquid waste" "pleased to announce" acquisition',
+    '"has acquired" "grease" OR "septic" OR "liquid waste" OR "UCO" OR "cooking oil"',
+    '"has merged with" "grease" OR "septic" OR "liquid waste" OR "UCO"',
+
+    # Industry blog / company website patterns — Wind River and LES post
+    # most of their add-ons on their own sites, often before press
+    # coverage shows up.
+    'site:wrenvironmental.com acquisitions OR "joins wind river"',
+    'site:liquidenviro.com acquisition OR "joins LES" OR "welcome"',
+
+    # Broader industry terms for smaller deals that don't get sector PR.
+    '"waste hauling" company acquired',
+    '"environmental services" company acquired southeast OR midwest OR texas',
+    '"pump" "truck" company acquired OR sold septic OR grease',
 ]
 
 # One-time historical sweep run by scripts/catchup.py.

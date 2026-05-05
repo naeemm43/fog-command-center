@@ -30,16 +30,6 @@
     "target_market_name": null
   },
   {
-    "date": "2026-03-25",
-    "headline": "Barrel Energy Acquires Happy Traps in Portland, Maine",
-    "source": "StockTitan",
-    "source_url": "https://stocktitan.net",
-    "category": "M&A",
-    "summary": "Barrel Energy (OTC: BRLL) acquired Happy Traps, adding 200+ recurring commercial clients and 3,500+ annual grease trap cleanings to its portfolio.",
-    "is_target_market": false,
-    "target_market_name": null
-  },
-  {
     "date": "2026-03-20",
     "headline": "Wind River Environmental Acquires J&M Transfer, Inc.",
     "source": "Wind River Blog",
@@ -86,6 +76,306 @@
     "source_url": "https://wastetodaymagazine.com",
     "category": "M&A",
     "summary": "Goldman-backed LES acquires St. Louis-based Grease Masters, a grease trap, UCO, drain cleaning, and kitchen exhaust hood cleaning provider.",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2025-08-05",
+    "headline": "Eazy Grease Acquires Liquid Recovery Solutions",
+    "source": "BusinessWire",
+    "source_url": "https://www.businesswire.com/news/home/20250805419925/en/Eazy-Grease-Accelerates-Multi-Regional-Expansion-with-Liquid-Recovery-Solutions-Merger-Building-Dominant-UCO-Collection-Network",
+    "category": "M&A",
+    "summary": "Merger transforms Eazy Grease from Florida-based to multi-regional UCO platform. Location: Multi-state (Southeast & Northeast US)",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2025-07-20",
+    "headline": "Eazy Grease Acquires Green Nature Recycling",
+    "source": "Biobased Diesel Daily",
+    "source_url": "https://www.biobased-diesel.com/post/eazy-grease-expands-uco-collection-with-acquisition-of-green-nature-recycling",
+    "category": "M&A",
+    "summary": "First out-of-Florida acquisition \u2014 Mid-Atlantic UCO collector. Location: Mid-Atlantic",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2025-07-11",
+    "headline": "Eazy Grease Acquires DHT Grease Solutions",
+    "source": "BusinessWire",
+    "source_url": "https://www.businesswire.com/news/home/20250711502422/en/Eazy-Grease-Completes-Fourth-Acquisition-with-DHT-Grease-Solutions-Purchase-Accelerating-Used-Cooking-Oil-Collection-Expansion-Across-the-Southeast-Region",
+    "category": "M&A",
+    "summary": "Extends Eazy Grease's coverage to North Florida / Panhandle. Location: Tallahassee, Florida",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2025-03-07",
+    "headline": "Wind River Environmental Acquires AA Cut Rate Septic",
+    "source": "Wind River blog",
+    "source_url": "https://www.wrenvironmental.com/blog/2025/march/wind-river-environmental-acquires-aa-cut-rate-se/",
+    "category": "M&A",
+    "summary": "Pinellas County FL tuck-in \u2014 fortifies Tampa Bay metro coverage. Location: Clearwater, Florida",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2024-09-15",
+    "headline": "Eazy Grease Acquires CleanFri",
+    "source": "Industry press",
+    "source_url": "",
+    "category": "M&A",
+    "summary": "Adds South Florida UCO collection routes. Location: South Florida",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2024-08-26",
+    "headline": "Wind River Environmental Acquires Brockwell's Septic and Service Inc.",
+    "source": "Wind River blog",
+    "source_url": "https://www.wrenvironmental.com/blog/2024/august/wind-river-environmental-llc-acquires-brockwell-/",
+    "category": "M&A",
+    "summary": "Richmond-area septic, grease, and wastewater hauler. Location: Quinton, Virginia",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2024-04-15",
+    "headline": "Eazy Grease Acquires Daytona Biodiesel",
+    "source": "Industry press",
+    "source_url": "",
+    "category": "M&A",
+    "summary": "Extends Eazy Grease's Florida coverage into the Central Florida / Daytona region. Location: Central Florida",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2024-03-25",
+    "headline": "Barrel Energy Acquires Happy Traps in Portland, Maine",
+    "source": "StockTitan",
+    "source_url": "https://stocktitan.net",
+    "category": "M&A",
+    "summary": "Barrel Energy (OTC: BRLL) acquired Happy Traps, adding 200+ recurring commercial clients and 3,500+ annual grease trap cleanings to its portfolio.",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2023-10-31",
+    "headline": "Wind River Environmental Acquires John Matthes Septic Services",
+    "source": "Wind River blog",
+    "source_url": "https://www.wrenvironmental.com/blog/2023/november/wind-river-environmental-llc-acquires-john-matth/",
+    "category": "M&A",
+    "summary": "Northwest NJ pumper. Location: Lake Hopatcong, New Jersey",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2023-07-15",
+    "headline": "Wind River Environmental Acquires Brownie's Septic and Plumbing",
+    "source": "Wind River blog",
+    "source_url": "https://www.wrenvironmental.com/blog/2023/july/wind-river-environmental-llc-acquires-brownie-s-/",
+    "category": "M&A",
+    "summary": "Major Orlando-metro pumper. Location: Orlando, Florida",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2023-06-15",
+    "headline": "Eazy Grease Acquires Relentless Renewables",
+    "source": "Industry press",
+    "source_url": "",
+    "category": "M&A",
+    "summary": "Early acquisition for Eazy Grease's Florida UCO roll-up. Location: Tampa Bay, Florida",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2023-04-27",
+    "headline": "Wind River Environmental Acquires Waste Water Services Inc. (WWSI), Parent Sanitation, Heritage Pumping, A Sanitary Pumping",
+    "source": "Wind River blog",
+    "source_url": "https://www.wrenvironmental.com/blog/2023/april/wind-river-environmental-llc-acquires-waste-wate/",
+    "category": "M&A",
+    "summary": "Bundle of 4 brands across 4 states \u2014 major New England densification. Location: MA / RI / CT / NH",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2023-04-05",
+    "headline": "Wind River Environmental Acquires B & P Environmental",
+    "source": "Wind River blog",
+    "source_url": "https://www.wrenvironmental.com/blog/2023/april/wind-river-environmental-llc-acquires-b-p-enviro/",
+    "category": "M&A",
+    "summary": "Maryland operator extending Wind River's mid-Atlantic footprint. Location: Crofton, Maryland",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2023-03-31",
+    "headline": "Wind River Environmental Acquires 1st Choice Service",
+    "source": "Wind River blog",
+    "source_url": "https://www.wrenvironmental.com/blog/2023/april/wind-river-environmental-llc-acquires-1st-choice/",
+    "category": "M&A",
+    "summary": "Western NC pumper \u2014 pre-Greenway NC anchor. Location: Cherryville, North Carolina",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2022-12-09",
+    "headline": "Wind River Environmental Acquires Church View Septic Services",
+    "source": "Wind River blog",
+    "source_url": "https://www.wrenvironmental.com/blog/2022/december/wind-river-environmental-llc-acquires-church-vie/",
+    "category": "M&A",
+    "summary": "First VA presence build-out (Middle Peninsula). Location: Urbanna, Virginia",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2022-10-31",
+    "headline": "Wind River Environmental Acquires Drain Innovations",
+    "source": "Wind River blog",
+    "source_url": "https://www.wrenvironmental.com/blog/2022/november/wind-river-environmental-llc-acquires-drain-inno/",
+    "category": "M&A",
+    "summary": "South Jersey drain-cleaning operator. Location: Westville, New Jersey",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2022-09-30",
+    "headline": "Wind River Environmental Acquires All Florida Septic",
+    "source": "Wind River blog",
+    "source_url": "https://www.wrenvironmental.com/blog/2022/november/wind-river-environmental-llc-acquires-all-florid/",
+    "category": "M&A",
+    "summary": "Central FL pumper continuing the Florida densification. Location: St. Cloud, Florida",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2022-08-12",
+    "headline": "Wind River Environmental Acquires Captain Clog Drain Cleaning Experts",
+    "source": "Wind River blog",
+    "source_url": "https://www.wrenvironmental.com/blog/2022/august/wind-river-environmental-acquires-captain-clog/",
+    "category": "M&A",
+    "summary": "Adds drain-cleaning brand to PA dispatch network. Location: Temple, Pennsylvania",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2021-08-17",
+    "headline": "Wind River Environmental Acquires Affordable Pumping Services",
+    "source": "Wind River blog",
+    "source_url": "https://www.wrenvironmental.com/blog/2021/august/wind-river-environmental-acquires-affordable-pum/",
+    "category": "M&A",
+    "summary": "Jersey Shore septic operator \u2014 coastal NJ coverage build-out. Location: Bayville, New Jersey",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2021-05-01",
+    "headline": "Wind River Environmental Acquires KBX Golden, LLC",
+    "source": "Wind River blog",
+    "source_url": "https://www.wrenvironmental.com/blog/2021/may/kbx-golden-llc-acquired-by-wind-river-environmen/",
+    "category": "M&A",
+    "summary": "Southeastern PA pumper add-on. Location: Kennett Square, Pennsylvania",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2020-12-07",
+    "headline": "Wind River Environmental Acquires Seminole Septic, Inc.",
+    "source": "Wind River blog",
+    "source_url": "https://www.wrenvironmental.com/blog/2020/december/seminole-septic-acquired-by-wind-river-environme/",
+    "category": "M&A",
+    "summary": "Pinellas County FL pumper \u2014 densifies Tampa Bay route economics. Location: Largo, Florida",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2020-08-26",
+    "headline": "Wind River Environmental Acquires FRANC Environmental, Inc.",
+    "source": "Wind River blog",
+    "source_url": "https://www.wrenvironmental.com/blog/2020/august/wind-river-environmental-acquires-franc-environm/",
+    "category": "M&A",
+    "summary": "PA tuck-in extending suburban Philadelphia coverage. Location: Ivyland, Pennsylvania",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2019-12-04",
+    "headline": "Wind River Environmental Acquires Cooke's Plumbing & Septic Services",
+    "source": "Wind River blog",
+    "source_url": "",
+    "category": "M&A",
+    "summary": "Expands Wind River's Florida presence beyond Tampa Bay into the Treasure Coast region. Location: Stuart, Florida",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2019-06-15",
+    "headline": "Wind River Environmental Acquires Mahopac Septic, Inc.",
+    "source": "Wind River blog",
+    "source_url": "",
+    "category": "M&A",
+    "summary": "Strengthens Wind River's New York metro-area coverage. Location: Mahopac, New York",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2019-06-15",
+    "headline": "Wind River Environmental Acquires R Crews Family Septic",
+    "source": "Wind River blog",
+    "source_url": "",
+    "category": "M&A",
+    "summary": "Additional Florida tuck-in. Location: Florida",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2018-12-15",
+    "headline": "Wind River Environmental Acquires Hamby's Septic Tank Service / Hamby's Commercial Waste",
+    "source": "Wind River blog",
+    "source_url": "https://www.wrenvironmental.com/blog/2018/december/wind-river-environmental-llc-acquires-hamby-s-se/",
+    "category": "M&A",
+    "summary": "Two-brand Georgia entry \u2014 Hamby's residential septic plus commercial waste arm. Location: Hiram, Georgia",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2018-07-05",
+    "headline": "Wind River Environmental Acquires Oxbury Sanitation",
+    "source": "Wind River blog",
+    "source_url": "https://www.wrenvironmental.com/blog/2018/july/wind-river-environmental-expands-coverage-in-con/",
+    "category": "M&A",
+    "summary": "Extends Wind River's Connecticut coverage. Location: Connecticut",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2018-05-17",
+    "headline": "Wind River Environmental Acquires A-Pro Rooter",
+    "source": "Wind River blog",
+    "source_url": "https://www.wrenvironmental.com/blog/2018/may/wind-river-environmental-acquires-a-pro-rooter-o/",
+    "category": "M&A",
+    "summary": "MA core-territory tuck-in adding drain-cleaning capability. Location: Holbrook, Massachusetts",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2018-02-21",
+    "headline": "Wind River Environmental Acquires Hartigan Wastewater Services and A-1 Gator Wastewater",
+    "source": "Wind River blog",
+    "source_url": "https://www.wrenvironmental.com/blog/2018/february/wind-river-environmental-acquires-hartigan-waste/",
+    "category": "M&A",
+    "summary": "Two-brand acquisition expanding Wind River's New England footprint. Location: VT / NH / NY / ME",
+    "is_target_market": false,
+    "target_market_name": null
+  },
+  {
+    "date": "2018-01-30",
+    "headline": "Wind River Environmental Acquires Rosey's Tank Cleaning",
+    "source": "Wind River blog",
+    "source_url": "https://www.wrenvironmental.com/blog/2018/january/wind-river-environmental-acquires-rosey-s-tank-c/",
+    "category": "M&A",
+    "summary": "Increases Wind River's footprint in New Jersey and Delaware. Location: New Jersey / Delaware",
     "is_target_market": false,
     "target_market_name": null
   }
