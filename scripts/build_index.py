@@ -612,6 +612,7 @@ _NEW_LEGEND_BODY = """
       <tr><td colspan="2" style="font-size:10px; color:#666; text-transform:uppercase; letter-spacing:0.4px; padding-bottom:2px;">Marker shape</td></tr>
       <tr><td><span style="display:inline-block; width:12px; height:12px; border-radius:50%; background:#444; vertical-align:middle;"></span></td><td>● Plant (processing)</td></tr>
       <tr><td><span style="display:inline-block; width:9px; height:9px; background:#444; transform:rotate(45deg); vertical-align:middle; margin-left:1px;"></span></td><td>◆ Operator (collection)</td></tr>
+      <tr id="legend-wwtp-line" style="display:none;"><td><span class="swatch-d"></span></td><td>◇ WWTP (<span id="legend-wwtp-total">0</span>)</td></tr>
       <tr><td><span class="swatch-d"></span></td><td>◇ WWTP (municipal)</td></tr>
       <tr><td colspan="2" style="font-size:10px; color:#666; text-transform:uppercase; letter-spacing:0.4px; padding-top:6px; padding-bottom:2px;">Owner color</td></tr>
       <tr><td><span class="swatch" style="background:#e74c3c;"></span></td><td>LES (Goldman Sachs)</td></tr>
@@ -626,6 +627,7 @@ _NEW_LEGEND_BODY = """
     </table>
     <div class="muted" style="margin-top:6px; padding-top:6px; border-top:1px solid #eee;">
       Visible: <span id="vis-plants">—</span> plants, <span id="vis-ops">—</span> operators
+      <span id="legend-fog-total" style="display:none;"></span>
     </div>
 """
 
@@ -1029,7 +1031,18 @@ def build_entity_type_script() -> str:
   if (ce) ce.textContent = '(' + num(collCount) + ')';
   if (we) we.textContent = '(' + num(wwtpCount) + ')';
 
-  // 8) Initial legend counters (plants visible from default state, ops 0)
+  // 8) STARTUP STATE — defensive. Browsers can persist checkbox state
+  //    across reloads, so even if the HTML attribute says checked the
+  //    in-memory state may be stale. Force the canonical default:
+  //      - Plants entity ON
+  //      - Collection / WWTP entity OFF
+  //      - All ownership cb's CHECKED
+  //    Then refreshAllCategories so plants appear immediately.
+  if (plantCb) plantCb.checked = true;
+  if (collCb)  collCb.checked  = false;
+  if (wwtpCb)  wwtpCb.checked  = false;
+  tickAllOwnership();
+  refreshAllCategories();   // patched version drives collection layer + counters too
   updateLegendCounters();
 })();
 """
