@@ -351,6 +351,7 @@ _CONSOLIDATOR_BRANDS = [s.lower() for s in [
     "southwaste", "south waste disposal", "southwaste disposal",
     "silver city processing", "silver city septic", "silver city plumbing",
     "mcdonald farms", "mcdonald farm", "mcdonald farms enterprises",
+    "trimble grease trap",
     # Public-co consolidators
     "barrel energy", "happy traps",
     # Other PE-backed platforms
@@ -546,7 +547,8 @@ _WRM_PATTERN = re.compile(
     r"\bsilver\s*city\s*septic\b|"
     r"\bsilver\s*city\s*plumbing\b|"
     r"\bmcdonald\s*farms?\s*enterprises?\b|"
-    r"\bmcdonald\s*farms?\b",
+    r"\bmcdonald\s*farms?\b|"
+    r"\btrimble\s*grease\s*trap\b",
     re.IGNORECASE,
 )
 _WRM_LABEL = "WRM (Waste Resources Management)"
