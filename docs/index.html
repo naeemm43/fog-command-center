@@ -426,7 +426,7 @@ html, body {
 <!-- METADATA_START -->
 <script>
 const metadata = {
-  "lastRefreshed": "2026-05-06T01:11:12Z",
+  "lastRefreshed": "2026-05-06T01:15:13Z",
   "newsCount": 27,
   "compCount": 57
 };
@@ -2975,6 +2975,31 @@ window.dispatchEvent(new Event('fogMapReady'));
     btn.addEventListener('click', function () { switchTab(btn.dataset.tab); });
   });
 
+  // ---------- Delegated click handler for Find-on-Map buttons/links ----------
+  // Buttons/links are rendered dynamically (each render rebuilds tbody and
+  // news-list innerHTML), so a single delegated listener on document covers
+  // all current and future renders.
+  document.addEventListener('click', function (ev) {
+    var el = ev.target;
+    while (el && el !== document) {
+      if (el.classList && (el.classList.contains('find-on-map-btn') ||
+                            el.classList.contains('find-on-map-link'))) {
+        ev.preventDefault();
+        ev.stopPropagation();
+        var lat = parseFloat(el.dataset.lat);
+        var lng = parseFloat(el.dataset.lng);
+        if (isNaN(lat) || isNaN(lng)) return;
+        window.findOnMap(lat, lng,
+          el.dataset.target || '',
+          el.dataset.acquirer || '',
+          el.dataset.date || '',
+          el.dataset.zoom || 'narrow');
+        return;
+      }
+      el = el.parentNode;
+    }
+  });
+
   // ---------- Find-on-Map (transactions tab → map tab) ----------
   // Exposed globally because comp-row inline onclick handlers call it.
   window.findOnMap = function (lat, lng, target, acquirer, date, zoomHint) {
@@ -3148,12 +3173,14 @@ window.dispatchEvent(new Event('fogMapReady'));
       var mapLink = '';
       if ((cat === 'M&A' || n.is_deal) &&
           typeof n.latitude === 'number' && typeof n.longitude === 'number') {
-        var args = [n.latitude, n.longitude,
-                    JSON.stringify(n.headline || ''),
-                    JSON.stringify('news'),
-                    JSON.stringify(n.date || ''),
-                    JSON.stringify(n.zoom_hint || 'narrow')].join(',');
-        mapLink = '<a class="find-on-map-link" onclick="findOnMap(' + args + '); return false;" href="#">🗺️ Find on Map</a>';
+        mapLink = '<a class="find-on-map-link" href="#"' +
+          ' data-lat="' + n.latitude + '"' +
+          ' data-lng="' + n.longitude + '"' +
+          ' data-target="' + escapeHtml(n.headline || '') + '"' +
+          ' data-acquirer="news"' +
+          ' data-date="' + escapeHtml(n.date || '') + '"' +
+          ' data-zoom="' + escapeHtml(n.zoom_hint || 'narrow') + '"' +
+          '>🗺️ Find on Map</a>';
       }
       return '<div class="news-card ' + cls + '">' +
         '<div class="meta"><span class="cat-tag" style="background:' + bg + '">' + escapeHtml(cat) + '</span>' + escapeHtml(formatDate(n.date)) + relBadge + '</div>' +
@@ -3294,12 +3321,17 @@ window.dispatchEvent(new Event('fogMapReady'));
       }
       var findBtn = '';
       if (typeof d.latitude === 'number' && typeof d.longitude === 'number') {
-        var args = [d.latitude, d.longitude,
-                    JSON.stringify(d.target || ''),
-                    JSON.stringify(d.acquirer || ''),
-                    JSON.stringify(d.date || ''),
-                    JSON.stringify(d.zoom_hint || 'narrow')].join(',');
-        findBtn = '<button class="find-on-map-btn" onclick="findOnMap(' + args + ')">🗺️ Find on Map</button>';
+        // Use data-* attributes (HTML-escaped) instead of an inline
+        // onclick — JSON.stringify emits unescaped double quotes that
+        // collide with the attribute's own double-quote wrapper.
+        findBtn = '<button class="find-on-map-btn"' +
+          ' data-lat="' + d.latitude + '"' +
+          ' data-lng="' + d.longitude + '"' +
+          ' data-target="' + escapeHtml(d.target || '') + '"' +
+          ' data-acquirer="' + escapeHtml(d.acquirer || '') + '"' +
+          ' data-date="' + escapeHtml(d.date || '') + '"' +
+          ' data-zoom="' + escapeHtml(d.zoom_hint || 'narrow') + '"' +
+          '>🗺️ Find on Map</button>';
       }
       html += '<tr class="expanded-row"><td colspan="9" class="detail-cell">' +
         summaryHtml +
