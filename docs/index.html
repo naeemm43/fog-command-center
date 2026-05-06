@@ -481,7 +481,7 @@ html, body {
 <!-- METADATA_START -->
 <script>
 const metadata = {
-  "lastRefreshed": "2026-05-06T03:52:53Z",
+  "lastRefreshed": "2026-05-06T11:49:23Z",
   "newsCount": 27,
   "compCount": 57
 };
@@ -3227,61 +3227,98 @@ SERVICE_HQ_DATA.forEach(function(d) {
   });
 });
 
-// ---------- Entity-type master toggles ----------
-// Plants ON by default, Collection Operators + WWTPs OFF by default.
-// Each toggle is independent — any combination works. The unified
-// ownership checkboxes below are AND'd with whichever entity types
-// are enabled.
+// ---------- Entity-type master toggles + unified ownership wiring ----------
 (function() {
-  function setPlantsVisible(on) {
-    if (!window.__fogClusters || !window.__fogCatOrder) return;
-    window.__fogCatOrder.forEach(function(cat) {
-      ['plant', 'pumper'].forEach(function(ent) {
-        var c = window.__fogClusters[cat] && window.__fogClusters[cat][ent];
-        if (!c) return;
-        // When master is OFF, remove the cluster entirely. When ON, defer
-        // to the existing ownership filter (don't add unconditionally —
-        // the cat checkbox might be unchecked).
-        if (!on) {
-          if (map.hasLayer(c)) map.removeLayer(c);
-        }
-      });
-    });
-    if (on) {
-      // Re-apply the existing ownership filter so checked categories
-      // come back. The upstream map exposes refreshFogLayers() via
-      // checkbox change handlers; trigger them.
-      if (typeof refreshFogLayers === 'function') refreshFogLayers();
-    }
+  if (typeof entityVisible !== 'function' || typeof refreshAllCategories !== 'function') {
+    console.error('Entity-type wiring: upstream functions missing'); return;
   }
-  function setCollectionVisible(on) {
+  var plantCb = document.getElementById('toggle-entity-plant');
+  var collCb  = document.getElementById('toggle-entity-collection');
+  var wwtpCb  = document.getElementById('toggle-entity-wwtp');
+
+  // 1) Plant master via entityVisible patch — cleanest path, makes the
+  //    master toggle cascade through ALL upstream code that gates on
+  //    entity visibility (refreshCategory, visibleCount, search, etc.).
+  var _origEntityVisible = entityVisible;
+  window.entityVisible = function(ent) {
+    if (plantCb && !plantCb.checked) return false;
+    return _origEntityVisible(ent);
+  };
+
+  // 2) Collection filter: master AND-ed with each ownership cb state.
+  function applyCollectionFilter() {
+    var clusters = window.__collectionClusters || {};
+    var masterOn = !!(collCb && collCb.checked);
+    Object.keys(clusters).forEach(function(key) {
+      var c = clusters[key];
+      if (!c) return;
+      var ownerCb = document.getElementById('cb-' + key);
+      var ownerOn = !ownerCb || ownerCb.checked;
+      var shouldShow = masterOn && ownerOn;
+      if (shouldShow && !map.hasLayer(c)) map.addLayer(c);
+      else if (!shouldShow && map.hasLayer(c)) map.removeLayer(c);
+    });
+  }
+
+  // 3) Legend counter (Visible: X plants, Y operators)
+  function updateLegendCounters() {
+    var pE = document.getElementById('vis-plants');
+    var oE = document.getElementById('vis-ops');
+    var plants = 0;
+    if (plantCb && plantCb.checked && typeof visibleCount === 'function') {
+      plants = visibleCount().plantTotal;
+    }
+    var ops = 0;
     var clusters = window.__collectionClusters || {};
     Object.keys(clusters).forEach(function(k) {
       var c = clusters[k];
-      if (!c) return;
-      if (on && !map.hasLayer(c)) map.addLayer(c);
-      else if (!on && map.hasLayer(c)) map.removeLayer(c);
+      if (c && map.hasLayer(c) && typeof c.getLayers === 'function') {
+        ops += c.getLayers().length;
+      }
     });
+    if (pE) pE.textContent = plants.toLocaleString();
+    if (oE) oE.textContent = ops.toLocaleString();
   }
-  function setWwtpVisible(on) {
-    // The upstream #toggle-wwtp already controls the WWTP cluster —
-    // mirror its state to our entity-wwtp checkbox.
-    var w = document.getElementById('toggle-wwtp');
-    if (w) { w.checked = on; w.dispatchEvent(new Event('change')); }
-  }
-  var plantCb = document.getElementById('toggle-entity-plant');
-  var collCb = document.getElementById('toggle-entity-collection');
-  var wwtpCb = document.getElementById('toggle-entity-wwtp');
-  if (plantCb) plantCb.addEventListener('change', function() { setPlantsVisible(plantCb.checked); });
-  if (collCb)  collCb.addEventListener('change',  function() { setCollectionVisible(collCb.checked); });
-  if (wwtpCb)  wwtpCb.addEventListener('change',  function() { setWwtpVisible(wwtpCb.checked); });
 
-  // Initial counts in labels
+  // 4) refreshAllCategories monkey-patch — runs after All/None buttons,
+  //    state-select changes, etc. so collection layer + counters track.
+  var _origRefreshAll = refreshAllCategories;
+  window.refreshAllCategories = function() {
+    _origRefreshAll();
+    applyCollectionFilter();
+    updateLegendCounters();
+  };
+
+  // 5) Per-cb listener for individual ownership checkbox toggles.
+  //    The upstream binds a 'change' on each cb that calls refreshCategory
+  //    + updateStats. Our delegated handler fires on bubble after that,
+  //    so the upstream side already updated plants by the time this runs.
+  document.addEventListener('change', function(ev) {
+    var t = ev.target;
+    if (t && t.id && t.id.indexOf('cb-') === 0) {
+      applyCollectionFilter();
+      updateLegendCounters();
+    }
+  });
+
+  // 6) Master toggle wiring
+  if (plantCb) plantCb.addEventListener('change', function() {
+    refreshAllCategories();  // patched version handles everything
+  });
+  if (collCb) collCb.addEventListener('change', function() {
+    applyCollectionFilter();
+    updateLegendCounters();
+  });
+  if (wwtpCb) wwtpCb.addEventListener('change', function() {
+    var w = document.getElementById('toggle-wwtp');
+    if (w) { w.checked = wwtpCb.checked; w.dispatchEvent(new Event('change')); }
+  });
+
+  // 7) Initial entity-type label counts (static — total dataset sizes)
   function num(n) { return n.toLocaleString(); }
-  var fogCount = 0;
-  if (typeof FOG_DATA !== 'undefined') fogCount = FOG_DATA.length;
+  var fogCount  = (typeof FOG_DATA !== 'undefined')        ? FOG_DATA.length        : 0;
   var collCount = (typeof COLLECTION_DATA !== 'undefined') ? COLLECTION_DATA.length : 0;
-  var wwtpCount = (typeof WWTP_DATA !== 'undefined') ? WWTP_DATA.length : 0;
+  var wwtpCount = (typeof WWTP_DATA !== 'undefined')       ? WWTP_DATA.length       : 0;
   var pe = document.getElementById('ent-cnt-plant');
   var ce = document.getElementById('ent-cnt-collection');
   var we = document.getElementById('ent-cnt-wwtp');
@@ -3289,41 +3326,8 @@ SERVICE_HQ_DATA.forEach(function(d) {
   if (ce) ce.textContent = '(' + num(collCount) + ')';
   if (we) we.textContent = '(' + num(wwtpCount) + ')';
 
-  // ---------- Unified ownership: ownership checkbox controls collection too ----------
-  // The upstream map renders one checkbox per CAT_ORDER bucket in
-  // #owner-toggles. Listen for changes there and apply the same
-  // checked-state to the matching collectionClusters bucket.
-  function applyCollectionOwnershipFilter() {
-    if (!collCb || !collCb.checked) return;  // master off → all hidden anyway
-    var clusters = window.__collectionClusters || {};
-    document.querySelectorAll('#owner-toggles input[type="checkbox"]').forEach(function(cb) {
-      var key = cb.dataset.cat || cb.value;
-      if (!key) return;
-      var c = clusters[key];
-      if (!c) return;
-      if (cb.checked && !map.hasLayer(c)) map.addLayer(c);
-      else if (!cb.checked && map.hasLayer(c)) map.removeLayer(c);
-    });
-  }
-  // Use event delegation since #owner-toggles is rendered by the
-  // upstream map after our script runs.
-  document.addEventListener('change', function(ev) {
-    var t = ev.target;
-    if (t && t.matches('#owner-toggles input[type="checkbox"]')) {
-      applyCollectionOwnershipFilter();
-    }
-  });
-  // Also re-apply when the collection master toggles on (so checked
-  // ownership state pre-populates the layer).
-  if (collCb) {
-    collCb.addEventListener('change', function() {
-      if (collCb.checked) {
-        // Defer one tick so setCollectionVisible's add-all runs first,
-        // then we remove any unchecked-ownership clusters.
-        setTimeout(applyCollectionOwnershipFilter, 0);
-      }
-    });
-  }
+  // 8) Initial legend counters (plants visible from default state, ops 0)
+  updateLegendCounters();
 })();
 
 window.__fogMap = (typeof map !== 'undefined') ? map : null;
