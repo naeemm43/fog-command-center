@@ -57,16 +57,44 @@ def slice_original(path: str) -> tuple[str, str, str]:
 
 
 def inject_map_handle(scripts: str) -> str:
-    """Expose the Leaflet map instance + marker collections globally so
-    the tab-switcher and Find-on-Map handlers can drive the map."""
+    """Expose the Leaflet map instance + marker collections + a
+    `__rebuildTier2Layer` helper globally so the tab-switcher,
+    Find-on-Map handler, and the Market Screener can drive the map."""
     last = scripts.rfind("</script>")
-    handle = (
-        "\nwindow.__fogMap = (typeof map !== 'undefined') ? map : null;\n"
-        "window.__fogMarkers = (typeof fogMarkers !== 'undefined') ? fogMarkers : null;\n"
-        "window.__fogClusters = (typeof fogClusters !== 'undefined') ? fogClusters : null;\n"
-        "window.__fogCatOrder = (typeof CAT_ORDER !== 'undefined') ? CAT_ORDER : null;\n"
-        "window.dispatchEvent(new Event('fogMapReady'));\n"
-    )
+    handle = """
+window.__fogMap = (typeof map !== 'undefined') ? map : null;
+window.__fogMarkers = (typeof fogMarkers !== 'undefined') ? fogMarkers : null;
+window.__fogClusters = (typeof fogClusters !== 'undefined') ? fogClusters : null;
+window.__fogCatOrder = (typeof CAT_ORDER !== 'undefined') ? CAT_ORDER : null;
+window.__tier2Layer = (typeof tier2Layer !== 'undefined') ? tier2Layer : null;
+
+// Rebuild the tier2 overlay from a dynamic city list. Called by the
+// Market Screener whenever scores change. Each entry: {name, lat, lng, score}.
+window.__rebuildTier2Layer = function(cities) {
+  if (!window.__tier2Layer || typeof L === 'undefined') return;
+  window.__tier2Layer.clearLayers();
+  (cities || []).forEach(function(t) {
+    const c = L.circle([t.lat, t.lng], {
+      radius: 80467,  // 50 miles in meters
+      color: '#5e3c8a', weight: 2, fillColor: '#9b59b6', fillOpacity: 0.08
+    });
+    if (typeof t.score === 'number') {
+      c.bindTooltip(t.name + ' — Score ' + t.score.toFixed(2));
+    } else {
+      c.bindTooltip(t.name);
+    }
+    window.__tier2Layer.addLayer(c);
+    const lbl = L.marker([t.lat, t.lng], {
+      icon: L.divIcon({className:'tier-label-tooltip',
+        html:'<span class="tier-label">' + t.name + '</span>',
+        iconSize:[140,20], iconAnchor:[70,10]}),
+      interactive: false
+    });
+    window.__tier2Layer.addLayer(lbl);
+  });
+};
+window.dispatchEvent(new Event('fogMapReady'));
+"""
     return scripts[:last] + handle + scripts[last:]
 
 
@@ -1173,6 +1201,466 @@ def inject_restaurant_heat(scripts: str) -> str:
 
 
 # ============================================================================
+# Market Screener tab — interactive Tier 2 city ranking rubric.
+# Cities + scores live in data/market_rubric.json so the analyst can edit
+# without touching code. The screener UI provides:
+#   * 10 sliders (one per criterion) tied to live recompute
+#   * 3-state strategy radio (collections / plant_acquisition / custom)
+#   * Sortable / filterable city table with tier + status badges
+#   * Row-expand → criterion-level contribution breakdown + score edit
+#   * URL hash state persistence + JSON export/import
+#   * Dynamic rebuild of the Map tab's tier2Layer based on current
+#     qualifying cities (Tier A score + Clear status)
+# ============================================================================
+
+_MARKET_RUBRIC_JSON = os.path.join(ROOT, "data", "market_rubric.json")
+
+
+_DEFAULT_WEIGHTS = {
+    "collections": {
+        "restaurant_base": 0.18, "growth": 0.08,
+        "consolidator_pressure": 0.15, "rollup_depth": 0.18,
+        "plant_availability": 0.04, "disposal_access": 0.08,
+        "fog_enforcement": 0.10, "permit_moat": 0.03,
+        "strategic_adjacency": 0.08, "operating_cost": 0.08,
+    },
+    "plant_acquisition": {
+        "restaurant_base": 0.12, "growth": 0.05,
+        "consolidator_pressure": 0.08, "rollup_depth": 0.08,
+        "plant_availability": 0.22, "disposal_access": 0.05,
+        "fog_enforcement": 0.10, "permit_moat": 0.15,
+        "strategic_adjacency": 0.08, "operating_cost": 0.07,
+    },
+}
+
+
+_CRITERIA = [
+    {"id": "restaurant_base",       "bucket": "Market Size",      "name": "Restaurant Base",            "desc": "Metro restaurant density and food-service customer volume. 1 = very small, 5 = top-decile metro.", "inverted": False},
+    {"id": "growth",                "bucket": "Market Size",      "name": "Population Growth",          "desc": "Population / restaurant growth rate. 1 = declining, 5 = booming Sun Belt / Mountain West.",       "inverted": False},
+    {"id": "consolidator_pressure", "bucket": "Competitive",      "name": "Consolidator Pressure",      "desc": "PE-backed competitor presence (5 = none, 1 = saturated). HIGHER = better for new entrants.",   "inverted": True},
+    {"id": "rollup_depth",          "bucket": "Competitive",      "name": "Roll-Up Depth",              "desc": "Number of acquirable independent operators. 1 = few targets, 5 = many fragmented operators.", "inverted": False},
+    {"id": "plant_availability",    "bucket": "Disposal",         "name": "Plant Availability",         "desc": "Acquirable processing plants in market. 1 = none, 5 = several plants for sale.",                "inverted": False},
+    {"id": "disposal_access",       "bucket": "Disposal",         "name": "Disposal Access",            "desc": "Third-party disposal options + pricing. 1 = poor / expensive, 5 = abundant.",                  "inverted": False},
+    {"id": "fog_enforcement",       "bucket": "Regulatory",       "name": "FOG Enforcement Intensity",  "desc": "Municipal enforcement rigor (5 = strict, 1 = lax). HIGHER = better moat for compliant operators.","inverted": False},
+    {"id": "permit_moat",           "bucket": "Regulatory",       "name": "Plant Permit Moat",          "desc": "Difficulty of permitting NEW plants (5 = near-impossible, 1 = easy). HIGHER protects incumbents.","inverted": False},
+    {"id": "strategic_adjacency",   "bucket": "Exit / Operating", "name": "Strategic Adjacency to Exit","desc": "Proximity to natural strategic acquirer (LES, Wind River). 1 = isolated, 5 = adjacent to core market.","inverted": False},
+    {"id": "operating_cost",        "bucket": "Exit / Operating", "name": "Operating Cost Environment", "desc": "CDL wages, real estate, cost of business (5 = low cost, 1 = expensive). HIGHER is better for buyer.","inverted": False},
+]
+
+
+def _load_market_rubric() -> dict:
+    if not os.path.exists(_MARKET_RUBRIC_JSON):
+        sys.stderr.write(f"WARNING: {_MARKET_RUBRIC_JSON} missing — Market Screener empty\n")
+        return {"cities": []}
+    with open(_MARKET_RUBRIC_JSON, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def build_market_screener_script() -> str:
+    rubric = _load_market_rubric()
+    cities = rubric.get("cities", [])
+    payload_cities = json.dumps(cities, separators=(",", ":"))
+    payload_default = json.dumps(_DEFAULT_WEIGHTS, separators=(",", ":"))
+    payload_criteria = json.dumps(_CRITERIA, separators=(",", ":"))
+
+    return f"""
+// ---------- Market Screener (Tab 4) ----------
+// MARKET_DATA: {{cities, default_weights, criteria}} embedded at build
+// time from data/market_rubric.json. The analyst edits that JSON or
+// uses the Edit Scores feature in the UI.
+const MARKET_CITIES = {payload_cities};
+const MARKET_DEFAULT_WEIGHTS = {payload_default};
+const MARKET_CRITERIA = {payload_criteria};
+
+(function() {{
+  // ---------- State ----------
+  // Current weights are mutable; default profile loaded on init.
+  let currentWeights = Object.assign({{}}, MARKET_DEFAULT_WEIGHTS.collections);
+  let currentStrategy = 'collections';
+  // Score edits keyed by city name → {{ criterion_id: score }}
+  let scoreEdits = {{}};
+  let sortKey = 'score';
+  let sortDir = 'desc';
+  let expandedCity = null;
+  // Filter state
+  let filterRegion = '';
+  let filterStatus = '';
+  let filterThreshold = 0;
+  let filterClearOnly = false;
+
+  // ---------- URL hash persistence ----------
+  function saveStateToHash() {{
+    const state = {{w: currentWeights, s: currentStrategy, e: scoreEdits}};
+    try {{
+      // Use encodeURIComponent for non-ASCII safety; b64 of compressed JSON.
+      const compact = JSON.stringify(state);
+      window.location.hash = btoa(unescape(encodeURIComponent(compact)));
+    }} catch (e) {{}}
+  }}
+  function loadStateFromHash() {{
+    if (!window.location.hash || window.location.hash.length < 2) return;
+    try {{
+      const raw = decodeURIComponent(escape(atob(window.location.hash.slice(1))));
+      const state = JSON.parse(raw);
+      if (state.w) currentWeights = state.w;
+      if (state.s) currentStrategy = state.s;
+      if (state.e) scoreEdits = state.e;
+    }} catch (e) {{}}
+  }}
+
+  // ---------- Math ----------
+  function effectiveScore(city, criterion_id) {{
+    const e = scoreEdits[city.name];
+    if (e && typeof e[criterion_id] === 'number') return e[criterion_id];
+    return city.scores[criterion_id];
+  }}
+  function weightedScore(city) {{
+    let s = 0;
+    MARKET_CRITERIA.forEach(function(c) {{
+      const w = currentWeights[c.id] || 0;
+      const v = effectiveScore(city, c.id);
+      if (typeof v === 'number') s += w * v;
+    }});
+    return s;
+  }}
+  function tierFor(score) {{
+    if (score >= 3.5) return 'A';
+    if (score >= 3.0) return 'B';
+    return 'C';
+  }}
+  function weightSum() {{
+    let s = 0;
+    Object.keys(currentWeights).forEach(function(k) {{ s += currentWeights[k] || 0; }});
+    return s;
+  }}
+
+  // ---------- Slider rendering ----------
+  function renderSliders() {{
+    const grid = document.getElementById('weights-grid');
+    if (!grid) return;
+    let html = '';
+    let lastBucket = null;
+    MARKET_CRITERIA.forEach(function(c) {{
+      if (c.bucket !== lastBucket) {{
+        html += '<div class="weight-bucket-hdr">' + c.bucket + '</div>';
+        lastBucket = c.bucket;
+      }}
+      const pct = Math.round((currentWeights[c.id] || 0) * 100);
+      html += '<div class="weight-row" data-criterion="' + c.id + '">' +
+        '<div class="weight-name">' + c.name + '</div>' +
+        '<input type="range" min="0" max="30" step="1" value="' + pct +
+          '" class="weight-slider" data-id="' + c.id + '" />' +
+        '<div class="weight-pct" data-pct="' + c.id + '">' + pct + '%</div>' +
+        '<div class="weight-info" title="' + c.desc.replace(/"/g, '&quot;') + '">&#9432;</div>' +
+        '</div>';
+    }});
+    grid.innerHTML = html;
+    grid.querySelectorAll('.weight-slider').forEach(function(sl) {{
+      sl.addEventListener('input', function(ev) {{
+        const id = sl.dataset.id;
+        currentWeights[id] = parseInt(sl.value, 10) / 100;
+        const pctEl = grid.querySelector('[data-pct="' + id + '"]');
+        if (pctEl) pctEl.textContent = sl.value + '%';
+        const sRadio = document.querySelector('input[name="strategy"][value="custom"]');
+        if (sRadio) sRadio.checked = true;
+        currentStrategy = 'custom';
+        updateWeightTotal();
+        renderTable();
+        rebuildTierOverlay();
+        saveStateToHash();
+      }});
+    }});
+    updateWeightTotal();
+  }}
+  function updateWeightTotal() {{
+    const totalEl = document.getElementById('weight-total');
+    if (!totalEl) return;
+    const pct = Math.round(weightSum() * 100);
+    if (pct === 100) {{
+      totalEl.textContent = 'Total: 100% ✓';
+      totalEl.className = '';
+    }} else {{
+      totalEl.textContent = '⚠️ Total: ' + pct + '% (must equal 100%)';
+      totalEl.className = 'bad';
+    }}
+  }}
+
+  // ---------- Region filter dropdown ----------
+  function buildRegionFilter() {{
+    const sel = document.getElementById('filter-region');
+    if (!sel) return;
+    const regions = {{}};
+    MARKET_CITIES.forEach(function(c) {{ regions[c.region] = true; }});
+    Object.keys(regions).sort().forEach(function(r) {{
+      const o = document.createElement('option');
+      o.value = r; o.textContent = r;
+      sel.appendChild(o);
+    }});
+  }}
+
+  // ---------- Table render ----------
+  function rankedCities() {{
+    const scored = MARKET_CITIES.map(function(c) {{
+      const s = weightedScore(c);
+      return Object.assign({{}}, c, {{score: s, tier: tierFor(s)}});
+    }});
+    scored.sort(function(a, b) {{
+      let va = a[sortKey], vb = b[sortKey];
+      if (sortKey === 'rank') {{ va = a.score; vb = b.score; }}
+      if (typeof va === 'string') {{ va = va.toLowerCase(); vb = vb.toLowerCase(); }}
+      if (va < vb) return sortDir === 'asc' ? -1 : 1;
+      if (va > vb) return sortDir === 'asc' ? 1 : -1;
+      return 0;
+    }});
+    return scored;
+  }}
+  function visibleCities() {{
+    return rankedCities().filter(function(c) {{
+      if (filterRegion && c.region !== filterRegion) return false;
+      if (filterStatus && c.status !== filterStatus) return false;
+      if (filterClearOnly && c.status !== 'Clear') return false;
+      if (c.score < filterThreshold) return false;
+      return true;
+    }});
+  }}
+  function renderTable() {{
+    const tbody = document.getElementById('screener-tbody');
+    if (!tbody) return;
+    const rows = visibleCities();
+    const allRanked = rankedCities();
+    const rankByName = {{}};
+    allRanked.forEach(function(c, i) {{ rankByName[c.name] = i + 1; }});
+    let html = '';
+    rows.forEach(function(c) {{
+      html += renderRow(c, rankByName[c.name]);
+      if (expandedCity === c.name) html += renderDetail(c);
+    }});
+    tbody.innerHTML = html;
+    document.getElementById('ranking-count').textContent =
+      'Showing ' + rows.length + ' of ' + MARKET_CITIES.length + ' markets';
+    tbody.querySelectorAll('tr.row-clickable').forEach(function(tr) {{
+      tr.addEventListener('click', function(ev) {{
+        if (ev.target.closest('.find-on-map-mini')) return;
+        const name = tr.dataset.city;
+        expandedCity = (expandedCity === name) ? null : name;
+        renderTable();
+      }});
+    }});
+    tbody.querySelectorAll('.find-on-map-mini').forEach(function(b) {{
+      b.addEventListener('click', function(ev) {{
+        ev.stopPropagation();
+        const lat = parseFloat(b.dataset.lat);
+        const lng = parseFloat(b.dataset.lng);
+        const name = b.dataset.name;
+        if (typeof window.findOnMap === 'function') {{
+          window.findOnMap(lat, lng, name, 'screener', '', 'narrow');
+        }}
+      }});
+    }});
+    // Score-edit listeners (only present when a row is expanded)
+    tbody.querySelectorAll('.score-edit-input').forEach(function(inp) {{
+      inp.addEventListener('change', function(ev) {{
+        const cityName = inp.dataset.city;
+        const cid = inp.dataset.criterion;
+        const v = parseInt(inp.value, 10);
+        if (!isNaN(v) && v >= 1 && v <= 5) {{
+          if (!scoreEdits[cityName]) scoreEdits[cityName] = {{}};
+          scoreEdits[cityName][cid] = v;
+        }} else {{
+          if (scoreEdits[cityName]) delete scoreEdits[cityName][cid];
+        }}
+        renderTable();
+        rebuildTierOverlay();
+        saveStateToHash();
+      }});
+    }});
+  }}
+  function escAttr(s) {{ return String(s == null ? '' : s).replace(/"/g, '&quot;'); }}
+  function escHtml(s) {{
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function(c) {{
+      return ({{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}})[c];
+    }});
+  }}
+  function renderRow(c, rank) {{
+    const findBtn = '<a class="find-on-map-mini" href="#" data-lat="' + c.lat +
+      '" data-lng="' + c.lng + '" data-name="' + escAttr(c.name) + '">🗺️</a>';
+    return '<tr class="row-clickable" data-city="' + escAttr(c.name) + '">' +
+      '<td>' + rank + '</td>' +
+      '<td><b>' + escHtml(c.name) + '</b></td>' +
+      '<td>' + escHtml(c.region) + '</td>' +
+      '<td>' + c.score.toFixed(2) + '</td>' +
+      '<td><span class="tier-badge tier-' + c.tier + '">' + c.tier + '</span></td>' +
+      '<td><span class="status-' + c.status + '">' + c.status + '</span></td>' +
+      '<td>' + findBtn + '</td>' +
+      '</tr>';
+  }}
+  function renderDetail(c) {{
+    let rows = '';
+    let editEnabled = !!scoreEdits[c.name + '__edit'];
+    MARKET_CRITERIA.forEach(function(crit) {{
+      const score = effectiveScore(c, crit.id);
+      const w = currentWeights[crit.id] || 0;
+      const contrib = score * w;
+      const barWidthPx = Math.round(contrib / 1.5 * 100);  // ~1.5 = max possible per-criterion contrib
+      const scoreCell = editEnabled
+        ? '<input type="number" class="score-edit-input" min="1" max="5" step="1" value="' + score +
+          '" data-city="' + escAttr(c.name) + '" data-criterion="' + crit.id + '" />'
+        : score.toString();
+      rows += '<tr><td>' + escHtml(crit.name) + '</td>' +
+        '<td>' + scoreCell + '</td>' +
+        '<td>' + Math.round(w * 100) + '%</td>' +
+        '<td class="contribution-cell">' + contrib.toFixed(2) +
+        ' <span class="contribution-bar" style="width:' + barWidthPx + 'px;"></span></td>' +
+        '</tr>';
+    }});
+    const editToggle = '<label style="font-size:11px; cursor:pointer;">' +
+      '<input type="checkbox" class="edit-toggle" data-city="' + escAttr(c.name) + '"' +
+      (editEnabled ? ' checked' : '') + ' /> Enable score editing for this city</label>';
+    return '<tr class="expanded-row"><td colspan="7">' +
+      '<div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:6px;">' +
+        '<b style="font-size:14px;">' + escHtml(c.name) + '</b>' +
+        '<span class="muted" style="font-size:11px;">Region: ' + escHtml(c.region) +
+          ' &nbsp;·&nbsp; Status: <span class="status-' + c.status + '">' + c.status + '</span>' +
+          ' &nbsp;·&nbsp; Tier: <span class="tier-badge tier-' + c.tier + '">' + c.tier + '</span>' +
+          ' &nbsp;·&nbsp; Score: <b>' + c.score.toFixed(2) + '</b></span>' +
+      '</div>' +
+      '<table class="detail-criterion-table">' +
+        '<thead><tr><th>Criterion</th><th>Score</th><th>Weight</th><th>Contribution</th></tr></thead>' +
+        '<tbody>' + rows + '</tbody>' +
+      '</table>' +
+      (c.notes ? '<div style="margin-top:6px; font-size:11px; color:#444;"><b>Notes:</b> ' + escHtml(c.notes) + '</div>' : '') +
+      '<div style="margin-top:6px;">' + editToggle + '</div>' +
+      '</td></tr>';
+  }}
+
+  // ---------- Strategy radio handlers ----------
+  document.querySelectorAll('input[name="strategy"]').forEach(function(r) {{
+    r.addEventListener('change', function() {{
+      currentStrategy = r.value;
+      if (r.value !== 'custom' && MARKET_DEFAULT_WEIGHTS[r.value]) {{
+        currentWeights = Object.assign({{}}, MARKET_DEFAULT_WEIGHTS[r.value]);
+        renderSliders();
+        renderTable();
+        rebuildTierOverlay();
+        saveStateToHash();
+      }}
+    }});
+  }});
+
+  // ---------- Reset / export / import ----------
+  document.getElementById('screener-reset').addEventListener('click', function() {{
+    const profile = currentStrategy === 'custom' ? 'collections' : currentStrategy;
+    currentWeights = Object.assign({{}}, MARKET_DEFAULT_WEIGHTS[profile]);
+    scoreEdits = {{}};
+    renderSliders();
+    renderTable();
+    rebuildTierOverlay();
+    saveStateToHash();
+  }});
+  document.getElementById('screener-export').addEventListener('click', function() {{
+    const state = {{weights: currentWeights, strategy: currentStrategy, edits: scoreEdits, exported: new Date().toISOString()}};
+    const blob = new Blob([JSON.stringify(state, null, 2)], {{type: 'application/json'}});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = 'fog-screener-config-' + new Date().toISOString().slice(0,10) + '.json';
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }});
+  document.getElementById('screener-import-file').addEventListener('change', function(ev) {{
+    const f = ev.target.files[0]; if (!f) return;
+    const fr = new FileReader();
+    fr.onload = function(e) {{
+      try {{
+        const state = JSON.parse(e.target.result);
+        if (state.weights) currentWeights = state.weights;
+        if (state.strategy) currentStrategy = state.strategy;
+        if (state.edits) scoreEdits = state.edits;
+        const sRadio = document.querySelector('input[name="strategy"][value="' + currentStrategy + '"]');
+        if (sRadio) sRadio.checked = true;
+        renderSliders();
+        renderTable();
+        rebuildTierOverlay();
+        saveStateToHash();
+      }} catch (err) {{
+        alert('Could not parse configuration file: ' + err.message);
+      }}
+    }};
+    fr.readAsText(f);
+    ev.target.value = '';
+  }});
+
+  // ---------- Filters ----------
+  document.getElementById('filter-region').addEventListener('change', function(e) {{
+    filterRegion = e.target.value; renderTable();
+  }});
+  document.getElementById('filter-status').addEventListener('change', function(e) {{
+    filterStatus = e.target.value; renderTable();
+  }});
+  document.getElementById('filter-threshold').addEventListener('change', function(e) {{
+    filterThreshold = parseFloat(e.target.value) || 0; renderTable();
+  }});
+  document.getElementById('filter-clear-only').addEventListener('change', function(e) {{
+    filterClearOnly = e.target.checked; renderTable();
+  }});
+
+  // Sortable headers
+  document.querySelectorAll('.screener-th[data-sort]').forEach(function(th) {{
+    th.addEventListener('click', function() {{
+      const k = th.dataset.sort;
+      if (sortKey === k) {{ sortDir = sortDir === 'asc' ? 'desc' : 'asc'; }}
+      else {{ sortKey = k; sortDir = (k === 'name' || k === 'region') ? 'asc' : 'desc'; }}
+      document.querySelectorAll('.screener-th').forEach(function(t) {{ t.classList.remove('screener-th-active'); }});
+      th.classList.add('screener-th-active');
+      renderTable();
+    }});
+  }});
+
+  // Edit-scores toggle (delegated, since rows render dynamically)
+  document.body.addEventListener('change', function(ev) {{
+    const t = ev.target;
+    if (t.classList && t.classList.contains('edit-toggle')) {{
+      const name = t.dataset.city;
+      if (t.checked) scoreEdits[name + '__edit'] = true;
+      else delete scoreEdits[name + '__edit'];
+      renderTable();
+    }}
+  }});
+
+  // ---------- Dynamic Tier 2 overlay rebuild ----------
+  function qualifyingTier2() {{
+    return rankedCities().filter(function(c) {{
+      return c.score >= 3.5 && c.status === 'Clear';
+    }});
+  }}
+  function rebuildTierOverlay() {{
+    if (typeof window.__rebuildTier2Layer !== 'function') return;
+    const targets = qualifyingTier2().map(function(c) {{
+      return {{name: c.name, lat: c.lat, lng: c.lng, score: c.score}};
+    }});
+    window.__rebuildTier2Layer(targets);
+  }}
+
+  // ---------- Init ----------
+  loadStateFromHash();
+  // Apply strategy radio selection from loaded state
+  const sRadio = document.querySelector('input[name="strategy"][value="' + currentStrategy + '"]');
+  if (sRadio) sRadio.checked = true;
+  buildRegionFilter();
+  renderSliders();
+  renderTable();
+  // Defer the initial tier-overlay rebuild slightly so the upstream
+  // tier2Layer + window.__rebuildTier2Layer are in place.
+  window.addEventListener('load', function() {{ setTimeout(rebuildTierOverlay, 200); }});
+}})();
+"""
+
+
+def inject_market_screener(scripts: str) -> str:
+    last = scripts.rfind("</script>")
+    return scripts[:last] + build_market_screener_script() + scripts[last:]
+
+
+# ============================================================================
 # Collection / service operator layer (smaller markers, separate cluster)
 # ============================================================================
 
@@ -1714,6 +2202,107 @@ html, body {
   50%      { opacity: 1.0; }
 }
 
+/* ============ Market Screener tab ============ */
+#content-market { background: #f6f7f9; }
+.screener-card {
+  background: #fff; border: 1px solid #e2e2e2; border-radius: 6px;
+  padding: 14px 16px; margin-bottom: 14px;
+}
+.screener-card h3 { font-size: 14px; font-weight: 600; color: #1F3864; margin: 0 0 10px 0; }
+.strategy-radio {
+  display: inline-flex; align-items: center; gap: 5px;
+  margin-right: 16px; font-size: 13px;
+}
+.weight-row {
+  display: grid; grid-template-columns: 200px 1fr 60px 16px;
+  gap: 8px; align-items: center;
+  padding: 4px 0;
+}
+.weight-bucket-hdr {
+  margin: 8px 0 2px 0; font-size: 10px; color: #666;
+  text-transform: uppercase; letter-spacing: 0.4px;
+}
+.weight-name { font-size: 12px; color: #333; }
+.weight-slider {
+  -webkit-appearance: none; appearance: none;
+  height: 6px; background: #d8d8d8; border-radius: 3px;
+  outline: none; cursor: pointer;
+}
+.weight-slider::-webkit-slider-thumb {
+  -webkit-appearance: none; appearance: none;
+  width: 16px; height: 16px; border-radius: 50%;
+  background: #1F3864; cursor: pointer; border: 2px solid #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+.weight-slider::-moz-range-thumb {
+  width: 16px; height: 16px; border-radius: 50%;
+  background: #1F3864; cursor: pointer; border: 2px solid #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+.weight-pct { font-size: 12px; color: #1F3864; font-weight: 600; text-align: right; }
+.weight-info {
+  cursor: help; color: #888; font-size: 12px; user-select: none;
+}
+.weight-info[title]:hover { color: #1F3864; }
+#weight-total.bad { color: #b03030; }
+.screener-btn {
+  padding: 6px 12px; background: #1F3864; color: #fff;
+  border: none; border-radius: 4px; cursor: pointer;
+  font-size: 12px; font-family: inherit; margin-right: 6px;
+}
+.screener-btn:hover { background: #2E86C1; }
+.screener-btn.secondary { background: #666; }
+
+.screener-controls {
+  display: flex; gap: 8px; flex-wrap: wrap; align-items: center;
+  margin-bottom: 10px;
+}
+.screener-controls select {
+  padding: 5px 8px; border: 1px solid #ccc; border-radius: 4px;
+  font-size: 12px; font-family: inherit;
+}
+.screener-table-wrap { overflow-x: auto; }
+.screener-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+.screener-th {
+  background: #f3f5f8; padding: 7px 10px; text-align: left;
+  border-bottom: 2px solid #d8d8d8; cursor: pointer; user-select: none;
+  font-weight: 600; white-space: nowrap;
+}
+.screener-th:hover { background: #e9ecf1; }
+.screener-th-active { color: #1F3864; }
+.screener-table td { padding: 6px 10px; border-bottom: 1px solid #eee; }
+.screener-table tr.row-clickable { cursor: pointer; }
+.screener-table tr.row-clickable:hover td { background: #eef3f8; }
+.screener-table tr.expanded-row td { background: #f6f9fc; padding: 12px 14px; }
+.tier-badge {
+  display: inline-block; padding: 2px 7px; border-radius: 3px;
+  font-size: 10px; font-weight: 700; color: #fff;
+  letter-spacing: 0.3px;
+}
+.tier-A { background: #27ae60; }
+.tier-B { background: #f39c12; }
+.tier-C { background: #95a5a6; }
+.status-Clear { color: #27ae60; font-weight: 600; }
+.status-Targeted { color: #f39c12; font-weight: 600; }
+.status-Covered { color: #c0392b; font-weight: 600; }
+.contribution-bar {
+  display: inline-block; height: 8px; background: #1F3864;
+  vertical-align: middle; margin-left: 4px;
+  border-radius: 2px;
+}
+.contribution-cell { white-space: nowrap; }
+.find-on-map-mini {
+  display: inline-block; padding: 2px 8px; background: #1F3864;
+  color: #fff; border-radius: 3px; font-size: 11px;
+  text-decoration: none; cursor: pointer;
+}
+.find-on-map-mini:hover { background: #2E86C1; }
+.detail-criterion-table { width: 100%; border-collapse: collapse; font-size: 11px; margin-top: 6px; }
+.detail-criterion-table th { background: #eef; padding: 4px 8px; text-align: left; border-bottom: 1px solid #ccc; }
+.detail-criterion-table td { padding: 4px 8px; border-bottom: 1px solid #f0f0f0; }
+.detail-criterion-table tr:last-child td { border-bottom: none; }
+.score-edit-input { width: 50px; padding: 2px 4px; font-size: 11px; }
+
 /* Collection / Service operator markers (small diamonds) */
 .collection-diamond-icon { background: transparent !important; border: none !important; }
 .collection-popup hr { border: 0; border-top: 1px solid #ddd; margin: 6px 0; }
@@ -1769,6 +2358,7 @@ __ORIGINAL_STYLE__
     <button class="tab-btn" data-tab="news">📰 News</button>
     <button class="tab-btn" data-tab="comps">📊 Transactions</button>
     <button class="tab-btn active" data-tab="map">🗺️ Map</button>
+    <button class="tab-btn" data-tab="market">🎯 Market Screener</button>
   </nav>
   <span class="meta">
     Last refreshed: <b id="meta-refreshed">—</b>
@@ -1853,6 +2443,76 @@ __ORIGINAL_STYLE__
 <!-- ============ Tab 3: Interactive Map ============ -->
 <section id="content-map" class="tab-content active">
 __BODY_MAP_INNER__
+</section>
+
+<!-- ============ Tab 4: Market Screener ============ -->
+<section id="content-market" class="tab-content">
+  <div class="inner" style="padding: 16px; max-width: 1280px; margin: 0 auto;">
+
+    <!-- Strategy path -->
+    <div class="screener-card">
+      <h3 style="margin-top:0;">Strategy path</h3>
+      <label class="strategy-radio"><input type="radio" name="strategy" value="collections" checked /> Collections-First Roll-Up</label>
+      <label class="strategy-radio"><input type="radio" name="strategy" value="plant_acquisition" /> Plant Acquisition</label>
+      <label class="strategy-radio"><input type="radio" name="strategy" value="custom" /> Custom</label>
+      <div class="muted" style="margin-top:6px; font-size:11px;">Selecting a preset loads its default weights below. "Custom" auto-selects whenever you move any slider.</div>
+    </div>
+
+    <!-- Weights -->
+    <div class="screener-card">
+      <h3 style="margin-top:0; display:flex; justify-content:space-between; align-items:baseline;">
+        <span>Criteria weights</span>
+        <span id="weight-total" style="font-size:13px; font-weight:500;">Total: 100%</span>
+      </h3>
+      <div id="weights-grid"></div>
+      <div style="margin-top:10px;">
+        <button id="screener-reset" class="screener-btn">Reset to default</button>
+        <button id="screener-export" class="screener-btn">📥 Export configuration</button>
+        <label class="screener-btn" style="cursor:pointer;">📤 Import configuration<input type="file" id="screener-import-file" accept=".json" style="display:none;" /></label>
+      </div>
+    </div>
+
+    <!-- Filters + table -->
+    <div class="screener-card">
+      <h3 style="margin-top:0; display:flex; justify-content:space-between; align-items:baseline;">
+        <span>Market rankings</span>
+        <span id="ranking-count" class="muted" style="font-size:13px; font-weight:500;"></span>
+      </h3>
+      <div class="screener-controls">
+        <select id="filter-region"><option value="">All regions</option></select>
+        <select id="filter-status">
+          <option value="">All status</option>
+          <option value="Clear">Clear</option>
+          <option value="Targeted">Targeted</option>
+          <option value="Covered">Covered</option>
+        </select>
+        <select id="filter-threshold">
+          <option value="0">Show all</option>
+          <option value="2.5">Score &ge; 2.5</option>
+          <option value="3.0">Score &ge; 3.0</option>
+          <option value="3.5">Score &ge; 3.5</option>
+          <option value="4.0">Score &ge; 4.0</option>
+        </select>
+        <label style="font-size:12px;"><input type="checkbox" id="filter-clear-only" /> Show only Clear markets</label>
+      </div>
+      <div class="screener-table-wrap">
+        <table id="screener-table" class="screener-table">
+          <thead>
+            <tr>
+              <th data-sort="rank" class="screener-th">Rank</th>
+              <th data-sort="name" class="screener-th">City</th>
+              <th data-sort="region" class="screener-th">Region</th>
+              <th data-sort="score" class="screener-th screener-th-active">Score ↓</th>
+              <th data-sort="tier" class="screener-th">Tier</th>
+              <th data-sort="status" class="screener-th">Status</th>
+              <th class="screener-th">Map</th>
+            </tr>
+          </thead>
+          <tbody id="screener-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
 </section>
 
 <!-- ============ Embedded data blocks (refreshed daily) ============ -->
@@ -2381,6 +3041,7 @@ def main() -> int:
     scripts = inject_restaurant_heat(scripts)
     scripts = inject_entity_type_toggles(scripts)
     scripts = inject_map_handle(scripts)
+    scripts = inject_market_screener(scripts)
 
     with open(NEWS_JSON, encoding="utf-8") as f:
         news = json.load(f)
