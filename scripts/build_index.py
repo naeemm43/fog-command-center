@@ -353,15 +353,26 @@ html, body {
   background: #fff; border: 1px solid #e2e2e2; border-left-width: 4px;
   border-radius: 4px; padding: 12px 14px; margin-bottom: 10px;
 }
-.news-card.cat-MA { border-left-color: #e74c3c; }
-.news-card.cat-Regulation { border-left-color: #3498db; }
-.news-card.cat-Market { border-left-color: #27ae60; }
-.news-card.cat-CompanyNews { border-left-color: #f39c12; }
+.news-card.cat-MA            { border-left-color: #e74c3c; }
+.news-card.cat-Regulatory    { border-left-color: #8E44AD; }
+.news-card.cat-RenewableFuels{ border-left-color: #27ae60; }
+.news-card.cat-PublicCo      { border-left-color: #2C3E50; }
+.news-card.cat-Restaurant    { border-left-color: #f39c12; }
+.news-card.cat-Technology    { border-left-color: #3498db; }
+.news-card.cat-LaborOps      { border-left-color: #95a5a6; }
+.news-card.cat-Infrastructure{ border-left-color: #1abc9c; }
+.news-card.cat-IndustryEvents{ border-left-color: #d35400; }
+.news-card.cat-ESG           { border-left-color: #16a085; }
 .news-card .meta { font-size: 11px; color: #888; margin-bottom: 4px; }
 .news-card .meta .cat-tag {
   display: inline-block; padding: 2px 7px; border-radius: 3px;
   font-size: 10px; font-weight: 700; margin-right: 8px; color: #fff;
   letter-spacing: 0.3px;
+}
+.news-card .meta .relevance-badge {
+  display: inline-block; padding: 2px 7px; border-radius: 3px;
+  font-size: 10px; font-weight: 700; margin-left: 6px;
+  background: #FFF4E5; color: #B8550A; border: 1px solid #F5C77A;
 }
 .news-card .headline { font-size: 14px; font-weight: 600; margin-bottom: 6px; line-height: 1.35; }
 .news-card .summary { color: #444; line-height: 1.5; margin-bottom: 6px; }
@@ -448,9 +459,15 @@ __ORIGINAL_STYLE__
     <div class="news-filter-bar">
       <span class="pill news-pill active" data-cat="All">All</span>
       <span class="pill news-pill" data-cat="M&A">M&amp;A</span>
-      <span class="pill news-pill" data-cat="Regulation">Regulation</span>
-      <span class="pill news-pill" data-cat="Market">Market</span>
-      <span class="pill news-pill" data-cat="Company News">Company News</span>
+      <span class="pill news-pill" data-cat="Regulatory">Regulatory</span>
+      <span class="pill news-pill" data-cat="Renewable Fuels">Renewable Fuels</span>
+      <span class="pill news-pill" data-cat="Public Co.">Public Co.</span>
+      <span class="pill news-pill" data-cat="Restaurant">Restaurant</span>
+      <span class="pill news-pill" data-cat="Technology">Technology</span>
+      <span class="pill news-pill" data-cat="Labor/Ops">Labor/Ops</span>
+      <span class="pill news-pill" data-cat="Infrastructure">Infrastructure</span>
+      <span class="pill news-pill" data-cat="Industry Events">Industry Events</span>
+      <span class="pill news-pill" data-cat="ESG">ESG</span>
       <input id="news-search" class="search-box" type="text" placeholder="Search headlines..." />
     </div>
     <div id="news-count"></div>
@@ -606,20 +623,46 @@ __MAP_SCRIPTS__
       return;
     }
 
-    var catBg = {'M&A':'#e74c3c','Regulation':'#3498db','Market':'#27ae60','Company News':'#f39c12'};
-    var catCls = {'M&A':'cat-MA','Regulation':'cat-Regulation','Market':'cat-Market','Company News':'cat-CompanyNews'};
+    var catBg = {
+      'M&A': '#e74c3c',
+      'Regulatory': '#8E44AD',
+      'Renewable Fuels': '#27ae60',
+      'Public Co.': '#2C3E50',
+      'Restaurant': '#f39c12',
+      'Technology': '#3498db',
+      'Labor/Ops': '#95a5a6',
+      'Infrastructure': '#1abc9c',
+      'Industry Events': '#d35400',
+      'ESG': '#16a085'
+    };
+    var catCls = {
+      'M&A': 'cat-MA',
+      'Regulatory': 'cat-Regulatory',
+      'Renewable Fuels': 'cat-RenewableFuels',
+      'Public Co.': 'cat-PublicCo',
+      'Restaurant': 'cat-Restaurant',
+      'Technology': 'cat-Technology',
+      'Labor/Ops': 'cat-LaborOps',
+      'Infrastructure': 'cat-Infrastructure',
+      'Industry Events': 'cat-IndustryEvents',
+      'ESG': 'cat-ESG'
+    };
     container.innerHTML = visible.map(function (n) {
-      var cat = n.category || 'Company News';
+      var cat = n.category || 'Industry Events';
       var bg = catBg[cat] || '#888';
-      var cls = catCls[cat] || 'cat-CompanyNews';
+      var cls = catCls[cat] || 'cat-IndustryEvents';
       var alert = n.is_target_market
         ? '<div class="target-alert">⚠️ TIER 2 ALERT: near ' + escapeHtml(n.target_market_name || 'target market') + '</div>'
         : '';
       var src = n.source_url
         ? '<a class="source-link" href="' + escapeHtml(n.source_url) + '" target="_blank" rel="noopener">Source: ' + escapeHtml(n.source || 'link') + ' →</a>'
         : (n.source ? '<span class="source-link">Source: ' + escapeHtml(n.source) + '</span>' : '');
+      var relevance = parseInt(n.relevance_score, 10);
+      var relBadge = (!isNaN(relevance) && relevance >= 4)
+        ? '<span class="relevance-badge" title="High relevance to FOG roll-up strategy">🔥 High Relevance</span>'
+        : '';
       return '<div class="news-card ' + cls + '">' +
-        '<div class="meta"><span class="cat-tag" style="background:' + bg + '">' + escapeHtml(cat) + '</span>' + escapeHtml(formatDate(n.date)) + '</div>' +
+        '<div class="meta"><span class="cat-tag" style="background:' + bg + '">' + escapeHtml(cat) + '</span>' + escapeHtml(formatDate(n.date)) + relBadge + '</div>' +
         '<div class="headline">' + escapeHtml(n.headline || '') + '</div>' +
         '<div class="summary">' + escapeHtml(n.summary || '') + '</div>' +
         src + alert +

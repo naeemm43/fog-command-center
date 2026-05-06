@@ -225,83 +225,122 @@ def is_duplicate_deal(item: dict, existing: list[dict]) -> bool:
 
 
 # ----------------------------- web search -----------------------------
+#
+# We deliberately structure queries by category so the daily news feed
+# isn't a deal-only tracker. Regulation, renewable-fuels policy, public-
+# company earnings, restaurant industry signals, technology, labor cost,
+# infrastructure, and ESG are all upstream drivers of FOG-industry
+# economics. SEARCH_QUERIES is the canonical reference; we flatten it
+# into EXPANDED_SEARCH_QUERIES for the existing search_for_updates entry
+# points.
 
-# Daily refresh queries — broader than the original narrow "grease trap" /
-# "Wind River" / "LES" set so we catch deals that use different terminology
-# or involve smaller / regional players.
-EXPANDED_SEARCH_QUERIES = [
-    # Broader industry terms
-    '"liquid waste" acquired OR acquisition OR merger',
-    '"waste recycling" acquired OR acquisition',
-    '"septic" acquired OR acquisition OR sold',
-    '"grease" company acquired OR sold OR merger',
-    '"wastewater" company acquired OR acquisition',
-    '"environmental services" acquisition OR merger',
-    '"pumping" company acquired OR sold',
-    '"drain cleaning" acquired OR acquisition',
-    '"portable sanitation" acquisition OR merger',
-
-    # Industry-specific publications and sources
-    'site:wastetodaymagazine.com acquisition',
-    'site:waste360.com acquisition merger',
-    'site:pehub.com grease OR septic OR "liquid waste" OR wastewater',
-    'site:privsource.com environmental services',
-    'site:businesswire.com "liquid waste" OR "grease trap" OR "septic" acquired',
-
-    # Named players we should be monitoring (beyond the Big 4)
-    '"LJP Waste Solutions" acquisition',
-    '"Southwaste" acquisition',
-    '"Action Environmental" acquisition',
-    '"Mr. Rooter" OR "Roto-Rooter" grease acquisition',
-    '"National Waste Management" liquid waste',
-    '"Synagro" acquisition',
-    '"Clean Harbors" liquid waste',
-    '"US Ecology" OR "Republic Services" liquid waste',
-    '"Waste Connections" liquid waste acquisition',
-
-    # Deal announcement patterns
-    '"pleased to announce the acquisition of" grease OR septic OR "liquid waste" OR wastewater OR pumping',
-    '"has been acquired by" grease OR septic OR "liquid waste" OR wastewater',
-    '"announces sale of" septic OR "liquid waste" OR wastewater OR grease OR pumping',
-    '"private equity" "environmental services" "add-on" OR "platform"',
-
-    # Regional searches for under-covered markets
-    '"liquid waste" acquisition midwest OR texas OR southeast',
-    'grease trap company sold OR acquired {year}',
-
-    # UCO / grease recycling — the Eazy Grease miss showed our coverage
-    # of the recycling/feedstock side of the value chain was missing.
-    '"used cooking oil" acquired OR acquisition OR merger',
-    '"UCO" collection acquired OR acquisition',
-    '"grease recycling" acquired OR acquisition',
-    '"cooking oil" collection company acquired OR sold',
-    '"biodiesel" grease acquisition',
-    '"renewable diesel" feedstock acquisition',
-    '"yellow grease" acquisition OR merger',
-    '"brown grease" acquisition OR merger',
-    '"rendering" acquisition OR merger',
-    '"Eazy Grease" acquisition OR expansion',
-
-    # Non-PE / privately-held platforms — searching for sponsor names
-    # only catches PE-backed deals. These pattern-match on the
-    # announcement language itself.
-    '"grease" company "pleased to announce" acquisition',
-    '"septic" company "pleased to announce" acquisition',
-    '"liquid waste" "pleased to announce" acquisition',
-    '"has acquired" "grease" OR "septic" OR "liquid waste" OR "UCO" OR "cooking oil"',
-    '"has merged with" "grease" OR "septic" OR "liquid waste" OR "UCO"',
-
-    # Industry blog / company website patterns — Wind River and LES post
-    # most of their add-ons on their own sites, often before press
-    # coverage shows up.
-    'site:wrenvironmental.com acquisitions OR "joins wind river"',
-    'site:liquidenviro.com acquisition OR "joins LES" OR "welcome"',
-
-    # Broader industry terms for smaller deals that don't get sector PR.
-    '"waste hauling" company acquired',
-    '"environmental services" company acquired southeast OR midwest OR texas',
-    '"pump" "truck" company acquired OR sold septic OR grease',
+NEWS_CATEGORIES = [
+    "M&A", "Regulatory", "Renewable Fuels", "Public Co.", "Restaurant",
+    "Technology", "Labor/Ops", "Infrastructure", "Industry Events", "ESG",
 ]
+
+# Backward-compat: the old prompt returned categories from a 4-value set.
+# Map any legacy values into the new 10-category vocabulary at ingestion.
+_LEGACY_CATEGORY_MAP = {
+    "M&A": "M&A",
+    "Regulation": "Regulatory",
+    "Market": "Renewable Fuels",
+    "Company News": "Public Co.",
+}
+
+
+SEARCH_QUERIES: dict[str, list[str]] = {
+    "M&A": [
+        '"grease trap" acquisition OR acquired OR merger',
+        '"liquid waste" acquisition OR acquired OR merger',
+        '"septic" "private equity" acquisition',
+        '"Wind River Environmental" acquisition OR expansion',
+        '"Liquid Environmental Solutions" OR "LES" acquisition',
+        '"used cooking oil" acquired OR acquisition OR merger',
+        '"grease recycling" acquired OR acquisition',
+        '"environmental services" "add-on" OR "platform" acquisition',
+        '"has acquired" grease OR septic OR "liquid waste" OR UCO',
+        'site:pehub.com grease OR septic OR "liquid waste" OR wastewater',
+        'site:wastetodaymagazine.com acquisition',
+    ],
+    "Regulatory": [
+        'FOG ordinance OR regulation OR enforcement grease trap',
+        'EPA pretreatment program FOG update',
+        'grease trap violation OR fine OR penalty restaurant',
+        'sewer overflow grease OR FOG blockage',
+        '"grease trap" compliance requirement new',
+        'pretreatment program enforcement action grease',
+    ],
+    "Renewable Fuels": [
+        'renewable diesel UCO "used cooking oil" feedstock',
+        'sustainable aviation fuel SAF "cooking oil"',
+        '"Diamond Green Diesel" OR "Darling Ingredients" renewable',
+        'renewable fuel standard RFS update',
+        'LCFS "low carbon fuel" cooking oil grease',
+        'yellow grease price OR market OR commodity',
+        'UCO theft cooking oil stolen',
+        'brown grease renewable fuel',
+        'biodiesel grease feedstock market',
+    ],
+    "Public Co.": [
+        '"Darling Ingredients" earnings OR revenue OR guidance',
+        '"GFL Environmental" earnings OR results',
+        '"Clean Harbors" earnings OR results',
+        '"Barrel Energy" OR "BRLL" filing OR update',
+        '"Darling Ingredients" analyst OR upgrade OR downgrade',
+    ],
+    "Restaurant": [
+        'restaurant openings closings trends United States',
+        '"National Restaurant Association" report OR data',
+        'ghost kitchen growth trends',
+        'restaurant industry employment trends',
+        'food service industry outlook',
+    ],
+    "Technology": [
+        '"grease trap" technology OR sensor OR monitoring OR IoT',
+        'vacuum truck electric OR alternative fuel',
+        'route optimization waste collection software',
+        'waste-to-energy FOG OR grease',
+        'anaerobic digestion FOG grease biogas',
+        '"grease trap" innovation OR "new product"',
+    ],
+    "Labor/Ops": [
+        'CDL driver shortage waste OR environmental services',
+        'vacuum truck price OR cost',
+        'waste hauler insurance rates',
+        'DOT regulation waste hauler OR tanker',
+    ],
+    "Infrastructure": [
+        'wastewater treatment plant upgrade OR expansion capacity',
+        'POTW tipping fee change OR increase',
+        'infrastructure funding water sewer IIJA',
+        'combined sewer overflow FOG consent decree',
+    ],
+    "Industry Events": [
+        'WWETT Show news OR announcement',
+        'site:pumper.com grease OR FOG OR septic',
+        'site:waste360.com liquid waste OR grease OR FOG OR septic',
+        'site:wastetodaymagazine.com grease OR FOG OR septic',
+        '"Water Environment Federation" FOG OR grease OR pretreatment',
+    ],
+    "ESG": [
+        'circular economy grease OR FOG OR cooking oil',
+        'sustainability reporting food service waste',
+        'carbon credit grease OR cooking oil OR FOG',
+    ],
+}
+
+
+def _flatten_queries() -> list[str]:
+    """Flat list of queries across all categories. Used by the existing
+    search_for_updates() default and the catchup script."""
+    out: list[str] = []
+    for cat, qs in SEARCH_QUERIES.items():
+        out.extend(qs)
+    return out
+
+
+EXPANDED_SEARCH_QUERIES = _flatten_queries()
 
 # One-time historical sweep run by scripts/catchup.py.
 CATCHUP_QUERIES = [
@@ -323,33 +362,57 @@ CATCHUP_QUERIES = [
 
 
 def _build_search_prompt(today: str, year: int, queries: list[str], window_note: str) -> str:
-    enumerated = "\n".join(f"{i+1}. {q.format(year=year)}" for i, q in enumerate(queries))
-    return f"""Today is {today}. Search the web for news and M&A activity in the non-hazardous liquid waste, grease trap, FOG (fats oils grease), septic, wastewater services, and environmental services industry in the United States.
+    """Build the broad 10-category industry-briefing prompt.
 
-Search ALL of the following queries (use the web_search tool, one query at a time):
-{enumerated}
+    `queries` is treated as a starting hint set rather than a strict
+    enumeration — the model is told to use these as seeds and run its own
+    targeted searches per category.
+    """
+    # Format queries grouped by category for the suggested-searches block.
+    grouped: dict[str, list[str]] = {}
+    for cat, qs in SEARCH_QUERIES.items():
+        grouped[cat] = [q.format(year=year) for q in qs]
+    seed_block = []
+    for cat in NEWS_CATEGORIES:
+        seed_block.append(f"  {cat}:")
+        for q in grouped.get(cat, []):
+            seed_block.append(f"    - {q}")
+    seeds = "\n".join(seed_block)
+
+    return f"""Today is {today}. You are populating an industry-briefing news feed for the non-hazardous liquid waste, grease trap (FOG), used cooking oil (UCO), septic services, and related environmental services industry in the United States.
+
+Cover ALL of these 10 categories (do not focus only on M&A):
+
+1.  M&A — acquisitions, mergers, divestitures, platform investments.
+2.  Regulatory — new FOG ordinances at city/county level, EPA pretreatment program updates, state environmental agency enforcement (TCEQ, IDEM, MPCA, CDPHE, etc.), fines/penalties, sewer overflow events caused by FOG blockages.
+3.  Renewable Fuels — renewable diesel, sustainable aviation fuel (SAF) involving UCO feedstock, RFS / LCFS policy, RIN pricing, Diamond Green Diesel news, UCO/yellow/brown grease commodity prices, UCO theft/fraud.
+4.  Public Co. — Darling Ingredients (NYSE: DAR), GFL Environmental (NYSE: GFL), Clean Harbors (NYSE: CLH), Republic Services / Waste Connections / Casella, Barrel Energy (OTC: BRLL): earnings, segment results, analyst notes.
+5.  Restaurant — opening/closing trends by metro, ghost kitchens, NRA reports, major-chain expansion/contraction (these drive customer-base size for haulers).
+6.  Technology — smart grease-trap monitoring (IoT sensors), grease-trap design innovations, route optimization software, electric / alternative-fuel vacuum trucks, waste-to-energy / anaerobic digestion of FOG.
+7.  Labor/Ops — CDL driver shortage and wages, vacuum truck pricing, fleet maintenance trends, OSHA/DOT changes, environmental-services insurance market.
+8.  Infrastructure — POTW upgrades and capacity, tipping-fee schedules, IIJA/BIL water/sewer funding, CSO consent decrees, municipal pretreatment audits.
+9.  Industry Events — WWETT Show, Pumper.com, Waste360, Waste Today features, Water Environment Federation, National Pretreatment Conference, Environmental Business Journal reports.
+10. ESG — circular economy involving FOG waste, sustainability reporting requirements, carbon credit markets for FOG, Scope 3 tracking by food service.
+
+Suggested seed searches per category (use the web_search tool — these are starting points; run additional targeted searches as needed):
+{seeds}
 
 {window_note}
 
-For each relevant result, return a JSON object with these fields:
-- date (YYYY-MM-DD format) — IMPORTANT: this MUST be the deal announcement or close date as stated in the article body, NOT today's date or the search index date. If the article body says "February 2024" use 2024-02-15 (mid-month). If you cannot determine the date from the article body, OMIT the result rather than guessing.
-- headline (article title)
+For each result return a JSON object:
+- date (YYYY-MM-DD) — MUST come from the article body, not today's date or the search index date. If only a month is given, use the 15th. If you cannot determine the date from the article body, OMIT the result.
+- headline
 - source (publication name)
-- source_url (the EXACT article URL, deep-linking to the specific article — never a homepage like "https://example.com" or "/news" listing page; if you only have a homepage, OMIT the result)
-- category (one of: "M&A", "Regulation", "Market", "Company News")
-- summary (2-3 sentence summary)
-- is_deal (true if this is an M&A transaction announcement)
-- buyer (if M&A deal, the acquiring entity)
-- target (if M&A deal, the acquired entity)
-- sponsor (if PE-backed buyer, the sponsor name)
-- location (city, state if identifiable)
-- deal_size (e.g. "$120M EV", or "Undisclosed")
-- multiple (EV/EBITDA if disclosed or inferrable, else "N/A")
-- deal_summary (array of 1-2 short bullets with context: customer count, fleet, route density, retention, etc.)
-- owner_classification (one of: "PE-Backed", "Public Company", "Family/Local", "Regional", "Municipal", "Unknown")
-- date_confidence ("verified" if the date is from the article body itself; "approximate" if you had to infer from "Q1 2024" or similar)
+- source_url — the EXACT article URL deep-linked to the specific article. NEVER a homepage like "https://example.com" or a generic "/news" listing. If you only have a homepage, OMIT the result.
+- category — exactly one of: {", ".join('"' + c + '"' for c in NEWS_CATEGORIES)}
+- summary (2-3 sentences)
+- relevance_score — integer 1 to 5, where 5 = directly impacts FOG / grease-trap roll-up strategy, 1 = tangentially relevant.
+- is_deal — true ONLY for M&A transactions
+- buyer, target, sponsor, location — for M&A only
+- deal_size, multiple, deal_summary, owner_classification — for M&A only (see prior convention)
+- date_confidence — "verified" if from article body, "approximate" if inferred
 
-Return ONLY a JSON array of result objects. No surrounding prose. Skip generic industry overviews — focus on specific deals, announcements, regulatory actions, and concrete company news. If a query returns nothing relevant, omit it from the output."""
+Target volume: 15-30 distinct items per refresh, spread across all 10 categories. Skip press releases that are thinly disguised advertisements. Prioritize specificity (a specific city's new FOG ordinance is more valuable than a "sustainability trends" overview). Return ONLY a JSON array; no surrounding prose."""
 
 
 def search_for_updates(queries: list[str] | None = None,
@@ -401,6 +464,19 @@ def search_for_updates(queries: list[str] | None = None,
 # ----------------------------- merging --------------------------------
 
 
+def normalize_category(raw_cat: str | None) -> str:
+    """Map raw category string to one of the 10 canonical categories.
+    Falls back to 'Industry Events' for unrecognized values rather than
+    a default M&A label that would misclassify."""
+    if not raw_cat:
+        return "Industry Events"
+    if raw_cat in NEWS_CATEGORIES:
+        return raw_cat
+    if raw_cat in _LEGACY_CATEGORY_MAP:
+        return _LEGACY_CATEGORY_MAP[raw_cat]
+    return "Industry Events"
+
+
 def coerce_news_item(raw: dict) -> dict | None:
     """Normalize a search result into the news_feed.json schema. Rejects
     items with malformed dates or homepage-like source URLs."""
@@ -413,9 +489,12 @@ def coerce_news_item(raw: dict) -> dict | None:
     if src_url and looks_like_homepage(src_url):
         sys.stderr.write(f"reject (homepage URL): {raw.get('headline','')[:80]} — url={src_url}\n")
         return None
-    cat = raw.get("category") or "Company News"
-    if cat not in {"M&A", "Regulation", "Market", "Company News"}:
-        cat = "Company News"
+    cat = normalize_category(raw.get("category"))
+    try:
+        relevance = int(raw.get("relevance_score") or 3)
+    except (TypeError, ValueError):
+        relevance = 3
+    relevance = max(1, min(5, relevance))
     item: dict = {
         "date": raw["date"],
         "headline": raw["headline"],
@@ -423,6 +502,7 @@ def coerce_news_item(raw: dict) -> dict | None:
         "source_url": src_url,
         "category": cat,
         "summary": raw.get("summary", ""),
+        "relevance_score": relevance,
         "is_target_market": False,
         "target_market_name": None,
     }
@@ -602,10 +682,27 @@ def main() -> int:
     }
     update_html(news, comps, metadata)
 
+    # Per-category breakdown of the news feed (post-merge state).
+    cat_counts: dict[str, int] = {c: 0 for c in NEWS_CATEGORIES}
+    for n in news:
+        cat = normalize_category(n.get("category"))
+        cat_counts[cat] = cat_counts.get(cat, 0) + 1
+    breakdown = ", ".join(f"{c}={cat_counts[c]}" for c in NEWS_CATEGORIES if cat_counts[c])
+    categories_present = sum(1 for c in cat_counts if cat_counts[c] > 0)
+
     print(
-        f"Refresh complete. Added {added_news} news items, {added_deals} deals. "
-        f"Total: {len(news)} news (+{len(archived)} archived), {len(comps)} deals."
+        f"Refresh complete. {len(news)} total items across {categories_present} categories. "
+        f"Breakdown: {breakdown or '(none)'}. "
+        f"Added this run: {added_news} news, {added_deals} deals. "
+        f"Archived: {len(archived)}. Comps total: {len(comps)}."
     )
+
+    if added_news < 10 and len(raw_results) > 0:
+        sys.stderr.write(
+            f"WARNING: only {added_news} new items added (target: 15-30). "
+            "Search queries may need further broadening, or daily news pipeline "
+            "is producing duplicates against existing feed.\n"
+        )
     return 0
 
 

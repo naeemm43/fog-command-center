@@ -7,7 +7,8 @@
     "category": "M&A",
     "summary": "Keystone Wastewater Services, operating in central Pennsylvania, Ohio, and Maryland, joins Wind River. Marks first Ohio exposure for the Gryphon-backed platform.",
     "is_target_market": true,
-    "target_market_name": "Cincinnati/Columbus/Cleveland, OH"
+    "target_market_name": "Cincinnati/Columbus/Cleveland, OH",
+    "relevance_score": 3
   },
   {
     "date": "2025-10-27",
@@ -17,7 +18,8 @@
     "category": "M&A",
     "summary": "Wind River acquired Keystone Wastewater Services, a 20+ year grease pumping and drain cleaning specialist operating in central Pennsylvania, Ohio, and Maryland. The acquisition expands Wind River's commercial grease and wastewater service capabilities.",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 3
   },
   {
     "date": "2025-09-02",
@@ -27,7 +29,8 @@
     "category": "M&A",
     "summary": "Infrastructure at Goldman Sachs Alternatives completes acquisition of Liquid Environmental Solutions, the leading national NHLW provider with 64 service locations and 26 treatment plants.",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 3
   },
   {
     "date": "2025-08-11",
@@ -37,7 +40,8 @@
     "category": "M&A",
     "summary": "Two Pennsylvania septic operators join Wind River, expanding coverage to Matamoras and Greentown.",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 3
   },
   {
     "date": "2025-08-11",
@@ -47,7 +51,8 @@
     "category": "M&A",
     "summary": "Wind River acquired two Pennsylvania companies with 50+ year histories specializing in septic pumping, installations, inspections, repairs and drain cleaning. Both companies had built strong reputations in Matamoras and Greentown.",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 3
   },
   {
     "date": "2025-07-23",
@@ -57,7 +62,8 @@
     "category": "M&A",
     "summary": "Goldman Sachs Alternatives acquired LES from Audax Private Equity. LES operates 64 service locations and 26 treatment facilities managing non-hazardous liquid waste including grease traps, oil water separators, and used cooking oil.",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 3
   },
   {
     "date": "2025-07-22",
@@ -67,7 +73,8 @@
     "category": "M&A",
     "summary": "Goldman Sachs infrastructure fund to acquire LES. Audax held since Q4 2017, executed 13 add-ons, nearly doubled footprint. Houlihan Lokey and Baird advised.",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 3
   },
   {
     "date": "2025-05-20",
@@ -77,7 +84,8 @@
     "category": "M&A",
     "summary": "PE-backed Momentum Environmental completes third acquisition since 2024, building a regional environmental services platform in New York.",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 3
   },
   {
     "date": "2025-04-25",
@@ -87,7 +95,8 @@
     "category": "M&A",
     "summary": "Wind River expands into southwestern Pennsylvania and West Virginia with acquisition of Hapchuk grease and septic pumping operations.",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 3
   },
   {
     "date": "2025-04-25",
@@ -97,7 +106,8 @@
     "category": "M&A",
     "summary": "Wind River acquired Hapchuk Inc., a provider of grease pumping and septic services, plus its sister company Liquid Assets Disposal which operates a West Virginia treatment facility. The deal includes a 60-vehicle fleet.",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 3
   },
   {
     "date": "2025-04-23",
@@ -107,7 +117,8 @@
     "category": "M&A",
     "summary": "Wind River's first Tennessee entry. Mid South Septic serves Memphis and Arlington plus counties in AR, MS, MO, and KY.",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 3
   },
   {
     "date": "2025-04-08",
@@ -117,7 +128,8 @@
     "category": "M&A",
     "summary": "Third North Carolina acquisition in six months for Wind River, following Greenway and East Coast Resources.",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 3
   },
   {
     "date": "2025-01-01",
@@ -127,6 +139,7 @@
     "category": "M&A",
     "summary": "GFL Environmental sells its environmental services business at $8.0B enterprise value. GFL retains $1.7B equity interest. Proceeds used for deleveraging and share repurchases.",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 3
   }
 ]

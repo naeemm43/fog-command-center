@@ -7,7 +7,8 @@
     "category": "M&A",
     "summary": "GreyLion Capital-backed LJP Waste Solutions acquires United Liquid Waste Recycling, materially expanding its liquid-waste footprint across Wisconsin and the upper Midwest. First add-on of size for LJP's liquid-waste line and a notable consolidation move outside the named Big-4 platforms.",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   },
   {
     "date": "2026-04-02",
@@ -17,7 +18,8 @@
     "category": "M&A",
     "summary": "LES continues add-on acquisition strategy under Goldman Sachs ownership, adding a New Orleans-based grease trap cleaning operation to its network.",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   },
   {
     "date": "2026-03-26",
@@ -27,7 +29,8 @@
     "category": "M&A",
     "summary": "Private equity sponsor Georgia Oak Partners acquired Septic Blue, a Southeast regional leader in septic tank services operating in Atlanta, Charlotte, and Raleigh metro areas. Source Capital provided debt financing and equity co-investment.",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   },
   {
     "date": "2026-03-20",
@@ -37,7 +40,8 @@
     "category": "M&A",
     "summary": "Wind River continues aggressive expansion, acquiring J&M Transfer to extend its liquid waste transfer capabilities.",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   },
   {
     "date": "2026-03-11",
@@ -47,27 +51,30 @@
     "category": "M&A",
     "summary": "Private equity firm Seekye Capital announced its inaugural acquisition creating a comprehensive wastewater and environmental services platform. The deal brings together soil/environmental consulting, septic services, and environmental lab capabilities.",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   },
   {
     "date": "2026-02-17",
     "headline": "City of Stanton RFP for Environmental Services for NPDES and FOG Programs",
     "source": "ConstructConnect",
     "source_url": "https://projects.constructconnect.com/details/7424691-rfp-environmental-services-for-npdes-ms4-and-fog-programs&find_loc=california-90680",
-    "category": "Regulation",
+    "category": "Regulatory",
     "summary": "The City of Stanton is requesting proposals from qualified consultants to provide services for National Pollutant Elimination Systems (NPDES) and Fats Oils & Grease (FOG) programs with question deadline March 11, 2026.",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 3
   },
   {
     "date": "2026-01-04",
     "headline": "United Site Services Chapter 11 Filing",
     "source": "Bondoro",
     "source_url": "https://bondoro.com/united-site-services/",
-    "category": "Company News",
+    "category": "Public Co.",
     "summary": "United Site Services filed for Chapter 11 protection on December 29, 2025, reporting $1-10 billion in assets and liabilities. The company provides non-hazardous liquid waste services including grease trap waste removal.",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 3
   },
   {
     "date": "2025-12-01",
@@ -77,7 +84,8 @@
     "category": "M&A",
     "summary": "Goldman-backed LES acquires St. Louis-based Grease Masters, a grease trap, UCO, drain cleaning, and kitchen exhaust hood cleaning provider.",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   },
   {
     "date": "2025-08-05",
@@ -87,7 +95,8 @@
     "category": "M&A",
     "summary": "Merger transforms Eazy Grease from Florida-based to multi-regional UCO platform. Location: Multi-state (Southeast & Northeast US)",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   },
   {
     "date": "2025-07-20",
@@ -97,7 +106,8 @@
     "category": "M&A",
     "summary": "First out-of-Florida acquisition \u2014 Mid-Atlantic UCO collector. Location: Mid-Atlantic",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   },
   {
     "date": "2025-07-11",
@@ -107,7 +117,8 @@
     "category": "M&A",
     "summary": "Extends Eazy Grease's coverage to North Florida / Panhandle. Location: Tallahassee, Florida",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   },
   {
     "date": "2025-03-07",
@@ -117,7 +128,8 @@
     "category": "M&A",
     "summary": "Pinellas County FL tuck-in \u2014 fortifies Tampa Bay metro coverage. Location: Clearwater, Florida",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   },
   {
     "date": "2024-09-15",
@@ -127,7 +139,8 @@
     "category": "M&A",
     "summary": "Adds South Florida UCO collection routes. Location: South Florida",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   },
   {
     "date": "2024-08-26",
@@ -137,7 +150,8 @@
     "category": "M&A",
     "summary": "Richmond-area septic, grease, and wastewater hauler. Location: Quinton, Virginia",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   },
   {
     "date": "2024-04-15",
@@ -147,7 +161,8 @@
     "category": "M&A",
     "summary": "Extends Eazy Grease's Florida coverage into the Central Florida / Daytona region. Location: Central Florida",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   },
   {
     "date": "2024-03-25",
@@ -157,7 +172,8 @@
     "category": "M&A",
     "summary": "Barrel Energy (OTC: BRLL) acquired Happy Traps, adding 200+ recurring commercial clients and 3,500+ annual grease trap cleanings to its portfolio.",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   },
   {
     "date": "2023-10-31",
@@ -167,7 +183,8 @@
     "category": "M&A",
     "summary": "Northwest NJ pumper. Location: Lake Hopatcong, New Jersey",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   },
   {
     "date": "2023-07-15",
@@ -177,7 +194,8 @@
     "category": "M&A",
     "summary": "Major Orlando-metro pumper. Location: Orlando, Florida",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   },
   {
     "date": "2023-06-15",
@@ -187,7 +205,8 @@
     "category": "M&A",
     "summary": "Early acquisition for Eazy Grease's Florida UCO roll-up. Location: Tampa Bay, Florida",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   },
   {
     "date": "2023-04-27",
@@ -197,7 +216,8 @@
     "category": "M&A",
     "summary": "Bundle of 4 brands across 4 states \u2014 major New England densification. Location: MA / RI / CT / NH",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   },
   {
     "date": "2023-04-05",
@@ -207,7 +227,8 @@
     "category": "M&A",
     "summary": "Maryland operator extending Wind River's mid-Atlantic footprint. Location: Crofton, Maryland",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   },
   {
     "date": "2023-03-31",
@@ -217,7 +238,8 @@
     "category": "M&A",
     "summary": "Western NC pumper \u2014 pre-Greenway NC anchor. Location: Cherryville, North Carolina",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   },
   {
     "date": "2022-12-09",
@@ -227,7 +249,8 @@
     "category": "M&A",
     "summary": "First VA presence build-out (Middle Peninsula). Location: Urbanna, Virginia",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   },
   {
     "date": "2022-10-31",
@@ -237,7 +260,8 @@
     "category": "M&A",
     "summary": "South Jersey drain-cleaning operator. Location: Westville, New Jersey",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   },
   {
     "date": "2022-09-30",
@@ -247,7 +271,8 @@
     "category": "M&A",
     "summary": "Central FL pumper continuing the Florida densification. Location: St. Cloud, Florida",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   },
   {
     "date": "2022-08-12",
@@ -257,7 +282,8 @@
     "category": "M&A",
     "summary": "Adds drain-cleaning brand to PA dispatch network. Location: Temple, Pennsylvania",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   },
   {
     "date": "2021-08-17",
@@ -267,7 +293,8 @@
     "category": "M&A",
     "summary": "Jersey Shore septic operator \u2014 coastal NJ coverage build-out. Location: Bayville, New Jersey",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   },
   {
     "date": "2021-05-01",
@@ -277,7 +304,8 @@
     "category": "M&A",
     "summary": "Southeastern PA pumper add-on. Location: Kennett Square, Pennsylvania",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   },
   {
     "date": "2020-12-07",
@@ -287,7 +315,8 @@
     "category": "M&A",
     "summary": "Pinellas County FL pumper \u2014 densifies Tampa Bay route economics. Location: Largo, Florida",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   },
   {
     "date": "2020-08-26",
@@ -297,7 +326,8 @@
     "category": "M&A",
     "summary": "PA tuck-in extending suburban Philadelphia coverage. Location: Ivyland, Pennsylvania",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   },
   {
     "date": "2019-12-04",
@@ -307,7 +337,8 @@
     "category": "M&A",
     "summary": "Expands Wind River's Florida presence beyond Tampa Bay into the Treasure Coast region. Location: Stuart, Florida",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   },
   {
     "date": "2019-06-15",
@@ -317,7 +348,8 @@
     "category": "M&A",
     "summary": "Strengthens Wind River's New York metro-area coverage. Location: Mahopac, New York",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   },
   {
     "date": "2019-06-15",
@@ -327,7 +359,8 @@
     "category": "M&A",
     "summary": "Additional Florida tuck-in. Location: Florida",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   },
   {
     "date": "2018-12-15",
@@ -337,7 +370,8 @@
     "category": "M&A",
     "summary": "Two-brand Georgia entry \u2014 Hamby's residential septic plus commercial waste arm. Location: Hiram, Georgia",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   },
   {
     "date": "2018-07-05",
@@ -347,7 +381,8 @@
     "category": "M&A",
     "summary": "Extends Wind River's Connecticut coverage. Location: Connecticut",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   },
   {
     "date": "2018-05-17",
@@ -357,7 +392,8 @@
     "category": "M&A",
     "summary": "MA core-territory tuck-in adding drain-cleaning capability. Location: Holbrook, Massachusetts",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   },
   {
     "date": "2018-02-21",
@@ -367,7 +403,8 @@
     "category": "M&A",
     "summary": "Two-brand acquisition expanding Wind River's New England footprint. Location: VT / NH / NY / ME",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   },
   {
     "date": "2018-01-30",
@@ -377,6 +414,7 @@
     "category": "M&A",
     "summary": "Increases Wind River's footprint in New Jersey and Delaware. Location: New Jersey / Delaware",
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "relevance_score": 4
   }
 ]
