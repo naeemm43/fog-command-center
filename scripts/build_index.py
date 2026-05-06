@@ -1114,12 +1114,21 @@ const RESTAURANT_HEAT_DATA = {payload};
     return;
   }}
   if (!RESTAURANT_HEAT_DATA.length) return;
+  // Log-scale intensity: raw counts span 1 → 23k+ across counties, so a
+  // linear gradient buries every county outside the top 10. log1p
+  // spreads the dynamic range so rural counties read as light yellow
+  // and major metros read as dark red, with mid-size cities cleanly
+  // in between.
+  const heatPoints = RESTAURANT_HEAT_DATA.map(function(d) {{
+    return [d[0], d[1], Math.log(d[2] + 1)];
+  }});
+  const max = Math.log(Math.max.apply(null,
+    RESTAURANT_HEAT_DATA.map(function(d) {{ return d[2]; }})) + 1);
   // The default heat tiles render at z-index ~400 which is BELOW the
   // marker pane (600) and the cluster icon pane, so plant circles,
   // operator diamonds, and WWTP markers all stay visible on top.
-  const max = Math.max.apply(null, RESTAURANT_HEAT_DATA.map(function(d) {{ return d[2]; }}));
-  const heatLayer = L.heatLayer(RESTAURANT_HEAT_DATA, {{
-    radius: 25, blur: 15, maxZoom: 10, max: max,
+  const heatLayer = L.heatLayer(heatPoints, {{
+    radius: 18, blur: 10, maxZoom: 10, max: max,
     gradient: {{
       0.0: '#ffffcc',
       0.2: '#fed976',
@@ -1128,7 +1137,7 @@ const RESTAURANT_HEAT_DATA = {payload};
       0.8: '#bd0026',
       1.0: '#800026'
     }},
-    minOpacity: 0.3
+    minOpacity: 0.15
   }});
   const cb = document.getElementById('toggle-restaurant-heat');
   const legend = document.getElementById('heat-legend');
