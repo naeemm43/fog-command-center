@@ -368,15 +368,14 @@ def _build_search_prompt(today: str, year: int, queries: list[str], window_note:
     enumeration — the model is told to use these as seeds and run its own
     targeted searches per category.
     """
-    # Format queries grouped by category for the suggested-searches block.
-    grouped: dict[str, list[str]] = {}
-    for cat, qs in SEARCH_QUERIES.items():
-        grouped[cat] = [q.format(year=year) for q in qs]
+    # Compact seeds — show only 2 examples per category. The full list
+    # lives in SEARCH_QUERIES for reference but pasting all 60+ into the
+    # prompt led to the model exhausting its token budget on tool calls.
     seed_block = []
     for cat in NEWS_CATEGORIES:
-        seed_block.append(f"  {cat}:")
-        for q in grouped.get(cat, []):
-            seed_block.append(f"    - {q}")
+        sample = [q.format(year=year) for q in SEARCH_QUERIES.get(cat, [])][:2]
+        if sample:
+            seed_block.append(f"  {cat}: " + " | ".join(sample))
     seeds = "\n".join(seed_block)
 
     return f"""Today is {today}. You are populating an industry-briefing news feed for the non-hazardous liquid waste, grease trap (FOG), used cooking oil (UCO), septic services, and related environmental services industry in the United States.
@@ -394,7 +393,7 @@ Cover ALL of these 10 categories (do not focus only on M&A):
 9.  Industry Events — WWETT Show, Pumper.com, Waste360, Waste Today features, Water Environment Federation, National Pretreatment Conference, Environmental Business Journal reports.
 10. ESG — circular economy involving FOG waste, sustainability reporting requirements, carbon credit markets for FOG, Scope 3 tracking by food service.
 
-Suggested seed searches per category (use the web_search tool — these are starting points; run additional targeted searches as needed):
+Seed searches per category (use the web_search tool, but be SELECTIVE — pick the 15-25 most promising searches across all categories rather than running everything below; the goal is breadth-of-coverage, not exhaustive enumeration):
 {seeds}
 
 {window_note}
@@ -443,22 +442,43 @@ def search_for_updates(queries: list[str] | None = None,
 
     response = client.messages.create(
         model="claude-sonnet-4-20250514",
-        max_tokens=8192,
+        max_tokens=16384,
         tools=[{"type": "web_search_20250305", "name": "web_search"}],
         messages=[{"role": "user", "content": prompt}],
     )
 
     text_parts = [b.text for b in response.content if hasattr(b, "text")]
     full_text = "\n".join(text_parts)
-    m = re.search(r"\[.*\]", full_text, re.DOTALL)
-    if not m:
-        sys.stderr.write("no JSON array found in model response\n")
-        return []
-    try:
-        return json.loads(m.group())
-    except json.JSONDecodeError as e:
-        sys.stderr.write(f"could not parse model JSON: {e}\n")
-        return []
+
+    # Some responses include both reasoning text and a final JSON array.
+    # Pick the largest balanced JSON array we can find. Fall back to
+    # greedy extraction if that fails.
+    candidates: list[str] = []
+    for m in re.finditer(r"\[", full_text):
+        depth = 0
+        for j, ch in enumerate(full_text[m.start():], start=m.start()):
+            if ch == "[":
+                depth += 1
+            elif ch == "]":
+                depth -= 1
+                if depth == 0:
+                    candidates.append(full_text[m.start(): j + 1])
+                    break
+    candidates.sort(key=len, reverse=True)
+    for c in candidates:
+        try:
+            parsed = json.loads(c)
+            if isinstance(parsed, list):
+                return parsed
+        except json.JSONDecodeError:
+            continue
+
+    sys.stderr.write(
+        "no parseable JSON array in model response. "
+        f"Response stop_reason={getattr(response, 'stop_reason', '?')}, "
+        f"text length={len(full_text)} chars\n"
+    )
+    return []
 
 
 # ----------------------------- merging --------------------------------
