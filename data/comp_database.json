@@ -361,7 +361,7 @@
     "target": "Liquid Environmental Solutions (LES)",
     "acquirer": "Goldman Sachs Infrastructure / Infrastructure at Goldman Sachs Alternatives",
     "sponsor": "Audax Private Equity",
-    "location": "",
+    "location": "Irving, TX",
     "deal_type": "Add-On",
     "deal_size": "Undisclosed",
     "multiple": "N/A",
@@ -374,9 +374,9 @@
     "deal_summary": null,
     "date_confidence": "approximate",
     "notes": "Infrastructure at Goldman Sachs Alternatives announced definitive agreement to acquire Liquid Environmental Solutions, a leading provider of non-hazardous liquid waste management services in the United States, from Audax Private Equity. Founded in 2002, LES is a leading national service provider managing non-hazardous liquid waste including grease traps, oil water separators, used cooking oil and other non-hazardous liquid waste.",
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
+    "latitude": 32.814,
+    "longitude": -96.949,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2025-07-20",

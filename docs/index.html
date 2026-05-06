@@ -473,17 +473,18 @@ html, body {
   <span class="collapser" onclick="this.parentElement.classList.toggle('collapsed')">−</span>
   <h3>Facility Stats</h3>
   <div class="panel-body">
-    <div class="stats-line"><b>FOG Facilities visible:</b> <span id="stat-visible">0</span> of <span id="stat-total">0</span></div>
-    <div class="stats-line"><b>Split:</b> <span id="stat-plant-pumper">–</span></div>
-    <div class="stats-line"><b>States covered:</b> <span id="stat-states">0</span></div>
+    <div id="stats-visible-counts" class="stats-line"><b>Visible:</b> <span id="stat-vp">0</span> plants / <span id="stat-vo">0</span> operators / <span id="stat-vw">0</span> WWTPs</div>
+    <div id="stats-empty-state" class="stats-line muted" style="display:none;">No entities match current filters.</div>
     <h4>By owner type (visible)</h4>
     <div id="stat-by-type"></div>
-    <h4>WWTPs</h4>
-    <div class="stats-line"><span id="stat-wwtp-status">Layer disabled</span></div>
-    <h4>FOG–WWTP proximity (all)</h4>
-    <div class="stats-line"><b>Avg distance:</b> <span id="stat-avg-dist">–</span> mi</div>
+    <h4>FOG–WWTP proximity</h4>
+    <div class="stats-line"><b>Avg distance to nearest WWTP:</b> <span id="stat-avg-dist">–</span> mi</div>
     <div class="stats-line"><b>&lt;5 mi of WWTP:</b> <span id="stat-near5">–</span></div>
     <div class="stats-line"><b>&gt;25 mi of WWTP:</b> <span id="stat-far25">–</span></div>
+    <span style="display:none;">
+      <span id="stat-visible">0</span><span id="stat-total">0</span><span id="stat-plant-pumper">–</span><span id="stat-states">0</span><span id="stat-wwtp-status"></span>
+    </span>
+  </div>
   </div>
 </div>
 
@@ -664,7 +665,7 @@ html, body {
 <!-- METADATA_START -->
 <script>
 const metadata = {
-  "lastRefreshed": "2026-05-06T15:18:46Z",
+  "lastRefreshed": "2026-05-06T15:40:20Z",
   "newsCount": 38,
   "compCount": 57
 };
@@ -1613,7 +1614,7 @@ const compDatabaseData = [
     "target": "Liquid Environmental Solutions (LES)",
     "acquirer": "Goldman Sachs Infrastructure / Infrastructure at Goldman Sachs Alternatives",
     "sponsor": "Audax Private Equity",
-    "location": "",
+    "location": "Irving, TX",
     "deal_type": "Add-On",
     "deal_size": "Undisclosed",
     "multiple": "N/A",
@@ -1626,9 +1627,9 @@ const compDatabaseData = [
     "deal_summary": null,
     "date_confidence": "approximate",
     "notes": "Infrastructure at Goldman Sachs Alternatives announced definitive agreement to acquire Liquid Environmental Solutions, a leading provider of non-hazardous liquid waste management services in the United States, from Audax Private Equity. Founded in 2002, LES is a leading national service provider managing non-hazardous liquid waste including grease traps, oil water separators, used cooking oil and other non-hazardous liquid waste.",
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
+    "latitude": 32.814,
+    "longitude": -96.949,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2025-07-20",
@@ -2987,8 +2988,7 @@ function fogPopup(d) {
     + '<hr style="margin:4px 0">'
     + '<b>Nearest WWTP:</b> ' + escHtml(d.nw || '—') + ' (' + escHtml(d.ncs || '—') + ')<br>'
     + '<b>Distance to WWTP:</b> ' + (d.nd === null ? '—' : d.nd + ' miles') + '<br>'
-    + '<hr style="margin:4px 0">'
-    + '<i>Processing capacity: TBD — requires site-level diligence</i>';
+    + '';
 }
 
 function wwtpPopup(d) {
@@ -3350,7 +3350,6 @@ computeProximityStats();
 updateStats();
 document.getElementById('legend-fog-total').textContent = FOG_DATA.length.toLocaleString();
 
-console.log('Map initialized: '+ FOG_DATA.length +' FOG facilities, '+ WWTP_DATA.length +' WWTPs');
 
 // ---------- Collection / service operator data ----------
 // Pumpers, grease-trap haulers, septic services. The marker-comment
@@ -3546,7 +3545,7 @@ const collectionBucketStates = {};
 // plants. Plotted as diamond markers in a separate L.layerGroup per
 // company so each filter checkbox controls its own set, all hidden by
 // default.
-const SERVICE_HQ_DATA = [{"company": "Momentum Environmental", "key": "momentum", "color": "#6C3483", "lat": 40.713, "lng": -74.006, "primary": true, "city": "New York, NY", "sponsor": "PE-backed (sponsor TBD)", "description": "Environmental services focus in NY metro.", "acq_count": "3+ acquisitions since 2024"}, {"company": "Septic Blue", "key": "septic-blue", "color": "#1E8449", "lat": 33.749, "lng": -84.388, "primary": true, "city": "Atlanta, GA", "sponsor": "Georgia Oak Partners", "description": "Residential septic focus.", "acq_count": "Platform acquisition (Feb 2024)"}, {"company": "Septic Blue", "key": "septic-blue", "color": "#1E8449", "lat": 35.227, "lng": -80.843, "primary": false, "city": "Charlotte, NC", "sponsor": "Georgia Oak Partners", "description": "Residential septic focus.", "acq_count": "Platform acquisition (Feb 2024)"}, {"company": "Septic Blue", "key": "septic-blue", "color": "#1E8449", "lat": 35.78, "lng": -78.638, "primary": false, "city": "Raleigh, NC", "sponsor": "Georgia Oak Partners", "description": "Residential septic focus.", "acq_count": "Platform acquisition (Feb 2024)"}, {"company": "Eazy Grease", "key": "eazy-grease", "color": "#D4AC0D", "lat": 27.951, "lng": -82.459, "primary": true, "city": "Tampa Bay, FL", "sponsor": "Private (no PE sponsor identified)", "description": "UCO/grease recycling. Florida-focused, expanding multi-state.", "acq_count": "5 acquisitions + 1 merger"}, {"company": "Eazy Grease", "key": "eazy-grease", "color": "#D4AC0D", "lat": 30.438, "lng": -84.281, "primary": false, "city": "Tallahassee, FL", "sponsor": "Private (no PE sponsor identified)", "description": "UCO/grease recycling. Florida-focused, expanding multi-state.", "acq_count": "5 acquisitions + 1 merger"}, {"company": "Eazy Grease", "key": "eazy-grease", "color": "#D4AC0D", "lat": 28.538, "lng": -81.379, "primary": false, "city": "Central Florida", "sponsor": "Private (no PE sponsor identified)", "description": "UCO/grease recycling. Florida-focused, expanding multi-state.", "acq_count": "5 acquisitions + 1 merger"}, {"company": "Eazy Grease", "key": "eazy-grease", "color": "#D4AC0D", "lat": 26.122, "lng": -80.137, "primary": false, "city": "South Florida", "sponsor": "Private (no PE sponsor identified)", "description": "UCO/grease recycling. Florida-focused, expanding multi-state.", "acq_count": "5 acquisitions + 1 merger"}];
+const SERVICE_HQ_DATA = [{"company": "Momentum Environmental", "key": "momentum", "color": "#6C3483", "lat": 40.713, "lng": -74.006, "primary": true, "city": "New York, NY", "sponsor": "PE-backed (sponsor undisclosed)", "description": "Environmental services focus in NY metro.", "acq_count": "3+ acquisitions since 2024"}, {"company": "Septic Blue", "key": "septic-blue", "color": "#1E8449", "lat": 33.749, "lng": -84.388, "primary": true, "city": "Atlanta, GA", "sponsor": "Georgia Oak Partners", "description": "Residential septic focus.", "acq_count": "Platform acquisition (Feb 2024)"}, {"company": "Septic Blue", "key": "septic-blue", "color": "#1E8449", "lat": 35.227, "lng": -80.843, "primary": false, "city": "Charlotte, NC", "sponsor": "Georgia Oak Partners", "description": "Residential septic focus.", "acq_count": "Platform acquisition (Feb 2024)"}, {"company": "Septic Blue", "key": "septic-blue", "color": "#1E8449", "lat": 35.78, "lng": -78.638, "primary": false, "city": "Raleigh, NC", "sponsor": "Georgia Oak Partners", "description": "Residential septic focus.", "acq_count": "Platform acquisition (Feb 2024)"}, {"company": "Eazy Grease", "key": "eazy-grease", "color": "#D4AC0D", "lat": 27.951, "lng": -82.459, "primary": true, "city": "Tampa Bay, FL", "sponsor": "Private (no PE sponsor identified)", "description": "UCO/grease recycling. Florida-focused, expanding multi-state.", "acq_count": "5 acquisitions + 1 merger"}, {"company": "Eazy Grease", "key": "eazy-grease", "color": "#D4AC0D", "lat": 30.438, "lng": -84.281, "primary": false, "city": "Tallahassee, FL", "sponsor": "Private (no PE sponsor identified)", "description": "UCO/grease recycling. Florida-focused, expanding multi-state.", "acq_count": "5 acquisitions + 1 merger"}, {"company": "Eazy Grease", "key": "eazy-grease", "color": "#D4AC0D", "lat": 28.538, "lng": -81.379, "primary": false, "city": "Central Florida", "sponsor": "Private (no PE sponsor identified)", "description": "UCO/grease recycling. Florida-focused, expanding multi-state.", "acq_count": "5 acquisitions + 1 merger"}, {"company": "Eazy Grease", "key": "eazy-grease", "color": "#D4AC0D", "lat": 26.122, "lng": -80.137, "primary": false, "city": "South Florida", "sponsor": "Private (no PE sponsor identified)", "description": "UCO/grease recycling. Florida-focused, expanding multi-state.", "acq_count": "5 acquisitions + 1 merger"}];
 const serviceHqLayers = {
   'momentum':     L.layerGroup(),
   'septic-blue':  L.layerGroup(),
@@ -3721,7 +3720,7 @@ const RESTAURANT_HEAT_DATA = [[42.062,-72.626,34],[42.364,-72.459,65],[42.419,-7
     if (matching.length) wwtpCluster.addLayers(matching);
   }
 
-  // 3) Legend counter (Visible: X plants, Y operators)
+  // 3) Legend + stats counters (Visible: X plants / Y operators / Z WWTPs)
   function updateLegendCounters() {
     var pE = document.getElementById('vis-plants');
     var oE = document.getElementById('vis-ops');
@@ -3737,8 +3736,24 @@ const RESTAURANT_HEAT_DATA = [[42.062,-72.626,34],[42.364,-72.459,65],[42.419,-7
         ops += c.getLayers().length;
       }
     });
+    var wwtps = 0;
+    if (typeof wwtpCluster !== 'undefined' && wwtpCluster &&
+        wwtpCb && wwtpCb.checked && map.hasLayer(wwtpCluster) &&
+        typeof wwtpCluster.getLayers === 'function') {
+      wwtps = wwtpCluster.getLayers().length;
+    }
     if (pE) pE.textContent = plants.toLocaleString();
     if (oE) oE.textContent = ops.toLocaleString();
+    // Stats panel visible-counts line
+    var svp = document.getElementById('stat-vp');
+    var svo = document.getElementById('stat-vo');
+    var svw = document.getElementById('stat-vw');
+    if (svp) svp.textContent = plants.toLocaleString();
+    if (svo) svo.textContent = ops.toLocaleString();
+    if (svw) svw.textContent = wwtps.toLocaleString();
+    // Empty-state message
+    var es = document.getElementById('stats-empty-state');
+    if (es) es.style.display = (plants + ops + wwtps === 0) ? 'block' : 'none';
   }
 
   // 4) refreshAllCategories monkey-patch — runs after All/None buttons,
@@ -3779,13 +3794,24 @@ const RESTAURANT_HEAT_DATA = [[42.062,-72.626,34],[42.364,-72.459,65],[42.419,-7
       cb.checked = true;
     });
   }
+  // Fix 1: only auto-tick all ownership cb's when NONE are currently
+  // checked. If the user has already narrowed the ownership filter
+  // (e.g., Wind River only), toggling a new entity type should keep
+  // that narrow selection — adding the new layer filtered by the same
+  // ownership groups, not blowing the filter open.
+  function tickAllOwnershipIfNoneChecked() {
+    var anyChecked = document.querySelectorAll(
+      '#owner-toggles input[type="checkbox"]:checked'
+    ).length > 0;
+    if (!anyChecked) tickAllOwnership();
+  }
   if (plantCb) plantCb.addEventListener('change', function() {
-    if (plantCb.checked) tickAllOwnership();
+    if (plantCb.checked) tickAllOwnershipIfNoneChecked();
     refreshAllCategories();  // patched version handles everything
   });
   if (collCb) collCb.addEventListener('change', function() {
     if (collCb.checked) {
-      tickAllOwnership();
+      tickAllOwnershipIfNoneChecked();
       // Apply state filter so a freshly-shown layer respects whatever
       // state-select is set to (otherwise we'd briefly flash all 6k+
       // operators if a state was selected).

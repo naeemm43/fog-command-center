@@ -56,6 +56,30 @@ def slice_original(path: str) -> tuple[str, str, str]:
     return style_inner, body_inner, scripts
 
 
+def strip_console_log(scripts: str) -> str:
+    """Remove every `console.log(...)` statement from the embedded JS so
+    the production HTML doesn't shout startup messages into the browser
+    console. We keep `console.warn` / `console.error` because those are
+    real diagnostic surface area for the few cases where the entity-
+    type wiring or rate-limit retry needs to surface a problem."""
+    # Match `console.log(...);` allowing for nested parens; greedy is
+    # fine because there's no nested console.log on the same line.
+    return re.sub(r"^\s*console\.log\([^;]*\);\s*$", "", scripts, flags=re.MULTILINE)
+
+
+def strip_placeholder_text(scripts: str) -> str:
+    """Remove pre-distribution placeholder strings from the upstream
+    map's popup templates. Currently just the "Processing capacity:
+    TBD — requires site-level diligence" line in fogPopup()."""
+    return scripts.replace(
+        "<hr style=\"margin:4px 0\">'\n    + '<i>Processing capacity: TBD — requires site-level diligence</i>",
+        "",
+    ).replace(
+        "<i>Processing capacity: TBD — requires site-level diligence</i>",
+        "",
+    )
+
+
 def inject_map_handle(scripts: str) -> str:
     """Expose the Leaflet map instance + marker collections + a
     `__rebuildTier2Layer` helper globally so the tab-switcher,
@@ -679,6 +703,40 @@ def patch_legend(body_inner: str) -> str:
     return body_inner
 
 
+_NEW_STATS_BODY = """
+    <div id="stats-visible-counts" class="stats-line"><b>Visible:</b> <span id="stat-vp">0</span> plants / <span id="stat-vo">0</span> operators / <span id="stat-vw">0</span> WWTPs</div>
+    <div id="stats-empty-state" class="stats-line muted" style="display:none;">No entities match current filters.</div>
+    <h4>By owner type (visible)</h4>
+    <div id="stat-by-type"></div>
+    <h4>FOG–WWTP proximity</h4>
+    <div class="stats-line"><b>Avg distance to nearest WWTP:</b> <span id="stat-avg-dist">–</span> mi</div>
+    <div class="stats-line"><b>&lt;5 mi of WWTP:</b> <span id="stat-near5">–</span></div>
+    <div class="stats-line"><b>&gt;25 mi of WWTP:</b> <span id="stat-far25">–</span></div>
+    <span style="display:none;">
+      <span id="stat-visible">0</span><span id="stat-total">0</span><span id="stat-plant-pumper">–</span><span id="stat-states">0</span><span id="stat-wwtp-status"></span>
+    </span>
+"""
+
+
+def patch_stats_panel(body_inner: str) -> str:
+    """Strip the stale "FOG Facilities visible / Split / States covered /
+    WWTPs: Layer disabled" lines and replace with a clean structure:
+    visible counts (plants / operators / WWTPs), ownership breakdown,
+    proximity stats. The upstream's updateStats() writes to several
+    IDs (stat-visible, stat-total, stat-plant-pumper, stat-states,
+    stat-wwtp-status, stat-by-type) — we keep those IDs as hidden spans
+    so updateStats doesn't NPE, and use new IDs for the visible
+    layout."""
+    body_inner = re.sub(
+        r'(<div id="stats-panel"[^>]*>\s*<span class="collapser"[^>]*>[^<]*</span>\s*<h3>Facility Stats</h3>\s*<div class="panel-body">).*?(</div>\s*</div>)',
+        lambda m: m.group(1) + _NEW_STATS_BODY + "  " + m.group(2),
+        body_inner,
+        count=1,
+        flags=re.DOTALL,
+    )
+    return body_inner
+
+
 # ============================================================================
 # Service-HQ markers — companies that acquire in the FOG space but don't
 # own processing plants. Plotted as diamond markers in a separate layer
@@ -689,7 +747,7 @@ SERVICE_HQ_DATA: list[dict] = [
     # Momentum Environmental
     {"company": "Momentum Environmental", "key": "momentum", "color": "#6C3483",
      "lat": 40.713, "lng": -74.006, "primary": True,
-     "city": "New York, NY", "sponsor": "PE-backed (sponsor TBD)",
+     "city": "New York, NY", "sponsor": "PE-backed (sponsor undisclosed)",
      "description": "Environmental services focus in NY metro.",
      "acq_count": "3+ acquisitions since 2024"},
 
@@ -1009,7 +1067,7 @@ def build_entity_type_script() -> str:
     if (matching.length) wwtpCluster.addLayers(matching);
   }
 
-  // 3) Legend counter (Visible: X plants, Y operators)
+  // 3) Legend + stats counters (Visible: X plants / Y operators / Z WWTPs)
   function updateLegendCounters() {
     var pE = document.getElementById('vis-plants');
     var oE = document.getElementById('vis-ops');
@@ -1025,8 +1083,24 @@ def build_entity_type_script() -> str:
         ops += c.getLayers().length;
       }
     });
+    var wwtps = 0;
+    if (typeof wwtpCluster !== 'undefined' && wwtpCluster &&
+        wwtpCb && wwtpCb.checked && map.hasLayer(wwtpCluster) &&
+        typeof wwtpCluster.getLayers === 'function') {
+      wwtps = wwtpCluster.getLayers().length;
+    }
     if (pE) pE.textContent = plants.toLocaleString();
     if (oE) oE.textContent = ops.toLocaleString();
+    // Stats panel visible-counts line
+    var svp = document.getElementById('stat-vp');
+    var svo = document.getElementById('stat-vo');
+    var svw = document.getElementById('stat-vw');
+    if (svp) svp.textContent = plants.toLocaleString();
+    if (svo) svo.textContent = ops.toLocaleString();
+    if (svw) svw.textContent = wwtps.toLocaleString();
+    // Empty-state message
+    var es = document.getElementById('stats-empty-state');
+    if (es) es.style.display = (plants + ops + wwtps === 0) ? 'block' : 'none';
   }
 
   // 4) refreshAllCategories monkey-patch — runs after All/None buttons,
@@ -1067,13 +1141,24 @@ def build_entity_type_script() -> str:
       cb.checked = true;
     });
   }
+  // Fix 1: only auto-tick all ownership cb's when NONE are currently
+  // checked. If the user has already narrowed the ownership filter
+  // (e.g., Wind River only), toggling a new entity type should keep
+  // that narrow selection — adding the new layer filtered by the same
+  // ownership groups, not blowing the filter open.
+  function tickAllOwnershipIfNoneChecked() {
+    var anyChecked = document.querySelectorAll(
+      '#owner-toggles input[type="checkbox"]:checked'
+    ).length > 0;
+    if (!anyChecked) tickAllOwnership();
+  }
   if (plantCb) plantCb.addEventListener('change', function() {
-    if (plantCb.checked) tickAllOwnership();
+    if (plantCb.checked) tickAllOwnershipIfNoneChecked();
     refreshAllCategories();  // patched version handles everything
   });
   if (collCb) collCb.addEventListener('change', function() {
     if (collCb.checked) {
-      tickAllOwnership();
+      tickAllOwnershipIfNoneChecked();
       // Apply state filter so a freshly-shown layer respects whatever
       // state-select is set to (otherwise we'd briefly flash all 6k+
       // operators if a state was selected).
@@ -3115,9 +3200,12 @@ def main() -> int:
         return 2
 
     style_inner, body_inner, scripts = slice_original(SRC_MAP)
+    scripts = strip_console_log(scripts)
+    scripts = strip_placeholder_text(scripts)
     scripts, public_counts, filter_counts, kept_records = patch_facility_data(scripts)
     scripts = patch_category_info(scripts)
     body_inner = patch_legend(body_inner)
+    body_inner = patch_stats_panel(body_inner)
     body_inner = patch_filter_panel(body_inner)
     scripts, collection_counts = inject_collection_layer(scripts)
     scripts = inject_service_hq(scripts)
