@@ -169,35 +169,35 @@ _POTW_NAME_PATTERNS = [s.lower() for s in [
 ]]
 
 _NEGATIVE_KEYWORDS = [s.lower() for s in [
-    # Solid waste
-    "landfill", "transfer station", "recycling center", "recycling facility",
-    "materials recovery", "MRF", "solid waste", "refuse", "trash",
-    "garbage", "rubbish", "municipal waste",
-    # Construction / demolition
-    "construction debris", "C&D", "demolition", "concrete recycling",
-    "asphalt", "aggregate", "quarry", "mining",
-    # Composting / organics (non-FOG)
-    "composting", "compost facility", "yard waste", "green waste",
-    "mulch", "wood waste", "biomass",
-    # Scrap / salvage
-    "scrap", "salvage", "auto parts", "junkyard", "wrecking",
-    "tire", "rubber", "electronics", "e-waste",
-    # Hazardous waste
-    "hazardous waste", "RCRA", "PCB", "radioactive", "nuclear",
-    "chemical waste", "toxic",
-    # Medical / pharmaceutical
-    "medical waste", "biohazard", "pharmaceutical", "sharps",
-    "pathological", "infectious waste", "stericycle",
-    # Other non-FOG
-    "paper mill", "textile", "plastic recycling", "glass recycling",
-    "metal recycling", "aluminum", "steel",
-    "incinerator", "waste-to-energy",
-    "storage tank", "fuel storage", "petroleum bulk",
-    "gas station", "convenience store", "compressor station",
-    "snow dump", "natural gas storage",
-    "car wash", "laundry", "dry cleaner",
-    "animal hospital", "veterinary",
-    "cemetery", "funeral",
+    # Definitively not FOG. Shorter list per the Issue-5 redesign:
+    # we now lean inclusive — only remove names that are unambiguously
+    # solid-waste / hazardous / industrial / medical / non-environmental.
+    "landfill",
+    "transfer station",
+    "materials recovery", "MRF",
+    "recycling center", "recycling facility",
+    "construction debris", "C&D debris",
+    "demolition waste",
+    "concrete recycl", "asphalt recycl", "aggregate",
+    "composting facility", "compost site",
+    "yard waste", "green waste", "wood waste",
+    "scrap metal", "scrap yard", "salvage yard", "junkyard",
+    "auto salvage", "auto wreck",
+    "tire recycl", "tire disposal",
+    "electronics recycl", "e-waste",
+    "hazardous waste", "RCRA", "PCB",
+    "radioactive", "nuclear",
+    "medical waste", "biohazard", "sharps", "infectious waste",
+    "pharmaceutical waste", "pathological",
+    "paper mill", "textile recycl",
+    "plastic recycl", "glass recycl",
+    "incinerator",
+    "ammunition", "explosives",
+    "mining", "quarry",
+    "gas station", "fuel station", "convenience store",
+    "car wash", "laundromat", "dry cleaner",
+    "animal hospital", "veterinar",
+    "cemetery", "funeral", "cremator",
 ]]
 
 _FOG_POSITIVE_KEYWORDS = [s.lower() for s in [
@@ -234,16 +234,98 @@ _FOG_POSITIVE_KEYWORDS = [s.lower() for s in [
     "barrel energy", "septic blue",
 ]]
 
-_SOLID_WASTE_COMPANY_PATTERNS = [s.lower() for s in [
-    "republic services", "allied waste",
-    "waste management", " wm ", "waste connections",
-    " gfl ", "casella", "waste industries",
-    "advanced disposal", "stericycle",
-    "covanta", "wheelabrator",
-    "clean harbors",
-    "us ecology",
-    "safety-kleen", "safety kleen", "clean earth",
+# Consolidator brand override list — facility names containing any of
+# these substrings are ALWAYS kept regardless of NAICS, negative
+# keywords, or municipal patterns. They are confirmed FOG-relevant by
+# definition (the upstream brand match in ownership.py also tags many
+# of these via ct codes; the name-substring fallback catches the rest).
+_CONSOLIDATOR_BRANDS = [s.lower() for s in [
+    # LES + subsidiaries
+    "liquid environmental", "advance environmental", "advance plumbing",
+    "all city environmental", "atlas pumping",
+    "carolinas resource recovery", "ciro's sewer", "ciros sewer",
+    "commercial pumping", "dal-worth", "dalworth",
+    "dover grease", "dover environmental", "flohawks",
+    "giddings hawkins", "gordon's american", "gordons american",
+    "grease masters", "green arrow environmental",
+    "lyles grease", "new orleans grease", "newstream",
+    "rite-way industrial", "rite way industrial",
+    "value stream", "affordable bio feedstock",
+    "all american grease",
+    # Wind River + subsidiaries
+    "wind river", "seminole septic", "mid south septic", "mid-south septic",
+    "greenway waste", "tcw wastewater", "brockwell", "hapchuk",
+    "keystone wastewater", "stanley environmental",
+    "brownie's septic", "brownies septic", "a1 gator", "a-1 gator",
+    "cooke's plumbing", "cookes plumbing", "metro rooter", "metro-rooter",
+    "felix septic", "eastern pipe service",
+    "john matthes", "triple t pumping", "koberlein",
+    "m&s septic", "m & s septic", "m and s septic", "fenkner septic",
+    "east coast resources", "b & p environmental", "b and p environmental",
+    "liquid assets disposal", "j&m transfer", "j and m transfer",
+    "drummac septic", "hartigan", "earthcare",
+    "kaiser-battistone", "kaiser battistone",
+    "kline's services", "klines services",
+    "jim leboeuf", "leboeuf septic", "soucy's septic", "soucys septic",
+    "stright sewage", "oxbury sanitation", "mahopac septic",
+    "hamby's septic", "hambys septic", "hamby's commercial",
+    "gibson septic", "select processing of orlando",
+    "tillman septic", "franc environmental", "kbx golden",
+    "affordable pumping", "captain clog drain", "dimmick septic",
+    "myers septic", "skyline plumbing", "all florida septic",
+    "drain innovations", "church view septic",
+    "1st choice service", "waste water services inc",
+    "a sanitary pumping", "heritage pumping", "parent sanitation",
+    "cloud 9 services", "aa cut rate septic", "rosey's tank",
+    "roseys tank", "r crews", "earth farms organics",
+    # Baker
+    "baker commodit", "baker rendering", "baker grease",
+    "new leaf biofuel", "western mass rendering",
+    "american by-products", "american by products", "abp recyclers",
+    # Darling
+    "darling ingredients", "darling international", "dar pro", "dar-pro",
+    "valley proteins", "sanimax", "griffin industries", "rothsay",
+    "craig protein", "carolina by-products", "carolina by products",
+    "bakery feeds", "enviroflight", "diamond green diesel", "triple t foods",
+    # Mahoney / Crimson (Neste)
+    "mahoney environmental", "crimson renewable", "sequential environmental",
+    "sequential pacific", "sequential biofuels",
+    # Eazy Grease and subsidiaries
+    "eazy grease", "dht grease", "relentless renewables",
+    "daytona biodiesel", "cleanfri", "liquid recovery solutions",
+    "green nature recycling",
+    # Public-co consolidators
+    "barrel energy", "happy traps",
+    # Other PE-backed platforms
+    "momentum environmental", "septic blue",
+    "heritage-crystal clean", "heritage crystal clean", "crystal clean",
+    "patriot environmental", "fcc environmental", "envirosafe services",
+    "denali water", "synagro", "tradebe", "hepaco",
+    "chuck's septic", "chucks septic", "cst utilities",
+    "restaurant technologies",
 ]]
+
+# ct values that the upstream ownership.py assigns to brand-matched
+# facilities. Records with these codes are confirmed consolidators.
+_BRAND_TAGGED_CTS = {
+    "LES", "WRE", "BAK", "DAR", "MAH", "MOM", "SEP", "BAR", "EAZ", "PE",
+}
+
+# Stricter municipal filter — only excludes names that START with a
+# city/county/town/etc indicator, OR contain specific authority/district
+# terms. Avoids excluding private companies that just happen to contain
+# the word "city" (e.g., "All City Environmental").
+_MUNICIPAL_STARTS_WITH = [
+    "city of ", "county of ", "town of ", "village of ", "borough of ",
+    "township of ",
+]
+_MUNICIPAL_CONTAINS = [
+    "water authority", "water district",
+    "sewer district", "sewer authority", "sewerage authority",
+    "sanitation district", "wastewater district",
+    "metropolitan sewer", "regional sewer",
+    "municipal utility", "public utilities", "public works",
+]
 
 _CORE_FOG_TERMS = [s.lower() for s in [
     "grease", "FOG", "cooking oil", "UCO", "liquid waste",
@@ -255,16 +337,59 @@ _NAICS_KEEP_REGARDLESS = {"562991", "311613"}      # Septic + Rendering
 _NAICS_AMBIGUOUS = {"562219", "562111", "221320"}  # Need FOG-positive name
 
 
+def _is_municipal_strict(name_low: str) -> bool:
+    """Stricter municipal check (Issue 5 redesign). Only matches if the
+    name STARTS with a city/county/town indicator, OR contains specific
+    authority/district phrases. Avoids excluding private companies
+    that incidentally contain the word "city"."""
+    name_low = name_low.strip()
+    for s in _MUNICIPAL_STARTS_WITH:
+        if name_low.startswith(s):
+            return True
+    for t in _MUNICIPAL_CONTAINS:
+        if t in name_low:
+            return True
+    return False
+
+
+def _is_consolidator(record: dict) -> bool:
+    """True if this facility is associated with a known industry
+    consolidator. Two paths: the upstream brand-tag ct code, OR a
+    substring match against the consolidator brand list. Either is
+    sufficient — consolidator override is absolute."""
+    if record.get("ct") in _BRAND_TAGGED_CTS:
+        return True
+    text = ((record.get("n") or "") + " " +
+            (record.get("op") or "") + " " +
+            (record.get("ot") or "")).lower()
+    return any(b in text for b in _CONSOLIDATOR_BRANDS)
+
+
 def filter_to_fog_only(records: list[dict]) -> tuple[list[dict], dict[str, int]]:
-    """Return (filtered_records, counts). counts breaks out how many
-    records were dropped under each rule and how many survived under each
-    keep rule, so the operator can see what the filter is doing."""
+    """Return (filtered_records, counts).
+
+    Issue-5 redesign: lean inclusive.
+      1. Consolidator override — known brands always kept (absolute).
+      2. POTW name pattern → drop (those go in the WWTP layer).
+      3. Strict municipal check (starts-with) → drop.
+      4. Negative keyword (without rescuing positive) → drop.
+      5. NAICS 562991 / 311613 → keep regardless.
+      6. NAICS 562219 → KEEP (no positive-keyword requirement, the
+         previous overhaul's biggest miss; many real FOG operators have
+         generic environmental-services names).
+      7. NAICS 562111 / 221320 → keep ONLY if positive keyword present
+         (these include garbage trucks and municipal sewage; too broad
+         without a keyword filter).
+      8. No relevant NAICS → keep ONLY if positive keyword present.
+    """
     counts: dict[str, int] = {
+        "kept_consolidator_override": 0,
         "kept_naics_core": 0,
-        "kept_ambig_naics_with_keyword": 0,
+        "kept_naics_562219": 0,
+        "kept_naics_562111_with_keyword": 0,
         "kept_keyword_only": 0,
         "removed_potw": 0,
-        "removed_solid_waste_company": 0,
+        "removed_municipal_strict": 0,
         "removed_negative_keyword": 0,
         "removed_no_fog_signal": 0,
     }
@@ -272,48 +397,55 @@ def filter_to_fog_only(records: list[dict]) -> tuple[list[dict], dict[str, int]]
 
     for r in records:
         name = (r.get("n") or "").lower()
-        op = (r.get("op") or "").lower()
-        ot = (r.get("ot") or "").lower()
         naics_str = (r.get("na") or "")
         naics = {p.strip() for p in re.split(r"[;,]", naics_str) if p.strip()}
 
-        owner_text = name + " " + op + " " + ot
-        is_potw = any(p in name for p in _POTW_NAME_PATTERNS)
-        is_solid_waste_co = any(c in owner_text for c in _SOLID_WASTE_COMPANY_PATTERNS)
-        has_core_fog = any(t in name for t in _CORE_FOG_TERMS)
-        has_negative = any(kw in name for kw in _NEGATIVE_KEYWORDS)
-        has_positive = any(kw in name for kw in _FOG_POSITIVE_KEYWORDS)
+        # 1. Consolidator override — absolute.
+        if _is_consolidator(r):
+            out.append(r)
+            counts["kept_consolidator_override"] += 1
+            continue
 
-        # Step 0: POTW name pattern — these are municipal sewage treatment
-        # plants already covered by the WWTP layer. Highest-priority cut.
-        if is_potw:
+        # 2. POTW patterns → WWTP layer, not FOG.
+        if any(p in name for p in _POTW_NAME_PATTERNS):
             counts["removed_potw"] += 1
             continue
 
-        # Step 4: solid-waste-company filter is the strictest cut; runs first.
-        if is_solid_waste_co and not has_core_fog:
-            counts["removed_solid_waste_company"] += 1
+        # 3. Strict municipal check.
+        if _is_municipal_strict(name):
+            counts["removed_municipal_strict"] += 1
             continue
 
-        # Step 2: hard-negative keyword unless rescued by FOG-positive term.
+        has_negative = any(kw in name for kw in _NEGATIVE_KEYWORDS)
+        has_positive = any(kw in name for kw in _FOG_POSITIVE_KEYWORDS)
+
+        # 4. Negative keyword unless rescued by positive.
         if has_negative and not has_positive:
             counts["removed_negative_keyword"] += 1
             continue
 
-        # Step 3: NAICS-based decisions.
-        if naics & _NAICS_KEEP_REGARDLESS:
+        # 5. Core FOG NAICS — keep regardless.
+        if "562991" in naics or "311613" in naics:
             out.append(r)
             counts["kept_naics_core"] += 1
             continue
-        if naics & _NAICS_AMBIGUOUS:
+
+        # 6. NAICS 562219 — keep without positive-keyword requirement.
+        if "562219" in naics:
+            out.append(r)
+            counts["kept_naics_562219"] += 1
+            continue
+
+        # 7. NAICS 562111 / 221320 — too broad; require positive keyword.
+        if "562111" in naics or "221320" in naics:
             if has_positive:
                 out.append(r)
-                counts["kept_ambig_naics_with_keyword"] += 1
+                counts["kept_naics_562111_with_keyword"] += 1
             else:
                 counts["removed_no_fog_signal"] += 1
             continue
 
-        # No relevant NAICS — must have a FOG-positive keyword to survive.
+        # 8. No relevant NAICS — require positive keyword.
         if has_positive:
             out.append(r)
             counts["kept_keyword_only"] += 1
@@ -650,23 +782,36 @@ _OVERLAYS_HTML = """
 
 
 def patch_filter_panel(body_inner: str) -> str:
-    """1. Strip the legacy 'Facility type' radio buttons + the
-       toggle-pumpers-lowzoom checkbox (no longer functional now that
-       processing plants and collection operators are separate layers).
-       2. Strip the legacy 'Layers' section (the duplicate WWTP toggle
-       was bypassing the new Entity Type section). Tier 2 moves into a
-       new Overlays section below.
-       3. Insert the Entity Type section + Overlays right before the
-       Base map section."""
+    """Filter panel layout (Issue 2: Entity Type at the TOP):
+       1. Strip the legacy 'Facility type' radio buttons + the
+          toggle-pumpers-lowzoom checkbox (replaced by Entity Type
+          master toggles below).
+       2. Strip the legacy 'Layers' section (duplicate WWTP toggle).
+          Tier 2 moves to a new Overlays section.
+       3. Insert Entity Type at the very top of the panel body (before
+          Search). Entity Type is the primary control — clicking
+          "Processing Plants" should make plants appear immediately
+          regardless of where ownership filters were left.
+       4. Insert Overlays + Service-HQ stubs right before Base map.
+    """
     body_inner, n = _LEGACY_ENTITY_MODE_RX.subn(_LEGACY_HIDDEN_FORM, body_inner, count=1)
     if n != 1:
         sys.stderr.write("WARNING: legacy Facility type block not found\n")
     body_inner, n = _LEGACY_LAYERS_RX.subn(_LEGACY_LAYERS_HIDDEN, body_inner, count=1)
     if n != 1:
         sys.stderr.write("WARNING: legacy Layers block not found\n")
+
+    # Entity Type at the top of panel-body (right after the open tag,
+    # before <h4>Search facility name</h4>).
+    body_inner = body_inner.replace(
+        '<h4>Search facility name</h4>',
+        _COLLECTION_FILTER_HTML + "\n    <h4>Search facility name</h4>",
+        1,
+    )
+    # Overlays + service-HQ stubs at the bottom (right before Base map).
     body_inner = body_inner.replace(
         "<h4>Base map</h4>",
-        _COLLECTION_FILTER_HTML + _OVERLAYS_HTML + _SERVICE_HQ_FILTER_HTML + "\n    <h4>Base map</h4>",
+        _OVERLAYS_HTML + _SERVICE_HQ_FILTER_HTML + "\n    <h4>Base map</h4>",
         1,
     )
     return body_inner
@@ -826,11 +971,23 @@ def build_entity_type_script() -> str:
     }
   });
 
-  // 6) Master toggle wiring
+  // 6) Master toggle wiring. When the user turns Plants or Collection
+  //    Operators ON, also tick ALL ownership checkboxes (Issue 2 — the
+  //    entity-type master is the broad switch; the user expects to
+  //    SEE results when they click it, not have nothing show because
+  //    they previously left ownership unchecked). WWTPs are
+  //    independent of ownership.
+  function tickAllOwnership() {
+    document.querySelectorAll('#owner-toggles input[type="checkbox"]').forEach(function(cb) {
+      cb.checked = true;
+    });
+  }
   if (plantCb) plantCb.addEventListener('change', function() {
+    if (plantCb.checked) tickAllOwnership();
     refreshAllCategories();  // patched version handles everything
   });
   if (collCb) collCb.addEventListener('change', function() {
+    if (collCb.checked) tickAllOwnership();
     applyCollectionFilter();
     updateLegendCounters();
   });
@@ -1169,21 +1326,50 @@ def patch_collection_legend(body_inner: str) -> str:
     )
 
 
+_CONSOLIDATOR_SUPPLEMENTS_JSON = os.path.join(ROOT, "data", "consolidator_supplements.json")
+
+
+def _load_consolidator_supplements() -> list[dict]:
+    """Records recovered from raw FRS via brand-match scan that the
+    upstream filter_facilities.py dropped. Generated by
+    scripts/extract_consolidator_supplements.py and committed to the
+    repo so build_index.py doesn't need pandas at build time."""
+    if not os.path.exists(_CONSOLIDATOR_SUPPLEMENTS_JSON):
+        return []
+    with open(_CONSOLIDATOR_SUPPLEMENTS_JSON, encoding="utf-8") as f:
+        return json.load(f)
+
+
 def patch_facility_data(
     scripts: str,
 ) -> tuple[str, dict[str, int], dict[str, int], list[dict]]:
-    """Find the FOG_DATA literal in the script block, parse it, apply the
-    FOG-only filter, run public-company / Eazy Grease reclassification on
-    survivors, then strip pumpers (those move to COLLECTION_DATA), and
-    write the plants-only result back. Returns (scripts, public_counts,
-    filter_counts, kept_records). kept_records is the plants-only
-    dataset embedded as FOG_DATA."""
+    """Find the FOG_DATA literal in the script block, parse it, merge
+    consolidator supplemental records, apply the FOG-only filter, run
+    public-company / Eazy Grease reclassification on survivors, strip
+    pumpers (they move to COLLECTION_DATA), write the plants-only
+    result back."""
     m = re.search(r"const FOG_DATA = (\[.*?\]);\s*\n", scripts, flags=re.DOTALL)
     if not m:
         sys.stderr.write("WARNING: FOG_DATA literal not found; skipping filter+reclassification\n")
         return scripts, {}, {}, []
     raw = m.group(1)
     records = json.loads(raw)
+    upstream_count = len(records)
+
+    # Merge supplemental consolidator records (already deduped by REGISTRY_ID
+    # at extraction time — see scripts/extract_consolidator_supplements.py).
+    supplements = _load_consolidator_supplements()
+    if supplements:
+        existing_ids = {r.get("i", "") for r in records}
+        added = 0
+        for s in supplements:
+            if s.get("i") and s["i"] not in existing_ids:
+                records.append(s)
+                existing_ids.add(s["i"])
+                added += 1
+        print(f"Merged {added:,} consolidator supplements into FOG_DATA "
+              f"(upstream: {upstream_count:,}, total: {len(records):,})")
+
     before = len(records)
 
     records, filter_counts = filter_to_fog_only(records)
@@ -2098,17 +2284,21 @@ def main() -> int:
         print("  Removed by rule:")
         print(f"    {filter_counts.get('removed_potw', 0):>5}  "
               "POTW name pattern (already covered by WWTP layer)")
-        print(f"    {filter_counts.get('removed_solid_waste_company', 0):>5}  "
-              "solid-waste-company owner without core-FOG term in name")
+        print(f"    {filter_counts.get('removed_municipal_strict', 0):>5}  "
+              "municipal entity (starts with City of / etc.)")
         print(f"    {filter_counts.get('removed_negative_keyword', 0):>5}  "
               "negative-keyword name (landfill / recycling / hazardous / etc.)")
         print(f"    {filter_counts.get('removed_no_fog_signal', 0):>5}  "
-              "ambiguous NAICS / no FOG-positive keyword in name")
+              "562111/221320 or no NAICS, and no FOG-positive keyword")
         print("  Kept by rule:")
+        print(f"    {filter_counts.get('kept_consolidator_override', 0):>5}  "
+              "consolidator override (LES / WRE / Baker / Darling / etc.)")
         print(f"    {filter_counts.get('kept_naics_core', 0):>5}  "
               "NAICS 562991 (septic) or 311613 (rendering) — kept regardless")
-        print(f"    {filter_counts.get('kept_ambig_naics_with_keyword', 0):>5}  "
-              "NAICS 562219 / 562111 / 221320 with FOG-positive keyword")
+        print(f"    {filter_counts.get('kept_naics_562219', 0):>5}  "
+              "NAICS 562219 — kept without keyword requirement (Issue 5)")
+        print(f"    {filter_counts.get('kept_naics_562111_with_keyword', 0):>5}  "
+              "NAICS 562111 / 221320 with FOG-positive keyword")
         print(f"    {filter_counts.get('kept_keyword_only', 0):>5}  "
               "no relevant NAICS but FOG-positive keyword in name")
 
