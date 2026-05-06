@@ -46,6 +46,25 @@
     "date_confidence": "verified"
   },
   {
+    "date": "2026-04-02",
+    "target": "New Orleans Grease Trap Cleaning (NOL)",
+    "acquirer": "Liquid Environmental Solutions (LES)",
+    "sponsor": "",
+    "location": "New Orleans, Louisiana",
+    "deal_type": "Add-On",
+    "deal_size": "Undisclosed",
+    "multiple": "N/A",
+    "services": "",
+    "source": "Waste Today Magazine",
+    "source_url": "https://www.wastetodaymagazine.com/news/liquid-environmental-solutions-new-orleans-acquisition/",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "Unknown",
+    "deal_summary": null,
+    "date_confidence": "verified",
+    "notes": "<cite index=\"1-1,1-2\">Irving, Texas-based Liquid Environmental Solutions (LES) acquired New Orleans Grease Trap Cleaning (NOL), a grease trap and used cooking oil cleaning services provider.</cite> <cite index=\"1-3\">Founded in New Orleans in 2015, NOL will be added to LES' network of nonhazardous wastewater collection facilities.</cite>"
+  },
+  {
     "date": "2026-03-20",
     "target": "J&M Transfer, Inc.",
     "acquirer": "Wind River Environmental",
@@ -89,6 +108,25 @@
       "Private equity firm Seekye Capital announced its inaugural acquisition creating a comprehensive wastewater and environmental services platform. The deal brings together soil/environmental consulting, septic services, and environmental lab capabilities."
     ],
     "date_confidence": "verified"
+  },
+  {
+    "date": "2025-12-15",
+    "target": "Frontier Waste Solutions",
+    "acquirer": "GFL Environmental",
+    "sponsor": "",
+    "location": "Texas",
+    "deal_type": "Add-On",
+    "deal_size": "Undisclosed",
+    "multiple": "N/A",
+    "services": "",
+    "source": "GFL Environmental Q1 2026 Earnings",
+    "source_url": "https://www.prnewswire.com/news-releases/gfl-environmental-reports-first-quarter-2026-results-and-raises-full-year-2026-guidance-302757879.html",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "Unknown",
+    "deal_summary": null,
+    "date_confidence": "approximate",
+    "notes": "<cite index=\"36-8,36-9\">GFL completed Frontier Waste Solutions acquisition in early April as a leading vertically integrated solid waste business across the Texas Triangle.</cite> <cite index=\"32-2\">The company completed eight acquisitions since the start of the year, adding an estimated $425 million to $450 million in annualized revenue.</cite>"
   },
   {
     "date": "2025-12-01",
@@ -275,6 +313,25 @@
     "notes": "Announcement of the LES platform sale; companion to the September 2025 close.",
     "date_confidence": "verified",
     "source_confidence": "verified"
+  },
+  {
+    "date": "2025-07-22",
+    "target": "Liquid Environmental Solutions (LES)",
+    "acquirer": "Goldman Sachs Infrastructure / Infrastructure at Goldman Sachs Alternatives",
+    "sponsor": "Audax Private Equity",
+    "location": "",
+    "deal_type": "Add-On",
+    "deal_size": "Undisclosed",
+    "multiple": "N/A",
+    "services": "",
+    "source": "Research and Markets / Grease Trapper Market Report",
+    "source_url": "https://www.researchandmarkets.com/reports/6010578/grease-trapper-global-market-insights-analysis",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "Unknown",
+    "deal_summary": null,
+    "date_confidence": "approximate",
+    "notes": "<cite index=\"8-13\">Infrastructure at Goldman Sachs Alternatives announced definitive agreement to acquire Liquid Environmental Solutions, a leading provider of non-hazardous liquid waste management services in the United States, from Audax Private Equity.</cite> <cite index=\"8-14,8-15\">Founded in 2002, LES is a leading national service provider managing non-hazardous liquid waste including grease traps, oil water separators, used cooking oil and other non-hazardous liquid waste.</cite>"
   },
   {
     "date": "2025-07-20",
