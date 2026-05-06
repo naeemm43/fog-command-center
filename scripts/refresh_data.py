@@ -469,6 +469,19 @@ def valid_iso_date(s: str) -> bool:
         return False
 
 
+def is_future_date(s: str) -> bool:
+    """True if the ISO date string is later than today (UTC).
+    Used to flag the model occasionally extracting tomorrow's date or
+    the search-index date instead of the actual publication date."""
+    if not valid_iso_date(s):
+        return False
+    try:
+        dt = datetime.fromisoformat(s).date()
+    except ValueError:
+        return False
+    return dt > datetime.now(timezone.utc).date()
+
+
 def is_duplicate_news(item: dict, existing: list[dict]) -> bool:
     h = item.get("headline", "")
     norm = normalize_headline(h)
@@ -672,13 +685,19 @@ Seed searches (one example per category, for inspiration only — synthesize you
 {window_note}
 
 For each result return a JSON object:
-- date (YYYY-MM-DD) — MUST come from the article body, not today's date or the search index date. If only a month is given, use the 15th. If you cannot determine the date from the article body, OMIT the result.
+- date (YYYY-MM-DD) — the PUBLICATION DATE of the article, taken from the article body. NEVER a date in the future relative to {today}. If only a month is given, use the first of the month. If you cannot determine the date from the article body, OMIT the result rather than guessing. Watch out for date format ambiguity: "3/15" is March 15, not May 15.
 - headline
 - source (publication name)
 - source_url — the EXACT article URL deep-linked to the specific article. NEVER a homepage like "https://example.com" or a generic "/news" listing. If you only have a homepage, OMIT the result.
 - category — exactly one of: {", ".join('"' + c + '"' for c in NEWS_CATEGORIES)}
 - summary (2-3 sentences)
-- relevance_score — integer 1 to 5, where 5 = directly impacts FOG / grease-trap roll-up strategy, 1 = tangentially relevant.
+- relevance_score — integer 1 to 5 using these strict criteria:
+    5 = Directly about the FOG / grease-trap / liquid-waste / UCO / septic / rendering industry AND names a specific company in the space (LES, Wind River, Darling, Mahoney, Eazy Grease, etc.) or a specific deal in it.
+    4 = Directly impacts FOG economics — e.g., renewable diesel policy affecting UCO prices, a specific municipal FOG ordinance, Darling/DAR PRO earnings with FOG-segment data, IoT grease-trap technology.
+    3 = Closely adjacent — e.g., environmental services M&A broadly, waste-industry regulation that includes liquid waste, restaurant industry data with FOG implications.
+    2 = Tangentially relevant — e.g., general trucking/CDL driver shortage, broad EPA policy, general PE deal activity in services, broad solid-waste M&A.
+    1 = Loosely related — e.g., general economic news, broad sustainability trends.
+  Only mark 4 or 5 if the article SPECIFICALLY discusses grease, FOG, liquid waste, UCO, septic, rendering, or names a company in this space. A general article about truck-driver shortages or broad waste-industry trends is a 2, NEVER a 4.
 - is_deal — true ONLY for M&A transactions
 - buyer, target, sponsor, location — for M&A only
 - deal_size, multiple, deal_summary, owner_classification — for M&A only (see prior convention)
@@ -777,12 +796,23 @@ def normalize_category(raw_cat: str | None) -> str:
 
 def coerce_news_item(raw: dict) -> dict | None:
     """Normalize a search result into the news_feed.json schema. Rejects
-    items with malformed dates or homepage-like source URLs."""
+    items with malformed dates or homepage-like source URLs. Tags items
+    with future-dated 'publication date' as [Date unverified]."""
     if not raw.get("headline") or not raw.get("date"):
         return None
     if not valid_iso_date(raw["date"]):
         sys.stderr.write(f"reject (bad date): {raw.get('headline','')[:80]} — date={raw['date']!r}\n")
         return None
+    headline = raw["headline"]
+    item_date = raw["date"]
+    # Future-date guard: model occasionally returns tomorrow's date or a
+    # search-index date that's after today. Don't reject — keep the item
+    # but null the date and tag the headline so the analyst sees it.
+    if is_future_date(item_date):
+        sys.stderr.write(f"future date flagged: {headline[:80]} — date={item_date!r}\n")
+        item_date = None  # null out
+        if not headline.startswith("[Date unverified]"):
+            headline = "[Date unverified] " + headline
     src_url = (raw.get("source_url") or "").strip()
     if src_url and looks_like_homepage(src_url):
         sys.stderr.write(f"reject (homepage URL): {raw.get('headline','')[:80]} — url={src_url}\n")
@@ -794,8 +824,8 @@ def coerce_news_item(raw: dict) -> dict | None:
         relevance = 3
     relevance = max(1, min(5, relevance))
     item: dict = {
-        "date": raw["date"],
-        "headline": clean_summary(raw["headline"]) or raw["headline"],
+        "date": item_date,
+        "headline": clean_summary(headline) or headline,
         "source": raw.get("source", ""),
         "source_url": src_url,
         "category": cat,
