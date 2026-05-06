@@ -440,12 +440,28 @@ def search_for_updates(queries: list[str] | None = None,
 
     prompt = _build_search_prompt(today, year, qs, note)
 
-    response = client.messages.create(
-        model="claude-sonnet-4-20250514",
-        max_tokens=16384,
-        tools=[{"type": "web_search_20250305", "name": "web_search"}],
-        messages=[{"role": "user", "content": prompt}],
-    )
+    # Haiku 4.5 has a separate rate-limit pool from Sonnet and is plenty
+    # capable for web-search synthesis. The Sonnet pool tops out at 30k
+    # input tokens/min on this org tier and was hitting that ceiling
+    # because the web_search tool-call loop compounds input across turns.
+    import time
+    response = None
+    for attempt in range(3):
+        try:
+            response = client.messages.create(
+                model="claude-haiku-4-5-20251001",
+                max_tokens=16384,
+                tools=[{"type": "web_search_20250305", "name": "web_search"}],
+                messages=[{"role": "user", "content": prompt}],
+            )
+            break
+        except anthropic.RateLimitError as e:
+            wait = 30 * (attempt + 1)
+            sys.stderr.write(f"rate-limited (attempt {attempt+1}/3); sleeping {wait}s — {e}\n")
+            time.sleep(wait)
+    if response is None:
+        sys.stderr.write("Anthropic rate limit exhausted after retries; giving up this run.\n")
+        return []
 
     text_parts = [b.text for b in response.content if hasattr(b, "text")]
     full_text = "\n".join(text_parts)
