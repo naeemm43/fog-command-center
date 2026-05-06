@@ -646,12 +646,10 @@ CATCHUP_QUERIES = [
 
 
 def _build_search_prompt(today: str, year: int, queries: list[str], window_note: str) -> str:
-    """Build the broad 10-category industry-briefing prompt.
-
-    `queries` is treated as a starting hint set rather than a strict
-    enumeration — the model is told to use these as seeds and run its own
-    targeted searches per category.
-    """
+    """Legacy single-call prompt covering all 10 categories. Kept for the
+    catchup script which uses one big sweep. The daily-refresh path now
+    uses _build_category_prompt for per-category focused calls — see
+    Bug 1 fix in search_for_updates."""
     # Compact seeds — one example per category. The full list lives in
     # SEARCH_QUERIES for reference; pasting them all in led to runaway
     # tool-call loops that exhausted the context window.
@@ -706,50 +704,52 @@ For each result return a JSON object:
 Target volume: 15-30 distinct items per refresh, spread across all 10 categories. Skip press releases that are thinly disguised advertisements. Prioritize specificity (a specific city's new FOG ordinance is more valuable than a "sustainability trends" overview). Return ONLY a JSON array; no surrounding prose."""
 
 
-def search_for_updates(queries: list[str] | None = None,
-                        window_note: str | None = None) -> list[dict]:
-    """Ask Claude (with web_search tool) for industry news.
+def _build_category_prompt(today: str, year: int, category: str,
+                            cat_queries: list[str], window_note: str) -> str:
+    """Focused prompt for a single news category. Each call asks for a
+    bounded number of results so a 10-category daily refresh fits in
+    max_tokens=8192 per call without truncation."""
+    seeds = "\n".join(f"  - {q.format(year=year)}" for q in cat_queries[:5])
+    return f"""Today is {today}. Search the web for recent {category} news in the non-hazardous liquid waste / grease trap / FOG / used cooking oil (UCO) / septic / rendering industry in the United States.
 
-    queries:     list of search strings; defaults to EXPANDED_SEARCH_QUERIES.
-    window_note: instruction describing the time window of interest. Defaults
-                 to "last 30 days" for daily refresh.
-    """
+Seed queries (use 2-4 of these as web_search calls — be selective):
+{seeds}
+
+{window_note}
+
+Return MAX 10-15 distinct results as a JSON array. Each object MUST include:
+- date (YYYY-MM-DD) — the PUBLICATION DATE from the article body. NEVER a date in the future relative to {today}. If only a month is given, use the first of the month. If you cannot determine the date from the article body, OMIT the result.
+- headline
+- source (publication name)
+- source_url — exact deep-link to the article. NEVER a homepage like "https://example.com" or a generic "/news" listing. If you only have a homepage, OMIT the result.
+- category — for this run, set to "{category}".
+- summary (2-3 sentences)
+- relevance_score — integer 1-5. Use ONLY 4 or 5 if the item SPECIFICALLY discusses grease, FOG, liquid waste, UCO, septic, rendering, or names a company in this space (LES, Wind River, Darling, etc.). General trucking/CDL or broad solid-waste = 2.
+- is_deal — true ONLY for M&A transactions
+- buyer, target, sponsor, location — for M&A only
+- deal_size, multiple, deal_summary, owner_classification — for M&A only
+- date_confidence — "verified" if from article body, "approximate" if inferred
+
+Skip press releases that are thinly disguised advertisements. Return ONLY a JSON array — no surrounding prose. Use no more than 4 web_search calls; we need to stay well under the response token budget."""
+
+
+def _call_search_api(client, prompt: str, model: str, max_tokens: int):
+    """Make one Claude web_search call and return parsed JSON list (or [])."""
     try:
-        import anthropic
-    except ImportError:
-        sys.stderr.write("anthropic package not installed; skipping web search\n")
+        response = client.messages.create(
+            model=model,
+            max_tokens=max_tokens,
+            tools=[{"type": "web_search_20250305", "name": "web_search"}],
+            messages=[{"role": "user", "content": prompt}],
+        )
+    except Exception as e:
+        sys.stderr.write(f"  API error: {e}\n")
         return []
-
-    if not os.environ.get("ANTHROPIC_API_KEY"):
-        sys.stderr.write("ANTHROPIC_API_KEY not set; skipping web search\n")
-        return []
-
-    client = anthropic.Anthropic()
-    today = datetime.now().strftime("%Y-%m-%d")
-    year = datetime.now().year
-    qs = queries if queries is not None else EXPANDED_SEARCH_QUERIES
-    note = window_note or "Focus on items from the last 30 days."
-
-    prompt = _build_search_prompt(today, year, qs, note)
-
-    # Anthropic's rate limit on this org tier is 30k tokens/minute and
-    # counts max_tokens against the budget — so a single request with
-    # max_tokens=16k is half the entire minute's quota. Use Haiku 4.5
-    # (separate pool from Sonnet) and a tighter max_tokens. The 6-search
-    # cap in the prompt keeps context comfortably under Haiku's 200k cap.
-    response = client.messages.create(
-        model="claude-haiku-4-5-20251001",
-        max_tokens=6144,
-        tools=[{"type": "web_search_20250305", "name": "web_search"}],
-        messages=[{"role": "user", "content": prompt}],
-    )
 
     text_parts = [b.text for b in response.content if hasattr(b, "text")]
     full_text = "\n".join(text_parts)
 
-    # Some responses include both reasoning text and a final JSON array.
-    # Pick the largest balanced JSON array we can find. Fall back to
-    # greedy extraction if that fails.
+    # Pick the largest balanced JSON array we can find.
     candidates: list[str] = []
     for m in re.finditer(r"\[", full_text):
         depth = 0
@@ -771,11 +771,71 @@ def search_for_updates(queries: list[str] | None = None,
             continue
 
     sys.stderr.write(
-        "no parseable JSON array in model response. "
-        f"Response stop_reason={getattr(response, 'stop_reason', '?')}, "
-        f"text length={len(full_text)} chars\n"
+        f"  no parseable JSON array. stop_reason="
+        f"{getattr(response, 'stop_reason', '?')}, text len={len(full_text)}\n"
     )
     return []
+
+
+def search_for_updates(queries: list[str] | None = None,
+                        window_note: str | None = None) -> list[dict]:
+    """Ask Claude (with web_search tool) for industry news.
+
+    Daily-refresh path (queries=None): split into PER-CATEGORY API
+    calls — one focused call per news category — so each response fits
+    well within max_tokens and the model can give each category proper
+    attention. Bug-1 fix: previously a single call covering all 10
+    categories was hitting stop_reason=max_tokens and dropping every
+    result.
+
+    Catchup path (queries=non-None): single call covering the explicit
+    catchup query list. Used by scripts/catchup.py.
+    """
+    try:
+        import anthropic
+    except ImportError:
+        sys.stderr.write("anthropic package not installed; skipping web search\n")
+        return []
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        sys.stderr.write("ANTHROPIC_API_KEY not set; skipping web search\n")
+        return []
+
+    client = anthropic.Anthropic()
+    today = datetime.now().strftime("%Y-%m-%d")
+    year = datetime.now().year
+    note = window_note or "Focus on items from the last 30 days."
+    model = "claude-haiku-4-5-20251001"
+
+    # Catchup path — single big call as before.
+    if queries is not None:
+        prompt = _build_search_prompt(today, year, queries, note)
+        return _call_search_api(client, prompt, model, max_tokens=8192)
+
+    # Daily-refresh path — one API call per category.
+    import time
+    all_results: list[dict] = []
+    cats = list(SEARCH_QUERIES.keys())
+    print(f"Querying {len(cats)} categories sequentially...")
+    for i, cat in enumerate(cats):
+        cat_queries = SEARCH_QUERIES.get(cat, [])
+        if not cat_queries:
+            continue
+        prompt = _build_category_prompt(today, year, cat, cat_queries, note)
+        print(f"  [{i+1}/{len(cats)}] {cat}...")
+        items = _call_search_api(client, prompt, model, max_tokens=8192)
+        # Stamp the canonical category onto every item — the model is
+        # asked to set this but defending against drift is cheap.
+        for it in items:
+            it.setdefault("category", cat)
+        print(f"    returned {len(items)} items")
+        all_results.extend(items)
+        # Pace requests to stay under the 30k input-tokens/minute rate
+        # limit on this account tier (max_tokens counts against ITPM).
+        if i + 1 < len(cats):
+            time.sleep(8)
+
+    print(f"Total raw results across all categories: {len(all_results)}")
+    return all_results
 
 
 # ----------------------------- merging --------------------------------
@@ -993,9 +1053,12 @@ def main() -> int:
             comps.append(d)
             added_deals += 1
 
-    # sort newest-first
-    news.sort(key=lambda x: x.get("date", ""), reverse=True)
-    comps.sort(key=lambda x: x.get("date", ""), reverse=True)
+    # sort newest-first. Coerce None dates to a sentinel — items can land
+    # here with date=None when the model returned a result without a
+    # parseable publication date, and TypeError on None vs str would
+    # crash the whole refresh.
+    news.sort(key=lambda x: x.get("date") or "1900-01-01", reverse=True)
+    comps.sort(key=lambda x: x.get("date") or "1900-01-01", reverse=True)
 
     # archive old news
     news, archived = split_news_by_age(news)
