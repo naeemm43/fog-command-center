@@ -48,8 +48,12 @@ jobs:
           BATCH_SLEEP_S: "65"
         run: python scripts/supplement_operators.py
 
-      - name: Rebuild HTML
-        run: python scripts/build_index.py
+      - name: Splice updated data into docs/index.html
+        # The full build_index.py needs the upstream fog_facility_map.html
+        # which isn't on the runner, so we just splice the
+        # collection_operators.json into the existing HTML between
+        # marker comments.
+        run: python scripts/splice_collection.py
 
       - name: Commit and push
         run: |

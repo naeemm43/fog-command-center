@@ -699,37 +699,66 @@ _BUCKET_COLOR = {
 def inject_collection_layer(scripts: str) -> tuple[str, dict[str, int]]:
     data = _load_collection_data()
 
-    # Per-bucket counts for the filter panel labels.
+    # Per-bucket counts kept here for the build-time summary print only.
+    # The runtime UI computes its own counts from COLLECTION_DATA so the
+    # supplement workflow can splice in updated data without re-running
+    # build_index.py.
     counts: dict[str, int] = {}
     for r in data:
         b = _bucket_for(r.get("o") or "")
         counts[b] = counts.get(b, 0) + 1
 
-    bucket_meta = []
-    for key in ["LES", "WRE", "DAR", "BAK", "EAZ", "MOM", "SEP", "BAR", "Other", "Independent"]:
-        if counts.get(key, 0) > 0:
-            bucket_meta.append({
-                "key": key,
-                "label": _BUCKET_LABEL[key],
-                "color": _BUCKET_COLOR[key],
-                "count": counts[key],
-            })
-
     payload = json.dumps(data, separators=(",", ":"))
-    bucket_payload = json.dumps(bucket_meta)
+    bucket_meta_static = json.dumps([
+        {"key": k, "label": _BUCKET_LABEL[k], "color": _BUCKET_COLOR[k]}
+        for k in ["LES", "WRE", "DAR", "BAK", "EAZ", "MOM", "SEP", "BAR",
+                  "Other", "Independent"]
+    ])
 
     js = f"""
-// ---------- Collection / service operator layer ----------
-// Pumpers, grease-trap haulers, septic services. Smaller markers
-// (radius 5, opacity 0.7) than processing plants (radius 7) so the two
-// layers are visually distinct. Default-OFF master toggle; sub-toggles
-// per owner-type bucket appear once the master is enabled.
+// ---------- Collection / service operator data ----------
+// Pumpers, grease-trap haulers, septic services. The marker-comment
+// pair below lets scripts/splice_collection.py update this block in
+// docs/index.html WITHOUT having to re-run build_index.py from the
+// upstream fog_facility_map.html source.
+// COLLECTION_DATA_START
 const COLLECTION_DATA = {payload};
-const COLLECTION_BUCKETS = {bucket_payload};
+// COLLECTION_DATA_END
+
+// Static bucket metadata (label + color). Counts are computed at
+// runtime from COLLECTION_DATA so they auto-update when the data
+// changes.
+const COLLECTION_BUCKET_META = {bucket_meta_static};
 const collectionClusters = {{}};
 const collectionBucketStates = {{}};
 
 (function() {{
+  // Compute per-bucket counts and prepare the visible bucket list.
+  function bucketKey(o) {{
+    if (!o) return 'Independent';
+    if (o.indexOf('Wind River') === 0) return 'WRE';
+    if (o.indexOf('LES') === 0) return 'LES';
+    if (o.indexOf('Darling') >= 0) return 'DAR';
+    if (o.indexOf('Baker') === 0) return 'BAK';
+    if (o.indexOf('Eazy Grease') >= 0) return 'EAZ';
+    if (o.indexOf('Momentum') === 0) return 'MOM';
+    if (o.indexOf('Septic Blue') >= 0) return 'SEP';
+    if (o.indexOf('Barrel') >= 0) return 'BAR';
+    if (o === 'Independent') return 'Independent';
+    return 'Other';
+  }}
+  const bucketCounts = {{}};
+  COLLECTION_DATA.forEach(function(d) {{
+    const k = bucketKey(d.o);
+    bucketCounts[k] = (bucketCounts[k] || 0) + 1;
+  }});
+  const COLLECTION_BUCKETS = COLLECTION_BUCKET_META
+    .filter(function(b) {{ return (bucketCounts[b.key] || 0) > 0; }})
+    .map(function(b) {{
+      return {{key: b.key, label: b.label, color: b.color,
+              count: bucketCounts[b.key] || 0}};
+    }});
+
   // Build one cluster per bucket so each sub-toggle controls its own.
   COLLECTION_BUCKETS.forEach(function(b) {{
     collectionClusters[b.key] = L.markerClusterGroup({{
@@ -755,19 +784,6 @@ const collectionBucketStates = {{}};
     collectionBucketStates[b.key] = false;
   }});
 
-  function bucketKey(o) {{
-    if (!o) return 'Independent';
-    if (o.indexOf('Wind River') === 0) return 'WRE';
-    if (o.indexOf('LES') === 0) return 'LES';
-    if (o.indexOf('Darling') >= 0) return 'DAR';
-    if (o.indexOf('Baker') === 0) return 'BAK';
-    if (o.indexOf('Eazy Grease') >= 0) return 'EAZ';
-    if (o.indexOf('Momentum') === 0) return 'MOM';
-    if (o.indexOf('Septic Blue') >= 0) return 'SEP';
-    if (o.indexOf('Barrel') >= 0) return 'BAR';
-    if (o === 'Independent') return 'Independent';
-    return 'Other';
-  }}
   function bucketColor(key) {{
     return ({json.dumps(_BUCKET_COLOR)})[key] || '#76D7C4';
   }}
