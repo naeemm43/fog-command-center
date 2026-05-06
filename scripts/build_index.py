@@ -2032,10 +2032,10 @@ def patch_facility_data(
     scripts: str,
 ) -> tuple[str, dict[str, int], dict[str, int], list[dict]]:
     """Find the FOG_DATA literal in the script block, parse it, merge
-    consolidator supplemental records, apply the FOG-only filter, run
-    public-company / Eazy Grease reclassification on survivors, strip
-    pumpers (they move to COLLECTION_DATA), write the plants-only
-    result back."""
+    consolidator supplemental records, fix coord/state mismatches,
+    apply the FOG-only filter, run public-company / Eazy Grease
+    reclassification on survivors, strip pumpers (they move to
+    COLLECTION_DATA), write the plants-only result back."""
     m = re.search(r"const FOG_DATA = (\[.*?\]);\s*\n", scripts, flags=re.DOTALL)
     if not m:
         sys.stderr.write("WARNING: FOG_DATA literal not found; skipping filter+reclassification\n")
@@ -2057,6 +2057,21 @@ def patch_facility_data(
                 added += 1
         print(f"Merged {added:,} consolidator supplements into FOG_DATA "
               f"(upstream: {upstream_count:,}, total: {len(records):,})")
+
+    # Fix coord/state mismatches — EPA FRS occasionally has rows whose
+    # lat/lng falls outside the listed state's bounding box. ZIP centroid
+    # lookup first, then state centroid. See scripts/fix_state_coords.py
+    # for the same logic applied to data/collection_operators.json.
+    try:
+        sys.path.insert(0, os.path.join(ROOT, "scripts"))
+        import fix_state_coords as _fix
+        mis, fzip, fst, bad = _fix.fix_records(records)
+        if mis:
+            print(f"Coord fix: {mis:,} state mismatches → "
+                  f"{fzip:,} fixed via ZIP, {fst:,} via state centroid, "
+                  f"{len(bad):,} unfixable")
+    except Exception as e:
+        sys.stderr.write(f"WARNING: coord fix failed: {e}\n")
 
     before = len(records)
 
