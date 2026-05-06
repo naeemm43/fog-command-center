@@ -368,14 +368,14 @@ def _build_search_prompt(today: str, year: int, queries: list[str], window_note:
     enumeration — the model is told to use these as seeds and run its own
     targeted searches per category.
     """
-    # Compact seeds — show only 2 examples per category. The full list
-    # lives in SEARCH_QUERIES for reference but pasting all 60+ into the
-    # prompt led to the model exhausting its token budget on tool calls.
+    # Compact seeds — one example per category. The full list lives in
+    # SEARCH_QUERIES for reference; pasting them all in led to runaway
+    # tool-call loops that exhausted the context window.
     seed_block = []
     for cat in NEWS_CATEGORIES:
-        sample = [q.format(year=year) for q in SEARCH_QUERIES.get(cat, [])][:2]
+        sample = [q.format(year=year) for q in SEARCH_QUERIES.get(cat, [])][:1]
         if sample:
-            seed_block.append(f"  {cat}: " + " | ".join(sample))
+            seed_block.append(f"  {cat}: {sample[0]}")
     seeds = "\n".join(seed_block)
 
     return f"""Today is {today}. You are populating an industry-briefing news feed for the non-hazardous liquid waste, grease trap (FOG), used cooking oil (UCO), septic services, and related environmental services industry in the United States.
@@ -393,7 +393,9 @@ Cover ALL of these 10 categories (do not focus only on M&A):
 9.  Industry Events — WWETT Show, Pumper.com, Waste360, Waste Today features, Water Environment Federation, National Pretreatment Conference, Environmental Business Journal reports.
 10. ESG — circular economy involving FOG waste, sustainability reporting requirements, carbon credit markets for FOG, Scope 3 tracking by food service.
 
-Seed searches per category (use the web_search tool, but be SELECTIVE — pick the 15-25 most promising searches across all categories rather than running everything below; the goal is breadth-of-coverage, not exhaustive enumeration):
+CRITICAL: do NO MORE than 12 web_search calls total. Pick the most promising searches across categories — breadth of coverage matters more than depth. Each search response can be very long; do not chain extensive follow-up searches.
+
+Seed searches (one example per category, for inspiration only — synthesize your own queries as needed):
 {seeds}
 
 {window_note}
@@ -440,16 +442,17 @@ def search_for_updates(queries: list[str] | None = None,
 
     prompt = _build_search_prompt(today, year, qs, note)
 
-    # Haiku 4.5 has a separate rate-limit pool from Sonnet and is plenty
-    # capable for web-search synthesis. The Sonnet pool tops out at 30k
-    # input tokens/min on this org tier and was hitting that ceiling
-    # because the web_search tool-call loop compounds input across turns.
+    # Sonnet 4.6 has a 1M context window, which matters when the
+    # web_search tool-call loop accumulates substantial cumulative
+    # context (Haiku 4.5's 200k cap was getting blown out). It also
+    # uses a separate rate-limit pool from Sonnet 4. Retry on rate
+    # limit with backoff.
     import time
     response = None
     for attempt in range(3):
         try:
             response = client.messages.create(
-                model="claude-haiku-4-5-20251001",
+                model="claude-sonnet-4-6",
                 max_tokens=16384,
                 tools=[{"type": "web_search_20250305", "name": "web_search"}],
                 messages=[{"role": "user", "content": prompt}],
