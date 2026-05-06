@@ -398,13 +398,14 @@ html, body {
       <button onclick="setAllOwnerToggles(false)">None</button>
     </h4>
     <div id="owner-toggles"></div>
-
-    <h4>Facility type</h4>
-    <label><input type="radio" name="entity-mode" value="both" checked /> Both plants &amp; pumpers</label>
-    <label><input type="radio" name="entity-mode" value="plant" /> Plants only (treatment / processing)</label>
-    <label><input type="radio" name="entity-mode" value="pumper" /> Pumpers only (vacuum-truck / septic)</label>
-    <label style="margin-top:4px;"><input type="checkbox" id="toggle-pumpers-lowzoom" /> Show pumpers at all zoom levels</label>
-    <div class="muted">By default, pumpers are hidden when zoomed out (zoom &lt; 7) to reduce clutter.</div>
+    <!-- Legacy controls hidden — replaced by the per-layer toggles below.
+         Kept in the DOM so the existing map JS keeps working. -->
+    <span style="display:none;">
+      <input type="radio" name="entity-mode" value="both" checked />
+      <input type="radio" name="entity-mode" value="plant" />
+      <input type="radio" name="entity-mode" value="pumper" />
+      <input type="checkbox" id="toggle-pumpers-lowzoom" />
+    </span>
 
     <h4>Layers</h4>
     <label><input type="checkbox" id="toggle-wwtp" /> Show municipal WWTPs</label>
@@ -474,7 +475,7 @@ html, body {
 <!-- METADATA_START -->
 <script>
 const metadata = {
-  "lastRefreshed": "2026-05-06T02:32:22Z",
+  "lastRefreshed": "2026-05-06T02:45:45Z",
   "newsCount": 27,
   "compCount": 57
 };

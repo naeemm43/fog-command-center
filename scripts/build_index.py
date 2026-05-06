@@ -567,9 +567,41 @@ _COLLECTION_FILTER_HTML = """
 """
 
 
+_LEGACY_ENTITY_MODE_RX = re.compile(
+    r"\s*<h4>Facility type</h4>\s*"
+    r"(?:<label[^>]*>[^<]*<input[^>]*name=\"entity-mode\"[^>]*/>[^<]*</label>\s*){3}"
+    r"<label[^>]*><input[^>]*id=\"toggle-pumpers-lowzoom\"[^>]*/>[^<]*</label>\s*"
+    r"<div class=\"muted\">[^<]*</div>",
+    re.DOTALL,
+)
+
+# Hidden form controls — the original map's JS still reads these element
+# IDs / radios in 6 places (cluster show/hide on tab/zoom/state-filter
+# changes). Keep them invisible-but-present with defaults that match the
+# old "Both" + "low-zoom-pumpers-hidden" behavior. The visible UI for
+# this section is now the separate layer toggles for Processing Plants
+# and Collection Operators (added in later patches).
+_LEGACY_HIDDEN_FORM = """
+    <!-- Legacy controls hidden — replaced by the per-layer toggles below.
+         Kept in the DOM so the existing map JS keeps working. -->
+    <span style="display:none;">
+      <input type="radio" name="entity-mode" value="both" checked />
+      <input type="radio" name="entity-mode" value="plant" />
+      <input type="radio" name="entity-mode" value="pumper" />
+      <input type="checkbox" id="toggle-pumpers-lowzoom" />
+    </span>"""
+
+
 def patch_filter_panel(body_inner: str) -> str:
-    """Insert the collection-only-platforms checkboxes into the filter
-    panel, right before the Base map section."""
+    """1. Strip the legacy 'Facility type' radio buttons + the
+       toggle-pumpers-lowzoom checkbox (no longer functional now that
+       processing plants and collection operators are separate layers).
+       2. Insert the collection-only-platforms checkboxes + the
+       service-HQ checkboxes right before the Base map section."""
+    body_inner, n = _LEGACY_ENTITY_MODE_RX.subn(_LEGACY_HIDDEN_FORM, body_inner, count=1)
+    if n != 1:
+        sys.stderr.write("WARNING: legacy Facility type block not found "
+                         "(may already have been stripped)\n")
     body_inner = body_inner.replace(
         "<h4>Base map</h4>",
         _COLLECTION_FILTER_HTML + _SERVICE_HQ_FILTER_HTML + "\n    <h4>Base map</h4>",
