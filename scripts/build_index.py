@@ -478,7 +478,149 @@ def patch_legend(body_inner: str) -> str:
         body_inner,
         count=1,
     )
+    # Insert collection-only platforms row right after the WWTP row.
+    diamond_row = (
+        '\n      <tr><td><span class="legend-diamond" style="background:#6C3483;"></span></td>'
+        '<td>Collection-only platforms (hidden by default)</td></tr>'
+    )
+    body_inner = re.sub(
+        r'(<tr><td><span class="swatch-d"></span></td><td>Municipal WWTP \(POTW\)</td></tr>)',
+        r"\1" + diamond_row,
+        body_inner,
+        count=1,
+    )
     return body_inner
+
+
+# ============================================================================
+# Service-HQ markers — companies that acquire in the FOG space but don't
+# own processing plants. Plotted as diamond markers in a separate layer
+# group, hidden by default behind a filter-panel checkbox per company.
+# ============================================================================
+
+SERVICE_HQ_DATA: list[dict] = [
+    # Momentum Environmental
+    {"company": "Momentum Environmental", "key": "momentum", "color": "#6C3483",
+     "lat": 40.713, "lng": -74.006, "primary": True,
+     "city": "New York, NY", "sponsor": "PE-backed (sponsor TBD)",
+     "description": "Environmental services focus in NY metro.",
+     "acq_count": "3+ acquisitions since 2024"},
+
+    # Septic Blue (Georgia Oak Partners)
+    {"company": "Septic Blue", "key": "septic-blue", "color": "#1E8449",
+     "lat": 33.749, "lng": -84.388, "primary": True,
+     "city": "Atlanta, GA", "sponsor": "Georgia Oak Partners",
+     "description": "Residential septic focus.",
+     "acq_count": "Platform acquisition (Feb 2024)"},
+    {"company": "Septic Blue", "key": "septic-blue", "color": "#1E8449",
+     "lat": 35.227, "lng": -80.843, "primary": False,
+     "city": "Charlotte, NC", "sponsor": "Georgia Oak Partners",
+     "description": "Residential septic focus.",
+     "acq_count": "Platform acquisition (Feb 2024)"},
+    {"company": "Septic Blue", "key": "septic-blue", "color": "#1E8449",
+     "lat": 35.780, "lng": -78.638, "primary": False,
+     "city": "Raleigh, NC", "sponsor": "Georgia Oak Partners",
+     "description": "Residential septic focus.",
+     "acq_count": "Platform acquisition (Feb 2024)"},
+
+    # Eazy Grease (Private)
+    {"company": "Eazy Grease", "key": "eazy-grease", "color": "#D4AC0D",
+     "lat": 27.951, "lng": -82.459, "primary": True,
+     "city": "Tampa Bay, FL", "sponsor": "Private (no PE sponsor identified)",
+     "description": "UCO/grease recycling. Florida-focused, expanding multi-state.",
+     "acq_count": "5 acquisitions + 1 merger"},
+    {"company": "Eazy Grease", "key": "eazy-grease", "color": "#D4AC0D",
+     "lat": 30.438, "lng": -84.281, "primary": False,
+     "city": "Tallahassee, FL", "sponsor": "Private (no PE sponsor identified)",
+     "description": "UCO/grease recycling. Florida-focused, expanding multi-state.",
+     "acq_count": "5 acquisitions + 1 merger"},
+    {"company": "Eazy Grease", "key": "eazy-grease", "color": "#D4AC0D",
+     "lat": 28.538, "lng": -81.379, "primary": False,
+     "city": "Central Florida", "sponsor": "Private (no PE sponsor identified)",
+     "description": "UCO/grease recycling. Florida-focused, expanding multi-state.",
+     "acq_count": "5 acquisitions + 1 merger"},
+    {"company": "Eazy Grease", "key": "eazy-grease", "color": "#D4AC0D",
+     "lat": 26.122, "lng": -80.137, "primary": False,
+     "city": "South Florida", "sponsor": "Private (no PE sponsor identified)",
+     "description": "UCO/grease recycling. Florida-focused, expanding multi-state.",
+     "acq_count": "5 acquisitions + 1 merger"},
+]
+
+_SERVICE_HQ_FILTER_HTML = """
+    <h4>Collection-only platforms</h4>
+    <div class="muted" style="margin:0 0 4px 0;">No owned processing plants. Diamond markers show service area centers.</div>
+    <label><input type="checkbox" id="toggle-momentum" /> <span class="hq-swatch" style="background:#6C3483;"></span> Momentum Environmental</label>
+    <label><input type="checkbox" id="toggle-septic-blue" /> <span class="hq-swatch" style="background:#1E8449;"></span> Septic Blue (Georgia Oak)</label>
+    <label><input type="checkbox" id="toggle-eazy-grease" /> <span class="hq-swatch" style="background:#D4AC0D;"></span> Eazy Grease</label>
+"""
+
+
+def patch_filter_panel(body_inner: str) -> str:
+    """Insert the collection-only-platforms checkboxes into the filter
+    panel, right before the Base map section."""
+    body_inner = body_inner.replace(
+        "<h4>Base map</h4>",
+        _SERVICE_HQ_FILTER_HTML + "\n    <h4>Base map</h4>",
+        1,
+    )
+    return body_inner
+
+
+def build_service_hq_script() -> str:
+    """Return the JS payload that creates the service-HQ markers and
+    wires their checkboxes. Injected near the end of the map's
+    <script> block, after `map` is initialized."""
+    payload = json.dumps(SERVICE_HQ_DATA)
+    return f"""
+// ---------- Collection-only platform markers (diamond markers) ----------
+// These companies acquire in the FOG space but don't own processing
+// plants. Plotted as diamond markers in a separate L.layerGroup per
+// company so each filter checkbox controls its own set, all hidden by
+// default.
+const SERVICE_HQ_DATA = {payload};
+const serviceHqLayers = {{
+  'momentum':     L.layerGroup(),
+  'septic-blue':  L.layerGroup(),
+  'eazy-grease':  L.layerGroup()
+}};
+function _buildServiceHqPopup(d) {{
+  return '<div class="service-hq-popup">' +
+    '<b>◆ ' + d.company + '</b><br>' +
+    '<span style="color:#888; font-size:12px;">Collection / Service HQ — No Owned Plant</span><br>' +
+    '<hr style="margin:4px 0;">' +
+    '<b>Sponsor:</b> ' + d.sponsor + '<br>' +
+    '<b>Service Area:</b> ' + d.city + (d.primary ? ' (primary)' : '') + '<br>' +
+    '<b>Focus:</b> ' + d.description + '<br>' +
+    '<b>Acquisitions:</b> ' + d.acq_count + ' deals tracked<br>' +
+    '<hr style="margin:4px 0;">' +
+    '<i>This company provides collection services but does not own processing infrastructure in this market.</i>' +
+    '</div>';
+}}
+SERVICE_HQ_DATA.forEach(function(d) {{
+  const icon = L.divIcon({{
+    className: 'service-hq-marker',
+    html: '<div class="diamond-marker" style="background:' + d.color + ';"></div>',
+    iconSize: [12, 12], iconAnchor: [6, 6]
+  }});
+  const m = L.marker([d.lat, d.lng], {{icon: icon, title: d.company + ' — ' + d.city}});
+  m.bindPopup(_buildServiceHqPopup(d), {{maxWidth: 320}});
+  serviceHqLayers[d.key].addLayer(m);
+}});
+['momentum', 'septic-blue', 'eazy-grease'].forEach(function(k) {{
+  const cb = document.getElementById('toggle-' + k);
+  if (!cb) return;
+  cb.addEventListener('change', function() {{
+    if (cb.checked) map.addLayer(serviceHqLayers[k]);
+    else            map.removeLayer(serviceHqLayers[k]);
+  }});
+}});
+"""
+
+
+def inject_service_hq(scripts: str) -> str:
+    """Append the service-HQ marker setup just before the last </script>."""
+    last = scripts.rfind("</script>")
+    return scripts[:last] + build_service_hq_script() + scripts[last:]
 
 
 def patch_facility_data(
@@ -697,6 +839,27 @@ html, body {
 @keyframes pulse-opacity {
   0%, 100% { opacity: 0.6; }
   50%      { opacity: 1.0; }
+}
+
+/* Service-HQ markers (collection-only platforms, hidden by default) */
+.service-hq-marker { background: transparent !important; border: none !important; }
+.diamond-marker {
+  width: 10px; height: 10px;
+  transform: rotate(45deg);
+  border: 2px solid white;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+}
+.hq-swatch {
+  display: inline-block; width: 10px; height: 10px;
+  transform: rotate(45deg);
+  border: 1.5px solid #555;
+  margin: 0 4px 0 2px; vertical-align: middle;
+}
+.legend-diamond {
+  display: inline-block; width: 10px; height: 10px;
+  transform: rotate(45deg);
+  border: 1.5px solid #555;
+  margin: 0 6px 0 2px; vertical-align: middle;
 }
 
 /* Deal label popup floating over the map */
@@ -957,6 +1120,13 @@ __MAP_SCRIPTS__
       return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c];
     });
   }
+  // Strip any <tag> / </tag> fragments before display. Belt-and-suspenders
+  // alongside the Python clean_summary() at ingestion — catches any
+  // citation/markup that slipped past or arrives in pre-existing data.
+  function sanitizeText(text) {
+    if (!text) return '';
+    return String(text).replace(/<\/?[^>]+(>|$)/g, '').replace(/\s+/g, ' ').trim();
+  }
   function formatDate(s) {
     if (!s) return '';
     var d = new Date(s + (s.length === 10 ? 'T00:00:00' : ''));
@@ -1056,8 +1226,8 @@ __MAP_SCRIPTS__
       }
       return '<div class="news-card ' + cls + '">' +
         '<div class="meta"><span class="cat-tag" style="background:' + bg + '">' + escapeHtml(cat) + '</span>' + escapeHtml(formatDate(n.date)) + relBadge + '</div>' +
-        '<div class="headline">' + escapeHtml(n.headline || '') + '</div>' +
-        '<div class="summary">' + escapeHtml(n.summary || '') + '</div>' +
+        '<div class="headline">' + escapeHtml(sanitizeText(n.headline || '')) + '</div>' +
+        '<div class="summary">' + escapeHtml(sanitizeText(n.summary || '')) + '</div>' +
         src + alert +
         (mapLink ? '<div>' + mapLink + '</div>' : '') +
         '</div>';
@@ -1306,6 +1476,8 @@ def main() -> int:
     scripts, public_counts, filter_counts, kept_records = patch_facility_data(scripts)
     scripts = patch_category_info(scripts)
     body_inner = patch_legend(body_inner)
+    body_inner = patch_filter_panel(body_inner)
+    scripts = inject_service_hq(scripts)
     scripts = inject_map_handle(scripts)
 
     with open(NEWS_JSON, encoding="utf-8") as f:

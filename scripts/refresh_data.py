@@ -386,6 +386,23 @@ def normalize_headline(s: str) -> str:
     return s
 
 
+# Anthropic web_search responses sometimes wrap source-citation excerpts in
+# <cite index="..."> ... </cite> XML tags (or the antml:cite variant). We
+# don't want those rendered in the news feed. Strip every tag-like fragment
+# but preserve inner text.
+_TAG_RX = re.compile(r"</?[A-Za-z][^>]*>")
+
+
+def clean_summary(text: str | None) -> str | None:
+    if text is None:
+        return None
+    if not isinstance(text, str):
+        return text
+    cleaned = _TAG_RX.sub("", text)
+    cleaned = re.sub(r"\s+", " ", cleaned).strip()
+    return cleaned
+
+
 def headline_overlap(a: str, b: str) -> float:
     """Token Jaccard between two normalized headlines."""
     sa = set(normalize_headline(a).split())
@@ -778,11 +795,11 @@ def coerce_news_item(raw: dict) -> dict | None:
     relevance = max(1, min(5, relevance))
     item: dict = {
         "date": raw["date"],
-        "headline": raw["headline"],
+        "headline": clean_summary(raw["headline"]) or raw["headline"],
         "source": raw.get("source", ""),
         "source_url": src_url,
         "category": cat,
-        "summary": raw.get("summary", ""),
+        "summary": clean_summary(raw.get("summary", "")) or "",
         "relevance_score": relevance,
         "is_deal": bool(raw.get("is_deal")),
         "is_target_market": False,
@@ -805,9 +822,11 @@ def _normalize_summary_bullets(s) -> list[str] | None:
     if s is None:
         return None
     if isinstance(s, list):
-        out = [str(x).strip() for x in s if str(x).strip()]
+        out = [clean_summary(str(x)) or "" for x in s]
+        out = [b for b in out if b]
         return out or None
-    text = str(s).strip()
+    text = clean_summary(str(s)) or ""
+    text = text.strip()
     if not text:
         return None
     # If model returned newline-separated bullets, split them.
@@ -846,7 +865,7 @@ def coerce_deal_from_news(raw: dict) -> dict | None:
         "owner_classification": raw.get("owner_classification") or "Unknown",
         "deal_summary": _normalize_summary_bullets(raw.get("deal_summary")),
         "date_confidence": raw.get("date_confidence") or "verified",
-        "notes": raw.get("summary", ""),
+        "notes": clean_summary(raw.get("summary", "")) or "",
         "latitude": None,
         "longitude": None,
         "zoom_hint": None,
