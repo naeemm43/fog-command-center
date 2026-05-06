@@ -629,6 +629,12 @@ _NEW_LEGEND_BODY = """
       Visible: <span id="vis-plants">—</span> plants, <span id="vis-ops">—</span> operators
       <span id="legend-fog-total" style="display:none;"></span>
     </div>
+    <div id="heat-legend" style="display:none; margin-top:8px; padding-top:6px; border-top:1px solid #eee; font-size:11px;">
+      <div style="margin-bottom:3px; color:#555;"><b>Restaurant density</b> (NAICS 722)</div>
+      <div style="height:10px; border:1px solid #ccc; border-radius:2px; background: linear-gradient(to right, #ffffcc 0%, #fed976 20%, #fd8d3c 40%, #e31a1c 60%, #bd0026 80%, #800026 100%);"></div>
+      <div style="display:flex; justify-content:space-between; font-size:10px; color:#777; margin-top:2px;"><span>Low</span><span>High</span></div>
+      <div style="font-size:10px; color:#888; margin-top:2px;">Source: US Census CBP 2022</div>
+    </div>
 """
 
 
@@ -780,6 +786,7 @@ _LEGACY_LAYERS_HIDDEN = """
 _OVERLAYS_HTML = """
     <h4>Overlays</h4>
     <label><input type="checkbox" id="toggle-tier2-visible" /> Tier 2 target markets (50-mi radius)</label>
+    <label><input type="checkbox" id="toggle-restaurant-heat" /> Restaurant density heat map</label>
 """
 
 
@@ -1051,6 +1058,100 @@ def build_entity_type_script() -> str:
 def inject_entity_type_toggles(scripts: str) -> str:
     last = scripts.rfind("</script>")
     return scripts[:last] + build_entity_type_script() + scripts[last:]
+
+
+# ============================================================================
+# Restaurant density heat map overlay (NAICS 722 establishment counts by
+# US county, from Census County Business Patterns 2022). Toggled on/off
+# in the OVERLAYS section. Default OFF.
+# ============================================================================
+
+_RESTAURANT_HEAT_JSON = os.path.join(ROOT, "data", "restaurant_density.json")
+
+
+def _load_restaurant_heat_data() -> list[list[float]]:
+    if not os.path.exists(_RESTAURANT_HEAT_JSON):
+        sys.stderr.write(f"WARNING: {_RESTAURANT_HEAT_JSON} missing — heat map empty\n")
+        return []
+    with open(_RESTAURANT_HEAT_JSON, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def inject_leaflet_heat_cdn(scripts: str) -> str:
+    """Add the Leaflet.heat plugin script tag right after the
+    leaflet.markercluster script. Plugin must load AFTER Leaflet
+    itself, so injecting in the existing leaflet-plugins block is
+    the right spot."""
+    target = '<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>'
+    if target not in scripts:
+        sys.stderr.write("WARNING: leaflet.markercluster script not found; "
+                         "cannot inject leaflet.heat\n")
+        return scripts
+    return scripts.replace(
+        target,
+        target + '\n<script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>',
+        1,
+    )
+
+
+def build_restaurant_heat_script() -> str:
+    """JS that creates the heat layer (not added to map by default) and
+    wires the #toggle-restaurant-heat checkbox. Heat layer renders at
+    z-index 200 — well below Leaflet's default marker pane (600), so
+    facility markers stay on top."""
+    data = _load_restaurant_heat_data()
+    payload = json.dumps(data, separators=(",", ":"))
+    return f"""
+// ---------- Restaurant density heat map ----------
+// COUNTY_HEAT_DATA: array of [lat, lng, ESTAB] for each US county
+// (NAICS 722 — Food Services and Drinking Places, Census CBP 2022).
+// RESTAURANT_HEAT_DATA_START
+const RESTAURANT_HEAT_DATA = {payload};
+// RESTAURANT_HEAT_DATA_END
+(function() {{
+  if (typeof L === 'undefined' || typeof L.heatLayer !== 'function') {{
+    console.warn('Leaflet.heat plugin not loaded — restaurant heat layer disabled');
+    return;
+  }}
+  if (!RESTAURANT_HEAT_DATA.length) return;
+  // The default heat tiles render at z-index ~400 which is BELOW the
+  // marker pane (600) and the cluster icon pane, so plant circles,
+  // operator diamonds, and WWTP markers all stay visible on top.
+  const max = Math.max.apply(null, RESTAURANT_HEAT_DATA.map(function(d) {{ return d[2]; }}));
+  const heatLayer = L.heatLayer(RESTAURANT_HEAT_DATA, {{
+    radius: 25, blur: 15, maxZoom: 10, max: max,
+    gradient: {{
+      0.0: '#ffffcc',
+      0.2: '#fed976',
+      0.4: '#fd8d3c',
+      0.6: '#e31a1c',
+      0.8: '#bd0026',
+      1.0: '#800026'
+    }},
+    minOpacity: 0.3
+  }});
+  const cb = document.getElementById('toggle-restaurant-heat');
+  const legend = document.getElementById('heat-legend');
+  if (cb) {{
+    cb.addEventListener('change', function() {{
+      if (cb.checked) {{
+        heatLayer.addTo(map);
+        if (legend) legend.style.display = 'block';
+      }} else {{
+        if (map.hasLayer(heatLayer)) map.removeLayer(heatLayer);
+        if (legend) legend.style.display = 'none';
+      }}
+    }});
+  }}
+  window.__restaurantHeatLayer = heatLayer;
+}})();
+"""
+
+
+def inject_restaurant_heat(scripts: str) -> str:
+    scripts = inject_leaflet_heat_cdn(scripts)
+    last = scripts.rfind("</script>")
+    return scripts[:last] + build_restaurant_heat_script() + scripts[last:]
 
 
 # ============================================================================
@@ -2259,6 +2360,7 @@ def main() -> int:
     body_inner = patch_filter_panel(body_inner)
     scripts, collection_counts = inject_collection_layer(scripts)
     scripts = inject_service_hq(scripts)
+    scripts = inject_restaurant_heat(scripts)
     scripts = inject_entity_type_toggles(scripts)
     scripts = inject_map_handle(scripts)
 
