@@ -967,6 +967,48 @@ def build_entity_type_script() -> str:
     });
   }
 
+  // 2b) State filter for the collection layer. The upstream state-select
+  //     change handler only re-runs refreshAllCategories — that path
+  //     filters fogClusters but not the collection clusters. So we
+  //     rebuild each collection cluster with only the markers whose
+  //     ._state matches the dropdown.
+  function applyStateFilterToCollection() {
+    var clusters = window.__collectionClusters || {};
+    var byBucket = window.__collectionMarkersByBucket || {};
+    var sel = (document.getElementById('state-select') || {}).value || '';
+    Object.keys(clusters).forEach(function(key) {
+      var cluster = clusters[key];
+      var arr = byBucket[key] || [];
+      if (!cluster) return;
+      cluster.clearLayers();
+      var matching = sel ? arr.filter(function(m) { return m._state === sel; }) : arr;
+      // markercluster handles bulk add efficiently
+      if (matching.length) cluster.addLayers(matching);
+    });
+  }
+
+  // 2c) State filter for the WWTP layer. Same approach — rebuild
+  //     wwtpCluster with only markers whose ._wwtp.s matches.
+  var _wwtpSnapshot = null;
+  function getWwtpSnapshot() {
+    if (_wwtpSnapshot !== null) return _wwtpSnapshot;
+    if (typeof wwtpCluster === 'undefined' || !wwtpCluster) return [];
+    // First call: snapshot the full marker set BEFORE any clearLayers
+    // happens so we can re-add later.
+    _wwtpSnapshot = wwtpCluster.getLayers().slice();
+    return _wwtpSnapshot;
+  }
+  function applyStateFilterToWwtp() {
+    if (typeof wwtpCluster === 'undefined' || !wwtpCluster) return;
+    var snap = getWwtpSnapshot();
+    var sel = (document.getElementById('state-select') || {}).value || '';
+    wwtpCluster.clearLayers();
+    var matching = sel
+      ? snap.filter(function(m) { return m._wwtp && m._wwtp.s === sel; })
+      : snap;
+    if (matching.length) wwtpCluster.addLayers(matching);
+  }
+
   // 3) Legend counter (Visible: X plants, Y operators)
   function updateLegendCounters() {
     var pE = document.getElementById('vis-plants');
@@ -988,10 +1030,16 @@ def build_entity_type_script() -> str:
   }
 
   // 4) refreshAllCategories monkey-patch — runs after All/None buttons,
-  //    state-select changes, etc. so collection layer + counters track.
+  //    state-select changes, etc. The state-select dropdown's change
+  //    handler calls refreshAllCategories, which only iterates
+  //    fogClusters by default. We extend it to also re-run the
+  //    state filter on collection + WWTP layers and re-apply the
+  //    collection master/ownership gate.
   var _origRefreshAll = refreshAllCategories;
   window.refreshAllCategories = function() {
     _origRefreshAll();
+    applyStateFilterToCollection();
+    applyStateFilterToWwtp();
     applyCollectionFilter();
     updateLegendCounters();
   };
@@ -1024,7 +1072,13 @@ def build_entity_type_script() -> str:
     refreshAllCategories();  // patched version handles everything
   });
   if (collCb) collCb.addEventListener('change', function() {
-    if (collCb.checked) tickAllOwnership();
+    if (collCb.checked) {
+      tickAllOwnership();
+      // Apply state filter so a freshly-shown layer respects whatever
+      // state-select is set to (otherwise we'd briefly flash all 6k+
+      // operators if a state was selected).
+      applyStateFilterToCollection();
+    }
     applyCollectionFilter();
     updateLegendCounters();
   });
@@ -1036,8 +1090,14 @@ def build_entity_type_script() -> str:
     if (typeof wwtpCluster === 'undefined') {
       console.warn('wwtpCluster not defined'); return;
     }
-    if (wwtpCb.checked && !map.hasLayer(wwtpCluster)) wwtpCluster.addTo(map);
-    else if (!wwtpCb.checked && map.hasLayer(wwtpCluster)) map.removeLayer(wwtpCluster);
+    if (wwtpCb.checked) {
+      // Apply state filter BEFORE adding to map so we don't briefly
+      // flash the full 14k national set when a state is selected.
+      applyStateFilterToWwtp();
+      if (!map.hasLayer(wwtpCluster)) wwtpCluster.addTo(map);
+    } else if (map.hasLayer(wwtpCluster)) {
+      map.removeLayer(wwtpCluster);
+    }
     // Keep the legacy hidden checkbox in sync (some other code may read it)
     var w = document.getElementById('toggle-wwtp');
     if (w) w.checked = wwtpCb.checked;
@@ -1825,6 +1885,10 @@ const collectionBucketStates = {{}};
   // Plants stay as CircleMarker (handled by upstream map JS); collection
   // operators are diamonds; WWTPs are the open diamonds the upstream
   // already renders.
+  // Per-bucket marker references are kept here so the state-filter code
+  // in the entity-type IIFE can rebuild each cluster with only the
+  // state-matching markers without losing them.
+  const collectionMarkersByBucket = {{}};
   function _diamondHtml(color) {{
     return '<div style="width:10px; height:10px; background:' + color +
       '; transform:rotate(45deg); border:1.5px solid white; ' +
@@ -1843,6 +1907,9 @@ const collectionBucketStates = {{}};
       popupAnchor: [0, -6]
     }});
     const m = L.marker([d.la, d.lo], {{icon: icon}});
+    m._state = d.s;
+    if (!collectionMarkersByBucket[key]) collectionMarkersByBucket[key] = [];
+    collectionMarkersByBucket[key].push(m);
     m.bindPopup(function() {{
       let html = '<div class="collection-popup">' +
         '<b>' + (d.n || '') + '</b>' +
@@ -1923,8 +1990,9 @@ const collectionBucketStates = {{}};
     if (body) body.insertAdjacentHTML('beforeend', html);
   }}
 
-  // Expose for findOnMap nearest-marker iteration
+  // Expose for findOnMap nearest-marker iteration + state filtering
   window.__collectionClusters = collectionClusters;
+  window.__collectionMarkersByBucket = collectionMarkersByBucket;
 }})();
 """
     last = scripts.rfind("</script>")
