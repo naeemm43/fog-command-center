@@ -407,12 +407,10 @@ html, body {
       <input type="radio" name="entity-mode" value="pumper" />
       <input type="checkbox" id="toggle-pumpers-lowzoom" />
     </span>
-
-    <h4>Layers</h4>
-    <label><input type="checkbox" id="toggle-wwtp" /> Show municipal WWTPs</label>
-    <div class="muted">~14k facilities. Enable and zoom to city level for best view.</div>
-
-    <label style="margin-top:6px;"><input type="checkbox" id="toggle-tier2" /> Show Tier 2 target markets (50-mi radius)</label>
+    <span style="display:none;">
+      <input type="checkbox" id="toggle-wwtp" />
+      <input type="checkbox" id="toggle-tier2" />
+    </span>
 
     
     <h4>Entity type</h4>
@@ -434,6 +432,9 @@ html, body {
       <input type="checkbox" id="toggle-collection-master" />
     </span>
     <div id="coll-sub-toggles" style="display:none;"></div>
+
+    <h4>Overlays</h4>
+    <label><input type="checkbox" id="toggle-tier2-visible" /> Tier 2 target markets (50-mi radius)</label>
 
     <span style="display:none;">
       <input type="checkbox" id="toggle-momentum" />
@@ -481,7 +482,7 @@ html, body {
 <!-- METADATA_START -->
 <script>
 const metadata = {
-  "lastRefreshed": "2026-05-06T11:49:23Z",
+  "lastRefreshed": "2026-05-06T12:30:32Z",
   "newsCount": 27,
   "compCount": 57
 };
@@ -3309,9 +3310,30 @@ SERVICE_HQ_DATA.forEach(function(d) {
     applyCollectionFilter();
     updateLegendCounters();
   });
+  // WWTP toggle drives wwtpCluster directly. Going via the legacy
+  // toggle-wwtp checkbox + dispatchEvent triggers the upstream handler,
+  // which references DOM elements (legend-wwtp-line, stat-wwtp-status)
+  // that were removed in the legend/stats redesign and throws.
   if (wwtpCb) wwtpCb.addEventListener('change', function() {
+    if (typeof wwtpCluster === 'undefined') {
+      console.warn('wwtpCluster not defined'); return;
+    }
+    if (wwtpCb.checked && !map.hasLayer(wwtpCluster)) wwtpCluster.addTo(map);
+    else if (!wwtpCb.checked && map.hasLayer(wwtpCluster)) map.removeLayer(wwtpCluster);
+    // Keep the legacy hidden checkbox in sync (some other code may read it)
     var w = document.getElementById('toggle-wwtp');
-    if (w) { w.checked = wwtpCb.checked; w.dispatchEvent(new Event('change')); }
+    if (w) w.checked = wwtpCb.checked;
+  });
+
+  // Tier 2 visible toggle drives tier2Layer directly (legacy
+  // toggle-tier2 checkbox stays hidden but in sync).
+  var tier2VisibleCb = document.getElementById('toggle-tier2-visible');
+  if (tier2VisibleCb) tier2VisibleCb.addEventListener('change', function() {
+    if (typeof tier2Layer === 'undefined') return;
+    if (tier2VisibleCb.checked) tier2Layer.addTo(map);
+    else if (map.hasLayer(tier2Layer)) map.removeLayer(tier2Layer);
+    var t = document.getElementById('toggle-tier2');
+    if (t) t.checked = tier2VisibleCb.checked;
   });
 
   // 7) Initial entity-type label counts (static — total dataset sizes)

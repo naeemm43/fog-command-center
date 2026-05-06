@@ -625,19 +625,48 @@ _LEGACY_HIDDEN_FORM = """
     </span>"""
 
 
+_LEGACY_LAYERS_RX = re.compile(
+    r"\s*<h4>Layers</h4>\s*"
+    r"<label[^>]*><input[^>]*id=\"toggle-wwtp\"[^>]*/>[^<]*</label>\s*"
+    r"<div class=\"muted\">[^<]*</div>\s*"
+    r"<label[^>]*><input[^>]*id=\"toggle-tier2\"[^>]*/>[^<]*</label>",
+    re.DOTALL,
+)
+
+# Hidden-form replacement for the legacy "Layers" section. The IDs
+# toggle-wwtp and toggle-tier2 must remain in the DOM because the
+# upstream map JS still attaches change handlers to them. We move the
+# visible Tier 2 toggle into our Overlays section below.
+_LEGACY_LAYERS_HIDDEN = """
+    <span style="display:none;">
+      <input type="checkbox" id="toggle-wwtp" />
+      <input type="checkbox" id="toggle-tier2" />
+    </span>"""
+
+_OVERLAYS_HTML = """
+    <h4>Overlays</h4>
+    <label><input type="checkbox" id="toggle-tier2-visible" /> Tier 2 target markets (50-mi radius)</label>
+"""
+
+
 def patch_filter_panel(body_inner: str) -> str:
     """1. Strip the legacy 'Facility type' radio buttons + the
        toggle-pumpers-lowzoom checkbox (no longer functional now that
        processing plants and collection operators are separate layers).
-       2. Insert the collection-only-platforms checkboxes + the
-       service-HQ checkboxes right before the Base map section."""
+       2. Strip the legacy 'Layers' section (the duplicate WWTP toggle
+       was bypassing the new Entity Type section). Tier 2 moves into a
+       new Overlays section below.
+       3. Insert the Entity Type section + Overlays right before the
+       Base map section."""
     body_inner, n = _LEGACY_ENTITY_MODE_RX.subn(_LEGACY_HIDDEN_FORM, body_inner, count=1)
     if n != 1:
-        sys.stderr.write("WARNING: legacy Facility type block not found "
-                         "(may already have been stripped)\n")
+        sys.stderr.write("WARNING: legacy Facility type block not found\n")
+    body_inner, n = _LEGACY_LAYERS_RX.subn(_LEGACY_LAYERS_HIDDEN, body_inner, count=1)
+    if n != 1:
+        sys.stderr.write("WARNING: legacy Layers block not found\n")
     body_inner = body_inner.replace(
         "<h4>Base map</h4>",
-        _COLLECTION_FILTER_HTML + _SERVICE_HQ_FILTER_HTML + "\n    <h4>Base map</h4>",
+        _COLLECTION_FILTER_HTML + _OVERLAYS_HTML + _SERVICE_HQ_FILTER_HTML + "\n    <h4>Base map</h4>",
         1,
     )
     return body_inner
@@ -805,9 +834,30 @@ def build_entity_type_script() -> str:
     applyCollectionFilter();
     updateLegendCounters();
   });
+  // WWTP toggle drives wwtpCluster directly. Going via the legacy
+  // toggle-wwtp checkbox + dispatchEvent triggers the upstream handler,
+  // which references DOM elements (legend-wwtp-line, stat-wwtp-status)
+  // that were removed in the legend/stats redesign and throws.
   if (wwtpCb) wwtpCb.addEventListener('change', function() {
+    if (typeof wwtpCluster === 'undefined') {
+      console.warn('wwtpCluster not defined'); return;
+    }
+    if (wwtpCb.checked && !map.hasLayer(wwtpCluster)) wwtpCluster.addTo(map);
+    else if (!wwtpCb.checked && map.hasLayer(wwtpCluster)) map.removeLayer(wwtpCluster);
+    // Keep the legacy hidden checkbox in sync (some other code may read it)
     var w = document.getElementById('toggle-wwtp');
-    if (w) { w.checked = wwtpCb.checked; w.dispatchEvent(new Event('change')); }
+    if (w) w.checked = wwtpCb.checked;
+  });
+
+  // Tier 2 visible toggle drives tier2Layer directly (legacy
+  // toggle-tier2 checkbox stays hidden but in sync).
+  var tier2VisibleCb = document.getElementById('toggle-tier2-visible');
+  if (tier2VisibleCb) tier2VisibleCb.addEventListener('change', function() {
+    if (typeof tier2Layer === 'undefined') return;
+    if (tier2VisibleCb.checked) tier2Layer.addTo(map);
+    else if (map.hasLayer(tier2Layer)) map.removeLayer(tier2Layer);
+    var t = document.getElementById('toggle-tier2');
+    if (t) t.checked = tier2VisibleCb.checked;
   });
 
   // 7) Initial entity-type label counts (static — total dataset sizes)
