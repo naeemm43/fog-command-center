@@ -155,6 +155,49 @@ html, body {
 .comps-table .row-clickable:hover td { background: #eef3f8 !important; }
 #row-count { font-size: 11px; color: #777; margin-top: 6px; }
 
+/* Find-on-Map button (transactions tab) */
+.find-on-map-btn {
+  margin-top: 12px;
+  padding: 8px 20px;
+  background: #1F3864;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: background 0.2s;
+  font-family: inherit;
+}
+.find-on-map-btn:hover { background: #2E86C1; }
+.find-on-map-btn:disabled { background: #aaa; cursor: not-allowed; }
+.find-on-map-link {
+  display: inline-block; margin-top: 8px;
+  padding: 5px 12px; border-radius: 4px;
+  background: #1F3864; color: white;
+  font-size: 11px; font-weight: 600;
+  text-decoration: none; cursor: pointer;
+}
+.find-on-map-link:hover { background: #2E86C1; }
+
+/* Pulsing highlight circle on the map */
+.pulse-circle { animation: pulse-opacity 2s ease-in-out infinite; }
+@keyframes pulse-opacity {
+  0%, 100% { opacity: 0.6; }
+  50%      { opacity: 1.0; }
+}
+
+/* Deal label popup floating over the map */
+.deal-label-popup .leaflet-popup-content-wrapper {
+  background: #1F3864; color: white;
+  border-radius: 8px; font-size: 13px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+.deal-label-popup .leaflet-popup-tip { background: #1F3864; }
+.deal-label-popup .leaflet-popup-close-button { color: #fff !important; }
+.deal-label-popup .leaflet-popup-content { color: #fff; }
+.deal-map-label { padding: 4px 8px; line-height: 1.5; }
+
 /* ============ Original map styles (scoped to map tab) ============ */
 
   html, body { margin:0; padding:0; height:100%; font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size:13px; color:#222; }
@@ -383,7 +426,7 @@ html, body {
 <!-- METADATA_START -->
 <script>
 const metadata = {
-  "lastRefreshed": "2026-05-06T00:44:47Z",
+  "lastRefreshed": "2026-05-06T01:11:12Z",
   "newsCount": 27,
   "compCount": 57
 };
@@ -402,7 +445,11 @@ const newsFeedData = [
     "summary": "<cite index=\"33-11,33-12\">Darling Ingredients reported Q1 2026 EPS of $0.83, significantly surpassing analyst expectations of $0.59, with revenue of $1.55 billion.</cite> <cite index=\"33-2\">The Diamond Green Diesel segment was a key driver, with EBITDA reaching $151.2 million.</cite>",
     "relevance_score": 5,
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "is_deal": false,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
   },
   {
     "date": "2026-05-01",
@@ -413,7 +460,11 @@ const newsFeedData = [
     "summary": "<cite index=\"34-7\">Darling Ingredients is executing portfolio optimization by divesting non-strategic assets, including the majority of its grease trap environmental service assets, to focus on core high-margin businesses.</cite>",
     "relevance_score": 4,
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "is_deal": false,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
   },
   {
     "date": "2026-04-30",
@@ -424,7 +475,11 @@ const newsFeedData = [
     "summary": "<cite index=\"34-2,34-5\">Management attributes Q1 performance to shift in market headwinds following finalization of RVO, with strategic positioning in the Fuel segment reaching inflection point as RVO announcement catalyzed favorable movement in fat prices and renewable diesel demand.</cite>",
     "relevance_score": 5,
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "is_deal": false,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
   },
   {
     "date": "2026-04-29",
@@ -435,7 +490,11 @@ const newsFeedData = [
     "summary": "<cite index=\"31-1,31-2\">GFL Environmental reported Q1 2026 revenue of $1.64 billion (up 5.4%), with Adjusted EBITDA increasing 12.3% to $478.5 million.</cite> <cite index=\"31-4\">Adjusted EBITDA margin reached 29.1%, the highest Q1 margin in company history with 180 basis points increase year-over-year.</cite>",
     "relevance_score": 5,
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "is_deal": false,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
   },
   {
     "date": "2026-04-15",
@@ -446,7 +505,11 @@ const newsFeedData = [
     "summary": "GreyLion Capital-backed LJP Waste Solutions acquires United Liquid Waste Recycling, materially expanding its liquid-waste footprint across Wisconsin and the upper Midwest. First add-on of size for LJP's liquid-waste line and a notable consolidation move outside the named Big-4 platforms.",
     "is_target_market": false,
     "target_market_name": null,
-    "relevance_score": 4
+    "relevance_score": 4,
+    "is_deal": true,
+    "latitude": 44.268,
+    "longitude": -89.616,
+    "zoom_hint": "wide"
   },
   {
     "date": "2026-04-15",
@@ -457,7 +520,11 @@ const newsFeedData = [
     "summary": "<cite index=\"24-1,24-2\">Biodiesel prices in Europe reached $1.50/KG in March 2026, with downward pricing movement of 2.0% between December and March.</cite> <cite index=\"26-3,26-4\">Europe's shift toward waste-based sources like used cooking oil and animal fats created cost pressure, with limited UCO availability supporting higher prices despite increased U.S. exports.</cite>",
     "relevance_score": 4,
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "is_deal": false,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
   },
   {
     "date": "2026-04-02",
@@ -468,7 +535,11 @@ const newsFeedData = [
     "summary": "LES continues add-on acquisition strategy under Goldman Sachs ownership, adding a New Orleans-based grease trap cleaning operation to its network.",
     "is_target_market": false,
     "target_market_name": null,
-    "relevance_score": 4
+    "relevance_score": 4,
+    "is_deal": true,
+    "latitude": 29.951,
+    "longitude": -90.072,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2026-04-02",
@@ -479,7 +550,11 @@ const newsFeedData = [
     "summary": "<cite index=\"1-1,1-2\">Irving, Texas-based Liquid Environmental Solutions (LES) acquired New Orleans Grease Trap Cleaning (NOL), a grease trap and used cooking oil cleaning services provider.</cite> <cite index=\"1-3\">Founded in New Orleans in 2015, NOL will be added to LES' network of nonhazardous wastewater collection facilities.</cite>",
     "relevance_score": 5,
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "is_deal": true,
+    "latitude": 29.951,
+    "longitude": -90.072,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2026-04-01",
@@ -490,7 +565,11 @@ const newsFeedData = [
     "summary": "<cite index=\"18-13,18-14\">In DeKalb County, Georgia, FOG was responsible for 57% of SSOs in 2014; thanks to efforts of the county's FOG inspectors, this figure dropped to under 52%.</cite> <cite index=\"18-8\">All FSEs in DeKalb County must have a Grease Control Device with 30-90 day cleaning cycle using licensed hauler.</cite>",
     "relevance_score": 4,
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "is_deal": false,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
   },
   {
     "date": "2026-03-30",
@@ -501,7 +580,11 @@ const newsFeedData = [
     "summary": "<cite index=\"25-1,25-6\">On March 30, the U.S. average retail diesel price of $5.40/gal was the highest in real terms in over two years, following supply disruptions tied to Middle East military action.</cite>",
     "relevance_score": 3,
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "is_deal": false,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
   },
   {
     "date": "2026-03-27",
@@ -512,7 +595,11 @@ const newsFeedData = [
     "summary": "<cite index=\"14-3,14-4\">EPA's Clean Water Act regulations authorize municipalities to require grease interceptors as part of local pretreatment programs, with compliance depending on jurisdiction-specific FOG ordinances.</cite> <cite index=\"14-5\">Unpermitted FOG discharge can result in municipal citations with penalties ranging from $500 to $5,000 per violation.</cite>",
     "relevance_score": 4,
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "is_deal": false,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
   },
   {
     "date": "2026-03-26",
@@ -523,7 +610,11 @@ const newsFeedData = [
     "summary": "Private equity sponsor Georgia Oak Partners acquired Septic Blue, a Southeast regional leader in septic tank services operating in Atlanta, Charlotte, and Raleigh metro areas. Source Capital provided debt financing and equity co-investment.",
     "is_target_market": false,
     "target_market_name": null,
-    "relevance_score": 4
+    "relevance_score": 4,
+    "is_deal": true,
+    "latitude": 33.749,
+    "longitude": -84.388,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2026-03-20",
@@ -534,7 +625,11 @@ const newsFeedData = [
     "summary": "Wind River continues aggressive expansion, acquiring J&M Transfer to extend its liquid waste transfer capabilities.",
     "is_target_market": false,
     "target_market_name": null,
-    "relevance_score": 4
+    "relevance_score": 4,
+    "is_deal": true,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
   },
   {
     "date": "2026-03-15",
@@ -545,7 +640,11 @@ const newsFeedData = [
     "summary": "<cite index=\"59-28,59-29\">FMCSA final rule affecting CDL eligibility for nearly 200,000 drivers took effect, restricting certain non-domiciled drivers including asylum seekers and refugees from holding CDLs.</cite> <cite index=\"59-30\">Waste Pro reports the rule change would affect up to 20% of its drivers in Southwest Florida, delaying service and making it hard to replace qualified drivers.</cite>",
     "relevance_score": 4,
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "is_deal": false,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
   },
   {
     "date": "2026-03-15",
@@ -556,7 +655,11 @@ const newsFeedData = [
     "summary": "<cite index=\"23-1\">Quatra signed a 15-year agreement to supply TotalEnergies with 60,000 tons of European used cooking oil annually from 2026, to be processed into biodiesel and sustainable aviation fuel.</cite>",
     "relevance_score": 4,
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "is_deal": false,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
   },
   {
     "date": "2026-03-11",
@@ -567,7 +670,11 @@ const newsFeedData = [
     "summary": "Private equity firm Seekye Capital announced its inaugural acquisition creating a comprehensive wastewater and environmental services platform. The deal brings together soil/environmental consulting, septic services, and environmental lab capabilities.",
     "is_target_market": false,
     "target_market_name": null,
-    "relevance_score": 4
+    "relevance_score": 4,
+    "is_deal": true,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
   },
   {
     "date": "2026-03-06",
@@ -578,7 +685,11 @@ const newsFeedData = [
     "summary": "<cite index=\"49-1,49-2\">Black Box Intelligence data shows 9% of full-service restaurants are at risk of shuttering, while only 4% of limited-service units could close this year.</cite> <cite index=\"49-9,49-10\">For the 3% of Full-Service restaurants experiencing sales drop exceeding 50%, the question for 2026 isn't if they will close, but when.</cite>",
     "relevance_score": 3,
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "is_deal": false,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
   },
   {
     "date": "2026-03-01",
@@ -589,7 +700,11 @@ const newsFeedData = [
     "summary": "<cite index=\"23-7\">Used Cooking Oil Market valuation is estimated to reach USD 8.47 Bn in 2026 and is anticipated to grow to USD 13.86 Bn by 2033 with steady CAGR of 7.3%.</cite> <cite index=\"23-9,23-10\">The food service segment is anticipated to account for 46.9% of the UCO market in 2026, with North America leading the global market at 45.2% share.</cite>",
     "relevance_score": 5,
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "is_deal": false,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
   },
   {
     "date": "2026-02-26",
@@ -600,7 +715,11 @@ const newsFeedData = [
     "summary": "<cite index=\"42-14\">Papa John's announced in a February 26 earnings call that it plans to close about 200 restaurants in 2026 as part of broader effort to shut down 300 underperforming locations by end of 2027.</cite> <cite index=\"48-28\">Most franchised locations slated for closure are over a decade old, with average unit volume under $600,000 and typically negative four-wall income.</cite>",
     "relevance_score": 3,
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "is_deal": false,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
   },
   {
     "date": "2026-02-19",
@@ -611,7 +730,11 @@ const newsFeedData = [
     "summary": "<cite index=\"52-5,52-6\">As of May 1, 2026, the average hourly pay for hazardous waste driver in the United States is $28.59; most workers earn between $24.28 and $30.05 per hour depending on experience, location, and employer.</cite>",
     "relevance_score": 3,
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "is_deal": false,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
   },
   {
     "date": "2026-02-17",
@@ -622,7 +745,11 @@ const newsFeedData = [
     "summary": "The City of Stanton is requesting proposals from qualified consultants to provide services for National Pollutant Elimination Systems (NPDES) and Fats Oils & Grease (FOG) programs with question deadline March 11, 2026.",
     "is_target_market": false,
     "target_market_name": null,
-    "relevance_score": 3
+    "relevance_score": 3,
+    "is_deal": false,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
   },
   {
     "date": "2026-02-10",
@@ -633,7 +760,11 @@ const newsFeedData = [
     "summary": "<cite index=\"41-8,41-9,41-10\">Noodles & Company announced plans to close between 30 and 35 additional restaurants across the United States in 2026 after closing 33 company-owned and nine franchise locations in 2025.</cite>",
     "relevance_score": 2,
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "is_deal": false,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
   },
   {
     "date": "2026-01-19",
@@ -644,7 +775,11 @@ const newsFeedData = [
     "summary": "<cite index=\"53-17,53-18\">One of the most noticeable impacts of the driver shortage in 2026 is improved compensation, with many carriers offering higher starting pay, sign-on bonuses, tuition reimbursement, and flexible scheduling options.</cite>",
     "relevance_score": 4,
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "is_deal": false,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
   },
   {
     "date": "2026-01-15",
@@ -655,7 +790,11 @@ const newsFeedData = [
     "summary": "<cite index=\"51-1\">By 2026, the solid waste collection industry will have 14,200 new jobs for collection drivers and riders; 1,900 new jobs for diesel service technicians and mechanics; and 300 new jobs for welders, cutters, solderers, and brazers.</cite>",
     "relevance_score": 4,
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "is_deal": false,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
   },
   {
     "date": "2026-01-04",
@@ -666,7 +805,11 @@ const newsFeedData = [
     "summary": "United Site Services filed for Chapter 11 protection on December 29, 2025, reporting $1-10 billion in assets and liabilities. The company provides non-hazardous liquid waste services including grease trap waste removal.",
     "is_target_market": false,
     "target_market_name": null,
-    "relevance_score": 3
+    "relevance_score": 3,
+    "is_deal": false,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
   },
   {
     "date": "2025-12-15",
@@ -677,7 +820,11 @@ const newsFeedData = [
     "summary": "<cite index=\"36-8,36-9\">GFL completed Frontier Waste Solutions acquisition in early April as a leading vertically integrated solid waste business across the Texas Triangle.</cite> <cite index=\"32-2\">The company completed eight acquisitions since the start of the year, adding an estimated $425 million to $450 million in annualized revenue.</cite>",
     "relevance_score": 4,
     "is_target_market": false,
-    "target_market_name": null
+    "target_market_name": null,
+    "is_deal": true,
+    "latitude": 31.0,
+    "longitude": -100.0,
+    "zoom_hint": "wide"
   },
   {
     "date": "2025-12-01",
@@ -688,7 +835,11 @@ const newsFeedData = [
     "summary": "Goldman-backed LES acquires St. Louis-based Grease Masters, a grease trap, UCO, drain cleaning, and kitchen exhaust hood cleaning provider.",
     "is_target_market": false,
     "target_market_name": null,
-    "relevance_score": 4
+    "relevance_score": 4,
+    "is_deal": true,
+    "latitude": 38.627,
+    "longitude": -90.199,
+    "zoom_hint": "narrow"
   }
 ];
 </script>
@@ -719,7 +870,10 @@ const compDatabaseData = [
     "notes": "Deal flagged in user catchup \u2014 confirms upper-Midwest consolidation activity outside the named Big-4.",
     "date_confidence": "verified",
     "_old_source_url": "https://ljpenviro.com",
-    "source_confidence": "placeholder"
+    "source_confidence": "placeholder",
+    "latitude": 42.508,
+    "longitude": -89.032,
+    "zoom_hint": "wide"
   },
   {
     "date": "2026-04-02",
@@ -741,7 +895,10 @@ const compDatabaseData = [
       "Tuck-in of a single-market operator; deal mechanics consistent with LES's 13 prior Audax-era add-ons."
     ],
     "notes": "Continued LES add-on strategy under Goldman ownership.",
-    "date_confidence": "verified"
+    "date_confidence": "verified",
+    "latitude": 29.951,
+    "longitude": -90.072,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2026-04-02",
@@ -760,7 +917,10 @@ const compDatabaseData = [
     "owner_classification": "Unknown",
     "deal_summary": null,
     "date_confidence": "verified",
-    "notes": "<cite index=\"1-1,1-2\">Irving, Texas-based Liquid Environmental Solutions (LES) acquired New Orleans Grease Trap Cleaning (NOL), a grease trap and used cooking oil cleaning services provider.</cite> <cite index=\"1-3\">Founded in New Orleans in 2015, NOL will be added to LES' network of nonhazardous wastewater collection facilities.</cite>"
+    "notes": "<cite index=\"1-1,1-2\">Irving, Texas-based Liquid Environmental Solutions (LES) acquired New Orleans Grease Trap Cleaning (NOL), a grease trap and used cooking oil cleaning services provider.</cite> <cite index=\"1-3\">Founded in New Orleans in 2015, NOL will be added to LES' network of nonhazardous wastewater collection facilities.</cite>",
+    "latitude": 29.951,
+    "longitude": -90.072,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2026-03-20",
@@ -784,7 +944,10 @@ const compDatabaseData = [
     "notes": "Continues Wind River's 2024-2026 high-velocity tuck-in pace.",
     "date_confidence": "verified",
     "_old_source_url": "https://wrenvironmental.com",
-    "source_confidence": "placeholder"
+    "source_confidence": "placeholder",
+    "latitude": 41.68,
+    "longitude": -71.512,
+    "zoom_hint": "wide"
   },
   {
     "date": "2026-03-11",
@@ -805,7 +968,10 @@ const compDatabaseData = [
     "deal_summary": [
       "Private equity firm Seekye Capital announced its inaugural acquisition creating a comprehensive wastewater and environmental services platform. The deal brings together soil/environmental consulting, septic services, and environmental lab capabilities."
     ],
-    "date_confidence": "verified"
+    "date_confidence": "verified",
+    "latitude": 37.432,
+    "longitude": -78.657,
+    "zoom_hint": "wide"
   },
   {
     "date": "2025-12-15",
@@ -824,7 +990,10 @@ const compDatabaseData = [
     "owner_classification": "Unknown",
     "deal_summary": null,
     "date_confidence": "approximate",
-    "notes": "<cite index=\"36-8,36-9\">GFL completed Frontier Waste Solutions acquisition in early April as a leading vertically integrated solid waste business across the Texas Triangle.</cite> <cite index=\"32-2\">The company completed eight acquisitions since the start of the year, adding an estimated $425 million to $450 million in annualized revenue.</cite>"
+    "notes": "<cite index=\"36-8,36-9\">GFL completed Frontier Waste Solutions acquisition in early April as a leading vertically integrated solid waste business across the Texas Triangle.</cite> <cite index=\"32-2\">The company completed eight acquisitions since the start of the year, adding an estimated $425 million to $450 million in annualized revenue.</cite>",
+    "latitude": 31.0,
+    "longitude": -100.0,
+    "zoom_hint": "wide"
   },
   {
     "date": "2025-12-01",
@@ -848,7 +1017,10 @@ const compDatabaseData = [
     "notes": "Multi-service add-on, broadens LES service mix.",
     "date_confidence": "verified",
     "_old_source_url": "https://wastetodaymagazine.com",
-    "source_confidence": "placeholder"
+    "source_confidence": "placeholder",
+    "latitude": 38.627,
+    "longitude": -90.199,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2025-10-27",
@@ -872,7 +1044,10 @@ const compDatabaseData = [
     "notes": "First Ohio exposure for Wind River.",
     "date_confidence": "verified",
     "_old_source_url": "https://wrenvironmental.com",
-    "source_confidence": "placeholder"
+    "source_confidence": "placeholder",
+    "latitude": 40.876,
+    "longitude": -77.822,
+    "zoom_hint": "wide"
   },
   {
     "date": "2025-09-02",
@@ -895,7 +1070,10 @@ const compDatabaseData = [
     ],
     "notes": "Largest disclosed transaction in the FOG/NHLW space in the cycle.",
     "date_confidence": "verified",
-    "source_confidence": "verified"
+    "source_confidence": "verified",
+    "latitude": 39.828,
+    "longitude": -98.58,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2025-08-11",
@@ -919,7 +1097,10 @@ const compDatabaseData = [
     "notes": "PA coverage extension.",
     "date_confidence": "verified",
     "_old_source_url": "https://wrenvironmental.com",
-    "source_confidence": "placeholder"
+    "source_confidence": "placeholder",
+    "latitude": 41.369,
+    "longitude": -74.7,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2025-08-11",
@@ -943,7 +1124,10 @@ const compDatabaseData = [
     "notes": "Bundled with M&S Septic announcement.",
     "date_confidence": "verified",
     "_old_source_url": "https://wrenvironmental.com",
-    "source_confidence": "placeholder"
+    "source_confidence": "placeholder",
+    "latitude": 41.326,
+    "longitude": -75.275,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2025-08-05",
@@ -966,7 +1150,10 @@ const compDatabaseData = [
     ],
     "date_confidence": "verified",
     "source_confidence": "verified",
-    "notes": ""
+    "notes": "",
+    "latitude": 39.828,
+    "longitude": -98.58,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2025-07-23",
@@ -987,7 +1174,10 @@ const compDatabaseData = [
     "deal_summary": [
       "Goldman Sachs Alternatives acquired LES from Audax Private Equity. LES operates 64 service locations and 26 treatment facilities managing non-hazardous liquid waste including grease traps, oil water separators, and used cooking oil."
     ],
-    "date_confidence": "verified"
+    "date_confidence": "verified",
+    "latitude": 32.814,
+    "longitude": -96.949,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2025-07-22",
@@ -1010,7 +1200,10 @@ const compDatabaseData = [
     ],
     "notes": "Announcement of the LES platform sale; companion to the September 2025 close.",
     "date_confidence": "verified",
-    "source_confidence": "verified"
+    "source_confidence": "verified",
+    "latitude": 32.814,
+    "longitude": -96.949,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2025-07-22",
@@ -1029,7 +1222,10 @@ const compDatabaseData = [
     "owner_classification": "Unknown",
     "deal_summary": null,
     "date_confidence": "approximate",
-    "notes": "<cite index=\"8-13\">Infrastructure at Goldman Sachs Alternatives announced definitive agreement to acquire Liquid Environmental Solutions, a leading provider of non-hazardous liquid waste management services in the United States, from Audax Private Equity.</cite> <cite index=\"8-14,8-15\">Founded in 2002, LES is a leading national service provider managing non-hazardous liquid waste including grease traps, oil water separators, used cooking oil and other non-hazardous liquid waste.</cite>"
+    "notes": "<cite index=\"8-13\">Infrastructure at Goldman Sachs Alternatives announced definitive agreement to acquire Liquid Environmental Solutions, a leading provider of non-hazardous liquid waste management services in the United States, from Audax Private Equity.</cite> <cite index=\"8-14,8-15\">Founded in 2002, LES is a leading national service provider managing non-hazardous liquid waste including grease traps, oil water separators, used cooking oil and other non-hazardous liquid waste.</cite>",
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
   },
   {
     "date": "2025-07-20",
@@ -1052,7 +1248,10 @@ const compDatabaseData = [
     ],
     "date_confidence": "approximate",
     "source_confidence": "verified",
-    "notes": ""
+    "notes": "",
+    "latitude": 39.045,
+    "longitude": -76.641,
+    "zoom_hint": "wide"
   },
   {
     "date": "2025-07-11",
@@ -1075,7 +1274,10 @@ const compDatabaseData = [
     ],
     "date_confidence": "verified",
     "source_confidence": "verified",
-    "notes": ""
+    "notes": "",
+    "latitude": 30.438,
+    "longitude": -84.281,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2025-05-20",
@@ -1099,7 +1301,10 @@ const compDatabaseData = [
     "notes": "Third Momentum acquisition since 2024.",
     "date_confidence": "verified",
     "_old_source_url": "https://businesswire.com",
-    "source_confidence": "placeholder"
+    "source_confidence": "placeholder",
+    "latitude": 40.713,
+    "longitude": -74.006,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2025-04-25",
@@ -1123,7 +1328,10 @@ const compDatabaseData = [
     "notes": "Bundled with Liquid Assets Disposal.",
     "date_confidence": "verified",
     "_old_source_url": "https://wrenvironmental.com",
-    "source_confidence": "placeholder"
+    "source_confidence": "placeholder",
+    "latitude": 40.876,
+    "longitude": -77.822,
+    "zoom_hint": "wide"
   },
   {
     "date": "2025-04-25",
@@ -1147,7 +1355,10 @@ const compDatabaseData = [
     "notes": "First WV exposure for Wind River.",
     "date_confidence": "verified",
     "_old_source_url": "https://wrenvironmental.com",
-    "source_confidence": "placeholder"
+    "source_confidence": "placeholder",
+    "latitude": 38.598,
+    "longitude": -80.454,
+    "zoom_hint": "wide"
   },
   {
     "date": "2025-04-23",
@@ -1171,7 +1382,10 @@ const compDatabaseData = [
     "notes": "First TN entry. Coverage spans AR, MS, MO, KY.",
     "date_confidence": "verified",
     "_old_source_url": "https://wrenvironmental.com",
-    "source_confidence": "placeholder"
+    "source_confidence": "placeholder",
+    "latitude": 35.149,
+    "longitude": -90.049,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2025-04-08",
@@ -1194,7 +1408,10 @@ const compDatabaseData = [
     ],
     "notes": "Third NC acquisition in six months.",
     "date_confidence": "verified",
-    "source_confidence": "verified"
+    "source_confidence": "verified",
+    "latitude": 36.217,
+    "longitude": -81.674,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2025-03-07",
@@ -1216,7 +1433,10 @@ const compDatabaseData = [
     ],
     "date_confidence": "verified",
     "source_confidence": "verified",
-    "notes": ""
+    "notes": "",
+    "latitude": 27.965,
+    "longitude": -82.8,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2025-01-07",
@@ -1238,7 +1458,10 @@ const compDatabaseData = [
       "GFL retained $1.7B equity stake. Proceeds applied to leverage reduction and share repurchases."
     ],
     "notes": "Announced 2025-01-07; closed in Q1 2025. GFL retained 44% equity ($1.7B). Cash proceeds ~$6.2B net of retained equity and taxes.",
-    "date_confidence": "verified"
+    "date_confidence": "verified",
+    "latitude": 39.828,
+    "longitude": -98.58,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2024-11-15",
@@ -1262,7 +1485,10 @@ const compDatabaseData = [
     "notes": "Initial NC platform entry.",
     "date_confidence": "verified",
     "_old_source_url": "https://wrenvironmental.com",
-    "source_confidence": "placeholder"
+    "source_confidence": "placeholder",
+    "latitude": 35.63,
+    "longitude": -79.806,
+    "zoom_hint": "wide"
   },
   {
     "date": "2024-10-08",
@@ -1286,7 +1512,10 @@ const compDatabaseData = [
     "notes": "Second NC add-on in 2024.",
     "date_confidence": "verified",
     "_old_source_url": "https://wrenvironmental.com",
-    "source_confidence": "placeholder"
+    "source_confidence": "placeholder",
+    "latitude": 35.63,
+    "longitude": -79.806,
+    "zoom_hint": "wide"
   },
   {
     "date": "2024-09-15",
@@ -1309,7 +1538,10 @@ const compDatabaseData = [
     ],
     "date_confidence": "approximate",
     "source_confidence": "placeholder",
-    "notes": ""
+    "notes": "",
+    "latitude": 26.122,
+    "longitude": -80.137,
+    "zoom_hint": "wide"
   },
   {
     "date": "2024-08-26",
@@ -1332,7 +1564,10 @@ const compDatabaseData = [
     ],
     "date_confidence": "verified",
     "source_confidence": "verified",
-    "notes": ""
+    "notes": "",
+    "latitude": 37.525,
+    "longitude": -77.225,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2024-04-15",
@@ -1355,7 +1590,10 @@ const compDatabaseData = [
     ],
     "date_confidence": "approximate",
     "source_confidence": "placeholder",
-    "notes": ""
+    "notes": "",
+    "latitude": 28.538,
+    "longitude": -81.379,
+    "zoom_hint": "wide"
   },
   {
     "date": "2024-03-25",
@@ -1379,7 +1617,10 @@ const compDatabaseData = [
     "notes": "Public micro-cap consolidator \u2014 distinct from PE-backed peers.",
     "date_confidence": "verified",
     "_old_source_url": "https://stocktitan.net",
-    "source_confidence": "placeholder"
+    "source_confidence": "placeholder",
+    "latitude": 43.661,
+    "longitude": -70.255,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2024-02-15",
@@ -1400,7 +1641,10 @@ const compDatabaseData = [
     "deal_summary": [
       "Private equity sponsor Georgia Oak Partners acquired Septic Blue, a Southeast regional leader in septic tank services operating in Atlanta, Charlotte, and Raleigh metro areas. Source Capital provided debt financing and equity co-investment."
     ],
-    "date_confidence": "verified"
+    "date_confidence": "verified",
+    "latitude": 33.749,
+    "longitude": -84.388,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2023-10-31",
@@ -1422,7 +1666,10 @@ const compDatabaseData = [
     ],
     "date_confidence": "verified",
     "source_confidence": "verified",
-    "notes": ""
+    "notes": "",
+    "latitude": 40.964,
+    "longitude": -74.61,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2023-10-17",
@@ -1444,7 +1691,10 @@ const compDatabaseData = [
       "Public-to-private transition; HCCI is now PE-backed (no longer public)."
     ],
     "notes": "Take-private of HCCI by J.F. Lehman.",
-    "date_confidence": "verified"
+    "date_confidence": "verified",
+    "latitude": 42.037,
+    "longitude": -88.281,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2023-07-15",
@@ -1467,7 +1717,10 @@ const compDatabaseData = [
     ],
     "date_confidence": "verified",
     "source_confidence": "verified",
-    "notes": ""
+    "notes": "",
+    "latitude": 28.538,
+    "longitude": -81.379,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2023-06-15",
@@ -1490,7 +1743,10 @@ const compDatabaseData = [
     ],
     "date_confidence": "approximate",
     "source_confidence": "placeholder",
-    "notes": ""
+    "notes": "",
+    "latitude": 27.951,
+    "longitude": -82.459,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2023-04-27",
@@ -1513,7 +1769,10 @@ const compDatabaseData = [
     ],
     "date_confidence": "verified",
     "source_confidence": "verified",
-    "notes": ""
+    "notes": "",
+    "latitude": 42.407,
+    "longitude": -71.383,
+    "zoom_hint": "wide"
   },
   {
     "date": "2023-04-05",
@@ -1535,7 +1794,10 @@ const compDatabaseData = [
     ],
     "date_confidence": "verified",
     "source_confidence": "verified",
-    "notes": ""
+    "notes": "",
+    "latitude": 39.018,
+    "longitude": -76.687,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2023-03-31",
@@ -1557,7 +1819,10 @@ const compDatabaseData = [
     ],
     "date_confidence": "verified",
     "source_confidence": "verified",
-    "notes": ""
+    "notes": "",
+    "latitude": 35.388,
+    "longitude": -81.379,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2022-12-09",
@@ -1579,7 +1844,10 @@ const compDatabaseData = [
     ],
     "date_confidence": "verified",
     "source_confidence": "verified",
-    "notes": ""
+    "notes": "",
+    "latitude": 37.638,
+    "longitude": -76.574,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2022-10-31",
@@ -1601,7 +1869,10 @@ const compDatabaseData = [
     ],
     "date_confidence": "verified",
     "source_confidence": "verified",
-    "notes": ""
+    "notes": "",
+    "latitude": 39.866,
+    "longitude": -75.131,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2022-09-30",
@@ -1623,7 +1894,10 @@ const compDatabaseData = [
     ],
     "date_confidence": "verified",
     "source_confidence": "verified",
-    "notes": ""
+    "notes": "",
+    "latitude": 28.249,
+    "longitude": -81.281,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2022-08-12",
@@ -1646,7 +1920,10 @@ const compDatabaseData = [
     ],
     "date_confidence": "verified",
     "source_confidence": "verified",
-    "notes": ""
+    "notes": "",
+    "latitude": 40.404,
+    "longitude": -75.926,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2022-08-03",
@@ -1668,7 +1945,10 @@ const compDatabaseData = [
       "Pre-dates J.F. Lehman take-private of HCC by 14 months \u2014 at deal time HCC was publicly traded."
     ],
     "notes": "HCC was publicly traded (NASDAQ: HCCI) at the time of this acquisition; HCC itself was taken private by J.F. Lehman 14 months later (Oct 2023).",
-    "date_confidence": "verified"
+    "date_confidence": "verified",
+    "latitude": 36.778,
+    "longitude": -119.418,
+    "zoom_hint": "wide"
   },
   {
     "date": "2021-08-17",
@@ -1690,7 +1970,10 @@ const compDatabaseData = [
     ],
     "date_confidence": "verified",
     "source_confidence": "verified",
-    "notes": ""
+    "notes": "",
+    "latitude": 39.901,
+    "longitude": -74.15,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2021-05-01",
@@ -1712,7 +1995,10 @@ const compDatabaseData = [
     ],
     "date_confidence": "verified",
     "source_confidence": "verified",
-    "notes": ""
+    "notes": "",
+    "latitude": 39.846,
+    "longitude": -75.711,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2020-12-07",
@@ -1734,7 +2020,10 @@ const compDatabaseData = [
     ],
     "date_confidence": "verified",
     "source_confidence": "verified",
-    "notes": ""
+    "notes": "",
+    "latitude": 27.91,
+    "longitude": -82.787,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2020-08-26",
@@ -1756,7 +2045,10 @@ const compDatabaseData = [
     ],
     "date_confidence": "verified",
     "source_confidence": "verified",
-    "notes": ""
+    "notes": "",
+    "latitude": 40.211,
+    "longitude": -75.067,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2019-12-04",
@@ -1779,7 +2071,10 @@ const compDatabaseData = [
     ],
     "date_confidence": "verified",
     "source_confidence": "placeholder",
-    "notes": ""
+    "notes": "",
+    "latitude": 27.198,
+    "longitude": -80.253,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2019-06-15",
@@ -1802,7 +2097,10 @@ const compDatabaseData = [
     ],
     "date_confidence": "approximate",
     "source_confidence": "placeholder",
-    "notes": "Year confirmed (2019); exact day approximate."
+    "notes": "Year confirmed (2019); exact day approximate.",
+    "latitude": 41.372,
+    "longitude": -73.731,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2019-06-15",
@@ -1825,7 +2123,10 @@ const compDatabaseData = [
     ],
     "date_confidence": "approximate",
     "source_confidence": "placeholder",
-    "notes": "Year confirmed (2019); exact day approximate."
+    "notes": "Year confirmed (2019); exact day approximate.",
+    "latitude": 28.538,
+    "longitude": -81.379,
+    "zoom_hint": "wide"
   },
   {
     "date": "2018-12-15",
@@ -1848,7 +2149,10 @@ const compDatabaseData = [
     ],
     "date_confidence": "verified",
     "source_confidence": "verified",
-    "notes": ""
+    "notes": "",
+    "latitude": 33.875,
+    "longitude": -84.764,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2018-07-05",
@@ -1870,7 +2174,10 @@ const compDatabaseData = [
     ],
     "date_confidence": "verified",
     "source_confidence": "verified",
-    "notes": ""
+    "notes": "",
+    "latitude": 41.603,
+    "longitude": -73.087,
+    "zoom_hint": "wide"
   },
   {
     "date": "2018-05-17",
@@ -1892,7 +2199,10 @@ const compDatabaseData = [
     ],
     "date_confidence": "verified",
     "source_confidence": "verified",
-    "notes": ""
+    "notes": "",
+    "latitude": 42.156,
+    "longitude": -71.005,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2018-02-21",
@@ -1915,7 +2225,10 @@ const compDatabaseData = [
     ],
     "date_confidence": "verified",
     "source_confidence": "verified",
-    "notes": ""
+    "notes": "",
+    "latitude": 44.045,
+    "longitude": -72.711,
+    "zoom_hint": "wide"
   },
   {
     "date": "2018-01-30",
@@ -1938,7 +2251,10 @@ const compDatabaseData = [
     ],
     "date_confidence": "verified",
     "source_confidence": "verified",
-    "notes": ""
+    "notes": "",
+    "latitude": 40.058,
+    "longitude": -74.405,
+    "zoom_hint": "wide"
   },
   {
     "date": "2017-11-01",
@@ -1961,7 +2277,10 @@ const compDatabaseData = [
     ],
     "notes": "Audax platform investment. Held until 2025 GS sale. 13 add-ons during hold.",
     "date_confidence": "verified",
-    "source_confidence": "verified"
+    "source_confidence": "verified",
+    "latitude": 32.814,
+    "longitude": -96.949,
+    "zoom_hint": "narrow"
   },
   {
     "date": "2017-04-04",
@@ -1983,7 +2302,10 @@ const compDatabaseData = [
       "Funded a 50+ add-on tuck-in campaign across the Northeast and Southeast through 2026."
     ],
     "notes": "Gryphon Investors announced majority investment in Wind River on 2017-04-04 (not a recap \u2014 initial Gryphon ownership). Funded the 50+ add-on push that defines the 2017-2026 vintage.",
-    "date_confidence": "verified"
+    "date_confidence": "verified",
+    "latitude": 42.346,
+    "longitude": -71.552,
+    "zoom_hint": "narrow"
   }
 ];
 </script>
@@ -2630,6 +2952,9 @@ document.getElementById('legend-fog-total').textContent = FOG_DATA.length.toLoca
 console.log('Map initialized: '+ FOG_DATA.length +' FOG facilities, '+ WWTP_DATA.length +' WWTPs');
 
 window.__fogMap = (typeof map !== 'undefined') ? map : null;
+window.__fogMarkers = (typeof fogMarkers !== 'undefined') ? fogMarkers : null;
+window.__fogClusters = (typeof fogClusters !== 'undefined') ? fogClusters : null;
+window.__fogCatOrder = (typeof CAT_ORDER !== 'undefined') ? CAT_ORDER : null;
 window.dispatchEvent(new Event('fogMapReady'));
 </script>
 
@@ -2649,6 +2974,85 @@ window.dispatchEvent(new Event('fogMapReady'));
   document.querySelectorAll('.tab-btn').forEach(function (btn) {
     btn.addEventListener('click', function () { switchTab(btn.dataset.tab); });
   });
+
+  // ---------- Find-on-Map (transactions tab → map tab) ----------
+  // Exposed globally because comp-row inline onclick handlers call it.
+  window.findOnMap = function (lat, lng, target, acquirer, date, zoomHint) {
+    if (typeof lat !== 'number' || typeof lng !== 'number') return;
+    switchTab('map');
+
+    var attempts = 0;
+    var MAX_ATTEMPTS = 4;
+    function go() {
+      var fogMap = window.__fogMap;
+      var clusters = window.__fogClusters;
+      var markers = window.__fogMarkers;
+      var catOrder = window.__fogCatOrder;
+      if (!fogMap) {
+        if (++attempts < MAX_ATTEMPTS) return setTimeout(go, 500);
+        return;
+      }
+      fogMap.invalidateSize();
+
+      var zoom = (zoomHint === 'wide') ? 5 : 12;
+      fogMap.setView([lat, lng], zoom, { animate: true });
+
+      // Pulsing 25-mile highlight circle
+      var highlight = L.circle([lat, lng], {
+        radius: 40234,
+        color: '#e74c3c',
+        fillColor: '#e74c3c',
+        fillOpacity: 0.08,
+        weight: 2,
+        dashArray: '8, 8',
+        className: 'pulse-circle'
+      }).addTo(fogMap);
+      setTimeout(function () { fogMap.removeLayer(highlight); }, 15000);
+
+      // Floating deal label
+      var labelHtml = '<div class="deal-map-label">📍 <b>' +
+        escapeHtml(target) + '</b><br>' +
+        (acquirer === 'news' ? '' : 'Acquired by ' + escapeHtml(acquirer) + ' ') +
+        '(' + escapeHtml(date) + ')</div>';
+      var label = L.popup({
+        closeButton: true, autoClose: false, closeOnClick: true,
+        className: 'deal-label-popup', offset: [0, -20]
+      }).setLatLng([lat, lng]).setContent(labelHtml).openOn(fogMap);
+      setTimeout(function () { fogMap.closePopup(label); }, 8000);
+
+      // Skip nearest-marker step on wide-zoom (multi-region) views.
+      if (zoomHint === 'wide' || !clusters || !markers || !catOrder) return;
+
+      // Find nearest FOG marker across all (category, entity) buckets.
+      var nearest = null, nearestDist = Infinity, nearestCluster = null;
+      catOrder.forEach(function (cat) {
+        ['plant', 'pumper'].forEach(function (ent) {
+          var arr = (markers[cat] && markers[cat][ent]) || [];
+          for (var i = 0; i < arr.length; i++) {
+            var m = arr[i];
+            if (!m.getLatLng) continue;
+            var d = fogMap.distance([lat, lng], m.getLatLng());
+            if (d < nearestDist) {
+              nearestDist = d;
+              nearest = m;
+              nearestCluster = clusters[cat] && clusters[cat][ent];
+            }
+          }
+        });
+      });
+      // Open popup if within 10 miles (16,093 m). Use cluster.zoomToShowLayer
+      // to spiderfy if the marker is currently inside a cluster.
+      if (nearest && nearestDist < 16093 && nearestCluster &&
+          typeof nearestCluster.zoomToShowLayer === 'function') {
+        nearestCluster.zoomToShowLayer(nearest, function () {
+          try { nearest.openPopup(); } catch (_) {}
+        });
+      } else if (nearest && nearestDist < 16093) {
+        try { nearest.openPopup(); } catch (_) {}
+      }
+    }
+    setTimeout(go, 200);
+  };
 
   // ---------- Helpers ----------
   function escapeHtml(s) {
@@ -2741,11 +3145,22 @@ window.dispatchEvent(new Event('fogMapReady'));
       var relBadge = (!isNaN(relevance) && relevance >= 4)
         ? '<span class="relevance-badge" title="High relevance to FOG roll-up strategy">🔥 High Relevance</span>'
         : '';
+      var mapLink = '';
+      if ((cat === 'M&A' || n.is_deal) &&
+          typeof n.latitude === 'number' && typeof n.longitude === 'number') {
+        var args = [n.latitude, n.longitude,
+                    JSON.stringify(n.headline || ''),
+                    JSON.stringify('news'),
+                    JSON.stringify(n.date || ''),
+                    JSON.stringify(n.zoom_hint || 'narrow')].join(',');
+        mapLink = '<a class="find-on-map-link" onclick="findOnMap(' + args + '); return false;" href="#">🗺️ Find on Map</a>';
+      }
       return '<div class="news-card ' + cls + '">' +
         '<div class="meta"><span class="cat-tag" style="background:' + bg + '">' + escapeHtml(cat) + '</span>' + escapeHtml(formatDate(n.date)) + relBadge + '</div>' +
         '<div class="headline">' + escapeHtml(n.headline || '') + '</div>' +
         '<div class="summary">' + escapeHtml(n.summary || '') + '</div>' +
         src + alert +
+        (mapLink ? '<div>' + mapLink + '</div>' : '') +
         '</div>';
     }).join('');
 
@@ -2877,12 +3292,22 @@ window.dispatchEvent(new Event('fogMapReady'));
         sourceHtml = '<div style="margin-top:6px;"><b>Source:</b> ' + escapeHtml(d.source) +
           ' <span style="color:#b03030; font-size:11px;">(URL not verified — original press release / blog post needs to be located)</span></div>';
       }
+      var findBtn = '';
+      if (typeof d.latitude === 'number' && typeof d.longitude === 'number') {
+        var args = [d.latitude, d.longitude,
+                    JSON.stringify(d.target || ''),
+                    JSON.stringify(d.acquirer || ''),
+                    JSON.stringify(d.date || ''),
+                    JSON.stringify(d.zoom_hint || 'narrow')].join(',');
+        findBtn = '<button class="find-on-map-btn" onclick="findOnMap(' + args + ')">🗺️ Find on Map</button>';
+      }
       html += '<tr class="expanded-row"><td colspan="9" class="detail-cell">' +
         summaryHtml +
         sourceHtml +
         (d.owner_classification ? '<div style="margin-top:4px;"><b>Owner type:</b> ' + escapeHtml(d.owner_classification) + '</div>' : '') +
         (d.notes ? '<div style="margin-top:6px;"><b>Notes:</b> ' + escapeHtml(d.notes) + '</div>' : '') +
         (d.is_target_market ? '<div style="margin-top:6px; color:#27ae60;"><b>Target market:</b> ' + escapeHtml(d.target_market_name || 'flagged') + '</div>' : '') +
+        findBtn +
         '</td></tr>';
     }
     return html;

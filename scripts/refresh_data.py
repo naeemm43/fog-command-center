@@ -84,6 +84,260 @@ CITY_COORDS: dict[str, tuple[float, float]] = {
 }
 
 
+# ============================================================================
+# Deal-location geocoding (for the "Find on Map" button on transaction rows).
+# Stored coords are (lat, lng) in WGS84.  zoom_hint is "narrow" for specific
+# city locations (Leaflet zoom level ~12) or "wide" for multi-region /
+# state-only descriptors (zoom level ~5-6).
+# ============================================================================
+
+DEAL_CITY_COORDS: dict[str, tuple[float, float]] = {
+    "Irving, TX": (32.814, -96.949),
+    "Marlborough, MA": (42.346, -71.552),
+    "Stuart, FL": (27.198, -80.253),
+    "Mahopac, NY": (41.372, -73.731),
+    "Tampa Bay, FL": (27.951, -82.459),
+    "Tampa, FL": (27.951, -82.459),
+    "Central Florida": (28.538, -81.379),
+    "South Florida": (26.122, -80.137),
+    "Tallahassee, FL": (30.438, -84.281),
+    "Charlotte, NC": (35.227, -80.843),
+    "Boone, NC": (36.217, -81.674),
+    "North Carolina": (35.630, -79.806),
+    "Quinton, VA": (37.525, -77.225),
+    "Arlington, TN": (35.296, -89.661),
+    "Memphis, TN": (35.149, -90.049),
+    "Washington, PA": (40.174, -80.246),
+    "Loretto, PA": (40.503, -78.632),
+    "Honesdale, PA": (41.577, -75.259),
+    "Matamoras, PA": (41.369, -74.700),
+    "Greentown, PA": (41.326, -75.275),
+    "Crofton, MD": (39.018, -76.687),
+    "St. Louis, MO": (38.627, -90.199),
+    "New Orleans, LA": (29.951, -90.072),
+    "New York, NY": (40.713, -74.006),
+    "Portland, ME": (43.661, -70.255),
+    "Atlanta, GA": (33.749, -84.388),
+    "Fayetteville, GA": (33.449, -84.455),
+    "Elgin, IL": (42.037, -88.281),
+    "New England": (42.407, -71.383),
+    "Florida": (28.538, -81.379),
+    "Pennsylvania": (40.876, -77.822),
+    "Georgia": (33.247, -83.441),
+    "West Virginia": (38.598, -80.454),
+    "Connecticut": (41.603, -73.087),
+    "Maine": (45.254, -69.445),
+    "California": (36.778, -119.418),
+    "Massachusetts": (42.407, -71.383),
+    "Texas": (31.000, -100.000),
+    "Maryland": (39.045, -76.641),
+    "Virginia": (37.432, -78.657),
+    "New Jersey": (40.058, -74.405),
+    "Delaware": (38.910, -75.527),
+    "Vermont": (44.000, -72.700),
+    "New Hampshire": (43.193, -71.572),
+    "Kentucky": (37.840, -84.270),
+    "Tennessee": (35.860, -86.660),
+    "Southeast US": (33.749, -84.388),
+    "Northeast US": (41.203, -73.201),
+    "Midwest": (41.881, -87.629),
+    "National": (39.828, -98.580),
+    "Multi-state": (39.828, -98.580),
+    "Mid-Atlantic": (39.045, -76.641),
+    "Upper Midwest": (44.0, -89.5),
+}
+
+# Full state name → 2-letter abbreviation, for normalizing "Atlanta, Georgia"
+# → "Atlanta, GA" before lookup.
+_STATE_ABBREV: dict[str, str] = {
+    "alabama": "AL", "alaska": "AK", "arizona": "AZ", "arkansas": "AR",
+    "california": "CA", "colorado": "CO", "connecticut": "CT", "delaware": "DE",
+    "florida": "FL", "georgia": "GA", "hawaii": "HI", "idaho": "ID",
+    "illinois": "IL", "indiana": "IN", "iowa": "IA", "kansas": "KS",
+    "kentucky": "KY", "louisiana": "LA", "maine": "ME", "maryland": "MD",
+    "massachusetts": "MA", "michigan": "MI", "minnesota": "MN",
+    "mississippi": "MS", "missouri": "MO", "montana": "MT", "nebraska": "NE",
+    "nevada": "NV", "new hampshire": "NH", "new jersey": "NJ",
+    "new mexico": "NM", "new york": "NY", "north carolina": "NC",
+    "north dakota": "ND", "ohio": "OH", "oklahoma": "OK", "oregon": "OR",
+    "pennsylvania": "PA", "rhode island": "RI", "south carolina": "SC",
+    "south dakota": "SD", "tennessee": "TN", "texas": "TX", "utah": "UT",
+    "vermont": "VT", "virginia": "VA", "washington": "WA",
+    "west virginia": "WV", "wisconsin": "WI", "wyoming": "WY",
+}
+
+# State-level fallback centers, used when we can identify a state but not
+# the city. Matches the wide-zoom layer.
+_STATE_CENTER: dict[str, tuple[float, float]] = {
+    "AL": (32.806, -86.791), "AK": (61.371, -152.404), "AZ": (33.730, -111.431),
+    "AR": (34.969, -92.373), "CA": (36.778, -119.418), "CO": (39.060, -105.311),
+    "CT": (41.603, -73.087), "DE": (38.910, -75.527), "FL": (28.538, -81.379),
+    "GA": (33.247, -83.441), "HI": (20.792, -156.331), "ID": (44.240, -114.479),
+    "IL": (40.349, -88.986), "IN": (39.849, -86.258), "IA": (42.011, -93.210),
+    "KS": (38.526, -96.726), "KY": (37.840, -84.270), "LA": (31.169, -91.867),
+    "ME": (45.254, -69.445), "MD": (39.045, -76.641), "MA": (42.407, -71.383),
+    "MI": (44.314, -85.602), "MN": (45.694, -93.900), "MS": (32.741, -89.678),
+    "MO": (38.456, -92.288), "MT": (46.921, -110.454), "NE": (41.125, -98.268),
+    "NV": (38.313, -117.055), "NH": (43.452, -71.563), "NJ": (40.058, -74.405),
+    "NM": (34.840, -106.248), "NY": (40.713, -74.006), "NC": (35.630, -79.806),
+    "ND": (47.528, -99.784), "OH": (40.388, -82.764), "OK": (35.565, -96.928),
+    "OR": (44.572, -122.071), "PA": (40.876, -77.822), "RI": (41.680, -71.512),
+    "SC": (33.856, -80.945), "SD": (44.299, -99.439), "TN": (35.860, -86.660),
+    "TX": (31.000, -100.000), "UT": (40.150, -111.862), "VT": (44.045, -72.711),
+    "VA": (37.769, -78.170), "WA": (47.400, -121.490), "WV": (38.491, -80.954),
+    "WI": (44.268, -89.616), "WY": (42.756, -107.302),
+}
+
+# Additional commonly-seen city/town coords beyond the user-provided table.
+_EXTRA_CITY_COORDS: dict[str, tuple[float, float]] = {
+    "Bayville, NJ": (39.901, -74.150),
+    "Cherryville, NC": (35.388, -81.379),
+    "Clearwater, FL": (27.965, -82.800),
+    "Hiram, GA": (33.875, -84.764),
+    "Holbrook, MA": (42.156, -71.005),
+    "Ivyland, PA": (40.211, -75.067),
+    "Kennett Square, PA": (39.846, -75.711),
+    "Lake Hopatcong, NJ": (40.964, -74.610),
+    "Largo, FL": (27.910, -82.787),
+    "Orlando, FL": (28.538, -81.379),
+    "St. Cloud, FL": (28.249, -81.281),
+    "Saint Cloud, FL": (28.249, -81.281),
+    "Temple, PA": (40.404, -75.926),
+    "Urbanna, VA": (37.638, -76.574),
+    "Westville, NJ": (39.866, -75.131),
+    "Beloit, WI": (42.508, -89.032),
+    "Hueytown, AL": (33.453, -86.998),
+    "Chicago, IL": (41.878, -87.630),
+    "San Diego, CA": (32.716, -117.161),
+    "Houston, TX": (29.760, -95.370),
+    "Dallas, TX": (32.776, -96.797),
+    "Phoenix, AZ": (33.448, -112.074),
+    "Seattle, WA": (47.606, -122.332),
+    "Boston, MA": (42.360, -71.058),
+    "Philadelphia, PA": (39.953, -75.165),
+    "Richmond, VA": (37.541, -77.434),
+    "Pittsburgh, PA": (40.441, -79.996),
+    "Suburban Boston, MA": (42.360, -71.058),
+}
+
+_VAGUE_HINTS = (
+    "/", "|", "multi-state", "multi state", "national", "nationwide",
+    "northeast", "southeast", "midwest", "southwest", "northwest", "west coast",
+    "east coast", "tri-state", "mid-atlantic", "new england", "upper midwest",
+    "coastal", "southwestern",
+)
+
+
+def _is_vague_location(s: str) -> bool:
+    s_low = s.lower()
+    if any(h in s_low for h in _VAGUE_HINTS):
+        return True
+    # bare state name (no comma) → wide
+    if "," not in s and s.strip() in DEAL_CITY_COORDS:
+        only = s.strip()
+        # heuristic: if it doesn't look like a city + state code
+        return not re.match(r"^[A-Za-z .'-]+,\s*[A-Z]{2}$", only)
+    return False
+
+
+_CITY_STATE_RX = re.compile(r"([A-Za-z .'\-]+?),\s*([A-Z]{2})\b")
+
+
+def _all_city_coords() -> dict[str, tuple[float, float]]:
+    """Combine the user-provided and extra city dicts into one lookup."""
+    out = dict(DEAL_CITY_COORDS)
+    out.update(_EXTRA_CITY_COORDS)
+    return out
+
+
+def _normalize_state_in(s: str) -> str:
+    """Replace 'City, Florida' with 'City, FL' so it matches our dicts."""
+    parts = s.split(",")
+    if len(parts) >= 2:
+        tail = parts[-1].strip()
+        if tail.lower() in _STATE_ABBREV:
+            parts[-1] = " " + _STATE_ABBREV[tail.lower()]
+            return ",".join(parts).strip()
+    return s
+
+
+def geocode_deal_location(loc: str | None) -> tuple[float, float, str] | None:
+    """Return (lat, lng, zoom_hint) for a deal location string, or None
+    if no coordinate can be confidently inferred. zoom_hint is 'narrow'
+    (city zoom ~12) or 'wide' (multi-region zoom ~5)."""
+    if not loc:
+        return None
+    s = loc.strip()
+    if not s:
+        return None
+    cities = _all_city_coords()
+    s_norm = _normalize_state_in(s)
+
+    def _try(key: str, hint: str):
+        if key in cities:
+            lat, lng = cities[key]
+            return (lat, lng, hint)
+        return None
+
+    hint = "wide" if _is_vague_location(s) else "narrow"
+    r = _try(s_norm, hint) or _try(s, hint)
+    if r:
+        return r
+
+    # Strip parens: "National (HQ Irving, TX)" — try inner THEN outer.
+    paren = re.match(r"^(.*?)\s*\((.+?)\)\s*$", s)
+    if paren:
+        for cand in (paren.group(2).strip(), paren.group(1).strip()):
+            if not cand:
+                continue
+            cand_norm = _normalize_state_in(cand)
+            r = _try(cand_norm, "narrow") or _try(cand, "narrow")
+            if r:
+                return r
+
+    # Multi-region separators: "Beloit, WI / Upper Midwest" → first chunk.
+    for sep in ("/", "|", " and ", " & "):
+        if sep in s:
+            for chunk in s.split(sep):
+                ch = _normalize_state_in(chunk.strip())
+                r = _try(ch, "wide")
+                if r:
+                    return r
+
+    # "City, ST" anywhere in the string.
+    for src in (s_norm, s):
+        m = _CITY_STATE_RX.search(src)
+        if m:
+            key = m.group(1).strip() + ", " + m.group(2)
+            r = _try(key, "narrow")
+            if r:
+                return r
+            last_word = m.group(1).strip().split()[-1] if m.group(1).strip() else ""
+            if last_word:
+                r = _try(last_word + ", " + m.group(2), "narrow")
+                if r:
+                    return r
+            # Fall back to state center.
+            st = m.group(2)
+            if st in _STATE_CENTER:
+                lat, lng = _STATE_CENTER[st]
+                return (lat, lng, "wide")
+
+    # Pure state name or abbreviation with no city — match longest first
+    # so "New York" wins over "York" hidden inside it.
+    for name in sorted(_STATE_ABBREV, key=len, reverse=True):
+        if re.search(rf"\b{re.escape(name)}\b", s, re.IGNORECASE):
+            st = _STATE_ABBREV[name]
+            lat, lng = _STATE_CENTER[st]
+            return (lat, lng, "wide")
+    for word in re.findall(r"\b[A-Z]{2}\b", s):
+        if word in _STATE_CENTER:
+            lat, lng = _STATE_CENTER[word]
+            return (lat, lng, "wide")
+
+    return None
+
+
 # ----------------------------- helpers --------------------------------
 
 
@@ -530,13 +784,20 @@ def coerce_news_item(raw: dict) -> dict | None:
         "category": cat,
         "summary": raw.get("summary", ""),
         "relevance_score": relevance,
+        "is_deal": bool(raw.get("is_deal")),
         "is_target_market": False,
         "target_market_name": None,
+        "latitude": None,
+        "longitude": None,
+        "zoom_hint": None,
     }
     near = nearest_target_market(raw.get("location"))
     if near and near[1] <= TARGET_RADIUS_MI:
         item["is_target_market"] = True
         item["target_market_name"] = f"{near[0]} ({near[1]:.0f} mi)"
+    geo = geocode_deal_location(raw.get("location"))
+    if geo:
+        item["latitude"], item["longitude"], item["zoom_hint"] = geo
     return item
 
 
@@ -586,11 +847,17 @@ def coerce_deal_from_news(raw: dict) -> dict | None:
         "deal_summary": _normalize_summary_bullets(raw.get("deal_summary")),
         "date_confidence": raw.get("date_confidence") or "verified",
         "notes": raw.get("summary", ""),
+        "latitude": None,
+        "longitude": None,
+        "zoom_hint": None,
     }
     near = nearest_target_market(raw.get("location"))
     if near and near[1] <= TARGET_RADIUS_MI:
         deal["is_target_market"] = True
         deal["target_market_name"] = f"{near[0]} ({near[1]:.0f} mi)"
+    geo = geocode_deal_location(raw.get("location"))
+    if geo:
+        deal["latitude"], deal["longitude"], deal["zoom_hint"] = geo
     return deal
 
 

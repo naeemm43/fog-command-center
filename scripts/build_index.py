@@ -57,15 +57,17 @@ def slice_original(path: str) -> tuple[str, str, str]:
 
 
 def inject_map_handle(scripts: str) -> str:
-    """Expose the Leaflet map instance globally so the tab switcher can
-    call invalidateSize() when the map tab is shown."""
+    """Expose the Leaflet map instance + marker collections globally so
+    the tab-switcher and Find-on-Map handlers can drive the map."""
     last = scripts.rfind("</script>")
-    return (
-        scripts[:last]
-        + "\nwindow.__fogMap = (typeof map !== 'undefined') ? map : null;\n"
-        + "window.dispatchEvent(new Event('fogMapReady'));\n"
-        + scripts[last:]
+    handle = (
+        "\nwindow.__fogMap = (typeof map !== 'undefined') ? map : null;\n"
+        "window.__fogMarkers = (typeof fogMarkers !== 'undefined') ? fogMarkers : null;\n"
+        "window.__fogClusters = (typeof fogClusters !== 'undefined') ? fogClusters : null;\n"
+        "window.__fogCatOrder = (typeof CAT_ORDER !== 'undefined') ? CAT_ORDER : null;\n"
+        "window.dispatchEvent(new Event('fogMapReady'));\n"
     )
+    return scripts[:last] + handle + scripts[last:]
 
 
 # ============================================================================
@@ -433,6 +435,49 @@ html, body {
 .comps-table .row-clickable:hover td { background: #eef3f8 !important; }
 #row-count { font-size: 11px; color: #777; margin-top: 6px; }
 
+/* Find-on-Map button (transactions tab) */
+.find-on-map-btn {
+  margin-top: 12px;
+  padding: 8px 20px;
+  background: #1F3864;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: background 0.2s;
+  font-family: inherit;
+}
+.find-on-map-btn:hover { background: #2E86C1; }
+.find-on-map-btn:disabled { background: #aaa; cursor: not-allowed; }
+.find-on-map-link {
+  display: inline-block; margin-top: 8px;
+  padding: 5px 12px; border-radius: 4px;
+  background: #1F3864; color: white;
+  font-size: 11px; font-weight: 600;
+  text-decoration: none; cursor: pointer;
+}
+.find-on-map-link:hover { background: #2E86C1; }
+
+/* Pulsing highlight circle on the map */
+.pulse-circle { animation: pulse-opacity 2s ease-in-out infinite; }
+@keyframes pulse-opacity {
+  0%, 100% { opacity: 0.6; }
+  50%      { opacity: 1.0; }
+}
+
+/* Deal label popup floating over the map */
+.deal-label-popup .leaflet-popup-content-wrapper {
+  background: #1F3864; color: white;
+  border-radius: 8px; font-size: 13px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+.deal-label-popup .leaflet-popup-tip { background: #1F3864; }
+.deal-label-popup .leaflet-popup-close-button { color: #fff !important; }
+.deal-label-popup .leaflet-popup-content { color: #fff; }
+.deal-map-label { padding: 4px 8px; line-height: 1.5; }
+
 /* ============ Original map styles (scoped to map tab) ============ */
 __ORIGINAL_STYLE__
 </style>
@@ -570,6 +615,85 @@ __MAP_SCRIPTS__
     btn.addEventListener('click', function () { switchTab(btn.dataset.tab); });
   });
 
+  // ---------- Find-on-Map (transactions tab → map tab) ----------
+  // Exposed globally because comp-row inline onclick handlers call it.
+  window.findOnMap = function (lat, lng, target, acquirer, date, zoomHint) {
+    if (typeof lat !== 'number' || typeof lng !== 'number') return;
+    switchTab('map');
+
+    var attempts = 0;
+    var MAX_ATTEMPTS = 4;
+    function go() {
+      var fogMap = window.__fogMap;
+      var clusters = window.__fogClusters;
+      var markers = window.__fogMarkers;
+      var catOrder = window.__fogCatOrder;
+      if (!fogMap) {
+        if (++attempts < MAX_ATTEMPTS) return setTimeout(go, 500);
+        return;
+      }
+      fogMap.invalidateSize();
+
+      var zoom = (zoomHint === 'wide') ? 5 : 12;
+      fogMap.setView([lat, lng], zoom, { animate: true });
+
+      // Pulsing 25-mile highlight circle
+      var highlight = L.circle([lat, lng], {
+        radius: 40234,
+        color: '#e74c3c',
+        fillColor: '#e74c3c',
+        fillOpacity: 0.08,
+        weight: 2,
+        dashArray: '8, 8',
+        className: 'pulse-circle'
+      }).addTo(fogMap);
+      setTimeout(function () { fogMap.removeLayer(highlight); }, 15000);
+
+      // Floating deal label
+      var labelHtml = '<div class="deal-map-label">📍 <b>' +
+        escapeHtml(target) + '</b><br>' +
+        (acquirer === 'news' ? '' : 'Acquired by ' + escapeHtml(acquirer) + ' ') +
+        '(' + escapeHtml(date) + ')</div>';
+      var label = L.popup({
+        closeButton: true, autoClose: false, closeOnClick: true,
+        className: 'deal-label-popup', offset: [0, -20]
+      }).setLatLng([lat, lng]).setContent(labelHtml).openOn(fogMap);
+      setTimeout(function () { fogMap.closePopup(label); }, 8000);
+
+      // Skip nearest-marker step on wide-zoom (multi-region) views.
+      if (zoomHint === 'wide' || !clusters || !markers || !catOrder) return;
+
+      // Find nearest FOG marker across all (category, entity) buckets.
+      var nearest = null, nearestDist = Infinity, nearestCluster = null;
+      catOrder.forEach(function (cat) {
+        ['plant', 'pumper'].forEach(function (ent) {
+          var arr = (markers[cat] && markers[cat][ent]) || [];
+          for (var i = 0; i < arr.length; i++) {
+            var m = arr[i];
+            if (!m.getLatLng) continue;
+            var d = fogMap.distance([lat, lng], m.getLatLng());
+            if (d < nearestDist) {
+              nearestDist = d;
+              nearest = m;
+              nearestCluster = clusters[cat] && clusters[cat][ent];
+            }
+          }
+        });
+      });
+      // Open popup if within 10 miles (16,093 m). Use cluster.zoomToShowLayer
+      // to spiderfy if the marker is currently inside a cluster.
+      if (nearest && nearestDist < 16093 && nearestCluster &&
+          typeof nearestCluster.zoomToShowLayer === 'function') {
+        nearestCluster.zoomToShowLayer(nearest, function () {
+          try { nearest.openPopup(); } catch (_) {}
+        });
+      } else if (nearest && nearestDist < 16093) {
+        try { nearest.openPopup(); } catch (_) {}
+      }
+    }
+    setTimeout(go, 200);
+  };
+
   // ---------- Helpers ----------
   function escapeHtml(s) {
     return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
@@ -661,11 +785,22 @@ __MAP_SCRIPTS__
       var relBadge = (!isNaN(relevance) && relevance >= 4)
         ? '<span class="relevance-badge" title="High relevance to FOG roll-up strategy">🔥 High Relevance</span>'
         : '';
+      var mapLink = '';
+      if ((cat === 'M&A' || n.is_deal) &&
+          typeof n.latitude === 'number' && typeof n.longitude === 'number') {
+        var args = [n.latitude, n.longitude,
+                    JSON.stringify(n.headline || ''),
+                    JSON.stringify('news'),
+                    JSON.stringify(n.date || ''),
+                    JSON.stringify(n.zoom_hint || 'narrow')].join(',');
+        mapLink = '<a class="find-on-map-link" onclick="findOnMap(' + args + '); return false;" href="#">🗺️ Find on Map</a>';
+      }
       return '<div class="news-card ' + cls + '">' +
         '<div class="meta"><span class="cat-tag" style="background:' + bg + '">' + escapeHtml(cat) + '</span>' + escapeHtml(formatDate(n.date)) + relBadge + '</div>' +
         '<div class="headline">' + escapeHtml(n.headline || '') + '</div>' +
         '<div class="summary">' + escapeHtml(n.summary || '') + '</div>' +
         src + alert +
+        (mapLink ? '<div>' + mapLink + '</div>' : '') +
         '</div>';
     }).join('');
 
@@ -797,12 +932,22 @@ __MAP_SCRIPTS__
         sourceHtml = '<div style="margin-top:6px;"><b>Source:</b> ' + escapeHtml(d.source) +
           ' <span style="color:#b03030; font-size:11px;">(URL not verified — original press release / blog post needs to be located)</span></div>';
       }
+      var findBtn = '';
+      if (typeof d.latitude === 'number' && typeof d.longitude === 'number') {
+        var args = [d.latitude, d.longitude,
+                    JSON.stringify(d.target || ''),
+                    JSON.stringify(d.acquirer || ''),
+                    JSON.stringify(d.date || ''),
+                    JSON.stringify(d.zoom_hint || 'narrow')].join(',');
+        findBtn = '<button class="find-on-map-btn" onclick="findOnMap(' + args + ')">🗺️ Find on Map</button>';
+      }
       html += '<tr class="expanded-row"><td colspan="9" class="detail-cell">' +
         summaryHtml +
         sourceHtml +
         (d.owner_classification ? '<div style="margin-top:4px;"><b>Owner type:</b> ' + escapeHtml(d.owner_classification) + '</div>' : '') +
         (d.notes ? '<div style="margin-top:6px;"><b>Notes:</b> ' + escapeHtml(d.notes) + '</div>' : '') +
         (d.is_target_market ? '<div style="margin-top:6px; color:#27ae60;"><b>Target market:</b> ' + escapeHtml(d.target_market_name || 'flagged') + '</div>' : '') +
+        findBtn +
         '</td></tr>';
     }
     return html;
