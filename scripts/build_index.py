@@ -114,6 +114,205 @@ _NAME_OP_PATTERNS_TO_PUBLIC_LABEL = [
 
 
 # ============================================================================
+# FOG-only filter
+#
+# The upstream FOG_DATA is built from EPA FRS facilities matching a broad
+# set of NAICS codes — including 562219 ("Other Nonhazardous Waste
+# Treatment & Disposal") which sweeps in landfills, transfer stations,
+# recycling centers, and many other facilities that aren't FOG/grease/
+# UCO/septic/liquid-waste. Tighten the dataset by:
+#
+#   1) Hard-removing names that contain landfill / transfer-station /
+#      recycling / hazardous-waste / etc. keywords.
+#   2) For ambiguous NAICS (562219 / 562111), keeping only facilities
+#      whose name contains a FOG-positive term.
+#   3) For facilities owned by primarily-solid-waste public companies
+#      (Republic / WM / GFL / Casella / Stericycle / Clean Harbors / US
+#      Ecology), keeping only those whose name contains a *core* FOG
+#      term — even tighter than (2), because their default product is
+#      not FOG.
+#
+# NAICS 562991 (Septic Tank and Related Services) and 311613 (Rendering
+# and Meat Byproduct Processing) are kept regardless — they're
+# inherently FOG-relevant.
+# ============================================================================
+
+# Municipal POTW name fragments. The map already has a separate WWTP layer
+# (~14k facilities) for treatment plants — facilities matching these patterns
+# in FOG_DATA are duplicates and not FOG-relevant for our purposes (they
+# RECEIVE waste, they don't haul or process FOG/UCO).
+_POTW_NAME_PATTERNS = [s.lower() for s in [
+    "wwtp", "wwtf", "wpcp", "wpcf", "potw",
+    # "wastewater treatment" with or without a plant/facility suffix —
+    # municipalities often name their plant just "{TOWN} WASTEWATER TREATMENT".
+    "wastewater treatment",
+    "wastewater reclamation",
+    "wastewater system", "wastewater utility",
+    "water treatment plant", "water treatment facility",
+    "water reclamation",
+    "sewage treatment", "sewage lagoon", "sewer lagoon", "wastewater lagoon",
+    "waste water treatment",  # space variant
+    "treatment lagoon",
+    "water authority", "water district", "water utility",
+    "sewer district", "sewer authority", "sanitation district",
+]]
+
+_NEGATIVE_KEYWORDS = [s.lower() for s in [
+    # Solid waste
+    "landfill", "transfer station", "recycling center", "recycling facility",
+    "materials recovery", "MRF", "solid waste", "refuse", "trash",
+    "garbage", "rubbish", "municipal waste",
+    # Construction / demolition
+    "construction debris", "C&D", "demolition", "concrete recycling",
+    "asphalt", "aggregate", "quarry", "mining",
+    # Composting / organics (non-FOG)
+    "composting", "compost facility", "yard waste", "green waste",
+    "mulch", "wood waste", "biomass",
+    # Scrap / salvage
+    "scrap", "salvage", "auto parts", "junkyard", "wrecking",
+    "tire", "rubber", "electronics", "e-waste",
+    # Hazardous waste
+    "hazardous waste", "RCRA", "PCB", "radioactive", "nuclear",
+    "chemical waste", "toxic",
+    # Medical / pharmaceutical
+    "medical waste", "biohazard", "pharmaceutical", "sharps",
+    "pathological", "infectious waste", "stericycle",
+    # Other non-FOG
+    "paper mill", "textile", "plastic recycling", "glass recycling",
+    "metal recycling", "aluminum", "steel",
+    "incinerator", "waste-to-energy",
+    "storage tank", "fuel storage", "petroleum bulk",
+    "gas station", "convenience store", "compressor station",
+    "snow dump", "natural gas storage",
+    "car wash", "laundry", "dry cleaner",
+    "animal hospital", "veterinary",
+    "cemetery", "funeral",
+]]
+
+_FOG_POSITIVE_KEYWORDS = [s.lower() for s in [
+    # Core FOG
+    "grease", "FOG", "fats oils", "fat oil",
+    "cooking oil", "UCO", "used oil", "yellow grease", "brown grease",
+    "trap cleaning", "trap service", "trap pumping",
+    # Liquid waste
+    "liquid waste", "liquid environmental", "liquid disposal",
+    "non-hazardous liquid", "nonhazardous liquid",
+    # Note: bare "wastewater" / "wastewater treatment" / "water treatment"
+    # are NOT positive — those match POTWs (handled by _POTW_NAME_PATTERNS
+    # which runs first). Keep only hauler / service variants.
+    "wastewater service", "wastewater hauling", "wastewater hauler",
+    # Septic / pumping
+    "septic", "cesspool", "pump", "vacuum truck",
+    "sewer", "drain", "rooter", "plumbing",
+    "jetting", "hydro", "vac",
+    # Rendering / processing
+    "rendering", "tallow", "biodiesel", "biofuel",
+    "protein", "meat byproduct", "animal fat",
+    "recycling grease", "grease recycling",
+    "oil recovery", "oil recycling", "oil collection",
+    # Environmental services (generic but often FOG-related)
+    "environmental service", "environmental solution",
+    "environmental management",
+    # Industry-specific
+    "porta", "portable", "restroom",
+    "catch basin", "storm drain",
+    "industrial cleaning", "industrial service",
+    # Known brand fragments
+    "wind river", "LES", "liquid enviro", "dar pro", "darling",
+    "baker commodit", "mahoney", "eazy grease", "happy traps",
+    "barrel energy", "septic blue",
+]]
+
+_SOLID_WASTE_COMPANY_PATTERNS = [s.lower() for s in [
+    "republic services", "allied waste",
+    "waste management", " wm ", "waste connections",
+    " gfl ", "casella", "waste industries",
+    "advanced disposal", "stericycle",
+    "covanta", "wheelabrator",
+    "clean harbors",
+    "us ecology",
+    "safety-kleen", "safety kleen", "clean earth",
+]]
+
+_CORE_FOG_TERMS = [s.lower() for s in [
+    "grease", "FOG", "cooking oil", "UCO", "liquid waste",
+    "septic", "rendering", "tallow", "wastewater",
+    "oil recovery", "oil recycling",
+]]
+
+_NAICS_KEEP_REGARDLESS = {"562991", "311613"}      # Septic + Rendering
+_NAICS_AMBIGUOUS = {"562219", "562111", "221320"}  # Need FOG-positive name
+
+
+def filter_to_fog_only(records: list[dict]) -> tuple[list[dict], dict[str, int]]:
+    """Return (filtered_records, counts). counts breaks out how many
+    records were dropped under each rule and how many survived under each
+    keep rule, so the operator can see what the filter is doing."""
+    counts: dict[str, int] = {
+        "kept_naics_core": 0,
+        "kept_ambig_naics_with_keyword": 0,
+        "kept_keyword_only": 0,
+        "removed_potw": 0,
+        "removed_solid_waste_company": 0,
+        "removed_negative_keyword": 0,
+        "removed_no_fog_signal": 0,
+    }
+    out: list[dict] = []
+
+    for r in records:
+        name = (r.get("n") or "").lower()
+        op = (r.get("op") or "").lower()
+        ot = (r.get("ot") or "").lower()
+        naics_str = (r.get("na") or "")
+        naics = {p.strip() for p in re.split(r"[;,]", naics_str) if p.strip()}
+
+        owner_text = name + " " + op + " " + ot
+        is_potw = any(p in name for p in _POTW_NAME_PATTERNS)
+        is_solid_waste_co = any(c in owner_text for c in _SOLID_WASTE_COMPANY_PATTERNS)
+        has_core_fog = any(t in name for t in _CORE_FOG_TERMS)
+        has_negative = any(kw in name for kw in _NEGATIVE_KEYWORDS)
+        has_positive = any(kw in name for kw in _FOG_POSITIVE_KEYWORDS)
+
+        # Step 0: POTW name pattern — these are municipal sewage treatment
+        # plants already covered by the WWTP layer. Highest-priority cut.
+        if is_potw:
+            counts["removed_potw"] += 1
+            continue
+
+        # Step 4: solid-waste-company filter is the strictest cut; runs first.
+        if is_solid_waste_co and not has_core_fog:
+            counts["removed_solid_waste_company"] += 1
+            continue
+
+        # Step 2: hard-negative keyword unless rescued by FOG-positive term.
+        if has_negative and not has_positive:
+            counts["removed_negative_keyword"] += 1
+            continue
+
+        # Step 3: NAICS-based decisions.
+        if naics & _NAICS_KEEP_REGARDLESS:
+            out.append(r)
+            counts["kept_naics_core"] += 1
+            continue
+        if naics & _NAICS_AMBIGUOUS:
+            if has_positive:
+                out.append(r)
+                counts["kept_ambig_naics_with_keyword"] += 1
+            else:
+                counts["removed_no_fog_signal"] += 1
+            continue
+
+        # No relevant NAICS — must have a FOG-positive keyword to survive.
+        if has_positive:
+            out.append(r)
+            counts["kept_keyword_only"] += 1
+        else:
+            counts["removed_no_fog_signal"] += 1
+
+    return out, counts
+
+
+# ============================================================================
 # Eazy Grease — Florida-rooted UCO consolidator we missed in the upstream
 # brand list. Until ownership.py adds them, patch matching facilities at
 # build time. Classified as a Regional platform (REG bucket).
@@ -131,6 +330,18 @@ _EAZY_GREASE_PATTERN = re.compile(
 _EAZY_GREASE_LABEL = "Regional: Eazy Grease (Private)"
 
 
+# Names that look like a solid-waste public-company match but are actually
+# independent local operators (the upstream brand match in ownership.py uses
+# `\bwaste management\b` which catches anything ending in "Waste Management",
+# producing false positives for businesses literally named "Liquid Waste
+# Management" or "Septic Services Waste Management"). When these turn up,
+# pull them out of the Public Co. tier and back into Local.
+_FALSE_PUBLIC_NAME_FRAGMENTS = (
+    "liquid waste management",
+    "septic services waste management",
+)
+
+
 def reclassify_to_public(records: list[dict]) -> dict[str, int]:
     """Mutate records in place. Return a count breakdown by new label."""
     counts: dict[str, int] = {}
@@ -141,6 +352,16 @@ def reclassify_to_public(records: list[dict]) -> dict[str, int]:
     for r in records:
         ct = r.get("ct", "")
         new_label = None
+        name_lower = (r.get("n") or "").lower()
+
+        # Skip records whose name reveals them as upstream brand-match false
+        # positives. Reset to a Local tag.
+        if any(frag in name_lower for frag in _FALSE_PUBLIC_NAME_FRAGMENTS):
+            ot = r.get("ot", "")
+            if ot.startswith("PE-Backed:"):
+                r["ot"] = "Local: " + (r.get("n") or "").title()
+                r["ct"] = "LOC"
+            continue
 
         if ct in _CT_TO_PUBLIC_LABEL:
             new_label = _CT_TO_PUBLIC_LABEL[ct]
@@ -260,22 +481,33 @@ def patch_legend(body_inner: str) -> str:
     return body_inner
 
 
-def patch_facility_data(scripts: str) -> tuple[str, dict[str, int]]:
-    """Find the FOG_DATA literal in the script block, parse it, apply
-    public-company reclassification, and write it back."""
+def patch_facility_data(
+    scripts: str,
+) -> tuple[str, dict[str, int], dict[str, int], list[dict]]:
+    """Find the FOG_DATA literal in the script block, parse it, apply the
+    FOG-only filter, run public-company / Eazy Grease reclassification on
+    survivors, write the result back. Returns
+    (scripts, public_counts, filter_counts, kept_records)."""
     m = re.search(r"const FOG_DATA = (\[.*?\]);\s*\n", scripts, flags=re.DOTALL)
     if not m:
-        sys.stderr.write("WARNING: FOG_DATA literal not found; skipping reclassification\n")
-        return scripts, {}
+        sys.stderr.write("WARNING: FOG_DATA literal not found; skipping filter+reclassification\n")
+        return scripts, {}, {}, []
     raw = m.group(1)
     records = json.loads(raw)
-    counts = reclassify_to_public(records)
+    before = len(records)
+
+    records, filter_counts = filter_to_fog_only(records)
+    filter_counts["_before"] = before
+    filter_counts["_after"] = len(records)
+
+    public_counts = reclassify_to_public(records)
     eazy_n = reclassify_eazy_grease(records)
     if eazy_n:
-        counts["Regional: Eazy Grease (Private)"] = eazy_n
+        public_counts["Regional: Eazy Grease (Private)"] = eazy_n
+
     new_literal = json.dumps(records, separators=(",", ":"))
     scripts = scripts[: m.start()] + f"const FOG_DATA = {new_literal};\n" + scripts[m.end():]
-    return scripts, counts
+    return scripts, public_counts, filter_counts, records
 
 
 TEMPLATE = r"""<!DOCTYPE html>
@@ -1071,7 +1303,7 @@ def main() -> int:
         return 2
 
     style_inner, body_inner, scripts = slice_original(SRC_MAP)
-    scripts, public_counts = patch_facility_data(scripts)
+    scripts, public_counts, filter_counts, kept_records = patch_facility_data(scripts)
     scripts = patch_category_info(scripts)
     body_inner = patch_legend(body_inner)
     scripts = inject_map_handle(scripts)
@@ -1100,20 +1332,85 @@ def main() -> int:
         f.write(out)
     print(f"Wrote {DST} ({os.path.getsize(DST):,} bytes) — "
           f"{len(news)} news items, {len(comps)} deals")
+
+    # ---- Filter summary ----
+    before = filter_counts.get("_before", 0)
+    after = filter_counts.get("_after", 0)
+    if before:
+        print()
+        print(f"FOG-only filter: BEFORE {before:,} → AFTER {after:,} "
+              f"(removed {before - after:,}, {(before - after) / before:.0%})")
+        print("  Removed by rule:")
+        print(f"    {filter_counts.get('removed_potw', 0):>5}  "
+              "POTW name pattern (already covered by WWTP layer)")
+        print(f"    {filter_counts.get('removed_solid_waste_company', 0):>5}  "
+              "solid-waste-company owner without core-FOG term in name")
+        print(f"    {filter_counts.get('removed_negative_keyword', 0):>5}  "
+              "negative-keyword name (landfill / recycling / hazardous / etc.)")
+        print(f"    {filter_counts.get('removed_no_fog_signal', 0):>5}  "
+              "ambiguous NAICS / no FOG-positive keyword in name")
+        print("  Kept by rule:")
+        print(f"    {filter_counts.get('kept_naics_core', 0):>5}  "
+              "NAICS 562991 (septic) or 311613 (rendering) — kept regardless")
+        print(f"    {filter_counts.get('kept_ambig_naics_with_keyword', 0):>5}  "
+              "NAICS 562219 / 562111 / 221320 with FOG-positive keyword")
+        print(f"    {filter_counts.get('kept_keyword_only', 0):>5}  "
+              "no relevant NAICS but FOG-positive keyword in name")
+
+    # ---- Per-category remaining ----
+    cat_counts: dict[str, int] = {}
+    for r in kept_records:
+        cat_counts[r.get("ct", "?")] = cat_counts.get(r.get("ct", "?"), 0) + 1
+    cat_label = {
+        "LES": "LES (Goldman Sachs)", "WRE": "Wind River (Gryphon)",
+        "BAK": "Baker Commodities", "MAH": "Mahoney / Crimson",
+        "MOM": "Momentum Environmental", "SEP": "Septic Blue (Georgia Oak)",
+        "PUB": "Public Company", "PE": "Other PE-Backed",
+        "REG": "Regional Operators", "LOC": "Local / Family",
+        "MUN": "Municipal (flagged)", "UNK": "Unknown",
+        "DAR": "Darling/DAR PRO (legacy ct)",
+        "BAR": "Barrel Energy (legacy ct)",
+    }
+    print()
+    print("Remaining by owner_type:")
+    for ct in ["LES", "WRE", "BAK", "MAH", "PUB", "MOM", "SEP", "PE",
+               "REG", "LOC", "MUN", "UNK", "DAR", "BAR"]:
+        n = cat_counts.get(ct, 0)
+        if n:
+            print(f"  {n:>5}  {cat_label.get(ct, ct)}")
+
+    # ---- Public Company breakdown (Darling vs other) ----
     pub_counts = {k: v for k, v in public_counts.items() if k.startswith("Public:")}
-    reg_counts = {k: v for k, v in public_counts.items() if k.startswith("Regional:")}
     if pub_counts:
         total = sum(pub_counts.values())
-        print(f"Map: reclassified {total} facilities to Public Company tier:")
+        print()
+        print(f"Public Company tier ({total} facilities):")
         for label, n in sorted(pub_counts.items(), key=lambda kv: -kv[1]):
             print(f"  {n:>5}  {label}")
+        non_darling_pub_records = [
+            r for r in kept_records
+            if r.get("ct") == "PUB"
+            and "darling" not in (r.get("ot") or "").lower()
+        ]
+        print(f"\nNon-Darling Public Company survivors: {len(non_darling_pub_records)}")
+        if 0 < len(non_darling_pub_records) <= 60:
+            for r in sorted(non_darling_pub_records,
+                            key=lambda x: (x.get("ot") or "", x.get("n") or "")):
+                print(f"  {(r.get('ot') or '?')[:55]:55} | "
+                      f"{(r.get('n') or '?')[:60]} ({r.get('s') or '?'})")
+        elif len(non_darling_pub_records) > 60:
+            print("  (>60 — listing first 30 by owner)")
+            for r in sorted(non_darling_pub_records,
+                            key=lambda x: (x.get("ot") or "", x.get("n") or ""))[:30]:
+                print(f"  {(r.get('ot') or '?')[:55]:55} | "
+                      f"{(r.get('n') or '?')[:60]} ({r.get('s') or '?'})")
+
+    reg_counts = {k: v for k, v in public_counts.items() if k.startswith("Regional:")}
     if reg_counts:
-        total = sum(reg_counts.values())
-        print(f"Map: reclassified {total} facilities to Regional brands:")
+        print()
+        print("Regional brand reclassifications:")
         for label, n in sorted(reg_counts.items(), key=lambda kv: -kv[1]):
             print(f"  {n:>5}  {label}")
-    if not pub_counts and not reg_counts:
-        print("Map: no facilities needed reclassification.")
     return 0
 
 
