@@ -1114,21 +1114,30 @@ const RESTAURANT_HEAT_DATA = {payload};
     return;
   }}
   if (!RESTAURANT_HEAT_DATA.length) return;
-  // Log-scale intensity: raw counts span 1 → 23k+ across counties, so a
-  // linear gradient buries every county outside the top 10. log1p
-  // spreads the dynamic range so rural counties read as light yellow
-  // and major metros read as dark red, with mid-size cities cleanly
-  // in between.
+  // Log-scale intensity: raw counts span 1 → ~600 across ZIPs (the top
+  // ZIPs in NYC have ~600 restaurants; rural ZIPs have 1-3). A linear
+  // gradient buries everything outside the top 100 ZIPs. log1p spreads
+  // the dynamic range so rural ZIPs read as light yellow, mid-size
+  // cities orange/red, and major-metro cores dark red.
   const heatPoints = RESTAURANT_HEAT_DATA.map(function(d) {{
     return [d[0], d[1], Math.log(d[2] + 1)];
   }});
   const max = Math.log(Math.max.apply(null,
     RESTAURANT_HEAT_DATA.map(function(d) {{ return d[2]; }})) + 1);
-  // The default heat tiles render at z-index ~400 which is BELOW the
-  // marker pane (600) and the cluster icon pane, so plant circles,
-  // operator diamonds, and WWTP markers all stay visible on top.
+  // ZIP-level resolution (~18k points) gives a continuous heat surface
+  // across metros — neighborhoods are distinguishable, downtown cores
+  // visibly hotter than suburbs. Tuned per the spec:
+  //   radius: 20, blur: 18 — ZIP polygons are smaller than counties so
+  //                          the points need to blend more to read as
+  //                          a continuous surface
+  //   maxZoom: 14 — Leaflet.heat re-rasterizes up to this zoom so the
+  //                 heat stays meaningful at city/street zoom
+  //   minOpacity: 0.15 — rural ZIPs read near-transparent
+  // Default tile pane (z-index ~400) is below Leaflet's marker pane
+  // (600), so plant circles, operator diamonds, and WWTP markers all
+  // stay visible on top.
   const heatLayer = L.heatLayer(heatPoints, {{
-    radius: 18, blur: 10, maxZoom: 10, max: max,
+    radius: 20, blur: 18, maxZoom: 14, max: max,
     gradient: {{
       0.0: '#ffffcc',
       0.2: '#fed976',
