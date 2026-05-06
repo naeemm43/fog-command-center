@@ -40,6 +40,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Install staticrypt
+        run: npm install -g staticrypt
+
       - name: Run supplement
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -48,12 +51,33 @@ jobs:
           BATCH_SLEEP_S: "65"
         run: python scripts/supplement_operators.py
 
+      - name: Decrypt HTML for in-place splice
+        env:
+          SITE_PASSWORD: ${{ secrets.SITE_PASSWORD }}
+        run: |
+          npx staticrypt --decrypt docs/index.html -p "$SITE_PASSWORD" --short -d docs
+
       - name: Splice updated data into docs/index.html
         # The full build_index.py needs the upstream fog_facility_map.html
         # which isn't on the runner, so we just splice the
         # collection_operators.json into the existing HTML between
         # marker comments.
         run: python scripts/splice_collection.py
+
+      - name: Re-encrypt HTML
+        env:
+          SITE_PASSWORD: ${{ secrets.SITE_PASSWORD }}
+        run: |
+          npx staticrypt docs/index.html \
+            -p "$SITE_PASSWORD" \
+            --short \
+            --template-title "FOG Industry Command Center" \
+            --template-instructions "Enter the access password to continue." \
+            --template-color-primary "#1F3864" \
+            --template-color-secondary "#3498db" \
+            --template-button "Access Command Center" \
+            --remember 30 \
+            -d docs
 
       - name: Commit and push
         run: |

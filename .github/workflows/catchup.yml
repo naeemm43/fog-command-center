@@ -26,10 +26,34 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Install staticrypt
+        run: npm install -g staticrypt
+
+      - name: Decrypt HTML for in-place splice
+        env:
+          SITE_PASSWORD: ${{ secrets.SITE_PASSWORD }}
+        run: |
+          npx staticrypt --decrypt docs/index.html -p "$SITE_PASSWORD" --short -d docs
+
       - name: Run catchup sweep
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/catchup.py
+
+      - name: Re-encrypt HTML
+        env:
+          SITE_PASSWORD: ${{ secrets.SITE_PASSWORD }}
+        run: |
+          npx staticrypt docs/index.html \
+            -p "$SITE_PASSWORD" \
+            --short \
+            --template-title "FOG Industry Command Center" \
+            --template-instructions "Enter the access password to continue." \
+            --template-color-primary "#1F3864" \
+            --template-color-secondary "#3498db" \
+            --template-button "Access Command Center" \
+            --remember 30 \
+            -d docs
 
       - name: Commit and push catchup results
         run: |
