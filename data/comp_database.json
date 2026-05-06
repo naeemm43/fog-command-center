@@ -458,6 +458,32 @@
     "zoom_hint": "narrow"
   },
   {
+    "date": "2025-05-15",
+    "target": "Trimble Grease Trap",
+    "acquirer": "Southwaste (a WRM company)",
+    "sponsor": "Ridgewood Infrastructure (WRM sponsor)",
+    "location": "Texas",
+    "deal_type": "Add-On",
+    "deal_size": "Undisclosed",
+    "multiple": "N/A",
+    "services": "Grease trap maintenance and liquid waste collection",
+    "source": "Southwaste announcement",
+    "source_url": "https://southwaste.com/welcome-trimble-grease-trap-to-the-wrm-family/",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "PE-Backed",
+    "deal_summary": [
+      "Trimble Grease Trap joins WRM's Southwaste platform \u2014 Texas grease trap roll-up continues.",
+      "Adds route density and grease trap volume under the Southwaste umbrella."
+    ],
+    "notes": "Continues WRM's Texas grease-trap consolidation under Southwaste.",
+    "date_confidence": "approximate",
+    "source_confidence": "verified",
+    "latitude": 32.7767,
+    "longitude": -96.797,
+    "zoom_hint": "metro"
+  },
+  {
     "date": "2025-04-25",
     "target": "Hapchuk",
     "acquirer": "Wind River Environmental",
@@ -537,6 +563,58 @@
     "latitude": 35.149,
     "longitude": -90.049,
     "zoom_hint": "narrow"
+  },
+  {
+    "date": "2025-04-15",
+    "target": "Westmark Group (hauling and services operations, Las Vegas)",
+    "acquirer": "Silver City Processing (a WRM company)",
+    "sponsor": "Ridgewood Infrastructure (WRM sponsor)",
+    "location": "Las Vegas, NV",
+    "deal_type": "Add-On",
+    "deal_size": "Undisclosed",
+    "multiple": "N/A",
+    "services": "Liquid waste hauling and services \u2014 Las Vegas market expansion",
+    "source": "Silver City Processing announcement",
+    "source_url": "https://silvercityprocessing.com/silver-city-processing-expands-operations-with-the-acquisition-of-westmark-group-in-las-vegas/",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "PE-Backed",
+    "deal_summary": [
+      "Silver City Processing, a WRM portfolio company, completes acquisition of Westmark Group's hauling and services operations in Las Vegas.",
+      "Expands WRM's footprint in the Nevada / Mountain West market and integrates Westmark customers into Silver City's processing infrastructure."
+    ],
+    "notes": "Tuck-in via Silver City; first NV add-on under Ridgewood's ownership of WRM.",
+    "date_confidence": "approximate",
+    "source_confidence": "verified",
+    "latitude": 36.1699,
+    "longitude": -115.1398,
+    "zoom_hint": "metro"
+  },
+  {
+    "date": "2025-04-15",
+    "target": "Dynamex (Houston, TX liquid waste)",
+    "acquirer": "Waste Resources Management (WRM)",
+    "sponsor": "Ridgewood Infrastructure (WRM sponsor)",
+    "location": "Houston, TX",
+    "deal_type": "Add-On",
+    "deal_size": "Undisclosed",
+    "multiple": "N/A",
+    "services": "Liquid waste management services \u2014 Houston, TX",
+    "source": "WRM announcement",
+    "source_url": "https://wrmco.com/exciting-news-dynamex-joins-the-wrm-family/",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "PE-Backed",
+    "deal_summary": [
+      "Houston-based liquid waste leader Dynamex joins the WRM family \u2014 operates under the Southwaste brand in Texas.",
+      "Strengthens WRM's Texas density and adds incremental liquid-waste volume in the Houston market."
+    ],
+    "notes": "Texas tuck-in operating under Southwaste brand.",
+    "date_confidence": "approximate",
+    "source_confidence": "verified",
+    "latitude": 29.7604,
+    "longitude": -95.3698,
+    "zoom_hint": "metro"
   },
   {
     "date": "2025-04-08",
@@ -796,6 +874,33 @@
     "latitude": 33.749,
     "longitude": -84.388,
     "zoom_hint": "narrow"
+  },
+  {
+    "date": "2023-12-28",
+    "target": "Waste Resources Management (WRM)",
+    "acquirer": "Ridgewood Infrastructure",
+    "sponsor": "Ridgewood Infrastructure (PE)",
+    "location": "Florida / Texas / Nevada / Colorado",
+    "deal_type": "Platform",
+    "deal_size": "Undisclosed",
+    "multiple": "N/A",
+    "services": "Liquid waste collection / processing / recycling, grease trap, septic, vacuum truck \u2014 vertically integrated",
+    "source": "PR Newswire / Waste Today",
+    "source_url": "https://www.prnewswire.com/news-releases/ridgewood-infrastructure-extends-its-leadership-position-in-the-us-water-sector-with-the-acquisition-of-waste-resources-management-wrm-302027286.html",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "PE-Backed",
+    "deal_summary": [
+      "Ridgewood Infrastructure acquires WRM, a vertically integrated liquid waste platform serving 10,000+ commercial / industrial clients across FL, TX, NV, CO.",
+      "WRM portfolio includes Southwaste (FL/TX), Silver City Processing (NV/CO), and McDonald Farms Enterprises \u2014 collection, processing, and recycling under one roof.",
+      "Establishes a new top-tier consolidator in the FOG / liquid-waste space; closed Dec 28, 2023 and announced Jan 8, 2024."
+    ],
+    "notes": "WRM positioned as platform-level consolidator alongside LES, Wind River, Baker, Darling.",
+    "date_confidence": "verified",
+    "source_confidence": "verified",
+    "latitude": 29.7604,
+    "longitude": -95.3698,
+    "zoom_hint": "wide"
   },
   {
     "date": "2023-10-31",
@@ -1457,5 +1562,31 @@
     "latitude": 42.346,
     "longitude": -71.552,
     "zoom_hint": "narrow"
+  },
+  {
+    "date": "2016-07-25",
+    "target": "SouthWaste Disposal",
+    "acquirer": "Waste Resources Management (WRM)",
+    "sponsor": "Quabbin Capital / Rock Hill Capital (selling sponsors)",
+    "location": "Texas / Florida",
+    "deal_type": "Platform",
+    "deal_size": "Undisclosed",
+    "multiple": "N/A",
+    "services": "Grease trap maintenance, liquid waste collection \u2014 TX/FL",
+    "source": "Mergr",
+    "source_url": "https://mergr.com/transaction/wrm-acquires-southwaste-disposal",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "PE-Backed",
+    "deal_summary": [
+      "WRM acquired SouthWaste Disposal from Quabbin Capital and Rock Hill Capital, expanding WRM service offerings into Texas and Central Florida.",
+      "Foundational platform deal that established Southwaste as WRM's TX/FL grease trap arm."
+    ],
+    "notes": "Historical context \u2014 pre-Ridgewood deal that built WRM's southern footprint.",
+    "date_confidence": "verified",
+    "source_confidence": "verified",
+    "latitude": 29.7604,
+    "longitude": -95.3698,
+    "zoom_hint": "wide"
   }
 ]

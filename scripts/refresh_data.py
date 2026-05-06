@@ -540,6 +540,10 @@ SEARCH_QUERIES: dict[str, list[str]] = {
         '"septic" "private equity" acquisition',
         '"Wind River Environmental" acquisition OR expansion',
         '"Liquid Environmental Solutions" OR "LES" acquisition',
+        '"Waste Resources Management" OR "WRM" acquisition OR expansion',
+        '"Southwaste" OR "SouthWaste Disposal" acquisition OR expansion',
+        '"Silver City Processing" acquisition OR expansion',
+        '"McDonald Farms" acquisition OR expansion',
         '"used cooking oil" acquired OR acquisition OR merger',
         '"grease recycling" acquired OR acquisition',
         '"environmental services" "add-on" OR "platform" acquisition',
@@ -690,7 +694,7 @@ For each result return a JSON object:
 - category — exactly one of: {", ".join('"' + c + '"' for c in NEWS_CATEGORIES)}
 - summary (2-3 sentences)
 - relevance_score — integer 1 to 5 using these strict criteria:
-    5 = Directly about the FOG / grease-trap / liquid-waste / UCO / septic / rendering industry AND names a specific company in the space (LES, Wind River, Darling, Mahoney, Eazy Grease, etc.) or a specific deal in it.
+    5 = Directly about the FOG / grease-trap / liquid-waste / UCO / septic / rendering industry AND names a specific company in the space (LES, Wind River, Darling, Mahoney, Eazy Grease, WRM, Southwaste, Silver City Processing, McDonald Farms, etc.) or a specific deal in it.
     4 = Directly impacts FOG economics — e.g., renewable diesel policy affecting UCO prices, a specific municipal FOG ordinance, Darling/DAR PRO earnings with FOG-segment data, IoT grease-trap technology.
     3 = Closely adjacent — e.g., environmental services M&A broadly, waste-industry regulation that includes liquid waste, restaurant industry data with FOG implications.
     2 = Tangentially relevant — e.g., general trucking/CDL driver shortage, broad EPA policy, general PE deal activity in services, broad solid-waste M&A.
@@ -724,7 +728,7 @@ Return MAX 10-15 distinct results as a JSON array. Each object MUST include:
 - source_url — exact deep-link to the article. NEVER a homepage like "https://example.com" or a generic "/news" listing. If you only have a homepage, OMIT the result.
 - category — for this run, set to "{category}".
 - summary (2-3 sentences)
-- relevance_score — integer 1-5. Use ONLY 4 or 5 if the item SPECIFICALLY discusses grease, FOG, liquid waste, UCO, septic, rendering, or names a company in this space (LES, Wind River, Darling, etc.). General trucking/CDL or broad solid-waste = 2.
+- relevance_score — integer 1-5. Use ONLY 4 or 5 if the item SPECIFICALLY discusses grease, FOG, liquid waste, UCO, septic, rendering, or names a company in this space (LES, Wind River, Darling, WRM, etc.). General trucking/CDL or broad solid-waste = 2.
 - is_deal — true ONLY for M&A transactions
 - buyer, target, sponsor, location — for M&A only
 - deal_size, multiple, deal_summary, owner_classification — for M&A only

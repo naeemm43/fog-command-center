@@ -346,6 +346,11 @@ _CONSOLIDATOR_BRANDS = [s.lower() for s in [
     "eazy grease", "dht grease", "relentless renewables",
     "daytona biodiesel", "cleanfri", "liquid recovery solutions",
     "green nature recycling",
+    # WRM (Waste Resources Management) and subsidiaries
+    "waste resources management", "wrm co", "wrmco",
+    "southwaste", "south waste disposal", "southwaste disposal",
+    "silver city processing", "silver city septic", "silver city plumbing",
+    "mcdonald farms", "mcdonald farm", "mcdonald farms enterprises",
     # Public-co consolidators
     "barrel energy", "happy traps",
     # Other PE-backed platforms
@@ -360,7 +365,7 @@ _CONSOLIDATOR_BRANDS = [s.lower() for s in [
 # ct values that the upstream ownership.py assigns to brand-matched
 # facilities. Records with these codes are confirmed consolidators.
 _BRAND_TAGGED_CTS = {
-    "LES", "WRE", "BAK", "DAR", "MAH", "MOM", "SEP", "BAR", "EAZ", "PE",
+    "LES", "WRE", "BAK", "DAR", "MAH", "MOM", "SEP", "BAR", "EAZ", "WRM", "PE",
 }
 
 # Stricter municipal filter — only excludes names that START with a
@@ -525,6 +530,28 @@ _EAZY_GREASE_PATTERN = re.compile(
 _EAZY_GREASE_LABEL = "Regional: Eazy Grease (Private)"
 
 
+# ============================================================================
+# WRM (Waste Resources Management) — vertically integrated liquid waste
+# platform with three subsidiaries (Southwaste, Silver City Processing,
+# McDonald Farms Enterprises). Operates in FL, TX, NV, CO. Top-level
+# ownership category alongside LES / Wind River / Baker / Darling.
+# ============================================================================
+_WRM_PATTERN = re.compile(
+    r"\bwaste\s*resources\s*management\b|"
+    r"\bwrm\s*co\b|"
+    r"\bwrmco\b|"
+    r"\bsouth\s*waste\s*disposal\b|"
+    r"\bsouthwaste\b|"
+    r"\bsilver\s*city\s*processing\b|"
+    r"\bsilver\s*city\s*septic\b|"
+    r"\bsilver\s*city\s*plumbing\b|"
+    r"\bmcdonald\s*farms?\s*enterprises?\b|"
+    r"\bmcdonald\s*farms?\b",
+    re.IGNORECASE,
+)
+_WRM_LABEL = "WRM (Waste Resources Management)"
+
+
 # Names that look like a solid-waste public-company match but are actually
 # independent local operators (the upstream brand match in ownership.py uses
 # `\bwaste management\b` which catches anything ending in "Waste Management",
@@ -611,11 +638,30 @@ def reclassify_eazy_grease(records: list[dict]) -> int:
     return n
 
 
+def reclassify_wrm(records: list[dict]) -> int:
+    """Tag any facility whose name / operator / owner_type matches a WRM
+    brand (Waste Resources Management, Southwaste, Silver City Processing,
+    McDonald Farms) as the top-level WRM ownership bucket. Runs after
+    public-co + Eazy reclass; overrides those tiers because WRM is a
+    distinct top-level category."""
+    n = 0
+    for r in records:
+        text = ((r.get("n") or "") + " " +
+                (r.get("op") or "") + " " +
+                (r.get("ot") or "")).lower()
+        if _WRM_PATTERN.search(text):
+            r["ot"] = _WRM_LABEL
+            r["ct"] = "WRM"
+            n += 1
+    return n
+
+
 _NEW_CATEGORY_INFO = """const CATEGORY_INFO = {
   "LES": {label:"LES (Goldman Sachs)",   color:"#e74c3c"},
   "WRE": {label:"Wind River (Gryphon)",  color:"#3498db"},
   "BAK": {label:"Baker Commodities",     color:"#27ae60"},
   "DAR": {label:"Darling / DAR PRO",     color:"#f39c12"},
+  "WRM": {label:"WRM",                   color:"#008B8B"},
   "PUB": {label:"Public Company",        color:"#2C3E50"},
   "PE":  {label:"PE-Backed (Other)",     color:"#c0392b"},
   "REG": {label:"Regional Operator",     color:"#1abc9c"},
@@ -624,7 +670,7 @@ _NEW_CATEGORY_INFO = """const CATEGORY_INFO = {
 };"""
 
 _NEW_CAT_ORDER = (
-    'const CAT_ORDER = ["LES","WRE","BAK","DAR","PUB","PE","REG","LOC","UNK"];'
+    'const CAT_ORDER = ["LES","WRE","BAK","DAR","WRM","PUB","PE","REG","LOC","UNK"];'
 )
 _NEW_NEW_ENTRANT_CATS = 'const NEW_ENTRANT_CATS = new Set();'
 
@@ -671,6 +717,7 @@ _NEW_LEGEND_BODY = """
       <tr><td><span class="swatch" style="background:#3498db;"></span></td><td>Wind River (Gryphon)</td></tr>
       <tr><td><span class="swatch" style="background:#27ae60;"></span></td><td>Baker Commodities</td></tr>
       <tr><td><span class="swatch" style="background:#f39c12;"></span></td><td>Darling / DAR PRO</td></tr>
+      <tr><td><span class="swatch" style="background:#008B8B;"></span></td><td>WRM</td></tr>
       <tr><td><span class="swatch" style="background:#2C3E50;"></span></td><td>Public Company</td></tr>
       <tr><td><span class="swatch" style="background:#c0392b;"></span></td><td>PE-Backed (Other)</td></tr>
       <tr><td><span class="swatch" style="background:#1abc9c;"></span></td><td>Regional Operator</td></tr>
@@ -1835,6 +1882,8 @@ def _bucket_for(o: str) -> str:
         return "DAR"
     if o.startswith("Baker"):
         return "BAK"
+    if o.startswith("WRM") or "WRM (" in o:
+        return "WRM"
     if "Eazy Grease" in o:
         return "REG"
     if o.startswith("Momentum"):
@@ -1859,6 +1908,7 @@ _BUCKET_LABEL = {
     "WRE": "Wind River (Gryphon)",
     "BAK": "Baker Commodities",
     "DAR": "Darling / DAR PRO",
+    "WRM": "WRM",
     "PUB": "Public Company",
     "PE":  "PE-Backed (Other)",
     "REG": "Regional Operator",
@@ -1867,13 +1917,29 @@ _BUCKET_LABEL = {
 }
 _BUCKET_COLOR = {
     "LES": "#e74c3c", "WRE": "#3498db", "BAK": "#27ae60", "DAR": "#f39c12",
+    "WRM": "#008B8B",
     "PUB": "#2C3E50", "PE":  "#c0392b", "REG": "#1abc9c", "LOC": "#95a5a6",
     "UNK": "#bdc3c7",
 }
 
 
+def reclassify_collection_to_wrm(records: list[dict]) -> int:
+    """Match WRM brands against collection-operator records and rewrite
+    their `o` (owner_type) to the WRM label so they bucket correctly."""
+    n = 0
+    for r in records:
+        text = ((r.get("n") or "") + " " +
+                (r.get("op") or "") + " " +
+                (r.get("o") or "")).lower()
+        if _WRM_PATTERN.search(text):
+            r["o"] = _WRM_LABEL
+            n += 1
+    return n
+
+
 def inject_collection_layer(scripts: str) -> tuple[str, dict[str, int]]:
     data = _load_collection_data()
+    reclassify_collection_to_wrm(data)
 
     # Per-bucket counts kept here for the build-time summary print only.
     # The runtime UI computes its own counts from COLLECTION_DATA so the
@@ -1887,7 +1953,7 @@ def inject_collection_layer(scripts: str) -> tuple[str, dict[str, int]]:
     payload = json.dumps(data, separators=(",", ":"))
     bucket_meta_static = json.dumps([
         {"key": k, "label": _BUCKET_LABEL[k], "color": _BUCKET_COLOR[k]}
-        for k in ["LES", "WRE", "BAK", "DAR", "PUB", "PE", "REG", "LOC", "UNK"]
+        for k in ["LES", "WRE", "BAK", "DAR", "WRM", "PUB", "PE", "REG", "LOC", "UNK"]
     ])
 
     js = f"""
@@ -1915,6 +1981,7 @@ const collectionBucketStates = {{}};
     if (o.indexOf('LES') === 0) return 'LES';
     if (o.indexOf('Darling') >= 0) return 'DAR';
     if (o.indexOf('Baker') === 0) return 'BAK';
+    if (o.indexOf('WRM') === 0 || o.indexOf('WRM (') >= 0) return 'WRM';
     if (o.indexOf('Eazy Grease') >= 0) return 'REG';
     if (o.indexOf('Momentum') === 0) return 'PE';
     if (o.indexOf('Septic Blue') >= 0) return 'PE';
@@ -2168,6 +2235,9 @@ def patch_facility_data(
     eazy_n = reclassify_eazy_grease(records)
     if eazy_n:
         public_counts["Regional: Eazy Grease (Private)"] = eazy_n
+    wrm_n = reclassify_wrm(records)
+    if wrm_n:
+        public_counts[_WRM_LABEL] = wrm_n
 
     # Pumpers move to the collection-operator layer (loaded from
     # data/collection_operators.json). Strip them from FOG_DATA so the
@@ -3276,6 +3346,7 @@ def main() -> int:
         "WRE": "Wind River (Gryphon)",
         "BAK": "Baker Commodities",
         "DAR": "Darling / DAR PRO",
+        "WRM": "WRM",
         "PUB": "Public Company",
         "PE":  "PE-Backed (Other)",
         "REG": "Regional Operator",
@@ -3285,10 +3356,16 @@ def main() -> int:
     }
     print()
     print("Remaining by owner_type:")
-    for ct in ["LES", "WRE", "BAK", "DAR", "PUB", "PE", "REG", "LOC", "MUN", "UNK"]:
+    for ct in ["LES", "WRE", "BAK", "DAR", "WRM", "PUB", "PE", "REG", "LOC", "MUN", "UNK"]:
         n = cat_counts.get(ct, 0)
         if n:
             print(f"  {n:>5}  {cat_label.get(ct, ct)}")
+
+    # ---- WRM summary line (explicit, per spec) ----
+    wrm_plants = cat_counts.get("WRM", 0)
+    wrm_operators = collection_counts.get("WRM", 0) if collection_counts else 0
+    print()
+    print(f"WRM plants: {wrm_plants}, WRM operators: {wrm_operators}")
 
     # ---- Public Company breakdown (Darling vs other) ----
     pub_counts = {k: v for k, v in public_counts.items() if k.startswith("Public:")}
