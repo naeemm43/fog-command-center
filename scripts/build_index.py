@@ -80,11 +80,23 @@ def inject_map_handle(scripts: str) -> str:
 # facilities at build time, leaving the upstream pipeline untouched.
 # ============================================================================
 
-# Records currently tagged with these `ct` values get fully migrated to PUB.
-# Both DAR (Darling) and BAR (Barrel Energy) facilities move wholesale.
+# Simplified 9-bucket taxonomy (per the UI redesign). Per-ct reclassifications:
+#   DAR — stays as DAR (Darling has its own orange bucket)
+#   BAR (Barrel Energy)         → PUB  (Public Company tier, navy)
+#   MAH (Mahoney/Crimson/Neste) → PE   (folded into PE-Backed Other)
+#   MOM (Momentum)              → PE
+#   SEP (Septic Blue)           → PE
+#   EAZ (Eazy Grease)           → REG  (private regional)
 _CT_TO_PUBLIC_LABEL = {
-    "DAR": "Public: Darling Ingredients (NYSE: DAR)",
     "BAR": "Public: Barrel Energy (OTC: BRLL)",
+}
+_CT_TO_PE_LABEL = {
+    "MAH": "PE-Backed: Mahoney / Crimson (Neste)",
+    "MOM": "PE-Backed: Momentum Environmental",
+    "SEP": "PE-Backed: Septic Blue (Georgia Oak)",
+}
+_CT_TO_REG_LABEL = {
+    "EAZ": "Regional: Eazy Grease (Private)",
 }
 
 # For records currently tagged ct=PE (Tier-2), reclassify if the owner_type
@@ -107,9 +119,8 @@ _OT_SUBSTRING_TO_PUBLIC_LABEL = [
 _NAME_OP_PATTERNS_TO_PUBLIC_LABEL = [
     (re.compile(r"\bbarrel energy\b|\bhappy traps\b", re.IGNORECASE),
      "Public: Barrel Energy (OTC: BRLL)"),
-    (re.compile(r"\bdarling ingredients\b|\bdar pro\b|\bdar-pro\b|\bvalley proteins\b|\bdiamond green diesel\b",
-                re.IGNORECASE),
-     "Public: Darling Ingredients (NYSE: DAR)"),
+    # Darling stays in its own DAR bucket (orange) per the simplified
+    # 9-bucket taxonomy — do NOT reclassify Darling-named facilities to PUB.
 ]
 
 
@@ -343,7 +354,9 @@ _FALSE_PUBLIC_NAME_FRAGMENTS = (
 
 
 def reclassify_to_public(records: list[dict]) -> dict[str, int]:
-    """Mutate records in place. Return a count breakdown by new label."""
+    """Mutate records in place to fit the simplified 9-bucket taxonomy.
+    Return a count breakdown by new label (used only for the build summary
+    print)."""
     counts: dict[str, int] = {}
 
     def _bump(label: str) -> None:
@@ -351,11 +364,11 @@ def reclassify_to_public(records: list[dict]) -> dict[str, int]:
 
     for r in records:
         ct = r.get("ct", "")
-        new_label = None
         name_lower = (r.get("n") or "").lower()
 
-        # Skip records whose name reveals them as upstream brand-match false
-        # positives. Reset to a Local tag.
+        # Upstream brand-match false positives ("Liquid Waste Management Inc"
+        # tagged as Waste Management) — demote to Local rather than rolling
+        # them into Public Company.
         if any(frag in name_lower for frag in _FALSE_PUBLIC_NAME_FRAGMENTS):
             ot = r.get("ot", "")
             if ot.startswith("PE-Backed:"):
@@ -363,25 +376,37 @@ def reclassify_to_public(records: list[dict]) -> dict[str, int]:
                 r["ct"] = "LOC"
             continue
 
+        new_ct = None
+        new_label = None
+
+        # Direct ct → bucket reclassifications.
         if ct in _CT_TO_PUBLIC_LABEL:
-            new_label = _CT_TO_PUBLIC_LABEL[ct]
+            new_ct, new_label = "PUB", _CT_TO_PUBLIC_LABEL[ct]
+        elif ct in _CT_TO_PE_LABEL:
+            new_ct, new_label = "PE", _CT_TO_PE_LABEL[ct]
+        elif ct in _CT_TO_REG_LABEL:
+            new_ct, new_label = "REG", _CT_TO_REG_LABEL[ct]
         elif ct == "PE":
+            # Existing Tier-2 PE facilities — promote to PUB if the brand
+            # is actually a public company, else leave as PE.
             ot_lower = (r.get("ot") or "").lower()
             for sub, lbl in _OT_SUBSTRING_TO_PUBLIC_LABEL:
                 if sub in ot_lower:
-                    new_label = lbl
+                    new_ct, new_label = "PUB", lbl
                     break
 
         if new_label is None:
+            # Last-resort fuzzy match for things upstream missed (e.g.
+            # Barrel/Happy Traps or Darling siblings without ct tag).
             text = ((r.get("n") or "") + " " + (r.get("op") or "")).lower()
             for rx, lbl in _NAME_OP_PATTERNS_TO_PUBLIC_LABEL:
                 if rx.search(text):
-                    new_label = lbl
+                    new_ct, new_label = "PUB", lbl
                     break
 
         if new_label is not None:
             r["ot"] = new_label
-            r["ct"] = "PUB"
+            r["ct"] = new_ct
             _bump(new_label)
 
     return counts
@@ -403,24 +428,21 @@ def reclassify_eazy_grease(records: list[dict]) -> int:
 
 
 _NEW_CATEGORY_INFO = """const CATEGORY_INFO = {
-  "LES": {label:"LES (Goldman Sachs)",         color:"#e74c3c"},
-  "WRE": {label:"Wind River (Gryphon)",        color:"#3498db"},
-  "BAK": {label:"Baker Commodities",           color:"#27ae60"},
-  "MAH": {label:"Mahoney / Crimson",           color:"#9b59b6"},
-  "PUB": {label:"Public Company",              color:"#2C3E50"},
-  "MOM": {label:"Momentum Environmental",      color:"#6C3483"},
-  "SEP": {label:"Septic Blue (Georgia Oak)",   color:"#1E8449"},
-  "PE":  {label:"Other PE-Backed",             color:"#c0392b"},
-  "REG": {label:"Regional Operators",          color:"#1abc9c"},
-  "LOC": {label:"Local / Family",              color:"#95a5a6"},
-  "MUN": {label:"Municipal (flagged)",         color:"#7f8c8d"},
-  "UNK": {label:"Unknown",                     color:"#bdc3c7"},
+  "LES": {label:"LES (Goldman Sachs)",   color:"#e74c3c"},
+  "WRE": {label:"Wind River (Gryphon)",  color:"#3498db"},
+  "BAK": {label:"Baker Commodities",     color:"#27ae60"},
+  "DAR": {label:"Darling / DAR PRO",     color:"#f39c12"},
+  "PUB": {label:"Public Company",        color:"#2C3E50"},
+  "PE":  {label:"PE-Backed (Other)",     color:"#c0392b"},
+  "REG": {label:"Regional Operator",     color:"#1abc9c"},
+  "LOC": {label:"Local / Family",        color:"#95a5a6"},
+  "UNK": {label:"Unknown",               color:"#bdc3c7"},
 };"""
 
 _NEW_CAT_ORDER = (
-    'const CAT_ORDER = ["LES","WRE","BAK","MAH","PUB","MOM","SEP","PE","REG","LOC","MUN","UNK"];'
+    'const CAT_ORDER = ["LES","WRE","BAK","DAR","PUB","PE","REG","LOC","UNK"];'
 )
-_NEW_NEW_ENTRANT_CATS = 'const NEW_ENTRANT_CATS = new Set(["MOM","SEP"]);'
+_NEW_NEW_ENTRANT_CATS = 'const NEW_ENTRANT_CATS = new Set();'
 
 
 def patch_category_info(scripts: str) -> str:
@@ -453,41 +475,38 @@ def patch_category_info(scripts: str) -> str:
     return scripts
 
 
+_NEW_LEGEND_BODY = """
+    <table style="font-size:11px;">
+      <tr><td colspan="2" style="font-size:10px; color:#666; text-transform:uppercase; letter-spacing:0.4px; padding-bottom:2px;">Marker shape</td></tr>
+      <tr><td><span style="display:inline-block; width:12px; height:12px; border-radius:50%; background:#444; vertical-align:middle;"></span></td><td>● Plant (processing)</td></tr>
+      <tr><td><span style="display:inline-block; width:9px; height:9px; background:#444; transform:rotate(45deg); vertical-align:middle; margin-left:1px;"></span></td><td>◆ Operator (collection)</td></tr>
+      <tr><td><span class="swatch-d"></span></td><td>◇ WWTP (municipal)</td></tr>
+      <tr><td colspan="2" style="font-size:10px; color:#666; text-transform:uppercase; letter-spacing:0.4px; padding-top:6px; padding-bottom:2px;">Owner color</td></tr>
+      <tr><td><span class="swatch" style="background:#e74c3c;"></span></td><td>LES (Goldman Sachs)</td></tr>
+      <tr><td><span class="swatch" style="background:#3498db;"></span></td><td>Wind River (Gryphon)</td></tr>
+      <tr><td><span class="swatch" style="background:#27ae60;"></span></td><td>Baker Commodities</td></tr>
+      <tr><td><span class="swatch" style="background:#f39c12;"></span></td><td>Darling / DAR PRO</td></tr>
+      <tr><td><span class="swatch" style="background:#2C3E50;"></span></td><td>Public Company</td></tr>
+      <tr><td><span class="swatch" style="background:#c0392b;"></span></td><td>PE-Backed (Other)</td></tr>
+      <tr><td><span class="swatch" style="background:#1abc9c;"></span></td><td>Regional Operator</td></tr>
+      <tr><td><span class="swatch" style="background:#95a5a6;"></span></td><td>Local / Family</td></tr>
+      <tr><td><span class="swatch" style="background:#bdc3c7;"></span></td><td>Unknown</td></tr>
+    </table>
+    <div class="muted" style="margin-top:6px; padding-top:6px; border-top:1px solid #eee;">
+      Visible: <span id="vis-plants">—</span> plants, <span id="vis-ops">—</span> operators
+    </div>
+"""
+
+
 def patch_legend(body_inner: str) -> str:
-    """Insert a Public Company row in the legend; remove the standalone
-    Darling and Barrel rows (their facilities now live under PUB)."""
-    # Drop the Darling and Barrel rows.
+    """Replace the entire legend body with the simplified shape +
+    color two-section layout."""
     body_inner = re.sub(
-        r'\s*<tr><td><span class="swatch" style="background:#f39c12"></span></td><td>Darling[^<]*</td></tr>',
-        "",
-        body_inner,
-    )
-    body_inner = re.sub(
-        r'\s*<tr><td><span class="swatch" style="background:#F5B041"></span></td><td>Barrel Energy[^<]*</td></tr>',
-        "",
-        body_inner,
-    )
-    # Insert PUB row right after the Mahoney row.
-    pub_row = (
-        '\n      <tr><td><span class="swatch" style="background:#2C3E50"></span></td>'
-        '<td>Public Company</td></tr>'
-    )
-    body_inner = re.sub(
-        r'(<tr><td><span class="swatch" style="background:#9b59b6"></span></td><td>Mahoney / Crimson</td></tr>)',
-        r"\1" + pub_row,
+        r'(<div id="legend" class="panel">.*?<div class="panel-body">).*?(</div>\s*</div>)',
+        lambda m: m.group(1) + _NEW_LEGEND_BODY + "  " + m.group(2),
         body_inner,
         count=1,
-    )
-    # Insert collection-only platforms row right after the WWTP row.
-    diamond_row = (
-        '\n      <tr><td><span class="legend-diamond" style="background:#6C3483;"></span></td>'
-        '<td>Collection-only platforms (hidden by default)</td></tr>'
-    )
-    body_inner = re.sub(
-        r'(<tr><td><span class="swatch-d"></span></td><td>Municipal WWTP \(POTW\)</td></tr>)',
-        r"\1" + diamond_row,
-        body_inner,
-        count=1,
+        flags=re.DOTALL,
     )
     return body_inner
 
@@ -546,24 +565,38 @@ SERVICE_HQ_DATA: list[dict] = [
      "acq_count": "5 acquisitions + 1 merger"},
 ]
 
+# Hidden no-op stubs for the per-company HQ toggles. The original
+# inject_service_hq() JS still wires up event listeners on these IDs;
+# leaving the inputs in (display:none) keeps that JS working without
+# surgery while the visible UI is gone.
 _SERVICE_HQ_FILTER_HTML = """
-    <h4>Collection-only platforms</h4>
-    <div class="muted" style="margin:0 0 4px 0;">No owned processing plants. Diamond markers show service area centers.</div>
-    <label><input type="checkbox" id="toggle-momentum" /> <span class="hq-swatch" style="background:#6C3483;"></span> Momentum Environmental</label>
-    <label><input type="checkbox" id="toggle-septic-blue" /> <span class="hq-swatch" style="background:#1E8449;"></span> Septic Blue (Georgia Oak)</label>
-    <label><input type="checkbox" id="toggle-eazy-grease" /> <span class="hq-swatch" style="background:#D4AC0D;"></span> Eazy Grease</label>
-"""
+    <span style="display:none;">
+      <input type="checkbox" id="toggle-momentum" />
+      <input type="checkbox" id="toggle-septic-blue" />
+      <input type="checkbox" id="toggle-eazy-grease" />
+    </span>"""
 
 
 _COLLECTION_FILTER_HTML = """
-    <h4>📋 Collection / service operators</h4>
-    <label><input type="checkbox" id="toggle-collection-master" />
-      <b>Show collection operators</b>
-      <span id="coll-total-count" class="muted" style="font-weight:normal;"></span></label>
-    <div class="muted" id="coll-sub-msg" style="margin:4px 0 6px 0;">
-      Smaller markers = collection operators. Larger = processing plants.
-    </div>
-    <div id="coll-sub-toggles" style="display:none; margin:4px 0 4px 12px; padding-left:6px; border-left:2px solid #e0e0e0;"></div>
+    <h4>Entity type</h4>
+    <label><input type="checkbox" id="toggle-entity-plant" checked />
+      ● Processing Plants
+      <span id="ent-cnt-plant" class="muted" style="font-weight:normal;"></span></label>
+    <label><input type="checkbox" id="toggle-entity-collection" />
+      ◆ Collection Operators
+      <span id="ent-cnt-collection" class="muted" style="font-weight:normal;"></span></label>
+    <label><input type="checkbox" id="toggle-entity-wwtp" />
+      ◇ Municipal WWTPs
+      <span id="ent-cnt-wwtp" class="muted" style="font-weight:normal;"></span></label>
+    <!-- The Collection-Operator filter UI from earlier iterations
+         (master + per-bucket sub-toggles) is replaced by the unified
+         Ownership filter below. The hidden master is still here so the
+         existing collectionClusters event handler keeps working — the
+         entity-type master adds/removes clusters via that path. -->
+    <span style="display:none;">
+      <input type="checkbox" id="toggle-collection-master" />
+    </span>
+    <div id="coll-sub-toggles" style="display:none;"></div>
 """
 
 
@@ -667,6 +700,120 @@ def inject_service_hq(scripts: str) -> str:
     return scripts[:last] + build_service_hq_script() + scripts[last:]
 
 
+def build_entity_type_script() -> str:
+    """JS that wires the three Entity Type master toggles. The plant
+    master toggle removes/restores all FOG cluster groups; the
+    collection master removes/restores all collection clusters; the
+    WWTP toggle is the existing #toggle-wwtp checkbox (which the
+    upstream map already wires). Counts in the labels are derived from
+    the embedded data."""
+    return """
+// ---------- Entity-type master toggles ----------
+// Plants ON by default, Collection Operators + WWTPs OFF by default.
+// Each toggle is independent — any combination works. The unified
+// ownership checkboxes below are AND'd with whichever entity types
+// are enabled.
+(function() {
+  function setPlantsVisible(on) {
+    if (!window.__fogClusters || !window.__fogCatOrder) return;
+    window.__fogCatOrder.forEach(function(cat) {
+      ['plant', 'pumper'].forEach(function(ent) {
+        var c = window.__fogClusters[cat] && window.__fogClusters[cat][ent];
+        if (!c) return;
+        // When master is OFF, remove the cluster entirely. When ON, defer
+        // to the existing ownership filter (don't add unconditionally —
+        // the cat checkbox might be unchecked).
+        if (!on) {
+          if (map.hasLayer(c)) map.removeLayer(c);
+        }
+      });
+    });
+    if (on) {
+      // Re-apply the existing ownership filter so checked categories
+      // come back. The upstream map exposes refreshFogLayers() via
+      // checkbox change handlers; trigger them.
+      if (typeof refreshFogLayers === 'function') refreshFogLayers();
+    }
+  }
+  function setCollectionVisible(on) {
+    var clusters = window.__collectionClusters || {};
+    Object.keys(clusters).forEach(function(k) {
+      var c = clusters[k];
+      if (!c) return;
+      if (on && !map.hasLayer(c)) map.addLayer(c);
+      else if (!on && map.hasLayer(c)) map.removeLayer(c);
+    });
+  }
+  function setWwtpVisible(on) {
+    // The upstream #toggle-wwtp already controls the WWTP cluster —
+    // mirror its state to our entity-wwtp checkbox.
+    var w = document.getElementById('toggle-wwtp');
+    if (w) { w.checked = on; w.dispatchEvent(new Event('change')); }
+  }
+  var plantCb = document.getElementById('toggle-entity-plant');
+  var collCb = document.getElementById('toggle-entity-collection');
+  var wwtpCb = document.getElementById('toggle-entity-wwtp');
+  if (plantCb) plantCb.addEventListener('change', function() { setPlantsVisible(plantCb.checked); });
+  if (collCb)  collCb.addEventListener('change',  function() { setCollectionVisible(collCb.checked); });
+  if (wwtpCb)  wwtpCb.addEventListener('change',  function() { setWwtpVisible(wwtpCb.checked); });
+
+  // Initial counts in labels
+  function num(n) { return n.toLocaleString(); }
+  var fogCount = 0;
+  if (typeof FOG_DATA !== 'undefined') fogCount = FOG_DATA.length;
+  var collCount = (typeof COLLECTION_DATA !== 'undefined') ? COLLECTION_DATA.length : 0;
+  var wwtpCount = (typeof WWTP_DATA !== 'undefined') ? WWTP_DATA.length : 0;
+  var pe = document.getElementById('ent-cnt-plant');
+  var ce = document.getElementById('ent-cnt-collection');
+  var we = document.getElementById('ent-cnt-wwtp');
+  if (pe) pe.textContent = '(' + num(fogCount) + ')';
+  if (ce) ce.textContent = '(' + num(collCount) + ')';
+  if (we) we.textContent = '(' + num(wwtpCount) + ')';
+
+  // ---------- Unified ownership: ownership checkbox controls collection too ----------
+  // The upstream map renders one checkbox per CAT_ORDER bucket in
+  // #owner-toggles. Listen for changes there and apply the same
+  // checked-state to the matching collectionClusters bucket.
+  function applyCollectionOwnershipFilter() {
+    if (!collCb || !collCb.checked) return;  // master off → all hidden anyway
+    var clusters = window.__collectionClusters || {};
+    document.querySelectorAll('#owner-toggles input[type="checkbox"]').forEach(function(cb) {
+      var key = cb.dataset.cat || cb.value;
+      if (!key) return;
+      var c = clusters[key];
+      if (!c) return;
+      if (cb.checked && !map.hasLayer(c)) map.addLayer(c);
+      else if (!cb.checked && map.hasLayer(c)) map.removeLayer(c);
+    });
+  }
+  // Use event delegation since #owner-toggles is rendered by the
+  // upstream map after our script runs.
+  document.addEventListener('change', function(ev) {
+    var t = ev.target;
+    if (t && t.matches('#owner-toggles input[type="checkbox"]')) {
+      applyCollectionOwnershipFilter();
+    }
+  });
+  // Also re-apply when the collection master toggles on (so checked
+  // ownership state pre-populates the layer).
+  if (collCb) {
+    collCb.addEventListener('change', function() {
+      if (collCb.checked) {
+        // Defer one tick so setCollectionVisible's add-all runs first,
+        // then we remove any unchecked-ownership clusters.
+        setTimeout(applyCollectionOwnershipFilter, 0);
+      }
+    });
+  }
+})();
+"""
+
+
+def inject_entity_type_toggles(scripts: str) -> str:
+    last = scripts.rfind("</script>")
+    return scripts[:last] + build_entity_type_script() + scripts[last:]
+
+
 # ============================================================================
 # Collection / service operator layer (smaller markers, separate cluster)
 # ============================================================================
@@ -683,11 +830,12 @@ def _load_collection_data() -> list[dict]:
 
 
 def _bucket_for(o: str) -> str:
-    """Map an operator's owner_type string to a coarse cluster bucket /
-    filter category. Single source of truth for both Python build-time
-    counting and JS render-time coloring."""
+    """Map an operator's owner_type string to one of the 9 simplified
+    buckets (LES / WRE / BAK / DAR / PUB / PE / REG / LOC / UNK) — same
+    keys the plant layer uses, so a single set of ownership checkboxes
+    can filter both layers in unison."""
     if not o:
-        return "Independent"
+        return "LOC"
     if o.startswith("Wind River"):
         return "WRE"
     if o.startswith("LES"):
@@ -697,34 +845,39 @@ def _bucket_for(o: str) -> str:
     if o.startswith("Baker"):
         return "BAK"
     if "Eazy Grease" in o:
-        return "EAZ"
+        return "REG"
     if o.startswith("Momentum"):
-        return "MOM"
+        return "PE"
     if "Septic Blue" in o:
-        return "SEP"
+        return "PE"
     if "Barrel" in o:
-        return "BAR"
-    if o == "Independent":
-        return "Independent"
-    return "Other"
+        return "PUB"
+    if "Public:" in o:
+        return "PUB"
+    if "PE-Backed:" in o or o.startswith("Heritage") or o.startswith("Chuck"):
+        return "PE"
+    if "Regional:" in o:
+        return "REG"
+    if "Local:" in o or o == "Independent":
+        return "LOC"
+    return "PE"
 
 
 _BUCKET_LABEL = {
     "LES": "LES (Goldman Sachs)",
     "WRE": "Wind River (Gryphon)",
-    "DAR": "Darling / DAR PRO (Public)",
     "BAK": "Baker Commodities",
-    "EAZ": "Eazy Grease",
-    "MOM": "Momentum Environmental",
-    "SEP": "Septic Blue (Georgia Oak)",
-    "BAR": "Barrel Energy (Public)",
-    "Independent": "Independent",
-    "Other": "Other PE-Backed",
+    "DAR": "Darling / DAR PRO",
+    "PUB": "Public Company",
+    "PE":  "PE-Backed (Other)",
+    "REG": "Regional Operator",
+    "LOC": "Local / Family",
+    "UNK": "Unknown",
 }
 _BUCKET_COLOR = {
-    "LES": "#e74c3c", "WRE": "#3498db", "DAR": "#2C3E50", "BAK": "#27ae60",
-    "EAZ": "#D4AC0D", "MOM": "#6C3483", "SEP": "#1E8449", "BAR": "#2C3E50",
-    "Independent": "#76D7C4", "Other": "#c0392b",
+    "LES": "#e74c3c", "WRE": "#3498db", "BAK": "#27ae60", "DAR": "#f39c12",
+    "PUB": "#2C3E50", "PE":  "#c0392b", "REG": "#1abc9c", "LOC": "#95a5a6",
+    "UNK": "#bdc3c7",
 }
 
 
@@ -743,8 +896,7 @@ def inject_collection_layer(scripts: str) -> tuple[str, dict[str, int]]:
     payload = json.dumps(data, separators=(",", ":"))
     bucket_meta_static = json.dumps([
         {"key": k, "label": _BUCKET_LABEL[k], "color": _BUCKET_COLOR[k]}
-        for k in ["LES", "WRE", "DAR", "BAK", "EAZ", "MOM", "SEP", "BAR",
-                  "Other", "Independent"]
+        for k in ["LES", "WRE", "BAK", "DAR", "PUB", "PE", "REG", "LOC", "UNK"]
     ])
 
     js = f"""
@@ -767,17 +919,20 @@ const collectionBucketStates = {{}};
 (function() {{
   // Compute per-bucket counts and prepare the visible bucket list.
   function bucketKey(o) {{
-    if (!o) return 'Independent';
+    if (!o) return 'LOC';
     if (o.indexOf('Wind River') === 0) return 'WRE';
     if (o.indexOf('LES') === 0) return 'LES';
     if (o.indexOf('Darling') >= 0) return 'DAR';
     if (o.indexOf('Baker') === 0) return 'BAK';
-    if (o.indexOf('Eazy Grease') >= 0) return 'EAZ';
-    if (o.indexOf('Momentum') === 0) return 'MOM';
-    if (o.indexOf('Septic Blue') >= 0) return 'SEP';
-    if (o.indexOf('Barrel') >= 0) return 'BAR';
-    if (o === 'Independent') return 'Independent';
-    return 'Other';
+    if (o.indexOf('Eazy Grease') >= 0) return 'REG';
+    if (o.indexOf('Momentum') === 0) return 'PE';
+    if (o.indexOf('Septic Blue') >= 0) return 'PE';
+    if (o.indexOf('Barrel') >= 0) return 'PUB';
+    if (o.indexOf('Public:') >= 0) return 'PUB';
+    if (o.indexOf('PE-Backed:') >= 0) return 'PE';
+    if (o.indexOf('Regional:') >= 0) return 'REG';
+    if (o.indexOf('Local:') >= 0 || o === 'Independent') return 'LOC';
+    return 'PE';
   }}
   const bucketCounts = {{}};
   COLLECTION_DATA.forEach(function(d) {{
@@ -820,19 +975,28 @@ const collectionBucketStates = {{}};
     return ({json.dumps(_BUCKET_COLOR)})[key] || '#76D7C4';
   }}
 
-  // Build markers
+  // Build markers — diamond DivIcon per the unified shape system.
+  // Plants stay as CircleMarker (handled by upstream map JS); collection
+  // operators are diamonds; WWTPs are the open diamonds the upstream
+  // already renders.
+  function _diamondHtml(color) {{
+    return '<div style="width:10px; height:10px; background:' + color +
+      '; transform:rotate(45deg); border:1.5px solid white; ' +
+      'box-shadow:0 1px 3px rgba(0,0,0,0.4); opacity:0.85;"></div>';
+  }}
   const popupOpenForCollection = {{}};
   COLLECTION_DATA.forEach(function(d) {{
     const key = bucketKey(d.o);
     const cluster = collectionClusters[key];
     if (!cluster) return;
-    const m = L.circleMarker([d.la, d.lo], {{
-      radius: 5,
-      color: '#222', weight: 0.5,
-      fillColor: bucketColor(key),
-      fillOpacity: 0.7,
-      opacity: 0.85
+    const icon = L.divIcon({{
+      className: 'collection-diamond-icon',
+      html: _diamondHtml(bucketColor(key)),
+      iconSize: [12, 12],
+      iconAnchor: [6, 6],
+      popupAnchor: [0, -6]
     }});
+    const m = L.marker([d.la, d.lo], {{icon: icon}});
     m.bindPopup(function() {{
       let html = '<div class="collection-popup">' +
         '<b>' + (d.n || '') + '</b>' +
@@ -1163,7 +1327,8 @@ html, body {
   50%      { opacity: 1.0; }
 }
 
-/* Collection / Service operator markers (smaller circles, lower opacity) */
+/* Collection / Service operator markers (small diamonds) */
+.collection-diamond-icon { background: transparent !important; border: none !important; }
 .collection-popup hr { border: 0; border-top: 1px solid #ddd; margin: 6px 0; }
 .collection-badge {
   display: inline-block; margin-left: 6px;
@@ -1823,10 +1988,10 @@ def main() -> int:
     scripts, public_counts, filter_counts, kept_records = patch_facility_data(scripts)
     scripts = patch_category_info(scripts)
     body_inner = patch_legend(body_inner)
-    body_inner = patch_collection_legend(body_inner)
     body_inner = patch_filter_panel(body_inner)
     scripts, collection_counts = inject_collection_layer(scripts)
     scripts = inject_service_hq(scripts)
+    scripts = inject_entity_type_toggles(scripts)
     scripts = inject_map_handle(scripts)
 
     with open(NEWS_JSON, encoding="utf-8") as f:
@@ -1883,19 +2048,20 @@ def main() -> int:
     for r in kept_records:
         cat_counts[r.get("ct", "?")] = cat_counts.get(r.get("ct", "?"), 0) + 1
     cat_label = {
-        "LES": "LES (Goldman Sachs)", "WRE": "Wind River (Gryphon)",
-        "BAK": "Baker Commodities", "MAH": "Mahoney / Crimson",
-        "MOM": "Momentum Environmental", "SEP": "Septic Blue (Georgia Oak)",
-        "PUB": "Public Company", "PE": "Other PE-Backed",
-        "REG": "Regional Operators", "LOC": "Local / Family",
-        "MUN": "Municipal (flagged)", "UNK": "Unknown",
-        "DAR": "Darling/DAR PRO (legacy ct)",
-        "BAR": "Barrel Energy (legacy ct)",
+        "LES": "LES (Goldman Sachs)",
+        "WRE": "Wind River (Gryphon)",
+        "BAK": "Baker Commodities",
+        "DAR": "Darling / DAR PRO",
+        "PUB": "Public Company",
+        "PE":  "PE-Backed (Other)",
+        "REG": "Regional Operator",
+        "LOC": "Local / Family",
+        "MUN": "Municipal (flagged)",
+        "UNK": "Unknown",
     }
     print()
     print("Remaining by owner_type:")
-    for ct in ["LES", "WRE", "BAK", "MAH", "PUB", "MOM", "SEP", "PE",
-               "REG", "LOC", "MUN", "UNK", "DAR", "BAR"]:
+    for ct in ["LES", "WRE", "BAK", "DAR", "PUB", "PE", "REG", "LOC", "MUN", "UNK"]:
         n = cat_counts.get(ct, 0)
         if n:
             print(f"  {n:>5}  {cat_label.get(ct, ct)}")
