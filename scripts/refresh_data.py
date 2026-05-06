@@ -393,7 +393,7 @@ Cover ALL of these 10 categories (do not focus only on M&A):
 9.  Industry Events — WWETT Show, Pumper.com, Waste360, Waste Today features, Water Environment Federation, National Pretreatment Conference, Environmental Business Journal reports.
 10. ESG — circular economy involving FOG waste, sustainability reporting requirements, carbon credit markets for FOG, Scope 3 tracking by food service.
 
-CRITICAL: do NO MORE than 12 web_search calls total. Pick the most promising searches across categories — breadth of coverage matters more than depth. Each search response can be very long; do not chain extensive follow-up searches.
+CRITICAL: do NO MORE than 6 web_search calls total. Pick the highest-value searches across categories — breadth matters more than depth. Each web_search response is large; we need to stay well under 200k cumulative context.
 
 Seed searches (one example per category, for inspiration only — synthesize your own queries as needed):
 {seeds}
@@ -442,29 +442,17 @@ def search_for_updates(queries: list[str] | None = None,
 
     prompt = _build_search_prompt(today, year, qs, note)
 
-    # Sonnet 4.6 has a 1M context window, which matters when the
-    # web_search tool-call loop accumulates substantial cumulative
-    # context (Haiku 4.5's 200k cap was getting blown out). It also
-    # uses a separate rate-limit pool from Sonnet 4. Retry on rate
-    # limit with backoff.
-    import time
-    response = None
-    for attempt in range(3):
-        try:
-            response = client.messages.create(
-                model="claude-sonnet-4-6",
-                max_tokens=16384,
-                tools=[{"type": "web_search_20250305", "name": "web_search"}],
-                messages=[{"role": "user", "content": prompt}],
-            )
-            break
-        except anthropic.RateLimitError as e:
-            wait = 30 * (attempt + 1)
-            sys.stderr.write(f"rate-limited (attempt {attempt+1}/3); sleeping {wait}s — {e}\n")
-            time.sleep(wait)
-    if response is None:
-        sys.stderr.write("Anthropic rate limit exhausted after retries; giving up this run.\n")
-        return []
+    # Anthropic's rate limit on this org tier is 30k tokens/minute and
+    # counts max_tokens against the budget — so a single request with
+    # max_tokens=16k is half the entire minute's quota. Use Haiku 4.5
+    # (separate pool from Sonnet) and a tighter max_tokens. The 6-search
+    # cap in the prompt keeps context comfortably under Haiku's 200k cap.
+    response = client.messages.create(
+        model="claude-haiku-4-5-20251001",
+        max_tokens=6144,
+        tools=[{"type": "web_search_20250305", "name": "web_search"}],
+        messages=[{"role": "user", "content": prompt}],
+    )
 
     text_parts = [b.text for b in response.content if hasattr(b, "text")]
     full_text = "\n".join(text_parts)
