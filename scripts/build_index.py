@@ -555,12 +555,24 @@ _SERVICE_HQ_FILTER_HTML = """
 """
 
 
+_COLLECTION_FILTER_HTML = """
+    <h4>📋 Collection / service operators</h4>
+    <label><input type="checkbox" id="toggle-collection-master" />
+      <b>Show collection operators</b>
+      <span id="coll-total-count" class="muted" style="font-weight:normal;"></span></label>
+    <div class="muted" id="coll-sub-msg" style="margin:4px 0 6px 0;">
+      Smaller markers = collection operators. Larger = processing plants.
+    </div>
+    <div id="coll-sub-toggles" style="display:none; margin:4px 0 4px 12px; padding-left:6px; border-left:2px solid #e0e0e0;"></div>
+"""
+
+
 def patch_filter_panel(body_inner: str) -> str:
     """Insert the collection-only-platforms checkboxes into the filter
     panel, right before the Base map section."""
     body_inner = body_inner.replace(
         "<h4>Base map</h4>",
-        _SERVICE_HQ_FILTER_HTML + "\n    <h4>Base map</h4>",
+        _COLLECTION_FILTER_HTML + _SERVICE_HQ_FILTER_HTML + "\n    <h4>Base map</h4>",
         1,
     )
     return body_inner
@@ -623,13 +635,268 @@ def inject_service_hq(scripts: str) -> str:
     return scripts[:last] + build_service_hq_script() + scripts[last:]
 
 
+# ============================================================================
+# Collection / service operator layer (smaller markers, separate cluster)
+# ============================================================================
+
+COLLECTION_JSON = os.path.join(ROOT, "data", "collection_operators.json")
+
+
+def _load_collection_data() -> list[dict]:
+    if not os.path.exists(COLLECTION_JSON):
+        sys.stderr.write(f"WARNING: {COLLECTION_JSON} missing — collection layer empty\n")
+        return []
+    with open(COLLECTION_JSON, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def _bucket_for(o: str) -> str:
+    """Map an operator's owner_type string to a coarse cluster bucket /
+    filter category. Single source of truth for both Python build-time
+    counting and JS render-time coloring."""
+    if not o:
+        return "Independent"
+    if o.startswith("Wind River"):
+        return "WRE"
+    if o.startswith("LES"):
+        return "LES"
+    if "Darling" in o:
+        return "DAR"
+    if o.startswith("Baker"):
+        return "BAK"
+    if "Eazy Grease" in o:
+        return "EAZ"
+    if o.startswith("Momentum"):
+        return "MOM"
+    if "Septic Blue" in o:
+        return "SEP"
+    if "Barrel" in o:
+        return "BAR"
+    if o == "Independent":
+        return "Independent"
+    return "Other"
+
+
+_BUCKET_LABEL = {
+    "LES": "LES (Goldman Sachs)",
+    "WRE": "Wind River (Gryphon)",
+    "DAR": "Darling / DAR PRO (Public)",
+    "BAK": "Baker Commodities",
+    "EAZ": "Eazy Grease",
+    "MOM": "Momentum Environmental",
+    "SEP": "Septic Blue (Georgia Oak)",
+    "BAR": "Barrel Energy (Public)",
+    "Independent": "Independent",
+    "Other": "Other PE-Backed",
+}
+_BUCKET_COLOR = {
+    "LES": "#e74c3c", "WRE": "#3498db", "DAR": "#2C3E50", "BAK": "#27ae60",
+    "EAZ": "#D4AC0D", "MOM": "#6C3483", "SEP": "#1E8449", "BAR": "#2C3E50",
+    "Independent": "#76D7C4", "Other": "#c0392b",
+}
+
+
+def inject_collection_layer(scripts: str) -> tuple[str, dict[str, int]]:
+    data = _load_collection_data()
+
+    # Per-bucket counts for the filter panel labels.
+    counts: dict[str, int] = {}
+    for r in data:
+        b = _bucket_for(r.get("o") or "")
+        counts[b] = counts.get(b, 0) + 1
+
+    bucket_meta = []
+    for key in ["LES", "WRE", "DAR", "BAK", "EAZ", "MOM", "SEP", "BAR", "Other", "Independent"]:
+        if counts.get(key, 0) > 0:
+            bucket_meta.append({
+                "key": key,
+                "label": _BUCKET_LABEL[key],
+                "color": _BUCKET_COLOR[key],
+                "count": counts[key],
+            })
+
+    payload = json.dumps(data, separators=(",", ":"))
+    bucket_payload = json.dumps(bucket_meta)
+
+    js = f"""
+// ---------- Collection / service operator layer ----------
+// Pumpers, grease-trap haulers, septic services. Smaller markers
+// (radius 5, opacity 0.7) than processing plants (radius 7) so the two
+// layers are visually distinct. Default-OFF master toggle; sub-toggles
+// per owner-type bucket appear once the master is enabled.
+const COLLECTION_DATA = {payload};
+const COLLECTION_BUCKETS = {bucket_payload};
+const collectionClusters = {{}};
+const collectionBucketStates = {{}};
+
+(function() {{
+  // Build one cluster per bucket so each sub-toggle controls its own.
+  COLLECTION_BUCKETS.forEach(function(b) {{
+    collectionClusters[b.key] = L.markerClusterGroup({{
+      chunkedLoading: true, showCoverageOnHover: false,
+      maxClusterRadius: function(zoom) {{
+        if (zoom <= 4) return 70;
+        if (zoom <= 6) return 55;
+        if (zoom <= 8) return 40;
+        return 30;
+      }},
+      disableClusteringAtZoom: 11,
+      iconCreateFunction: function(c) {{
+        const n = c.getChildCount();
+        return L.divIcon({{
+          html: '<div style="background:' + b.color + '; opacity:0.8; color:white; '
+              + 'width:24px; height:24px; line-height:24px; border-radius:50%; '
+              + 'text-align:center; font-weight:600; border:2px solid white; '
+              + 'box-shadow:0 0 4px rgba(0,0,0,0.4); font-size:10px">' + n + '</div>',
+          className: '', iconSize: L.point(24, 24)
+        }});
+      }}
+    }});
+    collectionBucketStates[b.key] = false;
+  }});
+
+  function bucketKey(o) {{
+    if (!o) return 'Independent';
+    if (o.indexOf('Wind River') === 0) return 'WRE';
+    if (o.indexOf('LES') === 0) return 'LES';
+    if (o.indexOf('Darling') >= 0) return 'DAR';
+    if (o.indexOf('Baker') === 0) return 'BAK';
+    if (o.indexOf('Eazy Grease') >= 0) return 'EAZ';
+    if (o.indexOf('Momentum') === 0) return 'MOM';
+    if (o.indexOf('Septic Blue') >= 0) return 'SEP';
+    if (o.indexOf('Barrel') >= 0) return 'BAR';
+    if (o === 'Independent') return 'Independent';
+    return 'Other';
+  }}
+  function bucketColor(key) {{
+    return ({json.dumps(_BUCKET_COLOR)})[key] || '#76D7C4';
+  }}
+
+  // Build markers
+  const popupOpenForCollection = {{}};
+  COLLECTION_DATA.forEach(function(d) {{
+    const key = bucketKey(d.o);
+    const cluster = collectionClusters[key];
+    if (!cluster) return;
+    const m = L.circleMarker([d.la, d.lo], {{
+      radius: 5,
+      color: '#222', weight: 0.5,
+      fillColor: bucketColor(key),
+      fillOpacity: 0.7,
+      opacity: 0.85
+    }});
+    m.bindPopup(function() {{
+      let html = '<div class="collection-popup">' +
+        '<b>' + (d.n || '') + '</b>' +
+        '<span class="collection-badge">Collection / Service</span><br>';
+      if (d.ad) html += (d.ad) + ', ';
+      if (d.c) html += d.c + ', ';
+      if (d.s) html += d.s;
+      if (d.z) html += ' ' + d.z;
+      html += '<hr>';
+      html += '<b>Owner:</b> ' + (d.op || d.n || '?') + '<br>';
+      html += '<b>Type:</b> ' + (d.o || '?') + '<br>';
+      if (d.na) html += '<b>NAICS:</b> ' + d.na + '<br>';
+      const srcLabel = d.src === 'EPA_FRS_legacy' ? 'EPA FRS' :
+                        d.src === 'web_search' ? 'Web search' :
+                        d.src === 'EPA_FRS' ? 'EPA FRS' : (d.src || '?');
+      html += '<b>Data source:</b> ' + srcLabel + '<br>';
+      if (d.np) {{
+        html += '<b>Nearest processing plant:</b> ' + d.np;
+        if (d.nd != null) html += ' (' + d.nd + ' mi)';
+        html += '<br>';
+      }}
+      if (d.nplo) html += '<b>Plant owner:</b> ' + d.nplo + '<br>';
+      html += '</div>';
+      return html;
+    }}, {{maxWidth: 340}});
+    cluster.addLayer(m);
+  }});
+
+  // ---------- Filter UI ----------
+  const sub = document.getElementById('coll-sub-toggles');
+  const totalLabel = document.getElementById('coll-total-count');
+  if (totalLabel) totalLabel.textContent = ' (' + COLLECTION_DATA.length.toLocaleString() + ' total)';
+  if (sub) {{
+    sub.innerHTML = '<div class="muted" style="font-size:11px; margin-bottom:4px;">Filter by type:</div>' +
+      COLLECTION_BUCKETS.map(function(b) {{
+        return '<label style="font-size:11px;"><input type="checkbox" class="coll-sub" data-key="'
+          + b.key + '" checked /> '
+          + '<span style="display:inline-block; width:10px; height:10px; border-radius:50%; '
+          + 'background:' + b.color + '; margin-right:4px; vertical-align:middle;"></span>'
+          + b.label + ' <span class="muted">(' + b.count.toLocaleString() + ')</span></label>';
+      }}).join('');
+  }}
+  function applyMasterAndSubs() {{
+    const master = document.getElementById('toggle-collection-master');
+    const masterOn = master && master.checked;
+    if (sub) sub.style.display = masterOn ? 'block' : 'none';
+    COLLECTION_BUCKETS.forEach(function(b) {{
+      const cb = document.querySelector('.coll-sub[data-key="' + b.key + '"]');
+      const wantOn = masterOn && (!cb || cb.checked);
+      const cluster = collectionClusters[b.key];
+      if (!cluster) return;
+      const isOn = collectionBucketStates[b.key];
+      if (wantOn && !isOn) {{ map.addLayer(cluster); collectionBucketStates[b.key] = true; }}
+      else if (!wantOn && isOn) {{ map.removeLayer(cluster); collectionBucketStates[b.key] = false; }}
+    }});
+  }}
+  const master = document.getElementById('toggle-collection-master');
+  if (master) master.addEventListener('change', applyMasterAndSubs);
+  document.querySelectorAll('.coll-sub').forEach(function(cb) {{
+    cb.addEventListener('change', applyMasterAndSubs);
+  }});
+
+  // ---------- Stats panel injection ----------
+  const stats = document.getElementById('stats-panel');
+  if (stats) {{
+    const distances = COLLECTION_DATA.map(function(d) {{ return d.nd; }})
+      .filter(function(d) {{ return typeof d === 'number'; }});
+    const avg = distances.length ? (distances.reduce(function(a,b) {{ return a+b; }}, 0) / distances.length) : 0;
+    const far = distances.filter(function(d) {{ return d > 25; }}).length;
+    const html = '<h4 style="margin-top:8px;">Collection / Service Operators</h4>' +
+      '<div class="stats-line"><b>Total:</b> ' + COLLECTION_DATA.length.toLocaleString() + '</div>' +
+      COLLECTION_BUCKETS.map(function(b) {{
+        return '<div class="stats-line"><b>' + b.label + ':</b> ' + b.count.toLocaleString() + '</div>';
+      }}).join('') +
+      '<div class="stats-line"><b>Avg distance to nearest plant:</b> ' + avg.toFixed(1) + ' mi</div>' +
+      '<div class="stats-line"><b>&gt;25 mi from nearest plant:</b> ' + far.toLocaleString() + '</div>';
+    const body = stats.querySelector('.panel-body');
+    if (body) body.insertAdjacentHTML('beforeend', html);
+  }}
+
+  // Expose for findOnMap nearest-marker iteration
+  window.__collectionClusters = collectionClusters;
+}})();
+"""
+    last = scripts.rfind("</script>")
+    return scripts[:last] + js + scripts[last:], counts
+
+
+def patch_collection_legend(body_inner: str) -> str:
+    """Add a small-circle legend row for collection operators."""
+    row = (
+        '\n      <tr><td><span class="swatch" style="width:8px; height:8px; '
+        'background:#76D7C4;"></span></td>'
+        '<td>Collection / service operator (small marker)</td></tr>'
+    )
+    return re.sub(
+        r'(<tr><td><span class="legend-diamond"[^/]+/></td><td>Collection-only platforms[^<]*</td></tr>)',
+        r"\1" + row,
+        body_inner,
+        count=1,
+    )
+
+
 def patch_facility_data(
     scripts: str,
 ) -> tuple[str, dict[str, int], dict[str, int], list[dict]]:
     """Find the FOG_DATA literal in the script block, parse it, apply the
     FOG-only filter, run public-company / Eazy Grease reclassification on
-    survivors, write the result back. Returns
-    (scripts, public_counts, filter_counts, kept_records)."""
+    survivors, then strip pumpers (those move to COLLECTION_DATA), and
+    write the plants-only result back. Returns (scripts, public_counts,
+    filter_counts, kept_records). kept_records is the plants-only
+    dataset embedded as FOG_DATA."""
     m = re.search(r"const FOG_DATA = (\[.*?\]);\s*\n", scripts, flags=re.DOTALL)
     if not m:
         sys.stderr.write("WARNING: FOG_DATA literal not found; skipping filter+reclassification\n")
@@ -640,16 +907,23 @@ def patch_facility_data(
 
     records, filter_counts = filter_to_fog_only(records)
     filter_counts["_before"] = before
-    filter_counts["_after"] = len(records)
+    filter_counts["_after_filter"] = len(records)
 
     public_counts = reclassify_to_public(records)
     eazy_n = reclassify_eazy_grease(records)
     if eazy_n:
         public_counts["Regional: Eazy Grease (Private)"] = eazy_n
 
-    new_literal = json.dumps(records, separators=(",", ":"))
+    # Pumpers move to the collection-operator layer (loaded from
+    # data/collection_operators.json). Strip them from FOG_DATA so the
+    # plants layer is plants-only and visually distinct.
+    plants_only = [r for r in records if r.get("e") == "plant"]
+    filter_counts["_after"] = len(plants_only)
+    filter_counts["_pumpers_moved_to_collection"] = len(records) - len(plants_only)
+
+    new_literal = json.dumps(plants_only, separators=(",", ":"))
     scripts = scripts[: m.start()] + f"const FOG_DATA = {new_literal};\n" + scripts[m.end():]
-    return scripts, public_counts, filter_counts, records
+    return scripts, public_counts, filter_counts, plants_only
 
 
 TEMPLATE = r"""<!DOCTYPE html>
@@ -839,6 +1113,16 @@ html, body {
 @keyframes pulse-opacity {
   0%, 100% { opacity: 0.6; }
   50%      { opacity: 1.0; }
+}
+
+/* Collection / Service operator markers (smaller circles, lower opacity) */
+.collection-popup hr { border: 0; border-top: 1px solid #ddd; margin: 6px 0; }
+.collection-badge {
+  display: inline-block; margin-left: 6px;
+  padding: 1px 6px; border-radius: 3px;
+  background: #76D7C4; color: #1F3864;
+  font-size: 10px; font-weight: 700;
+  letter-spacing: 0.3px;
 }
 
 /* Service-HQ markers (collection-only platforms, hidden by default) */
@@ -1083,7 +1367,8 @@ __MAP_SCRIPTS__
       // Skip nearest-marker step on wide-zoom (multi-region) views.
       if (zoomHint === 'wide' || !clusters || !markers || !catOrder) return;
 
-      // Find nearest FOG marker across all (category, entity) buckets.
+      // Find nearest marker across all FOG (category, entity) buckets and
+      // (if loaded) the collection-operator clusters too.
       var nearest = null, nearestDist = Infinity, nearestCluster = null;
       catOrder.forEach(function (cat) {
         ['plant', 'pumper'].forEach(function (ent) {
@@ -1097,6 +1382,20 @@ __MAP_SCRIPTS__
               nearest = m;
               nearestCluster = clusters[cat] && clusters[cat][ent];
             }
+          }
+        });
+      });
+      var collClusters = window.__collectionClusters || {};
+      Object.keys(collClusters).forEach(function (key) {
+        var cluster = collClusters[key];
+        if (!cluster || typeof cluster.eachLayer !== 'function') return;
+        cluster.eachLayer(function (m) {
+          if (!m.getLatLng) return;
+          var d = fogMap.distance([lat, lng], m.getLatLng());
+          if (d < nearestDist) {
+            nearestDist = d;
+            nearest = m;
+            nearestCluster = cluster;
           }
         });
       });
@@ -1476,7 +1775,9 @@ def main() -> int:
     scripts, public_counts, filter_counts, kept_records = patch_facility_data(scripts)
     scripts = patch_category_info(scripts)
     body_inner = patch_legend(body_inner)
+    body_inner = patch_collection_legend(body_inner)
     body_inner = patch_filter_panel(body_inner)
+    scripts, collection_counts = inject_collection_layer(scripts)
     scripts = inject_service_hq(scripts)
     scripts = inject_map_handle(scripts)
 
@@ -1583,6 +1884,21 @@ def main() -> int:
         print("Regional brand reclassifications:")
         for label, n in sorted(reg_counts.items(), key=lambda kv: -kv[1]):
             print(f"  {n:>5}  {label}")
+
+    if collection_counts:
+        print()
+        print("=" * 60)
+        print("FACILITY MAP SUMMARY")
+        print("=" * 60)
+        print(f"Processing plants:    {len(kept_records):>6,}  (FOG-filtered, plants only)")
+        total_coll = sum(collection_counts.values())
+        print(f"Collection operators: {total_coll:>6,}  (NAICS 562991 + collection-keyword names)")
+        print(f"Total map entities:   {len(kept_records) + total_coll:>6,}  "
+              f"(+ ~14k WWTPs in separate layer)")
+        print()
+        print("Collection operators by owner_type:")
+        for k, v in sorted(collection_counts.items(), key=lambda kv: -kv[1]):
+            print(f"  {v:>6,}  {_BUCKET_LABEL.get(k, k)}")
     return 0
 
 

@@ -1,0 +1,64 @@
+name: Supplement Collection Operators (web search)
+
+# Manual trigger only. Iterates the top US metros via Anthropic web_search
+# and appends new collection operators to data/collection_operators.json,
+# then rebuilds docs/index.html.
+#
+# Run via:
+#     gh workflow run supplement.yml
+# Or with a slice:
+#     gh workflow run supplement.yml -f metros="Indianapolis, IN|Cincinnati, OH"
+
+on:
+  workflow_dispatch:
+    inputs:
+      metros:
+        description: "Pipe-separated metros (blank = all 75)"
+        required: false
+        default: ""
+      batch_size:
+        description: "Metros per minute (rate-limit pacing)"
+        required: false
+        default: "8"
+
+permissions:
+  contents: write
+
+jobs:
+  supplement:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run supplement
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          METROS: ${{ github.event.inputs.metros }}
+          BATCH_SIZE: ${{ github.event.inputs.batch_size }}
+          BATCH_SLEEP_S: "65"
+        run: python scripts/supplement_operators.py
+
+      - name: Rebuild HTML
+        run: python scripts/build_index.py
+
+      - name: Commit and push
+        run: |
+          git config user.email "fog-bot@automated.local"
+          git config user.name "FOG Command Center Bot"
+          git add data/collection_operators.json docs/index.html
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Supplement collection operators (web search)"
+            git push
+          fi
