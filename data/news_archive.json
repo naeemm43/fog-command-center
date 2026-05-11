@@ -107,6 +107,21 @@
     "relevance_score": 3
   },
   {
+    "date": "2025-07-23",
+    "headline": "Goldman Sachs Acquires Liquid Environmental Solutions",
+    "source": "ESG Today",
+    "source_url": "https://www.esgtoday.com/goldman-sachs-acquires-liquid-waste-solutions-provider-les/",
+    "category": "M&A",
+    "summary": "Goldman Sachs Alternatives acquired Liquid Environmental Solutions (LES) from Audax Private Equity. LES collects, treats, and recovers materials from liquid waste sources including grease traps, oil water separators, used cooking oil and other non-hazardous liquid waste.",
+    "relevance_score": 5,
+    "is_deal": true,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": 32.814,
+    "longitude": -96.949,
+    "zoom_hint": "narrow"
+  },
+  {
     "date": "2025-07-22",
     "headline": "Goldman Sachs Alternatives Agrees to Acquire LES from Audax Private Equity",
     "source": "Goldman Sachs AM",
@@ -293,6 +308,21 @@
     "relevance_score": 3
   },
   {
+    "date": "2025-03-28",
+    "headline": "Barrel Energy Completes Reverse Merger with Happy Traps",
+    "source": "SEC Filing (StockTitan)",
+    "source_url": "https://www.stocktitan.net/sec-filings/BRLL/10-12g-a-barrel-energy-inc-sec-filing-4482ddefeccc.html",
+    "category": "M&A",
+    "summary": "In March 2025, Happy Traps completed a reverse merger with Barrel Energy. The transaction was structured to provide Happy Traps with access to additional capital and infrastructure to support regional expansion and integration into a renewable energy and waste-to-value platform.",
+    "relevance_score": 5,
+    "is_deal": true,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": 45.254,
+    "longitude": -69.445,
+    "zoom_hint": "wide"
+  },
+  {
     "date": "2025-03-07",
     "headline": "Wind River Environmental Acquires AA Cut Rate Septic",
     "source": "Wind River blog",
@@ -302,6 +332,21 @@
     "is_target_market": false,
     "target_market_name": null,
     "relevance_score": 4
+  },
+  {
+    "date": "2025-02-01",
+    "headline": "Liquid Environmental Solutions Acquires All American Grease Services Companies",
+    "source": "Liquid Environmental Solutions",
+    "source_url": "https://www.liquidenviro.com/blog-news/liquid-environmental-solutions-acquires-all-american-grease-services-companies",
+    "category": "M&A",
+    "summary": "Liquid Environmental Solutions acquired All American Grease Services Companies, a non-hazardous liquid waste company offering grease trap and used cooking oil collection services across the Gulf Coast and Southeastern United States. The acquisition adds five service branches and three wastewater treatment facilities to LES's network.",
+    "relevance_score": 5,
+    "is_deal": true,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": 31.169,
+    "longitude": -91.867,
+    "zoom_hint": "wide"
   },
   {
     "date": "2025-01-01",
