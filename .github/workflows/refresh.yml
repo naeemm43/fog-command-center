@@ -37,10 +37,20 @@ jobs:
         # docs/index.html is committed in encrypted form. The splice in
         # refresh_data.py needs the marker comments inside the original
         # HTML, so we decrypt to a working copy first.
+        #
+        # staticrypt returns 0 on wrong-password too, so we verify the
+        # output by checking a known marker. Without this check, a bad
+        # SITE_PASSWORD secret silently produces a no-op splice and the
+        # re-encrypt step double-wraps the original encrypted blob.
         env:
           SITE_PASSWORD: ${{ secrets.SITE_PASSWORD }}
         run: |
+          : "${SITE_PASSWORD:?SITE_PASSWORD secret not set — configure in repo Settings → Secrets and variables → Actions}"
           npx staticrypt --decrypt docs/index.html -p "$SITE_PASSWORD" --short -d docs
+          if ! grep -q "NEWS_FEED_DATA_START" docs/index.html; then
+            echo "::error::Decrypt produced HTML without expected markers — SITE_PASSWORD likely wrong. Aborting to avoid corrupting docs/index.html." >&2
+            exit 1
+          fi
 
       - name: Run refresh script
         env:
