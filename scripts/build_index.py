@@ -80,6 +80,122 @@ def strip_placeholder_text(scripts: str) -> str:
     )
 
 
+def inject_verification_ui(scripts: str) -> str:
+    """Adds:
+      1. A global verifyBadge(vs) helper that returns inline HTML for the
+         green / orange chip shown atop facility popups.
+      2. A regex patch to the upstream fogPopup so plant popups call it.
+      3. A 'Show only verified facilities' toggle handler that walks the
+         plant clusters + the collection-layer clusters and detaches any
+         marker whose `vs` is not 'C'.
+
+    Idempotent: re-running build_index.py on already-patched scripts is a
+    no-op for the regex piece because the replacement text doesn't match
+    the original pattern."""
+    # 1. Patch fogPopup to prepend the badge. Match the literal `return
+    # '<b>' + escHtml(d.n) + '</b><br>'` line and inject verifyBadge.
+    new_scripts, n = re.subn(
+        r"return\s+'<b>'\s*\+\s*escHtml\(d\.n\)\s*\+\s*'</b><br>'",
+        "return verifyBadge(d.vs) + '<b>' + escHtml(d.n) + '</b><br>'",
+        scripts, count=1,
+    )
+    if n == 0:
+        sys.stderr.write("WARNING: fogPopup patch found no match — plant badges disabled.\n")
+    scripts = new_scripts
+
+    # 2. Inject helper functions + filter-checkbox handler. The collection
+    # layer's IIFE already calls verifyBadge() inline; defining it here at
+    # global scope makes it available to fogPopup (plants) too.
+    helper_js = """
+// ---------- Verification badge + 'verified only' filter ----------
+function verifyBadge(vs) {
+  if (vs === 'C') {
+    return '<div style="display:inline-block;font-size:10px;color:#27ae60;background:#eafbf1;'
+      + 'padding:1px 5px;border-radius:3px;border:1px solid #c3ecd2;margin-bottom:3px;">'
+      + '✓ Verified FOG facility</div><br>';
+  }
+  if (vs === 'U') {
+    return '<div style="display:inline-block;font-size:10px;color:#c87600;background:#fef5e7;'
+      + 'padding:1px 5px;border-radius:3px;border:1px solid #fadeae;margin-bottom:3px;">'
+      + '⚠️ Unverified — may not be FOG-related</div><br>';
+  }
+  return '';
+}
+
+(function() {
+  // Tracks which markers have been temporarily removed by the "verified
+  // only" filter so we can re-add them when the checkbox is unchecked,
+  // without disturbing any other layer-visibility logic.
+  const hiddenPlantMarkers = [];   // {cluster, marker}
+  const hiddenCollMarkers  = [];   // {cluster, marker}
+
+  function _walkPlantClusters(cb) {
+    // Upstream code stores plant clusters at fogClusters[cat]['plant'].
+    // Pumpers were moved to COLLECTION_DATA upstream, so we only walk
+    // the 'plant' entity slot.
+    if (typeof fogClusters === 'undefined') return;
+    Object.keys(fogClusters).forEach(function(cat) {
+      const c = fogClusters[cat] && fogClusters[cat].plant;
+      if (!c || typeof c.eachLayer !== 'function') return;
+      c.eachLayer(function(m) { cb(c, m); });
+    });
+  }
+
+  function _walkCollectionClusters(cb) {
+    if (!window.__collectionMarkersByBucket) return;
+    Object.keys(window.__collectionMarkersByBucket).forEach(function(k) {
+      const cluster = window.__collectionClusters[k];
+      if (!cluster) return;
+      window.__collectionMarkersByBucket[k].forEach(function(m) { cb(cluster, m); });
+    });
+  }
+
+  function applyVerifiedOnly(on) {
+    if (on) {
+      // Hide every unverified marker we can find.
+      _walkPlantClusters(function(c, m) {
+        const vs = m._fog && m._fog.vs;
+        if (vs && vs !== 'C') {
+          c.removeLayer(m);
+          hiddenPlantMarkers.push({cluster: c, marker: m});
+        }
+      });
+      _walkCollectionClusters(function(c, m) {
+        if (m._vs && m._vs !== 'C') {
+          c.removeLayer(m);
+          hiddenCollMarkers.push({cluster: c, marker: m});
+        }
+      });
+    } else {
+      while (hiddenPlantMarkers.length) {
+        const e = hiddenPlantMarkers.pop();
+        e.cluster.addLayer(e.marker);
+      }
+      while (hiddenCollMarkers.length) {
+        const e = hiddenCollMarkers.pop();
+        e.cluster.addLayer(e.marker);
+      }
+    }
+  }
+
+  function wire() {
+    const cb = document.getElementById('toggle-verified-only');
+    if (!cb) return;
+    cb.addEventListener('change', function() { applyVerifiedOnly(cb.checked); });
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', wire);
+  } else {
+    wire();
+  }
+})();
+"""
+    # Append the helper block at the end of the scripts section so it runs
+    # after CATEGORY_INFO and the collection-layer IIFE have populated.
+    last = scripts.rfind("</script>")
+    return scripts[:last] + helper_js + scripts[last:]
+
+
 def inject_map_handle(scripts: str) -> str:
     """Expose the Leaflet map instance + marker collections + a
     `__rebuildTier2Layer` helper globally so the tab-switcher,
@@ -922,6 +1038,8 @@ _OVERLAYS_HTML = """
     <h4>Overlays</h4>
     <label><input type="checkbox" id="toggle-tier2-visible" /> Tier 2 target markets (50-mi radius)</label>
     <label><input type="checkbox" id="toggle-restaurant-heat" /> Restaurant density heat map</label>
+    <label><input type="checkbox" id="toggle-verified-only" /> Show only verified facilities</label>
+    <div class="muted" style="font-size:11px; margin-top:2px;">Hides ~1,500 records with an "⚠️ Unverified" badge.</div>
 """
 
 
@@ -1866,7 +1984,14 @@ def _load_collection_data() -> list[dict]:
         sys.stderr.write(f"WARNING: {COLLECTION_JSON} missing — collection layer empty\n")
         return []
     with open(COLLECTION_JSON, encoding="utf-8") as f:
-        return json.load(f)
+        records = json.load(f)
+    verif = _load_verification_results()
+    records, vc = _apply_verification(records, verif)
+    if verif:
+        print(f"Verification (collection): removed {vc['removed_not_fog']:,} NOT_FOG, "
+              f"kept {vc['confirmed']:,} confirmed + {vc['unclear']:,} unclear "
+              f"+ {vc['unknown']:,} not-yet-verified.")
+    return records
 
 
 def _bucket_for(o: str) -> str:
@@ -2062,10 +2187,12 @@ const collectionBucketStates = {{}};
     }});
     const m = L.marker([d.la, d.lo], {{icon: icon}});
     m._state = d.s;
+    m._vs = d.vs;
     if (!collectionMarkersByBucket[key]) collectionMarkersByBucket[key] = [];
     collectionMarkersByBucket[key].push(m);
     m.bindPopup(function() {{
       let html = '<div class="collection-popup">' +
+        verifyBadge(d.vs) +
         '<b>' + (d.n || '') + '</b>' +
         '<span class="collection-badge">Collection / Service</span><br>';
       if (d.ad) html += (d.ad) + ', ';
@@ -2169,6 +2296,59 @@ def patch_collection_legend(body_inner: str) -> str:
 
 
 _CONSOLIDATOR_SUPPLEMENTS_JSON = os.path.join(ROOT, "data", "consolidator_supplements.json")
+_VERIFICATION_RESULTS_JSON = os.path.join(ROOT, "data", "verification_results.json")
+
+
+def _load_verification_results() -> dict[str, str]:
+    """Map of facility id → one-char verification status: 'C' (confirmed
+    FOG), 'U' (unclear), or 'N' (not-FOG, dropped at build time).
+
+    Produced by scripts/verify_facilities.py + postprocess_verification.py.
+    If the file is missing (fresh checkout, etc.) every facility passes
+    through unchanged with status 'U' as a safe default — nothing gets
+    deleted without an explicit verification verdict."""
+    if not os.path.exists(_VERIFICATION_RESULTS_JSON):
+        sys.stderr.write(
+            "WARNING: verification_results.json missing — facilities will "
+            "build without verification filtering or badges.\n"
+        )
+        return {}
+    with open(_VERIFICATION_RESULTS_JSON, encoding="utf-8") as f:
+        records = json.load(f)
+    code_map = {
+        "CONFIRMED_FOG": "C",
+        "UNCLEAR": "U",
+        "NOT_FOG": "N",
+    }
+    return {r["id"]: code_map.get(r["classification"], "U") for r in records}
+
+
+def _apply_verification(records: list[dict], verif: dict[str, str]) -> tuple[list[dict], dict[str, int]]:
+    """Filter NOT_FOG records out and attach `vs` field to survivors. If
+    verif is empty (no verification run yet) every record passes through
+    untouched with `vs` left unset, so popup rendering can no-op."""
+    if not verif:
+        return records, {"removed_not_fog": 0, "confirmed": 0, "unclear": 0, "unknown": len(records)}
+    out: list[dict] = []
+    counts = {"removed_not_fog": 0, "confirmed": 0, "unclear": 0, "unknown": 0}
+    for r in records:
+        status = verif.get(r.get("i") or "")
+        if status == "N":
+            counts["removed_not_fog"] += 1
+            continue
+        if status == "C":
+            r["vs"] = "C"
+            counts["confirmed"] += 1
+        elif status == "U":
+            r["vs"] = "U"
+            counts["unclear"] += 1
+        else:
+            # No verification entry — leave unflagged. Happens for any
+            # record added to the source data after the last verification
+            # run; preferable to dropping them silently.
+            counts["unknown"] += 1
+        out.append(r)
+    return out, counts
 
 
 def _load_consolidator_supplements() -> list[dict]:
@@ -2247,6 +2427,18 @@ def patch_facility_data(
     plants_only = [r for r in records if r.get("e") == "plant"]
     filter_counts["_after"] = len(plants_only)
     filter_counts["_pumpers_moved_to_collection"] = len(records) - len(plants_only)
+
+    # Apply AI verification verdict (verify_facilities.py): drop NOT_FOG,
+    # tag survivors with `vs` so popups can show the badge.
+    verif = _load_verification_results()
+    plants_only, verif_counts = _apply_verification(plants_only, verif)
+    filter_counts["_verif_removed"] = verif_counts["removed_not_fog"]
+    filter_counts["_verif_confirmed"] = verif_counts["confirmed"]
+    filter_counts["_verif_unclear"] = verif_counts["unclear"]
+    if verif:
+        print(f"Verification (plants): removed {verif_counts['removed_not_fog']:,} NOT_FOG, "
+              f"kept {verif_counts['confirmed']:,} confirmed + {verif_counts['unclear']:,} unclear "
+              f"+ {verif_counts['unknown']:,} not-yet-verified.")
 
     new_literal = json.dumps(plants_only, separators=(",", ":"))
     scripts = scripts[: m.start()] + f"const FOG_DATA = {new_literal};\n" + scripts[m.end():]
@@ -3285,6 +3477,7 @@ def main() -> int:
     scripts = inject_entity_type_toggles(scripts)
     scripts = inject_map_handle(scripts)
     scripts = inject_market_screener(scripts)
+    scripts = inject_verification_ui(scripts)
 
     with open(NEWS_JSON, encoding="utf-8") as f:
         news = json.load(f)
