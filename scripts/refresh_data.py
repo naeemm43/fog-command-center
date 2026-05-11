@@ -1051,14 +1051,18 @@ def main() -> int:
 
     added_news = 0
     added_deals = 0
+    new_news_items: list[dict] = []
+    new_deal_items: list[dict] = []
     for r in raw_results:
         n = coerce_news_item(r)
         if n and not is_duplicate_news(n, news):
             news.append(n)
+            new_news_items.append(n)
             added_news += 1
         d = coerce_deal_from_news(r)
         if d and not is_duplicate_deal(d, comps):
             comps.append(d)
+            new_deal_items.append(d)
             added_deals += 1
 
     # sort newest-first. Coerce None dates to a sentinel — items can land
@@ -1095,6 +1099,21 @@ def main() -> int:
         "compCount": len(comps),
     }
     update_html(news, comps, metadata)
+
+    # Write a per-run summary that scripts/send_email_digest.py consumes
+    # to build the daily briefing email. Keeping the full new-item list
+    # here (not just counts) so the email script doesn't need to diff
+    # against git or re-fetch.
+    last_refresh = {
+        "timestamp": metadata["lastRefreshed"],
+        "added_news_count": added_news,
+        "added_deals_count": added_deals,
+        "archived_count": len(archived),
+        "new_news": new_news_items,
+        "new_deals": new_deal_items,
+    }
+    with open(os.path.join(ROOT, "data", "last_refresh.json"), "w", encoding="utf-8") as f:
+        json.dump(last_refresh, f, indent=2)
 
     # Per-category breakdown of the news feed (post-merge state).
     cat_counts: dict[str, int] = {c: 0 for c in NEWS_CATEGORIES}

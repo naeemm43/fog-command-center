@@ -57,6 +57,19 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/refresh_data.py
 
+      - name: Send daily email digest
+        # No-op if data/last_refresh.json shows zero new items, so empty
+        # days don't generate empty emails. The script is allowed to fail
+        # without sinking the workflow — a missing SMTP credential should
+        # not block the refresh+commit cycle.
+        if: success()
+        continue-on-error: true
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
+        run: python scripts/send_email_digest.py
+
       - name: Re-encrypt HTML
         env:
           SITE_PASSWORD: ${{ secrets.SITE_PASSWORD }}
