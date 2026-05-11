@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-04-30",
+    "target": "Frontier Waste Solutions (and SECURE Waste Infrastructure - proposed)",
+    "acquirer": "GFL Environmental",
+    "sponsor": "",
+    "location": "Texas Triangle / Western Canada",
+    "deal_type": "Add-On",
+    "deal_size": "Undisclosed",
+    "multiple": "N/A",
+    "services": "",
+    "source": "Yahoo Finance / Market Summary (per earnings call notes)",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/gfl-environmental-q1-earnings-call-210658304.html",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "Unknown",
+    "deal_summary": [
+      "Eight acquisitions YTD generating $425\u2013450M annualized revenue; SECURE deal pending H2 2026."
+    ],
+    "date_confidence": "verified",
+    "notes": "During Q1 2026 earnings call, GFL Environmental announced completion of eight acquisitions expected to contribute $425\u2013450 million in annualized revenue, with Frontier Waste Solutions closing in early April. A proposed acquisition of SECURE Waste Infrastructure is expected in the latter half of 2026 and described as incremental to current guidance.",
+    "latitude": 31.0,
+    "longitude": -100.0,
+    "zoom_hint": "wide"
+  },
+  {
     "date": "2026-04-15",
     "target": "United Liquid Waste Recycling",
     "acquirer": "LJP Waste Solutions",

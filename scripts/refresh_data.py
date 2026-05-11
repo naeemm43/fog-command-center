@@ -985,7 +985,11 @@ def split_news_by_age(news: list[dict]) -> tuple[list[dict], list[dict]]:
     for n in news:
         try:
             dt = datetime.fromisoformat(n["date"]).replace(tzinfo=timezone.utc)
-        except (KeyError, ValueError):
+        except (KeyError, ValueError, TypeError):
+            # TypeError covers the case where n["date"] is None — items
+            # whose publication date was flagged future-dated and nulled
+            # by coerce_news_item. Keep them (don't archive items whose
+            # age we can't determine).
             kept.append(n)
             continue
         (kept if dt >= cutoff else archived).append(n)
@@ -1076,7 +1080,7 @@ def main() -> int:
         for a in archived:
             if normalize_headline(a.get("headline", "")) not in existing_keys:
                 existing_archive.append(a)
-        existing_archive.sort(key=lambda x: x.get("date", ""), reverse=True)
+        existing_archive.sort(key=lambda x: x.get("date") or "1900-01-01", reverse=True)
         with open(ARCHIVE_PATH, "w", encoding="utf-8") as f:
             json.dump(existing_archive, f, indent=2)
 
