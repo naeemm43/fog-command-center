@@ -508,6 +508,54 @@ _CORE_FOG_TERMS = [s.lower() for s in [
 ]]
 
 _NAICS_KEEP_REGARDLESS = {"562991", "311613"}      # Septic + Rendering
+
+
+# ============================================================================
+# NAICS 311613 disambiguation. The code covers both rendering plants (in
+# scope for the FOG dataset) and meat packers / slaughterhouses (out of
+# scope — they produce raw protein, not recovered fats). The blanket
+# "keep all 311613" rule was leaking butchers like Taylor Meat Company.
+# ============================================================================
+
+# Operator / facility names that always pass through (known renderers).
+_RENDERING_BRANDS_RX = re.compile(
+    r"\bdarling\b|\bdar[\s\-]?pro\b|"
+    r"\bbaker\s+commodities\b|"
+    r"\bvalley\s+proteins\b|"
+    r"\bsanimax\b|"
+    r"\bgriffin\s+industries\b|"
+    r"\brothsay\b|"
+    r"\bcraig\s+protein\b",
+    re.IGNORECASE,
+)
+
+# Facility-name fragments that disambiguate as rendering.
+_RENDERING_TERMS_RX = re.compile(
+    r"\brendering\b|\btallow\b|\bgrease\b|"
+    r"\brecycling\b|\bby[\s\-]?products?\b|"
+    r"\bprotein\b|\bbiofuel\b|\bbiodiesel\b|"
+    r"\buco\b|\bused\s+cooking\s+oil\b|"
+    r"\boil\s+recovery\b|\bfat\s+recovery\b|"
+    r"\bhide\s+and\s+tallow\b|\bhide\s*&\s*tallow\b|"
+    # 'Ingredients' alongside NAICS 311613 is the naming pattern for big
+    # protein/renderer subsidiaries (River Valley Ingredients = Tyson's
+    # rendering arm). Including it prevents the meat-term rule below from
+    # deleting renderers whose corporate name still contains 'Poultry'.
+    r"\bingredients\b",
+    re.IGNORECASE,
+)
+
+# Facility-name fragments that signal a meat packer / butcher / slaughterhouse.
+# A match here, combined with the absence of any rendering term, removes the
+# record from the dataset.
+_MEAT_TERMS_RX = re.compile(
+    r"\bmeat\s+(co|company|packing|packer)\b|"
+    r"\bpacking\s+(co|company)\b|"
+    r"\bslaughterhouse\b|\bslaughter\s+house\b|"
+    r"\bbutcher\b|\bsausage\b|"
+    r"\bbeef\b|\bpork\b|\bpoultry\b|\bchicken\b",
+    re.IGNORECASE,
+)
 _NAICS_AMBIGUOUS = {"562219", "562111", "221320"}  # Need FOG-positive name
 
 
@@ -559,13 +607,18 @@ def filter_to_fog_only(records: list[dict]) -> tuple[list[dict], dict[str, int]]
     counts: dict[str, int] = {
         "kept_consolidator_override": 0,
         "kept_naics_core": 0,
+        "kept_311613_brand": 0,
+        "kept_311613_rendering_term": 0,
+        "kept_311613_neutral": 0,
         "kept_naics_562219": 0,
         "kept_naics_562111_with_keyword": 0,
         "kept_keyword_only": 0,
         "removed_potw": 0,
         "removed_municipal_strict": 0,
         "removed_negative_keyword": 0,
+        "removed_311613_meat_only": 0,
         "removed_no_fog_signal": 0,
+        "_total_311613": 0,
     }
     out: list[dict] = []
 
@@ -573,6 +626,12 @@ def filter_to_fog_only(records: list[dict]) -> tuple[list[dict], dict[str, int]]
         name = (r.get("n") or "").lower()
         naics_str = (r.get("na") or "")
         naics = {p.strip() for p in re.split(r"[;,]", naics_str) if p.strip()}
+
+        # Track every 311613 record we see, regardless of which rule
+        # ultimately handles it, so the build summary can report an
+        # accurate "in dataset" count.
+        if "311613" in naics:
+            counts["_total_311613"] += 1
 
         # 1. Consolidator override — absolute.
         if _is_consolidator(r):
@@ -598,10 +657,34 @@ def filter_to_fog_only(records: list[dict]) -> tuple[list[dict], dict[str, int]]
             counts["removed_negative_keyword"] += 1
             continue
 
-        # 5. Core FOG NAICS — keep regardless.
-        if "562991" in naics or "311613" in naics:
+        # 5a. Septic NAICS 562991 — keep regardless.
+        if "562991" in naics:
             out.append(r)
             counts["kept_naics_core"] += 1
+            continue
+
+        # 5b. Rendering NAICS 311613 — disambiguate. The code spans both
+        # rendering plants (in scope) and meat packers/slaughterhouses
+        # (out of scope). Keep if the operator is a known renderer or the
+        # facility name carries a rendering signal; drop if the name
+        # carries a meat-packer signal and no rendering signal.
+        if "311613" in naics:
+            name_str = r.get("n") or ""
+            brand_str = (r.get("op") or "") + " " + (r.get("ot") or "") + " " + name_str
+            if _RENDERING_BRANDS_RX.search(brand_str):
+                out.append(r)
+                counts["kept_311613_brand"] += 1
+                continue
+            has_rendering = bool(_RENDERING_TERMS_RX.search(name_str))
+            if has_rendering:
+                out.append(r)
+                counts["kept_311613_rendering_term"] += 1
+                continue
+            if _MEAT_TERMS_RX.search(name_str):
+                counts["removed_311613_meat_only"] += 1
+                continue
+            out.append(r)
+            counts["kept_311613_neutral"] += 1
             continue
 
         # 6. NAICS 562219 — keep without positive-keyword requirement.
@@ -3524,7 +3607,19 @@ def main() -> int:
         print(f"    {filter_counts.get('kept_consolidator_override', 0):>5}  "
               "consolidator override (LES / WRE / Baker / Darling / etc.)")
         print(f"    {filter_counts.get('kept_naics_core', 0):>5}  "
-              "NAICS 562991 (septic) or 311613 (rendering) — kept regardless")
+              "NAICS 562991 (septic) — kept regardless")
+        n_311613_total = filter_counts.get("_total_311613", 0)
+        n_311613_brand = filter_counts.get("kept_311613_brand", 0)
+        n_311613_term = filter_counts.get("kept_311613_rendering_term", 0)
+        n_311613_neutral = filter_counts.get("kept_311613_neutral", 0)
+        n_311613_removed = filter_counts.get("removed_311613_meat_only", 0)
+        n_311613_kept = n_311613_brand + n_311613_term + n_311613_neutral
+        print(f"    {n_311613_kept:>5}  NAICS 311613 (rendering) — disambiguated: "
+              f"{n_311613_total} in dataset, {n_311613_kept} kept, "
+              f"{n_311613_removed} removed (meat packers)")
+        print(f"           ↳ {n_311613_brand} kept by rendering brand match")
+        print(f"           ↳ {n_311613_term} kept by rendering-term in name")
+        print(f"           ↳ {n_311613_neutral} kept (neutral — no meat/rendering signal)")
         print(f"    {filter_counts.get('kept_naics_562219', 0):>5}  "
               "NAICS 562219 — kept without keyword requirement (Issue 5)")
         print(f"    {filter_counts.get('kept_naics_562111_with_keyword', 0):>5}  "
