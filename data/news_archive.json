@@ -48,6 +48,21 @@
     "relevance_score": 3
   },
   {
+    "date": "2025-09-02",
+    "headline": "Goldman Sachs Alternatives Acquires Liquid Environmental Solutions from Audax Private Equity",
+    "source": "Waste360",
+    "source_url": "https://www.waste360.com/mergers-acquisitions/goldman-sachs-alternatives-acquires-liquid-environmental-solutions",
+    "category": "M&A",
+    "summary": "Goldman Sachs Alternatives Infrastructure Fund acquired Liquid Environmental Solutions (LES), a leading national provider of non-hazardous liquid waste management services, from Audax Private Equity. LES collects, treats and recovers materials from grease traps, oil water separators, and used cooking oil sources across 64 service locations and 26 treatment facilities.",
+    "relevance_score": 5,
+    "is_deal": true,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": 32.814,
+    "longitude": -96.949,
+    "zoom_hint": "narrow"
+  },
+  {
     "date": "2025-08-11",
     "headline": "Wind River Acquires M&S Septic and Fenkner Septic in Pennsylvania",
     "source": "Wind River Blog",
