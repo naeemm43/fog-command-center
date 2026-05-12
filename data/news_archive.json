@@ -37,6 +37,21 @@
     "relevance_score": 3
   },
   {
+    "date": "2025-09-29",
+    "headline": "From Restaurant Kitchens to Commercial Jets: The Greasy Trail of Used Cooking Oil",
+    "source": "Washington Post",
+    "source_url": "https://www.washingtonpost.com/climate-solutions/interactive/2025/saf-sustainable-aviation-fuel-french-fry-oil/",
+    "category": "Renewable Fuels",
+    "summary": "Washington Post investigation following used cooking oil collection from DC restaurants through Neste's Rotterdam refinery for SAF production, highlighting fuel companies' efforts to combat fraud and verify grease authenticity.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
+  },
+  {
     "date": "2025-09-02",
     "headline": "Goldman Sachs Alternatives Completes Acquisition of LES from Audax",
     "source": "BusinessWire",
@@ -61,6 +76,36 @@
     "latitude": 32.814,
     "longitude": -96.949,
     "zoom_hint": "narrow"
+  },
+  {
+    "date": "2025-08-27",
+    "headline": "Household Used Cooking Oil Collection: America's Untapped SAF Fuel and Curbside Programs",
+    "source": "Grease Connections",
+    "source_url": "https://greaseconnections.com/household-used-cooking-oil-collection/",
+    "category": "Renewable Fuels",
+    "summary": "Grease Connections overview of curbside household UCO collection programs and their expansion across US cities, noting that modest growth in collection could double current supply toward the federal SAF Grand Challenge target of 3 billion gallons by 2030.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
+  },
+  {
+    "date": "2025-08-13",
+    "headline": "Used Cooking Oil Market Size, Trends & Forecast, 2026-2033",
+    "source": "Coherent Market Insights",
+    "source_url": "https://www.coherentmarketinsights.com/industry-reports/used-cooking-oil-market",
+    "category": "Renewable Fuels",
+    "summary": "Market analysis reporting Darling Ingredients' December 2024 delivery of first batch of neat SAF from Diamond Green Diesel to Avfuel, with DGD producing SAF from animal fats, used cooking oil, and other renewable feedstocks.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
   },
   {
     "date": "2025-08-11",
@@ -238,6 +283,21 @@
     "relevance_score": 3
   },
   {
+    "date": "2025-04-25",
+    "headline": "Wind River Environmental Acquires Hapchuk, Inc. and Enters Agreement for Liquid Assets Disposal, Inc.",
+    "source": "Wind River Environmental",
+    "source_url": "https://www.wrenvironmental.com/blog/2025/april/wind-river-environmental-acquires-hapchuk-inc-an/",
+    "category": "M&A",
+    "summary": "Wind River Environmental has acquired Hapchuk, Inc., a well-established provider of grease pumping, septic pumping, and related environmental services. Wind River also entered into an agreement, pending regulatory approval, to purchase Liquid Assets Disposal, Inc., which operates a West Virginia-based treatment facility for grease, septic, and other non-hazardous liquid waste.",
+    "relevance_score": 5,
+    "is_deal": true,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": 40.174,
+    "longitude": -80.246,
+    "zoom_hint": "wide"
+  },
+  {
     "date": "2025-04-23",
     "headline": "Wind River Enters Tennessee via Mid South Septic Acquisition",
     "source": "Wind River Blog",
@@ -358,6 +418,51 @@
     "is_target_market": false,
     "target_market_name": null,
     "relevance_score": 3
+  },
+  {
+    "date": "2024-12-10",
+    "headline": "Darling Ingredients: Avfuel Corporation Takes First Delivery of Sustainable Aviation Fuel from Diamond Green Diesel",
+    "source": "PR Newswire",
+    "source_url": "https://www.prnewswire.com/news-releases/darling-ingredients-inc-announces-avfuel-corporation-takes-first-delivery-of-sustainable-aviation-fuel-produced-by-diamond-green-diesel-302328105.html",
+    "category": "Renewable Fuels",
+    "summary": "Darling Ingredients announced that Avfuel Corporation received the first delivery of sustainable aviation fuel produced by Diamond Green Diesel from used cooking oil and animal fats, with DGD's Port Arthur facility converted to 50% SAF capacity.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
+  },
+  {
+    "date": "2024-10-17",
+    "headline": "Darling Ingredients and Southwest Airlines SAF Supply Agreement via Diamond Green Diesel at Chicago Midway",
+    "source": "Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/news/darling-ingredients-inc-announces-agreement-152500611.html",
+    "category": "Renewable Fuels",
+    "summary": "Darling Ingredients' Diamond Green Diesel joint venture announced a two-year SAF supply agreement with Southwest Airlines for Chicago Midway International Airport, with Southwest purchasing a minimum of 3.6 million gallons of neat SAF.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
+  },
+  {
+    "date": "2024-09-26",
+    "headline": "Diamond Green Diesel to Supply Sustainable Aviation Fuel to Florida via World Fuel and DHL Express",
+    "source": "PR Newswire",
+    "source_url": "https://www.prnewswire.com/news-releases/darling-ingredients-inc-announces-agreement-to-bring-first-regular-supply-of-sustainable-aviation-fuel-to-florida-through-diamond-green-diesel-joint-venture-302259311.html",
+    "category": "Renewable Fuels",
+    "summary": "Darling Ingredients announced DGD will supply approximately 60 million gallons of blended SAF (18 million gallons neat SAF) to Florida over two years, produced from used cooking oil and food waste with at least 80% lower lifecycle GHG emissions.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
   },
   {
     "date": "2024-09-15",

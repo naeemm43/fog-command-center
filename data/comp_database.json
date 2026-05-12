@@ -48,6 +48,30 @@
     "zoom_hint": null
   },
   {
+    "date": "2026-04-29",
+    "target": "Frontier Waste Solutions (completed) and Secure Waste Infrastructure (proposed)",
+    "acquirer": "GFL Environmental",
+    "sponsor": "",
+    "location": "Texas and Western Canada",
+    "deal_type": "Add-On",
+    "deal_size": "Undisclosed",
+    "multiple": "N/A",
+    "services": "",
+    "source": "Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/gfl-environmental-q1-earnings-call-210658304.html",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "Unknown",
+    "deal_summary": [
+      "GFL completed eight acquisitions year-to-date generating $425-450 million in annualized revenue; Secure Waste proposed acquisition expected in latter half of 2026"
+    ],
+    "date_confidence": "verified",
+    "notes": "GFL Environmental achieved the highest adjusted EBITDA margin in company history at 29.1%, with pricing growing 7.0% and organic growth of 4.6% in Q1 2026. The company completed eight acquisitions including Frontier Waste Solutions in Texas and announced a proposed acquisition of Secure Waste Infrastructure for Western Canada, with management maintaining target leverage of 3.0-3.5x.",
+    "latitude": 31.0,
+    "longitude": -100.0,
+    "zoom_hint": "wide"
+  },
+  {
     "date": "2026-04-15",
     "target": "United Liquid Waste Recycling",
     "acquirer": "LJP Waste Solutions",
@@ -449,6 +473,54 @@
     "zoom_hint": null
   },
   {
+    "date": "2026-02-13",
+    "target": "Commercial Pumping Services",
+    "acquirer": "Liquid Environmental Solutions",
+    "sponsor": "Goldman Sachs Alternatives",
+    "location": "St. Charles County, Missouri",
+    "deal_type": "Add-On",
+    "deal_size": "Undisclosed",
+    "multiple": "N/A",
+    "services": "",
+    "source": "Liquid Environmental Solutions",
+    "source_url": "https://www.liquidenviro.com/blog-news/liquid-environmental-solutions-acquires-commercial-pumping-services",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "Private Equity",
+    "deal_summary": [
+      "Acquisition of grease trap and used cooking oil collection services provider"
+    ],
+    "date_confidence": "verified",
+    "notes": "Liquid Environmental Solutions has acquired Commercial Pumping Services, a leading provider of grease trap and used cooking oil collection services. Based in St. Charles County, MO and founded in 2000, Commercial Pumping Services will be added to LES' extensive network of non-hazardous wastewater collection facilities.",
+    "latitude": 38.456,
+    "longitude": -92.288,
+    "zoom_hint": "wide"
+  },
+  {
+    "date": "2025-12-20",
+    "target": "Liquid Environmental Solutions",
+    "acquirer": "Goldman Sachs Alternatives (Infrastructure Fund)",
+    "sponsor": "Audax Private Equity (seller)",
+    "location": "Irving, Texas",
+    "deal_type": "Add-On",
+    "deal_size": "Undisclosed",
+    "multiple": "N/A",
+    "services": "",
+    "source": "Multiple (ESG Today, Baird, Simpson Thacher, Audax)",
+    "source_url": "https://www.esgtoday.com/goldman-sachs-acquires-liquid-waste-solutions-provider-les/",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "Private Equity to Infrastructure Investor",
+    "deal_summary": [
+      "Sale of liquid waste management platform from private equity sponsor to infrastructure investor"
+    ],
+    "date_confidence": "approximate",
+    "notes": "Goldman Sachs Alternatives announced an agreement by its infrastructure team to acquire non-hazardous liquid waste management services provider Liquid Environmental Solutions (LES), from Boston-based investor Audax Private Equity. Audax had acquired the company in Q4 2017 and executed a Buy & Build strategy, nearly doubling the company's footprint to over 90 locations across 50 states; LES executed 13 acquisitions that helped drive geographic growth and entry into adjacent services.",
+    "latitude": 32.814,
+    "longitude": -96.949,
+    "zoom_hint": "narrow"
+  },
+  {
     "date": "2025-12-15",
     "target": "Frontier Waste Solutions",
     "acquirer": "GFL Environmental",
@@ -518,6 +590,30 @@
     "latitude": 38.627,
     "longitude": -90.199,
     "zoom_hint": "narrow"
+  },
+  {
+    "date": "2025-11-14",
+    "target": "Valley Proteins; FASA",
+    "acquirer": "Darling Ingredients",
+    "sponsor": "",
+    "location": "United States",
+    "deal_type": "Add-On",
+    "deal_size": "Undisclosed",
+    "multiple": "N/A",
+    "services": "",
+    "source": "S&P Global Commodity Insights",
+    "source_url": "https://www.spglobal.com/commodity-insights/en/news-research/latest-news/agriculture/051122-darling-ingredients-diversifies-dgd-renewable-fuel-feedstock-supply-with-acquisitions",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "Unknown",
+    "deal_summary": [
+      "Two acquisitions to augment low-carbon feedstock supply for Diamond Green Diesel renewable fuel production."
+    ],
+    "date_confidence": "verified",
+    "notes": "Darling Ingredients announced major acquisitions of Valley Proteins and FASA to support renewable fuels growth, with Valley Proteins producing enough fat for approximately 125 million gallons per year of renewable diesel.",
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
   },
   {
     "date": "2025-10-27",
