@@ -518,16 +518,150 @@ def is_duplicate_news(item: dict, existing: list[dict]) -> bool:
     return False
 
 
+_COMPANY_SUFFIXES = {
+    "inc", "incorporated",
+    "llc", "lc",
+    "corp", "corporation",
+    "ltd", "limited",
+    "co", "company",
+    "lp", "llp",
+    "plc",
+    "ag", "gmbh", "sa",
+    "the",
+}
+
+# Generic FOG-industry terms that appear in many company names without
+# distinguishing them. Stripped during normalization so the overlap
+# heuristic doesn't false-positive on "X Septic" + "Y Septic" — saw it
+# merge Mahopac Septic + R Crews Family Septic on a single shared
+# "septic" token (50% of the shorter set, tripping the loose threshold).
+_INDUSTRY_GENERICS = {
+    "septic",
+    "service", "services",
+    "environmental",
+    "waste",
+    "industrial",
+    "solutions",
+    "group", "groups",
+    "holdings",
+    "partners",
+    "international",
+    "enterprises", "enterprise",
+}
+
+
+def _normalize_company(s: str | None) -> str:
+    """Lowercase, strip punctuation, drop entity-form suffixes + generic
+    FOG industry words, collapse whitespace. Used by the fuzzy deal-dedupe
+    so 'Acme Inc.', 'Acme, LLC', and 'Acme Corp' all reduce to 'acme',
+    and so 'Acme Septic Services' and 'Bcme Septic Services' don't get
+    treated as 50%-similar just because they both end in 'septic'."""
+    if not s:
+        return ""
+    s = s.lower()
+    s = re.sub(r"[^a-z0-9\s]", " ", s)
+    drop = _COMPANY_SUFFIXES | _INDUSTRY_GENERICS
+    tokens = [t for t in s.split() if t and t not in drop]
+    return " ".join(tokens)
+
+
+def _strings_match(a: str, b: str, threshold: float = 0.7) -> bool:
+    """True if normalized strings overlap strongly. Used for both target
+    and acquirer fields. Two checks: substring containment OR word-set
+    overlap above the threshold."""
+    if not a or not b:
+        return False
+    if a == b:
+        return True
+    if a in b or b in a:
+        return True
+    wa, wb = set(a.split()), set(b.split())
+    if not wa or not wb:
+        return False
+    overlap = len(wa & wb) / min(len(wa), len(wb))
+    return overlap >= threshold
+
+
+def _dates_within(date_a: str | None, date_b: str | None, max_days: int) -> bool:
+    """Both dates parse + delta is within max_days. Returns False if either
+    is unparseable, so we never cluster on a phantom 1970-01-01 default."""
+    if not date_a or not date_b:
+        return False
+    try:
+        da = datetime.fromisoformat(date_a).date()
+        db = datetime.fromisoformat(date_b).date()
+    except (ValueError, TypeError):
+        return False
+    return abs((da - db).days) <= max_days
+
+
+def _locations_within(a: dict, b: dict, max_miles: float) -> bool:
+    """Both records have lat/lng and the great-circle distance is within
+    max_miles. Used as a third-axis dup check when target strings diverge."""
+    try:
+        ax, ay = a.get("latitude"), a.get("longitude")
+        bx, by = b.get("latitude"), b.get("longitude")
+        if ax is None or ay is None or bx is None or by is None:
+            return False
+        return haversine_miles((float(ax), float(ay)), (float(bx), float(by))) <= max_miles
+    except (TypeError, ValueError):
+        return False
+
+
 def is_duplicate_deal(item: dict, existing: list[dict]) -> bool:
-    target = (item.get("target") or "").strip().lower()
-    acq = (item.get("acquirer") or "").strip().lower()
+    """Fuzzy match against an existing deal list. Two deals are considered
+    duplicates if:
+
+      (a) Acquirers match (substring or >=70% word overlap on normalized
+          company strings), AND ONE OF:
+            - Targets match strictly (>=80% overlap or substring) →
+              cluster regardless of date. Catches rolling-announcement
+              duplicates of the same deal across weeks/months.
+            - Targets match loosely (>=50% overlap) AND dates within
+              60 days. Catches small naming-variant differences.
+            - Locations within 50 miles AND dates within 60 days.
+              Catches cases where the target string is rewritten
+              entirely but the deal is obviously the same.
+
+    Items with missing target or acquirer are treated as duplicates so
+    coerce_deal_from_news doesn't push half-formed records through."""
+    target = (item.get("target") or "").strip()
+    acq = (item.get("acquirer") or "").strip()
     if not target or not acq:
-        return True  # incomplete — skip
+        return True
+
+    nt, na = _normalize_company(target), _normalize_company(acq)
+    if not nt or not na:
+        return True
+
+    item_date = item.get("date")
     for e in existing:
-        et = (e.get("target") or "").strip().lower()
-        ea = (e.get("acquirer") or "").strip().lower()
-        if et == target and ea == acq:
+        et = _normalize_company(e.get("target"))
+        ea = _normalize_company(e.get("acquirer"))
+        if not et or not ea:
+            continue
+
+        if not _strings_match(na, ea, threshold=0.7):
+            continue
+
+        if _strings_match(nt, et, threshold=0.8):
             return True
+
+        if (_strings_match(nt, et, threshold=0.5)
+                and _dates_within(item_date, e.get("date"), 60)):
+            return True
+
+        # Location proximity is a third axis but ONLY in combination with
+        # at least weak target similarity. Without that floor, two
+        # unrelated tuck-in acquisitions by the same acquirer in the same
+        # state get false-positive-merged (saw it happen on first pass
+        # with East Coast Resources vs Greenway Environmental, both
+        # bought by Wind River within 60 days).
+        if (_strings_match(nt, et, threshold=0.3)
+                and _locations_within(item, e, 50)
+                and _dates_within(item_date, e.get("date"), 60)):
+            return True
+
     return False
 
 
