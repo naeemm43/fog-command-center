@@ -293,31 +293,7 @@
     "zoom_hint": "wide"
   },
   {
-    "date": "2025-12-20",
-    "target": "Liquid Environmental Solutions",
-    "acquirer": "Goldman Sachs Alternatives (Infrastructure Fund)",
-    "sponsor": "Audax Private Equity (seller)",
-    "location": "Irving, Texas",
-    "deal_type": "Add-On",
-    "deal_size": "Undisclosed",
-    "multiple": "N/A",
-    "services": "",
-    "source": "Multiple (ESG Today, Baird, Simpson Thacher, Audax)",
-    "source_url": "https://www.esgtoday.com/goldman-sachs-acquires-liquid-waste-solutions-provider-les/",
-    "is_target_market": false,
-    "target_market_name": null,
-    "owner_classification": "Private Equity to Infrastructure Investor",
-    "deal_summary": [
-      "Sale of liquid waste management platform from private equity sponsor to infrastructure investor"
-    ],
-    "date_confidence": "approximate",
-    "notes": "Goldman Sachs Alternatives announced an agreement by its infrastructure team to acquire non-hazardous liquid waste management services provider Liquid Environmental Solutions (LES), from Boston-based investor Audax Private Equity. Audax had acquired the company in Q4 2017 and executed a Buy & Build strategy, nearly doubling the company's footprint to over 90 locations across 50 states; LES executed 13 acquisitions that helped drive geographic growth and entry into adjacent services.",
-    "latitude": 32.814,
-    "longitude": -96.949,
-    "zoom_hint": "narrow"
-  },
-  {
-    "date": "2025-12-01",
+    "date": "2025-11-21",
     "target": "Grease Masters",
     "acquirer": "Liquid Environmental Solutions (LES)",
     "sponsor": "Goldman Sachs Alternatives",
@@ -335,7 +311,7 @@
       "Multi-service add-on broadening LES service mix beyond core grease trap into kitchen exhaust + drain cleaning.",
       "First post-Goldman-close LES add-on, signaling Goldman is keeping the Audax-era M&A cadence."
     ],
-    "notes": "Multi-service add-on, broadens LES service mix.",
+    "notes": "Verified via LES press release dated November 21, 2025. Multi-service add-on, broadens LES service mix.",
     "date_confidence": "verified",
     "_old_source_url": "https://wastetodaymagazine.com",
     "source_confidence": "placeholder",
@@ -440,6 +416,31 @@
     "notes": "",
     "latitude": 39.828,
     "longitude": -98.58,
+    "zoom_hint": "narrow"
+  },
+  {
+    "date": "2025-07-22",
+    "target": "Liquid Environmental Solutions",
+    "acquirer": "Goldman Sachs Alternatives (Infrastructure Fund)",
+    "sponsor": "Audax Private Equity (seller)",
+    "location": "Irving, Texas",
+    "deal_type": "Add-On",
+    "deal_size": "Undisclosed",
+    "multiple": "N/A",
+    "services": "",
+    "source": "Multiple (ESG Today, Baird, Simpson Thacher, Audax)",
+    "source_url": "https://www.esgtoday.com/goldman-sachs-acquires-liquid-waste-solutions-provider-les/",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "Private Equity to Infrastructure Investor",
+    "deal_summary": [
+      "Announced July 22, 2025; transaction closed September 2, 2025.",
+      "Sale of liquid waste management platform from private equity sponsor to infrastructure investor"
+    ],
+    "date_confidence": "verified",
+    "notes": "Goldman Sachs Alternatives announced an agreement by its infrastructure team to acquire non-hazardous liquid waste management services provider Liquid Environmental Solutions (LES), from Boston-based investor Audax Private Equity. Audax had acquired the company in Q4 2017 and executed a Buy & Build strategy, nearly doubling the company's footprint to over 90 locations across 50 states; LES executed 13 acquisitions that helped drive geographic growth and entry into adjacent services.",
+    "latitude": 32.814,
+    "longitude": -96.949,
     "zoom_hint": "narrow"
   },
   {
@@ -1109,6 +1110,31 @@
     "latitude": 37.638,
     "longitude": -76.574,
     "zoom_hint": "narrow"
+  },
+  {
+    "date": "2022-11-17",
+    "target": "UCO collection & aggregation business of Crimson Renewable Energy (SeQuential & Pure brands)",
+    "acquirer": "Neste",
+    "sponsor": "",
+    "location": "US West Coast (CA, OR, WA)",
+    "deal_type": "Platform",
+    "deal_size": "Undisclosed",
+    "multiple": "N/A",
+    "services": "Used cooking oil collection and aggregation; includes Salem, OR UCO processing plant",
+    "source": "Neste press release",
+    "source_url": "https://www.neste.com/releases-and-news/circular-economy/neste-acquire-used-cooking-oil-collection-and-aggregation-business-crimson-renewable-energy-united",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "Public",
+    "deal_summary": [
+      "Announced November 17, 2022; transaction closed January 13, 2023.",
+      "Strengthens Neste's renewable raw materials sourcing platform \u2014 adds CA/OR/WA UCO collection footprint and the Salem, OR processing plant. Companion to prior Neste US acquisitions of Mahoney Environmental (2020) and Agri Trading."
+    ],
+    "date_confidence": "verified",
+    "notes": "Announcement date confirmed via Neste Corporation press release dated 17 November 2022; closing date confirmed via follow-up press release dated 13 January 2023. Acquisition includes shares in SeQuential Environmental Services LLC and Pure LLC.",
+    "latitude": 44.94,
+    "longitude": -123.04,
+    "zoom_hint": "wide"
   },
   {
     "date": "2022-10-31",

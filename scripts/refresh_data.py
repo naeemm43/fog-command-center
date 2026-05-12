@@ -701,6 +701,8 @@ SEARCH_QUERIES: dict[str, list[str]] = {
         '"Southwaste" OR "SouthWaste Disposal" acquisition OR expansion',
         '"Silver City Processing" acquisition OR expansion',
         '"McDonald Farms" acquisition OR expansion',
+        '"Neste" acquisition OR "has acquired" OR partnership UCO',
+        '"SeQuential" OR "Crimson Renewable" acquisition OR expansion',
         '"used cooking oil" acquired OR acquisition OR merger',
         '"grease recycling" acquired OR acquisition',
         '"environmental services" "add-on" OR "platform" acquisition',
@@ -719,6 +721,7 @@ SEARCH_QUERIES: dict[str, list[str]] = {
     "Renewable Fuels": [
         'renewable diesel UCO "used cooking oil" feedstock',
         'sustainable aviation fuel SAF "cooking oil"',
+        '"Neste" OR "SeQuential" UCO collection OR feedstock',
         '"Diamond Green Diesel" OR "Darling Ingredients" renewable',
         'renewable fuel standard RFS update',
         'LCFS "low carbon fuel" cooking oil grease',
