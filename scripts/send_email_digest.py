@@ -65,6 +65,7 @@ def fmt_date(s: str | None) -> str:
 def render_deals_table(deals: list[dict]) -> str:
     if not deals:
         return ""
+    deals = sorted(deals, key=lambda x: x.get("date") or "1900-01-01", reverse=True)
     rows = []
     for d in deals:
         rows.append(
@@ -92,6 +93,9 @@ def render_deals_table(deals: list[dict]) -> str:
 def render_news_list(news: list[dict]) -> str:
     if not news:
         return ""
+    # Defensive resort by date desc — refresh_data.py already sorts but
+    # we don't want the email to be at the mercy of upstream changes.
+    news = sorted(news, key=lambda x: x.get("date") or "1900-01-01", reverse=True)
     cards = []
     for n in news:
         cat = n.get("category") or "Industry Events"
@@ -129,7 +133,7 @@ def render_news_list(news: list[dict]) -> str:
         )
     return (
         f"<h3 style='color:{BRAND_NAVY};margin:24px 0 8px 0;font-size:16px;border-bottom:2px solid {BRAND_NAVY};padding-bottom:4px;'>"
-        f"TODAY'S NEWS ({len(news)})</h3>" + "".join(cards)
+        f"NEW TODAY ({len(news)})</h3>" + "".join(cards)
     )
 
 
@@ -155,6 +159,32 @@ def render_tier2_alerts(news: list[dict], deals: list[dict]) -> str:
         f"<h3 style='margin:0 0 8px 0;color:#8a6a00;font-size:14px;'>⚠️ TIER 2 MARKET ALERTS ({len(lines)})</h3>"
         f"<ul style='margin:0;padding-left:20px;font-size:13px;color:#444;'>{''.join(lines)}</ul></div>"
     )
+
+
+def build_empty_html() -> str:
+    """Short body sent on days when refresh_data.py found zero new items.
+    Better than silence — confirms the pipeline ran and there just wasn't
+    anything to report."""
+    today = datetime.now(timezone.utc).strftime("%B %d, %Y")
+    return f"""<!DOCTYPE html>
+<html><head><meta charset="utf-8"></head>
+<body style="margin:0;padding:0;background:#f0f2f5;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#222;">
+<div style="max-width:720px;margin:0 auto;background:#fff;">
+  <div style="background:{BRAND_NAVY};color:#fff;padding:24px 28px;">
+    <div style="font-size:13px;letter-spacing:1px;color:#8FAADC;text-transform:uppercase;margin-bottom:4px;">FOG Industry Command Center</div>
+    <div style="font-size:22px;font-weight:600;">Daily Briefing — {esc(today)}</div>
+  </div>
+  <div style="padding:28px;text-align:center;">
+    <p style="font-size:15px;color:#444;margin:0 0 16px 0;">No new FOG industry news or deals found in the last 24 hours.</p>
+    <p style="font-size:13px;color:#888;margin:0;">The refresh pipeline ran successfully; no headlines met the recency cutoff.</p>
+  </div>
+  <div style="background:#f5f7fa;padding:18px 28px;border-top:1px solid #e0e4ea;font-size:12px;color:#666;text-align:center;">
+    <a href="{SITE_URL}" style="color:{BRAND_NAVY};text-decoration:none;font-weight:600;">View Command Center →</a>
+    <div style="margin-top:8px;color:#888;font-size:11px;">This briefing is auto-generated. Reply with questions.</div>
+  </div>
+</div>
+</body></html>
+"""
 
 
 def build_html(summary: dict) -> str:
@@ -200,9 +230,6 @@ def main() -> int:
         summary = json.load(f)
 
     added = (summary.get("added_news_count", 0) or 0) + (summary.get("added_deals_count", 0) or 0)
-    if added == 0:
-        print("No new items added this run — skipping email.")
-        return 0
 
     gmail_addr = os.environ.get("GMAIL_ADDRESS")
     gmail_pw = os.environ.get("GMAIL_APP_PASSWORD")
@@ -221,15 +248,22 @@ def main() -> int:
     msg["Subject"] = f"FOG Industry Daily Briefing — {today}"
     msg["From"] = gmail_addr
     msg["To"] = recipient
-    msg.set_content(
-        "This email's HTML version contains the daily FOG industry briefing. "
-        "Open in an HTML-capable client to view, or visit "
-        f"{SITE_URL}"
-    )
-    msg.add_alternative(build_html(summary), subtype="html")
 
-    print(f"Sending digest: {summary['added_news_count']} news, "
-          f"{summary['added_deals_count']} deals → {recipient}")
+    if added == 0:
+        msg.set_content(
+            "No new FOG industry news or deals found in the last 24 hours. "
+            f"Visit the command center: {SITE_URL}"
+        )
+        msg.add_alternative(build_empty_html(), subtype="html")
+        print(f"Sending empty-day digest → {recipient}")
+    else:
+        msg.set_content(
+            "This email's HTML version contains the daily FOG industry briefing. "
+            f"Open in an HTML-capable client to view, or visit {SITE_URL}"
+        )
+        msg.add_alternative(build_html(summary), subtype="html")
+        print(f"Sending digest: {summary['added_news_count']} news, "
+              f"{summary['added_deals_count']} deals → {recipient}")
     ctx = ssl.create_default_context()
     with smtplib.SMTP("smtp.gmail.com", 587) as s:
         s.starttls(context=ctx)

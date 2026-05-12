@@ -38,6 +38,15 @@ HTML_PATH = os.path.join(ROOT, "docs", "index.html")
 
 ARCHIVE_AFTER_DAYS = 180
 
+# Hard cap on how old an inbound article can be before we drop it. The
+# search prompt asks the model for last-7-day items only, but the model
+# regularly surfaces landmark headlines from months/years ago that rank
+# high in web search results. Anything older than this is silently
+# rejected by coerce_news_item / coerce_deal_from_news so the daily
+# digest stays a true "what happened in the last week" view rather than
+# an evergreen-headlines tracker.
+MAX_AGE_DAYS = 14
+
 TARGET_MARKETS: dict[str, tuple[float, float]] = {
     "Indianapolis, IN": (39.768, -86.158),
     "Columbus, OH": (39.961, -82.999),
@@ -469,6 +478,20 @@ def valid_iso_date(s: str) -> bool:
         return False
 
 
+def is_too_old(s: str, max_age_days: int = MAX_AGE_DAYS) -> bool:
+    """True if the ISO date string is more than `max_age_days` before
+    today (UTC). Used to drop landmark / evergreen articles that the
+    model surfaces even when asked for last-week-only items."""
+    if not s or not valid_iso_date(s):
+        return False
+    try:
+        dt = datetime.fromisoformat(s).date()
+    except ValueError:
+        return False
+    age = (datetime.now(timezone.utc).date() - dt).days
+    return age > max_age_days
+
+
 def is_future_date(s: str) -> bool:
     """True if the ISO date string is later than today (UTC).
     Used to flag the model occasionally extracting tomorrow's date or
@@ -807,7 +830,12 @@ def search_for_updates(queries: list[str] | None = None,
     client = anthropic.Anthropic()
     today = datetime.now().strftime("%Y-%m-%d")
     year = datetime.now().year
-    note = window_note or "Focus on items from the last 30 days."
+    note = window_note or (
+        f"Focus on items published in the LAST 7 DAYS. IGNORE any article "
+        f"older than 14 days — we run this digest daily and don't want "
+        f"landmark headlines from months ago re-surfaced. Today is {datetime.now().strftime('%Y-%m-%d')}; "
+        f"only return articles dated within 14 days of today."
+    )
     model = "claude-haiku-4-5-20251001"
 
     # Catchup path — single big call as before.
@@ -866,6 +894,9 @@ def coerce_news_item(raw: dict) -> dict | None:
         return None
     if not valid_iso_date(raw["date"]):
         sys.stderr.write(f"reject (bad date): {raw.get('headline','')[:80]} — date={raw['date']!r}\n")
+        return None
+    if is_too_old(raw["date"]):
+        sys.stderr.write(f"reject (too old, >{MAX_AGE_DAYS}d): {raw.get('headline','')[:80]} — date={raw['date']}\n")
         return None
     headline = raw["headline"]
     item_date = raw["date"]
@@ -937,6 +968,9 @@ def coerce_deal_from_news(raw: dict) -> dict | None:
         return None
     if not valid_iso_date(raw.get("date", "")):
         sys.stderr.write(f"reject deal (bad date): {raw.get('target','')[:60]} — date={raw.get('date')!r}\n")
+        return None
+    if is_too_old(raw["date"]):
+        sys.stderr.write(f"reject deal (too old, >{MAX_AGE_DAYS}d): {raw.get('target','')[:60]} — date={raw['date']}\n")
         return None
     src_url = (raw.get("source_url") or "").strip()
     if src_url and looks_like_homepage(src_url):
@@ -1099,6 +1133,12 @@ def main() -> int:
         "compCount": len(comps),
     }
     update_html(news, comps, metadata)
+
+    # Sort new items newest-first so the daily email reads in
+    # chronological order. The API returns items grouped by category, not
+    # by date, so without this the digest jumps around the calendar.
+    new_news_items.sort(key=lambda x: x.get("date") or "1900-01-01", reverse=True)
+    new_deal_items.sort(key=lambda x: x.get("date") or "1900-01-01", reverse=True)
 
     # Write a per-run summary that scripts/send_email_digest.py consumes
     # to build the daily briefing email. Keeping the full new-item list
