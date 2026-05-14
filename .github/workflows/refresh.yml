@@ -6,7 +6,6 @@ on:
     # is UTC-6 → 13:00 UTC. Run both so we always hit ~7 AM local; the
     # script is idempotent if nothing changed.
     - cron: '0 12 * * *'
-    - cron: '0 13 * * *'
   workflow_dispatch:
 
 permissions:
