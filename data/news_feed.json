@@ -272,6 +272,26 @@
     ]
   },
   {
+    "date": "2026-05-13",
+    "headline": "WEF Purchases First U.S. Watershed-Based Carbon Offset Credits; Names Madison Metropolitan Sewerage District Official Carbon Offset Partner of WEFTEC 2026",
+    "source": "Water Environment Federation",
+    "source_url": "https://www.wef.org/about/Governance/about/",
+    "category": "Industry Events",
+    "categories": [
+      "Industry Events",
+      "ESG"
+    ],
+    "summary": "WEF announces purchase of watershed-based carbon offset credits and designates Madison Metropolitan Sewerage District as official carbon partner for WEFTEC 2026 conference scheduled for September in New Orleans.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-18"
+  },
+  {
     "date": "2026-05-12",
     "headline": "IoT-Based Industrial Equipment Monitoring System",
     "source": "International Journal of Latest Technology in Engineering, Management & Applied Science",
@@ -409,6 +429,27 @@
     ]
   },
   {
+    "date": "2026-05-12",
+    "headline": "Renewable Fuel from Food Waste: Darling Ingredients",
+    "source": "Fintech.TV",
+    "source_url": "https://fintech.tv/how-darling-ingredients-turns-food-waste-into-renewable-fuel-and-profits/",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels",
+      "Public Co.",
+      "ESG"
+    ],
+    "summary": "Interview segment featuring Darling Ingredients' executive VP and CFO Bob Day discussing how the company converts food waste and animal byproducts into renewable fuel, collagen, and other value-added products. Darling Ingredients positions itself as a leader in circular economy and waste valorization.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-18"
+  },
+  {
     "date": "2026-05-11",
     "headline": "Electric Garbage Trucks Are The Heavy-Duty EV Story Hiding In Plain Sight",
     "source": "CleanTechnica",
@@ -544,6 +585,26 @@
       "Renewable Fuels",
       "Public Co."
     ]
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Darling Ingredients Highlights Growth in Renewable Fuels and Collagen",
+    "source": "TipRanks / Globe and Mail",
+    "source_url": "https://www.tipranks.com/news/company-announcements/darling-ingredients-highlights-growth-in-renewable-fuels-and-collagen",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels",
+      "Public Co."
+    ],
+    "summary": "At its May 11, 2026 Investor Day, Darling Ingredients highlighted Diamond Green Diesel's 1.2 billion gallons of renewable diesel capacity and early SAF adoption, supported by favorable U.S. renewable fuel mandates. The company emphasized rendering, collagen, and renewable fuels as core growth drivers.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-18"
   },
   {
     "date": "2026-05-10",
@@ -3124,190 +3185,6 @@
     "categories": [
       "M&A",
       "Renewable Fuels"
-    ]
-  },
-  {
-    "date": "2024-11-15",
-    "headline": "Wind River Environmental Acquires Greenway Environmental",
-    "source": "Wind River Blog",
-    "source_url": "",
-    "category": "M&A",
-    "summary": "Initial NC platform entry. Multi-service operator that became Wind River's NC anchor.",
-    "relevance_score": 5,
-    "is_deal": true,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": 35.63,
-    "longitude": -79.806,
-    "zoom_hint": "wide",
-    "first_seen_date": "2026-05-18",
-    "_synthesized_from_deal": true,
-    "categories": [
-      "M&A"
-    ]
-  },
-  {
-    "date": "2024-10-08",
-    "headline": "Wind River Environmental Acquires East Coast Resources",
-    "source": "Wind River Blog",
-    "source_url": "",
-    "category": "M&A",
-    "summary": "Second NC add-on in 2024 \u2014 paired with Greenway to create coastal-to-mountain coverage. Liquid-waste and septic; supports tourism-economy seasonal demand.",
-    "relevance_score": 5,
-    "is_deal": true,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": 35.63,
-    "longitude": -79.806,
-    "zoom_hint": "wide",
-    "first_seen_date": "2026-05-18",
-    "_synthesized_from_deal": true,
-    "categories": [
-      "M&A"
-    ]
-  },
-  {
-    "date": "2024-02-15",
-    "headline": "Georgia Oak Partners Acquires Septic Blue, Inc.",
-    "source": "Source Capital",
-    "source_url": "https://www.source-cap.com/source-capital-supports-georgia-oak-partners-investment-in-septic-blue",
-    "category": "M&A",
-    "summary": "Private equity sponsor Georgia Oak Partners acquired Septic Blue, a Southeast regional leader in septic tank services operating in Atlanta, Charlotte, and Raleigh metro areas. Source Capital provided debt financing and equity co-investment.",
-    "relevance_score": 5,
-    "is_deal": true,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": 33.749,
-    "longitude": -84.388,
-    "zoom_hint": "narrow",
-    "first_seen_date": "2026-05-18",
-    "_synthesized_from_deal": true,
-    "categories": [
-      "M&A"
-    ]
-  },
-  {
-    "date": "2023-10-17",
-    "headline": "J.F. Lehman & Company Acquires Crystal Clean (HCCI)",
-    "source": "PRNewswire",
-    "source_url": "https://www.prnewswire.com/news-releases/jf-lehman--company-completes-acquisition-of-crystal-clean-301959145.html",
-    "category": "M&A",
-    "summary": "Take-private of NASDAQ: HCCI by J.F. Lehman at ~12x EBITDA. Public-to-private transition; HCCI is now PE-backed (no longer public).",
-    "relevance_score": 5,
-    "is_deal": true,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": 42.037,
-    "longitude": -88.281,
-    "zoom_hint": "narrow",
-    "first_seen_date": "2026-05-18",
-    "_synthesized_from_deal": true,
-    "categories": [
-      "M&A",
-      "Public Co."
-    ]
-  },
-  {
-    "date": "2022-11-17",
-    "headline": "Neste Acquires UCO collection & aggregation business of Crimson Renewable Energy (SeQuential & Pure brands)",
-    "source": "Neste press release",
-    "source_url": "https://www.neste.com/releases-and-news/circular-economy/neste-acquire-used-cooking-oil-collection-and-aggregation-business-crimson-renewable-energy-united",
-    "category": "M&A",
-    "summary": "Announced November 17, 2022; transaction closed January 13, 2023. Strengthens Neste's renewable raw materials sourcing platform \u2014 adds CA/OR/WA UCO collection footprint and the Salem, OR processing plant. Companion to prior Neste US acquisitions of Mahoney Environmental (2020) and Agri Trading.",
-    "relevance_score": 5,
-    "is_deal": true,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": 44.94,
-    "longitude": -123.04,
-    "zoom_hint": "wide",
-    "first_seen_date": "2026-05-18",
-    "_synthesized_from_deal": true,
-    "categories": [
-      "M&A",
-      "Public Co.",
-      "Renewable Fuels"
-    ]
-  },
-  {
-    "date": "2022-08-03",
-    "headline": "Heritage-Crystal Clean (NASDAQ: HCCI) Acquires Patriot Environmental Services",
-    "source": "BusinessWire",
-    "source_url": "https://www.businesswire.com/news/home/20220803005761/en/Heritage-Crystal-Clean-Inc.-Completes-Acquisition-of-Patriot-Environmental",
-    "category": "M&A",
-    "summary": "Heritage-Crystal Clean (then NASDAQ: HCCI) acquired Patriot Environmental Services on August 3, 2022; ~380 Patriot employees joined HCC. Pre-dates J.F. Lehman take-private of HCC by 14 months \u2014 at deal time HCC was publicly traded.",
-    "relevance_score": 5,
-    "is_deal": true,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": 36.778,
-    "longitude": -119.418,
-    "zoom_hint": "wide",
-    "first_seen_date": "2026-05-18",
-    "_synthesized_from_deal": true,
-    "categories": [
-      "M&A",
-      "Public Co."
-    ]
-  },
-  {
-    "date": "2017-11-01",
-    "headline": "Audax Private Equity Acquires Liquid Environmental Solutions (LES)",
-    "source": "Audax Private Equity press release",
-    "source_url": "https://www.audaxprivateequity.com/news/audax-private-equity-announces-sale-of-liquid-environmental-solutions",
-    "category": "M&A",
-    "summary": "Audax platform investment. Held through Q3 2025 (8 years). 13 add-ons during hold; nearly doubled footprint before September 2025 sale to Goldman.",
-    "relevance_score": 5,
-    "is_deal": true,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": 32.814,
-    "longitude": -96.949,
-    "zoom_hint": "narrow",
-    "first_seen_date": "2026-05-18",
-    "_synthesized_from_deal": true,
-    "categories": [
-      "M&A"
-    ]
-  },
-  {
-    "date": "2017-04-04",
-    "headline": "Gryphon Investors Acquires Wind River Environmental \u2014 initial Gryphon investment",
-    "source": "Gryphon Investors press release",
-    "source_url": "https://www.gryphon-inv.com/news/private-equity-firm-gryphon-investors-announces-majority-investment-wind-river-environmental/",
-    "category": "M&A",
-    "summary": "Gryphon Investors took majority ownership of Wind River Environmental on 2017-04-04. Funded a 50+ add-on tuck-in campaign across the Northeast and Southeast through 2026.",
-    "relevance_score": 5,
-    "is_deal": true,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": 42.346,
-    "longitude": -71.552,
-    "zoom_hint": "narrow",
-    "first_seen_date": "2026-05-18",
-    "_synthesized_from_deal": true,
-    "categories": [
-      "M&A"
-    ]
-  },
-  {
-    "date": "2016-07-25",
-    "headline": "Waste Resources Management (WRM) Acquires SouthWaste Disposal",
-    "source": "Mergr",
-    "source_url": "https://mergr.com/transaction/wrm-acquires-southwaste-disposal",
-    "category": "M&A",
-    "summary": "WRM acquired SouthWaste Disposal from Quabbin Capital and Rock Hill Capital, expanding WRM service offerings into Texas and Central Florida. Foundational platform deal that established Southwaste as WRM's TX/FL grease trap arm.",
-    "relevance_score": 5,
-    "is_deal": true,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": 29.7604,
-    "longitude": -95.3698,
-    "zoom_hint": "wide",
-    "first_seen_date": "2026-05-18",
-    "_synthesized_from_deal": true,
-    "categories": [
-      "M&A"
     ]
   },
   {
