@@ -1,20 +1,39 @@
 {
-  "timestamp": "2026-05-18T16:17:24Z",
-  "added_news_count": 2,
+  "timestamp": "2026-05-18T16:31:25Z",
+  "added_news_count": 5,
   "added_deals_count": 0,
   "archived_count": 0,
   "new_today_news": [
     {
       "date": "2026-05-18",
-      "headline": "Restaurant job growth uneven across states; Full-service segment added 97,000 jobs between March 2025 and March 2026",
-      "source": "National Restaurant Association",
-      "source_url": "https://restaurant.org/research-and-media/research/restaurant-economic-insights/economic-indicators/total-restaurant-industry-jobs/",
+      "headline": "Q&A Exclusive: National Restaurant Association President Michelle Korsmo on 2026 Restaurant Show",
+      "source": "SmartBrief",
+      "source_url": "https://www.smartbrief.com/original/qa-exclusive-national-restaurant-association-president-and-ceo-michelle-korsmo-discusses-what-to-expect-at-this-years-restaurant-show",
       "category": "Restaurant",
       "categories": [
         "Restaurant"
       ],
-      "summary": "Full-service restaurant employment remains 193,000 jobs below pre-pandemic levels as of March 2026, though the segment added 97,000 net jobs in the past year. Meanwhile, limited-service employment stands above pre-pandemic readings, with snack and nonalcoholic beverage bars up 25% and quick-service restaurants up 1.6%.",
-      "relevance_score": 2,
+      "summary": "NRA CEO discusses 2026 restaurant industry outlook, highlighting operational challenges, technology adoption, and workforce development priorities that affect all segments of the food service ecosystem.",
+      "relevance_score": 1,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-05-18"
+    },
+    {
+      "date": "2026-05-18",
+      "headline": "Royal Waste Services Expands Mack LR Electric Garbage Truck Fleet in New York City",
+      "source": "Electrek",
+      "source_url": "https://electrek.co/2026/02/21/mack-lr-electric-garbage-trucks-help-the-bronx-breathe-better/",
+      "category": "Technology",
+      "categories": [
+        "Technology"
+      ],
+      "summary": "Royal Waste Services announced expansion of its Mack LR Electric refuse truck fleet in the Bronx following successful initial deployment. The fleet features advanced electric powertrains with 376 kWh batteries, two high-efficiency motors, and regenerative braking for improved efficiency on stop-and-go collection routes.",
+      "relevance_score": 3,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
@@ -26,38 +45,15 @@
   ],
   "recent_news": [
     {
-      "date": "2026-05-12",
-      "headline": "The 6 Biggest Chain Restaurant Closures Of 2026 So Far",
-      "source": "Tasting Table",
-      "source_url": "https://www.tastingtable.com/2168401/biggest-chain-restaurant-closures-2026/",
-      "category": "Restaurant",
+      "date": "2026-05-13",
+      "headline": "CDL Driver Shortage Continues to Affect Waste Services Across U.S.",
+      "source": "PLS Logistics",
+      "source_url": "https://www.plslogistics.com/blog/truck-driver-shortage-2026/",
+      "category": "Labor/Ops",
       "categories": [
-        "Restaurant"
+        "Labor/Ops"
       ],
-      "summary": "Wendy's is closing around 300 stores in 2026, with Smokey Bones completing all closures as of April 28, 2026. Bahama Breeze closed 14 locations (half its footprint) in April, and other chains including Peet's Coffee are reducing their physical locations.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-05-18"
-    }
-  ],
-  "backfill_news": [],
-  "new_deals": [],
-  "new_news": [
-    {
-      "date": "2026-05-18",
-      "headline": "Restaurant job growth uneven across states; Full-service segment added 97,000 jobs between March 2025 and March 2026",
-      "source": "National Restaurant Association",
-      "source_url": "https://restaurant.org/research-and-media/research/restaurant-economic-insights/economic-indicators/total-restaurant-industry-jobs/",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "Full-service restaurant employment remains 193,000 jobs below pre-pandemic levels as of March 2026, though the segment added 97,000 net jobs in the past year. Meanwhile, limited-service employment stands above pre-pandemic readings, with snack and nonalcoholic beverage bars up 25% and quick-service restaurants up 1.6%.",
+      "summary": "Trucking sector faces capacity tightening and rate increases driven by CDL shortage. Federal rule effective March 2026 restricts asylum seekers and refugees from obtaining CDLs, affecting foreign-born drivers who account for one in six truckers. Regional imbalances most acute in Southeast, Texas, and Mountain West.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -68,16 +64,137 @@
       "first_seen_date": "2026-05-18"
     },
     {
-      "date": "2026-05-12",
-      "headline": "The 6 Biggest Chain Restaurant Closures Of 2026 So Far",
-      "source": "Tasting Table",
-      "source_url": "https://www.tastingtable.com/2168401/biggest-chain-restaurant-closures-2026/",
+      "date": "2026-05-11",
+      "headline": "The restaurant labor market in 6 key statistics",
+      "source": "Restaurant Dive",
+      "source_url": "https://www.restaurantdive.com/news/restaurant-trends-outlook-2026/810787/",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant",
+        "Public Co."
+      ],
+      "summary": "Restaurant Dive updates labor market statistics for 2026, covering employment trends and hiring challenges in the food service industry relevant to waste management service providers.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-05-18"
+    }
+  ],
+  "backfill_news": [
+    {
+      "date": "2026-05-09",
+      "headline": "Washington DC restaurants face wave of high-profile closures amid labor costs and office culture shifts",
+      "source": "WTOP News",
+      "source_url": "https://wtop.com/food-restaurant/2026/05/restaurant-closures-struggles-downtown-dc/",
       "category": "Restaurant",
       "categories": [
         "Restaurant"
       ],
-      "summary": "Wendy's is closing around 300 stores in 2026, with Smokey Bones completing all closures as of April 28, 2026. Bahama Breeze closed 14 locations (half its footprint) in April, and other chains including Peet's Coffee are reducing their physical locations.",
+      "summary": "D.C. downtown restaurant closures continue despite positive opening-to-closing ratio. Labor costs and Initiative 82's tipped minimum wage increase to $17.50 cited as key challenges for operators.",
+      "relevance_score": 1,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-05-18"
+    }
+  ],
+  "new_deals": [],
+  "new_news": [
+    {
+      "date": "2026-05-18",
+      "headline": "Q&A Exclusive: National Restaurant Association President Michelle Korsmo on 2026 Restaurant Show",
+      "source": "SmartBrief",
+      "source_url": "https://www.smartbrief.com/original/qa-exclusive-national-restaurant-association-president-and-ceo-michelle-korsmo-discusses-what-to-expect-at-this-years-restaurant-show",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "NRA CEO discusses 2026 restaurant industry outlook, highlighting operational challenges, technology adoption, and workforce development priorities that affect all segments of the food service ecosystem.",
+      "relevance_score": 1,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-05-18"
+    },
+    {
+      "date": "2026-05-18",
+      "headline": "Royal Waste Services Expands Mack LR Electric Garbage Truck Fleet in New York City",
+      "source": "Electrek",
+      "source_url": "https://electrek.co/2026/02/21/mack-lr-electric-garbage-trucks-help-the-bronx-breathe-better/",
+      "category": "Technology",
+      "categories": [
+        "Technology"
+      ],
+      "summary": "Royal Waste Services announced expansion of its Mack LR Electric refuse truck fleet in the Bronx following successful initial deployment. The fleet features advanced electric powertrains with 376 kWh batteries, two high-efficiency motors, and regenerative braking for improved efficiency on stop-and-go collection routes.",
+      "relevance_score": 3,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-05-18"
+    },
+    {
+      "date": "2026-05-13",
+      "headline": "CDL Driver Shortage Continues to Affect Waste Services Across U.S.",
+      "source": "PLS Logistics",
+      "source_url": "https://www.plslogistics.com/blog/truck-driver-shortage-2026/",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops"
+      ],
+      "summary": "Trucking sector faces capacity tightening and rate increases driven by CDL shortage. Federal rule effective March 2026 restricts asylum seekers and refugees from obtaining CDLs, affecting foreign-born drivers who account for one in six truckers. Regional imbalances most acute in Southeast, Texas, and Mountain West.",
       "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-05-18"
+    },
+    {
+      "date": "2026-05-11",
+      "headline": "The restaurant labor market in 6 key statistics",
+      "source": "Restaurant Dive",
+      "source_url": "https://www.restaurantdive.com/news/restaurant-trends-outlook-2026/810787/",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant",
+        "Public Co."
+      ],
+      "summary": "Restaurant Dive updates labor market statistics for 2026, covering employment trends and hiring challenges in the food service industry relevant to waste management service providers.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-05-18"
+    },
+    {
+      "date": "2026-05-09",
+      "headline": "Washington DC restaurants face wave of high-profile closures amid labor costs and office culture shifts",
+      "source": "WTOP News",
+      "source_url": "https://wtop.com/food-restaurant/2026/05/restaurant-closures-struggles-downtown-dc/",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "D.C. downtown restaurant closures continue despite positive opening-to-closing ratio. Labor costs and Initiative 82's tipped minimum wage increase to $17.50 cited as key challenges for operators.",
+      "relevance_score": 1,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
