@@ -280,8 +280,21 @@ def render_news_list(news: list[dict], heading: str = "NEW TODAY",
     news = sorted(news, key=lambda x: x.get("date") or "1900-01-01", reverse=True)
     cards = []
     for n in news:
-        cat = n.get("category") or "Industry Events"
+        # Multi-category support: prefer the new categories array, fall
+        # back to the legacy single category for items written before
+        # the multi-tag rollout.
+        cats = n.get("categories") or ([n.get("category")] if n.get("category") else [])
+        cats = [c for c in cats if c]
+        if not cats:
+            cats = ["Industry Events"]
+        cat = cats[0]
         bg = CAT_COLORS.get(cat, "#888")
+        badges_html = "".join(
+            f"<span style='background:{CAT_COLORS.get(c, '#888')};color:#fff;"
+            f"padding:2px 6px;border-radius:3px;font-weight:600;"
+            f"margin-right:4px;'>{esc(c)}</span>"
+            for c in cats
+        )
         source_link = ""
         if n.get("source_url"):
             source_link = (
@@ -307,7 +320,7 @@ def render_news_list(news: list[dict], heading: str = "NEW TODAY",
         cards.append(
             f"<div style='border-left:3px solid {bg};background:#fafafa;padding:12px 14px;margin-bottom:10px;border-radius:0 4px 4px 0;'>"
             f"<div style='font-size:11px;color:#888;margin-bottom:4px;'>"
-            f"<span style='background:{bg};color:#fff;padding:2px 6px;border-radius:3px;font-weight:600;'>{esc(cat)}</span>"
+            f"{badges_html}"
             f"&nbsp;&nbsp;{esc(fmt_date(n.get('date')))}{rel_badge}</div>"
             f"<div style='font-size:14px;font-weight:600;line-height:1.35;margin-bottom:6px;color:#222;'>{esc(n.get('headline'))}</div>"
             f"<div style='font-size:13px;color:#444;line-height:1.5;margin-bottom:6px;'>{esc(n.get('summary'))}</div>"

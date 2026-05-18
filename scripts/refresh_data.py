@@ -1162,6 +1162,185 @@ def normalize_category(raw_cat: str | None) -> str:
     return "Industry Events"
 
 
+# ============================================================================
+# Multi-category classifier. The model assigns a single primary category to
+# each news item, but most stories actually belong in 2-3 buckets — e.g.
+# "WRM acquires Darling's trap grease business" is M&A + Public Co. + Renewable
+# Fuels. Keyword rules below scan the headline + summary text and emit the
+# set of categories that apply; the primary `category` field is kept for
+# backward compatibility, and the array `categories` carries the full set
+# with the primary listed first.
+# ============================================================================
+
+# Each entry: (canonical category name, compiled-regex pattern). Patterns
+# are intentionally inclusive — false-positive cost is low (an article
+# surfaces under an extra filter); false-negative cost is the original bug
+# (article missing from a filter where it belongs).
+_CATEGORY_PATTERNS: list[tuple[str, re.Pattern[str]]] = [
+    # M&A — deliberate verb forms; avoid generic words like "deal".
+    ("M&A", re.compile(
+        r"\bacqui[srz](?:e|es|ed|ing|ition)?\b|"
+        r"\bmerger?(?:s|ed|ing)?\b|"
+        r"\bmerges?\b|\bmerging\b|"
+        r"\bdivest(?:s|ed|iture|ing)?\b|"
+        r"\bcarve[\s-]?out\b|"
+        r"\bplatform\s+investment\b|"
+        r"\btuck[\s-]in\b|"
+        r"\broll[\s-]up\b|"
+        r"\bportfolio\s+(?:add[\s-]on|investment)\b|"
+        r"\bcompletes?\s+acquisition\b|"
+        r"\bpurchase(?:s|d)?\s+(?:assets|operations|business)\b",
+        re.IGNORECASE)),
+
+    # Public Co. — explicit company names plus ticker-mention pattern.
+    # Avoids ambiguous 2-letter strings (WM alone would over-match).
+    ("Public Co.", re.compile(
+        r"\bDarling\s+Ingredients\b|\bDarling/?DAR\b|\bDAR\s+PRO\b|"
+        r"\bDiamond\s+Green\s+Diesel\b|\bDGD\b|"
+        r"\bGFL\b|\bGFL\s+Environmental\b|"
+        r"\bClean\s+Harbors\b|\bHCCI\b|\bHeritage[\s-]?Crystal\s*Clean\b|"
+        r"\bRepublic\s+Services\b|"
+        r"\bWaste\s+Connections\b|"
+        r"\bWaste\s+Management\b|\b\(NYSE:\s*WM\)|"
+        r"\bCasella\b|"
+        r"\bStericycle\b|"
+        r"\bBarrel\s+Energy\b|\bBRLL\b|"
+        r"\bNeste\b|"
+        r"\bGoldman\s+Sachs\b|"
+        r"\bVeolia\b|"
+        r"\b(?:NYSE|NASDAQ|OTC|TSX|LSE):\s*[A-Z]+\b",
+        re.IGNORECASE)),
+
+    # Renewable Fuels — UCO / SAF / RD / RFS / RIN / yellow & brown grease.
+    ("Renewable Fuels", re.compile(
+        r"\bUCO\b|\bused\s+cooking\s+oil\b|"
+        r"\brenewable\s+diesel\b|"
+        r"\bSAF\b|\bsustainable\s+aviation\s+fuel\b|"
+        r"\bRFS\b|\brenewable\s+fuel\s+standard\b|"
+        r"\bRINs?\b(?!\s*g)|"  # avoid matching "rinse", "Rings"
+        r"\bbiodiesel\b|\bbiofuel\b|"
+        r"\byellow\s+grease\b|\bbrown\s+grease\b|"
+        r"\btrap\s+grease\b|"  # 'trap grease' (substance) — feedstock for biodiesel
+        r"\btallow\b|\brendering\b|"
+        r"\bLCFS\b|\blow[\s-]carbon\s+fuel\b|"
+        r"\bfeedstock\b.*\b(diesel|aviation|fuel|biodiesel|SAF)\b",
+        re.IGNORECASE)),
+
+    # Regulatory — agencies, ordinances, permits, decrees.
+    ("Regulatory", re.compile(
+        r"\bFOG\s+(?:ordinance|regulation|program|enforcement|control)\b|"
+        r"\b(?:U\.?S\.?\s+)?EPA\b|"
+        r"\bpretreatment\b|"
+        r"\bsewer\s+(?:ordinance|regulation|use)\b|"
+        r"\bclean\s+water\s+act\b|\bCWA\b|"
+        r"\bconsent\s+decree\b|"
+        r"\bdischarge\s+permit\b|"
+        r"\bcompliance\s+(?:deadline|requirement|date)\b|"
+        r"\bordinance\b.*\b(grease|FOG|wastewater)\b|"
+        r"\b(?:pretreatment|industrial)\s+standards?\b",
+        re.IGNORECASE)),
+
+    # Technology — IoT, sensors, route opt, biogas, EV, hydrogen.
+    ("Technology", re.compile(
+        r"\bIoT\b|"
+        r"\bsmart\s+(?:grease\s+trap|trap|sensor|monitor)\b|"
+        r"\bgrease\s+trap\s+(?:sensor|monitoring|IoT)\b|"
+        r"\bsensor\s+network\b|"
+        r"\bfleet\s+(?:tech|optimi[sz]ation|management\s+software)\b|"
+        r"\broute\s+optimi[sz]ation\b|"
+        r"\bbiogas\b|\banaerobic\s+digest|"
+        r"\b(?:electric|EV)\s+(?:truck|vehicle|fleet|garbage)\b|"
+        r"\bhydrogen\s+fuel\s+cell\b|"
+        r"\bAI[\s-]powered\b|"
+        r"\bautomation\b.*\b(waste|collection|truck)\b",
+        re.IGNORECASE)),
+
+    # Labor/Ops — CDL, OSHA, insurance, fleet costs.
+    ("Labor/Ops", re.compile(
+        r"\bCDL\b|\bcommercial\s+driver(?:'s)?\s+license\b|"
+        r"\bdriver\s+shortage\b|\bdriver(?:'s)?\s+pay\b|"
+        r"\bOSHA\b|"
+        r"\bFMCSA\b|"
+        r"\bDOT\s+(?:regulation|rule|enforcement)\b|"
+        r"\binsurance\s+(?:rate|premium|cost)\b|"
+        r"\bfleet\s+(?:cost|expense|insurance)\b|"
+        r"\bworkforce\b.*\b(waste|hauler|trucking|environmental)\b|"
+        r"\bwage\b.*\b(driver|hauler|operator)\b",
+        re.IGNORECASE)),
+
+    # Restaurant — industry trends, NRA, ghost kitchens.
+    ("Restaurant", re.compile(
+        r"\brestaurant\s+(?:industry|sector|chains?|operators?)\b|"
+        r"\bNational\s+Restaurant\s+Association\b|\bNRA\b|"
+        r"\bghost\s+kitchen\b|"
+        r"\bfood[\s-]?service\s+(?:industry|operator|sector)\b|"
+        r"\bquick[\s-]service\s+restaurant\b|\bQSR\b|"
+        r"\bdine[\s-]?in\b.*\btraffic\b|"
+        r"\bfull[\s-]service\s+restaurant\b",
+        re.IGNORECASE)),
+
+    # Infrastructure — WWTP, POTW, IIJA, sewer overflows.
+    ("Infrastructure", re.compile(
+        r"\bWWTP\b|\bwastewater\s+treatment\s+(?:plant|facility)\b|"
+        r"\bPOTW\b|"
+        r"\bIIJA\b|\bBipartisan\s+Infrastructure\s+Law\b|"
+        r"\bInfrastructure\s+Investment\s+and\s+Jobs\s+Act\b|"
+        r"\bsewer\s+overflow\b|\bSSO\b|\bcombined\s+sewer\b|"
+        r"\bwater\s+infrastructure\s+(?:fund|grant|funding)\b|"
+        r"\bsewer\s+(?:upgrade|expansion|capacity)\b|"
+        r"\bwater\s+reclamation\b|"
+        r"\btreatment\s+plant\s+(?:upgrade|expansion)\b",
+        re.IGNORECASE)),
+
+    # Industry Events — conferences, shows, association meetings.
+    ("Industry Events", re.compile(
+        r"\bWWETT\b|\bWWETT\s+Show\b|"
+        r"\bPumper\s+Show\b|\bpumper\.com\b|"
+        r"\bWEF\b|\bWater\s+Environment\s+Federation\b|"
+        r"\bWEFTEC\b|"
+        r"\bResiduals\s+and\s+Biosolids\b|"
+        r"\b(?:industry|trade)\s+(?:conference|show|expo|summit)\b",
+        re.IGNORECASE)),
+
+    # ESG — circular economy, sustainability reports, carbon credits.
+    ("ESG", re.compile(
+        r"\bcircular\s+economy\b|"
+        r"\bsustainability\s+(?:report|reporting|disclosure)\b|"
+        r"\bcarbon\s+credit\b|\bcarbon\s+offset\b|"
+        r"\bScope\s+[123]\s+emissions?\b|"
+        r"\bnet[\s-]zero\b|"
+        r"\bGHG\s+emissions?\b|\bgreenhouse\s+gas\s+emissions?\b|"
+        r"\bESG\s+(?:report|disclosure|metric|score)\b|"
+        r"\bclimate\s+disclosure\b",
+        re.IGNORECASE)),
+]
+
+
+def classify_categories(text: str | None, primary: str | None = None) -> list[str]:
+    """Return all categories whose keyword pattern matches `text`. The
+    primary (if given and valid) is moved to the front of the list so
+    `categories[0]` is always a sensible default badge. Order otherwise
+    follows the order of _CATEGORY_PATTERNS, which mirrors NEWS_CATEGORIES
+    (M&A first → ESG last)."""
+    text = text or ""
+    matched: list[str] = []
+    for name, pat in _CATEGORY_PATTERNS:
+        if pat.search(text):
+            matched.append(name)
+
+    out: list[str] = []
+    if primary and primary in NEWS_CATEGORIES:
+        out.append(primary)
+    for c in matched:
+        if c not in out:
+            out.append(c)
+    # If nothing matched and no valid primary, fall back to a single
+    # 'Industry Events' tag so downstream code never gets an empty list.
+    if not out:
+        out = ["Industry Events"]
+    return out
+
+
 def coerce_news_item(raw: dict) -> dict | None:
     """Normalize a search result into the news_feed.json schema. Rejects
     items with malformed dates or homepage-like source URLs. Tags items
@@ -1194,13 +1373,22 @@ def coerce_news_item(raw: dict) -> dict | None:
     except (TypeError, ValueError):
         relevance = 3
     relevance = max(1, min(5, relevance))
+    clean_headline = clean_summary(headline) or headline
+    clean_summary_text = clean_summary(raw.get("summary", "")) or ""
+    categories = classify_categories(
+        clean_headline + " " + clean_summary_text, primary=cat,
+    )
+    # Primary remains the model's pick (when it's a valid category) so the
+    # category-color choice stays predictable; secondary chips come from
+    # the keyword classifier.
     item: dict = {
         "date": item_date,
-        "headline": clean_summary(headline) or headline,
+        "headline": clean_headline,
         "source": raw.get("source", ""),
         "source_url": src_url,
         "category": cat,
-        "summary": clean_summary(raw.get("summary", "")) or "",
+        "categories": categories,
+        "summary": clean_summary_text,
         "relevance_score": relevance,
         "is_deal": bool(raw.get("is_deal")),
         "is_target_market": False,
@@ -1375,13 +1563,23 @@ def synthesize_news_from_deal(deal: dict, first_seen: str) -> dict:
             bits.append(f"Sponsor: {deal['sponsor']}")
         summary = ". ".join(bits) or f"{acquirer} announced acquisition of {target}."
 
+    final_headline = clean_summary(headline) or headline
+    final_summary = clean_summary(summary) or summary
+    # Always M&A as primary (synth comes from a deal), but run the
+    # classifier so Public Co. / Renewable Fuels / etc. surface from the
+    # acquirer/target text too — e.g. WRM acquiring Darling adds
+    # Public Co. and Renewable Fuels chips automatically.
+    categories = classify_categories(
+        final_headline + " " + final_summary, primary="M&A",
+    )
     return {
         "date": deal.get("date"),
-        "headline": clean_summary(headline) or headline,
+        "headline": final_headline,
         "source": deal.get("source", ""),
         "source_url": deal.get("source_url", ""),
         "category": "M&A",
-        "summary": clean_summary(summary) or summary,
+        "categories": categories,
+        "summary": final_summary,
         "relevance_score": 5,
         "is_deal": True,
         "is_target_market": bool(deal.get("is_target_market")),

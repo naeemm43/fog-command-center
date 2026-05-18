@@ -3230,8 +3230,24 @@ __MAP_SCRIPTS__
   function renderNews() {
     var container = document.getElementById('news-list');
     var data = (typeof newsFeedData !== 'undefined') ? newsFeedData : [];
+    // Multi-category match. Each news item now carries a `categories`
+    // array; legacy items without the array fall back to the single
+    // `category` field so freshly-pulled data and historical entries
+    // both work without a hard cutover.
+    function itemCategories(n) {
+      if (n.categories && n.categories.length) return n.categories;
+      return n.category ? [n.category] : [];
+    }
     var items = data
-      .filter(function (n) { return newsActiveCategory === 'All' || normCat(n.category) === normCat(newsActiveCategory); })
+      .filter(function (n) {
+        if (newsActiveCategory === 'All') return true;
+        var want = normCat(newsActiveCategory);
+        var cats = itemCategories(n);
+        for (var i = 0; i < cats.length; i++) {
+          if (normCat(cats[i]) === want) return true;
+        }
+        return false;
+      })
       .filter(function (n) {
         if (!newsSearch) return true;
         var q = newsSearch.toLowerCase();
@@ -3272,8 +3288,18 @@ __MAP_SCRIPTS__
       'Industry Events': 'cat-IndustryEvents',
       'ESG': 'cat-ESG'
     };
+    function renderCatBadges(n) {
+      var cats = itemCategories(n);
+      if (!cats.length) cats = ['Industry Events'];
+      return cats.map(function (c) {
+        var background = catBg[c] || '#888';
+        return '<span class="cat-tag" style="background:' + background +
+          ';margin-right:4px;">' + escapeHtml(c) + '</span>';
+      }).join('');
+    }
     container.innerHTML = visible.map(function (n) {
-      var cat = n.category || 'Industry Events';
+      var primaryCat = itemCategories(n)[0] || n.category || 'Industry Events';
+      var cat = primaryCat;
       var bg = catBg[cat] || '#888';
       var cls = catCls[cat] || 'cat-IndustryEvents';
       var alert = n.is_target_market
@@ -3287,7 +3313,9 @@ __MAP_SCRIPTS__
         ? '<span class="relevance-badge" title="High relevance to FOG roll-up strategy">🔥 High Relevance</span>'
         : '';
       var mapLink = '';
-      if ((cat === 'M&A' || n.is_deal) &&
+      var cats = itemCategories(n);
+      var isMA = cats.indexOf('M&A') >= 0 || cat === 'M&A';
+      if ((isMA || n.is_deal) &&
           typeof n.latitude === 'number' && typeof n.longitude === 'number') {
         mapLink = '<a class="find-on-map-link" href="#"' +
           ' data-lat="' + n.latitude + '"' +
@@ -3299,7 +3327,7 @@ __MAP_SCRIPTS__
           '>🗺️ Find on Map</a>';
       }
       return '<div class="news-card ' + cls + '">' +
-        '<div class="meta"><span class="cat-tag" style="background:' + bg + '">' + escapeHtml(cat) + '</span>' + escapeHtml(formatDate(n.date)) + relBadge + '</div>' +
+        '<div class="meta">' + renderCatBadges(n) + escapeHtml(formatDate(n.date)) + relBadge + '</div>' +
         '<div class="headline">' + escapeHtml(sanitizeText(n.headline || '')) + '</div>' +
         '<div class="summary">' + escapeHtml(sanitizeText(n.summary || '')) + '</div>' +
         src + alert +

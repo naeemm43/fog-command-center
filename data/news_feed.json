@@ -13,7 +13,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-18"
+    "first_seen_date": "2026-05-18",
+    "categories": [
+      "ESG"
+    ]
   },
   {
     "date": "2026-05-16",
@@ -29,7 +32,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-16"
+    "first_seen_date": "2026-05-16",
+    "categories": [
+      "Technology"
+    ]
   },
   {
     "date": "2026-05-16",
@@ -45,7 +51,12 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-16"
+    "first_seen_date": "2026-05-16",
+    "categories": [
+      "Industry Events",
+      "Regulatory",
+      "Technology"
+    ]
   },
   {
     "date": "2026-05-16",
@@ -61,7 +72,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-16"
+    "first_seen_date": "2026-05-16",
+    "categories": [
+      "ESG"
+    ]
   },
   {
     "date": "2026-05-15",
@@ -77,7 +91,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-15"
+    "first_seen_date": "2026-05-15",
+    "categories": [
+      "Public Co."
+    ]
   },
   {
     "date": "2026-05-15",
@@ -93,7 +110,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-15"
+    "first_seen_date": "2026-05-15",
+    "categories": [
+      "Restaurant"
+    ]
   },
   {
     "date": "2026-05-14",
@@ -109,7 +129,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-14"
+    "first_seen_date": "2026-05-14",
+    "categories": [
+      "M&A",
+      "Public Co."
+    ]
   },
   {
     "date": "2026-05-14",
@@ -125,7 +149,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-14"
+    "first_seen_date": "2026-05-14",
+    "categories": [
+      "Renewable Fuels",
+      "Public Co."
+    ]
   },
   {
     "date": "2026-05-14",
@@ -141,7 +169,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-14"
+    "first_seen_date": "2026-05-14",
+    "categories": [
+      "Public Co."
+    ]
   },
   {
     "date": "2026-05-14",
@@ -157,7 +188,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-18"
+    "first_seen_date": "2026-05-18",
+    "categories": [
+      "Renewable Fuels"
+    ]
   },
   {
     "date": "2026-05-14",
@@ -173,7 +207,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-18"
+    "first_seen_date": "2026-05-18",
+    "categories": [
+      "Public Co."
+    ]
   },
   {
     "date": "2026-05-13",
@@ -189,7 +226,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-13"
+    "first_seen_date": "2026-05-13",
+    "categories": [
+      "Public Co."
+    ]
   },
   {
     "date": "2026-05-13",
@@ -205,7 +245,12 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-13"
+    "first_seen_date": "2026-05-13",
+    "categories": [
+      "Public Co.",
+      "M&A",
+      "Renewable Fuels"
+    ]
   },
   {
     "date": "2026-05-13",
@@ -221,7 +266,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-13"
+    "first_seen_date": "2026-05-13",
+    "categories": [
+      "Public Co."
+    ]
   },
   {
     "date": "2026-05-12",
@@ -237,7 +285,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-12"
+    "first_seen_date": "2026-05-12",
+    "categories": [
+      "Technology"
+    ]
   },
   {
     "date": "2026-05-12",
@@ -253,7 +304,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-12"
+    "first_seen_date": "2026-05-12",
+    "categories": [
+      "Infrastructure"
+    ]
   },
   {
     "date": "2026-05-12",
@@ -269,7 +323,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-12"
+    "first_seen_date": "2026-05-12",
+    "categories": [
+      "Renewable Fuels",
+      "Public Co."
+    ]
   },
   {
     "date": "2026-05-12",
@@ -285,7 +343,12 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-12"
+    "first_seen_date": "2026-05-12",
+    "categories": [
+      "Industry Events",
+      "Renewable Fuels",
+      "Regulatory"
+    ]
   },
   {
     "date": "2026-05-12",
@@ -301,7 +364,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-12"
+    "first_seen_date": "2026-05-12",
+    "categories": [
+      "Renewable Fuels",
+      "Public Co."
+    ]
   },
   {
     "date": "2026-05-12",
@@ -317,7 +384,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-12"
+    "first_seen_date": "2026-05-12",
+    "categories": [
+      "Technology"
+    ]
   },
   {
     "date": "2026-05-12",
@@ -333,7 +403,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-12"
+    "first_seen_date": "2026-05-12",
+    "categories": [
+      "Industry Events"
+    ]
   },
   {
     "date": "2026-05-11",
@@ -349,7 +422,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-11"
+    "first_seen_date": "2026-05-11",
+    "categories": [
+      "Technology"
+    ]
   },
   {
     "date": "2026-05-11",
@@ -365,7 +441,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-11"
+    "first_seen_date": "2026-05-11",
+    "categories": [
+      "Technology",
+      "Public Co."
+    ]
   },
   {
     "date": "2026-05-11",
@@ -381,7 +461,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-11"
+    "first_seen_date": "2026-05-11",
+    "categories": [
+      "Technology"
+    ]
   },
   {
     "date": "2026-05-11",
@@ -397,7 +480,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-11"
+    "first_seen_date": "2026-05-11",
+    "categories": [
+      "Industry Events"
+    ]
   },
   {
     "date": "2026-05-11",
@@ -413,7 +499,11 @@
     "latitude": 43.661,
     "longitude": -70.255,
     "zoom_hint": "narrow",
-    "first_seen_date": "2026-05-11"
+    "first_seen_date": "2026-05-11",
+    "categories": [
+      "Public Co.",
+      "M&A"
+    ]
   },
   {
     "date": "2026-05-11",
@@ -429,7 +519,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-11"
+    "first_seen_date": "2026-05-11",
+    "categories": [
+      "Public Co.",
+      "Renewable Fuels"
+    ]
   },
   {
     "date": "2026-05-11",
@@ -445,7 +539,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-11"
+    "first_seen_date": "2026-05-11",
+    "categories": [
+      "Renewable Fuels",
+      "Public Co."
+    ]
   },
   {
     "date": "2026-05-10",
@@ -461,7 +559,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-10"
+    "first_seen_date": "2026-05-10",
+    "categories": [
+      "Renewable Fuels",
+      "Public Co."
+    ]
   },
   {
     "date": "2026-05-10",
@@ -477,7 +579,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-10"
+    "first_seen_date": "2026-05-10",
+    "categories": [
+      "Technology"
+    ]
   },
   {
     "date": "2026-05-10",
@@ -493,7 +598,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-10"
+    "first_seen_date": "2026-05-10",
+    "categories": [
+      "Restaurant"
+    ]
   },
   {
     "date": "2026-05-09",
@@ -509,7 +617,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-09"
+    "first_seen_date": "2026-05-09",
+    "categories": [
+      "Technology"
+    ]
   },
   {
     "date": "2026-05-09",
@@ -525,7 +636,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-09"
+    "first_seen_date": "2026-05-09",
+    "categories": [
+      "M&A"
+    ]
   },
   {
     "date": "2026-05-08",
@@ -541,7 +655,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-08"
+    "first_seen_date": "2026-05-08",
+    "categories": [
+      "Infrastructure"
+    ]
   },
   {
     "date": "2026-05-08",
@@ -557,7 +674,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-08"
+    "first_seen_date": "2026-05-08",
+    "categories": [
+      "Infrastructure",
+      "Regulatory"
+    ]
   },
   {
     "date": "2026-05-07",
@@ -573,7 +694,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-07"
+    "first_seen_date": "2026-05-07",
+    "categories": [
+      "Regulatory"
+    ]
   },
   {
     "date": "2026-05-07",
@@ -589,7 +713,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-07"
+    "first_seen_date": "2026-05-07",
+    "categories": [
+      "Renewable Fuels"
+    ]
   },
   {
     "date": "2026-05-07",
@@ -605,7 +732,12 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-07"
+    "first_seen_date": "2026-05-07",
+    "categories": [
+      "ESG",
+      "Public Co.",
+      "Technology"
+    ]
   },
   {
     "date": "2026-05-07",
@@ -621,7 +753,11 @@
     "latitude": 38.313,
     "longitude": -117.055,
     "zoom_hint": "wide",
-    "first_seen_date": "2026-05-07"
+    "first_seen_date": "2026-05-07",
+    "categories": [
+      "Infrastructure",
+      "Regulatory"
+    ]
   },
   {
     "date": "2026-05-07",
@@ -637,7 +773,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-07"
+    "first_seen_date": "2026-05-07",
+    "categories": [
+      "Technology",
+      "Regulatory"
+    ]
   },
   {
     "date": "2026-05-06",
@@ -653,7 +793,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-06"
+    "first_seen_date": "2026-05-06",
+    "categories": [
+      "Labor/Ops"
+    ]
   },
   {
     "date": "2026-05-06",
@@ -669,7 +812,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-06"
+    "first_seen_date": "2026-05-06",
+    "categories": [
+      "Public Co."
+    ]
   },
   {
     "date": "2026-05-06",
@@ -685,7 +831,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-06"
+    "first_seen_date": "2026-05-06",
+    "categories": [
+      "ESG"
+    ]
   },
   {
     "date": "2026-05-06",
@@ -701,7 +850,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-06"
+    "first_seen_date": "2026-05-06",
+    "categories": [
+      "Industry Events"
+    ]
   },
   {
     "date": "2026-05-06",
@@ -717,7 +869,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-06"
+    "first_seen_date": "2026-05-06",
+    "categories": [
+      "Public Co."
+    ]
   },
   {
     "date": "2026-05-06",
@@ -733,7 +888,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-06"
+    "first_seen_date": "2026-05-06",
+    "categories": [
+      "Technology"
+    ]
   },
   {
     "date": "2026-05-06",
@@ -749,7 +907,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-06"
+    "first_seen_date": "2026-05-06",
+    "categories": [
+      "Public Co."
+    ]
   },
   {
     "date": "2026-05-05",
@@ -765,7 +926,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-05"
+    "first_seen_date": "2026-05-05",
+    "categories": [
+      "Renewable Fuels"
+    ]
   },
   {
     "date": "2026-05-05",
@@ -781,7 +945,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-05"
+    "first_seen_date": "2026-05-05",
+    "categories": [
+      "Infrastructure"
+    ]
   },
   {
     "date": "2026-05-05",
@@ -797,7 +964,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-05"
+    "first_seen_date": "2026-05-05",
+    "categories": [
+      "Public Co."
+    ]
   },
   {
     "date": "2026-05-04",
@@ -813,7 +983,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-04"
+    "first_seen_date": "2026-05-04",
+    "categories": [
+      "Restaurant",
+      "Public Co."
+    ]
   },
   {
     "date": "2026-05-04",
@@ -829,7 +1003,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-04"
+    "first_seen_date": "2026-05-04",
+    "categories": [
+      "ESG"
+    ]
   },
   {
     "date": "2026-05-03",
@@ -845,7 +1022,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-03"
+    "first_seen_date": "2026-05-03",
+    "categories": [
+      "Renewable Fuels",
+      "Public Co."
+    ]
   },
   {
     "date": "2026-05-02",
@@ -861,7 +1042,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-02"
+    "first_seen_date": "2026-05-02",
+    "categories": [
+      "ESG",
+      "Renewable Fuels"
+    ]
   },
   {
     "date": "2026-05-01",
@@ -877,7 +1062,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-01"
+    "first_seen_date": "2026-05-01",
+    "categories": [
+      "Public Co.",
+      "M&A"
+    ]
   },
   {
     "date": "2026-05-01",
@@ -893,7 +1082,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-01"
+    "first_seen_date": "2026-05-01",
+    "categories": [
+      "Industry Events"
+    ]
   },
   {
     "date": "2026-05-01",
@@ -909,7 +1101,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-01"
+    "first_seen_date": "2026-05-01",
+    "categories": [
+      "Public Co."
+    ]
   },
   {
     "date": "2026-05-01",
@@ -925,7 +1120,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-01"
+    "first_seen_date": "2026-05-01",
+    "categories": [
+      "Labor/Ops"
+    ]
   },
   {
     "date": "2026-05-01",
@@ -941,7 +1139,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-01"
+    "first_seen_date": "2026-05-01",
+    "categories": [
+      "Public Co."
+    ]
   },
   {
     "date": "2026-05-01",
@@ -957,7 +1158,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-01"
+    "first_seen_date": "2026-05-01",
+    "categories": [
+      "Public Co.",
+      "M&A"
+    ]
   },
   {
     "date": "2026-05-01",
@@ -973,7 +1178,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-05-01"
+    "first_seen_date": "2026-05-01",
+    "categories": [
+      "Public Co.",
+      "M&A"
+    ]
   },
   {
     "date": "2026-04-30",
@@ -989,7 +1198,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-04-30"
+    "first_seen_date": "2026-04-30",
+    "categories": [
+      "Renewable Fuels"
+    ]
   },
   {
     "date": "2026-04-30",
@@ -1005,7 +1217,11 @@
     "latitude": 31.0,
     "longitude": -100.0,
     "zoom_hint": "wide",
-    "first_seen_date": "2026-04-30"
+    "first_seen_date": "2026-04-30",
+    "categories": [
+      "Public Co.",
+      "M&A"
+    ]
   },
   {
     "date": "2026-04-30",
@@ -1021,7 +1237,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-04-30"
+    "first_seen_date": "2026-04-30",
+    "categories": [
+      "Renewable Fuels",
+      "Public Co."
+    ]
   },
   {
     "date": "2026-04-30",
@@ -1037,7 +1257,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-04-30"
+    "first_seen_date": "2026-04-30",
+    "categories": [
+      "Public Co."
+    ]
   },
   {
     "date": "2026-04-30",
@@ -1053,7 +1276,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-04-30"
+    "first_seen_date": "2026-04-30",
+    "categories": [
+      "Public Co.",
+      "M&A"
+    ]
   },
   {
     "date": "2026-04-30",
@@ -1069,7 +1296,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-04-30"
+    "first_seen_date": "2026-04-30",
+    "categories": [
+      "Labor/Ops"
+    ]
   },
   {
     "date": "2026-04-30",
@@ -1085,7 +1315,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-04-30"
+    "first_seen_date": "2026-04-30",
+    "categories": [
+      "Public Co."
+    ]
   },
   {
     "date": "2026-04-29",
@@ -1101,7 +1334,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-04-29"
+    "first_seen_date": "2026-04-29",
+    "categories": [
+      "Labor/Ops"
+    ]
   },
   {
     "date": "2026-04-29",
@@ -1117,7 +1353,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-04-29"
+    "first_seen_date": "2026-04-29",
+    "categories": [
+      "Public Co.",
+      "M&A"
+    ]
   },
   {
     "date": "2026-04-29",
@@ -1133,7 +1373,11 @@
     "latitude": 31.0,
     "longitude": -100.0,
     "zoom_hint": "wide",
-    "first_seen_date": "2026-04-29"
+    "first_seen_date": "2026-04-29",
+    "categories": [
+      "Public Co.",
+      "M&A"
+    ]
   },
   {
     "date": "2026-04-29",
@@ -1149,7 +1393,11 @@
     "latitude": 31.0,
     "longitude": -100.0,
     "zoom_hint": "wide",
-    "first_seen_date": "2026-04-29"
+    "first_seen_date": "2026-04-29",
+    "categories": [
+      "Public Co.",
+      "M&A"
+    ]
   },
   {
     "date": "2026-04-28",
@@ -1165,7 +1413,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-04-28"
+    "first_seen_date": "2026-04-28",
+    "categories": [
+      "Industry Events",
+      "Regulatory"
+    ]
   },
   {
     "date": "2026-04-28",
@@ -1181,7 +1433,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-04-28"
+    "first_seen_date": "2026-04-28",
+    "categories": [
+      "Renewable Fuels"
+    ]
   },
   {
     "date": "2026-04-18",
@@ -1197,7 +1452,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-04-18"
+    "first_seen_date": "2026-04-18",
+    "categories": [
+      "Renewable Fuels"
+    ]
   },
   {
     "date": "2026-04-17",
@@ -1213,7 +1471,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-04-17"
+    "first_seen_date": "2026-04-17",
+    "categories": [
+      "Infrastructure"
+    ]
   },
   {
     "date": "2026-04-15",
@@ -1229,7 +1490,10 @@
     "latitude": 44.268,
     "longitude": -89.616,
     "zoom_hint": "wide",
-    "first_seen_date": "2026-04-15"
+    "first_seen_date": "2026-04-15",
+    "categories": [
+      "M&A"
+    ]
   },
   {
     "date": "2026-04-15",
@@ -1245,7 +1509,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-04-15"
+    "first_seen_date": "2026-04-15",
+    "categories": [
+      "Renewable Fuels"
+    ]
   },
   {
     "date": "2026-04-13",
@@ -1261,7 +1528,10 @@
     "latitude": 33.856,
     "longitude": -80.945,
     "zoom_hint": "wide",
-    "first_seen_date": "2026-04-13"
+    "first_seen_date": "2026-04-13",
+    "categories": [
+      "Infrastructure"
+    ]
   },
   {
     "date": "2026-04-13",
@@ -1277,7 +1547,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-04-13"
+    "first_seen_date": "2026-04-13",
+    "categories": [
+      "Industry Events"
+    ]
   },
   {
     "date": "2026-04-10",
@@ -1293,7 +1566,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-04-10"
+    "first_seen_date": "2026-04-10",
+    "categories": [
+      "Labor/Ops",
+      "Public Co."
+    ]
   },
   {
     "date": "2026-04-09",
@@ -1309,7 +1586,10 @@
     "latitude": 28.538,
     "longitude": -81.379,
     "zoom_hint": "wide",
-    "first_seen_date": "2026-04-09"
+    "first_seen_date": "2026-04-09",
+    "categories": [
+      "Infrastructure"
+    ]
   },
   {
     "date": "2026-04-06",
@@ -1325,7 +1605,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-04-06"
+    "first_seen_date": "2026-04-06",
+    "categories": [
+      "Regulatory"
+    ]
   },
   {
     "date": "2026-04-06",
@@ -1341,7 +1624,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-04-06"
+    "first_seen_date": "2026-04-06",
+    "categories": [
+      "ESG",
+      "Public Co."
+    ]
   },
   {
     "date": "2026-04-03",
@@ -1357,7 +1644,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-04-03"
+    "first_seen_date": "2026-04-03",
+    "categories": [
+      "Renewable Fuels"
+    ]
   },
   {
     "date": "2026-04-02",
@@ -1373,7 +1663,11 @@
     "latitude": 29.951,
     "longitude": -90.072,
     "zoom_hint": "narrow",
-    "first_seen_date": "2026-04-02"
+    "first_seen_date": "2026-04-02",
+    "categories": [
+      "M&A",
+      "Public Co."
+    ]
   },
   {
     "date": "2026-04-02",
@@ -1389,7 +1683,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-04-02"
+    "first_seen_date": "2026-04-02",
+    "categories": [
+      "Renewable Fuels"
+    ]
   },
   {
     "date": "2026-04-02",
@@ -1405,7 +1702,11 @@
     "latitude": 29.951,
     "longitude": -90.072,
     "zoom_hint": "narrow",
-    "first_seen_date": "2026-04-02"
+    "first_seen_date": "2026-04-02",
+    "categories": [
+      "M&A",
+      "Renewable Fuels"
+    ]
   },
   {
     "date": "2026-04-01",
@@ -1421,7 +1722,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-04-01"
+    "first_seen_date": "2026-04-01",
+    "categories": [
+      "Regulatory",
+      "Infrastructure"
+    ]
   },
   {
     "date": "2026-04-01",
@@ -1437,7 +1742,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-04-01"
+    "first_seen_date": "2026-04-01",
+    "categories": [
+      "Public Co.",
+      "M&A"
+    ]
   },
   {
     "date": "2026-04-01",
@@ -1453,7 +1762,10 @@
     "latitude": 37.541,
     "longitude": -77.434,
     "zoom_hint": "narrow",
-    "first_seen_date": "2026-04-01"
+    "first_seen_date": "2026-04-01",
+    "categories": [
+      "M&A"
+    ]
   },
   {
     "date": "2026-04-01",
@@ -1469,7 +1781,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-04-01"
+    "first_seen_date": "2026-04-01",
+    "categories": [
+      "Public Co."
+    ]
   },
   {
     "date": "2026-04-01",
@@ -1485,7 +1800,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-04-01"
+    "first_seen_date": "2026-04-01",
+    "categories": [
+      "Renewable Fuels",
+      "Regulatory"
+    ]
   },
   {
     "date": "2026-03-30",
@@ -1501,7 +1820,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-03-30"
+    "first_seen_date": "2026-03-30",
+    "categories": [
+      "Labor/Ops"
+    ]
   },
   {
     "date": "2026-03-30",
@@ -1517,7 +1839,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-03-30"
+    "first_seen_date": "2026-03-30",
+    "categories": [
+      "M&A"
+    ]
   },
   {
     "date": "2026-03-30",
@@ -1533,7 +1858,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-03-30"
+    "first_seen_date": "2026-03-30",
+    "categories": [
+      "ESG"
+    ]
   },
   {
     "date": "2026-03-29",
@@ -1549,7 +1877,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-03-29"
+    "first_seen_date": "2026-03-29",
+    "categories": [
+      "Infrastructure",
+      "Regulatory"
+    ]
   },
   {
     "date": "2026-03-28",
@@ -1565,7 +1897,10 @@
     "latitude": 35.63,
     "longitude": -79.806,
     "zoom_hint": "wide",
-    "first_seen_date": "2026-03-28"
+    "first_seen_date": "2026-03-28",
+    "categories": [
+      "M&A"
+    ]
   },
   {
     "date": "2026-03-27",
@@ -1581,7 +1916,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-03-27"
+    "first_seen_date": "2026-03-27",
+    "categories": [
+      "Regulatory"
+    ]
   },
   {
     "date": "2026-03-27",
@@ -1597,7 +1935,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-03-27"
+    "first_seen_date": "2026-03-27",
+    "categories": [
+      "Regulatory",
+      "Infrastructure"
+    ]
   },
   {
     "date": "2026-03-27",
@@ -1613,7 +1955,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-03-27"
+    "first_seen_date": "2026-03-27",
+    "categories": [
+      "Regulatory"
+    ]
   },
   {
     "date": "2026-03-27",
@@ -1629,7 +1974,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-03-27"
+    "first_seen_date": "2026-03-27",
+    "categories": [
+      "Regulatory"
+    ]
   },
   {
     "date": "2026-03-27",
@@ -1645,7 +1993,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-03-27"
+    "first_seen_date": "2026-03-27",
+    "categories": [
+      "Regulatory"
+    ]
   },
   {
     "date": "2026-03-27",
@@ -1661,7 +2012,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-03-27"
+    "first_seen_date": "2026-03-27",
+    "categories": [
+      "Renewable Fuels",
+      "Regulatory"
+    ]
   },
   {
     "date": "2026-03-27",
@@ -1677,7 +2032,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-03-27"
+    "first_seen_date": "2026-03-27",
+    "categories": [
+      "Renewable Fuels",
+      "Regulatory"
+    ]
   },
   {
     "date": "2026-03-26",
@@ -1693,7 +2052,10 @@
     "latitude": 33.749,
     "longitude": -84.388,
     "zoom_hint": "narrow",
-    "first_seen_date": "2026-03-26"
+    "first_seen_date": "2026-03-26",
+    "categories": [
+      "M&A"
+    ]
   },
   {
     "date": "2026-03-25",
@@ -1709,7 +2071,11 @@
     "latitude": 43.661,
     "longitude": -70.255,
     "zoom_hint": "narrow",
-    "first_seen_date": "2026-03-25"
+    "first_seen_date": "2026-03-25",
+    "categories": [
+      "Public Co.",
+      "M&A"
+    ]
   },
   {
     "date": "2026-03-23",
@@ -1725,7 +2091,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-03-23"
+    "first_seen_date": "2026-03-23",
+    "categories": [
+      "Labor/Ops"
+    ]
   },
   {
     "date": "2026-03-20",
@@ -1741,7 +2110,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-03-20"
+    "first_seen_date": "2026-03-20",
+    "categories": [
+      "M&A"
+    ]
   },
   {
     "date": "2026-03-19",
@@ -1757,7 +2129,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-03-19"
+    "first_seen_date": "2026-03-19",
+    "categories": [
+      "Regulatory"
+    ]
   },
   {
     "date": "2026-03-16",
@@ -1773,7 +2148,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-03-16"
+    "first_seen_date": "2026-03-16",
+    "categories": [
+      "Labor/Ops"
+    ]
   },
   {
     "date": "2026-03-16",
@@ -1789,7 +2167,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-03-16"
+    "first_seen_date": "2026-03-16",
+    "categories": [
+      "Renewable Fuels"
+    ]
   },
   {
     "date": "2026-03-16",
@@ -1805,7 +2186,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-03-16"
+    "first_seen_date": "2026-03-16",
+    "categories": [
+      "Labor/Ops"
+    ]
   },
   {
     "date": "2026-03-15",
@@ -1821,7 +2205,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-03-15"
+    "first_seen_date": "2026-03-15",
+    "categories": [
+      "Labor/Ops"
+    ]
   },
   {
     "date": "2026-03-15",
@@ -1837,7 +2224,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-03-15"
+    "first_seen_date": "2026-03-15",
+    "categories": [
+      "Renewable Fuels"
+    ]
   },
   {
     "date": "2026-03-15",
@@ -1853,7 +2243,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-03-15"
+    "first_seen_date": "2026-03-15",
+    "categories": [
+      "Labor/Ops"
+    ]
   },
   {
     "date": "2026-03-14",
@@ -1869,7 +2262,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-03-14"
+    "first_seen_date": "2026-03-14",
+    "categories": [
+      "Industry Events",
+      "Regulatory"
+    ]
   },
   {
     "date": "2026-03-14",
@@ -1885,7 +2282,12 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-03-14"
+    "first_seen_date": "2026-03-14",
+    "categories": [
+      "Industry Events",
+      "Regulatory",
+      "Technology"
+    ]
   },
   {
     "date": "2026-03-11",
@@ -1901,7 +2303,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-03-11"
+    "first_seen_date": "2026-03-11",
+    "categories": [
+      "M&A"
+    ]
   },
   {
     "date": "2026-03-06",
@@ -1917,7 +2322,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-03-06"
+    "first_seen_date": "2026-03-06",
+    "categories": [
+      "Restaurant"
+    ]
   },
   {
     "date": "2026-03-03",
@@ -1933,7 +2341,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-03-03"
+    "first_seen_date": "2026-03-03",
+    "categories": [
+      "ESG",
+      "Regulatory"
+    ]
   },
   {
     "date": "2026-03-03",
@@ -1949,7 +2361,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-03-03"
+    "first_seen_date": "2026-03-03",
+    "categories": [
+      "ESG",
+      "Regulatory"
+    ]
   },
   {
     "date": "2026-03-02",
@@ -1965,7 +2381,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-03-02"
+    "first_seen_date": "2026-03-02",
+    "categories": [
+      "Labor/Ops"
+    ]
   },
   {
     "date": "2026-03-01",
@@ -1981,7 +2400,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-03-01"
+    "first_seen_date": "2026-03-01",
+    "categories": [
+      "Renewable Fuels"
+    ]
   },
   {
     "date": "2026-02-27",
@@ -1997,7 +2419,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-02-27"
+    "first_seen_date": "2026-02-27",
+    "categories": [
+      "ESG"
+    ]
   },
   {
     "date": "2026-02-27",
@@ -2013,7 +2438,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-02-27"
+    "first_seen_date": "2026-02-27",
+    "categories": [
+      "Industry Events",
+      "Public Co."
+    ]
   },
   {
     "date": "2026-02-26",
@@ -2029,7 +2458,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-02-26"
+    "first_seen_date": "2026-02-26",
+    "categories": [
+      "Restaurant"
+    ]
   },
   {
     "date": "2026-02-26",
@@ -2045,7 +2477,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-02-26"
+    "first_seen_date": "2026-02-26",
+    "categories": [
+      "ESG"
+    ]
   },
   {
     "date": "2026-02-25",
@@ -2061,7 +2496,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-02-25"
+    "first_seen_date": "2026-02-25",
+    "categories": [
+      "ESG",
+      "Restaurant"
+    ]
   },
   {
     "date": "2026-02-25",
@@ -2077,7 +2516,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-02-25"
+    "first_seen_date": "2026-02-25",
+    "categories": [
+      "Infrastructure"
+    ]
   },
   {
     "date": "2026-02-25",
@@ -2093,7 +2535,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-02-25"
+    "first_seen_date": "2026-02-25",
+    "categories": [
+      "ESG",
+      "Renewable Fuels"
+    ]
   },
   {
     "date": "2026-02-19",
@@ -2109,7 +2555,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-02-19"
+    "first_seen_date": "2026-02-19",
+    "categories": [
+      "Labor/Ops",
+      "Public Co."
+    ]
   },
   {
     "date": "2026-02-19",
@@ -2125,7 +2575,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-02-19"
+    "first_seen_date": "2026-02-19",
+    "categories": [
+      "Industry Events",
+      "Technology"
+    ]
   },
   {
     "date": "2026-02-19",
@@ -2141,7 +2595,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-02-19"
+    "first_seen_date": "2026-02-19",
+    "categories": [
+      "Public Co.",
+      "M&A"
+    ]
   },
   {
     "date": "2026-02-19",
@@ -2157,7 +2615,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-02-19"
+    "first_seen_date": "2026-02-19",
+    "categories": [
+      "Industry Events",
+      "Technology"
+    ]
   },
   {
     "date": "2026-02-19",
@@ -2173,7 +2635,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-02-19"
+    "first_seen_date": "2026-02-19",
+    "categories": [
+      "ESG",
+      "Renewable Fuels"
+    ]
   },
   {
     "date": "2026-02-17",
@@ -2189,7 +2655,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-02-17"
+    "first_seen_date": "2026-02-17",
+    "categories": [
+      "Regulatory"
+    ]
   },
   {
     "date": "2026-02-13",
@@ -2205,7 +2674,11 @@
     "latitude": 38.456,
     "longitude": -92.288,
     "zoom_hint": "wide",
-    "first_seen_date": "2026-02-13"
+    "first_seen_date": "2026-02-13",
+    "categories": [
+      "M&A",
+      "Renewable Fuels"
+    ]
   },
   {
     "date": "2026-02-12",
@@ -2221,7 +2694,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-02-12"
+    "first_seen_date": "2026-02-12",
+    "categories": [
+      "ESG",
+      "Renewable Fuels"
+    ]
   },
   {
     "date": "2026-02-10",
@@ -2237,7 +2714,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-02-10"
+    "first_seen_date": "2026-02-10",
+    "categories": [
+      "Restaurant"
+    ]
   },
   {
     "date": "2026-02-10",
@@ -2253,7 +2733,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-02-10"
+    "first_seen_date": "2026-02-10",
+    "categories": [
+      "Technology"
+    ]
   },
   {
     "date": "2026-02-10",
@@ -2269,7 +2752,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-02-10"
+    "first_seen_date": "2026-02-10",
+    "categories": [
+      "Technology",
+      "Labor/Ops"
+    ]
   },
   {
     "date": "2026-02-10",
@@ -2285,7 +2772,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-02-10"
+    "first_seen_date": "2026-02-10",
+    "categories": [
+      "ESG",
+      "Public Co."
+    ]
   },
   {
     "date": "2026-02-03",
@@ -2301,7 +2792,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-02-03"
+    "first_seen_date": "2026-02-03",
+    "categories": [
+      "Regulatory"
+    ]
   },
   {
     "date": "2026-01-27",
@@ -2317,7 +2811,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-01-27"
+    "first_seen_date": "2026-01-27",
+    "categories": [
+      "ESG"
+    ]
   },
   {
     "date": "2026-01-22",
@@ -2333,7 +2830,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-01-22"
+    "first_seen_date": "2026-01-22",
+    "categories": [
+      "Infrastructure"
+    ]
   },
   {
     "date": "2026-01-19",
@@ -2349,7 +2849,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-01-19"
+    "first_seen_date": "2026-01-19",
+    "categories": [
+      "Labor/Ops"
+    ]
   },
   {
     "date": "2026-01-18",
@@ -2365,7 +2868,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-01-18"
+    "first_seen_date": "2026-01-18",
+    "categories": [
+      "Regulatory"
+    ]
   },
   {
     "date": "2026-01-16",
@@ -2381,7 +2887,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-01-16"
+    "first_seen_date": "2026-01-16",
+    "categories": [
+      "Infrastructure",
+      "Public Co."
+    ]
   },
   {
     "date": "2026-01-15",
@@ -2397,7 +2907,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-01-15"
+    "first_seen_date": "2026-01-15",
+    "categories": [
+      "Labor/Ops"
+    ]
   },
   {
     "date": "2026-01-15",
@@ -2413,7 +2926,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-01-15"
+    "first_seen_date": "2026-01-15",
+    "categories": [
+      "Technology"
+    ]
   },
   {
     "date": "2026-01-15",
@@ -2429,7 +2945,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-01-15"
+    "first_seen_date": "2026-01-15",
+    "categories": [
+      "Technology"
+    ]
   },
   {
     "date": "2026-01-09",
@@ -2445,7 +2964,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-01-09"
+    "first_seen_date": "2026-01-09",
+    "categories": [
+      "Renewable Fuels"
+    ]
   },
   {
     "date": "2026-01-09",
@@ -2461,7 +2983,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-01-09"
+    "first_seen_date": "2026-01-09",
+    "categories": [
+      "Renewable Fuels"
+    ]
   },
   {
     "date": "2026-01-04",
@@ -2477,7 +3002,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2026-01-04"
+    "first_seen_date": "2026-01-04",
+    "categories": [
+      "Public Co."
+    ]
   },
   {
     "date": "2025-12-20",
@@ -2493,7 +3021,11 @@
     "latitude": 32.814,
     "longitude": -96.949,
     "zoom_hint": "narrow",
-    "first_seen_date": "2025-12-20"
+    "first_seen_date": "2025-12-20",
+    "categories": [
+      "M&A",
+      "Public Co."
+    ]
   },
   {
     "date": "2025-12-15",
@@ -2509,7 +3041,11 @@
     "latitude": 31.0,
     "longitude": -100.0,
     "zoom_hint": "wide",
-    "first_seen_date": "2025-12-15"
+    "first_seen_date": "2025-12-15",
+    "categories": [
+      "M&A",
+      "Public Co."
+    ]
   },
   {
     "date": "2025-12-05",
@@ -2525,7 +3061,11 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2025-12-05"
+    "first_seen_date": "2025-12-05",
+    "categories": [
+      "Renewable Fuels",
+      "ESG"
+    ]
   },
   {
     "date": "2025-12-05",
@@ -2541,7 +3081,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2025-12-05"
+    "first_seen_date": "2025-12-05",
+    "categories": [
+      "Renewable Fuels"
+    ]
   },
   {
     "date": "2025-12-01",
@@ -2557,7 +3100,11 @@
     "latitude": 38.627,
     "longitude": -90.199,
     "zoom_hint": "narrow",
-    "first_seen_date": "2025-12-01"
+    "first_seen_date": "2025-12-01",
+    "categories": [
+      "M&A",
+      "Renewable Fuels"
+    ]
   },
   {
     "date": "2025-12-01",
@@ -2573,7 +3120,11 @@
     "latitude": 38.627,
     "longitude": -90.199,
     "zoom_hint": "narrow",
-    "first_seen_date": "2025-12-01"
+    "first_seen_date": "2025-12-01",
+    "categories": [
+      "M&A",
+      "Renewable Fuels"
+    ]
   },
   {
     "date": "2024-11-15",
@@ -2590,7 +3141,10 @@
     "longitude": -79.806,
     "zoom_hint": "wide",
     "first_seen_date": "2026-05-18",
-    "_synthesized_from_deal": true
+    "_synthesized_from_deal": true,
+    "categories": [
+      "M&A"
+    ]
   },
   {
     "date": "2024-10-08",
@@ -2607,7 +3161,10 @@
     "longitude": -79.806,
     "zoom_hint": "wide",
     "first_seen_date": "2026-05-18",
-    "_synthesized_from_deal": true
+    "_synthesized_from_deal": true,
+    "categories": [
+      "M&A"
+    ]
   },
   {
     "date": "2024-02-15",
@@ -2624,7 +3181,10 @@
     "longitude": -84.388,
     "zoom_hint": "narrow",
     "first_seen_date": "2026-05-18",
-    "_synthesized_from_deal": true
+    "_synthesized_from_deal": true,
+    "categories": [
+      "M&A"
+    ]
   },
   {
     "date": "2023-10-17",
@@ -2641,7 +3201,11 @@
     "longitude": -88.281,
     "zoom_hint": "narrow",
     "first_seen_date": "2026-05-18",
-    "_synthesized_from_deal": true
+    "_synthesized_from_deal": true,
+    "categories": [
+      "M&A",
+      "Public Co."
+    ]
   },
   {
     "date": "2022-11-17",
@@ -2658,7 +3222,12 @@
     "longitude": -123.04,
     "zoom_hint": "wide",
     "first_seen_date": "2026-05-18",
-    "_synthesized_from_deal": true
+    "_synthesized_from_deal": true,
+    "categories": [
+      "M&A",
+      "Public Co.",
+      "Renewable Fuels"
+    ]
   },
   {
     "date": "2022-08-03",
@@ -2675,7 +3244,11 @@
     "longitude": -119.418,
     "zoom_hint": "wide",
     "first_seen_date": "2026-05-18",
-    "_synthesized_from_deal": true
+    "_synthesized_from_deal": true,
+    "categories": [
+      "M&A",
+      "Public Co."
+    ]
   },
   {
     "date": "2017-11-01",
@@ -2692,7 +3265,10 @@
     "longitude": -96.949,
     "zoom_hint": "narrow",
     "first_seen_date": "2026-05-18",
-    "_synthesized_from_deal": true
+    "_synthesized_from_deal": true,
+    "categories": [
+      "M&A"
+    ]
   },
   {
     "date": "2017-04-04",
@@ -2709,7 +3285,10 @@
     "longitude": -71.552,
     "zoom_hint": "narrow",
     "first_seen_date": "2026-05-18",
-    "_synthesized_from_deal": true
+    "_synthesized_from_deal": true,
+    "categories": [
+      "M&A"
+    ]
   },
   {
     "date": "2016-07-25",
@@ -2726,7 +3305,10 @@
     "longitude": -95.3698,
     "zoom_hint": "wide",
     "first_seen_date": "2026-05-18",
-    "_synthesized_from_deal": true
+    "_synthesized_from_deal": true,
+    "categories": [
+      "M&A"
+    ]
   },
   {
     "date": null,
@@ -2742,7 +3324,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2000-01-01"
+    "first_seen_date": "2000-01-01",
+    "categories": [
+      "Regulatory"
+    ]
   },
   {
     "date": null,
@@ -2758,7 +3343,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2000-01-01"
+    "first_seen_date": "2000-01-01",
+    "categories": [
+      "Industry Events"
+    ]
   },
   {
     "date": null,
@@ -2774,6 +3362,10 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null,
-    "first_seen_date": "2000-01-01"
+    "first_seen_date": "2000-01-01",
+    "categories": [
+      "ESG",
+      "Renewable Fuels"
+    ]
   }
 ]
