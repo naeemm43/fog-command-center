@@ -2,18 +2,24 @@
 """Send the daily FOG industry briefing email after refresh_data.py runs.
 
 Reads data/last_refresh.json (written by refresh_data.py) for the list of
-new news + deal items added in this run. If nothing was added, exits 0
-without sending anything — we never want the inbox to fill up with empty
-"no updates" notes.
+new news + deal items added in this run. Always sends an email — quiet
+days produce a short "no activity" note rather than silence — so
+external recipients always know the pipeline ran today.
 
 Auth: Gmail SMTP via app password. Required env vars (set as GitHub
 Actions secrets):
-  - GMAIL_ADDRESS       e.g. "you@gmail.com" (both the From and the SMTP auth user)
-  - GMAIL_APP_PASSWORD  16-char app password from accounts.google.com → Security → App passwords
-  - RECIPIENT_EMAIL     where the digest goes (can be the same as GMAIL_ADDRESS)
+  - GMAIL_ADDRESS       e.g. "you@gmail.com" — used for both the From
+                        header and SMTP auth user.
+  - GMAIL_APP_PASSWORD  16-char app password from accounts.google.com
+                        → Security → App passwords.
+  - RECIPIENT_EMAIL     comma-separated. FIRST address goes in the To:
+                        header; the rest land in Bcc so external
+                        recipients don't see each other's addresses.
+                        The first address should always be the owner.
 
-The HTML is intentionally inline-styled — Gmail strips <style> blocks in
-many client renderings, so each element carries its own style attribute.
+The HTML is intentionally inline-styled — Gmail strips <style> blocks
+in many client renderings, so each element carries its own style
+attribute.
 """
 
 from __future__ import annotations
@@ -21,17 +27,22 @@ from __future__ import annotations
 import html
 import json
 import os
+import re
 import smtplib
 import ssl
 import sys
+import urllib.error
+import urllib.request
 from datetime import datetime, timezone
 from email.message import EmailMessage
+from email.utils import formataddr
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LAST_REFRESH_PATH = os.path.join(ROOT, "data", "last_refresh.json")
 
 SITE_URL = "https://naeemm43.github.io/fog-command-center/"
 BRAND_NAVY = "#1F3864"
+FROM_DISPLAY_NAME = "FOG Industry Briefing"
 
 # Category badge colors — kept in sync with build_index.py's news-card CSS
 # so the email and the command-center page feel like one product.
@@ -61,6 +72,120 @@ def fmt_date(s: str | None) -> str:
     except ValueError:
         return s
 
+
+# ============================================================================
+# Pre-flight validation. The briefing goes to external counterparties now;
+# broken links and ragged content look unprofessional. We drop individual
+# bad items quietly and only fall back to the maintenance template if the
+# email would be almost entirely empty after filtering.
+# ============================================================================
+
+# Strip tags from any user-visible string. Anthropic web_search occasionally
+# leaves <cite index="...">...</cite> or HTML in headlines/summaries even
+# after the upstream cleaner runs. We use this regex both as a detector
+# (validation) and as a one-shot stripper (auto-fix).
+_TAG_RX = re.compile(r"</?[A-Za-z][^>]*>|antml:cite\b", re.IGNORECASE)
+_BAD_CHAR_RX = re.compile(r"[\x00-\x08\x0B\x0C\x0E-\x1F]")
+
+# Network failure modes that mean a link is actually broken. Anti-bot
+# responses (403/405/406/429) are NOT counted as broken — many legitimate
+# news sites block HEAD requests but render fine in a browser.
+_DEAD_HTTP_CODES = {400, 404, 410}
+
+
+def _check_url(url: str, timeout: float = 5.0) -> bool:
+    """Return False only when the URL is unambiguously broken (connection
+    failure, DNS failure, or a 4xx that means "not found"). Anti-bot and
+    auth-wall responses pass — we don't want to drop legitimate articles
+    from a paywalled publication."""
+    if not url:
+        return True
+    req = urllib.request.Request(
+        url, method="HEAD",
+        headers={"User-Agent": "Mozilla/5.0 (compatible; FOG-Briefing/1.0)"},
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            status = getattr(resp, "status", 200)
+            return status not in _DEAD_HTTP_CODES
+    except urllib.error.HTTPError as e:
+        return e.code not in _DEAD_HTTP_CODES
+    except (urllib.error.URLError, TimeoutError, ConnectionError, OSError):
+        return False
+    except Exception:
+        # Defensive: any other parser/protocol error → don't trust the link.
+        return False
+
+
+def _has_bad_text(*fields: str | None) -> str | None:
+    """Return a reason string if any field has HTML/citation tags or
+    control characters; None when everything looks clean."""
+    for f in fields:
+        if not f:
+            continue
+        if _TAG_RX.search(f):
+            return "tag/citation marker present"
+        if _BAD_CHAR_RX.search(f):
+            return "control character present"
+    return None
+
+
+def validate_news_items(items: list[dict], dead_urls: set[str]) -> list[dict]:
+    """Return only the items safe to publish. Reasons for dropping are
+    written to stderr so a maintainer auditing the run can see exactly
+    what got filtered."""
+    out: list[dict] = []
+    for n in items:
+        bad = _has_bad_text(n.get("headline"), n.get("summary"))
+        if bad:
+            sys.stderr.write(f"  drop news: {bad} | {(n.get('headline') or '')[:80]}\n")
+            continue
+        url = n.get("source_url") or ""
+        if url and url in dead_urls:
+            sys.stderr.write(f"  drop news: broken URL ({url}) | {(n.get('headline') or '')[:80]}\n")
+            continue
+        out.append(n)
+    return out
+
+
+def validate_deals(deals: list[dict]) -> list[dict]:
+    """Deal table rows that don't have a date, target, and acquirer look
+    visually broken in the email — drop them."""
+    out: list[dict] = []
+    for d in deals:
+        if not (d.get("date") or "").strip():
+            sys.stderr.write(f"  drop deal: empty date | target={d.get('target')!r}\n")
+            continue
+        if not (d.get("target") or "").strip():
+            sys.stderr.write(f"  drop deal: empty target | date={d.get('date')!r}\n")
+            continue
+        if not (d.get("acquirer") or "").strip():
+            sys.stderr.write(f"  drop deal: empty acquirer | target={d.get('target')!r}\n")
+            continue
+        bad = _has_bad_text(d.get("target"), d.get("acquirer"), d.get("location"))
+        if bad:
+            sys.stderr.write(f"  drop deal: {bad} | target={d.get('target')!r}\n")
+            continue
+        out.append(d)
+    return out
+
+
+def precheck_urls(items: list[dict]) -> set[str]:
+    """HEAD-check every distinct URL in the candidate list. Returns the
+    set of URLs that are unambiguously dead."""
+    urls = {n.get("source_url") for n in items if n.get("source_url")}
+    dead: set[str] = set()
+    for u in urls:
+        if not _check_url(u):
+            dead.add(u)
+    if dead:
+        sys.stderr.write(f"  pre-flight: {len(dead)} broken URL(s) detected\n")
+    return dead
+
+
+# ============================================================================
+# HTML builders
+# ============================================================================
 
 def render_deals_table(deals: list[dict]) -> str:
     if not deals:
@@ -94,8 +219,6 @@ def render_news_list(news: list[dict], heading: str = "NEW TODAY",
                       heading_color: str | None = None) -> str:
     if not news:
         return ""
-    # Defensive resort by date desc — refresh_data.py already sorts but
-    # we don't want the email to be at the mercy of upstream changes.
     news = sorted(news, key=lambda x: x.get("date") or "1900-01-01", reverse=True)
     cards = []
     for n in news:
@@ -163,41 +286,86 @@ def render_tier2_alerts(news: list[dict], deals: list[dict]) -> str:
     )
 
 
-def build_empty_html() -> str:
-    """Short body sent on days when refresh_data.py found zero new items.
-    Better than silence — confirms the pipeline ran and there just wasn't
-    anything to report."""
-    today = datetime.now(timezone.utc).strftime("%B %d, %Y")
+def render_footer(refreshed_ts: str | None = None) -> str:
+    """Shared footer used by all three email templates (digest, quiet,
+    maintenance). Includes the View link, the unsubscribe instruction,
+    and a small signature block with the last-refreshed timestamp."""
+    if refreshed_ts:
+        try:
+            ts_pretty = (datetime.fromisoformat(refreshed_ts.replace("Z", "+00:00"))
+                         .strftime("%Y-%m-%d %H:%M UTC"))
+        except (ValueError, AttributeError):
+            ts_pretty = refreshed_ts
+    else:
+        ts_pretty = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    return f"""
+  <div style="background:#f5f7fa;padding:18px 28px;border-top:1px solid #e0e4ea;font-size:12px;color:#666;text-align:center;">
+    <div><a href="{SITE_URL}" style="color:{BRAND_NAVY};text-decoration:none;font-weight:600;">View Command Center →</a></div>
+    <div style="margin-top:10px;color:#888;font-size:11px;">
+      To unsubscribe from this briefing, reply with UNSUBSCRIBE in the subject line.
+    </div>
+    <div style="margin-top:16px;padding-top:12px;border-top:1px solid #e0e4ea;color:#777;font-size:11px;line-height:1.6;">
+      <div style="font-weight:600;color:#444;">FOG Industry Command Center</div>
+      <div>Automated daily briefing covering the U.S. non-hazardous liquid waste industry.</div>
+      <div style="color:#999;">Powered by automated industry intelligence — last refreshed {esc(ts_pretty)}.</div>
+    </div>
+  </div>"""
+
+
+def _shell(title: str, body_inner: str, refreshed_ts: str | None) -> str:
     return f"""<!DOCTYPE html>
 <html><head><meta charset="utf-8"></head>
 <body style="margin:0;padding:0;background:#f0f2f5;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#222;">
 <div style="max-width:720px;margin:0 auto;background:#fff;">
   <div style="background:{BRAND_NAVY};color:#fff;padding:24px 28px;">
     <div style="font-size:13px;letter-spacing:1px;color:#8FAADC;text-transform:uppercase;margin-bottom:4px;">FOG Industry Command Center</div>
-    <div style="font-size:22px;font-weight:600;">Daily Briefing — {esc(today)}</div>
+    <div style="font-size:22px;font-weight:600;">{esc(title)}</div>
   </div>
-  <div style="padding:28px;text-align:center;">
-    <p style="font-size:15px;color:#444;margin:0 0 16px 0;">No new FOG industry news or deals found in the last 24 hours.</p>
-    <p style="font-size:13px;color:#888;margin:0;">The refresh pipeline ran successfully; no headlines met the recency cutoff.</p>
-  </div>
-  <div style="background:#f5f7fa;padding:18px 28px;border-top:1px solid #e0e4ea;font-size:12px;color:#666;text-align:center;">
-    <a href="{SITE_URL}" style="color:{BRAND_NAVY};text-decoration:none;font-weight:600;">View Command Center →</a>
-    <div style="margin-top:8px;color:#888;font-size:11px;">This briefing is auto-generated. Reply with questions.</div>
-  </div>
+  {body_inner}
+  {render_footer(refreshed_ts)}
 </div>
 </body></html>
 """
 
 
-def build_html(summary: dict) -> str:
-    # Prefer the split lists; fall back to the legacy `new_news` for any
-    # last_refresh.json written by the pre-split refresh script.
-    new_today = summary.get("new_today_news")
-    backfill = summary.get("backfill_news") or []
-    if new_today is None:
-        new_today = summary.get("new_news") or []
-    new_deals = summary.get("new_deals") or []
+def build_quiet_html(refreshed_ts: str | None) -> str:
+    """Quiet-day body. Sent when 0 new today-news AND 0 new deals — the
+    pipeline ran but had nothing material to report. Better than silence:
+    external recipients always know the system is alive."""
+    today = datetime.now(timezone.utc).strftime("%B %d, %Y")
+    inner = """
+  <div style="padding:28px;">
+    <p style="font-size:15px;color:#333;margin:0 0 16px 0;line-height:1.55;">
+      No significant FOG industry M&amp;A activity or news in the last 24 hours.
+    </p>
+    <p style="font-size:14px;color:#555;margin:0 0 16px 0;line-height:1.55;">
+      The Command Center continues to monitor 10 industry categories daily and
+      will alert you when material activity occurs.
+    </p>
+  </div>"""
+    return _shell(f"Daily Briefing — {today} (Quiet Day)", inner, refreshed_ts)
 
+
+def build_maintenance_html(refreshed_ts: str | None) -> str:
+    """Fallback body sent when pre-flight validation drops so much
+    content that the briefing would look broken. The recipient still
+    knows the pipeline ran; we don't ship visibly half-rendered output."""
+    today = datetime.now(timezone.utc).strftime("%B %d, %Y")
+    inner = """
+  <div style="padding:28px;">
+    <p style="font-size:15px;color:#333;margin:0 0 16px 0;line-height:1.55;">
+      The Command Center is undergoing a routine data-quality check today.
+    </p>
+    <p style="font-size:14px;color:#555;margin:0 0 16px 0;line-height:1.55;">
+      Today's briefing is suppressed pending review. Tomorrow's regularly
+      scheduled briefing will resume automatically.
+    </p>
+  </div>"""
+    return _shell(f"Daily Briefing — {today} (System Maintenance)", inner, refreshed_ts)
+
+
+def build_digest_html(new_today: list[dict], backfill: list[dict],
+                       new_deals: list[dict], refreshed_ts: str | None) -> str:
     today = datetime.now(timezone.utc).strftime("%B %d, %Y")
     deals_section = render_deals_table(new_deals)
     tier2_section = render_tier2_alerts(new_today + backfill, new_deals)
@@ -220,28 +388,42 @@ def build_html(summary: dict) -> str:
         )
     summary_line = "Added " + ", ".join(parts) + "."
 
-    return f"""<!DOCTYPE html>
-<html><head><meta charset="utf-8"></head>
-<body style="margin:0;padding:0;background:#f0f2f5;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#222;">
-<div style="max-width:720px;margin:0 auto;background:#fff;">
-  <div style="background:{BRAND_NAVY};color:#fff;padding:24px 28px;">
-    <div style="font-size:13px;letter-spacing:1px;color:#8FAADC;text-transform:uppercase;margin-bottom:4px;">FOG Industry Command Center</div>
-    <div style="font-size:22px;font-weight:600;">Daily Briefing — {esc(today)}</div>
-  </div>
+    inner = f"""
   <div style="padding:20px 28px;">
     <p style="font-size:14px;color:#444;margin:0 0 8px 0;">{summary_line}</p>
     {tier2_section}
     {deals_section}
     {news_section}
     {backfill_section}
-  </div>
-  <div style="background:#f5f7fa;padding:18px 28px;border-top:1px solid #e0e4ea;font-size:12px;color:#666;text-align:center;">
-    <a href="{SITE_URL}" style="color:{BRAND_NAVY};text-decoration:none;font-weight:600;">View Command Center →</a>
-    <div style="margin-top:8px;color:#888;font-size:11px;">This briefing is auto-generated. Reply with questions.</div>
-  </div>
-</div>
-</body></html>
-"""
+  </div>"""
+    return _shell(f"Daily Briefing — {today}", inner, refreshed_ts)
+
+
+# ============================================================================
+# Send orchestration
+# ============================================================================
+
+def _parse_recipients(raw: str | None) -> tuple[str | None, list[str]]:
+    """Parse a comma-separated RECIPIENT_EMAIL into (primary, bcc_list).
+    The first address is the owner / primary 'To'; everything else is
+    BCC'd so external recipients never see each other's addresses."""
+    if not raw:
+        return None, []
+    addrs = [a.strip() for a in raw.split(",") if a.strip()]
+    if not addrs:
+        return None, []
+    return addrs[0], addrs[1:]
+
+
+def _build_subject(today_str: str, new_deals: list[dict], actionable: int) -> str:
+    """Per the external-distribution spec: deal count when present,
+    'Quiet Day' tag when nothing was added at all."""
+    if actionable == 0:
+        return f"FOG Industry Briefing — {today_str} (Quiet Day)"
+    if new_deals:
+        n = len(new_deals)
+        return f"FOG Industry Briefing — {today_str} ({n} New Deal{'s' if n != 1 else ''})"
+    return f"FOG Industry Briefing — {today_str}"
 
 
 def main() -> int:
@@ -251,50 +433,94 @@ def main() -> int:
     with open(LAST_REFRESH_PATH, encoding="utf-8") as f:
         summary = json.load(f)
 
-    # The empty-day decision is about whether the user has anything
-    # actionable to read TODAY — backfill items are noise for that
-    # purpose. Use new_today_news + new_deals when present; fall back
-    # to the legacy total only when the new keys aren't there.
-    new_today = summary.get("new_today_news")
-    if new_today is None:
-        new_today = summary.get("new_news") or []
-    new_deals = summary.get("new_deals") or []
+    refreshed_ts = summary.get("timestamp")
+
+    # Read split lists with legacy-key fallback.
+    new_today_raw = summary.get("new_today_news")
+    if new_today_raw is None:
+        new_today_raw = summary.get("new_news") or []
+    backfill_raw = summary.get("backfill_news") or []
+    new_deals_raw = summary.get("new_deals") or []
+
+    # Pre-flight: URL check (only the news items have URLs we'd link to)
+    # then per-item content validation. Bad items are dropped quietly;
+    # we fall back to the maintenance template only if validation would
+    # gut the briefing — defined as ">=50% of news dropped" so a single
+    # bad link can't kill the email.
+    pre_news_total = len(new_today_raw) + len(backfill_raw)
+    dead = precheck_urls(new_today_raw + backfill_raw)
+    new_today = validate_news_items(new_today_raw, dead)
+    backfill = validate_news_items(backfill_raw, dead)
+    new_deals = validate_deals(new_deals_raw)
+    dropped = pre_news_total - (len(new_today) + len(backfill))
+    deals_dropped = len(new_deals_raw) - len(new_deals)
+
+    fall_back_to_maintenance = False
+    if pre_news_total > 0 and dropped >= max(2, (pre_news_total + 1) // 2):
+        sys.stderr.write(
+            f"pre-flight gutted the briefing ({dropped}/{pre_news_total} news dropped) — "
+            f"falling back to maintenance template.\n"
+        )
+        fall_back_to_maintenance = True
+    if deals_dropped and len(new_deals) == 0 and len(new_deals_raw) > 0:
+        sys.stderr.write(
+            "all deals failed validation — falling back to maintenance template.\n"
+        )
+        fall_back_to_maintenance = True
+
     actionable = len(new_today) + len(new_deals)
 
+    # Credentials + recipient parsing.
     gmail_addr = os.environ.get("GMAIL_ADDRESS")
     gmail_pw = os.environ.get("GMAIL_APP_PASSWORD")
-    recipient = os.environ.get("RECIPIENT_EMAIL")
-    missing = [k for k, v in [
-        ("GMAIL_ADDRESS", gmail_addr),
-        ("GMAIL_APP_PASSWORD", gmail_pw),
-        ("RECIPIENT_EMAIL", recipient),
-    ] if not v]
+    raw_recipients = os.environ.get("RECIPIENT_EMAIL")
+    primary, bcc = _parse_recipients(raw_recipients)
+    missing = []
+    if not gmail_addr: missing.append("GMAIL_ADDRESS")
+    if not gmail_pw:   missing.append("GMAIL_APP_PASSWORD")
+    if not primary:    missing.append("RECIPIENT_EMAIL")
     if missing:
         sys.stderr.write(f"missing env: {', '.join(missing)} — cannot send email\n")
         return 1
 
-    today = datetime.now(timezone.utc).strftime("%B %d, %Y")
-    msg = EmailMessage()
-    msg["Subject"] = f"FOG Industry Daily Briefing — {today}"
-    msg["From"] = gmail_addr
-    msg["To"] = recipient
+    today_str = datetime.now(timezone.utc).strftime("%B %d, %Y")
+    subject = _build_subject(today_str, new_deals, actionable)
 
-    if actionable == 0:
-        msg.set_content(
-            "No new FOG industry news or deals found in the last 24 hours. "
-            f"Visit the command center: {SITE_URL}"
-        )
-        msg.add_alternative(build_empty_html(), subtype="html")
-        print(f"Sending empty-day digest (backfill={len(summary.get('backfill_news') or [])}) → {recipient}")
+    msg = EmailMessage()
+    msg["Subject"] = subject
+    msg["From"] = formataddr((FROM_DISPLAY_NAME, gmail_addr))
+    msg["To"] = primary
+    if bcc:
+        # Bcc is recognized by EmailMessage; smtplib's send_message()
+        # strips it from the wire headers but still uses it for routing,
+        # so external recipients never see one another's addresses.
+        msg["Bcc"] = ", ".join(bcc)
+
+    plain_intro = (
+        "FOG Industry Briefing — view the HTML version for the formatted "
+        f"daily briefing, or visit {SITE_URL}\n\n"
+        "To unsubscribe, reply with UNSUBSCRIBE in the subject line."
+    )
+    msg.set_content(plain_intro)
+
+    if fall_back_to_maintenance:
+        body_html = build_maintenance_html(refreshed_ts)
+        mode = "maintenance"
+    elif actionable == 0:
+        body_html = build_quiet_html(refreshed_ts)
+        mode = "quiet"
     else:
-        msg.set_content(
-            "This email's HTML version contains the daily FOG industry briefing. "
-            f"Open in an HTML-capable client to view, or visit {SITE_URL}"
-        )
-        msg.add_alternative(build_html(summary), subtype="html")
-        print(f"Sending digest: {len(new_today)} new today, "
-              f"{len(summary.get('backfill_news') or [])} backfill, "
-              f"{len(new_deals)} deals → {recipient}")
+        body_html = build_digest_html(new_today, backfill, new_deals, refreshed_ts)
+        mode = "digest"
+
+    msg.add_alternative(body_html, subtype="html")
+
+    print(f"Sending {mode} → To: {primary}, Bcc: {len(bcc)} recipient(s) | "
+          f"subject: {subject!r}")
+    print(f"  content: {len(new_today)} today / {len(backfill)} backfill / "
+          f"{len(new_deals)} deals (validation dropped: "
+          f"{dropped} news, {deals_dropped} deals)")
+
     ctx = ssl.create_default_context()
     with smtplib.SMTP("smtp.gmail.com", 587) as s:
         s.starttls(context=ctx)
