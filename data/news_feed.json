@@ -19,6 +19,25 @@
     ]
   },
   {
+    "date": "2026-05-18",
+    "headline": "Restaurant job growth uneven across states; Full-service segment added 97,000 jobs between March 2025 and March 2026",
+    "source": "National Restaurant Association",
+    "source_url": "https://restaurant.org/research-and-media/research/restaurant-economic-insights/economic-indicators/total-restaurant-industry-jobs/",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "summary": "Full-service restaurant employment remains 193,000 jobs below pre-pandemic levels as of March 2026, though the segment added 97,000 net jobs in the past year. Meanwhile, limited-service employment stands above pre-pandemic readings, with snack and nonalcoholic beverage bars up 25% and quick-service restaurants up 1.6%.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-18"
+  },
+  {
     "date": "2026-05-16",
     "headline": "Waste to Energy Application Portal Open Through May 31, 2026",
     "source": "U.S. Department of Energy",
@@ -441,6 +460,25 @@
     ],
     "summary": "Interview segment featuring Darling Ingredients' executive VP and CFO Bob Day discussing how the company converts food waste and animal byproducts into renewable fuel, collagen, and other value-added products. Darling Ingredients positions itself as a leader in circular economy and waste valorization.",
     "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-18"
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "The 6 Biggest Chain Restaurant Closures Of 2026 So Far",
+    "source": "Tasting Table",
+    "source_url": "https://www.tastingtable.com/2168401/biggest-chain-restaurant-closures-2026/",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "summary": "Wendy's is closing around 300 stores in 2026, with Smokey Bones completing all closures as of April 28, 2026. Bahama Breeze closed 14 locations (half its footprint) in April, and other chains including Peet's Coffee are reducing their physical locations.",
+    "relevance_score": 2,
     "is_deal": false,
     "is_target_market": false,
     "target_market_name": null,

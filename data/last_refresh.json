@@ -1,21 +1,20 @@
 {
-  "timestamp": "2026-05-18T16:01:48Z",
-  "added_news_count": 3,
+  "timestamp": "2026-05-18T16:17:24Z",
+  "added_news_count": 2,
   "added_deals_count": 0,
-  "archived_count": 9,
+  "archived_count": 0,
   "new_today_news": [
     {
-      "date": "2026-05-13",
-      "headline": "WEF Purchases First U.S. Watershed-Based Carbon Offset Credits; Names Madison Metropolitan Sewerage District Official Carbon Offset Partner of WEFTEC 2026",
-      "source": "Water Environment Federation",
-      "source_url": "https://www.wef.org/about/Governance/about/",
-      "category": "Industry Events",
+      "date": "2026-05-18",
+      "headline": "Restaurant job growth uneven across states; Full-service segment added 97,000 jobs between March 2025 and March 2026",
+      "source": "National Restaurant Association",
+      "source_url": "https://restaurant.org/research-and-media/research/restaurant-economic-insights/economic-indicators/total-restaurant-industry-jobs/",
+      "category": "Restaurant",
       "categories": [
-        "Industry Events",
-        "ESG"
+        "Restaurant"
       ],
-      "summary": "WEF announces purchase of watershed-based carbon offset credits and designates Madison Metropolitan Sewerage District as official carbon partner for WEFTEC 2026 conference scheduled for September in New Orleans.",
-      "relevance_score": 3,
+      "summary": "Full-service restaurant employment remains 193,000 jobs below pre-pandemic levels as of March 2026, though the segment added 97,000 net jobs in the past year. Meanwhile, limited-service employment stands above pre-pandemic readings, with snack and nonalcoholic beverage bars up 25% and quick-service restaurants up 1.6%.",
+      "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
@@ -23,40 +22,20 @@
       "longitude": null,
       "zoom_hint": null,
       "first_seen_date": "2026-05-18"
-    },
+    }
+  ],
+  "recent_news": [
     {
       "date": "2026-05-12",
-      "headline": "Renewable Fuel from Food Waste: Darling Ingredients",
-      "source": "Fintech.TV",
-      "source_url": "https://fintech.tv/how-darling-ingredients-turns-food-waste-into-renewable-fuel-and-profits/",
-      "category": "Renewable Fuels",
+      "headline": "The 6 Biggest Chain Restaurant Closures Of 2026 So Far",
+      "source": "Tasting Table",
+      "source_url": "https://www.tastingtable.com/2168401/biggest-chain-restaurant-closures-2026/",
+      "category": "Restaurant",
       "categories": [
-        "Renewable Fuels",
-        "Public Co.",
-        "ESG"
+        "Restaurant"
       ],
-      "summary": "Interview segment featuring Darling Ingredients' executive VP and CFO Bob Day discussing how the company converts food waste and animal byproducts into renewable fuel, collagen, and other value-added products. Darling Ingredients positions itself as a leader in circular economy and waste valorization.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-05-18"
-    },
-    {
-      "date": "2026-05-11",
-      "headline": "Darling Ingredients Highlights Growth in Renewable Fuels and Collagen",
-      "source": "TipRanks / Globe and Mail",
-      "source_url": "https://www.tipranks.com/news/company-announcements/darling-ingredients-highlights-growth-in-renewable-fuels-and-collagen",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels",
-        "Public Co."
-      ],
-      "summary": "At its May 11, 2026 Investor Day, Darling Ingredients highlighted Diamond Green Diesel's 1.2 billion gallons of renewable diesel capacity and early SAF adoption, supported by favorable U.S. renewable fuel mandates. The company emphasized rendering, collagen, and renewable fuels as core growth drivers.",
-      "relevance_score": 5,
+      "summary": "Wendy's is closing around 300 stores in 2026, with Smokey Bones completing all closures as of April 28, 2026. Bahama Breeze closed 14 locations (half its footprint) in April, and other chains including Peet's Coffee are reducing their physical locations.",
+      "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
@@ -70,17 +49,16 @@
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-05-13",
-      "headline": "WEF Purchases First U.S. Watershed-Based Carbon Offset Credits; Names Madison Metropolitan Sewerage District Official Carbon Offset Partner of WEFTEC 2026",
-      "source": "Water Environment Federation",
-      "source_url": "https://www.wef.org/about/Governance/about/",
-      "category": "Industry Events",
+      "date": "2026-05-18",
+      "headline": "Restaurant job growth uneven across states; Full-service segment added 97,000 jobs between March 2025 and March 2026",
+      "source": "National Restaurant Association",
+      "source_url": "https://restaurant.org/research-and-media/research/restaurant-economic-insights/economic-indicators/total-restaurant-industry-jobs/",
+      "category": "Restaurant",
       "categories": [
-        "Industry Events",
-        "ESG"
+        "Restaurant"
       ],
-      "summary": "WEF announces purchase of watershed-based carbon offset credits and designates Madison Metropolitan Sewerage District as official carbon partner for WEFTEC 2026 conference scheduled for September in New Orleans.",
-      "relevance_score": 3,
+      "summary": "Full-service restaurant employment remains 193,000 jobs below pre-pandemic levels as of March 2026, though the segment added 97,000 net jobs in the past year. Meanwhile, limited-service employment stands above pre-pandemic readings, with snack and nonalcoholic beverage bars up 25% and quick-service restaurants up 1.6%.",
+      "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
@@ -91,37 +69,15 @@
     },
     {
       "date": "2026-05-12",
-      "headline": "Renewable Fuel from Food Waste: Darling Ingredients",
-      "source": "Fintech.TV",
-      "source_url": "https://fintech.tv/how-darling-ingredients-turns-food-waste-into-renewable-fuel-and-profits/",
-      "category": "Renewable Fuels",
+      "headline": "The 6 Biggest Chain Restaurant Closures Of 2026 So Far",
+      "source": "Tasting Table",
+      "source_url": "https://www.tastingtable.com/2168401/biggest-chain-restaurant-closures-2026/",
+      "category": "Restaurant",
       "categories": [
-        "Renewable Fuels",
-        "Public Co.",
-        "ESG"
+        "Restaurant"
       ],
-      "summary": "Interview segment featuring Darling Ingredients' executive VP and CFO Bob Day discussing how the company converts food waste and animal byproducts into renewable fuel, collagen, and other value-added products. Darling Ingredients positions itself as a leader in circular economy and waste valorization.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-05-18"
-    },
-    {
-      "date": "2026-05-11",
-      "headline": "Darling Ingredients Highlights Growth in Renewable Fuels and Collagen",
-      "source": "TipRanks / Globe and Mail",
-      "source_url": "https://www.tipranks.com/news/company-announcements/darling-ingredients-highlights-growth-in-renewable-fuels-and-collagen",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels",
-        "Public Co."
-      ],
-      "summary": "At its May 11, 2026 Investor Day, Darling Ingredients highlighted Diamond Green Diesel's 1.2 billion gallons of renewable diesel capacity and early SAF adoption, supported by favorable U.S. renewable fuel mandates. The company emphasized rendering, collagen, and renewable fuels as core growth drivers.",
-      "relevance_score": 5,
+      "summary": "Wendy's is closing around 300 stores in 2026, with Smokey Bones completing all closures as of April 28, 2026. Bahama Breeze closed 14 locations (half its footprint) in April, and other chains including Peet's Coffee are reducing their physical locations.",
+      "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
