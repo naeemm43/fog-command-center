@@ -39,6 +39,8 @@ from email.utils import formataddr
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LAST_REFRESH_PATH = os.path.join(ROOT, "data", "last_refresh.json")
+NEWS_FEED_PATH = os.path.join(ROOT, "data", "news_feed.json")
+NEWS_ARCHIVE_PATH = os.path.join(ROOT, "data", "news_archive.json")
 
 SITE_URL = "https://naeemm43.github.io/fog-command-center/"
 BRAND_NAVY = "#1F3864"
@@ -168,6 +170,62 @@ def validate_deals(deals: list[dict]) -> list[dict]:
             continue
         out.append(d)
     return out
+
+
+def preflight_deal_news_sync(summary: dict) -> int:
+    """Verify every deal added in this run has a paired news article.
+    If any are missing (which shouldn't happen with the refresh_data.py
+    sync invariant in place), synthesize them, persist to
+    news_feed.json, and inject into the summary so the email reflects
+    the fix. Returns the count of synthesized entries."""
+    new_deals = summary.get("new_deals") or []
+    if not new_deals:
+        return 0
+
+    # Import lazily — keeps send_email_digest.py runnable as a leaf module
+    # even if refresh_data.py is broken.
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    try:
+        import refresh_data as rd
+    except Exception as e:
+        sys.stderr.write(f"  preflight: cannot import refresh_data ({e}); skipping deal-news sync\n")
+        return 0
+
+    try:
+        with open(NEWS_FEED_PATH, encoding="utf-8") as f:
+            feed = json.load(f)
+        with open(NEWS_ARCHIVE_PATH, encoding="utf-8") as f:
+            archive = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError) as e:
+        sys.stderr.write(f"  preflight: cannot load news files ({e}); skipping deal-news sync\n")
+        return 0
+
+    today_iso = datetime.now(timezone.utc).date().isoformat()
+    all_news = feed + archive
+    synthesized: list[dict] = []
+    for d in new_deals:
+        if rd._deal_has_news(d, all_news):
+            continue
+        sys.stderr.write(
+            f"  preflight: deal missing news, synthesizing — "
+            f"{d.get('acquirer','?')} ↔ {d.get('target','?')[:60]}\n"
+        )
+        n = rd.synthesize_news_from_deal(d, today_iso)
+        feed.append(n)
+        all_news.append(n)
+        synthesized.append(n)
+
+    if synthesized:
+        feed.sort(key=lambda x: x.get("date") or "1900-01-01", reverse=True)
+        with open(NEWS_FEED_PATH, "w", encoding="utf-8") as f:
+            json.dump(feed, f, indent=2)
+        # Reflect the fixes in the live summary so the email body shows
+        # them under NEW TODAY (their first_seen_date is today_iso).
+        new_today = summary.setdefault("new_today_news", [])
+        new_today.extend(synthesized)
+        summary["added_news_count"] = (summary.get("added_news_count", 0) or 0) + len(synthesized)
+
+    return len(synthesized)
 
 
 def precheck_urls(items: list[dict]) -> set[str]:
@@ -434,6 +492,15 @@ def main() -> int:
         summary = json.load(f)
 
     refreshed_ts = summary.get("timestamp")
+
+    # Pre-flight invariant: every deal added today must have a news
+    # article. With refresh_data.py's sync invariant in place this is a
+    # defensive no-op on almost every run; we keep it because the email
+    # is the last layer before external distribution and we'd rather
+    # fix-forward than ship inconsistent content.
+    synth_count = preflight_deal_news_sync(summary)
+    if synth_count:
+        sys.stderr.write(f"  preflight: synthesized {synth_count} news entry(ies) to maintain deal/news sync\n")
 
     # Read split lists with legacy-key fallback.
     new_today_raw = summary.get("new_today_news")

@@ -1284,6 +1284,116 @@ def coerce_deal_from_news(raw: dict) -> dict | None:
     return deal
 
 
+# ============================================================================
+# Deal → news synchronization. Every deal entered into comp_database.json
+# must have a matching M&A news article in news_feed.json. This invariant
+# was implicit before (both coerce_* paths ran on the same raw result) but
+# leaked when coerce_news_item rejected on a homepage URL, near-dup match,
+# or recency cutoff — the deal still got captured but no news existed.
+# ============================================================================
+
+
+def _deal_has_news(deal: dict, all_news: list[dict]) -> bool:
+    """Conservative matcher used by both the live sync invariant and the
+    retroactive sync_news_for_deals.py backfill. A news item counts as
+    covering a deal if:
+
+      - The news date is within 30 days of the deal date, AND
+      - Distinctive tokens from both target AND acquirer appear in the
+        news headline (or summary).
+
+    Stricter than refresh_data.is_duplicate_news on purpose — we don't
+    want to skip creating a needed news entry because some unrelated
+    earnings story happened to share a company name.
+    """
+    nt_d = _normalize_company(deal.get("target"))
+    na_d = _normalize_company(deal.get("acquirer"))
+    if not nt_d or not na_d:
+        return True  # nothing useful we could synthesize either
+    t_tokens = set(nt_d.split())
+    a_tokens = set(na_d.split())
+    if not t_tokens or not a_tokens:
+        return True
+    deal_date = deal.get("date")
+    for n in all_news:
+        if not _dates_within(deal_date, n.get("date"), 30):
+            continue
+        text = ((n.get("headline") or "") + " " + (n.get("summary") or ""))
+        text_tokens = set(_normalize_company(text).split())
+        if (t_tokens & text_tokens) and (a_tokens & text_tokens):
+            return True
+    return False
+
+
+def _deal_action_verb(deal_type: str | None) -> str:
+    """Map a comp_database deal_type into the verb used in the
+    synthesized headline. Keeps the wording natural for the common
+    transaction structures rather than forcing 'Acquires' everywhere."""
+    if not deal_type:
+        return "Acquires"
+    t = deal_type.lower()
+    if "merge" in t:
+        return "Merges With"
+    if "divest" in t or "carve" in t:
+        return "Acquires"
+    if "asset" in t:
+        return "Acquires Assets Of"
+    if "investment" in t or "majority" in t or "minority" in t:
+        return "Invests In"
+    return "Acquires"
+
+
+def synthesize_news_from_deal(deal: dict, first_seen: str) -> dict:
+    """Build a news_feed.json-shaped item from a comp_database entry.
+    Inherits Tier 2 flag, lat/lng, and zoom_hint directly from the deal
+    so the map's "Find on Map" link still works."""
+    acquirer = (deal.get("acquirer") or "").strip()
+    target = (deal.get("target") or "").strip()
+    verb = _deal_action_verb(deal.get("deal_type"))
+    headline = f"{acquirer} {verb} {target}".strip()
+
+    # Summary: prefer the deal_summary bullet list joined into a single
+    # paragraph; fall back to the notes string when no bullets exist.
+    summary_src = deal.get("deal_summary")
+    if isinstance(summary_src, list) and summary_src:
+        summary = " ".join(str(x) for x in summary_src if x)
+    elif isinstance(summary_src, str) and summary_src.strip():
+        summary = summary_src.strip()
+    else:
+        summary = (deal.get("notes") or "").strip()
+    if not summary:
+        # Last-resort summary derived from the structured fields so the
+        # email/news card has something to show.
+        bits = []
+        if deal.get("location"):
+            bits.append(f"Location: {deal['location']}")
+        if deal.get("deal_type"):
+            bits.append(f"Type: {deal['deal_type']}")
+        if deal.get("deal_size") and deal["deal_size"] not in ("Undisclosed", "N/A"):
+            bits.append(f"Size: {deal['deal_size']}")
+        if deal.get("sponsor"):
+            bits.append(f"Sponsor: {deal['sponsor']}")
+        summary = ". ".join(bits) or f"{acquirer} announced acquisition of {target}."
+
+    return {
+        "date": deal.get("date"),
+        "headline": clean_summary(headline) or headline,
+        "source": deal.get("source", ""),
+        "source_url": deal.get("source_url", ""),
+        "category": "M&A",
+        "summary": clean_summary(summary) or summary,
+        "relevance_score": 5,
+        "is_deal": True,
+        "is_target_market": bool(deal.get("is_target_market")),
+        "target_market_name": deal.get("target_market_name"),
+        "latitude": deal.get("latitude"),
+        "longitude": deal.get("longitude"),
+        "zoom_hint": deal.get("zoom_hint"),
+        "first_seen_date": first_seen,
+        "_synthesized_from_deal": True,
+    }
+
+
 # ----------------------------- archiving ------------------------------
 
 
@@ -1371,21 +1481,38 @@ def main() -> int:
     today_iso = datetime.now(timezone.utc).date().isoformat()
     added_news = 0
     added_deals = 0
+    synthesized_news = 0  # subset of added_news, for the log
     new_news_items: list[dict] = []
     new_deal_items: list[dict] = []
     for r in raw_results:
         n = coerce_news_item(r)
+        news_added_this_iter = False
         # Dedupe against feed + archive in one combined view.
         if n and not is_duplicate_news(n, news + existing_archive):
             n["first_seen_date"] = today_iso
             news.append(n)
             new_news_items.append(n)
             added_news += 1
+            news_added_this_iter = True
         d = coerce_deal_from_news(r)
         if d and not is_duplicate_deal(d, comps):
             comps.append(d)
             new_deal_items.append(d)
             added_deals += 1
+            # Sync invariant: every deal must have a matching M&A news
+            # article. If coerce_news_item rejected this raw result (e.g.
+            # homepage URL) or is_duplicate_news suppressed it, and no
+            # other news article in the database already covers the deal,
+            # synthesize one from the deal fields.
+            if not news_added_this_iter and not _deal_has_news(d, news + existing_archive):
+                synth = synthesize_news_from_deal(d, today_iso)
+                news.append(synth)
+                new_news_items.append(synth)
+                added_news += 1
+                synthesized_news += 1
+                sys.stderr.write(
+                    f"  synth news from deal: {synth['headline'][:80]}\n"
+                )
 
     # sort newest-first. Coerce None dates to a sentinel — items can land
     # here with date=None when the model returned a result without a
@@ -1460,10 +1587,14 @@ def main() -> int:
     breakdown = ", ".join(f"{c}={cat_counts[c]}" for c in NEWS_CATEGORIES if cat_counts[c])
     categories_present = sum(1 for c in cat_counts if cat_counts[c] > 0)
 
+    synth_note = (
+        f" (of which {synthesized_news} synth'd from deals)"
+        if synthesized_news else ""
+    )
     print(
         f"Refresh complete. {len(news)} total items across {categories_present} categories. "
         f"Breakdown: {breakdown or '(none)'}. "
-        f"Added this run: {added_news} news, {added_deals} deals. "
+        f"Added this run: {added_news} news{synth_note}, {added_deals} deals. "
         f"Archived: {len(archived)}. Comps total: {len(comps)}."
     )
 
