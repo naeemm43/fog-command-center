@@ -45,6 +45,8 @@ NEWS_ARCHIVE_PATH = os.path.join(ROOT, "data", "news_archive.json")
 SITE_URL = "https://naeemm43.github.io/fog-command-center/"
 BRAND_NAVY = "#1F3864"
 FROM_DISPLAY_NAME = "FOG Industry Briefing"
+CURATOR_NAME = "Naeem Muscatwalla"
+CURATOR_EMAIL = "naeemm43@gmail.com"
 
 # Category badge colors — kept in sync with build_index.py's news-card CSS
 # so the email and the command-center page feel like one product.
@@ -372,13 +374,16 @@ def render_footer(refreshed_ts: str | None = None) -> str:
     return f"""
   <div style="background:#f5f7fa;padding:18px 28px;border-top:1px solid #e0e4ea;font-size:12px;color:#666;text-align:center;">
     <div><a href="{SITE_URL}" style="color:{BRAND_NAVY};text-decoration:none;font-weight:600;">View Command Center →</a></div>
-    <div style="margin-top:10px;color:#888;font-size:11px;">
-      To unsubscribe from this briefing, reply with UNSUBSCRIBE in the subject line.
+    <div style="margin-top:18px;padding-top:14px;border-top:1px solid #e0e4ea;color:#444;font-size:12px;line-height:1.7;">
+      <div style="font-weight:600;color:#1F3864;">FOG Industry Command Center</div>
+      <div style="color:#555;">Curated by {esc(CURATOR_NAME)}</div>
+      <div style="color:#555;">Contact: <a href="mailto:{esc(CURATOR_EMAIL)}" style="color:{BRAND_NAVY};text-decoration:none;">{esc(CURATOR_EMAIL)}</a></div>
     </div>
-    <div style="margin-top:16px;padding-top:12px;border-top:1px solid #e0e4ea;color:#777;font-size:11px;line-height:1.6;">
-      <div style="font-weight:600;color:#444;">FOG Industry Command Center</div>
-      <div>Automated daily briefing covering the U.S. non-hazardous liquid waste industry.</div>
-      <div style="color:#999;">Powered by automated industry intelligence — last refreshed {esc(ts_pretty)}.</div>
+    <div style="margin-top:14px;color:#888;font-size:11px;">
+      To unsubscribe, reply with UNSUBSCRIBE in the subject line.
+    </div>
+    <div style="margin-top:14px;color:#999;font-size:10px;">
+      Automated weekday briefing covering the U.S. non-hazardous liquid waste industry — last refreshed {esc(ts_pretty)}.
     </div>
   </div>"""
 

@@ -2,10 +2,11 @@ name: Daily Data Refresh
 
 on:
   schedule:
-    # 7 AM Central Time. CDT (Mar–Nov) is UTC-5 → 12:00 UTC; CST (Nov–Mar)
-    # is UTC-6 → 13:00 UTC. Run both so we always hit ~7 AM local; the
-    # script is idempotent if nothing changed.
-    - cron: '0 12 * * *'
+    # Weekday-only briefing — Monday through Friday at 12:00 UTC
+    # (7 AM CDT / 6 AM CST). Skips weekends so external recipients
+    # don't get Saturday/Sunday emails. workflow_dispatch below
+    # still lets us run on demand from the Actions tab any day.
+    - cron: '0 12 * * 1-5'
   workflow_dispatch:
 
 permissions:
