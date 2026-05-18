@@ -90,7 +90,8 @@ def render_deals_table(deals: list[dict]) -> str:
     )
 
 
-def render_news_list(news: list[dict]) -> str:
+def render_news_list(news: list[dict], heading: str = "NEW TODAY",
+                      heading_color: str | None = None) -> str:
     if not news:
         return ""
     # Defensive resort by date desc — refresh_data.py already sorts but
@@ -131,9 +132,10 @@ def render_news_list(news: list[dict]) -> str:
             f"<div style='font-size:13px;color:#444;line-height:1.5;margin-bottom:6px;'>{esc(n.get('summary'))}</div>"
             f"{source_link}{tm_alert}</div>"
         )
+    color = heading_color or BRAND_NAVY
     return (
-        f"<h3 style='color:{BRAND_NAVY};margin:24px 0 8px 0;font-size:16px;border-bottom:2px solid {BRAND_NAVY};padding-bottom:4px;'>"
-        f"NEW TODAY ({len(news)})</h3>" + "".join(cards)
+        f"<h3 style='color:{color};margin:24px 0 8px 0;font-size:16px;border-bottom:2px solid {color};padding-bottom:4px;'>"
+        f"{esc(heading)} ({len(news)})</h3>" + "".join(cards)
     )
 
 
@@ -188,16 +190,35 @@ def build_empty_html() -> str:
 
 
 def build_html(summary: dict) -> str:
-    new_news = summary.get("new_news") or []
+    # Prefer the split lists; fall back to the legacy `new_news` for any
+    # last_refresh.json written by the pre-split refresh script.
+    new_today = summary.get("new_today_news")
+    backfill = summary.get("backfill_news") or []
+    if new_today is None:
+        new_today = summary.get("new_news") or []
     new_deals = summary.get("new_deals") or []
+
     today = datetime.now(timezone.utc).strftime("%B %d, %Y")
     deals_section = render_deals_table(new_deals)
-    tier2_section = render_tier2_alerts(new_news, new_deals)
-    news_section = render_news_list(new_news)
-    summary_line = (
-        f"Added <b>{len(new_news)}</b> news item{'s' if len(new_news) != 1 else ''} "
-        f"and <b>{len(new_deals)}</b> deal{'s' if len(new_deals) != 1 else ''} today."
+    tier2_section = render_tier2_alerts(new_today + backfill, new_deals)
+    news_section = render_news_list(new_today, heading="NEW TODAY")
+    backfill_section = render_news_list(
+        backfill,
+        heading="BACKFILL — Older articles newly indexed",
+        heading_color="#95a5a6",
     )
+
+    today_count = len(new_today)
+    parts = [
+        f"<b>{today_count}</b> new news item{'s' if today_count != 1 else ''} "
+        f"and <b>{len(new_deals)}</b> deal{'s' if len(new_deals) != 1 else ''} today"
+    ]
+    if backfill:
+        parts.append(
+            f"plus <b>{len(backfill)}</b> older article{'s' if len(backfill) != 1 else ''} "
+            f"newly indexed (backfill — not counted as today's news)"
+        )
+    summary_line = "Added " + ", ".join(parts) + "."
 
     return f"""<!DOCTYPE html>
 <html><head><meta charset="utf-8"></head>
@@ -212,6 +233,7 @@ def build_html(summary: dict) -> str:
     {tier2_section}
     {deals_section}
     {news_section}
+    {backfill_section}
   </div>
   <div style="background:#f5f7fa;padding:18px 28px;border-top:1px solid #e0e4ea;font-size:12px;color:#666;text-align:center;">
     <a href="{SITE_URL}" style="color:{BRAND_NAVY};text-decoration:none;font-weight:600;">View Command Center →</a>
@@ -229,7 +251,15 @@ def main() -> int:
     with open(LAST_REFRESH_PATH, encoding="utf-8") as f:
         summary = json.load(f)
 
-    added = (summary.get("added_news_count", 0) or 0) + (summary.get("added_deals_count", 0) or 0)
+    # The empty-day decision is about whether the user has anything
+    # actionable to read TODAY — backfill items are noise for that
+    # purpose. Use new_today_news + new_deals when present; fall back
+    # to the legacy total only when the new keys aren't there.
+    new_today = summary.get("new_today_news")
+    if new_today is None:
+        new_today = summary.get("new_news") or []
+    new_deals = summary.get("new_deals") or []
+    actionable = len(new_today) + len(new_deals)
 
     gmail_addr = os.environ.get("GMAIL_ADDRESS")
     gmail_pw = os.environ.get("GMAIL_APP_PASSWORD")
@@ -249,21 +279,22 @@ def main() -> int:
     msg["From"] = gmail_addr
     msg["To"] = recipient
 
-    if added == 0:
+    if actionable == 0:
         msg.set_content(
             "No new FOG industry news or deals found in the last 24 hours. "
             f"Visit the command center: {SITE_URL}"
         )
         msg.add_alternative(build_empty_html(), subtype="html")
-        print(f"Sending empty-day digest → {recipient}")
+        print(f"Sending empty-day digest (backfill={len(summary.get('backfill_news') or [])}) → {recipient}")
     else:
         msg.set_content(
             "This email's HTML version contains the daily FOG industry briefing. "
             f"Open in an HTML-capable client to view, or visit {SITE_URL}"
         )
         msg.add_alternative(build_html(summary), subtype="html")
-        print(f"Sending digest: {summary['added_news_count']} news, "
-              f"{summary['added_deals_count']} deals → {recipient}")
+        print(f"Sending digest: {len(new_today)} new today, "
+              f"{len(summary.get('backfill_news') or [])} backfill, "
+              f"{len(new_deals)} deals → {recipient}")
     ctx = ssl.create_default_context()
     with smtplib.SMTP("smtp.gmail.com", 587) as s:
         s.starttls(context=ctx)

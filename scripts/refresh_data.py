@@ -388,11 +388,75 @@ def nearest_target_market(loc: str | None) -> tuple[str, float] | None:
     return best
 
 
+# Filler/stop words and time references stripped from headlines before
+# the fuzzy-match overlap is computed. The goal is to make two press
+# write-ups of the same story collapse onto the same normalized form
+# even when one says "Acme Inc. announces Q1 2026 results" and the other
+# says "Acme announces first-quarter results". Company-form suffixes are
+# included so 'Acme Inc' and 'Acme Corp' don't differ on a single token.
+_HEADLINE_STOPWORDS = {
+    "the", "a", "an", "of", "in", "on", "at", "to", "for",
+    "and", "or", "with", "by", "from", "as", "is", "are",
+    "be", "was", "were", "this", "that", "these", "those",
+    "its", "it", "into", "after", "before",
+}
+_HEADLINE_COMPANY_SUFFIXES = {
+    "inc", "incorporated", "llc", "lc", "corp", "corporation",
+    "ltd", "limited", "co", "company", "lp", "llp", "plc",
+    "ag", "gmbh", "sa",
+}
+_HEADLINE_TIME_TOKENS_RX = re.compile(
+    r"\b(?:20\d{2}|q[1-4]|fy20\d{2}|h[12])\b", re.IGNORECASE,
+)
+
+
 def normalize_headline(s: str) -> str:
+    """Lowercase, strip punctuation, drop stop words / company suffixes /
+    year+quarter tokens, collapse whitespace. Output is a space-joined
+    string of "content" tokens used both for set-overlap comparisons and
+    for exact-match equality checks."""
     s = (s or "").lower()
+    s = _HEADLINE_TIME_TOKENS_RX.sub(" ", s)
     s = re.sub(r"[^a-z0-9 ]", " ", s)
-    s = re.sub(r"\s+", " ", s).strip()
-    return s
+    drop = _HEADLINE_STOPWORDS | _HEADLINE_COMPANY_SUFFIXES
+    tokens = [t for t in s.split() if t and t not in drop]
+    return " ".join(tokens)
+
+
+_PROPER_NOUN_RX = re.compile(r"\b([A-Z][a-zA-Z0-9&]{2,}(?:\s+[A-Z][a-zA-Z0-9&]+)*)\b")
+
+
+def _proper_noun_tokens(s: str) -> set[str]:
+    """Extract capitalized multi/single-word tokens from a raw (non-
+    lowercased) headline. Used as the third dedup axis: same publication
+    date + 4+ shared proper nouns is a strong same-story signal even
+    when the surrounding wording diverges.
+
+    Drops both press-release boilerplate AND generic FOG-industry terms
+    so we don't false-positive cluster (a) two same-day acquisitions by
+    the same acquirer of different targets (Wind River acquires Mahopac
+    AND R Crews on 2019-06-15) or (b) parallel regulation overview
+    articles for different states published the same day."""
+    if not s:
+        return set()
+    junk = {
+        # Press-release boilerplate.
+        "The", "A", "An", "And", "Or", "For", "On", "In", "At",
+        "Q1", "Q2", "Q3", "Q4", "Inc", "LLC", "Corp", "Ltd", "Co",
+        "Company", "Corporation", "Limited", "Incorporated",
+        # Generic FOG-industry terms — capitalized in headlines but
+        # carry zero disambiguation signal in this dataset.
+        "Grease", "Trap", "Septic", "Environmental", "Wastewater",
+        "Waste", "Industrial", "Solutions", "Services", "Service",
+        "Acquires", "Announces", "Reports", "Acquisition", "Acquired",
+        "Regulations", "Regulation", "Guide", "FOG", "UCO",
+    }
+    out: set[str] = set()
+    for m in _PROPER_NOUN_RX.finditer(s):
+        for tok in m.group(0).split():
+            if tok not in junk and len(tok) >= 3:
+                out.add(tok)
+    return out
 
 
 # Anthropic web_search responses sometimes wrap source-citation excerpts in
@@ -505,16 +569,91 @@ def is_future_date(s: str) -> bool:
     return dt > datetime.now(timezone.utc).date()
 
 
+def _dates_within_30(date_a: str | None, date_b: str | None) -> bool:
+    """True iff both ISO dates parse and their delta is <= 30 days. Used
+    to gate the URL-match dedup arm: same URL with very distant dates is
+    treated as a hallucinated URL, not a true duplicate."""
+    if not date_a or not date_b:
+        return False
+    try:
+        da = datetime.fromisoformat(date_a).date()
+        db = datetime.fromisoformat(date_b).date()
+    except (ValueError, TypeError):
+        return False
+    return abs((da - db).days) <= 30
+
+
+def _normalize_url(u: str | None) -> str:
+    """Strip query string + fragment + trailing slash + scheme so two
+    URLs that differ only in tracking params dedupe to the same key."""
+    if not u:
+        return ""
+    s = u.strip().lower()
+    s = re.sub(r"^https?://", "", s)
+    s = re.sub(r"^www\.", "", s)
+    s = s.split("#", 1)[0].split("?", 1)[0]
+    return s.rstrip("/")
+
+
 def is_duplicate_news(item: dict, existing: list[dict]) -> bool:
-    h = item.get("headline", "")
+    """Fuzzy duplicate check. Returns True if the incoming item matches
+    any existing item by any of:
+
+      1. Same canonical URL (scheme/www/query/fragment stripped).
+      2. Normalized-headline word-overlap (Jaccard) >= 0.75.
+      3. Same publication date AND >=3 shared proper-noun tokens
+         in the raw headlines.
+
+    `existing` should include both news_feed.json and news_archive.json
+    so an article that already lived through one archival cycle doesn't
+    get re-introduced."""
+    h = item.get("headline") or ""
     norm = normalize_headline(h)
     if not norm:
         return False
+    item_url = _normalize_url(item.get("source_url"))
+    item_pn = _proper_noun_tokens(h)
+    item_date = item.get("date")
+    item_tokens = set(norm.split())
+
     for e in existing:
-        if normalize_headline(e.get("headline", "")) == norm:
+        e_norm = normalize_headline(e.get("headline") or "")
+        if not e_norm:
+            continue
+        e_tokens = set(e_norm.split())
+
+        # URL match is the strongest signal, BUT some upstream items
+        # carry bogus URLs (model hallucinated the wrong slug, or the
+        # URL is a bare homepage). To avoid collapsing unrelated stories
+        # that share a hallucinated URL, require both minimal token
+        # overlap AND date proximity before honoring the URL match.
+        # Two stories with the same URL but five months apart and
+        # different headlines are almost certainly a data-quality bug,
+        # not the same article.
+        e_url = _normalize_url(e.get("source_url"))
+        if item_url and e_url and item_url == e_url and item_tokens and e_tokens:
+            url_jaccard = len(item_tokens & e_tokens) / len(item_tokens | e_tokens)
+            if url_jaccard >= 0.3 and _dates_within_30(item_date, e.get("date")):
+                return True
+
+        if e_norm == norm:
             return True
-        if headline_overlap(h, e.get("headline", "")) >= 0.8:
-            return True
+
+        if item_tokens and e_tokens:
+            jaccard = len(item_tokens & e_tokens) / len(item_tokens | e_tokens)
+            if jaccard >= 0.75:
+                return True
+
+        if (item_date and e.get("date") == item_date and item_pn):
+            e_pn = _proper_noun_tokens(e.get("headline") or "")
+            # Threshold 4 (not 3) because two same-day stories about
+            # different deals by the same acquirer can share company
+            # name tokens like {Wind, River, Environmental}. Requiring
+            # one additional distinctive shared name forces real-story-
+            # match rather than acquirer-match.
+            if len(item_pn & e_pn) >= 4:
+                return True
+
     return False
 
 
@@ -1217,16 +1356,28 @@ def main() -> int:
     with open(COMPS_PATH, encoding="utf-8") as f:
         comps = json.load(f)
 
+    # Load the archive so the dedupe check sees every article we've
+    # ever recorded — without this, a story that aged into the archive
+    # could be re-introduced as "new" after MAX_AGE_DAYS expires from
+    # the active feed.
+    existing_archive: list[dict] = []
+    if os.path.exists(ARCHIVE_PATH):
+        with open(ARCHIVE_PATH, encoding="utf-8") as f:
+            existing_archive = json.load(f)
+
     raw_results = search_for_updates()
     print(f"Search returned {len(raw_results)} raw results")
 
+    today_iso = datetime.now(timezone.utc).date().isoformat()
     added_news = 0
     added_deals = 0
     new_news_items: list[dict] = []
     new_deal_items: list[dict] = []
     for r in raw_results:
         n = coerce_news_item(r)
-        if n and not is_duplicate_news(n, news):
+        # Dedupe against feed + archive in one combined view.
+        if n and not is_duplicate_news(n, news + existing_archive):
+            n["first_seen_date"] = today_iso
             news.append(n)
             new_news_items.append(n)
             added_news += 1
@@ -1243,14 +1394,10 @@ def main() -> int:
     news.sort(key=lambda x: x.get("date") or "1900-01-01", reverse=True)
     comps.sort(key=lambda x: x.get("date") or "1900-01-01", reverse=True)
 
-    # archive old news
+    # archive old news. existing_archive was loaded earlier for the
+    # cross-file dedup; reuse it here so we don't reread the file.
     news, archived = split_news_by_age(news)
     if archived:
-        existing_archive: list[dict] = []
-        if os.path.exists(ARCHIVE_PATH):
-            with open(ARCHIVE_PATH, encoding="utf-8") as f:
-                existing_archive = json.load(f)
-        # de-dupe archive by headline
         existing_keys = {normalize_headline(a.get("headline", "")) for a in existing_archive}
         for a in archived:
             if normalize_headline(a.get("headline", "")) not in existing_keys:
@@ -1277,17 +1424,30 @@ def main() -> int:
     new_news_items.sort(key=lambda x: x.get("date") or "1900-01-01", reverse=True)
     new_deal_items.sort(key=lambda x: x.get("date") or "1900-01-01", reverse=True)
 
-    # Write a per-run summary that scripts/send_email_digest.py consumes
-    # to build the daily briefing email. Keeping the full new-item list
-    # here (not just counts) so the email script doesn't need to diff
-    # against git or re-fetch.
+    # Split first-seen items into "real new today" vs "backfill". A
+    # backfill item is one we hadn't seen before but whose publication
+    # date is older than 7 days — we keep it in the database but never
+    # surface it in the email's "NEW TODAY" section. Caught the May 16
+    # bug where a May 6 Clean Harbors article landed in NEW TODAY ten
+    # days late.
+    today = datetime.now(timezone.utc).date()
+    cutoff_iso = (today - timedelta(days=7)).isoformat()
+    new_today_news = [n for n in new_news_items
+                       if n.get("date") and n["date"] >= cutoff_iso]
+    backfill_news = [n for n in new_news_items
+                      if not (n.get("date") and n["date"] >= cutoff_iso)]
+
     last_refresh = {
         "timestamp": metadata["lastRefreshed"],
         "added_news_count": added_news,
         "added_deals_count": added_deals,
         "archived_count": len(archived),
-        "new_news": new_news_items,
+        "new_today_news": new_today_news,
+        "backfill_news": backfill_news,
         "new_deals": new_deal_items,
+        # Kept for backward compatibility — anything reading the old key
+        # gets the full list as before.
+        "new_news": new_news_items,
     }
     with open(os.path.join(ROOT, "data", "last_refresh.json"), "w", encoding="utf-8") as f:
         json.dump(last_refresh, f, indent=2)

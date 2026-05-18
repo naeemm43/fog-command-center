@@ -12,7 +12,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-18"
   },
   {
     "date": "2026-05-16",
@@ -27,7 +28,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-16"
   },
   {
     "date": "2026-05-16",
@@ -42,7 +44,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-16"
   },
   {
     "date": "2026-05-16",
@@ -57,7 +60,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-16"
   },
   {
     "date": "2026-05-15",
@@ -72,7 +76,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-15"
   },
   {
     "date": "2026-05-15",
@@ -87,7 +92,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-15"
   },
   {
     "date": "2026-05-14",
@@ -102,7 +108,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-14"
   },
   {
     "date": "2026-05-14",
@@ -117,22 +124,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-05-14",
-    "headline": "Barrel Energy Q1 2026: Revenue $42.4K, Net Loss $6.18K, EPS $(0.01)",
-    "source": "TradingView",
-    "source_url": "https://www.tradingview.com/news/tradingview:4539eb9e55c66:0-barrel-energy-inc-1q-2026-revenue-42-4k-net-income-6-18k-eps-0-01-10-q-summary/",
-    "category": "Public Co.",
-    "summary": "Barrel Energy filed Q1 2026 10-Q results showing revenue of $42.4K and net loss of $6.18K (EPS -$0.01), a swing from prior-year net income of $16.86K. The company reported going concern doubts and disclosed material weakness in internal controls.",
-    "relevance_score": 3,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-14"
   },
   {
     "date": "2026-05-14",
@@ -147,22 +140,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-05-13",
-    "headline": "Is Darling Ingredients' Profit Rebound And Cash Outlook Reshaping The Investment Case?",
-    "source": "Simply Wall St News",
-    "source_url": "https://simplywall.st/stocks/us/food-beverage-tobacco/nyse-dar/darling-ingredients/news/is-darling-ingredients-profit-rebound-and-cash-outlook-resha",
-    "category": "Renewable Fuels",
-    "summary": "Analysis of Darling Ingredients' Q1 2026 return to profitability ($134.3 million net income) and management's projected $4-6 billion cash generation from 2027-2030, emphasizing Diamond Green Diesel as a key earnings driver for the rendering and renewable fuels company.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-14"
   },
   {
     "date": "2026-05-13",
@@ -177,7 +156,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-13"
   },
   {
     "date": "2026-05-13",
@@ -192,7 +172,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-13"
   },
   {
     "date": "2026-05-13",
@@ -207,7 +188,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-13"
   },
   {
     "date": "2026-05-12",
@@ -222,7 +204,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-12"
   },
   {
     "date": "2026-05-12",
@@ -237,7 +220,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-12"
   },
   {
     "date": "2026-05-12",
@@ -252,22 +236,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-05-12",
-    "headline": "Renewable fuel from food waste: Darling Ingredients transforms agricultural waste into sustainable products",
-    "source": "Fintech.TV",
-    "source_url": "https://fintech.tv/how-darling-ingredients-turns-food-waste-into-renewable-fuel-and-profits/",
-    "category": "Renewable Fuels",
-    "summary": "Darling Ingredients positions itself as a leader in converting food waste and animal byproducts into renewable fuels and specialty products, with operations processing over 100 million metric tons of supply globally, emphasizing its role as an essential service for rendering and renewable fuel production.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-12"
   },
   {
     "date": "2026-05-12",
@@ -282,22 +252,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-05-12",
-    "headline": "Darling Ingredients (DAR) Q1 2026 Earnings: Swing to Profitability Driven by Diamond Green Diesel and Renewable Fuel Regulations",
-    "source": "Simply Wall St News",
-    "source_url": "https://simplywall.st/stocks/us/food-beverage-tobacco/nyse-dar/darling-ingredients/news/is-darling-ingredients-profit-rebound-and-cash-outlook-resha",
-    "category": "Renewable Fuels",
-    "summary": "Darling Ingredients reported Q1 2026 net income of $134.31M (vs. loss prior year), with revenue of $1,550.82M. Strong performance in Diamond Green Diesel joint venture under supportive renewable fuel regulations drove the profit inflection. Management projects $4\u20136B cash generation 2027\u20132030.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-12"
   },
   {
     "date": "2026-05-12",
@@ -312,37 +268,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-05-12",
-    "headline": "Renewable Fuel from Food Waste: Darling Ingredients",
-    "source": "Fintech.tv",
-    "source_url": "https://fintech.tv/how-darling-ingredients-turns-food-waste-into-renewable-fuel-and-profits/",
-    "category": "Renewable Fuels",
-    "summary": "Interview with Darling Ingredients executive VP and CFO Bob Day discussing how the company turns agricultural waste into renewable fuel and profitable products. Discussion covered recent investor day emphasis on the renewable fuel standard RFS policy and the company's transformation through acquisitions.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-05-12",
-    "headline": "May 2026 Business Report \u2013 Q1 2026 Solid Waste Sector Highlights",
-    "source": "Waste360",
-    "source_url": "https://www.waste360.com/industry-insights/may-2026-business-report-first-quarter-2026-solid-waste-highlights",
-    "category": "Industry Events",
-    "summary": "Waste360 Business Report covering Q1 2026 results from major publicly traded solid waste companies, including pricing, volumes, fuel costs, and commodity price trends. Includes discussion of RNG development and solid waste margin expansion.",
-    "relevance_score": 2,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-12"
   },
   {
     "date": "2026-05-12",
@@ -357,7 +284,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-12"
   },
   {
     "date": "2026-05-12",
@@ -372,7 +300,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-12"
   },
   {
     "date": "2026-05-11",
@@ -387,7 +316,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-11"
   },
   {
     "date": "2026-05-11",
@@ -402,22 +332,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-05-11",
-    "headline": "Darling Ingredients Highlights Growth in Renewable Fuels and Collagen at Investor Day",
-    "source": "TipRanks",
-    "source_url": "https://www.tipranks.com/news/company-announcements/darling-ingredients-highlights-growth-in-renewable-fuels-and-collagen",
-    "category": "Renewable Fuels",
-    "summary": "Darling Ingredients showcased its evolution into a global leader in rendering, collagen and renewable fuels at its May 11, 2026 Investor Day. The company highlighted Diamond Green Diesel with approximately 1.2 billion gallons of renewable diesel capacity and early adoption of sustainable aviation fuel as key growth drivers.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-11"
   },
   {
     "date": "2026-05-11",
@@ -432,7 +348,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-11"
   },
   {
     "date": "2026-05-11",
@@ -447,67 +364,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-05-11",
-    "headline": "New Way and Hyzon unveil first hydrogen fuel cell refuse truck",
-    "source": "Waste Today",
-    "source_url": "https://www.wastetodaymagazine.com/news/new-way-and-hyzon-unveil-hydrogen-fuel-cell-refuse-truck/",
-    "category": "Technology",
-    "summary": "North America's first hydrogen fuel cell-powered electric refuse truck unveiled at WasteExpo at the Las Vegas Convention Center, following a February joint development agreement between New Way and Hyzon to develop zero-emission refuse collection vehicles.",
-    "relevance_score": 4,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-05-11",
-    "headline": "Cemetery expansion, Wastewater Treatment Plant upgrades up for votes in Erving",
-    "source": "Greenfield Recorder",
-    "source_url": "https://recorder.com/2026/05/11/erving-voters-capital-projects/",
-    "category": "Infrastructure",
-    "summary": "Erving, Massachusetts voters will decide on a $1 million capital project to update the secondary clarifiers at the town-owned Erving Center Wastewater Treatment Plant, which were installed in the 1970s. The town contracts with Erving Industries Inc. to operate the plant under a cost-sharing agreement.",
-    "relevance_score": 3,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-05-11",
-    "headline": "Barrel Energy Inc. Announces Full SEC Reporting Status",
-    "source": "PRNewswire",
-    "source_url": "https://www.prnewswire.com/news-releases/barrel-energy-inc-announces-full-sec-reporting-status-strengthening-marketability-and-positioning-company-for-expansion-in-renewable-and-nutritional-energy-markets-302768505.html",
-    "category": "Public Co.",
-    "summary": "Barrel Energy Inc. (OTC: BRLL) announced that the Company is now a fully reporting company with the U.S. Securities and Exchange Commission (SEC), marking a major turning point in the Company's growth strategy and public market development. Barrel Energy is a diversified energy company focused on renewable energy and nutritional energy initiatives, seeking to leverage strategic acquisitions and innovative energy solutions to create long term shareholder value.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-05-11",
-    "headline": "Darling Ingredients Details Transformation Into Global Leader in Rendering, Collagen and Renewable Fuels at Investor Day",
-    "source": "TipRanks / press sources",
-    "source_url": "https://www.tipranks.com/news/company-announcements/darling-ingredients-highlights-growth-in-renewable-fuels-and-collagen",
-    "category": "Renewable Fuels",
-    "summary": "Darling Ingredients held its May 11, 2026 Investor Day, highlighting Diamond Green Diesel and collagen demand as key growth drivers, supported by global scale and favorable renewables policy backdrop. The company emphasized ~1.2 billion gallons of renewable diesel capacity and early SAF adoption.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-11"
   },
   {
     "date": "2026-05-11",
@@ -522,7 +380,8 @@
     "target_market_name": null,
     "latitude": 43.661,
     "longitude": -70.255,
-    "zoom_hint": "narrow"
+    "zoom_hint": "narrow",
+    "first_seen_date": "2026-05-11"
   },
   {
     "date": "2026-05-11",
@@ -537,67 +396,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-05-11",
-    "headline": "Darling Ingredients Highlights Growth in Renewable Fuels and Collagen",
-    "source": "TipRanks",
-    "source_url": "https://www.tipranks.com/news/company-announcements/darling-ingredients-highlights-growth-in-renewable-fuels-and-collagen",
-    "category": "Renewable Fuels",
-    "summary": "Darling Ingredients held its 2026 Investor Day on May 11, highlighting its transformation into a global leader in rendering, collagen, and renewable fuels. The company emphasized Diamond Green Diesel and collagen demand as key growth drivers, with ~1.2 billion gallons of renewable diesel capacity and early adoption of sustainable aviation fuel.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-05-11",
-    "headline": "Darling Ingredients Q1 2026 Earnings: Record Renewable Diesel Margins and Investor Day Outlook",
-    "source": "Simply Wall St / Company Analysis",
-    "source_url": "https://simplywall.st/stocks/us/food-beverage-tobacco/nyse-dar/darling-ingredients/news/is-darling-ingredients-profit-rebound-and-cash-outlook-reshaping-the-investment-case-for-dar",
-    "category": "Renewable Fuels",
-    "summary": "In early May 2026, Darling reported first-quarter 2026 results showing revenue of US$1.55 billion and net income of US$134.31 million, emphasizing the growing contribution of Diamond Green Diesel and projected US$4\u20136 billion of cash generation from 2027 to 2030.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-05-11",
-    "headline": "Darling Ingredients Renewable Diesel Momentum: How Durable Is It?",
-    "source": "Yahoo Finance",
-    "source_url": "https://ca.finance.yahoo.com/news/darling-ingredients-renewable-diesel-momentum-142600712.html",
-    "category": "Renewable Fuels",
-    "summary": "In Q1 2026, DGD reported robust performance with 272.4 million gallons sold at an average EBITDA of $1.11 per gallon. As renewable diesel demand increases competition for feedstocks, Darling's Feed segment is expected to benefit from stronger fat pricing trends throughout 2026. Regulatory clarity on the RVO has fundamentally shifted the operating environment for Diamond Green Diesel, providing a clear path forward.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-05-11",
-    "headline": "Barrel Energy Inc. Achieves Full SEC Reporting Status",
-    "source": "PR Newswire",
-    "source_url": "https://www.prnewswire.com/news-releases/barrel-energy-inc-announces-full-sec-reporting-status-strengthening-marketability-and-positioning-company-for-expansion-in-renewable-and-nutritional-energy-markets-302768505.html",
-    "category": "Public Co.",
-    "summary": "Barrel Energy (OTC: BRLL) announced transition to fully reporting SEC company status, citing it as a milestone for increasing stock marketability and visibility to support engagement with investors and strategic partners.",
-    "relevance_score": 2,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-11"
   },
   {
     "date": "2026-05-11",
@@ -612,7 +412,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-11"
   },
   {
     "date": "2026-05-10",
@@ -627,7 +428,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-10"
   },
   {
     "date": "2026-05-10",
@@ -642,7 +444,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-10"
   },
   {
     "date": "2026-05-10",
@@ -657,7 +460,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-10"
   },
   {
     "date": "2026-05-09",
@@ -672,7 +476,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-09"
   },
   {
     "date": "2026-05-09",
@@ -687,22 +492,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-05-08",
-    "headline": "Notice of Lodging of Proposed Consent Decree Under the Clean Water Act",
-    "source": "Federal Register",
-    "source_url": "https://www.federalregister.gov/documents/2026/05/08/2026-09114/notice-of-lodging-of-proposed-consent-decree-under-the-clean-water-act",
-    "category": "Infrastructure",
-    "summary": "DOJ lodged a proposed Consent Decree with the U.S. District Court for the District of Massachusetts resolving alleged Clean Water Act violations stemming from discharge of oily bilge water into Fairhaven Harbor, Massachusetts. The decree requires a $200,000 civil penalty.",
-    "relevance_score": 2,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-09"
   },
   {
     "date": "2026-05-08",
@@ -717,7 +508,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-08"
   },
   {
     "date": "2026-05-08",
@@ -732,22 +524,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-05-08",
-    "headline": "Darling Ingredients (DAR) Up 6.7% After Q1 Swing Back to Profitability; Bull Case Reassessment",
-    "source": "Salom Capital",
-    "source_url": "https://www.sahmcapital.com/news/content/darling-ingredients-dar-is-up-67-after-q1-swing-back-to-profitability-has-the-bull-case-changed-2026-05-05",
-    "category": "Renewable Fuels",
-    "summary": "Q1 2026 earnings showed sharp move from loss to profit, helped by stronger core ingredients and Diamond Green Diesel performance under supportive renewable fuel regulations. Equity analyst assesses whether profit rebound and margin recovery shift the investment narrative.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-08"
   },
   {
     "date": "2026-05-07",
@@ -762,7 +540,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-07"
   },
   {
     "date": "2026-05-07",
@@ -777,7 +556,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-07"
   },
   {
     "date": "2026-05-07",
@@ -792,7 +572,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-07"
   },
   {
     "date": "2026-05-07",
@@ -807,7 +588,8 @@
     "target_market_name": null,
     "latitude": 38.313,
     "longitude": -117.055,
-    "zoom_hint": "wide"
+    "zoom_hint": "wide",
+    "first_seen_date": "2026-05-07"
   },
   {
     "date": "2026-05-07",
@@ -822,7 +604,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-07"
   },
   {
     "date": "2026-05-06",
@@ -837,22 +620,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-05-06",
-    "headline": "Clean Harbors Announces First-Quarter 2026 Financial Results",
-    "source": "Business Wire",
-    "source_url": "https://ir.cleanharbors.com/news-releases/news-release-details/clean-harbors-announces-first-quarter-2026-financial-results",
-    "category": "Public Co.",
-    "summary": "Clean Harbors posted record Q1 2026 revenue of $1.46 billion with adjusted EBITDA of $247.9 million (up 6%), generating EPS of $1.19. The Environmental Services segment delivered its 16th consecutive quarter of year-over-year EBITDA margin improvement. The company raised 2026 guidance for adjusted EBITDA to $1.24\u20131.30 billion and adjusted free cash flow to $490\u2013550 million.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-06"
   },
   {
     "date": "2026-05-06",
@@ -867,7 +636,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-06"
   },
   {
     "date": "2026-05-06",
@@ -882,37 +652,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-05-06",
-    "headline": "Clean Harbors Q1 2026 Earnings: Record Revenue and Raised Full-Year Guidance",
-    "source": "Business Wire",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/822818/000082281826000017/clh-q12026pressrelease.htm",
-    "category": "Public Co.",
-    "summary": "Clean Harbors reported record Q1 2026 revenue of $1.459 billion with net income of $63.2 million and EPS of $1.19, beating analyst expectations. Adjusted EBITDA rose 6% to $247.9 million with a 60 basis point margin expansion to 17.0%, driven by strong environmental services performance and higher base oil pricing. The company raised full-year 2026 adjusted EBITDA guidance to $1.24-1.30 billion.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-05-06",
-    "headline": "Clean Harbors Q1 2026 Results: 16th Consecutive Quarter of ES Margin Improvement",
-    "source": "Yahoo Finance",
-    "source_url": "https://finance.yahoo.com/markets/stocks/articles/clean-harbors-q1-earnings-call-200429890.html",
-    "category": "Public Co.",
-    "summary": "Clean Harbors' Environmental Services segment delivered its 16th consecutive quarter of year-over-year adjusted EBITDA margin improvement, with field services revenue growing 7% as emergency response and PFAS-related business expanded. The company generated over $120 million in PFAS-related revenue in 2025 with expected 2026 growth in the 25-35% range.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-06"
   },
   {
     "date": "2026-05-06",
@@ -927,7 +668,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-06"
   },
   {
     "date": "2026-05-06",
@@ -942,7 +684,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-06"
   },
   {
     "date": "2026-05-06",
@@ -957,37 +700,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-05-06",
-    "headline": "Darling Ingredients Reports Q1 2026 Results with Net Income of $134.3M and EPS of $0.83",
-    "source": "Business Wire",
-    "source_url": "https://www.businesswire.com/news/home/20260429002364/en/Darling-Ingredients-Inc.-Reports-First-Quarter-2026-Results",
-    "category": "Public Co.",
-    "summary": "Darling Ingredients reported Q1 2026 net income of $134.3 million or $0.83 per diluted share, compared to a net loss of $26.2 million, or $0.16 per diluted share, for Q1 2025. The company reported total net sales of $1.6 billion for Q1 2026, compared with $1.4 billion for the same period a year ago.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-05-06",
-    "headline": "Clean Harbors Announces First-Quarter 2026 Financial Results, Raises Full-Year Guidance",
-    "source": "Business Wire",
-    "source_url": "https://www.businesswire.com/news/home/20260506/clean-harbors-announces-first-quarter-2026-financial-results",
-    "category": "Public Co.",
-    "summary": "Clean Harbors announced better-than-expected Q1 2026 results with higher profitability in both operating segments as an environmental and industrial services company. First-quarter revenue rose 2% to $1.46 billion, adjusted EBITDA increased 6% to $248 million, and the company lifted its 2026 adjusted EBITDA outlook to $1.24 billion-$1.30 billion.",
-    "relevance_score": 4,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-06"
   },
   {
     "date": "2026-05-06",
@@ -1002,82 +716,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-05-06",
-    "headline": "Clean Harbors Q1 2026: EPS Beat, Revenue Miss; Raises Full-Year EBITDA and Free Cash Flow Guidance",
-    "source": "BusinessWire",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/822818/000082281826000017/clh-q12026pressrelease.htm",
-    "category": "Public Co.",
-    "summary": "Clean Harbors' Q1 2026 revenue reached $1.46B with net income of $63.2M and EPS of $1.19, as Adjusted EBITDA rose 6% and the company raised full-year 2026 EBITDA and free cash flow guidance. Environmental Services segment adjusted EBITDA margin achieved the 16th consecutive quarter of year-over-year improvement, with Technical Services revenue up 5%, and Safety-Kleen Environmental Services revenue up 7%.",
-    "relevance_score": 4,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-05-06",
-    "headline": "Clean Harbors Reports Q1 2026 Earnings: Beats EPS, Misses Revenue",
-    "source": "Meyka",
-    "source_url": "https://meyka.com/blog/clh-clean-harbors-q1-2026-earnings-beat-eps-missed-revenue-0805/",
-    "category": "Public Co.",
-    "summary": "Clean Harbors reported Q1 2026 EPS of $1.19 beating the $1.15 estimate, but revenue of $1.46 billion missed the $1.47 billion forecast. The company raised full-year adjusted EBITDA guidance to $1.24-$1.30 billion, driven by stronger Environmental Services segment performance and PFAS-related demand growth.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-05-06",
-    "headline": "Clean Harbors Q1 2026 Earnings Call Highlights",
-    "source": "Yahoo Finance",
-    "source_url": "https://finance.yahoo.com/markets/stocks/articles/clean-harbors-q1-earnings-call-200429890.html",
-    "category": "Public Co.",
-    "summary": "Clean Harbors' Environmental Services segment achieved its 16th consecutive quarter of year-over-year margin improvement. PFAS-related revenue exceeded $120 million in 2025 with 25-35% growth expected in 2026. Safety-Kleen Sustainable Solutions benefited from higher base oil pricing with 17% EBITDA growth.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-05-06",
-    "headline": "Clean Harbors Q1 2026 Earnings: Beat EPS, Missed Revenue",
-    "source": "Meyka",
-    "source_url": "https://meyka.com/blog/clh-clean-harbors-earnings-preview-may-6-2026-0505/",
-    "category": "Public Co.",
-    "summary": "Clean Harbors reported Q1 2026 EPS of $1.19, beating the $1.15 estimate, but revenue of $1.46B missed the $1.47B forecast by 0.51%. The company raised full-year 2026 Adjusted EBITDA guidance to $1.24\u20131.30B, citing strong Environmental Services margin expansion and PFAS-related demand growth.",
-    "relevance_score": 4,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-05-06",
-    "headline": "Clean Harbors Reports Q1 2026 Results, Raises Full-Year 2026 Guidance",
-    "source": "Yahoo Finance",
-    "source_url": "https://finance.yahoo.com/markets/stocks/articles/clean-harbors-inc-q1-2026-205006103.html",
-    "category": "Public Co.",
-    "summary": "Clean Harbors achieved record Q1 2026 revenue of $1.46B with EPS of $1.19 beating estimates. Adjusted EBITDA increased 6% to $247.9M with margin expansion to 17%. Company raised full-year 2026 adjusted EBITDA guidance to $1.24-1.30B.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-06"
   },
   {
     "date": "2026-05-05",
@@ -1092,7 +732,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-05"
   },
   {
     "date": "2026-05-05",
@@ -1107,37 +748,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-05-05",
-    "headline": "Darling Ingredients Swings Back to Profit in Q1 2026",
-    "source": "Yahoo Finance",
-    "source_url": "https://ca.finance.yahoo.com/news/why-darling-ingredients-dar-6-212027428.html",
-    "category": "Renewable Fuels",
-    "summary": "Darling Ingredients reported first-quarter 2026 results with sales of $1.55 billion and net income of $134.3 million, reversing a prior-year loss. The quarter marked a clear earnings inflection with stronger margins in core ingredients and the Diamond Green Diesel joint venture, supported by favorable renewable fuel policy.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-05-05",
-    "headline": "Why Darling Ingredients (DAR) Is Up 6.7% After Swinging Back to Profit in Q1 2026",
-    "source": "Yahoo Finance",
-    "source_url": "https://ca.finance.yahoo.com/news/why-darling-ingredients-dar-6-212027428.html",
-    "category": "Renewable Fuels",
-    "summary": "Darling Ingredients reported Q1 2026 results showing sales of US$1,550.82 million and net income of US$134.31 million, reversing a net loss and lifting earnings per share. The quarter marked a clear earnings inflection with stronger margins in core ingredients and the Diamond Green Diesel joint venture supported by favorable renewable fuel policy.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-05"
   },
   {
     "date": "2026-05-05",
@@ -1152,7 +764,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-05"
   },
   {
     "date": "2026-05-04",
@@ -1167,22 +780,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-05-04",
-    "headline": "Austin Water and City Leaders Break Ground on Expansion of Walnut Creek Wastewater Treatment Plant",
-    "source": "AustinTexas.gov",
-    "source_url": "https://www.austintexas.gov/water/news/austin-water-and-city-leaders-break-ground-expansion-walnut-creek-wastewater-treatment",
-    "category": "Infrastructure",
-    "summary": "Austin Water broke ground on a $1.5 billion expansion of the Walnut Creek Wastewater Treatment Plant to increase capacity from 75 MGD to 100 MGD. The project includes advanced nutrient removal technology, UV disinfection, and odor control systems.",
-    "relevance_score": 2,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-04"
   },
   {
     "date": "2026-05-04",
@@ -1197,7 +796,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-04"
   },
   {
     "date": "2026-05-03",
@@ -1212,7 +812,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-03"
   },
   {
     "date": "2026-05-02",
@@ -1227,22 +828,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "Darling Ingredients Q1 2026 EPS Beats Estimates; Diamond Green Diesel Strong",
-    "source": "Investing.com / Earnings Call Transcript",
-    "source_url": "https://www.investing.com/news/transcripts/earnings-call-transcript-darling-ingredients-q1-2026-eps-beats-estimates-93CH-4650274",
-    "category": "Public Co.",
-    "summary": "Darling Ingredients reported Q1 2026 EPS of $0.83, significantly surpassing analyst expectations of $0.59, with revenue of $1.55 billion. The Diamond Green Diesel segment was a key driver, with EBITDA reaching $151.2 million.",
-    "relevance_score": 4,
-    "is_target_market": false,
-    "target_market_name": null,
-    "is_deal": false,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-02"
   },
   {
     "date": "2026-05-01",
@@ -1257,7 +844,8 @@
     "is_deal": false,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-01"
   },
   {
     "date": "2026-05-01",
@@ -1272,7 +860,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-01"
   },
   {
     "date": "2026-05-01",
@@ -1287,7 +876,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-01"
   },
   {
     "date": "2026-05-01",
@@ -1302,22 +892,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "WEF Residuals, Biosolids and Treatment Technology Conference - Kansas City May 2026",
-    "source": "Water Environment Federation",
-    "source_url": "https://www.wef.org/residualsbiosolids/",
-    "category": "Industry Events",
-    "summary": "Utility leaders will gather in Kansas City in May for a focused program on biosolids management, PFAS, resource recovery, and advanced treatment technologies. The conference culminates at WEFTEC.",
-    "relevance_score": 3,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-01"
   },
   {
     "date": "2026-05-01",
@@ -1332,7 +908,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-01"
   },
   {
     "date": "2026-05-01",
@@ -1347,7 +924,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-01"
   },
   {
     "date": "2026-05-01",
@@ -1362,7 +940,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-01"
   },
   {
     "date": "2026-04-30",
@@ -1377,37 +956,8 @@
     "is_deal": false,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "Darling Ingredients Q1 2026 Earnings: Strong EPS Beat, Renewable Fuels Recovery",
-    "source": "Investing.com",
-    "source_url": "https://www.investing.com/news/transcripts/earnings-call-transcript-darling-ingredients-q1-2026-beats-eps-forecast-93CH-4656449",
-    "category": "Public Co.",
-    "summary": "Darling Ingredients reported Q1 2026 earnings with EPS of $0.83, significantly surpassing the forecasted $0.59. Adjusted EBITDA reached $406.8 million, a 107.7% increase year-over-year. Diamond Green Diesel segment delivered EBITDA of $151.2 million.",
-    "relevance_score": 4,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "Darling Ingredients Inc. Reports First Quarter 2026 Results",
-    "source": "Morningstar/Business Wire",
-    "source_url": "https://www.morningstar.com/news/business-wire/20260429002364/darling-ingredients-inc-reports-first-quarter-2026-results",
-    "category": "Renewable Fuels",
-    "summary": "Darling Ingredients reports strong Q1 2026 results with Diamond Green Diesel (DGD) selling 272.4 million gallons of renewable fuels at $1.11/gallon EBITDA. DGD margins improved dramatically following finalization of the Renewable Volume Obligation (RVO), with Company benefiting from UCO and animal fat feedstocks.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-04-30"
   },
   {
     "date": "2026-04-30",
@@ -1422,7 +972,8 @@
     "target_market_name": null,
     "latitude": 31.0,
     "longitude": -100.0,
-    "zoom_hint": "wide"
+    "zoom_hint": "wide",
+    "first_seen_date": "2026-04-30"
   },
   {
     "date": "2026-04-30",
@@ -1437,7 +988,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-04-30"
   },
   {
     "date": "2026-04-30",
@@ -1452,37 +1004,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "Darling Ingredients Q1 2026 Earnings: Strong EPS Beat Despite Revenue Miss",
-    "source": "Investing.com",
-    "source_url": "https://www.investing.com/news/transcripts/earnings-call-transcript-darling-ingredients-q1-2026-eps-beats-estimates-93CH-4650274",
-    "category": "Public Co.",
-    "summary": "Darling Ingredients reported Q1 2026 net income of $134.3 million with EPS of $0.83, beating analyst expectations of $0.59 by 40.68%, though revenue of $1.55 billion slightly missed the $1.56 billion forecast. The company provided FY2026 revenue guidance of $6.54 billion and guided Q2 core ingredients EBITDA to $260-275 million, benefiting from improved Diamond Green Diesel performance and favorable renewable volume obligation developments.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "Darling Ingredients Q1 2026 EPS Beats Estimates; Company Reports Strong Core Ingredients EBITDA Growth",
-    "source": "Investing.com",
-    "source_url": "https://www.investing.com/news/transcripts/earnings-call-transcript-darling-ingredients-q1-2026-eps-beats-estimates-93CH-4650274",
-    "category": "Public Co.",
-    "summary": "Darling Ingredients reported Q1 2026 EPS of $0.83, significantly surpassing analyst expectations of $0.59 (41% beat). Revenue slightly missed at $1.55B vs. forecast $1.56B. The company reported combined adjusted EBITDA of $406.8M (up 108% YoY) driven by Diamond Green Diesel performance and core ingredients segment recovery. FY2026 guidance includes revenue of approximately $6.54B and Q2 core ingredients EBITDA of $260-275M.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-04-30"
   },
   {
     "date": "2026-04-30",
@@ -1497,7 +1020,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-04-30"
   },
   {
     "date": "2026-04-30",
@@ -1512,7 +1036,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-04-30"
   },
   {
     "date": "2026-04-30",
@@ -1527,37 +1052,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-04-29",
-    "headline": "GFL Environmental Reports Record Q1 2026 Margins and Raises Full-Year Guidance",
-    "source": "PR Newswire / GFL Environmental",
-    "source_url": "https://www.prnewswire.com/news-releases/gfl-environmental-reports-first-quarter-2026-results-and-raises-full-year-2026-guidance-302757879.html",
-    "category": "Public Co.",
-    "summary": "GFL Environmental reported Q1 2026 revenue of $1.64 billion (up 5.4%), with Adjusted EBITDA increasing 12.3% to $478.5 million. Adjusted EBITDA margin reached 29.1%, the highest Q1 margin in company history with 180 basis points increase year-over-year.",
-    "relevance_score": 3,
-    "is_target_market": false,
-    "target_market_name": null,
-    "is_deal": false,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-04-29",
-    "headline": "GFL Environmental Reports First Quarter 2026 Results and Raises Full Year 2026 Guidance",
-    "source": "PR Newswire",
-    "source_url": "https://www.prnewswire.com/news-releases/gfl-environmental-reports-first-quarter-2026-results-and-raises-full-year-2026-guidance-302757879.html",
-    "category": "Public Co.",
-    "summary": "GFL Environmental reported record Q1 2026 adjusted EBITDA margin of 29.1%, a 180 basis point increase year-over-year, with adjusted EBITDA of $478.5 million (up 12.3%). Revenue grew 8.5% organically with strong 7.0% pricing. The company completed eight acquisitions year-to-date and raised full year 2026 adjusted EBITDA guidance by $90 million to approximately $2,230 million.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-04-30"
   },
   {
     "date": "2026-04-29",
@@ -1572,7 +1068,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-04-29"
   },
   {
     "date": "2026-04-29",
@@ -1587,7 +1084,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-04-29"
   },
   {
     "date": "2026-04-29",
@@ -1602,7 +1100,8 @@
     "target_market_name": null,
     "latitude": 31.0,
     "longitude": -100.0,
-    "zoom_hint": "wide"
+    "zoom_hint": "wide",
+    "first_seen_date": "2026-04-29"
   },
   {
     "date": "2026-04-29",
@@ -1617,22 +1116,8 @@
     "target_market_name": null,
     "latitude": 31.0,
     "longitude": -100.0,
-    "zoom_hint": "wide"
-  },
-  {
-    "date": "2026-04-29",
-    "headline": "GFL Environmental Reports Q1 2026 Results with Record EBITDA Margin of 29.1%",
-    "source": "PRNewswire",
-    "source_url": "https://www.prnewswire.com/news-releases/gfl-environmental-reports-first-quarter-2026-results-and-raises-full-year-2026-guidance-302757879.html",
-    "category": "Public Co.",
-    "summary": "GFL Environmental achieved an adjusted EBITDA margin of 29.1%, the highest Q1 margin in the company's history and a 180 basis point increase over the prior year period. The company completed eight acquisitions year-to-date, including Frontier Waste Solutions, and announced a proposed acquisition of Secure Waste Infrastructure to strengthen operations in Western Canada.",
-    "relevance_score": 4,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": "wide",
+    "first_seen_date": "2026-04-29"
   },
   {
     "date": "2026-04-28",
@@ -1647,7 +1132,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-04-28"
   },
   {
     "date": "2026-04-28",
@@ -1662,7 +1148,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-04-28"
   },
   {
     "date": "2026-04-18",
@@ -1677,22 +1164,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-04-17",
-    "headline": "Weirton wastewater plant upgrade nears completion",
-    "source": "The Herald Star",
-    "source_url": "https://www.heraldstaronline.com/news/local-news/2026/04/weirton-wastewater-plant-upgrade-nears-completion/",
-    "category": "Infrastructure",
-    "summary": "Weirton Sanitary Board declared a $38 million wastewater treatment plant expansion project substantially complete, which doubled treatment capacity from 4 MGD to 8 MGD. Final payments are expected in late May 2026.",
-    "relevance_score": 2,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-04-18"
   },
   {
     "date": "2026-04-17",
@@ -1707,7 +1180,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-04-17"
   },
   {
     "date": "2026-04-15",
@@ -1722,7 +1196,8 @@
     "is_deal": true,
     "latitude": 44.268,
     "longitude": -89.616,
-    "zoom_hint": "wide"
+    "zoom_hint": "wide",
+    "first_seen_date": "2026-04-15"
   },
   {
     "date": "2026-04-15",
@@ -1737,7 +1212,8 @@
     "is_deal": false,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-04-15"
   },
   {
     "date": "2026-04-13",
@@ -1752,7 +1228,8 @@
     "target_market_name": null,
     "latitude": 33.856,
     "longitude": -80.945,
-    "zoom_hint": "wide"
+    "zoom_hint": "wide",
+    "first_seen_date": "2026-04-13"
   },
   {
     "date": "2026-04-13",
@@ -1767,7 +1244,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-04-13"
   },
   {
     "date": "2026-04-10",
@@ -1782,7 +1260,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-04-10"
   },
   {
     "date": "2026-04-09",
@@ -1797,7 +1276,8 @@
     "target_market_name": null,
     "latitude": 28.538,
     "longitude": -81.379,
-    "zoom_hint": "wide"
+    "zoom_hint": "wide",
+    "first_seen_date": "2026-04-09"
   },
   {
     "date": "2026-04-06",
@@ -1812,7 +1292,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-04-06"
   },
   {
     "date": "2026-04-06",
@@ -1827,7 +1308,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-04-06"
   },
   {
     "date": "2026-04-03",
@@ -1842,7 +1324,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-04-03"
   },
   {
     "date": "2026-04-02",
@@ -1857,22 +1340,8 @@
     "is_deal": true,
     "latitude": 29.951,
     "longitude": -90.072,
-    "zoom_hint": "narrow"
-  },
-  {
-    "date": "2026-04-02",
-    "headline": "Liquid Environmental Solutions Acquires New Orleans Grease Trap Cleaning",
-    "source": "Waste Today Magazine",
-    "source_url": "https://www.wastetodaymagazine.com/news/liquid-environmental-solutions-new-orleans-acquisition/",
-    "category": "M&A",
-    "summary": "Irving, Texas-based Liquid Environmental Solutions (LES) acquired New Orleans Grease Trap Cleaning (NOL), a grease trap and used cooking oil cleaning services provider. Founded in New Orleans in 2015, NOL will be added to LES' network of nonhazardous wastewater collection facilities.",
-    "relevance_score": 5,
-    "is_target_market": false,
-    "target_market_name": null,
-    "is_deal": true,
-    "latitude": 29.951,
-    "longitude": -90.072,
-    "zoom_hint": "narrow"
+    "zoom_hint": "narrow",
+    "first_seen_date": "2026-04-02"
   },
   {
     "date": "2026-04-02",
@@ -1887,7 +1356,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-04-02"
   },
   {
     "date": "2026-04-02",
@@ -1902,7 +1372,8 @@
     "target_market_name": null,
     "latitude": 29.951,
     "longitude": -90.072,
-    "zoom_hint": "narrow"
+    "zoom_hint": "narrow",
+    "first_seen_date": "2026-04-02"
   },
   {
     "date": "2026-04-01",
@@ -1917,7 +1388,8 @@
     "is_deal": false,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-04-01"
   },
   {
     "date": "2026-04-01",
@@ -1932,7 +1404,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-04-01"
   },
   {
     "date": "2026-04-01",
@@ -1947,22 +1420,8 @@
     "target_market_name": null,
     "latitude": 37.541,
     "longitude": -77.434,
-    "zoom_hint": "narrow"
-  },
-  {
-    "date": "2026-04-01",
-    "headline": "EPA Finalizes Record-High 2026\u20132027 Renewable Fuel Standard Volume Obligations",
-    "source": "Beveridge & Diamond LLP",
-    "source_url": "https://www.bdlaw.com/publications/epa-finalizes-record-high-2026-2027-renewable-fuel-standard-volume-obligations/",
-    "category": "Renewable Fuels",
-    "summary": "EPA established all-time-high renewable volume obligations for 2026 and 2027, increasing total renewable fuel requirements to 25.82 billion RINs in 2026 and 25.98 billion RINs in 2027. The rule reallocates 70% of small refinery exemption volumes from 2023\u20132025 into future years and defers the 50% import-related RIN reduction until 2028.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": "narrow",
+    "first_seen_date": "2026-04-01"
   },
   {
     "date": "2026-04-01",
@@ -1977,7 +1436,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-04-01"
   },
   {
     "date": "2026-04-01",
@@ -1992,37 +1452,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-04-01",
-    "headline": "Renewable Fuel Standard (RFS) Program: Standards for 2026 and 2027, Partial Waiver of 2025 Cellulosic Biofuel Volume Requirement",
-    "source": "Federal Register",
-    "source_url": "https://www.federalregister.gov/documents/2026/04/01/2026-06275/renewable-fuel-standard-rfs-program-standards-for-2026-and-2027-partial-waiver-of-2025-cellulosic",
-    "category": "ESG",
-    "summary": "EPA establishes RFS volume requirements for 2026-2027 for biomass-based diesel and advanced biofuel. Final volumes reflect projected growth in feedstocks including used cooking oil (UCO) and animal fats, with sustained emphasis on greenhouse gas reduction.",
-    "relevance_score": 4,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-04-01",
-    "headline": "EPA Finalizes Historic Renewable Fuel Standards for 2026 and 2027 at Record-High Volumes",
-    "source": "U.S. Environmental Protection Agency",
-    "source_url": "https://www.epa.gov/newsreleases/epa-finalizes-historic-new-renewable-fuel-standards-strengthen-american-energy",
-    "category": "Renewable Fuels",
-    "summary": "EPA finalized the RFS \"Set 2\" rule establishing the highest renewable fuel volume requirements in program history for 2026 and 2027, with 25.82 billion RINs in 2026 and 25.98 billion in 2027. The rule reallocates 70% of small refinery exemptions for 2023-2025 and removes renewable electricity from the program.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-04-01"
   },
   {
     "date": "2026-03-30",
@@ -2037,7 +1468,8 @@
     "is_deal": false,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-30"
   },
   {
     "date": "2026-03-30",
@@ -2052,7 +1484,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-30"
   },
   {
     "date": "2026-03-30",
@@ -2067,7 +1500,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-30"
   },
   {
     "date": "2026-03-29",
@@ -2082,7 +1516,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-29"
   },
   {
     "date": "2026-03-28",
@@ -2097,7 +1532,8 @@
     "target_market_name": null,
     "latitude": 35.63,
     "longitude": -79.806,
-    "zoom_hint": "wide"
+    "zoom_hint": "wide",
+    "first_seen_date": "2026-03-28"
   },
   {
     "date": "2026-03-27",
@@ -2112,7 +1548,8 @@
     "is_deal": false,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-27"
   },
   {
     "date": "2026-03-27",
@@ -2127,7 +1564,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-27"
   },
   {
     "date": "2026-03-27",
@@ -2142,7 +1580,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-27"
   },
   {
     "date": "2026-03-27",
@@ -2157,7 +1596,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-27"
   },
   {
     "date": "2026-03-27",
@@ -2172,7 +1612,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-27"
   },
   {
     "date": "2026-03-27",
@@ -2187,7 +1628,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-27"
   },
   {
     "date": "2026-03-27",
@@ -2202,7 +1644,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-27"
   },
   {
     "date": "2026-03-26",
@@ -2217,7 +1660,8 @@
     "is_deal": true,
     "latitude": 33.749,
     "longitude": -84.388,
-    "zoom_hint": "narrow"
+    "zoom_hint": "narrow",
+    "first_seen_date": "2026-03-26"
   },
   {
     "date": "2026-03-25",
@@ -2232,7 +1676,8 @@
     "target_market_name": null,
     "latitude": 43.661,
     "longitude": -70.255,
-    "zoom_hint": "narrow"
+    "zoom_hint": "narrow",
+    "first_seen_date": "2026-03-25"
   },
   {
     "date": "2026-03-23",
@@ -2247,7 +1692,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-23"
   },
   {
     "date": "2026-03-20",
@@ -2262,7 +1708,8 @@
     "is_deal": true,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-20"
   },
   {
     "date": "2026-03-19",
@@ -2277,7 +1724,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-19"
   },
   {
     "date": "2026-03-16",
@@ -2292,7 +1740,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-16"
   },
   {
     "date": "2026-03-16",
@@ -2307,7 +1756,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-16"
   },
   {
     "date": "2026-03-16",
@@ -2322,7 +1772,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-16"
   },
   {
     "date": "2026-03-15",
@@ -2337,7 +1788,8 @@
     "is_deal": false,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-15"
   },
   {
     "date": "2026-03-15",
@@ -2352,7 +1804,8 @@
     "is_deal": false,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-15"
   },
   {
     "date": "2026-03-15",
@@ -2367,22 +1820,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-03-14",
-    "headline": "EPA Draft Guidance 2026: Chemical/Biological FOG Treatment Does Not Satisfy Clean Water Act 'Removal' Standards",
-    "source": "Grease Trap Locator",
-    "source_url": "https://greasetraplocator.com/future-of-fog-compliance/",
-    "category": "Regulatory",
-    "summary": "The EPA's 2026 draft guidance explicitly prohibits enzyme or biological additives as FOG treatment substitutes, stating they do not constitute 'removal' under Clean Water Act standards. Municipalities are adopting ordinances voiding permits for establishments using additives.",
-    "relevance_score": 4,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-15"
   },
   {
     "date": "2026-03-14",
@@ -2397,7 +1836,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-14"
   },
   {
     "date": "2026-03-14",
@@ -2412,7 +1852,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-14"
   },
   {
     "date": "2026-03-11",
@@ -2427,22 +1868,8 @@
     "is_deal": true,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-03-10",
-    "headline": "Wind River Environmental acquires Hapchuk, Inc. and Liquid Assets Disposal, Inc.",
-    "source": "PrivSource",
-    "source_url": "https://www.privsource.com/acquisitions/deal/aYSOr7",
-    "category": "M&A",
-    "summary": "Wind River Environmental acquired Hapchuk, Inc., a provider of grease and septic pumping in Pennsylvania, and entered into an agreement for sister company Liquid Assets Disposal, Inc., which operates a West Virginia treatment facility for grease, septic, and non-hazardous liquid waste.",
-    "relevance_score": 5,
-    "is_deal": true,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": 40.876,
-    "longitude": -77.822,
-    "zoom_hint": "wide"
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-11"
   },
   {
     "date": "2026-03-06",
@@ -2457,7 +1884,8 @@
     "is_deal": false,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-06"
   },
   {
     "date": "2026-03-03",
@@ -2472,7 +1900,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-03"
   },
   {
     "date": "2026-03-03",
@@ -2487,7 +1916,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-03"
   },
   {
     "date": "2026-03-02",
@@ -2502,7 +1932,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-02"
   },
   {
     "date": "2026-03-01",
@@ -2517,7 +1948,8 @@
     "is_deal": false,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-01"
   },
   {
     "date": "2026-02-27",
@@ -2532,7 +1964,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-02-27"
   },
   {
     "date": "2026-02-27",
@@ -2547,22 +1980,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-02-27",
-    "headline": "Key Food Waste Laws & Regulations in the USA in 2026",
-    "source": "Power Knot",
-    "source_url": "https://powerknot.com/food-waste-laws-2026",
-    "category": "ESG",
-    "summary": "Overview of 2026 food waste regulations across U.S. states, with focus on organics diversion and compliance requirements. California's SB 1383 continues to drive industry changes; on-site biodigestion solutions and compliance infrastructure expanding.",
-    "relevance_score": 3,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-02-27"
   },
   {
     "date": "2026-02-26",
@@ -2577,7 +1996,8 @@
     "is_deal": false,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-02-26"
   },
   {
     "date": "2026-02-26",
@@ -2592,7 +2012,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-02-26"
   },
   {
     "date": "2026-02-25",
@@ -2607,7 +2028,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-02-25"
   },
   {
     "date": "2026-02-25",
@@ -2622,7 +2044,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-02-25"
   },
   {
     "date": "2026-02-25",
@@ -2637,7 +2060,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-02-25"
   },
   {
     "date": "2026-02-19",
@@ -2652,7 +2076,8 @@
     "is_deal": false,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-02-19"
   },
   {
     "date": "2026-02-19",
@@ -2667,22 +2092,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-02-19",
-    "headline": "Clean Harbors Acquires Industrial and Rail Services from Depot Connect International",
-    "source": "Stock Titan",
-    "source_url": "https://www.stocktitan.net/sec-filings/CLH/8-k-clean-harbors-inc-reports-material-event-5ebeaa5a7f5b.html",
-    "category": "Public Co.",
-    "summary": "Clean Harbors acquired the Industrial and Rail Services business from Depot Connect International (DCI).",
-    "relevance_score": 2,
-    "is_deal": true,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-02-19"
   },
   {
     "date": "2026-02-19",
@@ -2697,7 +2108,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-02-19"
   },
   {
     "date": "2026-02-19",
@@ -2712,7 +2124,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-02-19"
   },
   {
     "date": "2026-02-19",
@@ -2727,7 +2140,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-02-19"
   },
   {
     "date": "2026-02-17",
@@ -2742,7 +2156,8 @@
     "is_deal": false,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-02-17"
   },
   {
     "date": "2026-02-13",
@@ -2757,22 +2172,8 @@
     "target_market_name": null,
     "latitude": 38.456,
     "longitude": -92.288,
-    "zoom_hint": "wide"
-  },
-  {
-    "date": "2026-02-12",
-    "headline": "Darling Ingredients Q4 Earnings Call Highlights",
-    "source": "Ticker Report",
-    "source_url": "https://www.tickerreport.com/banking-finance/13344770/darling-ingredients-q4-earnings-call-highlights.html",
-    "category": "Renewable Fuels",
-    "summary": "Darling Ingredients closed fiscal 2025 with Q4 adjusted EBITDA of $336.1M. Management highlighted improving policy backdrop for renewable fuels heading into 2026, with executives pointing to strengthened U.S. Renewable Volume Obligation as a major swing factor for Diamond Green Diesel operations.",
-    "relevance_score": 4,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": "wide",
+    "first_seen_date": "2026-02-13"
   },
   {
     "date": "2026-02-12",
@@ -2787,7 +2188,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-02-12"
   },
   {
     "date": "2026-02-10",
@@ -2802,7 +2204,8 @@
     "is_deal": false,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-02-10"
   },
   {
     "date": "2026-02-10",
@@ -2817,7 +2220,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-02-10"
   },
   {
     "date": "2026-02-10",
@@ -2832,7 +2236,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-02-10"
   },
   {
     "date": "2026-02-10",
@@ -2847,7 +2252,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-02-10"
   },
   {
     "date": "2026-02-03",
@@ -2862,7 +2268,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-02-03"
   },
   {
     "date": "2026-01-27",
@@ -2877,22 +2284,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
-  },
-  {
-    "date": "2026-01-22",
-    "headline": "Governor Hochul Announces $288 Million to Make Local Water Infrastructure Projects Affordable",
-    "source": "New York State Governor's Office",
-    "source_url": "https://www.governor.ny.gov/news/governor-hochul-announces-288-million-make-local-water-infrastructure-projects-affordable",
-    "category": "Infrastructure",
-    "summary": "New York State announced $288 million in grants and low-cost financing for local water infrastructure projects as part of Governor Hochul's $3.75 billion five-year plan. Funding supports wastewater system improvements, lead service line replacement, and lead pipe remediation.",
-    "relevance_score": 2,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-01-27"
   },
   {
     "date": "2026-01-22",
@@ -2907,7 +2300,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-01-22"
   },
   {
     "date": "2026-01-19",
@@ -2922,7 +2316,8 @@
     "is_deal": false,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-01-19"
   },
   {
     "date": "2026-01-18",
@@ -2937,7 +2332,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-01-18"
   },
   {
     "date": "2026-01-16",
@@ -2952,7 +2348,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-01-16"
   },
   {
     "date": "2026-01-15",
@@ -2967,7 +2364,8 @@
     "is_deal": false,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-01-15"
   },
   {
     "date": "2026-01-15",
@@ -2982,7 +2380,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-01-15"
   },
   {
     "date": "2026-01-15",
@@ -2997,7 +2396,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-01-15"
   },
   {
     "date": "2026-01-09",
@@ -3012,7 +2412,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-01-09"
   },
   {
     "date": "2026-01-09",
@@ -3027,7 +2428,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-01-09"
   },
   {
     "date": "2026-01-04",
@@ -3042,7 +2444,8 @@
     "is_deal": false,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2026-01-04"
   },
   {
     "date": "2025-12-20",
@@ -3057,7 +2460,8 @@
     "target_market_name": null,
     "latitude": 32.814,
     "longitude": -96.949,
-    "zoom_hint": "narrow"
+    "zoom_hint": "narrow",
+    "first_seen_date": "2025-12-20"
   },
   {
     "date": "2025-12-15",
@@ -3072,7 +2476,8 @@
     "is_deal": true,
     "latitude": 31.0,
     "longitude": -100.0,
-    "zoom_hint": "wide"
+    "zoom_hint": "wide",
+    "first_seen_date": "2025-12-15"
   },
   {
     "date": "2025-12-05",
@@ -3087,7 +2492,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2025-12-05"
   },
   {
     "date": "2025-12-05",
@@ -3102,7 +2508,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2025-12-05"
   },
   {
     "date": "2025-12-01",
@@ -3117,7 +2524,8 @@
     "is_deal": true,
     "latitude": 38.627,
     "longitude": -90.199,
-    "zoom_hint": "narrow"
+    "zoom_hint": "narrow",
+    "first_seen_date": "2025-12-01"
   },
   {
     "date": "2025-12-01",
@@ -3132,7 +2540,8 @@
     "target_market_name": null,
     "latitude": 38.627,
     "longitude": -90.199,
-    "zoom_hint": "narrow"
+    "zoom_hint": "narrow",
+    "first_seen_date": "2025-12-01"
   },
   {
     "date": null,
@@ -3147,7 +2556,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2000-01-01"
   },
   {
     "date": null,
@@ -3162,7 +2572,8 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2000-01-01"
   },
   {
     "date": null,
@@ -3177,6 +2588,7 @@
     "target_market_name": null,
     "latitude": null,
     "longitude": null,
-    "zoom_hint": null
+    "zoom_hint": null,
+    "first_seen_date": "2000-01-01"
   }
 ]
