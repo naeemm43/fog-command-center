@@ -1749,18 +1749,33 @@ def main() -> int:
     new_news_items.sort(key=lambda x: x.get("date") or "1900-01-01", reverse=True)
     new_deal_items.sort(key=lambda x: x.get("date") or "1900-01-01", reverse=True)
 
-    # Split first-seen items into "real new today" vs "backfill". A
-    # backfill item is one we hadn't seen before but whose publication
-    # date is older than 7 days — we keep it in the database but never
-    # surface it in the email's "NEW TODAY" section. Caught the May 16
-    # bug where a May 6 Clean Harbors article landed in NEW TODAY ten
-    # days late.
+    # Split first-seen items into three buckets by publication-date age:
+    #   new_today_news : article dated today or yesterday (TRULY fresh,
+    #                    last 24-48h). Goes in the email's NEW TODAY
+    #                    section.
+    #   recent_news    : article dated 2-7 days ago. The model surfaces
+    #                    these on first crawl; ship them under RECENT
+    #                    UPDATES so the reader knows they're "newly
+    #                    indexed" rather than "just happened".
+    #   backfill_news  : article older than 7 days. Stored in the DB
+    #                    but never appears in any email — these are
+    #                    landmark articles the model dredges up; emailing
+    #                    them under any heading is noise.
     today = datetime.now(timezone.utc).date()
-    cutoff_iso = (today - timedelta(days=7)).isoformat()
-    new_today_news = [n for n in new_news_items
-                       if n.get("date") and n["date"] >= cutoff_iso]
-    backfill_news = [n for n in new_news_items
-                      if not (n.get("date") and n["date"] >= cutoff_iso)]
+    fresh_cutoff_iso = (today - timedelta(days=1)).isoformat()   # 1d back inclusive
+    recent_cutoff_iso = (today - timedelta(days=7)).isoformat()  # 7d back inclusive
+
+    new_today_news: list[dict] = []
+    recent_news: list[dict] = []
+    backfill_news: list[dict] = []
+    for n in new_news_items:
+        d = n.get("date")
+        if d and d >= fresh_cutoff_iso:
+            new_today_news.append(n)
+        elif d and d >= recent_cutoff_iso:
+            recent_news.append(n)
+        else:
+            backfill_news.append(n)
 
     last_refresh = {
         "timestamp": metadata["lastRefreshed"],
@@ -1768,6 +1783,7 @@ def main() -> int:
         "added_deals_count": added_deals,
         "archived_count": len(archived),
         "new_today_news": new_today_news,
+        "recent_news": recent_news,
         "backfill_news": backfill_news,
         "new_deals": new_deal_items,
         # Kept for backward compatibility — anything reading the old key

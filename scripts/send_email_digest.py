@@ -77,6 +77,26 @@ def fmt_date(s: str | None) -> str:
         return s
 
 
+def fmt_date_relative(s: str | None, today: "datetime | None" = None) -> str:
+    """Like fmt_date but renders 'TODAY' / 'YESTERDAY' for the two most
+    recent buckets — makes article freshness immediately visible on
+    each card. Anything two-plus days old falls back to the standard
+    'Mon DD, YYYY' format."""
+    if not s:
+        return "—"
+    try:
+        d = datetime.fromisoformat(s).date()
+    except (ValueError, TypeError):
+        return s
+    ref = (today or datetime.now(timezone.utc)).date() if hasattr(today, "date") else (today or datetime.now(timezone.utc).date())
+    delta = (ref - d).days
+    if delta == 0:
+        return "TODAY"
+    if delta == 1:
+        return "YESTERDAY"
+    return d.strftime("%b %d, %Y")
+
+
 # ============================================================================
 # Pre-flight validation. The briefing goes to external counterparties now;
 # broken links and ragged content look unprofessional. We drop individual
@@ -221,10 +241,26 @@ def preflight_deal_news_sync(summary: dict) -> int:
         feed.sort(key=lambda x: x.get("date") or "1900-01-01", reverse=True)
         with open(NEWS_FEED_PATH, "w", encoding="utf-8") as f:
             json.dump(feed, f, indent=2)
-        # Reflect the fixes in the live summary so the email body shows
-        # them under NEW TODAY (their first_seen_date is today_iso).
-        new_today = summary.setdefault("new_today_news", [])
-        new_today.extend(synthesized)
+        # Route each synthesized item to the right summary bucket based
+        # on the underlying deal's date. A same-day deal lands in NEW
+        # TODAY; a deal from 3 days ago lands in RECENT UPDATES; a deal
+        # older than 7 days lands in backfill (won't appear in the
+        # email, but the news entry still exists in the feed file).
+        today = datetime.now(timezone.utc).date()
+        new_today_bucket = summary.setdefault("new_today_news", [])
+        recent_bucket = summary.setdefault("recent_news", [])
+        backfill_bucket = summary.setdefault("backfill_news", [])
+        for n in synthesized:
+            try:
+                age = (today - datetime.fromisoformat(n["date"]).date()).days
+            except (KeyError, ValueError, TypeError):
+                age = 0
+            if age <= 1:
+                new_today_bucket.append(n)
+            elif age <= 7:
+                recent_bucket.append(n)
+            else:
+                backfill_bucket.append(n)
         summary["added_news_count"] = (summary.get("added_news_count", 0) or 0) + len(synthesized)
 
     return len(synthesized)
@@ -319,11 +355,15 @@ def render_news_list(news: list[dict], heading: str = "NEW TODAY",
             f"⚠️ <b>TIER 2 ALERT:</b> near {esc(n.get('target_market_name') or 'target market')}</div>"
             if n.get("is_target_market") else ""
         )
+        # Relative date label — "TODAY" / "YESTERDAY" / "May 13, 2026"
+        # — makes the article's freshness obvious without the reader
+        # having to read each ISO date.
+        date_label = fmt_date_relative(n.get("date"))
         cards.append(
             f"<div style='border-left:3px solid {bg};background:#fafafa;padding:12px 14px;margin-bottom:10px;border-radius:0 4px 4px 0;'>"
             f"<div style='font-size:11px;color:#888;margin-bottom:4px;'>"
             f"{badges_html}"
-            f"&nbsp;&nbsp;{esc(fmt_date(n.get('date')))}{rel_badge}</div>"
+            f"&nbsp;&nbsp;<span style='font-weight:600;color:#555;'>{esc(date_label)}</span>{rel_badge}</div>"
             f"<div style='font-size:14px;font-weight:600;line-height:1.35;margin-bottom:6px;color:#222;'>{esc(n.get('headline'))}</div>"
             f"<div style='font-size:13px;color:#444;line-height:1.5;margin-bottom:6px;'>{esc(n.get('summary'))}</div>"
             f"{source_link}{tm_alert}</div>"
@@ -440,29 +480,41 @@ def build_maintenance_html(refreshed_ts: str | None) -> str:
     return _shell(f"Daily Briefing — {today} (System Maintenance)", inner, refreshed_ts)
 
 
-def build_digest_html(new_today: list[dict], backfill: list[dict],
-                       new_deals: list[dict], refreshed_ts: str | None) -> str:
+def build_digest_html(new_today: list[dict], recent: list[dict],
+                       new_deals: list[dict], refreshed_ts: str | None,
+                       title_suffix: str = "") -> str:
+    """Build the standard digest body. NEW TODAY shows items truly fresh
+    in the last 24-48h; RECENT UPDATES shows 2-7-day-old items that the
+    model just surfaced. Backfill (>7 days) is never rendered here."""
     today = datetime.now(timezone.utc).strftime("%B %d, %Y")
     deals_section = render_deals_table(new_deals)
-    tier2_section = render_tier2_alerts(new_today + backfill, new_deals)
+    tier2_section = render_tier2_alerts(new_today + recent, new_deals)
     news_section = render_news_list(new_today, heading="NEW TODAY")
-    backfill_section = render_news_list(
-        backfill,
-        heading="BACKFILL — Older articles newly indexed",
+    recent_section = render_news_list(
+        recent,
+        heading="RECENT UPDATES — Newly indexed, past week",
         heading_color="#95a5a6",
     )
 
-    today_count = len(new_today)
-    parts = [
-        f"<b>{today_count}</b> new news item{'s' if today_count != 1 else ''} "
-        f"and <b>{len(new_deals)}</b> deal{'s' if len(new_deals) != 1 else ''} today"
-    ]
-    if backfill:
-        parts.append(
-            f"plus <b>{len(backfill)}</b> older article{'s' if len(backfill) != 1 else ''} "
-            f"newly indexed (backfill — not counted as today's news)"
+    # Lead text. Two flavors: standard ("X new news + Y deals today")
+    # and recent-only ("no truly fresh news, here's what we surfaced").
+    if not new_today and not new_deals and recent:
+        summary_line = (
+            "No new industry events in the last 24 hours. Below are recent "
+            "updates from the past week newly indexed in the Command Center."
         )
-    summary_line = "Added " + ", ".join(parts) + "."
+    else:
+        today_count = len(new_today)
+        parts = [
+            f"<b>{today_count}</b> new news item{'s' if today_count != 1 else ''} "
+            f"and <b>{len(new_deals)}</b> deal{'s' if len(new_deals) != 1 else ''} today"
+        ]
+        if recent:
+            parts.append(
+                f"plus <b>{len(recent)}</b> recent update{'s' if len(recent) != 1 else ''} "
+                f"from the past week"
+            )
+        summary_line = "Added " + ", ".join(parts) + "."
 
     inner = f"""
   <div style="padding:20px 28px;">
@@ -470,9 +522,9 @@ def build_digest_html(new_today: list[dict], backfill: list[dict],
     {tier2_section}
     {deals_section}
     {news_section}
-    {backfill_section}
+    {recent_section}
   </div>"""
-    return _shell(f"Daily Briefing — {today}", inner, refreshed_ts)
+    return _shell(f"Daily Briefing — {today}{title_suffix}", inner, refreshed_ts)
 
 
 # ============================================================================
@@ -491,14 +543,23 @@ def _parse_recipients(raw: str | None) -> tuple[str | None, list[str]]:
     return addrs[0], addrs[1:]
 
 
-def _build_subject(today_str: str, new_deals: list[dict], actionable: int) -> str:
-    """Per the external-distribution spec: deal count when present,
-    'Quiet Day' tag when nothing was added at all."""
-    if actionable == 0:
+def _build_subject(today_str: str, new_deals: list[dict],
+                    new_today_count: int, recent_count: int) -> str:
+    """Subject-line strategy:
+      - 0 new today + 0 recent + 0 deals  → '(Quiet Day)' — nothing happened
+      - 1+ deals                          → '(N New Deals)' — deals win the suffix
+      - 0 new today + 0 deals + 1+ recent → '(Recent Updates)' — defensive
+                                            label since the NEW TODAY
+                                            section will be empty
+      - 1+ new today (no deals)           → no suffix — standard briefing
+    """
+    if new_today_count == 0 and recent_count == 0 and not new_deals:
         return f"FOG Industry Briefing — {today_str} (Quiet Day)"
     if new_deals:
         n = len(new_deals)
         return f"FOG Industry Briefing — {today_str} ({n} New Deal{'s' if n != 1 else ''})"
+    if new_today_count == 0 and recent_count > 0:
+        return f"FOG Industry Briefing — {today_str} (Recent Updates)"
     return f"FOG Industry Briefing — {today_str}"
 
 
@@ -520,24 +581,31 @@ def main() -> int:
     if synth_count:
         sys.stderr.write(f"  preflight: synthesized {synth_count} news entry(ies) to maintain deal/news sync\n")
 
-    # Read split lists with legacy-key fallback.
-    new_today_raw = summary.get("new_today_news")
-    if new_today_raw is None:
-        new_today_raw = summary.get("new_news") or []
+    # Read the three news buckets refresh_data.py now writes. Legacy
+    # last_refresh.json without the recent_news key falls back to the
+    # previous two-bucket behavior.
+    new_today_raw = summary.get("new_today_news") or []
+    recent_raw = summary.get("recent_news") or []
     backfill_raw = summary.get("backfill_news") or []
     new_deals_raw = summary.get("new_deals") or []
+    # Backward compat: if the summary predates the three-bucket split
+    # AND has no explicit fresh/recent fields, drop everything from the
+    # legacy combined `new_news` into new_today.
+    if not new_today_raw and not recent_raw and summary.get("new_news"):
+        new_today_raw = list(summary["new_news"])
 
-    # Pre-flight: URL check (only the news items have URLs we'd link to)
-    # then per-item content validation. Bad items are dropped quietly;
-    # we fall back to the maintenance template only if validation would
-    # gut the briefing — defined as ">=50% of news dropped" so a single
-    # bad link can't kill the email.
-    pre_news_total = len(new_today_raw) + len(backfill_raw)
-    dead = precheck_urls(new_today_raw + backfill_raw)
+    # Pre-flight: URL check across every candidate article (we don't
+    # want to link to a broken URL even from RECENT UPDATES); then
+    # per-item content validation. Backfill is excluded from the URL
+    # check — those items don't appear in the email anyway. Bad items
+    # are dropped quietly; we fall back to the maintenance template
+    # only if validation would gut the briefing.
+    pre_news_total = len(new_today_raw) + len(recent_raw)
+    dead = precheck_urls(new_today_raw + recent_raw)
     new_today = validate_news_items(new_today_raw, dead)
-    backfill = validate_news_items(backfill_raw, dead)
+    recent = validate_news_items(recent_raw, dead)
     new_deals = validate_deals(new_deals_raw)
-    dropped = pre_news_total - (len(new_today) + len(backfill))
+    dropped = pre_news_total - (len(new_today) + len(recent))
     deals_dropped = len(new_deals_raw) - len(new_deals)
 
     fall_back_to_maintenance = False
@@ -553,7 +621,13 @@ def main() -> int:
         )
         fall_back_to_maintenance = True
 
-    actionable = len(new_today) + len(new_deals)
+    # Quiet-day decision now includes recent_news in the "is anything
+    # worth sending" check: a day with zero truly-fresh news but a
+    # batch of recent updates is NOT a quiet day — we send the digest
+    # with a Recent-Updates subject + lead. Only a day with all three
+    # empty triggers the short quiet-day template.
+    has_any_news = bool(new_today or recent)
+    actionable = len(new_today) + len(new_deals) + len(recent)
 
     # Credentials + recipient parsing.
     gmail_addr = os.environ.get("GMAIL_ADDRESS")
@@ -569,7 +643,7 @@ def main() -> int:
         return 1
 
     today_str = datetime.now(timezone.utc).strftime("%B %d, %Y")
-    subject = _build_subject(today_str, new_deals, actionable)
+    subject = _build_subject(today_str, new_deals, len(new_today), len(recent))
 
     msg = EmailMessage()
     msg["Subject"] = subject
@@ -595,14 +669,15 @@ def main() -> int:
         body_html = build_quiet_html(refreshed_ts)
         mode = "quiet"
     else:
-        body_html = build_digest_html(new_today, backfill, new_deals, refreshed_ts)
+        body_html = build_digest_html(new_today, recent, new_deals, refreshed_ts)
         mode = "digest"
 
     msg.add_alternative(body_html, subtype="html")
 
     print(f"Sending {mode} → To: {primary}, Bcc: {len(bcc)} recipient(s) | "
           f"subject: {subject!r}")
-    print(f"  content: {len(new_today)} today / {len(backfill)} backfill / "
+    print(f"  content: {len(new_today)} new today / {len(recent)} recent / "
+          f"{len(backfill_raw)} backfill (suppressed from email) / "
           f"{len(new_deals)} deals (validation dropped: "
           f"{dropped} news, {deals_dropped} deals)")
 
