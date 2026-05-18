@@ -1,69 +1,76 @@
 {
-  "timestamp": "2026-05-18T14:50:53Z",
-  "added_news_count": 4,
+  "timestamp": "2026-05-18T15:25:56Z",
+  "added_news_count": 2,
   "added_deals_count": 0,
   "archived_count": 0,
-  "new_news": [
+  "new_today_news": [
     {
-      "date": "2026-05-18",
-      "headline": "2026 ESG & Compliance Dates and Sustainability Calendar",
-      "source": "Terra Reporting",
-      "source_url": "https://www.terrareporting.com/blog/2026-sustainability-calendar-key-esg-compliance-dates",
-      "category": "ESG",
-      "summary": "Strategic ESG compliance calendar highlighting 2026 reporting deadlines and sustainability milestones. Includes alignment of food waste reduction and circular economy reporting with key sustainability frameworks and environmental dates.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null
-    },
-    {
-      "date": "2026-05-16",
-      "headline": "A perspective on transforming fats, oil, and grease (FOG) into hydrogen: insights on steam reforming catalysts and the case study of Hong Kong",
-      "source": "ScienceDirect",
-      "source_url": "https://www.sciencedirect.com/science/article/pii/S2666952825000391",
-      "category": "ESG",
-      "summary": "Research article exploring sustainable hydrogen production from FOG through steam reforming catalysts. Emphasizes FOG recycling's carbon capture potential and sustainable waste recovery supporting carbon neutrality targets, with a focus on case studies and lifecycle assessment.",
+      "date": "2026-05-14",
+      "headline": "Sustainable Aviation Fuel 101: Feedstocks on World Energy",
+      "source": "World Energy",
+      "source_url": "https://worldenergy.net/resource/saf-101-feedstocks/",
+      "category": "Renewable Fuels",
+      "summary": "Analysis of SAF feedstock options including HEFA technology using waste-derived feedstocks like used cooking oil and beef tallow. Waste-derived feedstocks are noted to have low carbon intensity due to avoidance of cultivation and land-use emissions, with World Energy prioritizing domestically sourced waste products for reliable supply.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
-      "zoom_hint": null
+      "zoom_hint": null,
+      "first_seen_date": "2026-05-18"
     },
     {
       "date": "2026-05-14",
-      "headline": "Barrel Energy Inc. 1Q 2026 Results: Revenue $42.4K, Net Loss $6.18K",
-      "source": "TradingView",
-      "source_url": "https://www.tradingview.com/news/tradingview:4539eb9e55c66:0-barrel-energy-inc-1q-2026-revenue-42-4k-net-income-6-18k-eps-0-01-10-q-summary/",
+      "headline": "Barrel Energy Inc. Q1 2026 Quarterly Report Filed",
+      "source": "SEC Filing / StockTitan",
+      "source_url": "https://www.stocktitan.net/sec-filings/BRLL/10-q-barrel-energy-inc-quarterly-earnings-report-3ab095a3011a.html",
       "category": "Public Co.",
-      "summary": "Barrel Energy Inc. reported first-quarter 2026 results with revenue of $42.4K, a net loss of $6.18K and diluted EPS of $(0.01), compared with revenue of $45.14K, net income of $16.86K and EPS of $0.02 in the year-ago quarter. The accumulated deficit reached $317,010, and management disclosed 'substantial doubt' about continuing as a going concern without new funding.",
-      "relevance_score": 2,
+      "summary": "Barrel Energy reported Q1 2026 revenue of $42,395 versus $45,144 a year earlier and a net loss of $6,183 compared with prior net income of $16,859. Management disclosed 'substantial doubt' about continuing as a going concern without new funding.",
+      "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
-      "zoom_hint": null
-    },
-    {
-      "date": "2026-05-11",
-      "headline": "Renewable Diesel Industry Transformation Driven by Diamond Green Diesel and RFS Support",
-      "source": "FINTECH.TV",
-      "source_url": "https://fintech.tv/how-darling-ingredients-turns-food-waste-into-renewable-fuel-and-profits/",
-      "category": "Renewable Fuels",
-      "summary": "Darling Ingredients is the largest company in the world that collects, produces, and adds value to animal byproducts and used cooking oil. Following the finalization of RFS RVO policy, the company held an investor day to discuss its renewable fuels business model.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null
+      "zoom_hint": null,
+      "first_seen_date": "2026-05-18"
     }
   ],
-  "new_deals": []
+  "backfill_news": [],
+  "new_deals": [],
+  "new_news": [
+    {
+      "date": "2026-05-14",
+      "headline": "Sustainable Aviation Fuel 101: Feedstocks on World Energy",
+      "source": "World Energy",
+      "source_url": "https://worldenergy.net/resource/saf-101-feedstocks/",
+      "category": "Renewable Fuels",
+      "summary": "Analysis of SAF feedstock options including HEFA technology using waste-derived feedstocks like used cooking oil and beef tallow. Waste-derived feedstocks are noted to have low carbon intensity due to avoidance of cultivation and land-use emissions, with World Energy prioritizing domestically sourced waste products for reliable supply.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-05-18"
+    },
+    {
+      "date": "2026-05-14",
+      "headline": "Barrel Energy Inc. Q1 2026 Quarterly Report Filed",
+      "source": "SEC Filing / StockTitan",
+      "source_url": "https://www.stocktitan.net/sec-filings/BRLL/10-q-barrel-energy-inc-quarterly-earnings-report-3ab095a3011a.html",
+      "category": "Public Co.",
+      "summary": "Barrel Energy reported Q1 2026 revenue of $42,395 versus $45,144 a year earlier and a net loss of $6,183 compared with prior net income of $16,859. Management disclosed 'substantial doubt' about continuing as a going concern without new funding.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-05-18"
+    }
+  ]
 }

@@ -144,6 +144,38 @@
     "first_seen_date": "2026-05-14"
   },
   {
+    "date": "2026-05-14",
+    "headline": "Sustainable Aviation Fuel 101: Feedstocks on World Energy",
+    "source": "World Energy",
+    "source_url": "https://worldenergy.net/resource/saf-101-feedstocks/",
+    "category": "Renewable Fuels",
+    "summary": "Analysis of SAF feedstock options including HEFA technology using waste-derived feedstocks like used cooking oil and beef tallow. Waste-derived feedstocks are noted to have low carbon intensity due to avoidance of cultivation and land-use emissions, with World Energy prioritizing domestically sourced waste products for reliable supply.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-18"
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Barrel Energy Inc. Q1 2026 Quarterly Report Filed",
+    "source": "SEC Filing / StockTitan",
+    "source_url": "https://www.stocktitan.net/sec-filings/BRLL/10-q-barrel-energy-inc-quarterly-earnings-report-3ab095a3011a.html",
+    "category": "Public Co.",
+    "summary": "Barrel Energy reported Q1 2026 revenue of $42,395 versus $45,144 a year earlier and a net loss of $6,183 compared with prior net income of $16,859. Management disclosed 'substantial doubt' about continuing as a going concern without new funding.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-18"
+  },
+  {
     "date": "2026-05-13",
     "headline": "Darling Ingredients' Q1 2026 Profit Rebound and Cash Outlook Reshaping Investment Case",
     "source": "Simply Wall St News",
