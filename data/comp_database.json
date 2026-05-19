@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-05-14",
+    "target": "Terra Nova Solutions",
+    "acquirer": "Clean Harbors, Inc.",
+    "sponsor": "",
+    "location": "Carolinas, USA",
+    "deal_type": "Add-On",
+    "deal_size": "$225 million",
+    "multiple": "N/A",
+    "services": "",
+    "source": "Clean Harbors Inc.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0000822818/000082281826000024/terranovapressrelease.htm",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "Unknown",
+    "deal_summary": [
+      "All-cash acquisition of regional non-hazardous waste provider"
+    ],
+    "date_confidence": "verified",
+    "notes": "Clean Harbors announced a $225 million acquisition of Terra Nova Solutions, a regional provider of hazardous and non-hazardous waste solutions based in the Carolinas. The deal adds five sites supporting high-margin recurring revenue streams including wastewater treatment and waste processing, with expected ~$4 million in annual synergies.",
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
+  },
+  {
     "date": "2026-05-13",
     "target": "Darling Ingredients' trap grease collection and processing assets",
     "acquirer": "Waste Resource Management, LLC (WRM)",
