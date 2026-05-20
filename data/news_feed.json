@@ -76,6 +76,25 @@
     "first_seen_date": "2026-05-18"
   },
   {
+    "date": "2026-05-18",
+    "headline": "Wendy's and 9 Other Major Restaurants That Are Closing in May",
+    "source": "FinanceBuzz",
+    "source_url": "https://financebuzz.com/news/major-restaurants-closing-may-2026",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "summary": "Major restaurant chains including Wendy's, Papa John's, Applebee's, Bahama Breeze, and others are closing hundreds of locations in 2026. Closures are concentrated in underperforming legacy restaurants with lower sales volumes and weaker traffic patterns.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-20"
+  },
+  {
     "date": "2026-05-16",
     "headline": "Waste to Energy Application Portal Open Through May 31, 2026",
     "source": "U.S. Department of Energy",
@@ -364,6 +383,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-05-19"
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "DOE Launches 2026 Waste to Energy and Materials Technical Assistance Program",
+    "source": "U.S. Department of Energy",
+    "source_url": "https://www.energy.gov/cmei/fuels/waste-energy",
+    "category": "Technology",
+    "categories": [
+      "Technology"
+    ],
+    "summary": "The DOE expanded its Waste to Energy Technical Assistance Program for state and local governments, now accepting applications through May 31, 2026. The program supports evaluation of waste-to-energy projects including biogas from organic waste streams (food waste, animal waste, FOG) and other feedstocks.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-20"
   },
   {
     "date": "2026-05-13",
@@ -658,6 +696,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-05-19"
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "Report: Sustainable Aviation Fuel Has Benefits Beyond Just Environmental",
+    "source": "Aviation International News",
+    "source_url": "https://www.ainonline.com/aviation-news/aerospace/2026-05-12/new-report-notes-more-saf-benefits-environmental",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels"
+    ],
+    "summary": "Recent report examining broader benefits of SAF adoption, touching on geopolitical impacts of global oil market disruptions and relevance to renewable fuel production strategies.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-20"
   },
   {
     "date": "2026-05-11",
