@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-05-21T15:42:34Z",
-  "added_news_count": 1,
+  "timestamp": "2026-05-22T14:52:31Z",
+  "added_news_count": 3,
   "added_deals_count": 0,
   "archived_count": 0,
   "new_today_news": [
     {
-      "date": "2026-05-21",
-      "headline": "Waste Collection Route Optimization FAQs 2026",
-      "source": "Fleet Rabbit",
-      "source_url": "https://fleetrabbit.com/faqs/waste-collection-route-optimization-software-faqs",
-      "category": "Technology",
+      "date": "2026-05-22",
+      "headline": "Minnesota Legislature Approves $22 Million in Funding for Owatonna's Wastewater Treatment Plant Expansion Project",
+      "source": "City of Owatonna, Minnesota",
+      "source_url": "https://www.owatonna.gov/788/Wastewater-Treatment-Facility-Expansion",
+      "category": "Infrastructure",
       "categories": [
-        "Technology"
+        "Infrastructure"
       ],
-      "summary": "Comprehensive FAQ on waste collection route optimization featuring AI-powered algorithms, live traffic integration, and weather-responsive scheduling. Discusses real-world case studies showing 20-30% reductions in miles and fuel savings.",
+      "summary": "The Minnesota legislature approved $22 million in state funding on May 22, 2026, to support Owatonna's ongoing wastewater treatment plant expansion project, which is expanding capacity from 5 to 9+ MGD. An additional $4.5 million was approved for Medford to connect to the regional facility.",
       "relevance_score": 3,
       "is_deal": false,
       "is_target_market": false,
@@ -21,23 +21,64 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-05-21"
+      "first_seen_date": "2026-05-22"
     }
   ],
-  "recent_news": [],
+  "recent_news": [
+    {
+      "date": "2026-05-20",
+      "headline": "Fastmarkets Changes Timestamp for Used Cooking Oil Price Assessments",
+      "source": "Fastmarkets",
+      "source_url": "https://www.fastmarkets.com/insights/used-cooking-oil-forecast-a-cornerstone-feedstock-for-sustainable-aviation-fuel/",
+      "category": "ESG",
+      "categories": [
+        "ESG",
+        "Renewable Fuels"
+      ],
+      "summary": "Fastmarkets adjusted daily pricing timestamps for used cooking oil assessments as of May 20, 2026, reflecting evolving global UCO market dynamics. The move reflects ongoing market management in a sector increasingly critical for sustainable aviation fuel production.",
+      "relevance_score": 3,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-05-22"
+    },
+    {
+      "date": "2026-05-16",
+      "headline": "What Happens If You Don't Clean Your Grease Trap? Real Risks for Restaurants",
+      "source": "Alpha Pumping",
+      "source_url": "https://alphapumping.com/blogs/news/what-happens-if-you-don-t-clean-your-grease-trap-real-risks-for-restaurants",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops",
+        "Renewable Fuels"
+      ],
+      "summary": "Educational article addressing grease trap maintenance requirements, risks of neglect including clogged pipes and regulatory penalties, and options for professional grease trap cleaning and used cooking oil recycling.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-05-22"
+    }
+  ],
   "backfill_news": [],
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-05-21",
-      "headline": "Waste Collection Route Optimization FAQs 2026",
-      "source": "Fleet Rabbit",
-      "source_url": "https://fleetrabbit.com/faqs/waste-collection-route-optimization-software-faqs",
-      "category": "Technology",
+      "date": "2026-05-22",
+      "headline": "Minnesota Legislature Approves $22 Million in Funding for Owatonna's Wastewater Treatment Plant Expansion Project",
+      "source": "City of Owatonna, Minnesota",
+      "source_url": "https://www.owatonna.gov/788/Wastewater-Treatment-Facility-Expansion",
+      "category": "Infrastructure",
       "categories": [
-        "Technology"
+        "Infrastructure"
       ],
-      "summary": "Comprehensive FAQ on waste collection route optimization featuring AI-powered algorithms, live traffic integration, and weather-responsive scheduling. Discusses real-world case studies showing 20-30% reductions in miles and fuel savings.",
+      "summary": "The Minnesota legislature approved $22 million in state funding on May 22, 2026, to support Owatonna's ongoing wastewater treatment plant expansion project, which is expanding capacity from 5 to 9+ MGD. An additional $4.5 million was approved for Medford to connect to the regional facility.",
       "relevance_score": 3,
       "is_deal": false,
       "is_target_market": false,
@@ -45,7 +86,47 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-05-21"
+      "first_seen_date": "2026-05-22"
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "Fastmarkets Changes Timestamp for Used Cooking Oil Price Assessments",
+      "source": "Fastmarkets",
+      "source_url": "https://www.fastmarkets.com/insights/used-cooking-oil-forecast-a-cornerstone-feedstock-for-sustainable-aviation-fuel/",
+      "category": "ESG",
+      "categories": [
+        "ESG",
+        "Renewable Fuels"
+      ],
+      "summary": "Fastmarkets adjusted daily pricing timestamps for used cooking oil assessments as of May 20, 2026, reflecting evolving global UCO market dynamics. The move reflects ongoing market management in a sector increasingly critical for sustainable aviation fuel production.",
+      "relevance_score": 3,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-05-22"
+    },
+    {
+      "date": "2026-05-16",
+      "headline": "What Happens If You Don't Clean Your Grease Trap? Real Risks for Restaurants",
+      "source": "Alpha Pumping",
+      "source_url": "https://alphapumping.com/blogs/news/what-happens-if-you-don-t-clean-your-grease-trap-real-risks-for-restaurants",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops",
+        "Renewable Fuels"
+      ],
+      "summary": "Educational article addressing grease trap maintenance requirements, risks of neglect including clogged pipes and regulatory penalties, and options for professional grease trap cleaning and used cooking oil recycling.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-05-22"
     }
   ]
 }
