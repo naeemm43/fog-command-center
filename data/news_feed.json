@@ -77,6 +77,26 @@
     "first_seen_date": "2026-05-25"
   },
   {
+    "date": "2026-05-19",
+    "headline": "Fort Smith Sanitary Sewer Consent Decree Modification Lodged \u2013 Extends Deadline to 2038",
+    "source": "Federal Register",
+    "source_url": "https://www.federalregister.gov/documents/2026/05/22/2026-10252/notice-of-lodging-of-proposed-modification-to-consent-decree-under-the-clean-water-act",
+    "category": "Infrastructure",
+    "categories": [
+      "Infrastructure",
+      "Regulatory"
+    ],
+    "summary": "The Department of Justice lodged a proposed modification to Fort Smith, Arkansas's sanitary sewer consent decree, extending the term by 11.5 years to June 31, 2038. The modification revises interim milestones to allow greater flexibility in prioritizing rehabilitation projects and requires the city to ensure adequate funding.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-26"
+  },
+  {
     "date": "2026-05-18",
     "headline": "2026 ESG & Compliance Dates and Sustainability Calendar",
     "source": "Terra Reporting",
@@ -597,6 +617,28 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-05-18"
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Waste Resource Management, Inc. to acquire Darling Ingredients' trap grease collection and processing assets",
+    "source": "MarketScreener",
+    "source_url": "https://www.marketscreener.com/news/waste-resource-management-inc-agreed-to-acquire-darling-ingredients-inc-s-trap-grease-collection-ce7f5bddd98bff26",
+    "category": "ESG",
+    "categories": [
+      "ESG",
+      "M&A",
+      "Public Co.",
+      "Renewable Fuels"
+    ],
+    "summary": "Waste Resource Management, Inc. agreed to acquire Darling Ingredients Inc.'s trap grease collection and processing assets on May 13, 2026. Darling Ingredients develops sustainable natural ingredients from animal by-products, including grease trap operations. The acquisition expands WRM's capabilities in the specialized liquid waste and grease management sector.",
+    "relevance_score": 5,
+    "is_deal": true,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-26"
   },
   {
     "date": "2026-05-12",
