@@ -1,21 +1,41 @@
 {
-  "timestamp": "2026-05-26T15:55:28Z",
-  "added_news_count": 2,
+  "timestamp": "2026-05-27T16:00:33Z",
+  "added_news_count": 4,
   "added_deals_count": 0,
   "archived_count": 0,
-  "new_today_news": [],
+  "new_today_news": [
+    {
+      "date": "2026-05-27",
+      "headline": "Route Optimization for Waste Collection Software Solutions",
+      "source": "AppicSoftwares",
+      "source_url": "https://appicsoftwares.com/blog/route-optimization-for-waste-collection-software/",
+      "category": "Technology",
+      "categories": [
+        "Technology",
+        "Public Co."
+      ],
+      "summary": "Article discussing modern waste collection route optimization platforms that improve dispatch control, fleet visibility, and operational efficiency. Covers the global waste management market growth and automation trends.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-05-27"
+    }
+  ],
   "recent_news": [
     {
-      "date": "2026-05-19",
-      "headline": "Fort Smith Sanitary Sewer Consent Decree Modification Lodged \u2013 Extends Deadline to 2038",
-      "source": "Federal Register",
-      "source_url": "https://www.federalregister.gov/documents/2026/05/22/2026-10252/notice-of-lodging-of-proposed-modification-to-consent-decree-under-the-clean-water-act",
-      "category": "Infrastructure",
+      "date": "2026-05-24",
+      "headline": "Department of Energy Updates Sustainable Aviation Fuel Strategy",
+      "source": "U.S. Department of Energy",
+      "source_url": "https://www.energy.gov/cmei/fuels/sustainable-aviation-fuels",
+      "category": "Renewable Fuels",
       "categories": [
-        "Infrastructure",
-        "Regulatory"
+        "Renewable Fuels"
       ],
-      "summary": "The Department of Justice lodged a proposed modification to Fort Smith, Arkansas's sanitary sewer consent decree, extending the term by 11.5 years to June 31, 2038. The modification revises interim milestones to allow greater flexibility in prioritizing rehabilitation projects and requires the city to ensure adequate funding.",
+      "summary": "The DOE reaffirms SAF production from wet wastes and renewable feedstocks, including waste cooking oil and animal fats, as critical to aviation decarbonization. The Department is coordinating with USDA and DOT to scale SAF production commercially.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -23,46 +43,83 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-05-26"
-    }
-  ],
-  "backfill_news": [
+      "first_seen_date": "2026-05-27"
+    },
     {
-      "date": "2026-05-13",
-      "headline": "Waste Resource Management, Inc. to acquire Darling Ingredients' trap grease collection and processing assets",
-      "source": "MarketScreener",
-      "source_url": "https://www.marketscreener.com/news/waste-resource-management-inc-agreed-to-acquire-darling-ingredients-inc-s-trap-grease-collection-ce7f5bddd98bff26",
-      "category": "ESG",
+      "date": "2026-05-22",
+      "headline": "Notice of Lodging of Proposed Modification to Consent Decree Under the Clean Water Act",
+      "source": "Federal Register",
+      "source_url": "https://www.federalregister.gov/documents/2026/05/22/2026-10252/notice-of-lodging-of-proposed-modification-to-consent-decree-under-the-clean-water-act",
+      "category": "Infrastructure",
       "categories": [
-        "ESG",
-        "M&A",
-        "Public Co.",
-        "Renewable Fuels"
+        "Infrastructure",
+        "Regulatory"
       ],
-      "summary": "Waste Resource Management, Inc. agreed to acquire Darling Ingredients Inc.'s trap grease collection and processing assets on May 13, 2026. Darling Ingredients develops sustainable natural ingredients from animal by-products, including grease trap operations. The acquisition expands WRM's capabilities in the specialized liquid waste and grease management sector.",
-      "relevance_score": 5,
-      "is_deal": true,
+      "summary": "The Department of Justice lodged a proposed modification to the consent decree for Fort Smith, Arkansas, extending the decree term by 11.5 years to June 2038 for sewer system rehabilitation. The modification revises interim milestones and deadlines to allow the city greater flexibility and requires the city to ensure adequate funding.",
+      "relevance_score": 4,
+      "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-05-26"
+      "first_seen_date": "2026-05-27"
+    }
+  ],
+  "backfill_news": [
+    {
+      "date": "2026-05-14",
+      "headline": "Barrel Energy Inc. Q1 2026 Earnings Report",
+      "source": "TradingView",
+      "source_url": "https://www.tradingview.com/news/tradingview:4539eb9e55c66:0-barrel-energy-inc-1q-2026-revenue-42-4k-net-income-6-18k-eps-0-01-10-q-summary/",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co.",
+        "M&A"
+      ],
+      "summary": "Barrel Energy reported Q1 2026 revenue of $42.4K with a net loss of $6.18K and diluted EPS of $(0.01). The company disclosed going concern risk with accumulated deficit of $317,010 and tight liquidity ($4,236 cash). Recent Happy Traps acquisition is expected to significantly expand revenue base in grease management services.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-05-27"
     }
   ],
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-05-19",
-      "headline": "Fort Smith Sanitary Sewer Consent Decree Modification Lodged \u2013 Extends Deadline to 2038",
-      "source": "Federal Register",
-      "source_url": "https://www.federalregister.gov/documents/2026/05/22/2026-10252/notice-of-lodging-of-proposed-modification-to-consent-decree-under-the-clean-water-act",
-      "category": "Infrastructure",
+      "date": "2026-05-27",
+      "headline": "Route Optimization for Waste Collection Software Solutions",
+      "source": "AppicSoftwares",
+      "source_url": "https://appicsoftwares.com/blog/route-optimization-for-waste-collection-software/",
+      "category": "Technology",
       "categories": [
-        "Infrastructure",
-        "Regulatory"
+        "Technology",
+        "Public Co."
       ],
-      "summary": "The Department of Justice lodged a proposed modification to Fort Smith, Arkansas's sanitary sewer consent decree, extending the term by 11.5 years to June 31, 2038. The modification revises interim milestones to allow greater flexibility in prioritizing rehabilitation projects and requires the city to ensure adequate funding.",
+      "summary": "Article discussing modern waste collection route optimization platforms that improve dispatch control, fleet visibility, and operational efficiency. Covers the global waste management market growth and automation trends.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-05-27"
+    },
+    {
+      "date": "2026-05-24",
+      "headline": "Department of Energy Updates Sustainable Aviation Fuel Strategy",
+      "source": "U.S. Department of Energy",
+      "source_url": "https://www.energy.gov/cmei/fuels/sustainable-aviation-fuels",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels"
+      ],
+      "summary": "The DOE reaffirms SAF production from wet wastes and renewable feedstocks, including waste cooking oil and animal fats, as critical to aviation decarbonization. The Department is coordinating with USDA and DOT to scale SAF production commercially.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -70,29 +127,47 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-05-26"
+      "first_seen_date": "2026-05-27"
     },
     {
-      "date": "2026-05-13",
-      "headline": "Waste Resource Management, Inc. to acquire Darling Ingredients' trap grease collection and processing assets",
-      "source": "MarketScreener",
-      "source_url": "https://www.marketscreener.com/news/waste-resource-management-inc-agreed-to-acquire-darling-ingredients-inc-s-trap-grease-collection-ce7f5bddd98bff26",
-      "category": "ESG",
+      "date": "2026-05-22",
+      "headline": "Notice of Lodging of Proposed Modification to Consent Decree Under the Clean Water Act",
+      "source": "Federal Register",
+      "source_url": "https://www.federalregister.gov/documents/2026/05/22/2026-10252/notice-of-lodging-of-proposed-modification-to-consent-decree-under-the-clean-water-act",
+      "category": "Infrastructure",
       "categories": [
-        "ESG",
-        "M&A",
-        "Public Co.",
-        "Renewable Fuels"
+        "Infrastructure",
+        "Regulatory"
       ],
-      "summary": "Waste Resource Management, Inc. agreed to acquire Darling Ingredients Inc.'s trap grease collection and processing assets on May 13, 2026. Darling Ingredients develops sustainable natural ingredients from animal by-products, including grease trap operations. The acquisition expands WRM's capabilities in the specialized liquid waste and grease management sector.",
-      "relevance_score": 5,
-      "is_deal": true,
+      "summary": "The Department of Justice lodged a proposed modification to the consent decree for Fort Smith, Arkansas, extending the decree term by 11.5 years to June 2038 for sewer system rehabilitation. The modification revises interim milestones and deadlines to allow the city greater flexibility and requires the city to ensure adequate funding.",
+      "relevance_score": 4,
+      "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-05-26"
+      "first_seen_date": "2026-05-27"
+    },
+    {
+      "date": "2026-05-14",
+      "headline": "Barrel Energy Inc. Q1 2026 Earnings Report",
+      "source": "TradingView",
+      "source_url": "https://www.tradingview.com/news/tradingview:4539eb9e55c66:0-barrel-energy-inc-1q-2026-revenue-42-4k-net-income-6-18k-eps-0-01-10-q-summary/",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co.",
+        "M&A"
+      ],
+      "summary": "Barrel Energy reported Q1 2026 revenue of $42.4K with a net loss of $6.18K and diluted EPS of $(0.01). The company disclosed going concern risk with accumulated deficit of $317,010 and tight liquidity ($4,236 cash). Recent Happy Traps acquisition is expected to significantly expand revenue base in grease management services.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-05-27"
     }
   ]
 }
