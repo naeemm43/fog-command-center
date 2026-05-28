@@ -1,106 +1,59 @@
 {
-  "timestamp": "2026-05-27T16:00:33Z",
+  "timestamp": "2026-05-28T16:15:20Z",
   "added_news_count": 4,
-  "added_deals_count": 0,
+  "added_deals_count": 1,
   "archived_count": 0,
   "new_today_news": [
     {
       "date": "2026-05-27",
-      "headline": "Route Optimization for Waste Collection Software Solutions",
-      "source": "AppicSoftwares",
-      "source_url": "https://appicsoftwares.com/blog/route-optimization-for-waste-collection-software/",
-      "category": "Technology",
+      "headline": "15-Year SAF Deal For UK's Largest Regional Airline",
+      "source": "CleanTechnica",
+      "source_url": "https://cleantechnica.com/2026/05/27/saf-sustainable-aviation-fuel-uk-modular-localized/",
+      "category": "Renewable Fuels",
       "categories": [
-        "Technology",
-        "Public Co."
+        "Renewable Fuels"
       ],
-      "summary": "Article discussing modern waste collection route optimization platforms that improve dispatch control, fleet visibility, and operational efficiency. Covers the global waste management market growth and automation trends.",
-      "relevance_score": 2,
-      "is_deal": false,
+      "summary": "Loganair signed a 15-year offtake agreement with ClimaHtech Green Flight to secure sustainable aviation fuel using biomass and e-fuel technologies. The deal demonstrates growing international SAF market developments, though volumes remain small relative to overall jet fuel demand.",
+      "relevance_score": 4,
+      "is_deal": true,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-05-27"
+      "first_seen_date": "2026-05-28"
     }
   ],
   "recent_news": [
     {
-      "date": "2026-05-24",
-      "headline": "Department of Energy Updates Sustainable Aviation Fuel Strategy",
-      "source": "U.S. Department of Energy",
-      "source_url": "https://www.energy.gov/cmei/fuels/sustainable-aviation-fuels",
+      "date": "2026-05-26",
+      "headline": "WSU study offers realistic look at the future of sustainable aviation fuel",
+      "source": "Washington State University",
+      "source_url": "https://news.wsu.edu/press-release/2026/05/26/wsu-study-offers-realistic-look-at-the-future-of-sustainable-aviation-fuel/",
       "category": "Renewable Fuels",
       "categories": [
         "Renewable Fuels"
       ],
-      "summary": "The DOE reaffirms SAF production from wet wastes and renewable feedstocks, including waste cooking oil and animal fats, as critical to aviation decarbonization. The Department is coordinating with USDA and DOT to scale SAF production commercially.",
-      "relevance_score": 4,
+      "summary": "A Washington State University study analyzes U.S. SAF production capacity and feedstock constraints, finding that domestic production could reach about 2.1 billion gallons annually by 2030\u2014roughly two-thirds of the federal 3 billion gallon target. The research highlights a global shortage of used cooking oil and competition between SAF and renewable diesel producers for limited feedstocks.",
+      "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-05-27"
+      "first_seen_date": "2026-05-28"
     },
     {
-      "date": "2026-05-22",
-      "headline": "Notice of Lodging of Proposed Modification to Consent Decree Under the Clean Water Act",
-      "source": "Federal Register",
-      "source_url": "https://www.federalregister.gov/documents/2026/05/22/2026-10252/notice-of-lodging-of-proposed-modification-to-consent-decree-under-the-clean-water-act",
-      "category": "Infrastructure",
+      "date": "2026-05-26",
+      "headline": "Restaurant sales continued to rise in April, despite elevated gas prices",
+      "source": "National Restaurant Association",
+      "source_url": "https://restaurant.org/research-and-media/research/restaurant-economic-insights/economic-indicators/total-restaurant-industry-sales/",
+      "category": "Restaurant",
       "categories": [
-        "Infrastructure",
-        "Regulatory"
+        "Restaurant"
       ],
-      "summary": "The Department of Justice lodged a proposed modification to the consent decree for Fort Smith, Arkansas, extending the decree term by 11.5 years to June 2038 for sewer system rehabilitation. The modification revises interim milestones and deadlines to allow the city greater flexibility and requires the city to ensure adequate funding.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-05-27"
-    }
-  ],
-  "backfill_news": [
-    {
-      "date": "2026-05-14",
-      "headline": "Barrel Energy Inc. Q1 2026 Earnings Report",
-      "source": "TradingView",
-      "source_url": "https://www.tradingview.com/news/tradingview:4539eb9e55c66:0-barrel-energy-inc-1q-2026-revenue-42-4k-net-income-6-18k-eps-0-01-10-q-summary/",
-      "category": "Public Co.",
-      "categories": [
-        "Public Co.",
-        "M&A"
-      ],
-      "summary": "Barrel Energy reported Q1 2026 revenue of $42.4K with a net loss of $6.18K and diluted EPS of $(0.01). The company disclosed going concern risk with accumulated deficit of $317,010 and tight liquidity ($4,236 cash). Recent Happy Traps acquisition is expected to significantly expand revenue base in grease management services.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-05-27"
-    }
-  ],
-  "new_deals": [],
-  "new_news": [
-    {
-      "date": "2026-05-27",
-      "headline": "Route Optimization for Waste Collection Software Solutions",
-      "source": "AppicSoftwares",
-      "source_url": "https://appicsoftwares.com/blog/route-optimization-for-waste-collection-software/",
-      "category": "Technology",
-      "categories": [
-        "Technology",
-        "Public Co."
-      ],
-      "summary": "Article discussing modern waste collection route optimization platforms that improve dispatch control, fleet visibility, and operational efficiency. Covers the global waste management market growth and automation trends.",
+      "summary": "Restaurant sales continued to rise in April despite elevated gas prices. That included restaurants, which saw sales rise for the third consecutive month. Eating and drinking places registered total sales of $101.0 billion on a seasonally adjusted basis in April, up 0.6% from March.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -108,66 +61,131 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-05-27"
+      "first_seen_date": "2026-05-28"
     },
     {
-      "date": "2026-05-24",
-      "headline": "Department of Energy Updates Sustainable Aviation Fuel Strategy",
-      "source": "U.S. Department of Energy",
-      "source_url": "https://www.energy.gov/cmei/fuels/sustainable-aviation-fuels",
+      "date": "2026-05-23",
+      "headline": "CDL-Vacuum Driver - Waste Resource Management",
+      "source": "BeBee",
+      "source_url": "https://bebee.com/us/jobs/cdl-vacuum-driver-waste-resource-management-clarks-las-vegas-townsite-historical--dc-03CA3D48FA419BD11A5ABC12084919EB",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops"
+      ],
+      "summary": "Waste Resource Management (WRM) is hiring a CDL vacuum truck driver and operator for liquid waste collection and transport in Las Vegas. Role includes pre/post trip inspections, safety compliance, and loading/unloading liquid waste to treatment facilities. Compensation $28/hour plus performance bonuses, benefits, and career growth.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-05-28"
+    }
+  ],
+  "backfill_news": [],
+  "new_deals": [
+    {
+      "date": "2026-05-27",
+      "target": "ClimaHtech Green Flight",
+      "acquirer": "Loganair",
+      "sponsor": "",
+      "location": "UK",
+      "deal_type": "Add-On",
+      "deal_size": "Undisclosed",
+      "multiple": "N/A",
+      "services": "",
+      "source": "CleanTechnica",
+      "source_url": "https://cleantechnica.com/2026/05/27/saf-sustainable-aviation-fuel-uk-modular-localized/",
+      "is_target_market": false,
+      "target_market_name": null,
+      "owner_classification": "Unknown",
+      "deal_summary": [
+        "15-year SAF offtake agreement combining BioSAF and eSAF production"
+      ],
+      "date_confidence": "verified",
+      "notes": "Loganair signed a 15-year offtake agreement with ClimaHtech Green Flight to secure sustainable aviation fuel using biomass and e-fuel technologies. The deal demonstrates growing international SAF market developments, though volumes remain small relative to overall jet fuel demand.",
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null
+    }
+  ],
+  "new_news": [
+    {
+      "date": "2026-05-27",
+      "headline": "15-Year SAF Deal For UK's Largest Regional Airline",
+      "source": "CleanTechnica",
+      "source_url": "https://cleantechnica.com/2026/05/27/saf-sustainable-aviation-fuel-uk-modular-localized/",
       "category": "Renewable Fuels",
       "categories": [
         "Renewable Fuels"
       ],
-      "summary": "The DOE reaffirms SAF production from wet wastes and renewable feedstocks, including waste cooking oil and animal fats, as critical to aviation decarbonization. The Department is coordinating with USDA and DOT to scale SAF production commercially.",
+      "summary": "Loganair signed a 15-year offtake agreement with ClimaHtech Green Flight to secure sustainable aviation fuel using biomass and e-fuel technologies. The deal demonstrates growing international SAF market developments, though volumes remain small relative to overall jet fuel demand.",
       "relevance_score": 4,
-      "is_deal": false,
+      "is_deal": true,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-05-27"
+      "first_seen_date": "2026-05-28"
     },
     {
-      "date": "2026-05-22",
-      "headline": "Notice of Lodging of Proposed Modification to Consent Decree Under the Clean Water Act",
-      "source": "Federal Register",
-      "source_url": "https://www.federalregister.gov/documents/2026/05/22/2026-10252/notice-of-lodging-of-proposed-modification-to-consent-decree-under-the-clean-water-act",
-      "category": "Infrastructure",
+      "date": "2026-05-26",
+      "headline": "WSU study offers realistic look at the future of sustainable aviation fuel",
+      "source": "Washington State University",
+      "source_url": "https://news.wsu.edu/press-release/2026/05/26/wsu-study-offers-realistic-look-at-the-future-of-sustainable-aviation-fuel/",
+      "category": "Renewable Fuels",
       "categories": [
-        "Infrastructure",
-        "Regulatory"
+        "Renewable Fuels"
       ],
-      "summary": "The Department of Justice lodged a proposed modification to the consent decree for Fort Smith, Arkansas, extending the decree term by 11.5 years to June 2038 for sewer system rehabilitation. The modification revises interim milestones and deadlines to allow the city greater flexibility and requires the city to ensure adequate funding.",
-      "relevance_score": 4,
+      "summary": "A Washington State University study analyzes U.S. SAF production capacity and feedstock constraints, finding that domestic production could reach about 2.1 billion gallons annually by 2030\u2014roughly two-thirds of the federal 3 billion gallon target. The research highlights a global shortage of used cooking oil and competition between SAF and renewable diesel producers for limited feedstocks.",
+      "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-05-27"
+      "first_seen_date": "2026-05-28"
     },
     {
-      "date": "2026-05-14",
-      "headline": "Barrel Energy Inc. Q1 2026 Earnings Report",
-      "source": "TradingView",
-      "source_url": "https://www.tradingview.com/news/tradingview:4539eb9e55c66:0-barrel-energy-inc-1q-2026-revenue-42-4k-net-income-6-18k-eps-0-01-10-q-summary/",
-      "category": "Public Co.",
+      "date": "2026-05-26",
+      "headline": "Restaurant sales continued to rise in April, despite elevated gas prices",
+      "source": "National Restaurant Association",
+      "source_url": "https://restaurant.org/research-and-media/research/restaurant-economic-insights/economic-indicators/total-restaurant-industry-sales/",
+      "category": "Restaurant",
       "categories": [
-        "Public Co.",
-        "M&A"
+        "Restaurant"
       ],
-      "summary": "Barrel Energy reported Q1 2026 revenue of $42.4K with a net loss of $6.18K and diluted EPS of $(0.01). The company disclosed going concern risk with accumulated deficit of $317,010 and tight liquidity ($4,236 cash). Recent Happy Traps acquisition is expected to significantly expand revenue base in grease management services.",
-      "relevance_score": 4,
+      "summary": "Restaurant sales continued to rise in April despite elevated gas prices. That included restaurants, which saw sales rise for the third consecutive month. Eating and drinking places registered total sales of $101.0 billion on a seasonally adjusted basis in April, up 0.6% from March.",
+      "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-05-27"
+      "first_seen_date": "2026-05-28"
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "CDL-Vacuum Driver - Waste Resource Management",
+      "source": "BeBee",
+      "source_url": "https://bebee.com/us/jobs/cdl-vacuum-driver-waste-resource-management-clarks-las-vegas-townsite-historical--dc-03CA3D48FA419BD11A5ABC12084919EB",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops"
+      ],
+      "summary": "Waste Resource Management (WRM) is hiring a CDL vacuum truck driver and operator for liquid waste collection and transport in Las Vegas. Role includes pre/post trip inspections, safety compliance, and loading/unloading liquid waste to treatment facilities. Compensation $28/hour plus performance bonuses, benefits, and career growth.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-05-28"
     }
   ]
 }
