@@ -40,6 +40,27 @@
     "first_seen_date": "2026-05-29"
   },
   {
+    "date": "2026-05-28",
+    "headline": "Fuel Crisis: The Answer Might Be Flowing Through Commercial Kitchen Drains",
+    "source": "Grease Guardian",
+    "source_url": "https://www.greaseguardian.com/2026/05/28/fuel-crisis-the-answer-might-be-flowing-through-commercial-kitchen-drains/",
+    "category": "Technology",
+    "categories": [
+      "Technology",
+      "Public Co.",
+      "ESG"
+    ],
+    "summary": "Grease Guardian highlights how FOG recovery technology can capture waste from commercial kitchens and convert it to renewable fuel as fuel prices remain unstable. The article discusses automatic grease removal devices and their role in a circular economy approach to waste management.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-01"
+  },
+  {
     "date": "2026-05-27",
     "headline": "Route Optimization for Waste Collection Software Solutions",
     "source": "AppicSoftwares",
@@ -3879,46 +3900,6 @@
     "zoom_hint": null,
     "first_seen_date": "2025-12-05",
     "categories": [
-      "Renewable Fuels"
-    ]
-  },
-  {
-    "date": "2025-12-01",
-    "headline": "LES Acquires Grease Masters in St. Louis",
-    "source": "Waste Today",
-    "source_url": "https://wastetodaymagazine.com",
-    "category": "M&A",
-    "summary": "Goldman-backed LES acquires St. Louis-based Grease Masters, a grease trap, UCO, drain cleaning, and kitchen exhaust hood cleaning provider.",
-    "is_target_market": false,
-    "target_market_name": null,
-    "relevance_score": 5,
-    "is_deal": true,
-    "latitude": 38.627,
-    "longitude": -90.199,
-    "zoom_hint": "narrow",
-    "first_seen_date": "2025-12-01",
-    "categories": [
-      "M&A",
-      "Renewable Fuels"
-    ]
-  },
-  {
-    "date": "2025-12-01",
-    "headline": "Liquid Environmental Solutions Acquires Grease Masters",
-    "source": "Waste Today",
-    "source_url": "https://www.wastetodaymagazine.com/news/liquid-environmental-solutions-new-orleans-acquisition/",
-    "category": "M&A",
-    "summary": "In December 2025, LES acquired St. Louis-based Grease Masters, a grease trap/commercial drain line cleaning, used cooking oil, and kitchen exhaust hood cleaning provider, expanding LES's Midwest footprint.",
-    "relevance_score": 5,
-    "is_deal": true,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": 38.627,
-    "longitude": -90.199,
-    "zoom_hint": "narrow",
-    "first_seen_date": "2025-12-01",
-    "categories": [
-      "M&A",
       "Renewable Fuels"
     ]
   },

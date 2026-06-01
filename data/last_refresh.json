@@ -1,80 +1,22 @@
 {
-  "timestamp": "2026-05-29T15:56:37Z",
-  "added_news_count": 5,
+  "timestamp": "2026-06-01T17:54:40Z",
+  "added_news_count": 1,
   "added_deals_count": 0,
-  "archived_count": 0,
-  "new_today_news": [
-    {
-      "date": "2026-05-29",
-      "headline": "Grease Product News - May 2026",
-      "source": "Pumper",
-      "source_url": "https://www.pumper.com/bytes/2025/02/setting-the-record-straight-chemotherapy-and-septic-systems",
-      "category": "Industry Events",
-      "categories": [
-        "Industry Events"
-      ],
-      "summary": "Industry product updates and news featured in Pumper's May 2026 publication covering grease products and services within the septic and wastewater service sectors.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-05-29"
-    },
-    {
-      "date": "2026-05-29",
-      "headline": "EPA Sustainable Management of Food",
-      "source": "US EPA",
-      "source_url": "https://www.epa.gov/sustainable-management-food",
-      "category": "ESG",
-      "categories": [
-        "ESG",
-        "Regulatory",
-        "Technology"
-      ],
-      "summary": "Updated EPA resources on food waste sustainable management, including the Anaerobic Digesters survey and Food Recovery Challenge program guidance. Covers methane emissions from landfilled food waste and wasted food prevention strategies.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-05-29"
-    }
-  ],
+  "archived_count": 2,
+  "new_today_news": [],
   "recent_news": [
     {
-      "date": "2026-05-26",
-      "headline": "ESG & Sustainability in 2026: Twists, Turns and Trends",
-      "source": "Clark Hill PLC",
-      "source_url": "https://www.clarkhill.com/news-events/news/esg-sustainability-in-2026-twists-turns-and-trends/",
-      "category": "ESG",
+      "date": "2026-05-28",
+      "headline": "Fuel Crisis: The Answer Might Be Flowing Through Commercial Kitchen Drains",
+      "source": "Grease Guardian",
+      "source_url": "https://www.greaseguardian.com/2026/05/28/fuel-crisis-the-answer-might-be-flowing-through-commercial-kitchen-drains/",
+      "category": "Technology",
       "categories": [
+        "Technology",
+        "Public Co.",
         "ESG"
       ],
-      "summary": "Legal analysis of 2026 ESG landscape including fragmented regulatory requirements, mandatory climate disclosures, Extended Producer Responsibility (EPR) legislation for packaging across multiple U.S. states, and EU sustainability directive updates.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-05-29"
-    },
-    {
-      "date": "2026-05-24",
-      "headline": "Waste Hauler Insurance Rates: Liquid Waste Operations See 30\u201350% Pollution Liability Premiums",
-      "source": "Fleet Rabbit",
-      "source_url": "https://fleetrabbit.com/blogs/post/-garbage-truck-insurance-cost-reduction",
-      "category": "Labor/Ops",
-      "categories": [
-        "Labor/Ops"
-      ],
-      "summary": "Liquid waste with pollution exposure adds 30-50% to insurance costs. Article outlines 2026 insurance benchmarks for waste haulers, telematics discount opportunities, and cost-reduction strategies. Significant overhead challenge for operators in septic and liquid waste sectors.",
+      "summary": "Grease Guardian highlights how FOG recovery technology can capture waste from commercial kitchens and convert it to renewable fuel as fuel prices remain unstable. The article discusses automatic grease removal devices and their role in a circular economy approach to waste management.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -82,100 +24,24 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-05-29"
-    },
-    {
-      "date": "2026-05-23",
-      "headline": "Deerfield Risk Advisors: Waste Haulers Getting Hit at Renewal (March 23, 2026)",
-      "source": "Deerfield Risk Advisors",
-      "source_url": "https://deerfieldrisk.com/blog/insurance-for-waste-recycle-haulers-protecting-your-business-and-operations/",
-      "category": "Labor/Ops",
-      "categories": [
-        "Labor/Ops"
-      ],
-      "summary": "Waste Hauling Insurance: Why Recycling & Garbage Companies Are Getting Hit at Renewal March 23, 2026. Analysis of insurance pressures on waste and recycling haulers, including pollution liability and operational risks for tanker and liquid waste operations.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-05-29"
+      "first_seen_date": "2026-06-01"
     }
   ],
   "backfill_news": [],
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-05-29",
-      "headline": "Grease Product News - May 2026",
-      "source": "Pumper",
-      "source_url": "https://www.pumper.com/bytes/2025/02/setting-the-record-straight-chemotherapy-and-septic-systems",
-      "category": "Industry Events",
+      "date": "2026-05-28",
+      "headline": "Fuel Crisis: The Answer Might Be Flowing Through Commercial Kitchen Drains",
+      "source": "Grease Guardian",
+      "source_url": "https://www.greaseguardian.com/2026/05/28/fuel-crisis-the-answer-might-be-flowing-through-commercial-kitchen-drains/",
+      "category": "Technology",
       "categories": [
-        "Industry Events"
-      ],
-      "summary": "Industry product updates and news featured in Pumper's May 2026 publication covering grease products and services within the septic and wastewater service sectors.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-05-29"
-    },
-    {
-      "date": "2026-05-29",
-      "headline": "EPA Sustainable Management of Food",
-      "source": "US EPA",
-      "source_url": "https://www.epa.gov/sustainable-management-food",
-      "category": "ESG",
-      "categories": [
-        "ESG",
-        "Regulatory",
-        "Technology"
-      ],
-      "summary": "Updated EPA resources on food waste sustainable management, including the Anaerobic Digesters survey and Food Recovery Challenge program guidance. Covers methane emissions from landfilled food waste and wasted food prevention strategies.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-05-29"
-    },
-    {
-      "date": "2026-05-26",
-      "headline": "ESG & Sustainability in 2026: Twists, Turns and Trends",
-      "source": "Clark Hill PLC",
-      "source_url": "https://www.clarkhill.com/news-events/news/esg-sustainability-in-2026-twists-turns-and-trends/",
-      "category": "ESG",
-      "categories": [
+        "Technology",
+        "Public Co.",
         "ESG"
       ],
-      "summary": "Legal analysis of 2026 ESG landscape including fragmented regulatory requirements, mandatory climate disclosures, Extended Producer Responsibility (EPR) legislation for packaging across multiple U.S. states, and EU sustainability directive updates.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-05-29"
-    },
-    {
-      "date": "2026-05-24",
-      "headline": "Waste Hauler Insurance Rates: Liquid Waste Operations See 30\u201350% Pollution Liability Premiums",
-      "source": "Fleet Rabbit",
-      "source_url": "https://fleetrabbit.com/blogs/post/-garbage-truck-insurance-cost-reduction",
-      "category": "Labor/Ops",
-      "categories": [
-        "Labor/Ops"
-      ],
-      "summary": "Liquid waste with pollution exposure adds 30-50% to insurance costs. Article outlines 2026 insurance benchmarks for waste haulers, telematics discount opportunities, and cost-reduction strategies. Significant overhead challenge for operators in septic and liquid waste sectors.",
+      "summary": "Grease Guardian highlights how FOG recovery technology can capture waste from commercial kitchens and convert it to renewable fuel as fuel prices remain unstable. The article discusses automatic grease removal devices and their role in a circular economy approach to waste management.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -183,26 +49,7 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-05-29"
-    },
-    {
-      "date": "2026-05-23",
-      "headline": "Deerfield Risk Advisors: Waste Haulers Getting Hit at Renewal (March 23, 2026)",
-      "source": "Deerfield Risk Advisors",
-      "source_url": "https://deerfieldrisk.com/blog/insurance-for-waste-recycle-haulers-protecting-your-business-and-operations/",
-      "category": "Labor/Ops",
-      "categories": [
-        "Labor/Ops"
-      ],
-      "summary": "Waste Hauling Insurance: Why Recycling & Garbage Companies Are Getting Hit at Renewal March 23, 2026. Analysis of insurance pressures on waste and recycling haulers, including pollution liability and operational risks for tanker and liquid waste operations.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-05-29"
+      "first_seen_date": "2026-06-01"
     }
   ]
 }
