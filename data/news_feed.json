@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-06-02",
+    "headline": "Sustainable aviation fuel likely to miss 2030 U.S. target",
+    "source": "Earth.com",
+    "source_url": "https://www.earth.com/news/sustainable-aviation-fuel-likely-to-miss-2030-u-s-target/",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels"
+    ],
+    "summary": "\"There's actually a global shortage of used cooking oil,\" Brandt said. \"It sounds ridiculous, but it's true.\" This matters because it caps how much HEFA-based SAF can be produced regardless of how many facilities get built.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-02"
+  },
+  {
     "date": "2026-05-29",
     "headline": "Grease Product News - May 2026",
     "source": "Pumper",
@@ -59,6 +78,45 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-06-01"
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "Study Finds SAF Could Fall Short Of 2030 Target",
+    "source": "AVweb",
+    "source_url": "https://avweb.com/ownership/fuel-news/study-finds-saf-short-of-targets/",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels"
+    ],
+    "summary": "A Washington State University study estimates the U.S. could produce 2.1 billion gallons of sustainable aviation fuel (SAF) annually by 2030, falling short of the federal goal of 3 billion gallons. HEFA fuels are commonly produced from fats, oils and greases such as used cooking oil and animal fats, though the study noted limits in available supply.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-02"
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "City of Tyler nears end of 10 year Consent Decree program targeting fats, oils, grease",
+    "source": "KLTV",
+    "source_url": "https://www.kltv.com/2026/05/28/tyler-targets-fats-oils-grease-leading-cause-sewer-backups/",
+    "category": "Infrastructure",
+    "categories": [
+      "Infrastructure",
+      "Regulatory"
+    ],
+    "summary": "Tyler Water Utilities is nearing completion of a decade-long effort to modernize the city's wastewater system aimed at preventing sewer overflows, protecting public health, and meeting federal regulatory standards. One of the city's biggest ongoing challenges remains FOG\u2014fats, oils and grease\u2014a leading contributor to blockages and sanitary sewer overflows. City officials say they have one year left in the program, followed by an additional required \"bonus year,\" with the agreement running through 2027.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-02"
   },
   {
     "date": "2026-05-27",
@@ -270,6 +328,26 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-05-27"
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Waste Management Workforce Trends We're Tracking in 2026",
+    "source": "HireQuest Inc.",
+    "source_url": "https://hirequest.com/insight/waste-management-workforce-trends-2026/",
+    "category": "Labor/Ops",
+    "categories": [
+      "Labor/Ops",
+      "Public Co."
+    ],
+    "summary": "Discusses labor availability challenges in waste management, including competition from logistics and delivery services for CDL drivers, aging workforce demographics, and emphasis on safety training and retention strategies for 2026 operations.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-02"
   },
   {
     "date": "2026-05-21",
