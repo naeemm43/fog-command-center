@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-06-03",
+    "headline": "Route optimization trends for trash pickup",
+    "source": "AAA Sanitation Co",
+    "source_url": "https://aaasanitationco.com/trash-route-optimization-2026/",
+    "category": "Technology",
+    "categories": [
+      "Technology"
+    ],
+    "summary": "Analysis of how waste collection route optimization is being reshaped by operational software, municipal requirements, and neighborhood constraints. Discusses summer collection challenges, access issues, and container management practices affecting service delivery.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-03"
+  },
+  {
     "date": "2026-06-02",
     "headline": "Sustainable aviation fuel likely to miss 2030 U.S. target",
     "source": "Earth.com",
@@ -406,6 +425,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-05-25"
+  },
+  {
+    "date": "2026-05-20",
+    "headline": "Efficient Grease Collection for Food Service: Best Practices and Benefits",
+    "source": "World Flags 101",
+    "source_url": "https://worldflags101.com/efficient-grease-collection-for-food-service-best-practices-and-benefits/",
+    "category": "ESG",
+    "categories": [
+      "ESG"
+    ],
+    "summary": "Article on best practices for grease collection in food service, covering legal requirements, regulatory compliance, and converting grease waste into revenue streams through recycling partnerships. Focuses on efficient collection processes and profitability while supporting environmental sustainability.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-03"
   },
   {
     "date": "2026-05-19",
@@ -3940,45 +3978,6 @@
     "categories": [
       "M&A",
       "Public Co."
-    ]
-  },
-  {
-    "date": "2025-12-05",
-    "headline": "Renewable Diesel Feedstock Competition Intensifies: UCO Policy Incentives Drive Market Volatility",
-    "source": "Energy Solutions",
-    "source_url": "https://energy-solutions.co/articles/sub/used-cooking-oil-uco-market-saf-feedstock",
-    "category": "Renewable Fuels",
-    "summary": "Global collectable UCO volumes in 2030 may realistically reach 8\u201312 million tonnes/year, supporting 15\u201322 million tonnes/year of SAF and renewable diesel combined, yet net-zero-aligned roadmaps envision aviation SAF demand of 60\u2013120 million tonnes/year by 2035, creating structural feedstock tension. There is intense competition between biodiesel, renewable diesel, and SAF producers for a limited pool of UCO.",
-    "relevance_score": 4,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2025-12-05",
-    "categories": [
-      "Renewable Fuels",
-      "ESG"
-    ]
-  },
-  {
-    "date": "2025-12-05",
-    "headline": "Used Cooking Oil (UCO) Price Forecast: A Cornerstone Feedstock for Sustainable Aviation Fuel",
-    "source": "Fastmarkets",
-    "source_url": "https://www.fastmarkets.com/insights/used-cooking-oil-forecast-a-cornerstone-feedstock-for-sustainable-aviation-fuel/",
-    "category": "Renewable Fuels",
-    "summary": "Fastmarkets analysis of UCO market dynamics showing 2024 US UCO usage reached 8.4 billion pounds (42% increase), but collection at only 3.3 billion pounds falls short of the industry's demand for 5.7 billion pounds, creating significant feedstock supply constraints.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2025-12-05",
-    "categories": [
-      "Renewable Fuels"
     ]
   },
   {
