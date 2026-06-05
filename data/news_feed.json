@@ -133,6 +133,45 @@
     "first_seen_date": "2026-06-04"
   },
   {
+    "date": "2026-06-03",
+    "headline": "Job Openings in Restaurant and Lodging Sector Decline in February",
+    "source": "National Restaurant Association",
+    "source_url": "https://restaurant.org/research-and-media/research/restaurant-economic-insights/economic-indicators/restaurant-job-openings/",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "summary": "Job openings in the restaurant and lodging sector slowed significantly in February, declining from 991,000 in January to 780,000. Restaurant industry employment trends show uneven but generally positive trajectory heading into summer months.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-05"
+  },
+  {
+    "date": "2026-06-03",
+    "headline": "PFAS Continues Moving Through Landfills, Wastewater, and Farmland",
+    "source": "Waste360",
+    "source_url": "https://www.waste360.com/pfas-pfoas/how-pfas-continues-moving-through-landfills-wastewater-and-farmland",
+    "category": "Industry Events",
+    "categories": [
+      "Industry Events",
+      "Public Co."
+    ],
+    "summary": "Article examines PFAS contamination pathways through landfills, wastewater treatment plants, and biosolids land application, with implications for septic and liquid waste systems. Addresses emerging regulatory and operational challenges in waste management.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-05"
+  },
+  {
     "date": "2026-06-02",
     "headline": "Sustainable aviation fuel likely to miss 2030 U.S. target",
     "source": "Earth.com",
@@ -188,6 +227,26 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-06-04"
+  },
+  {
+    "date": "2026-06-02",
+    "headline": "Nevada's Only Refinery Just Got a Jet-Fuel Makeover Plan",
+    "source": "GlobeNewswire",
+    "source_url": "https://www.globenewswire.com/news-release/2026/06/02/3305203/0/en/Nevada-s-Only-Refinery-Just-Got-a-Jet-Fuel-Makeover-Plan.html",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels",
+      "Public Co."
+    ],
+    "summary": "Darling Ingredients reported Q1 2026 results showing Diamond Green Diesel EBITDA of $151.2 million on 272.4 million gallons of renewable fuels sold at approximately $1.11 per gallon. The article discusses DGD's joint venture operations and renewable fuel production across rendering and renewable energy sectors.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-05"
   },
   {
     "date": "2026-06-01",
