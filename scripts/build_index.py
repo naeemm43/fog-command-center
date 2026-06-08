@@ -2271,6 +2271,10 @@ const collectionBucketStates = {{}};
     const m = L.marker([d.la, d.lo], {{icon: icon}});
     m._state = d.s;
     m._vs = d.vs;
+    // Stash the source record so the unified doSearch (patched into
+    // scripts after this injection) can read the name from each marker
+    // without rebuilding a global name index.
+    m._coll = d;
     if (!collectionMarkersByBucket[key]) collectionMarkersByBucket[key] = [];
     collectionMarkersByBucket[key].push(m);
     m.bindPopup(function() {{
@@ -2361,6 +2365,161 @@ const collectionBucketStates = {{}};
 """
     last = scripts.rfind("</script>")
     return scripts[:last] + js + scripts[last:], counts
+
+
+def patch_search_to_all_entities(scripts: str) -> str:
+    """Swap the upstream `doSearch(q)` for a version that searches across
+    plants/pumpers (existing fogMarkerByName), collection operators
+    (window.__collectionMarkersByBucket — added by inject_collection_layer),
+    and WWTPs (WWTP_DATA + wwtpCluster). On a collection or WWTP hit, the
+    corresponding entity-type checkbox is auto-enabled (dispatching a
+    change event so the layer renders) before zoom-to-marker. Without
+    this patch the search box only finds plant/pumper records, so manual
+    supplements like the Premier Grease metro markers are invisible to
+    search even though they're embedded in the page.
+    """
+    # The upstream block is stable — match exactly so we fail loudly if
+    # the upstream source ever changes shape.
+    old_func = (
+        "function doSearch(q) {\n"
+        "  q = (q || '').trim().toLowerCase();\n"
+        "  if (!q) return;\n"
+        "  for (let i = 0; i < fogMarkerByName.length; i++) {\n"
+        "    const r = fogMarkerByName[i];\n"
+        "    if (r.n.indexOf(q) !== -1) {\n"
+        "      const cb = document.getElementById('cb-' + r.cat);\n"
+        "      if (cb && !cb.checked) cb.checked = true;\n"
+        "      // Make sure the entity-mode and pumper toggle let it show\n"
+        "      const mode = entityMode();\n"
+        "      if (mode === 'plant' && r.ent !== 'plant') {\n"
+        "        document.querySelector('input[name=\"entity-mode\"][value=\"both\"]').checked = true;\n"
+        "      }\n"
+        "      if (mode === 'pumper' && r.ent !== 'pumper') {\n"
+        "        document.querySelector('input[name=\"entity-mode\"][value=\"both\"]').checked = true;\n"
+        "      }\n"
+        "      if (r.ent === 'pumper' && !document.getElementById('toggle-pumpers-lowzoom').checked) {\n"
+        "        document.getElementById('toggle-pumpers-lowzoom').checked = true;\n"
+        "      }\n"
+        "      refreshAllCategories();\n"
+        "      updateStats();\n"
+        "      const cluster = fogClusters[r.cat][r.ent];\n"
+        "      cluster.zoomToShowLayer(r.m, function() { r.m.openPopup(); });\n"
+        "      return;\n"
+        "    }\n"
+        "  }\n"
+        "  alert('No facility found matching \"' + q + '\"');\n"
+        "}"
+    )
+    if old_func not in scripts:
+        raise RuntimeError(
+            "patch_search_to_all_entities: could not locate the upstream "
+            "doSearch() block. The upstream fog_facility_map.html may have "
+            "changed — re-sync this patcher's `old_func` string."
+        )
+    new_func = """function doSearch(q) {
+  q = (q || '').trim().toLowerCase();
+  if (!q) return;
+
+  // 1) Plants + pumpers (upstream FOG_DATA).
+  for (let i = 0; i < fogMarkerByName.length; i++) {
+    const r = fogMarkerByName[i];
+    if (r.n.indexOf(q) !== -1) {
+      const cb = document.getElementById('cb-' + r.cat);
+      if (cb && !cb.checked) cb.checked = true;
+      const mode = entityMode();
+      if (mode === 'plant' && r.ent !== 'plant') {
+        document.querySelector('input[name="entity-mode"][value="both"]').checked = true;
+      }
+      if (mode === 'pumper' && r.ent !== 'pumper') {
+        document.querySelector('input[name="entity-mode"][value="both"]').checked = true;
+      }
+      if (r.ent === 'pumper' && !document.getElementById('toggle-pumpers-lowzoom').checked) {
+        document.getElementById('toggle-pumpers-lowzoom').checked = true;
+      }
+      refreshAllCategories();
+      updateStats();
+      const cluster = fogClusters[r.cat][r.ent];
+      cluster.zoomToShowLayer(r.m, function() { r.m.openPopup(); });
+      return;
+    }
+  }
+
+  // 2) Collection operators (COLLECTION_DATA — diamonds in
+  //    collectionClusters[bucket]). Auto-enable the Collection
+  //    Operators entity toggle and the ownership bucket so the marker
+  //    actually renders before zooming to it.
+  if (window.__collectionMarkersByBucket) {
+    const buckets = window.__collectionMarkersByBucket;
+    for (const key in buckets) {
+      const arr = buckets[key];
+      for (let i = 0; i < arr.length; i++) {
+        const m = arr[i];
+        const d = m._coll;
+        if (!d || !d.n) continue;
+        if (String(d.n).toLowerCase().indexOf(q) === -1) continue;
+
+        const collCb = document.getElementById('toggle-entity-collection');
+        if (collCb && !collCb.checked) {
+          collCb.checked = true;
+          collCb.dispatchEvent(new Event('change'));
+        }
+        const ownerCb = document.getElementById('cb-' + key);
+        if (ownerCb && !ownerCb.checked) {
+          ownerCb.checked = true;
+          ownerCb.dispatchEvent(new Event('change'));
+        }
+        const cluster = window.__collectionClusters && window.__collectionClusters[key];
+        const openIt = function() {
+          map.setView([d.la, d.lo], Math.max(map.getZoom(), 12));
+          m.openPopup();
+        };
+        if (cluster && typeof cluster.zoomToShowLayer === 'function'
+            && cluster.hasLayer && cluster.hasLayer(m)) {
+          cluster.zoomToShowLayer(m, function() { m.openPopup(); });
+        } else {
+          openIt();
+        }
+        return;
+      }
+    }
+  }
+
+  // 3) Municipal WWTPs (WWTP_DATA / wwtpCluster). Auto-enable the
+  //    WWTP entity toggle so the layer renders before opening.
+  if (typeof WWTP_DATA !== 'undefined' && WWTP_DATA.length) {
+    for (let i = 0; i < WWTP_DATA.length; i++) {
+      const d = WWTP_DATA[i];
+      if (!d || !d.n) continue;
+      if (String(d.n).toLowerCase().indexOf(q) === -1) continue;
+
+      const wwtpCb = document.getElementById('toggle-entity-wwtp');
+      if (wwtpCb && !wwtpCb.checked) {
+        wwtpCb.checked = true;
+        wwtpCb.dispatchEvent(new Event('change'));
+      }
+      let found = null;
+      if (typeof wwtpCluster !== 'undefined' && wwtpCluster.eachLayer) {
+        wwtpCluster.eachLayer(function(m) {
+          if (found) return;
+          if (m._wwtp && m._wwtp.n === d.n
+              && m._wwtp.la === d.la && m._wwtp.lo === d.lo) {
+            found = m;
+          }
+        });
+      }
+      if (found && typeof wwtpCluster.zoomToShowLayer === 'function') {
+        wwtpCluster.zoomToShowLayer(found, function() { found.openPopup(); });
+      } else {
+        map.setView([d.la, d.lo], Math.max(map.getZoom(), 12));
+        if (found) found.openPopup();
+      }
+      return;
+    }
+  }
+
+  alert('No facility found matching "' + q + '"');
+}"""
+    return scripts.replace(old_func, new_func, 1)
 
 
 def patch_collection_legend(body_inner: str) -> str:
@@ -3583,6 +3742,7 @@ def main() -> int:
     body_inner = patch_stats_panel(body_inner)
     body_inner = patch_filter_panel(body_inner)
     scripts, collection_counts = inject_collection_layer(scripts)
+    scripts = patch_search_to_all_entities(scripts)
     scripts = inject_service_hq(scripts)
     scripts = inject_restaurant_heat(scripts)
     scripts = inject_entity_type_toggles(scripts)
