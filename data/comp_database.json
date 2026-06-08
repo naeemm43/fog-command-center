@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-05-27",
+    "target": "ClimaHtech Green Flight",
+    "acquirer": "Loganair",
+    "sponsor": "",
+    "location": "UK",
+    "deal_type": "Add-On",
+    "deal_size": "Undisclosed",
+    "multiple": "N/A",
+    "services": "",
+    "source": "CleanTechnica",
+    "source_url": "https://cleantechnica.com/2026/05/27/saf-sustainable-aviation-fuel-uk-modular-localized/",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "Unknown",
+    "deal_summary": [
+      "15-year SAF offtake agreement combining BioSAF and eSAF production"
+    ],
+    "date_confidence": "verified",
+    "notes": "Loganair signed a 15-year offtake agreement with ClimaHtech Green Flight to secure sustainable aviation fuel using biomass and e-fuel technologies. The deal demonstrates growing international SAF market developments, though volumes remain small relative to overall jet fuel demand.",
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
+  },
+  {
     "date": "2026-05-14",
     "target": "Terra Nova Solutions",
     "acquirer": "Clean Harbors, Inc.",

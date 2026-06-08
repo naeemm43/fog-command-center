@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-05-19T15:39:53Z",
-  "added_news_count": 8,
-  "added_deals_count": 1,
+  "timestamp": "2026-06-05T15:18:50Z",
+  "added_news_count": 3,
+  "added_deals_count": 0,
   "archived_count": 0,
   "new_today_news": [],
   "recent_news": [
     {
-      "date": "2026-05-16",
-      "headline": "National Restaurant Association Show begins at McCormick Place in Chicago",
-      "source": "Restaurant Business",
-      "source_url": "https://www.restaurantbusinessonline.com/operations/must-read-preview-2026-national-restaurant-association-show",
+      "date": "2026-06-03",
+      "headline": "Job Openings in Restaurant and Lodging Sector Decline in February",
+      "source": "National Restaurant Association",
+      "source_url": "https://restaurant.org/research-and-media/research/restaurant-economic-insights/economic-indicators/restaurant-job-openings/",
       "category": "Restaurant",
       "categories": [
         "Restaurant"
       ],
-      "summary": "105th annual National Restaurant Association Show kicks off with 53,000+ foodservice professionals from 100 countries and 2,000+ vendors. The industry gathers to explore solutions for labor shortages, cost pressures, and technology innovations.",
+      "summary": "Job openings in the restaurant and lodging sector slowed significantly in February, declining from 991,000 in January to 780,000. Restaurant industry employment trends show uneven but generally positive trajectory heading into summer months.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -22,182 +22,62 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-05-19"
+      "first_seen_date": "2026-06-05"
     },
     {
-      "date": "2026-05-16",
-      "headline": "Restaurant industry navigates 'complex' consumer landscape as sentiment hits all-time low",
-      "source": "Nation's Restaurant News",
-      "source_url": "https://www.nrn.com/restaurant-insights",
-      "category": "Restaurant",
+      "date": "2026-06-03",
+      "headline": "PFAS Continues Moving Through Landfills, Wastewater, and Farmland",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/pfas-pfoas/how-pfas-continues-moving-through-landfills-wastewater-and-farmland",
+      "category": "Industry Events",
       "categories": [
-        "Restaurant"
-      ],
-      "summary": "Analysis of challenging consumer sentiment and spending patterns impacting restaurant operators in May 2026.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-05-19"
-    },
-    {
-      "date": "2026-05-16",
-      "headline": "Innovation and cultural relevance drove the success for many burger chains",
-      "source": "Nation's Restaurant News",
-      "source_url": "https://www.nrn.com/restaurant-insights",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "Analysis of burger chain performance and strategies for success in 2025.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-05-19"
-    },
-    {
-      "date": "2026-05-15",
-      "headline": "Innovation was not the key to success among chicken chains in 2025",
-      "source": "Nation's Restaurant News",
-      "source_url": "https://www.nrn.com/restaurant-insights",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "Industry analysis showing chicken chains succeeded on factors other than menu innovation.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-05-19"
-    },
-    {
-      "date": "2026-05-14",
-      "headline": "Clean Harbors Announces Acquisition of Terra Nova Solutions",
-      "source": "Clean Harbors Inc.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/0000822818/000082281826000024/terranovapressrelease.htm",
-      "category": "M&A",
-      "categories": [
-        "M&A",
+        "Industry Events",
         "Public Co."
       ],
-      "summary": "Clean Harbors announced a $225 million acquisition of Terra Nova Solutions, a regional provider of hazardous and non-hazardous waste solutions based in the Carolinas. The deal adds five sites supporting high-margin recurring revenue streams including wastewater treatment and waste processing, with expected ~$4 million in annual synergies.",
-      "relevance_score": 4,
-      "is_deal": true,
+      "summary": "Article examines PFAS contamination pathways through landfills, wastewater treatment plants, and biosolids land application, with implications for septic and liquid waste systems. Addresses emerging regulatory and operational challenges in waste management.",
+      "relevance_score": 3,
+      "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-05-19"
+      "first_seen_date": "2026-06-05"
     },
     {
-      "date": "2026-05-12",
-      "headline": "Truck Driver Shortage 2026: Impact on Shippers",
-      "source": "PLS Logistics",
-      "source_url": "https://www.plslogistics.com/blog/truck-driver-shortage-2026/",
-      "category": "Labor/Ops",
+      "date": "2026-06-02",
+      "headline": "Nevada's Only Refinery Just Got a Jet-Fuel Makeover Plan",
+      "source": "GlobeNewswire",
+      "source_url": "https://www.globenewswire.com/news-release/2026/06/02/3305203/0/en/Nevada-s-Only-Refinery-Just-Got-a-Jet-Fuel-Makeover-Plan.html",
+      "category": "Renewable Fuels",
       "categories": [
-        "Labor/Ops"
+        "Renewable Fuels",
+        "Public Co."
       ],
-      "summary": "A federal rule effective March 2026 prohibits asylum seekers, refugees, and DACA recipients from obtaining CDLs, shrinking the available driver pool. Foreign-born drivers account for nearly one in six truckers, and small fleets are disproportionately affected by regulatory changes.",
-      "relevance_score": 2,
+      "summary": "Darling Ingredients reported Q1 2026 results showing Diamond Green Diesel EBITDA of $151.2 million on 272.4 million gallons of renewable fuels sold at approximately $1.11 per gallon. The article discusses DGD's joint venture operations and renewable fuel production across rendering and renewable energy sectors.",
+      "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-05-19"
+      "first_seen_date": "2026-06-05"
     }
   ],
-  "backfill_news": [
-    {
-      "date": "2026-05-08",
-      "headline": "Restaurant job growth was choppy in recent months but trendline continues positive",
-      "source": "National Restaurant Association",
-      "source_url": "https://restaurant.org/research-and-media/research/restaurant-economic-insights/economic-indicators/total-restaurant-industry-jobs/",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "May 2026 report showing restaurants added 17,200 jobs in April but faced losses in February. Employment remains 71,400 jobs above pre-pandemic levels but full-service segment still 193,000 jobs below Feb 2020 peak.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-05-19"
-    },
-    {
-      "date": "2026-05-05",
-      "headline": "US Restaurant Industry 2026 Expectations Breakdown",
-      "source": "Seeking Alpha / S&P Global",
-      "source_url": "https://seekingalpha.com/article/4898986-us-restaurant-industry-2026-expectations-breakdown",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "Analysis of 2026 restaurant outlook with sales growth projections, margin pressures from labor and food costs, and performance expectations for major chains like Darden and Texas Roadhouse.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-05-19"
-    }
-  ],
-  "new_deals": [
-    {
-      "date": "2026-05-14",
-      "target": "Terra Nova Solutions",
-      "acquirer": "Clean Harbors, Inc.",
-      "sponsor": "",
-      "location": "Carolinas, USA",
-      "deal_type": "Add-On",
-      "deal_size": "$225 million",
-      "multiple": "N/A",
-      "services": "",
-      "source": "Clean Harbors Inc.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/0000822818/000082281826000024/terranovapressrelease.htm",
-      "is_target_market": false,
-      "target_market_name": null,
-      "owner_classification": "Unknown",
-      "deal_summary": [
-        "All-cash acquisition of regional non-hazardous waste provider"
-      ],
-      "date_confidence": "verified",
-      "notes": "Clean Harbors announced a $225 million acquisition of Terra Nova Solutions, a regional provider of hazardous and non-hazardous waste solutions based in the Carolinas. The deal adds five sites supporting high-margin recurring revenue streams including wastewater treatment and waste processing, with expected ~$4 million in annual synergies.",
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null
-    }
-  ],
+  "backfill_news": [],
+  "new_deals": [],
   "new_news": [
     {
-      "date": "2026-05-16",
-      "headline": "National Restaurant Association Show begins at McCormick Place in Chicago",
-      "source": "Restaurant Business",
-      "source_url": "https://www.restaurantbusinessonline.com/operations/must-read-preview-2026-national-restaurant-association-show",
+      "date": "2026-06-03",
+      "headline": "Job Openings in Restaurant and Lodging Sector Decline in February",
+      "source": "National Restaurant Association",
+      "source_url": "https://restaurant.org/research-and-media/research/restaurant-economic-insights/economic-indicators/restaurant-job-openings/",
       "category": "Restaurant",
       "categories": [
         "Restaurant"
       ],
-      "summary": "105th annual National Restaurant Association Show kicks off with 53,000+ foodservice professionals from 100 countries and 2,000+ vendors. The industry gathers to explore solutions for labor shortages, cost pressures, and technology innovations.",
+      "summary": "Job openings in the restaurant and lodging sector slowed significantly in February, declining from 991,000 in January to 780,000. Restaurant industry employment trends show uneven but generally positive trajectory heading into summer months.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -205,141 +85,47 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-05-19"
+      "first_seen_date": "2026-06-05"
     },
     {
-      "date": "2026-05-16",
-      "headline": "Restaurant industry navigates 'complex' consumer landscape as sentiment hits all-time low",
-      "source": "Nation's Restaurant News",
-      "source_url": "https://www.nrn.com/restaurant-insights",
-      "category": "Restaurant",
+      "date": "2026-06-03",
+      "headline": "PFAS Continues Moving Through Landfills, Wastewater, and Farmland",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/pfas-pfoas/how-pfas-continues-moving-through-landfills-wastewater-and-farmland",
+      "category": "Industry Events",
       "categories": [
-        "Restaurant"
-      ],
-      "summary": "Analysis of challenging consumer sentiment and spending patterns impacting restaurant operators in May 2026.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-05-19"
-    },
-    {
-      "date": "2026-05-16",
-      "headline": "Innovation and cultural relevance drove the success for many burger chains",
-      "source": "Nation's Restaurant News",
-      "source_url": "https://www.nrn.com/restaurant-insights",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "Analysis of burger chain performance and strategies for success in 2025.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-05-19"
-    },
-    {
-      "date": "2026-05-15",
-      "headline": "Innovation was not the key to success among chicken chains in 2025",
-      "source": "Nation's Restaurant News",
-      "source_url": "https://www.nrn.com/restaurant-insights",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "Industry analysis showing chicken chains succeeded on factors other than menu innovation.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-05-19"
-    },
-    {
-      "date": "2026-05-14",
-      "headline": "Clean Harbors Announces Acquisition of Terra Nova Solutions",
-      "source": "Clean Harbors Inc.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/0000822818/000082281826000024/terranovapressrelease.htm",
-      "category": "M&A",
-      "categories": [
-        "M&A",
+        "Industry Events",
         "Public Co."
       ],
-      "summary": "Clean Harbors announced a $225 million acquisition of Terra Nova Solutions, a regional provider of hazardous and non-hazardous waste solutions based in the Carolinas. The deal adds five sites supporting high-margin recurring revenue streams including wastewater treatment and waste processing, with expected ~$4 million in annual synergies.",
-      "relevance_score": 4,
-      "is_deal": true,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-05-19"
-    },
-    {
-      "date": "2026-05-12",
-      "headline": "Truck Driver Shortage 2026: Impact on Shippers",
-      "source": "PLS Logistics",
-      "source_url": "https://www.plslogistics.com/blog/truck-driver-shortage-2026/",
-      "category": "Labor/Ops",
-      "categories": [
-        "Labor/Ops"
-      ],
-      "summary": "A federal rule effective March 2026 prohibits asylum seekers, refugees, and DACA recipients from obtaining CDLs, shrinking the available driver pool. Foreign-born drivers account for nearly one in six truckers, and small fleets are disproportionately affected by regulatory changes.",
-      "relevance_score": 2,
+      "summary": "Article examines PFAS contamination pathways through landfills, wastewater treatment plants, and biosolids land application, with implications for septic and liquid waste systems. Addresses emerging regulatory and operational challenges in waste management.",
+      "relevance_score": 3,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-05-19"
+      "first_seen_date": "2026-06-05"
     },
     {
-      "date": "2026-05-08",
-      "headline": "Restaurant job growth was choppy in recent months but trendline continues positive",
-      "source": "National Restaurant Association",
-      "source_url": "https://restaurant.org/research-and-media/research/restaurant-economic-insights/economic-indicators/total-restaurant-industry-jobs/",
-      "category": "Restaurant",
+      "date": "2026-06-02",
+      "headline": "Nevada's Only Refinery Just Got a Jet-Fuel Makeover Plan",
+      "source": "GlobeNewswire",
+      "source_url": "https://www.globenewswire.com/news-release/2026/06/02/3305203/0/en/Nevada-s-Only-Refinery-Just-Got-a-Jet-Fuel-Makeover-Plan.html",
+      "category": "Renewable Fuels",
       "categories": [
-        "Restaurant"
+        "Renewable Fuels",
+        "Public Co."
       ],
-      "summary": "May 2026 report showing restaurants added 17,200 jobs in April but faced losses in February. Employment remains 71,400 jobs above pre-pandemic levels but full-service segment still 193,000 jobs below Feb 2020 peak.",
-      "relevance_score": 2,
+      "summary": "Darling Ingredients reported Q1 2026 results showing Diamond Green Diesel EBITDA of $151.2 million on 272.4 million gallons of renewable fuels sold at approximately $1.11 per gallon. The article discusses DGD's joint venture operations and renewable fuel production across rendering and renewable energy sectors.",
+      "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-05-19"
-    },
-    {
-      "date": "2026-05-05",
-      "headline": "US Restaurant Industry 2026 Expectations Breakdown",
-      "source": "Seeking Alpha / S&P Global",
-      "source_url": "https://seekingalpha.com/article/4898986-us-restaurant-industry-2026-expectations-breakdown",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "Analysis of 2026 restaurant outlook with sales growth projections, margin pressures from labor and food costs, and performance expectations for major chains like Darden and Texas Roadhouse.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-05-19"
+      "first_seen_date": "2026-06-05"
     }
   ]
 }
