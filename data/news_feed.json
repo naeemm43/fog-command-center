@@ -19,6 +19,26 @@
     "first_seen_date": "2026-06-08"
   },
   {
+    "date": "2026-06-08",
+    "headline": "EPA approves $40 million WIFIA loan for South Sioux City wastewater expansion",
+    "source": "Wastewater Digest",
+    "source_url": "https://www.wwdmag.com/wastewater-treatment/news/55382731/epa-approves-40-million-wifia-loan-for-south-sioux-city-wastewater-expansion",
+    "category": "Infrastructure",
+    "categories": [
+      "Infrastructure",
+      "Regulatory"
+    ],
+    "summary": "EPA approved a $40 million WIFIA loan for South Sioux City, Nebraska to upgrade and expand its wastewater treatment facility. The project increases treatment capacity and allows the city to treat wastewater locally rather than shipping flows to neighboring communities.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-09"
+  },
+  {
     "date": "2026-06-06",
     "headline": "Earnings Inflection Talk And Margin Focus Might Change The Case For Investing In Darling Ingredients (DAR)",
     "source": "Yahoo Finance",

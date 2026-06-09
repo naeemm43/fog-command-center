@@ -1,60 +1,20 @@
 {
-  "timestamp": "2026-06-08T16:06:50Z",
-  "added_news_count": 3,
+  "timestamp": "2026-06-09T15:18:57Z",
+  "added_news_count": 1,
   "added_deals_count": 0,
   "archived_count": 0,
   "new_today_news": [
     {
       "date": "2026-06-08",
-      "headline": "Electric Vacuum Sewer Trucks Are Coming: Are They Ready for Real-World Wastewater Operations?",
-      "source": "CSCTRUCK Municipal Truck",
-      "source_url": "https://www.municipaltruck.com/electric-vacuum-sewer-trucks-are-coming-are-they-ready-for-real-world-wastewater-operations",
-      "category": "Technology",
+      "headline": "EPA approves $40 million WIFIA loan for South Sioux City wastewater expansion",
+      "source": "Wastewater Digest",
+      "source_url": "https://www.wwdmag.com/wastewater-treatment/news/55382731/epa-approves-40-million-wifia-loan-for-south-sioux-city-wastewater-expansion",
+      "category": "Infrastructure",
       "categories": [
-        "Technology"
+        "Infrastructure",
+        "Regulatory"
       ],
-      "summary": "Analysis of electric vacuum sewer truck readiness for wastewater operations, examining adoption drivers, infrastructure requirements, cost implications, and reliability concerns. Early pilot programs have shown encouraging results, but fleet operators continue monitoring long-term performance before full fleet conversion.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-08"
-    }
-  ],
-  "recent_news": [
-    {
-      "date": "2026-06-06",
-      "headline": "Earnings Inflection Talk And Margin Focus Might Change The Case For Investing In Darling Ingredients (DAR)",
-      "source": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/markets/stocks/articles/earnings-inflection-talk-margin-focus-191017788.html",
-      "category": "Public Co.",
-      "categories": [
-        "Public Co."
-      ],
-      "summary": "Darling Ingredients reported Q1 2026 revenues matching analyst expectations but missed adjusted operating income estimates. Management described the quarter as an inflection point for earnings power in its core business and Diamond Green Diesel joint venture. A new U.S. patent for Nextida GC collagen peptide has heightened focus on margin improvement and debt reduction.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-08"
-    },
-    {
-      "date": "2026-06-01",
-      "headline": "Royal Waste Services Expands Mack LR Electric Fleet",
-      "source": "Fleet Equipment Magazine",
-      "source_url": "https://www.fleetequipmentmag.com/royal-waste-services-mack-lr-electric-expansion/",
-      "category": "Technology",
-      "categories": [
-        "Technology",
-        "Public Co."
-      ],
-      "summary": "Royal Waste Services, a Waste Connections subsidiary, ordered three additional Mack LR Electric refuse trucks funded by the New York Truck Voucher Incentive Program. The order follows successful deployment of an initial truck in December 2025, which accumulated over 500 miles and collected 600 tons of waste with zero downtime.",
+      "summary": "EPA approved a $40 million WIFIA loan for South Sioux City, Nebraska to upgrade and expand its wastewater treatment facility. The project increases treatment capacity and allows the city to treat wastewater locally rather than shipping flows to neighboring communities.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -62,61 +22,24 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-08"
+      "first_seen_date": "2026-06-09"
     }
   ],
+  "recent_news": [],
   "backfill_news": [],
   "new_deals": [],
   "new_news": [
     {
       "date": "2026-06-08",
-      "headline": "Electric Vacuum Sewer Trucks Are Coming: Are They Ready for Real-World Wastewater Operations?",
-      "source": "CSCTRUCK Municipal Truck",
-      "source_url": "https://www.municipaltruck.com/electric-vacuum-sewer-trucks-are-coming-are-they-ready-for-real-world-wastewater-operations",
-      "category": "Technology",
+      "headline": "EPA approves $40 million WIFIA loan for South Sioux City wastewater expansion",
+      "source": "Wastewater Digest",
+      "source_url": "https://www.wwdmag.com/wastewater-treatment/news/55382731/epa-approves-40-million-wifia-loan-for-south-sioux-city-wastewater-expansion",
+      "category": "Infrastructure",
       "categories": [
-        "Technology"
+        "Infrastructure",
+        "Regulatory"
       ],
-      "summary": "Analysis of electric vacuum sewer truck readiness for wastewater operations, examining adoption drivers, infrastructure requirements, cost implications, and reliability concerns. Early pilot programs have shown encouraging results, but fleet operators continue monitoring long-term performance before full fleet conversion.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-08"
-    },
-    {
-      "date": "2026-06-06",
-      "headline": "Earnings Inflection Talk And Margin Focus Might Change The Case For Investing In Darling Ingredients (DAR)",
-      "source": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/markets/stocks/articles/earnings-inflection-talk-margin-focus-191017788.html",
-      "category": "Public Co.",
-      "categories": [
-        "Public Co."
-      ],
-      "summary": "Darling Ingredients reported Q1 2026 revenues matching analyst expectations but missed adjusted operating income estimates. Management described the quarter as an inflection point for earnings power in its core business and Diamond Green Diesel joint venture. A new U.S. patent for Nextida GC collagen peptide has heightened focus on margin improvement and debt reduction.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-08"
-    },
-    {
-      "date": "2026-06-01",
-      "headline": "Royal Waste Services Expands Mack LR Electric Fleet",
-      "source": "Fleet Equipment Magazine",
-      "source_url": "https://www.fleetequipmentmag.com/royal-waste-services-mack-lr-electric-expansion/",
-      "category": "Technology",
-      "categories": [
-        "Technology",
-        "Public Co."
-      ],
-      "summary": "Royal Waste Services, a Waste Connections subsidiary, ordered three additional Mack LR Electric refuse trucks funded by the New York Truck Voucher Incentive Program. The order follows successful deployment of an initial truck in December 2025, which accumulated over 500 miles and collected 600 tons of waste with zero downtime.",
+      "summary": "EPA approved a $40 million WIFIA loan for South Sioux City, Nebraska to upgrade and expand its wastewater treatment facility. The project increases treatment capacity and allows the city to treat wastewater locally rather than shipping flows to neighboring communities.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -124,7 +47,7 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-08"
+      "first_seen_date": "2026-06-09"
     }
   ]
 }
