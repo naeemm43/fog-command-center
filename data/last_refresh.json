@@ -1,20 +1,19 @@
 {
-  "timestamp": "2026-06-09T15:18:57Z",
-  "added_news_count": 1,
-  "added_deals_count": 0,
+  "timestamp": "2026-06-10T15:52:52Z",
+  "added_news_count": 8,
+  "added_deals_count": 1,
   "archived_count": 0,
   "new_today_news": [
     {
-      "date": "2026-06-08",
-      "headline": "EPA approves $40 million WIFIA loan for South Sioux City wastewater expansion",
-      "source": "Wastewater Digest",
-      "source_url": "https://www.wwdmag.com/wastewater-treatment/news/55382731/epa-approves-40-million-wifia-loan-for-south-sioux-city-wastewater-expansion",
-      "category": "Infrastructure",
+      "date": "2026-06-10",
+      "headline": "Restaurant Opening Signals Report: June 2026 Filings Activity",
+      "source": "Restaurant Data",
+      "source_url": "https://restaurantdata.com/restaurant-opening-signals-june-2026/",
+      "category": "Restaurant",
       "categories": [
-        "Infrastructure",
-        "Regulatory"
+        "Restaurant"
       ],
-      "summary": "EPA approved a $40 million WIFIA loan for South Sioux City, Nebraska to upgrade and expand its wastewater treatment facility. The project increases treatment capacity and allows the city to treat wastewater locally rather than shipping flows to neighboring communities.",
+      "summary": "June 2026 filing data shows 69% of new restaurant openings are single-unit operators, with casual and family-dining concepts leading. Quick-serve restaurants reached 22% of filings nationally, particularly strong in Texas.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -22,24 +21,40 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-09"
+      "first_seen_date": "2026-06-10"
     }
   ],
-  "recent_news": [],
-  "backfill_news": [],
-  "new_deals": [],
-  "new_news": [
+  "recent_news": [
     {
       "date": "2026-06-08",
-      "headline": "EPA approves $40 million WIFIA loan for South Sioux City wastewater expansion",
-      "source": "Wastewater Digest",
-      "source_url": "https://www.wwdmag.com/wastewater-treatment/news/55382731/epa-approves-40-million-wifia-loan-for-south-sioux-city-wastewater-expansion",
-      "category": "Infrastructure",
+      "headline": "How Swiss Companies Are Turning Frying Oil and Alcohol into Sustainable Aviation Fuel",
+      "source": "World Today Journal",
+      "source_url": "https://www.world-today-journal.com/how-swiss-companies-are-turning-frying-oil-and-alcohol-into-sustainable-aviation-fuel/",
+      "category": "Renewable Fuels",
       "categories": [
-        "Infrastructure",
-        "Regulatory"
+        "Renewable Fuels",
+        "ESG"
       ],
-      "summary": "EPA approved a $40 million WIFIA loan for South Sioux City, Nebraska to upgrade and expand its wastewater treatment facility. The project increases treatment capacity and allows the city to treat wastewater locally rather than shipping flows to neighboring communities.",
+      "summary": "Swiss aviation technology firms are increasingly turning to unconventional feedstocks such as waste cooking oil to produce SAF, shifting toward circular economy principles. HEFA technology is being used for frying oil conversion.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-06-10"
+    },
+    {
+      "date": "2026-06-06",
+      "headline": "U.S. Restaurant Chains Plan Widespread Location Closures in 2026",
+      "source": "Traders Union",
+      "source_url": "https://tradersunion.com/news/financial-news/show/2273065-us-restaurant-chains-closures-2026/",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Major restaurant chains including Jack in the Box, Pizza Hut, Papa John's, and Noodles & Company plan significant closures in 2026. Jack in the Box expects 50-100 closures by end of June, Pizza Hut plans 250 closures by July 1, and Papa John's targets 200 North American closures.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -47,7 +62,286 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-09"
+      "first_seen_date": "2026-06-10"
+    },
+    {
+      "date": "2026-06-05",
+      "headline": "From Fry to Fly: How Japan is turning used cooking oil into sustainable aviation fuel",
+      "source": "The Statesman",
+      "source_url": "https://www.thestatesman.com/world/how-japan-is-turning-used-cooking-oil-into-sustainable-aviation-fuel-1503602181.html",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels"
+      ],
+      "summary": "Japan is building a nationwide UCO collection network from households, supermarkets, and businesses to produce SAF, with a target of 10% airline fuel from sustainable alternatives by 2030. The effort demonstrates scaling challenges in feedstock collection.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-06-10"
+    },
+    {
+      "date": "2026-06-05",
+      "headline": "Restaurant Technologies Recycled Almost 400 Million Lbs of UCO in 2025",
+      "source": "Globe Newswire",
+      "source_url": "https://www.globenewswire.com/news-release/2026/04/22/3279284/0/en/Restaurant-Technologies-Recycled-Almost-400-Million-Lbs-of-UCO-in-2025.html",
+      "category": "ESG",
+      "categories": [
+        "ESG",
+        "Renewable Fuels"
+      ],
+      "summary": "Restaurant Technologies recycled over 393 million pounds of used cooking oil in 2025, converting nearly 100% into renewable diesel, biodiesel, or sustainable aviation fuel with renewable energy partners like Phillips 66. Resulting renewable diesel can cut tailpipe emissions by up to 75%.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-06-10"
+    },
+    {
+      "date": "2026-06-03",
+      "headline": "Sustainable Aviation Fuel Market Expected to Reach US$ 43.75 Billion by 2034",
+      "source": "Globe Newswire",
+      "source_url": "https://www.globenewswire.com/news-release/2026/06/03/3305934/0/en/Sustainable-Aviation-Fuel-Market-Expected-to-Reach-US-43-75-Billion-by-2034.html",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels"
+      ],
+      "summary": "Market report notes HEFA pathway accounts for 82% of current SAF production capacity but is constrained by limited supplies of waste oils and used cooking oil. DHL Express signed landmark SAF offtake agreement with Middle East producer.",
+      "relevance_score": 4,
+      "is_deal": true,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-06-10"
+    },
+    {
+      "date": "2026-06-03",
+      "headline": "OPAL Fuels and GFL Environmental Advance Construction for Two New RNG Facilities in Alabama",
+      "source": "OPAL Fuels / GFL Environmental",
+      "source_url": "https://stockanalysis.com/stocks/gfl/",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "OPAL Fuels and GFL Environmental announced advancement of construction for two new RNG facilities at Stones Throw Landfill in Tallapoosa County, Alabama. New projects expected to add approximately 15 million GGEs of RNG supply capacity.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-06-10"
+    },
+    {
+      "date": "2026-06-03",
+      "headline": "PFAS Contamination, Biosolids Land Application Creating Circular System of Pollution",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/pfas-pfoas/how-pfas-continues-moving-through-landfills-wastewater-and-farmland",
+      "category": "Industry Events",
+      "categories": [
+        "Industry Events"
+      ],
+      "summary": "Article examines how PFAS moves through landfills, wastewater plants, and farmland via biosolids application. Relevant to liquid waste processors handling treated sludge and biosolids.",
+      "relevance_score": 3,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-06-10"
+    }
+  ],
+  "backfill_news": [],
+  "new_deals": [
+    {
+      "date": "2026-06-03",
+      "target": "SAF One",
+      "acquirer": "DHL Express",
+      "sponsor": "",
+      "location": "Bahrain",
+      "deal_type": "Add-On",
+      "deal_size": "250,000 metric tons over 10 years",
+      "multiple": "N/A",
+      "services": "",
+      "source": "Globe Newswire",
+      "source_url": "https://www.globenewswire.com/news-release/2026/06/03/3305934/0/en/Sustainable-Aviation-Fuel-Market-Expected-to-Reach-US-43-75-Billion-by-2034.html",
+      "is_target_market": false,
+      "target_market_name": null,
+      "owner_classification": "Unknown",
+      "deal_summary": [
+        "DHL to receive 25,000 metric tons of neat SAF annually starting 2028 from SAF One's Bahrain facility"
+      ],
+      "date_confidence": "verified",
+      "notes": "Market report notes HEFA pathway accounts for 82% of current SAF production capacity but is constrained by limited supplies of waste oils and used cooking oil. DHL Express signed landmark SAF offtake agreement with Middle East producer.",
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null
+    }
+  ],
+  "new_news": [
+    {
+      "date": "2026-06-10",
+      "headline": "Restaurant Opening Signals Report: June 2026 Filings Activity",
+      "source": "Restaurant Data",
+      "source_url": "https://restaurantdata.com/restaurant-opening-signals-june-2026/",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "June 2026 filing data shows 69% of new restaurant openings are single-unit operators, with casual and family-dining concepts leading. Quick-serve restaurants reached 22% of filings nationally, particularly strong in Texas.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-06-10"
+    },
+    {
+      "date": "2026-06-08",
+      "headline": "How Swiss Companies Are Turning Frying Oil and Alcohol into Sustainable Aviation Fuel",
+      "source": "World Today Journal",
+      "source_url": "https://www.world-today-journal.com/how-swiss-companies-are-turning-frying-oil-and-alcohol-into-sustainable-aviation-fuel/",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels",
+        "ESG"
+      ],
+      "summary": "Swiss aviation technology firms are increasingly turning to unconventional feedstocks such as waste cooking oil to produce SAF, shifting toward circular economy principles. HEFA technology is being used for frying oil conversion.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-06-10"
+    },
+    {
+      "date": "2026-06-06",
+      "headline": "U.S. Restaurant Chains Plan Widespread Location Closures in 2026",
+      "source": "Traders Union",
+      "source_url": "https://tradersunion.com/news/financial-news/show/2273065-us-restaurant-chains-closures-2026/",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Major restaurant chains including Jack in the Box, Pizza Hut, Papa John's, and Noodles & Company plan significant closures in 2026. Jack in the Box expects 50-100 closures by end of June, Pizza Hut plans 250 closures by July 1, and Papa John's targets 200 North American closures.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-06-10"
+    },
+    {
+      "date": "2026-06-05",
+      "headline": "From Fry to Fly: How Japan is turning used cooking oil into sustainable aviation fuel",
+      "source": "The Statesman",
+      "source_url": "https://www.thestatesman.com/world/how-japan-is-turning-used-cooking-oil-into-sustainable-aviation-fuel-1503602181.html",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels"
+      ],
+      "summary": "Japan is building a nationwide UCO collection network from households, supermarkets, and businesses to produce SAF, with a target of 10% airline fuel from sustainable alternatives by 2030. The effort demonstrates scaling challenges in feedstock collection.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-06-10"
+    },
+    {
+      "date": "2026-06-05",
+      "headline": "Restaurant Technologies Recycled Almost 400 Million Lbs of UCO in 2025",
+      "source": "Globe Newswire",
+      "source_url": "https://www.globenewswire.com/news-release/2026/04/22/3279284/0/en/Restaurant-Technologies-Recycled-Almost-400-Million-Lbs-of-UCO-in-2025.html",
+      "category": "ESG",
+      "categories": [
+        "ESG",
+        "Renewable Fuels"
+      ],
+      "summary": "Restaurant Technologies recycled over 393 million pounds of used cooking oil in 2025, converting nearly 100% into renewable diesel, biodiesel, or sustainable aviation fuel with renewable energy partners like Phillips 66. Resulting renewable diesel can cut tailpipe emissions by up to 75%.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-06-10"
+    },
+    {
+      "date": "2026-06-03",
+      "headline": "Sustainable Aviation Fuel Market Expected to Reach US$ 43.75 Billion by 2034",
+      "source": "Globe Newswire",
+      "source_url": "https://www.globenewswire.com/news-release/2026/06/03/3305934/0/en/Sustainable-Aviation-Fuel-Market-Expected-to-Reach-US-43-75-Billion-by-2034.html",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels"
+      ],
+      "summary": "Market report notes HEFA pathway accounts for 82% of current SAF production capacity but is constrained by limited supplies of waste oils and used cooking oil. DHL Express signed landmark SAF offtake agreement with Middle East producer.",
+      "relevance_score": 4,
+      "is_deal": true,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-06-10"
+    },
+    {
+      "date": "2026-06-03",
+      "headline": "OPAL Fuels and GFL Environmental Advance Construction for Two New RNG Facilities in Alabama",
+      "source": "OPAL Fuels / GFL Environmental",
+      "source_url": "https://stockanalysis.com/stocks/gfl/",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "OPAL Fuels and GFL Environmental announced advancement of construction for two new RNG facilities at Stones Throw Landfill in Tallapoosa County, Alabama. New projects expected to add approximately 15 million GGEs of RNG supply capacity.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-06-10"
+    },
+    {
+      "date": "2026-06-03",
+      "headline": "PFAS Contamination, Biosolids Land Application Creating Circular System of Pollution",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/pfas-pfoas/how-pfas-continues-moving-through-landfills-wastewater-and-farmland",
+      "category": "Industry Events",
+      "categories": [
+        "Industry Events"
+      ],
+      "summary": "Article examines how PFAS moves through landfills, wastewater plants, and farmland via biosolids application. Relevant to liquid waste processors handling treated sludge and biosolids.",
+      "relevance_score": 3,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-06-10"
     }
   ]
 }

@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-06-03",
+    "target": "SAF One",
+    "acquirer": "DHL Express",
+    "sponsor": "",
+    "location": "Bahrain",
+    "deal_type": "Add-On",
+    "deal_size": "250,000 metric tons over 10 years",
+    "multiple": "N/A",
+    "services": "",
+    "source": "Globe Newswire",
+    "source_url": "https://www.globenewswire.com/news-release/2026/06/03/3305934/0/en/Sustainable-Aviation-Fuel-Market-Expected-to-Reach-US-43-75-Billion-by-2034.html",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "Unknown",
+    "deal_summary": [
+      "DHL to receive 25,000 metric tons of neat SAF annually starting 2028 from SAF One's Bahrain facility"
+    ],
+    "date_confidence": "verified",
+    "notes": "Market report notes HEFA pathway accounts for 82% of current SAF production capacity but is constrained by limited supplies of waste oils and used cooking oil. DHL Express signed landmark SAF offtake agreement with Middle East producer.",
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
+  },
+  {
     "date": "2026-05-27",
     "target": "ClimaHtech Green Flight",
     "acquirer": "Loganair",
