@@ -1,99 +1,40 @@
 {
-  "timestamp": "2026-06-10T15:52:52Z",
-  "added_news_count": 8,
+  "timestamp": "2026-06-11T16:15:16Z",
+  "added_news_count": 3,
   "added_deals_count": 1,
   "archived_count": 0,
   "new_today_news": [
     {
       "date": "2026-06-10",
-      "headline": "Restaurant Opening Signals Report: June 2026 Filings Activity",
-      "source": "Restaurant Data",
-      "source_url": "https://restaurantdata.com/restaurant-opening-signals-june-2026/",
-      "category": "Restaurant",
+      "headline": "TerraCycle US Acquires NLR Inc. and Acquires Processing Facility in Connecticut",
+      "source": "SEC Filing (Form 1-U)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001714781/000110465926072277/tm2616958d2_253g2.htm",
+      "category": "M&A",
       "categories": [
-        "Restaurant"
+        "M&A"
       ],
-      "summary": "June 2026 filing data shows 69% of new restaurant openings are single-unit operators, with casual and family-dining concepts leading. Quick-serve restaurants reached 22% of filings nationally, particularly strong in Texas.",
-      "relevance_score": 2,
-      "is_deal": false,
+      "summary": "TerraCycle US acquired NLR Inc. (a Universal Waste company) for $2.75 million and purchased the associated processing facility in East Windsor, Connecticut for $1.2 million. This is TerraCycle's fourth acquisition of a Universal Waste company.",
+      "relevance_score": 3,
+      "is_deal": true,
       "is_target_market": false,
       "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-10"
+      "latitude": 41.603,
+      "longitude": -73.087,
+      "zoom_hint": "wide",
+      "first_seen_date": "2026-06-11"
     }
   ],
   "recent_news": [
     {
-      "date": "2026-06-08",
-      "headline": "How Swiss Companies Are Turning Frying Oil and Alcohol into Sustainable Aviation Fuel",
-      "source": "World Today Journal",
-      "source_url": "https://www.world-today-journal.com/how-swiss-companies-are-turning-frying-oil-and-alcohol-into-sustainable-aviation-fuel/",
-      "category": "Renewable Fuels",
+      "date": "2026-06-09",
+      "headline": "For Food Waste/Biogas, Landia Takes the Long-Term Pump View with Hayley Dexis",
+      "source": "Fluid Handling Pro",
+      "source_url": "https://fluidhandlingpro.com/news/for-food-waste-biogas-landia-takes-the-long-term-pump-view-with-hayley-dexis/",
+      "category": "Technology",
       "categories": [
-        "Renewable Fuels",
-        "ESG"
+        "Technology"
       ],
-      "summary": "Swiss aviation technology firms are increasingly turning to unconventional feedstocks such as waste cooking oil to produce SAF, shifting toward circular economy principles. HEFA technology is being used for frying oil conversion.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-10"
-    },
-    {
-      "date": "2026-06-06",
-      "headline": "U.S. Restaurant Chains Plan Widespread Location Closures in 2026",
-      "source": "Traders Union",
-      "source_url": "https://tradersunion.com/news/financial-news/show/2273065-us-restaurant-chains-closures-2026/",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "Major restaurant chains including Jack in the Box, Pizza Hut, Papa John's, and Noodles & Company plan significant closures in 2026. Jack in the Box expects 50-100 closures by end of June, Pizza Hut plans 250 closures by July 1, and Papa John's targets 200 North American closures.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-10"
-    },
-    {
-      "date": "2026-06-05",
-      "headline": "From Fry to Fly: How Japan is turning used cooking oil into sustainable aviation fuel",
-      "source": "The Statesman",
-      "source_url": "https://www.thestatesman.com/world/how-japan-is-turning-used-cooking-oil-into-sustainable-aviation-fuel-1503602181.html",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels"
-      ],
-      "summary": "Japan is building a nationwide UCO collection network from households, supermarkets, and businesses to produce SAF, with a target of 10% airline fuel from sustainable alternatives by 2030. The effort demonstrates scaling challenges in feedstock collection.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-10"
-    },
-    {
-      "date": "2026-06-05",
-      "headline": "Restaurant Technologies Recycled Almost 400 Million Lbs of UCO in 2025",
-      "source": "Globe Newswire",
-      "source_url": "https://www.globenewswire.com/news-release/2026/04/22/3279284/0/en/Restaurant-Technologies-Recycled-Almost-400-Million-Lbs-of-UCO-in-2025.html",
-      "category": "ESG",
-      "categories": [
-        "ESG",
-        "Renewable Fuels"
-      ],
-      "summary": "Restaurant Technologies recycled over 393 million pounds of used cooking oil in 2025, converting nearly 100% into renewable diesel, biodiesel, or sustainable aviation fuel with renewable energy partners like Phillips 66. Resulting renewable diesel can cut tailpipe emissions by up to 75%.",
+      "summary": "Landia supplied new long-coupled Chopper Pumps for a food-waste-to-renewable-energy company, addressing specific engineering needs for biogas/AD operations. The solution was tailored for separating wet and dry components in FOG processing workflows.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -101,56 +42,18 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-10"
+      "first_seen_date": "2026-06-11"
     },
     {
-      "date": "2026-06-03",
-      "headline": "Sustainable Aviation Fuel Market Expected to Reach US$ 43.75 Billion by 2034",
-      "source": "Globe Newswire",
-      "source_url": "https://www.globenewswire.com/news-release/2026/06/03/3305934/0/en/Sustainable-Aviation-Fuel-Market-Expected-to-Reach-US-43-75-Billion-by-2034.html",
-      "category": "Renewable Fuels",
+      "date": "2026-06-06",
+      "headline": "CDL Driver Shortage Continues to Impact Waste Haulers Despite FMCSA Non-Citizen Rule Implementation",
+      "source": "Waste Dive",
+      "source_url": "https://www.wastedive.com/news/fmcsa-cdl-rule-affects-non-citizen-drivers-waste-pro-teamsters-afscme/814806/",
+      "category": "Labor/Ops",
       "categories": [
-        "Renewable Fuels"
+        "Labor/Ops"
       ],
-      "summary": "Market report notes HEFA pathway accounts for 82% of current SAF production capacity but is constrained by limited supplies of waste oils and used cooking oil. DHL Express signed landmark SAF offtake agreement with Middle East producer.",
-      "relevance_score": 4,
-      "is_deal": true,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-10"
-    },
-    {
-      "date": "2026-06-03",
-      "headline": "OPAL Fuels and GFL Environmental Advance Construction for Two New RNG Facilities in Alabama",
-      "source": "OPAL Fuels / GFL Environmental",
-      "source_url": "https://stockanalysis.com/stocks/gfl/",
-      "category": "Public Co.",
-      "categories": [
-        "Public Co."
-      ],
-      "summary": "OPAL Fuels and GFL Environmental announced advancement of construction for two new RNG facilities at Stones Throw Landfill in Tallapoosa County, Alabama. New projects expected to add approximately 15 million GGEs of RNG supply capacity.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-10"
-    },
-    {
-      "date": "2026-06-03",
-      "headline": "PFAS Contamination, Biosolids Land Application Creating Circular System of Pollution",
-      "source": "Waste360",
-      "source_url": "https://www.waste360.com/pfas-pfoas/how-pfas-continues-moving-through-landfills-wastewater-and-farmland",
-      "category": "Industry Events",
-      "categories": [
-        "Industry Events"
-      ],
-      "summary": "Article examines how PFAS moves through landfills, wastewater plants, and farmland via biosolids application. Relevant to liquid waste processors handling treated sludge and biosolids.",
+      "summary": "An FMCSA rule affecting non-citizen CDL drivers went into effect, with waste haulers like Waste Pro warning of significant business impacts due to the already-critical CDL shortage in the sanitation industry.",
       "relevance_score": 3,
       "is_deal": false,
       "is_target_market": false,
@@ -158,125 +61,66 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-10"
+      "first_seen_date": "2026-06-11"
     }
   ],
   "backfill_news": [],
   "new_deals": [
     {
-      "date": "2026-06-03",
-      "target": "SAF One",
-      "acquirer": "DHL Express",
-      "sponsor": "",
-      "location": "Bahrain",
+      "date": "2026-06-10",
+      "target": "NLR, Inc.",
+      "acquirer": "TerraCycle US LLC (TerraCycle Inc.)",
+      "sponsor": null,
+      "location": "Connecticut, United States",
       "deal_type": "Add-On",
-      "deal_size": "250,000 metric tons over 10 years",
+      "deal_size": "$2,750,000 (NLR); $1,200,000 (real estate)",
       "multiple": "N/A",
       "services": "",
-      "source": "Globe Newswire",
-      "source_url": "https://www.globenewswire.com/news-release/2026/06/03/3305934/0/en/Sustainable-Aviation-Fuel-Market-Expected-to-Reach-US-43-75-Billion-by-2034.html",
+      "source": "SEC Filing (Form 1-U)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001714781/000110465926072277/tm2616958d2_253g2.htm",
       "is_target_market": false,
       "target_market_name": null,
-      "owner_classification": "Unknown",
+      "owner_classification": "Strategic buyer",
       "deal_summary": [
-        "DHL to receive 25,000 metric tons of neat SAF annually starting 2028 from SAF One's Bahrain facility"
+        "Acquisition of Universal Waste company and processing facility; integrated into TerraCycle Commercial division"
       ],
       "date_confidence": "verified",
-      "notes": "Market report notes HEFA pathway accounts for 82% of current SAF production capacity but is constrained by limited supplies of waste oils and used cooking oil. DHL Express signed landmark SAF offtake agreement with Middle East producer.",
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null
+      "notes": "TerraCycle US acquired NLR Inc. (a Universal Waste company) for $2.75 million and purchased the associated processing facility in East Windsor, Connecticut for $1.2 million. This is TerraCycle's fourth acquisition of a Universal Waste company.",
+      "latitude": 41.603,
+      "longitude": -73.087,
+      "zoom_hint": "wide"
     }
   ],
   "new_news": [
     {
       "date": "2026-06-10",
-      "headline": "Restaurant Opening Signals Report: June 2026 Filings Activity",
-      "source": "Restaurant Data",
-      "source_url": "https://restaurantdata.com/restaurant-opening-signals-june-2026/",
-      "category": "Restaurant",
+      "headline": "TerraCycle US Acquires NLR Inc. and Acquires Processing Facility in Connecticut",
+      "source": "SEC Filing (Form 1-U)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001714781/000110465926072277/tm2616958d2_253g2.htm",
+      "category": "M&A",
       "categories": [
-        "Restaurant"
+        "M&A"
       ],
-      "summary": "June 2026 filing data shows 69% of new restaurant openings are single-unit operators, with casual and family-dining concepts leading. Quick-serve restaurants reached 22% of filings nationally, particularly strong in Texas.",
-      "relevance_score": 2,
-      "is_deal": false,
+      "summary": "TerraCycle US acquired NLR Inc. (a Universal Waste company) for $2.75 million and purchased the associated processing facility in East Windsor, Connecticut for $1.2 million. This is TerraCycle's fourth acquisition of a Universal Waste company.",
+      "relevance_score": 3,
+      "is_deal": true,
       "is_target_market": false,
       "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-10"
+      "latitude": 41.603,
+      "longitude": -73.087,
+      "zoom_hint": "wide",
+      "first_seen_date": "2026-06-11"
     },
     {
-      "date": "2026-06-08",
-      "headline": "How Swiss Companies Are Turning Frying Oil and Alcohol into Sustainable Aviation Fuel",
-      "source": "World Today Journal",
-      "source_url": "https://www.world-today-journal.com/how-swiss-companies-are-turning-frying-oil-and-alcohol-into-sustainable-aviation-fuel/",
-      "category": "Renewable Fuels",
+      "date": "2026-06-09",
+      "headline": "For Food Waste/Biogas, Landia Takes the Long-Term Pump View with Hayley Dexis",
+      "source": "Fluid Handling Pro",
+      "source_url": "https://fluidhandlingpro.com/news/for-food-waste-biogas-landia-takes-the-long-term-pump-view-with-hayley-dexis/",
+      "category": "Technology",
       "categories": [
-        "Renewable Fuels",
-        "ESG"
+        "Technology"
       ],
-      "summary": "Swiss aviation technology firms are increasingly turning to unconventional feedstocks such as waste cooking oil to produce SAF, shifting toward circular economy principles. HEFA technology is being used for frying oil conversion.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-10"
-    },
-    {
-      "date": "2026-06-06",
-      "headline": "U.S. Restaurant Chains Plan Widespread Location Closures in 2026",
-      "source": "Traders Union",
-      "source_url": "https://tradersunion.com/news/financial-news/show/2273065-us-restaurant-chains-closures-2026/",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "Major restaurant chains including Jack in the Box, Pizza Hut, Papa John's, and Noodles & Company plan significant closures in 2026. Jack in the Box expects 50-100 closures by end of June, Pizza Hut plans 250 closures by July 1, and Papa John's targets 200 North American closures.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-10"
-    },
-    {
-      "date": "2026-06-05",
-      "headline": "From Fry to Fly: How Japan is turning used cooking oil into sustainable aviation fuel",
-      "source": "The Statesman",
-      "source_url": "https://www.thestatesman.com/world/how-japan-is-turning-used-cooking-oil-into-sustainable-aviation-fuel-1503602181.html",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels"
-      ],
-      "summary": "Japan is building a nationwide UCO collection network from households, supermarkets, and businesses to produce SAF, with a target of 10% airline fuel from sustainable alternatives by 2030. The effort demonstrates scaling challenges in feedstock collection.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-10"
-    },
-    {
-      "date": "2026-06-05",
-      "headline": "Restaurant Technologies Recycled Almost 400 Million Lbs of UCO in 2025",
-      "source": "Globe Newswire",
-      "source_url": "https://www.globenewswire.com/news-release/2026/04/22/3279284/0/en/Restaurant-Technologies-Recycled-Almost-400-Million-Lbs-of-UCO-in-2025.html",
-      "category": "ESG",
-      "categories": [
-        "ESG",
-        "Renewable Fuels"
-      ],
-      "summary": "Restaurant Technologies recycled over 393 million pounds of used cooking oil in 2025, converting nearly 100% into renewable diesel, biodiesel, or sustainable aviation fuel with renewable energy partners like Phillips 66. Resulting renewable diesel can cut tailpipe emissions by up to 75%.",
+      "summary": "Landia supplied new long-coupled Chopper Pumps for a food-waste-to-renewable-energy company, addressing specific engineering needs for biogas/AD operations. The solution was tailored for separating wet and dry components in FOG processing workflows.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -284,56 +128,18 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-10"
+      "first_seen_date": "2026-06-11"
     },
     {
-      "date": "2026-06-03",
-      "headline": "Sustainable Aviation Fuel Market Expected to Reach US$ 43.75 Billion by 2034",
-      "source": "Globe Newswire",
-      "source_url": "https://www.globenewswire.com/news-release/2026/06/03/3305934/0/en/Sustainable-Aviation-Fuel-Market-Expected-to-Reach-US-43-75-Billion-by-2034.html",
-      "category": "Renewable Fuels",
+      "date": "2026-06-06",
+      "headline": "CDL Driver Shortage Continues to Impact Waste Haulers Despite FMCSA Non-Citizen Rule Implementation",
+      "source": "Waste Dive",
+      "source_url": "https://www.wastedive.com/news/fmcsa-cdl-rule-affects-non-citizen-drivers-waste-pro-teamsters-afscme/814806/",
+      "category": "Labor/Ops",
       "categories": [
-        "Renewable Fuels"
+        "Labor/Ops"
       ],
-      "summary": "Market report notes HEFA pathway accounts for 82% of current SAF production capacity but is constrained by limited supplies of waste oils and used cooking oil. DHL Express signed landmark SAF offtake agreement with Middle East producer.",
-      "relevance_score": 4,
-      "is_deal": true,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-10"
-    },
-    {
-      "date": "2026-06-03",
-      "headline": "OPAL Fuels and GFL Environmental Advance Construction for Two New RNG Facilities in Alabama",
-      "source": "OPAL Fuels / GFL Environmental",
-      "source_url": "https://stockanalysis.com/stocks/gfl/",
-      "category": "Public Co.",
-      "categories": [
-        "Public Co."
-      ],
-      "summary": "OPAL Fuels and GFL Environmental announced advancement of construction for two new RNG facilities at Stones Throw Landfill in Tallapoosa County, Alabama. New projects expected to add approximately 15 million GGEs of RNG supply capacity.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-10"
-    },
-    {
-      "date": "2026-06-03",
-      "headline": "PFAS Contamination, Biosolids Land Application Creating Circular System of Pollution",
-      "source": "Waste360",
-      "source_url": "https://www.waste360.com/pfas-pfoas/how-pfas-continues-moving-through-landfills-wastewater-and-farmland",
-      "category": "Industry Events",
-      "categories": [
-        "Industry Events"
-      ],
-      "summary": "Article examines how PFAS moves through landfills, wastewater plants, and farmland via biosolids application. Relevant to liquid waste processors handling treated sludge and biosolids.",
+      "summary": "An FMCSA rule affecting non-citizen CDL drivers went into effect, with waste haulers like Waste Pro warning of significant business impacts due to the already-critical CDL shortage in the sanitation industry.",
       "relevance_score": 3,
       "is_deal": false,
       "is_target_market": false,
@@ -341,7 +147,7 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-10"
+      "first_seen_date": "2026-06-11"
     }
   ]
 }

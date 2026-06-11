@@ -19,6 +19,44 @@
     "first_seen_date": "2026-06-10"
   },
   {
+    "date": "2026-06-10",
+    "headline": "TerraCycle US Acquires NLR Inc. and Acquires Processing Facility in Connecticut",
+    "source": "SEC Filing (Form 1-U)",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0001714781/000110465926072277/tm2616958d2_253g2.htm",
+    "category": "M&A",
+    "categories": [
+      "M&A"
+    ],
+    "summary": "TerraCycle US acquired NLR Inc. (a Universal Waste company) for $2.75 million and purchased the associated processing facility in East Windsor, Connecticut for $1.2 million. This is TerraCycle's fourth acquisition of a Universal Waste company.",
+    "relevance_score": 3,
+    "is_deal": true,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": 41.603,
+    "longitude": -73.087,
+    "zoom_hint": "wide",
+    "first_seen_date": "2026-06-11"
+  },
+  {
+    "date": "2026-06-09",
+    "headline": "For Food Waste/Biogas, Landia Takes the Long-Term Pump View with Hayley Dexis",
+    "source": "Fluid Handling Pro",
+    "source_url": "https://fluidhandlingpro.com/news/for-food-waste-biogas-landia-takes-the-long-term-pump-view-with-hayley-dexis/",
+    "category": "Technology",
+    "categories": [
+      "Technology"
+    ],
+    "summary": "Landia supplied new long-coupled Chopper Pumps for a food-waste-to-renewable-energy company, addressing specific engineering needs for biogas/AD operations. The solution was tailored for separating wet and dry components in FOG processing workflows.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-11"
+  },
+  {
     "date": "2026-06-08",
     "headline": "Electric Vacuum Sewer Trucks Are Coming: Are They Ready for Real-World Wastewater Operations?",
     "source": "CSCTRUCK Municipal Truck",
@@ -114,6 +152,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-06-10"
+  },
+  {
+    "date": "2026-06-06",
+    "headline": "CDL Driver Shortage Continues to Impact Waste Haulers Despite FMCSA Non-Citizen Rule Implementation",
+    "source": "Waste Dive",
+    "source_url": "https://www.wastedive.com/news/fmcsa-cdl-rule-affects-non-citizen-drivers-waste-pro-teamsters-afscme/814806/",
+    "category": "Labor/Ops",
+    "categories": [
+      "Labor/Ops"
+    ],
+    "summary": "An FMCSA rule affecting non-citizen CDL drivers went into effect, with waste haulers like Waste Pro warning of significant business impacts due to the already-critical CDL shortage in the sanitation industry.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-11"
   },
   {
     "date": "2026-06-05",

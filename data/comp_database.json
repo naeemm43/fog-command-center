@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-06-10",
+    "target": "NLR, Inc.",
+    "acquirer": "TerraCycle US LLC (TerraCycle Inc.)",
+    "sponsor": null,
+    "location": "Connecticut, United States",
+    "deal_type": "Add-On",
+    "deal_size": "$2,750,000 (NLR); $1,200,000 (real estate)",
+    "multiple": "N/A",
+    "services": "",
+    "source": "SEC Filing (Form 1-U)",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0001714781/000110465926072277/tm2616958d2_253g2.htm",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "Strategic buyer",
+    "deal_summary": [
+      "Acquisition of Universal Waste company and processing facility; integrated into TerraCycle Commercial division"
+    ],
+    "date_confidence": "verified",
+    "notes": "TerraCycle US acquired NLR Inc. (a Universal Waste company) for $2.75 million and purchased the associated processing facility in East Windsor, Connecticut for $1.2 million. This is TerraCycle's fourth acquisition of a Universal Waste company.",
+    "latitude": 41.603,
+    "longitude": -73.087,
+    "zoom_hint": "wide"
+  },
+  {
     "date": "2026-06-03",
     "target": "SAF One",
     "acquirer": "DHL Express",
