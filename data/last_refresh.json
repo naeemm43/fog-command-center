@@ -1,126 +1,142 @@
 {
-  "timestamp": "2026-06-11T16:15:16Z",
-  "added_news_count": 3,
-  "added_deals_count": 1,
+  "timestamp": "2026-06-12T15:30:36Z",
+  "added_news_count": 5,
+  "added_deals_count": 0,
   "archived_count": 0,
   "new_today_news": [
     {
-      "date": "2026-06-10",
-      "headline": "TerraCycle US Acquires NLR Inc. and Acquires Processing Facility in Connecticut",
-      "source": "SEC Filing (Form 1-U)",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/0001714781/000110465926072277/tm2616958d2_253g2.htm",
-      "category": "M&A",
+      "date": "2026-06-12",
+      "headline": "Pembroke Select Board Hikes Trash Fees by $40 to Offset Rising Tipping Costs",
+      "source": "South Shore News",
+      "source_url": "https://www.southshore.news/p/pembroke-select-board-hikes-trash",
+      "category": "Infrastructure",
       "categories": [
-        "M&A"
+        "Infrastructure"
       ],
-      "summary": "TerraCycle US acquired NLR Inc. (a Universal Waste company) for $2.75 million and purchased the associated processing facility in East Windsor, Connecticut for $1.2 million. This is TerraCycle's fourth acquisition of a Universal Waste company.",
-      "relevance_score": 3,
-      "is_deal": true,
+      "summary": "The Pembroke Select Board voted unanimously to increase the annual municipal trash and recycling user fee from $440 to $480 for Fiscal Year 2027, with the $40 increase designed to counteract sharp escalations in contractual hauling and tipping fees, as well as a 23% recycling contamination rate.",
+      "relevance_score": 2,
+      "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
-      "latitude": 41.603,
-      "longitude": -73.087,
-      "zoom_hint": "wide",
-      "first_seen_date": "2026-06-11"
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-06-12"
+    },
+    {
+      "date": "2026-06-12",
+      "headline": "Orlando Turns Used Cooking Oil into Clean Burning Biodiesel",
+      "source": "Grease Connections",
+      "source_url": "https://greaseconnections.com/orlandos-waste-cooking-oil-to-biodiesel-program/",
+      "category": "ESG",
+      "categories": [
+        "ESG",
+        "Renewable Fuels"
+      ],
+      "summary": "Orlando's circular-economy fuel program collects household and restaurant oil to produce biodiesel for municipal vehicles, achieving 30% reduction in sewer overflows since 2015 and reducing lifecycle greenhouse gas emissions by up to 86%.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-06-12"
+    },
+    {
+      "date": "2026-06-11",
+      "headline": "Foodservice Industry Trends 2026: Market Recalibration in Progress",
+      "source": "WebstaurantStore Blog",
+      "source_url": "https://www.webstaurantstore.com/blog/2214/top-foodservice-trends.html",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Tariffs are driving foodservice operators toward domestically produced products, changing supply chains and innovation priorities. Staffing shortages persist with managers prioritizing mental health reforms and workplace culture improvements.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-06-12"
     }
   ],
   "recent_news": [
     {
-      "date": "2026-06-09",
-      "headline": "For Food Waste/Biogas, Landia Takes the Long-Term Pump View with Hayley Dexis",
-      "source": "Fluid Handling Pro",
-      "source_url": "https://fluidhandlingpro.com/news/for-food-waste-biogas-landia-takes-the-long-term-pump-view-with-hayley-dexis/",
-      "category": "Technology",
+      "date": "2026-06-08",
+      "headline": "Europe's Imports of Dubious 'Used' Cooking Oil Set to Rise, Fuelling Deforestation",
+      "source": "Transport & Environment",
+      "source_url": "https://www.transportenvironment.org/articles/europes-imports-dubious-used-cooking-oil-set-rise-fuelling-deforestation",
+      "category": "ESG",
       "categories": [
-        "Technology"
+        "ESG",
+        "Renewable Fuels"
       ],
-      "summary": "Landia supplied new long-coupled Chopper Pumps for a food-waste-to-renewable-energy company, addressing specific engineering needs for biogas/AD operations. The solution was tailored for separating wet and dry components in FOG processing workflows.",
-      "relevance_score": 5,
+      "summary": "T&E report highlights sustainability risks in UCO supply chains, finding that Europe's imports of dubious used cooking oil are rising and driving deforestation, with fraud concerns around mislabeled virgin oils and regulatory gaps in verification.",
+      "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-11"
+      "first_seen_date": "2026-06-12"
     },
     {
-      "date": "2026-06-06",
-      "headline": "CDL Driver Shortage Continues to Impact Waste Haulers Despite FMCSA Non-Citizen Rule Implementation",
-      "source": "Waste Dive",
-      "source_url": "https://www.wastedive.com/news/fmcsa-cdl-rule-affects-non-citizen-drivers-waste-pro-teamsters-afscme/814806/",
-      "category": "Labor/Ops",
+      "date": "2026-06-05",
+      "headline": "Restaurant Industry Employment Data - April 2026 Labor Statistics",
+      "source": "National Restaurant Association",
+      "source_url": "https://restaurant.org/research-and-media/research/restaurant-economic-insights/economic-indicators/total-restaurant-industry-jobs/",
+      "category": "Restaurant",
       "categories": [
-        "Labor/Ops"
+        "Restaurant"
       ],
-      "summary": "An FMCSA rule affecting non-citizen CDL drivers went into effect, with waste haulers like Waste Pro warning of significant business impacts due to the already-critical CDL shortage in the sanitation industry.",
-      "relevance_score": 3,
+      "summary": "As of April 2026, eating and drinking places added net 17,200 jobs seasonally adjusted. Full-service restaurants remain 193,000 jobs below pre-pandemic levels despite healthy recent hiring. Limited-service segments continue to outperform pre-pandemic employment levels.",
+      "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-11"
+      "first_seen_date": "2026-06-12"
     }
   ],
   "backfill_news": [],
-  "new_deals": [
-    {
-      "date": "2026-06-10",
-      "target": "NLR, Inc.",
-      "acquirer": "TerraCycle US LLC (TerraCycle Inc.)",
-      "sponsor": null,
-      "location": "Connecticut, United States",
-      "deal_type": "Add-On",
-      "deal_size": "$2,750,000 (NLR); $1,200,000 (real estate)",
-      "multiple": "N/A",
-      "services": "",
-      "source": "SEC Filing (Form 1-U)",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/0001714781/000110465926072277/tm2616958d2_253g2.htm",
-      "is_target_market": false,
-      "target_market_name": null,
-      "owner_classification": "Strategic buyer",
-      "deal_summary": [
-        "Acquisition of Universal Waste company and processing facility; integrated into TerraCycle Commercial division"
-      ],
-      "date_confidence": "verified",
-      "notes": "TerraCycle US acquired NLR Inc. (a Universal Waste company) for $2.75 million and purchased the associated processing facility in East Windsor, Connecticut for $1.2 million. This is TerraCycle's fourth acquisition of a Universal Waste company.",
-      "latitude": 41.603,
-      "longitude": -73.087,
-      "zoom_hint": "wide"
-    }
-  ],
+  "new_deals": [],
   "new_news": [
     {
-      "date": "2026-06-10",
-      "headline": "TerraCycle US Acquires NLR Inc. and Acquires Processing Facility in Connecticut",
-      "source": "SEC Filing (Form 1-U)",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/0001714781/000110465926072277/tm2616958d2_253g2.htm",
-      "category": "M&A",
+      "date": "2026-06-12",
+      "headline": "Pembroke Select Board Hikes Trash Fees by $40 to Offset Rising Tipping Costs",
+      "source": "South Shore News",
+      "source_url": "https://www.southshore.news/p/pembroke-select-board-hikes-trash",
+      "category": "Infrastructure",
       "categories": [
-        "M&A"
+        "Infrastructure"
       ],
-      "summary": "TerraCycle US acquired NLR Inc. (a Universal Waste company) for $2.75 million and purchased the associated processing facility in East Windsor, Connecticut for $1.2 million. This is TerraCycle's fourth acquisition of a Universal Waste company.",
-      "relevance_score": 3,
-      "is_deal": true,
+      "summary": "The Pembroke Select Board voted unanimously to increase the annual municipal trash and recycling user fee from $440 to $480 for Fiscal Year 2027, with the $40 increase designed to counteract sharp escalations in contractual hauling and tipping fees, as well as a 23% recycling contamination rate.",
+      "relevance_score": 2,
+      "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
-      "latitude": 41.603,
-      "longitude": -73.087,
-      "zoom_hint": "wide",
-      "first_seen_date": "2026-06-11"
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-06-12"
     },
     {
-      "date": "2026-06-09",
-      "headline": "For Food Waste/Biogas, Landia Takes the Long-Term Pump View with Hayley Dexis",
-      "source": "Fluid Handling Pro",
-      "source_url": "https://fluidhandlingpro.com/news/for-food-waste-biogas-landia-takes-the-long-term-pump-view-with-hayley-dexis/",
-      "category": "Technology",
+      "date": "2026-06-12",
+      "headline": "Orlando Turns Used Cooking Oil into Clean Burning Biodiesel",
+      "source": "Grease Connections",
+      "source_url": "https://greaseconnections.com/orlandos-waste-cooking-oil-to-biodiesel-program/",
+      "category": "ESG",
       "categories": [
-        "Technology"
+        "ESG",
+        "Renewable Fuels"
       ],
-      "summary": "Landia supplied new long-coupled Chopper Pumps for a food-waste-to-renewable-energy company, addressing specific engineering needs for biogas/AD operations. The solution was tailored for separating wet and dry components in FOG processing workflows.",
+      "summary": "Orlando's circular-economy fuel program collects household and restaurant oil to produce biodiesel for municipal vehicles, achieving 30% reduction in sewer overflows since 2015 and reducing lifecycle greenhouse gas emissions by up to 86%.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -128,26 +144,65 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-11"
+      "first_seen_date": "2026-06-12"
     },
     {
-      "date": "2026-06-06",
-      "headline": "CDL Driver Shortage Continues to Impact Waste Haulers Despite FMCSA Non-Citizen Rule Implementation",
-      "source": "Waste Dive",
-      "source_url": "https://www.wastedive.com/news/fmcsa-cdl-rule-affects-non-citizen-drivers-waste-pro-teamsters-afscme/814806/",
-      "category": "Labor/Ops",
+      "date": "2026-06-11",
+      "headline": "Foodservice Industry Trends 2026: Market Recalibration in Progress",
+      "source": "WebstaurantStore Blog",
+      "source_url": "https://www.webstaurantstore.com/blog/2214/top-foodservice-trends.html",
+      "category": "Restaurant",
       "categories": [
-        "Labor/Ops"
+        "Restaurant"
       ],
-      "summary": "An FMCSA rule affecting non-citizen CDL drivers went into effect, with waste haulers like Waste Pro warning of significant business impacts due to the already-critical CDL shortage in the sanitation industry.",
-      "relevance_score": 3,
+      "summary": "Tariffs are driving foodservice operators toward domestically produced products, changing supply chains and innovation priorities. Staffing shortages persist with managers prioritizing mental health reforms and workplace culture improvements.",
+      "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-11"
+      "first_seen_date": "2026-06-12"
+    },
+    {
+      "date": "2026-06-08",
+      "headline": "Europe's Imports of Dubious 'Used' Cooking Oil Set to Rise, Fuelling Deforestation",
+      "source": "Transport & Environment",
+      "source_url": "https://www.transportenvironment.org/articles/europes-imports-dubious-used-cooking-oil-set-rise-fuelling-deforestation",
+      "category": "ESG",
+      "categories": [
+        "ESG",
+        "Renewable Fuels"
+      ],
+      "summary": "T&E report highlights sustainability risks in UCO supply chains, finding that Europe's imports of dubious used cooking oil are rising and driving deforestation, with fraud concerns around mislabeled virgin oils and regulatory gaps in verification.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-06-12"
+    },
+    {
+      "date": "2026-06-05",
+      "headline": "Restaurant Industry Employment Data - April 2026 Labor Statistics",
+      "source": "National Restaurant Association",
+      "source_url": "https://restaurant.org/research-and-media/research/restaurant-economic-insights/economic-indicators/total-restaurant-industry-jobs/",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "As of April 2026, eating and drinking places added net 17,200 jobs seasonally adjusted. Full-service restaurants remain 193,000 jobs below pre-pandemic levels despite healthy recent hiring. Limited-service segments continue to outperform pre-pandemic employment levels.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-06-12"
     }
   ]
 }

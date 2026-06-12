@@ -1,5 +1,63 @@
 [
   {
+    "date": "2026-06-12",
+    "headline": "Pembroke Select Board Hikes Trash Fees by $40 to Offset Rising Tipping Costs",
+    "source": "South Shore News",
+    "source_url": "https://www.southshore.news/p/pembroke-select-board-hikes-trash",
+    "category": "Infrastructure",
+    "categories": [
+      "Infrastructure"
+    ],
+    "summary": "The Pembroke Select Board voted unanimously to increase the annual municipal trash and recycling user fee from $440 to $480 for Fiscal Year 2027, with the $40 increase designed to counteract sharp escalations in contractual hauling and tipping fees, as well as a 23% recycling contamination rate.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-12"
+  },
+  {
+    "date": "2026-06-12",
+    "headline": "Orlando Turns Used Cooking Oil into Clean Burning Biodiesel",
+    "source": "Grease Connections",
+    "source_url": "https://greaseconnections.com/orlandos-waste-cooking-oil-to-biodiesel-program/",
+    "category": "ESG",
+    "categories": [
+      "ESG",
+      "Renewable Fuels"
+    ],
+    "summary": "Orlando's circular-economy fuel program collects household and restaurant oil to produce biodiesel for municipal vehicles, achieving 30% reduction in sewer overflows since 2015 and reducing lifecycle greenhouse gas emissions by up to 86%.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-12"
+  },
+  {
+    "date": "2026-06-11",
+    "headline": "Foodservice Industry Trends 2026: Market Recalibration in Progress",
+    "source": "WebstaurantStore Blog",
+    "source_url": "https://www.webstaurantstore.com/blog/2214/top-foodservice-trends.html",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "summary": "Tariffs are driving foodservice operators toward domestically produced products, changing supply chains and innovation priorities. Staffing shortages persist with managers prioritizing mental health reforms and workplace culture improvements.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-12"
+  },
+  {
     "date": "2026-06-10",
     "headline": "Restaurant Opening Signals Report: June 2026 Filings Activity",
     "source": "Restaurant Data",
@@ -116,6 +174,26 @@
     "first_seen_date": "2026-06-10"
   },
   {
+    "date": "2026-06-08",
+    "headline": "Europe's Imports of Dubious 'Used' Cooking Oil Set to Rise, Fuelling Deforestation",
+    "source": "Transport & Environment",
+    "source_url": "https://www.transportenvironment.org/articles/europes-imports-dubious-used-cooking-oil-set-rise-fuelling-deforestation",
+    "category": "ESG",
+    "categories": [
+      "ESG",
+      "Renewable Fuels"
+    ],
+    "summary": "T&E report highlights sustainability risks in UCO supply chains, finding that Europe's imports of dubious used cooking oil are rising and driving deforestation, with fraud concerns around mislabeled virgin oils and regulatory gaps in verification.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-12"
+  },
+  {
     "date": "2026-06-06",
     "headline": "Earnings Inflection Talk And Margin Focus Might Change The Case For Investing In Darling Ingredients (DAR)",
     "source": "Yahoo Finance",
@@ -210,6 +288,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-06-10"
+  },
+  {
+    "date": "2026-06-05",
+    "headline": "Restaurant Industry Employment Data - April 2026 Labor Statistics",
+    "source": "National Restaurant Association",
+    "source_url": "https://restaurant.org/research-and-media/research/restaurant-economic-insights/economic-indicators/total-restaurant-industry-jobs/",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "summary": "As of April 2026, eating and drinking places added net 17,200 jobs seasonally adjusted. Full-service restaurants remain 193,000 jobs below pre-pandemic levels despite healthy recent hiring. Limited-service segments continue to outperform pre-pandemic employment levels.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-12"
   },
   {
     "date": "2026-06-04",
