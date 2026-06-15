@@ -1,5 +1,25 @@
 [
   {
+    "date": "2025-12-15",
+    "headline": "GFL Environmental Closes Frontier Waste Solutions Acquisition in Texas",
+    "source": "GFL Environmental Q1 2026 Earnings",
+    "source_url": "https://www.prnewswire.com/news-releases/gfl-environmental-reports-first-quarter-2026-results-and-raises-full-year-2026-guidance-302757879.html",
+    "category": "M&A",
+    "summary": "GFL completed Frontier Waste Solutions acquisition in early April as a leading vertically integrated solid waste business across the Texas Triangle. The company completed eight acquisitions since the start of the year, adding an estimated $425 million to $450 million in annualized revenue.",
+    "relevance_score": 2,
+    "is_target_market": false,
+    "target_market_name": null,
+    "is_deal": true,
+    "latitude": 31.0,
+    "longitude": -100.0,
+    "zoom_hint": "wide",
+    "first_seen_date": "2025-12-15",
+    "categories": [
+      "M&A",
+      "Public Co."
+    ]
+  },
+  {
     "date": "2025-12-05",
     "headline": "Renewable Diesel Feedstock Competition Intensifies: UCO Policy Incentives Drive Market Volatility",
     "source": "Energy Solutions",
