@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-06-13",
+    "headline": "Why Seattle Restaurant Owners Neglect Critical Grease Trap Maintenance",
+    "source": "QBClean",
+    "source_url": "https://www.qbclean.com/why-seattle-restaurant-owners-neglect-critical-grease-trap-maintenance",
+    "category": "Regulatory",
+    "categories": [
+      "Regulatory"
+    ],
+    "summary": "Seattle health inspectors enforce grease trap violations strictly, with fines ranging from $500 to $5,000 depending on severity. Repeated violations escalate penalties dramatically and can result in temporary closure orders.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-16"
+  },
+  {
     "date": "2026-06-12",
     "headline": "Pembroke Select Board Hikes Trash Fees by $40 to Offset Rising Tipping Costs",
     "source": "South Shore News",
@@ -115,6 +134,25 @@
     "first_seen_date": "2026-06-11"
   },
   {
+    "date": "2026-06-10",
+    "headline": "June 2026 Fire Report: Waste and Recycling Industry Is Operating in a Permanently Elevated Fire-Risk Environment",
+    "source": "Waste360",
+    "source_url": "https://www.waste360.com/industry-insights/june-2026-fire-report-waste-and-recycling-industry-is-operating-in-a-permanently-elevated-fire-risk-environment",
+    "category": "Industry Events",
+    "categories": [
+      "Industry Events"
+    ],
+    "summary": "Ryan Fogelman's monthly fire incident report documenting elevated fire risk across North American waste and recycling operations in May 2026, with 40 incidents recorded\u2014six above the historical monthly average.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-16"
+  },
+  {
     "date": "2026-06-09",
     "headline": "For Food Waste/Biogas, Landia Takes the Long-Term Pump View with Hayley Dexis",
     "source": "Fluid Handling Pro",
@@ -132,6 +170,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-06-11"
+  },
+  {
+    "date": "2026-06-09",
+    "headline": "City of Phoenix WATER SERVICES DEPARTMENT (Grease, Roots, Manholes)",
+    "source": "City of Phoenix Water Services Department",
+    "source_url": "https://www.phoenix.gov/content/dam/phoenix/waterservicessite/documents/Sewer_cleaning_FAQs_2026.pdf",
+    "category": "Regulatory",
+    "categories": [
+      "Regulatory"
+    ],
+    "summary": "Phoenix water services document addressing sewer cleaning and FOG/grease problems. The document identifies coagulated grease and cooking oil as the biggest problem causing sewer overflows and backups in the city's infrastructure.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-16"
   },
   {
     "date": "2026-06-08",
@@ -326,6 +383,26 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-06-12"
+  },
+  {
+    "date": "2026-06-05",
+    "headline": "This Week in Waste: Top Stories June 1 \u2013 June 4",
+    "source": "Waste360",
+    "source_url": "https://www.waste360.com/industry-insights/this-week-in-waste-top-stories-june-1-june-4",
+    "category": "Industry Events",
+    "categories": [
+      "Industry Events",
+      "M&A"
+    ],
+    "summary": "Waste360's weekly industry roundup featuring two major acquisitions: TerraCycle's acquisition of Connecticut-based NLR Inc. and Hiab's $1.035 billion acquisition of Canadian refuse collection vehicle manufacturer Labrie Environmental Group.",
+    "relevance_score": 2,
+    "is_deal": true,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-16"
   },
   {
     "date": "2026-06-04",
