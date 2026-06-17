@@ -1,191 +1,128 @@
 {
-  "timestamp": "2026-06-16T17:07:42Z",
-  "added_news_count": 4,
-  "added_deals_count": 1,
+  "timestamp": "2026-06-17T15:50:27Z",
+  "added_news_count": 3,
+  "added_deals_count": 0,
   "archived_count": 0,
-  "new_today_news": [],
+  "new_today_news": [
+    {
+      "date": "2026-06-16",
+      "headline": "ACSI Restaurant and Food Delivery Study 2026: QSRs Maintain Satisfaction Levels Despite Industry Challenges",
+      "source": "American Customer Satisfaction Index (ACSI)",
+      "source_url": "https://theacsi.com/news-and-resources/press-releases/2026/06/16/press-release-restaurant-and-food-delivery-study-2026/",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "QSR customer satisfaction remains stable at 79/100 for the third consecutive year, though the restaurant industry faced headwinds in 2025 with chain sales growing just 3%, below inflation rates.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-06-17"
+    }
+  ],
   "recent_news": [
     {
-      "date": "2026-06-13",
-      "headline": "Why Seattle Restaurant Owners Neglect Critical Grease Trap Maintenance",
-      "source": "QBClean",
-      "source_url": "https://www.qbclean.com/why-seattle-restaurant-owners-neglect-critical-grease-trap-maintenance",
-      "category": "Regulatory",
+      "date": "2026-06-10",
+      "headline": "American Airlines and Google sign record-breaking sustainable aviation fuel agreement",
+      "source": "American Airlines Newsroom",
+      "source_url": "https://news.aa.com/news/news-details/2026/American-Airlines-and-Google-sign-record-breaking-sustainable-aviation-fuel-agreement-OPS-OTH-06/default.aspx",
+      "category": "Renewable Fuels",
       "categories": [
-        "Regulatory"
+        "Renewable Fuels"
       ],
-      "summary": "Seattle health inspectors enforce grease trap violations strictly, with fines ranging from $500 to $5,000 depending on severity. Repeated violations escalate penalties dramatically and can result in temporary closure orders.",
-      "relevance_score": 4,
+      "summary": "American Airlines and Google announced the largest publicly announced SAF certificate agreement between an airline and single corporate customer. The 35 million gallon deal over three years will source physical fuel from waste feedstocks including used cooking oil, with SAF delivered to Chicago O'Hare.",
+      "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-16"
+      "first_seen_date": "2026-06-17"
     },
     {
       "date": "2026-06-10",
-      "headline": "June 2026 Fire Report: Waste and Recycling Industry Is Operating in a Permanently Elevated Fire-Risk Environment",
-      "source": "Waste360",
-      "source_url": "https://www.waste360.com/industry-insights/june-2026-fire-report-waste-and-recycling-industry-is-operating-in-a-permanently-elevated-fire-risk-environment",
-      "category": "Industry Events",
+      "headline": "Garbage Truck Technology in 2026: Electric, CNG & Hydrogen Options",
+      "source": "FleetRabbit",
+      "source_url": "https://fleetrabbit.com/blogs/post/garbage-truck-technology-electric-cng-hydrogen",
+      "category": "Technology",
       "categories": [
-        "Industry Events"
+        "Technology"
       ],
-      "summary": "Ryan Fogelman's monthly fire incident report documenting elevated fire risk across North American waste and recycling operations in May 2026, with 40 incidents recorded\u2014six above the historical monthly average.",
-      "relevance_score": 2,
+      "summary": "Analysis of alternative-fuel technologies for waste collection vehicles, including electric refuse trucks with regenerative braking, CNG trucks with renewable natural gas options, and hydrogen fuel cells. Reports that over 40% of new garbage truck purchases in 2026 will be zero-emission models driven by CARB mandates and total cost of ownership advantages.",
+      "relevance_score": 3,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-16"
-    },
-    {
-      "date": "2026-06-09",
-      "headline": "City of Phoenix WATER SERVICES DEPARTMENT (Grease, Roots, Manholes)",
-      "source": "City of Phoenix Water Services Department",
-      "source_url": "https://www.phoenix.gov/content/dam/phoenix/waterservicessite/documents/Sewer_cleaning_FAQs_2026.pdf",
-      "category": "Regulatory",
-      "categories": [
-        "Regulatory"
-      ],
-      "summary": "Phoenix water services document addressing sewer cleaning and FOG/grease problems. The document identifies coagulated grease and cooking oil as the biggest problem causing sewer overflows and backups in the city's infrastructure.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-16"
+      "first_seen_date": "2026-06-17"
     }
   ],
-  "backfill_news": [
-    {
-      "date": "2026-06-05",
-      "headline": "This Week in Waste: Top Stories June 1 \u2013 June 4",
-      "source": "Waste360",
-      "source_url": "https://www.waste360.com/industry-insights/this-week-in-waste-top-stories-june-1-june-4",
-      "category": "Industry Events",
-      "categories": [
-        "Industry Events",
-        "M&A"
-      ],
-      "summary": "Waste360's weekly industry roundup featuring two major acquisitions: TerraCycle's acquisition of Connecticut-based NLR Inc. and Hiab's $1.035 billion acquisition of Canadian refuse collection vehicle manufacturer Labrie Environmental Group.",
-      "relevance_score": 2,
-      "is_deal": true,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-16"
-    }
-  ],
-  "new_deals": [
-    {
-      "date": "2026-06-05",
-      "target": "Labrie Environmental Group",
-      "acquirer": "Hiab (Finland-based load-handling equipment provider)",
-      "sponsor": "",
-      "location": "Canada",
-      "deal_type": "Add-On",
-      "deal_size": "$1.035 billion",
-      "multiple": "N/A",
-      "services": "",
-      "source": "Waste360",
-      "source_url": "https://www.waste360.com/industry-insights/this-week-in-waste-top-stories-june-1-june-4",
-      "is_target_market": false,
-      "target_market_name": null,
-      "owner_classification": "Unknown",
-      "deal_summary": null,
-      "date_confidence": "verified",
-      "notes": "Waste360's weekly industry roundup featuring two major acquisitions: TerraCycle's acquisition of Connecticut-based NLR Inc. and Hiab's $1.035 billion acquisition of Canadian refuse collection vehicle manufacturer Labrie Environmental Group.",
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null
-    }
-  ],
+  "backfill_news": [],
+  "new_deals": [],
   "new_news": [
     {
-      "date": "2026-06-13",
-      "headline": "Why Seattle Restaurant Owners Neglect Critical Grease Trap Maintenance",
-      "source": "QBClean",
-      "source_url": "https://www.qbclean.com/why-seattle-restaurant-owners-neglect-critical-grease-trap-maintenance",
-      "category": "Regulatory",
+      "date": "2026-06-16",
+      "headline": "ACSI Restaurant and Food Delivery Study 2026: QSRs Maintain Satisfaction Levels Despite Industry Challenges",
+      "source": "American Customer Satisfaction Index (ACSI)",
+      "source_url": "https://theacsi.com/news-and-resources/press-releases/2026/06/16/press-release-restaurant-and-food-delivery-study-2026/",
+      "category": "Restaurant",
       "categories": [
-        "Regulatory"
+        "Restaurant"
       ],
-      "summary": "Seattle health inspectors enforce grease trap violations strictly, with fines ranging from $500 to $5,000 depending on severity. Repeated violations escalate penalties dramatically and can result in temporary closure orders.",
-      "relevance_score": 4,
+      "summary": "QSR customer satisfaction remains stable at 79/100 for the third consecutive year, though the restaurant industry faced headwinds in 2025 with chain sales growing just 3%, below inflation rates.",
+      "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-16"
+      "first_seen_date": "2026-06-17"
     },
     {
       "date": "2026-06-10",
-      "headline": "June 2026 Fire Report: Waste and Recycling Industry Is Operating in a Permanently Elevated Fire-Risk Environment",
-      "source": "Waste360",
-      "source_url": "https://www.waste360.com/industry-insights/june-2026-fire-report-waste-and-recycling-industry-is-operating-in-a-permanently-elevated-fire-risk-environment",
-      "category": "Industry Events",
+      "headline": "American Airlines and Google sign record-breaking sustainable aviation fuel agreement",
+      "source": "American Airlines Newsroom",
+      "source_url": "https://news.aa.com/news/news-details/2026/American-Airlines-and-Google-sign-record-breaking-sustainable-aviation-fuel-agreement-OPS-OTH-06/default.aspx",
+      "category": "Renewable Fuels",
       "categories": [
-        "Industry Events"
+        "Renewable Fuels"
       ],
-      "summary": "Ryan Fogelman's monthly fire incident report documenting elevated fire risk across North American waste and recycling operations in May 2026, with 40 incidents recorded\u2014six above the historical monthly average.",
-      "relevance_score": 2,
+      "summary": "American Airlines and Google announced the largest publicly announced SAF certificate agreement between an airline and single corporate customer. The 35 million gallon deal over three years will source physical fuel from waste feedstocks including used cooking oil, with SAF delivered to Chicago O'Hare.",
+      "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-16"
+      "first_seen_date": "2026-06-17"
     },
     {
-      "date": "2026-06-09",
-      "headline": "City of Phoenix WATER SERVICES DEPARTMENT (Grease, Roots, Manholes)",
-      "source": "City of Phoenix Water Services Department",
-      "source_url": "https://www.phoenix.gov/content/dam/phoenix/waterservicessite/documents/Sewer_cleaning_FAQs_2026.pdf",
-      "category": "Regulatory",
+      "date": "2026-06-10",
+      "headline": "Garbage Truck Technology in 2026: Electric, CNG & Hydrogen Options",
+      "source": "FleetRabbit",
+      "source_url": "https://fleetrabbit.com/blogs/post/garbage-truck-technology-electric-cng-hydrogen",
+      "category": "Technology",
       "categories": [
-        "Regulatory"
+        "Technology"
       ],
-      "summary": "Phoenix water services document addressing sewer cleaning and FOG/grease problems. The document identifies coagulated grease and cooking oil as the biggest problem causing sewer overflows and backups in the city's infrastructure.",
-      "relevance_score": 4,
+      "summary": "Analysis of alternative-fuel technologies for waste collection vehicles, including electric refuse trucks with regenerative braking, CNG trucks with renewable natural gas options, and hydrogen fuel cells. Reports that over 40% of new garbage truck purchases in 2026 will be zero-emission models driven by CARB mandates and total cost of ownership advantages.",
+      "relevance_score": 3,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-16"
-    },
-    {
-      "date": "2026-06-05",
-      "headline": "This Week in Waste: Top Stories June 1 \u2013 June 4",
-      "source": "Waste360",
-      "source_url": "https://www.waste360.com/industry-insights/this-week-in-waste-top-stories-june-1-june-4",
-      "category": "Industry Events",
-      "categories": [
-        "Industry Events",
-        "M&A"
-      ],
-      "summary": "Waste360's weekly industry roundup featuring two major acquisitions: TerraCycle's acquisition of Connecticut-based NLR Inc. and Hiab's $1.035 billion acquisition of Canadian refuse collection vehicle manufacturer Labrie Environmental Group.",
-      "relevance_score": 2,
-      "is_deal": true,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-16"
+      "first_seen_date": "2026-06-17"
     }
   ]
 }
