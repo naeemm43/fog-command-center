@@ -1,5 +1,43 @@
 [
   {
+    "date": "2026-06-18",
+    "headline": "Water State Revolving Funds Continue Distributing $23.4 Billion in Combined Clean Water and Drinking Water Funding",
+    "source": "Funding Landscape",
+    "source_url": "https://fundinglandscape.com/answers/infrastructure-iija-funding-2026",
+    "category": "Infrastructure",
+    "categories": [
+      "Infrastructure"
+    ],
+    "summary": "IIJA core formula programs for water infrastructure remain intact through September 2026. Water State Revolving Funds continue distributing $23.4 billion in combined clean water and drinking water funding, with authorization expiring September 30, 2026.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-18"
+  },
+  {
+    "date": "2026-06-18",
+    "headline": "How Summer Heat Affects Restaurant Grease Traps",
+    "source": "W Environmental",
+    "source_url": "https://www.wrenvironmental.com/blog/2026/june/summer-grease-trap-maintenance-how-hot-weather-a/",
+    "category": "ESG",
+    "categories": [
+      "ESG"
+    ],
+    "summary": "Examines operational and environmental impacts of seasonal temperature variations on grease trap performance and maintenance scheduling in restaurants during peak summer season.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-18"
+  },
+  {
     "date": "2026-06-16",
     "headline": "ACSI Restaurant and Food Delivery Study 2026: QSRs Maintain Satisfaction Levels Despite Industry Challenges",
     "source": "American Customer Satisfaction Index (ACSI)",
@@ -17,6 +55,45 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-06-17"
+  },
+  {
+    "date": "2026-06-15",
+    "headline": "WM Updates Recycle Right\u00ae Rules: No Batteries in Recycling or Trash",
+    "source": "Waste360",
+    "source_url": "https://www.waste360.com/waste-recycling/wm-updates-recycle-right-rules-no-batteries-in-recycling-or-trash",
+    "category": "Industry Events",
+    "categories": [
+      "Industry Events"
+    ],
+    "summary": "WM announced updates to its Recycle Right\u00ae program, adding batteries to its list of items that should never go in recycling or trash bins due to fire risk. The announcement emphasizes fire safety across waste and recycling facilities.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-18"
+  },
+  {
+    "date": "2026-06-14",
+    "headline": "Chain Restaurant Closures and Consolidation Continue to Shape Industry Landscape",
+    "source": "The Takeout",
+    "source_url": "https://www.thetakeout.com/2191648/closed-down-chain-restaurants-locations-2026/",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant",
+      "Public Co."
+    ],
+    "summary": "Major U.S. restaurant chains including Wendy's, Starbucks, and others are closing hundreds of locations in 2026 due to weak sales and rising costs. These closures have implications for service providers in waste management and grease collection, as underperforming and closed locations eliminate demand for maintenance services.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-18"
   },
   {
     "date": "2026-06-13",
@@ -4706,26 +4783,6 @@
     "zoom_hint": null,
     "first_seen_date": "2026-01-04",
     "categories": [
-      "Public Co."
-    ]
-  },
-  {
-    "date": "2025-12-20",
-    "headline": "Liquid Environmental Solutions Acquired by Goldman Sachs Infrastructure Fund",
-    "source": "Multiple (ESG Today, Baird, Simpson Thacher, Audax)",
-    "source_url": "https://www.esgtoday.com/goldman-sachs-acquires-liquid-waste-solutions-provider-les/",
-    "category": "M&A",
-    "summary": "Goldman Sachs Alternatives announced an agreement by its infrastructure team to acquire non-hazardous liquid waste management services provider Liquid Environmental Solutions (LES), from Boston-based investor Audax Private Equity. Audax had acquired the company in Q4 2017 and executed a Buy & Build strategy, nearly doubling the company's footprint to over 90 locations across 50 states; LES executed 13 acquisitions that helped drive geographic growth and entry into adjacent services.",
-    "relevance_score": 5,
-    "is_deal": true,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": 32.814,
-    "longitude": -96.949,
-    "zoom_hint": "narrow",
-    "first_seen_date": "2025-12-20",
-    "categories": [
-      "M&A",
       "Public Co."
     ]
   },

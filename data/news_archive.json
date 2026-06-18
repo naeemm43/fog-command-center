@@ -1,5 +1,25 @@
 [
   {
+    "date": "2025-12-20",
+    "headline": "Liquid Environmental Solutions Acquired by Goldman Sachs Infrastructure Fund",
+    "source": "Multiple (ESG Today, Baird, Simpson Thacher, Audax)",
+    "source_url": "https://www.esgtoday.com/goldman-sachs-acquires-liquid-waste-solutions-provider-les/",
+    "category": "M&A",
+    "summary": "Goldman Sachs Alternatives announced an agreement by its infrastructure team to acquire non-hazardous liquid waste management services provider Liquid Environmental Solutions (LES), from Boston-based investor Audax Private Equity. Audax had acquired the company in Q4 2017 and executed a Buy & Build strategy, nearly doubling the company's footprint to over 90 locations across 50 states; LES executed 13 acquisitions that helped drive geographic growth and entry into adjacent services.",
+    "relevance_score": 5,
+    "is_deal": true,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": 32.814,
+    "longitude": -96.949,
+    "zoom_hint": "narrow",
+    "first_seen_date": "2025-12-20",
+    "categories": [
+      "M&A",
+      "Public Co."
+    ]
+  },
+  {
     "date": "2025-12-15",
     "headline": "GFL Environmental Closes Frontier Waste Solutions Acquisition in Texas",
     "source": "GFL Environmental Q1 2026 Earnings",
