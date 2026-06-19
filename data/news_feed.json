@@ -38,6 +38,25 @@
     "first_seen_date": "2026-06-18"
   },
   {
+    "date": "2026-06-18",
+    "headline": "Google and American Airlines announce three-year SAF procurement agreement",
+    "source": "Carbon Direct",
+    "source_url": "https://www.carbon-direct.com/insights/the-sustainable-aviation-fuel-cost-premium-is-permanent%E2%80%94here-s-what-that-means",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels"
+    ],
+    "summary": "Google announced a three-year agreement to purchase SAF certificates associated with 35 million gallons of sustainable aviation fuel, with American Airlines taking physical delivery at Chicago O'Hare. The deal demonstrates book-and-claim accounting in the growing SAF market.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-19"
+  },
+  {
     "date": "2026-06-16",
     "headline": "ACSI Restaurant and Food Delivery Study 2026: QSRs Maintain Satisfaction Levels Despite Industry Challenges",
     "source": "American Customer Satisfaction Index (ACSI)",
@@ -287,6 +306,26 @@
     "first_seen_date": "2026-06-17"
   },
   {
+    "date": "2026-06-10",
+    "headline": "GFL Environmental CEO: Business is undervalued with strategies to unlock growth",
+    "source": "Waste Dive / IndexBox",
+    "source_url": "https://www.indexbox.io/blog/gfl-environmental-undervalued-stock-growth-plans-and-key-acquisitions/",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co.",
+      "M&A"
+    ],
+    "summary": "CEO Patrick Dovigi stated at the Waste Leadership Summits investor day that GFL Environmental is undervalued and has strategies to further unlock growth, noting a large gap between GFL's valuation and that of its peer group. The company's most significant move is its announced $4.6 billion acquisition of Secure Waste Services.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-19"
+  },
+  {
     "date": "2026-06-09",
     "headline": "For Food Waste/Biogas, Landia Takes the Long-Term Pump View with Hayley Dexis",
     "source": "Fluid Handling Pro",
@@ -323,6 +362,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-06-16"
+  },
+  {
+    "date": "2026-06-09",
+    "headline": "Tanker Truck Compliance: DOT Regulations, Inspections & Safety Protocols",
+    "source": "FleetRabbit",
+    "source_url": "https://fleetrabbit.com/blogs/post/tanker-truck-dot-compliance-regulations-inspections",
+    "category": "Labor/Ops",
+    "categories": [
+      "Labor/Ops"
+    ],
+    "summary": "Article covers DOT tanker compliance requirements including inspection frequencies and penalties. Discusses how 37% of tanker violations relate to inspection and marking failures, with $25K+ average annual penalties for recurring HazMat compliance gaps.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-19"
   },
   {
     "date": "2026-06-08",
