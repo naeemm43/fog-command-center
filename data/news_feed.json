@@ -1,5 +1,44 @@
 [
   {
+    "date": "2026-06-22",
+    "headline": "King County Modifies Combined Sewer Overflow Consent Decree to Support Climate Adaptation",
+    "source": "King County Public Input",
+    "source_url": "https://publicinput.com/csoinvestments",
+    "category": "Infrastructure",
+    "categories": [
+      "Infrastructure",
+      "Regulatory"
+    ],
+    "summary": "King County successfully negotiated modifications to its 2013 CSO consent decree with regulators. The changes will allow remaining investments in combined sewer overflow infrastructure to be adapted for climate change, support sustainable sewer rates, and prioritize work in historically underserved neighborhoods.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-22"
+  },
+  {
+    "date": "2026-06-20",
+    "headline": "Clean Harbors Attracts Analyst Attention with Raised Full-Year Earnings Estimates; Zacks Rank #2",
+    "source": "Simply Wall St",
+    "source_url": "https://simplywall.st/stocks/us/commercial-services/nyse-clh/clean-harbors/news/how-upgraded-earnings-estimates-and-zacks-rank-shape-clean-h",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co."
+    ],
+    "summary": "Analysts raised full-year earnings estimates for Clean Harbors and assigned a Zacks Rank #2, reflecting improved expectations. The company's environmental and industrial waste services are viewed as resilient with rising free cash flow margins.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-22"
+  },
+  {
     "date": "2026-06-18",
     "headline": "Water State Revolving Funds Continue Distributing $23.4 Billion in Combined Clean Water and Drinking Water Funding",
     "source": "Funding Landscape",
@@ -113,6 +152,26 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-06-18"
+  },
+  {
+    "date": "2026-06-14",
+    "headline": "Protein, pet food, and green fuels: how Darling's Diamond Green Diesel fits together",
+    "source": "Ad Hoc News",
+    "source_url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/protein-pet-food-and-green-fuels-how-darling-s-diamond-green-diesel/69546429",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels",
+      "Public Co."
+    ],
+    "summary": "Diamond Green Diesel turns animal by-products and used cooking oil into renewable diesel at industrial scale through Darling Ingredients and Valero Energy's joint venture. The complex has three major plants in Louisiana and Texas with combined capacity of roughly 1.2 billion gallons of renewable diesel and 470 million gallons of sustainable aviation fuel per year.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-22"
   },
   {
     "date": "2026-06-13",
@@ -324,6 +383,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-06-19"
+  },
+  {
+    "date": "2026-06-10",
+    "headline": "TerraCycle US LLC Acquires NLR Inc. (Universal Waste Company) and Facility",
+    "source": "SEC Filing Form 1-U / 253G2",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0001714781/000110465926072276/tm2616958d1_1u.htm",
+    "category": "M&A",
+    "categories": [
+      "M&A"
+    ],
+    "summary": "TerraCycle US acquired universal waste company NLR Inc. for $2.75 million plus a $1.2 million real estate purchase of the Connecticut processing facility. NLR is TerraCycle's fourth acquisition of a universal waste company, focused on waste treatment and processing.",
+    "relevance_score": 4,
+    "is_deal": true,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": 41.603,
+    "longitude": -73.087,
+    "zoom_hint": "wide",
+    "first_seen_date": "2026-06-22"
   },
   {
     "date": "2026-06-09",

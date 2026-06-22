@@ -1,19 +1,20 @@
 {
-  "timestamp": "2026-06-19T15:34:12Z",
-  "added_news_count": 3,
+  "timestamp": "2026-06-22T17:08:18Z",
+  "added_news_count": 4,
   "added_deals_count": 0,
   "archived_count": 0,
   "new_today_news": [
     {
-      "date": "2026-06-18",
-      "headline": "Google and American Airlines announce three-year SAF procurement agreement",
-      "source": "Carbon Direct",
-      "source_url": "https://www.carbon-direct.com/insights/the-sustainable-aviation-fuel-cost-premium-is-permanent%E2%80%94here-s-what-that-means",
-      "category": "Renewable Fuels",
+      "date": "2026-06-22",
+      "headline": "King County Modifies Combined Sewer Overflow Consent Decree to Support Climate Adaptation",
+      "source": "King County Public Input",
+      "source_url": "https://publicinput.com/csoinvestments",
+      "category": "Infrastructure",
       "categories": [
-        "Renewable Fuels"
+        "Infrastructure",
+        "Regulatory"
       ],
-      "summary": "Google announced a three-year agreement to purchase SAF certificates associated with 35 million gallons of sustainable aviation fuel, with American Airlines taking physical delivery at Chicago O'Hare. The deal demonstrates book-and-claim accounting in the growing SAF market.",
+      "summary": "King County successfully negotiated modifications to its 2013 CSO consent decree with regulators. The changes will allow remaining investments in combined sewer overflow infrastructure to be adapted for climate change, support sustainable sewer rates, and prioritize work in historically underserved neighborhoods.",
       "relevance_score": 3,
       "is_deal": false,
       "is_target_market": false,
@@ -21,22 +22,42 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-19"
+      "first_seen_date": "2026-06-22"
     }
   ],
-  "recent_news": [],
-  "backfill_news": [
+  "recent_news": [
     {
-      "date": "2026-06-10",
-      "headline": "GFL Environmental CEO: Business is undervalued with strategies to unlock growth",
-      "source": "Waste Dive / IndexBox",
-      "source_url": "https://www.indexbox.io/blog/gfl-environmental-undervalued-stock-growth-plans-and-key-acquisitions/",
+      "date": "2026-06-20",
+      "headline": "Clean Harbors Attracts Analyst Attention with Raised Full-Year Earnings Estimates; Zacks Rank #2",
+      "source": "Simply Wall St",
+      "source_url": "https://simplywall.st/stocks/us/commercial-services/nyse-clh/clean-harbors/news/how-upgraded-earnings-estimates-and-zacks-rank-shape-clean-h",
       "category": "Public Co.",
       "categories": [
-        "Public Co.",
-        "M&A"
+        "Public Co."
       ],
-      "summary": "CEO Patrick Dovigi stated at the Waste Leadership Summits investor day that GFL Environmental is undervalued and has strategies to further unlock growth, noting a large gap between GFL's valuation and that of its peer group. The company's most significant move is its announced $4.6 billion acquisition of Secure Waste Services.",
+      "summary": "Analysts raised full-year earnings estimates for Clean Harbors and assigned a Zacks Rank #2, reflecting improved expectations. The company's environmental and industrial waste services are viewed as resilient with rising free cash flow margins.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-06-22"
+    }
+  ],
+  "backfill_news": [
+    {
+      "date": "2026-06-14",
+      "headline": "Protein, pet food, and green fuels: how Darling's Diamond Green Diesel fits together",
+      "source": "Ad Hoc News",
+      "source_url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/protein-pet-food-and-green-fuels-how-darling-s-diamond-green-diesel/69546429",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels",
+        "Public Co."
+      ],
+      "summary": "Diamond Green Diesel turns animal by-products and used cooking oil into renewable diesel at industrial scale through Darling Ingredients and Valero Energy's joint venture. The complex has three major plants in Louisiana and Texas with combined capacity of roughly 1.2 billion gallons of renewable diesel and 470 million gallons of sustainable aviation fuel per year.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -44,40 +65,41 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-19"
+      "first_seen_date": "2026-06-22"
     },
     {
-      "date": "2026-06-09",
-      "headline": "Tanker Truck Compliance: DOT Regulations, Inspections & Safety Protocols",
-      "source": "FleetRabbit",
-      "source_url": "https://fleetrabbit.com/blogs/post/tanker-truck-dot-compliance-regulations-inspections",
-      "category": "Labor/Ops",
+      "date": "2026-06-10",
+      "headline": "TerraCycle US LLC Acquires NLR Inc. (Universal Waste Company) and Facility",
+      "source": "SEC Filing Form 1-U / 253G2",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001714781/000110465926072276/tm2616958d1_1u.htm",
+      "category": "M&A",
       "categories": [
-        "Labor/Ops"
+        "M&A"
       ],
-      "summary": "Article covers DOT tanker compliance requirements including inspection frequencies and penalties. Discusses how 37% of tanker violations relate to inspection and marking failures, with $25K+ average annual penalties for recurring HazMat compliance gaps.",
-      "relevance_score": 3,
-      "is_deal": false,
+      "summary": "TerraCycle US acquired universal waste company NLR Inc. for $2.75 million plus a $1.2 million real estate purchase of the Connecticut processing facility. NLR is TerraCycle's fourth acquisition of a universal waste company, focused on waste treatment and processing.",
+      "relevance_score": 4,
+      "is_deal": true,
       "is_target_market": false,
       "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-19"
+      "latitude": 41.603,
+      "longitude": -73.087,
+      "zoom_hint": "wide",
+      "first_seen_date": "2026-06-22"
     }
   ],
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-06-18",
-      "headline": "Google and American Airlines announce three-year SAF procurement agreement",
-      "source": "Carbon Direct",
-      "source_url": "https://www.carbon-direct.com/insights/the-sustainable-aviation-fuel-cost-premium-is-permanent%E2%80%94here-s-what-that-means",
-      "category": "Renewable Fuels",
+      "date": "2026-06-22",
+      "headline": "King County Modifies Combined Sewer Overflow Consent Decree to Support Climate Adaptation",
+      "source": "King County Public Input",
+      "source_url": "https://publicinput.com/csoinvestments",
+      "category": "Infrastructure",
       "categories": [
-        "Renewable Fuels"
+        "Infrastructure",
+        "Regulatory"
       ],
-      "summary": "Google announced a three-year agreement to purchase SAF certificates associated with 35 million gallons of sustainable aviation fuel, with American Airlines taking physical delivery at Chicago O'Hare. The deal demonstrates book-and-claim accounting in the growing SAF market.",
+      "summary": "King County successfully negotiated modifications to its 2013 CSO consent decree with regulators. The changes will allow remaining investments in combined sewer overflow infrastructure to be adapted for climate change, support sustainable sewer rates, and prioritize work in historically underserved neighborhoods.",
       "relevance_score": 3,
       "is_deal": false,
       "is_target_market": false,
@@ -85,19 +107,38 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-19"
+      "first_seen_date": "2026-06-22"
     },
     {
-      "date": "2026-06-10",
-      "headline": "GFL Environmental CEO: Business is undervalued with strategies to unlock growth",
-      "source": "Waste Dive / IndexBox",
-      "source_url": "https://www.indexbox.io/blog/gfl-environmental-undervalued-stock-growth-plans-and-key-acquisitions/",
+      "date": "2026-06-20",
+      "headline": "Clean Harbors Attracts Analyst Attention with Raised Full-Year Earnings Estimates; Zacks Rank #2",
+      "source": "Simply Wall St",
+      "source_url": "https://simplywall.st/stocks/us/commercial-services/nyse-clh/clean-harbors/news/how-upgraded-earnings-estimates-and-zacks-rank-shape-clean-h",
       "category": "Public Co.",
       "categories": [
-        "Public Co.",
-        "M&A"
+        "Public Co."
       ],
-      "summary": "CEO Patrick Dovigi stated at the Waste Leadership Summits investor day that GFL Environmental is undervalued and has strategies to further unlock growth, noting a large gap between GFL's valuation and that of its peer group. The company's most significant move is its announced $4.6 billion acquisition of Secure Waste Services.",
+      "summary": "Analysts raised full-year earnings estimates for Clean Harbors and assigned a Zacks Rank #2, reflecting improved expectations. The company's environmental and industrial waste services are viewed as resilient with rising free cash flow margins.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-06-22"
+    },
+    {
+      "date": "2026-06-14",
+      "headline": "Protein, pet food, and green fuels: how Darling's Diamond Green Diesel fits together",
+      "source": "Ad Hoc News",
+      "source_url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/protein-pet-food-and-green-fuels-how-darling-s-diamond-green-diesel/69546429",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels",
+        "Public Co."
+      ],
+      "summary": "Diamond Green Diesel turns animal by-products and used cooking oil into renewable diesel at industrial scale through Darling Ingredients and Valero Energy's joint venture. The complex has three major plants in Louisiana and Texas with combined capacity of roughly 1.2 billion gallons of renewable diesel and 470 million gallons of sustainable aviation fuel per year.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -105,26 +146,26 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-19"
+      "first_seen_date": "2026-06-22"
     },
     {
-      "date": "2026-06-09",
-      "headline": "Tanker Truck Compliance: DOT Regulations, Inspections & Safety Protocols",
-      "source": "FleetRabbit",
-      "source_url": "https://fleetrabbit.com/blogs/post/tanker-truck-dot-compliance-regulations-inspections",
-      "category": "Labor/Ops",
+      "date": "2026-06-10",
+      "headline": "TerraCycle US LLC Acquires NLR Inc. (Universal Waste Company) and Facility",
+      "source": "SEC Filing Form 1-U / 253G2",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001714781/000110465926072276/tm2616958d1_1u.htm",
+      "category": "M&A",
       "categories": [
-        "Labor/Ops"
+        "M&A"
       ],
-      "summary": "Article covers DOT tanker compliance requirements including inspection frequencies and penalties. Discusses how 37% of tanker violations relate to inspection and marking failures, with $25K+ average annual penalties for recurring HazMat compliance gaps.",
-      "relevance_score": 3,
-      "is_deal": false,
+      "summary": "TerraCycle US acquired universal waste company NLR Inc. for $2.75 million plus a $1.2 million real estate purchase of the Connecticut processing facility. NLR is TerraCycle's fourth acquisition of a universal waste company, focused on waste treatment and processing.",
+      "relevance_score": 4,
+      "is_deal": true,
       "is_target_market": false,
       "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-19"
+      "latitude": 41.603,
+      "longitude": -73.087,
+      "zoom_hint": "wide",
+      "first_seen_date": "2026-06-22"
     }
   ]
 }
