@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-06-23",
+    "headline": "Used Cooking Oil (UCO) Market 2026: SAF Feedstock Economics, Supply Risk & Policy Outlook",
+    "source": "Energy Solutions",
+    "source_url": "https://energy-solutions.co/articles/sub/used-cooking-oil-uco-market-saf-feedstock",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels"
+    ],
+    "summary": "Analysis of UCO market dynamics for SAF production, discussing structural tension between policy priorities for waste-based feedstocks and limited UCO supply pools, with intense competition between biodiesel, renewable diesel, and SAF producers for limited feedstock availability.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-23"
+  },
+  {
     "date": "2026-06-22",
     "headline": "King County Modifies Combined Sewer Overflow Consent Decree to Support Climate Adaptation",
     "source": "King County Public Input",
@@ -18,6 +37,26 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-06-22"
+  },
+  {
+    "date": "2026-06-22",
+    "headline": "GFL Environmental Announces Proposed $750M Senior Notes Offering Due 2031; Funds SECURE Waste Acquisition and Growth Initiatives",
+    "source": "SEC Filing",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0001780232/000110465926076120/tm2618407d3_ex99-1.htm",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co.",
+      "M&A"
+    ],
+    "summary": "GFL Environmental announced a proposed private offering of US$750 million in senior notes due 2031. GFL intends to use proceeds to repay revolving credit facility amounts and fund the previously announced acquisition of SECURE Waste Infrastructure Corp. and pursue other growth initiatives.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-23"
   },
   {
     "date": "2026-06-20",
@@ -94,6 +133,45 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-06-19"
+  },
+  {
+    "date": "2026-06-18",
+    "headline": "European HVO Markets: The Feedstock Constraint Behind the Compliance Push",
+    "source": "Fastmarkets",
+    "source_url": "https://www.fastmarkets.com/insights/european-hvo-markets-the-feedstock-constraint-behind-the-compliance-push/",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels"
+    ],
+    "summary": "May-June 2026 analysis showing feedstock access\u2014particularly UCO and Annex IX materials\u2014has become the binding constraint in European renewable diesel markets, with finished product prices declining while raw material costs remain firm.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-23"
+  },
+  {
+    "date": "2026-06-18",
+    "headline": "Why Darling Ingredients' Diamond Green Diesel Quietly Matters for Everyday Fuels",
+    "source": "Ad Hoc News",
+    "source_url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/why-darling-ingredients-diamond-green-diesel-quietly-matters-for-everyday/69572793",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels",
+      "Public Co."
+    ],
+    "summary": "Overview of Diamond Green Diesel's operations using used cooking oil and animal fats feedstocks with hydroprocessing technology, serving low-carbon fuel markets in California, Canada and Europe.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-23"
   },
   {
     "date": "2026-06-16",
