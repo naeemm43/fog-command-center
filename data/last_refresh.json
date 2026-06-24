@@ -1,39 +1,20 @@
 {
-  "timestamp": "2026-06-23T15:15:08Z",
-  "added_news_count": 4,
+  "timestamp": "2026-06-24T14:44:59Z",
+  "added_news_count": 3,
   "added_deals_count": 0,
   "archived_count": 0,
   "new_today_news": [
     {
       "date": "2026-06-23",
-      "headline": "Used Cooking Oil (UCO) Market 2026: SAF Feedstock Economics, Supply Risk & Policy Outlook",
-      "source": "Energy Solutions",
-      "source_url": "https://energy-solutions.co/articles/sub/used-cooking-oil-uco-market-saf-feedstock",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels"
-      ],
-      "summary": "Analysis of UCO market dynamics for SAF production, discussing structural tension between policy priorities for waste-based feedstocks and limited UCO supply pools, with intense competition between biodiesel, renewable diesel, and SAF producers for limited feedstock availability.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-23"
-    },
-    {
-      "date": "2026-06-22",
-      "headline": "GFL Environmental Announces Proposed $750M Senior Notes Offering Due 2031; Funds SECURE Waste Acquisition and Growth Initiatives",
-      "source": "SEC Filing",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/0001780232/000110465926076120/tm2618407d3_ex99-1.htm",
+      "headline": "GFL Environmental Prices Private Offering of Senior Notes",
+      "source": "GFL Environmental / SEC 6-K Filing",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001780232/000110465926076620/tm2618407d4_ex99-1.htm",
       "category": "Public Co.",
       "categories": [
         "Public Co.",
         "M&A"
       ],
-      "summary": "GFL Environmental announced a proposed private offering of US$750 million in senior notes due 2031. GFL intends to use proceeds to repay revolving credit facility amounts and fund the previously announced acquisition of SECURE Waste Infrastructure Corp. and pursue other growth initiatives.",
+      "summary": "GFL Environmental priced US$750 million in senior notes due 2031 with a 5.625% coupon to refinance its revolving credit facility and support its acquisition of SECURE Waste Infrastructure Corp.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -41,83 +22,20 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-23"
+      "first_seen_date": "2026-06-24"
     }
   ],
   "recent_news": [
     {
-      "date": "2026-06-18",
-      "headline": "European HVO Markets: The Feedstock Constraint Behind the Compliance Push",
-      "source": "Fastmarkets",
-      "source_url": "https://www.fastmarkets.com/insights/european-hvo-markets-the-feedstock-constraint-behind-the-compliance-push/",
-      "category": "Renewable Fuels",
+      "date": "2026-06-20",
+      "headline": "Vacuum Truck Lifecycle Cost Analysis: Ownership vs. Replacement",
+      "source": "PC Tech Magazine",
+      "source_url": "https://pctechmag.com/2026/05/vacuum-truck-lifecycle-cost-analysis-ownership-vs-replacement/",
+      "category": "Labor/Ops",
       "categories": [
-        "Renewable Fuels"
+        "Labor/Ops"
       ],
-      "summary": "May-June 2026 analysis showing feedstock access\u2014particularly UCO and Annex IX materials\u2014has become the binding constraint in European renewable diesel markets, with finished product prices declining while raw material costs remain firm.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-23"
-    },
-    {
-      "date": "2026-06-18",
-      "headline": "Why Darling Ingredients' Diamond Green Diesel Quietly Matters for Everyday Fuels",
-      "source": "Ad Hoc News",
-      "source_url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/why-darling-ingredients-diamond-green-diesel-quietly-matters-for-everyday/69572793",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels",
-        "Public Co."
-      ],
-      "summary": "Overview of Diamond Green Diesel's operations using used cooking oil and animal fats feedstocks with hydroprocessing technology, serving low-carbon fuel markets in California, Canada and Europe.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-23"
-    }
-  ],
-  "backfill_news": [],
-  "new_deals": [],
-  "new_news": [
-    {
-      "date": "2026-06-23",
-      "headline": "Used Cooking Oil (UCO) Market 2026: SAF Feedstock Economics, Supply Risk & Policy Outlook",
-      "source": "Energy Solutions",
-      "source_url": "https://energy-solutions.co/articles/sub/used-cooking-oil-uco-market-saf-feedstock",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels"
-      ],
-      "summary": "Analysis of UCO market dynamics for SAF production, discussing structural tension between policy priorities for waste-based feedstocks and limited UCO supply pools, with intense competition between biodiesel, renewable diesel, and SAF producers for limited feedstock availability.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-23"
-    },
-    {
-      "date": "2026-06-22",
-      "headline": "GFL Environmental Announces Proposed $750M Senior Notes Offering Due 2031; Funds SECURE Waste Acquisition and Growth Initiatives",
-      "source": "SEC Filing",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/0001780232/000110465926076120/tm2618407d3_ex99-1.htm",
-      "category": "Public Co.",
-      "categories": [
-        "Public Co.",
-        "M&A"
-      ],
-      "summary": "GFL Environmental announced a proposed private offering of US$750 million in senior notes due 2031. GFL intends to use proceeds to repay revolving credit facility amounts and fund the previously announced acquisition of SECURE Waste Infrastructure Corp. and pursue other growth initiatives.",
+      "summary": "Analyzes operational and financial considerations for fleet managers deciding whether to maintain or replace aging vacuum trucks used in waste services, covering maintenance costs, downtime, fuel efficiency, and planned replacement strategies.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -125,46 +43,89 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-23"
-    },
+      "first_seen_date": "2026-06-24"
+    }
+  ],
+  "backfill_news": [
     {
-      "date": "2026-06-18",
-      "headline": "European HVO Markets: The Feedstock Constraint Behind the Compliance Push",
-      "source": "Fastmarkets",
-      "source_url": "https://www.fastmarkets.com/insights/european-hvo-markets-the-feedstock-constraint-behind-the-compliance-push/",
-      "category": "Renewable Fuels",
+      "date": "2026-06-14",
+      "headline": "Grease Traps Market Size, Valuation & Historical Performance\u2014Industry Report Highlights 6.2% CAGR Growth Through 2033",
+      "source": "Market Research Intellect",
+      "source_url": "https://www.marketresearchintellect.com/product/global-grease-traps-market-size-and-forecast/",
+      "category": "Infrastructure",
       "categories": [
-        "Renewable Fuels"
+        "Infrastructure"
       ],
-      "summary": "May-June 2026 analysis showing feedstock access\u2014particularly UCO and Annex IX materials\u2014has become the binding constraint in European renewable diesel markets, with finished product prices declining while raw material costs remain firm.",
-      "relevance_score": 5,
+      "summary": "Updated market analysis showing grease traps market valued at $450 million in 2024 and forecast to reach $700 million by 2033, with 6.2% CAGR growth driven by stringent environmental regulations and infrastructure modernization.",
+      "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-23"
-    },
+      "first_seen_date": "2026-06-24"
+    }
+  ],
+  "new_deals": [],
+  "new_news": [
     {
-      "date": "2026-06-18",
-      "headline": "Why Darling Ingredients' Diamond Green Diesel Quietly Matters for Everyday Fuels",
-      "source": "Ad Hoc News",
-      "source_url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/why-darling-ingredients-diamond-green-diesel-quietly-matters-for-everyday/69572793",
-      "category": "Renewable Fuels",
+      "date": "2026-06-23",
+      "headline": "GFL Environmental Prices Private Offering of Senior Notes",
+      "source": "GFL Environmental / SEC 6-K Filing",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001780232/000110465926076620/tm2618407d4_ex99-1.htm",
+      "category": "Public Co.",
       "categories": [
-        "Renewable Fuels",
-        "Public Co."
+        "Public Co.",
+        "M&A"
       ],
-      "summary": "Overview of Diamond Green Diesel's operations using used cooking oil and animal fats feedstocks with hydroprocessing technology, serving low-carbon fuel markets in California, Canada and Europe.",
-      "relevance_score": 5,
+      "summary": "GFL Environmental priced US$750 million in senior notes due 2031 with a 5.625% coupon to refinance its revolving credit facility and support its acquisition of SECURE Waste Infrastructure Corp.",
+      "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-23"
+      "first_seen_date": "2026-06-24"
+    },
+    {
+      "date": "2026-06-20",
+      "headline": "Vacuum Truck Lifecycle Cost Analysis: Ownership vs. Replacement",
+      "source": "PC Tech Magazine",
+      "source_url": "https://pctechmag.com/2026/05/vacuum-truck-lifecycle-cost-analysis-ownership-vs-replacement/",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops"
+      ],
+      "summary": "Analyzes operational and financial considerations for fleet managers deciding whether to maintain or replace aging vacuum trucks used in waste services, covering maintenance costs, downtime, fuel efficiency, and planned replacement strategies.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-06-24"
+    },
+    {
+      "date": "2026-06-14",
+      "headline": "Grease Traps Market Size, Valuation & Historical Performance\u2014Industry Report Highlights 6.2% CAGR Growth Through 2033",
+      "source": "Market Research Intellect",
+      "source_url": "https://www.marketresearchintellect.com/product/global-grease-traps-market-size-and-forecast/",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure"
+      ],
+      "summary": "Updated market analysis showing grease traps market valued at $450 million in 2024 and forecast to reach $700 million by 2033, with 6.2% CAGR growth driven by stringent environmental regulations and infrastructure modernization.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-06-24"
     }
   ]
 }

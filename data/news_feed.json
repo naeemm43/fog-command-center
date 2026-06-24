@@ -19,6 +19,26 @@
     "first_seen_date": "2026-06-23"
   },
   {
+    "date": "2026-06-23",
+    "headline": "GFL Environmental Prices Private Offering of Senior Notes",
+    "source": "GFL Environmental / SEC 6-K Filing",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0001780232/000110465926076620/tm2618407d4_ex99-1.htm",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co.",
+      "M&A"
+    ],
+    "summary": "GFL Environmental priced US$750 million in senior notes due 2031 with a 5.625% coupon to refinance its revolving credit facility and support its acquisition of SECURE Waste Infrastructure Corp.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-24"
+  },
+  {
     "date": "2026-06-22",
     "headline": "King County Modifies Combined Sewer Overflow Consent Decree to Support Climate Adaptation",
     "source": "King County Public Input",
@@ -76,6 +96,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-06-22"
+  },
+  {
+    "date": "2026-06-20",
+    "headline": "Vacuum Truck Lifecycle Cost Analysis: Ownership vs. Replacement",
+    "source": "PC Tech Magazine",
+    "source_url": "https://pctechmag.com/2026/05/vacuum-truck-lifecycle-cost-analysis-ownership-vs-replacement/",
+    "category": "Labor/Ops",
+    "categories": [
+      "Labor/Ops"
+    ],
+    "summary": "Analyzes operational and financial considerations for fleet managers deciding whether to maintain or replace aging vacuum trucks used in waste services, covering maintenance costs, downtime, fuel efficiency, and planned replacement strategies.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-24"
   },
   {
     "date": "2026-06-18",
@@ -250,6 +289,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-06-22"
+  },
+  {
+    "date": "2026-06-14",
+    "headline": "Grease Traps Market Size, Valuation & Historical Performance\u2014Industry Report Highlights 6.2% CAGR Growth Through 2033",
+    "source": "Market Research Intellect",
+    "source_url": "https://www.marketresearchintellect.com/product/global-grease-traps-market-size-and-forecast/",
+    "category": "Infrastructure",
+    "categories": [
+      "Infrastructure"
+    ],
+    "summary": "Updated market analysis showing grease traps market valued at $450 million in 2024 and forecast to reach $700 million by 2033, with 6.2% CAGR growth driven by stringent environmental regulations and infrastructure modernization.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-24"
   },
   {
     "date": "2026-06-13",
