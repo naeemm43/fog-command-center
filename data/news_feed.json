@@ -79,6 +79,26 @@
     "first_seen_date": "2026-06-23"
   },
   {
+    "date": "2026-06-22",
+    "headline": "Kitchen Carbon Offsets: What \u00a745Z Makes Your Grease Worth",
+    "source": "Grease Connections",
+    "source_url": "https://greaseconnections.com/kitchen-grease-carbon-offsets-45z-value/",
+    "category": "ESG",
+    "categories": [
+      "ESG",
+      "Renewable Fuels"
+    ],
+    "summary": "Under the Inflation Reduction Act's \u00a745Z Clean Fuel Production Credit, recycled cooking oil biodiesel can earn up to $0.70 per gallon in federal tax credits when prevailing wage rules are met. The analysis shows California could unlock roughly $32 million in annual credit value from UCO recycling.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-25"
+  },
+  {
     "date": "2026-06-20",
     "headline": "Clean Harbors Attracts Analyst Attention with Raised Full-Year Earnings Estimates; Zacks Rank #2",
     "source": "Simply Wall St",
@@ -211,6 +231,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-06-23"
+  },
+  {
+    "date": "2026-06-18",
+    "headline": "The sustainable aviation fuel cost premium is permanent\u2014Here's what that means",
+    "source": "Carbon Direct",
+    "source_url": "https://www.carbon-direct.com/insights/the-sustainable-aviation-fuel-cost-premium-is-permanent%E2%80%94here-s-what-that-means",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels"
+    ],
+    "summary": "HEFA from waste oils is the cheapest SAF pathway, but waste oil supply is finite and competes with renewable diesel. The article discusses how used cooking oil and tallow face competition between renewable diesel and SAF producers for limited feedstock supply.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-25"
   },
   {
     "date": "2026-06-16",

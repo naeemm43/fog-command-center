@@ -1,62 +1,40 @@
 {
-  "timestamp": "2026-06-24T14:44:59Z",
-  "added_news_count": 3,
+  "timestamp": "2026-06-25T14:45:12Z",
+  "added_news_count": 2,
   "added_deals_count": 0,
   "archived_count": 0,
-  "new_today_news": [
-    {
-      "date": "2026-06-23",
-      "headline": "GFL Environmental Prices Private Offering of Senior Notes",
-      "source": "GFL Environmental / SEC 6-K Filing",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/0001780232/000110465926076620/tm2618407d4_ex99-1.htm",
-      "category": "Public Co.",
-      "categories": [
-        "Public Co.",
-        "M&A"
-      ],
-      "summary": "GFL Environmental priced US$750 million in senior notes due 2031 with a 5.625% coupon to refinance its revolving credit facility and support its acquisition of SECURE Waste Infrastructure Corp.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-24"
-    }
-  ],
+  "new_today_news": [],
   "recent_news": [
     {
-      "date": "2026-06-20",
-      "headline": "Vacuum Truck Lifecycle Cost Analysis: Ownership vs. Replacement",
-      "source": "PC Tech Magazine",
-      "source_url": "https://pctechmag.com/2026/05/vacuum-truck-lifecycle-cost-analysis-ownership-vs-replacement/",
-      "category": "Labor/Ops",
+      "date": "2026-06-22",
+      "headline": "Kitchen Carbon Offsets: What \u00a745Z Makes Your Grease Worth",
+      "source": "Grease Connections",
+      "source_url": "https://greaseconnections.com/kitchen-grease-carbon-offsets-45z-value/",
+      "category": "ESG",
       "categories": [
-        "Labor/Ops"
+        "ESG",
+        "Renewable Fuels"
       ],
-      "summary": "Analyzes operational and financial considerations for fleet managers deciding whether to maintain or replace aging vacuum trucks used in waste services, covering maintenance costs, downtime, fuel efficiency, and planned replacement strategies.",
-      "relevance_score": 4,
+      "summary": "Under the Inflation Reduction Act's \u00a745Z Clean Fuel Production Credit, recycled cooking oil biodiesel can earn up to $0.70 per gallon in federal tax credits when prevailing wage rules are met. The analysis shows California could unlock roughly $32 million in annual credit value from UCO recycling.",
+      "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-24"
-    }
-  ],
-  "backfill_news": [
+      "first_seen_date": "2026-06-25"
+    },
     {
-      "date": "2026-06-14",
-      "headline": "Grease Traps Market Size, Valuation & Historical Performance\u2014Industry Report Highlights 6.2% CAGR Growth Through 2033",
-      "source": "Market Research Intellect",
-      "source_url": "https://www.marketresearchintellect.com/product/global-grease-traps-market-size-and-forecast/",
-      "category": "Infrastructure",
+      "date": "2026-06-18",
+      "headline": "The sustainable aviation fuel cost premium is permanent\u2014Here's what that means",
+      "source": "Carbon Direct",
+      "source_url": "https://www.carbon-direct.com/insights/the-sustainable-aviation-fuel-cost-premium-is-permanent%E2%80%94here-s-what-that-means",
+      "category": "Renewable Fuels",
       "categories": [
-        "Infrastructure"
+        "Renewable Fuels"
       ],
-      "summary": "Updated market analysis showing grease traps market valued at $450 million in 2024 and forecast to reach $700 million by 2033, with 6.2% CAGR growth driven by stringent environmental regulations and infrastructure modernization.",
+      "summary": "HEFA from waste oils is the cheapest SAF pathway, but waste oil supply is finite and competes with renewable diesel. The article discusses how used cooking oil and tallow face competition between renewable diesel and SAF producers for limited feedstock supply.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -64,41 +42,42 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-24"
+      "first_seen_date": "2026-06-25"
     }
   ],
+  "backfill_news": [],
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-06-23",
-      "headline": "GFL Environmental Prices Private Offering of Senior Notes",
-      "source": "GFL Environmental / SEC 6-K Filing",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/0001780232/000110465926076620/tm2618407d4_ex99-1.htm",
-      "category": "Public Co.",
+      "date": "2026-06-22",
+      "headline": "Kitchen Carbon Offsets: What \u00a745Z Makes Your Grease Worth",
+      "source": "Grease Connections",
+      "source_url": "https://greaseconnections.com/kitchen-grease-carbon-offsets-45z-value/",
+      "category": "ESG",
       "categories": [
-        "Public Co.",
-        "M&A"
+        "ESG",
+        "Renewable Fuels"
       ],
-      "summary": "GFL Environmental priced US$750 million in senior notes due 2031 with a 5.625% coupon to refinance its revolving credit facility and support its acquisition of SECURE Waste Infrastructure Corp.",
-      "relevance_score": 4,
+      "summary": "Under the Inflation Reduction Act's \u00a745Z Clean Fuel Production Credit, recycled cooking oil biodiesel can earn up to $0.70 per gallon in federal tax credits when prevailing wage rules are met. The analysis shows California could unlock roughly $32 million in annual credit value from UCO recycling.",
+      "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-24"
+      "first_seen_date": "2026-06-25"
     },
     {
-      "date": "2026-06-20",
-      "headline": "Vacuum Truck Lifecycle Cost Analysis: Ownership vs. Replacement",
-      "source": "PC Tech Magazine",
-      "source_url": "https://pctechmag.com/2026/05/vacuum-truck-lifecycle-cost-analysis-ownership-vs-replacement/",
-      "category": "Labor/Ops",
+      "date": "2026-06-18",
+      "headline": "The sustainable aviation fuel cost premium is permanent\u2014Here's what that means",
+      "source": "Carbon Direct",
+      "source_url": "https://www.carbon-direct.com/insights/the-sustainable-aviation-fuel-cost-premium-is-permanent%E2%80%94here-s-what-that-means",
+      "category": "Renewable Fuels",
       "categories": [
-        "Labor/Ops"
+        "Renewable Fuels"
       ],
-      "summary": "Analyzes operational and financial considerations for fleet managers deciding whether to maintain or replace aging vacuum trucks used in waste services, covering maintenance costs, downtime, fuel efficiency, and planned replacement strategies.",
+      "summary": "HEFA from waste oils is the cheapest SAF pathway, but waste oil supply is finite and competes with renewable diesel. The article discusses how used cooking oil and tallow face competition between renewable diesel and SAF producers for limited feedstock supply.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -106,26 +85,7 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-24"
-    },
-    {
-      "date": "2026-06-14",
-      "headline": "Grease Traps Market Size, Valuation & Historical Performance\u2014Industry Report Highlights 6.2% CAGR Growth Through 2033",
-      "source": "Market Research Intellect",
-      "source_url": "https://www.marketresearchintellect.com/product/global-grease-traps-market-size-and-forecast/",
-      "category": "Infrastructure",
-      "categories": [
-        "Infrastructure"
-      ],
-      "summary": "Updated market analysis showing grease traps market valued at $450 million in 2024 and forecast to reach $700 million by 2033, with 6.2% CAGR growth driven by stringent environmental regulations and infrastructure modernization.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-24"
+      "first_seen_date": "2026-06-25"
     }
   ]
 }
