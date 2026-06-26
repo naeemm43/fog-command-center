@@ -1,40 +1,20 @@
 {
-  "timestamp": "2026-06-25T14:45:12Z",
-  "added_news_count": 2,
+  "timestamp": "2026-06-26T14:38:20Z",
+  "added_news_count": 3,
   "added_deals_count": 0,
   "archived_count": 0,
-  "new_today_news": [],
-  "recent_news": [
+  "new_today_news": [
     {
-      "date": "2026-06-22",
-      "headline": "Kitchen Carbon Offsets: What \u00a745Z Makes Your Grease Worth",
-      "source": "Grease Connections",
-      "source_url": "https://greaseconnections.com/kitchen-grease-carbon-offsets-45z-value/",
-      "category": "ESG",
+      "date": "2026-06-25",
+      "headline": "GFL Environmental Completes US$750 Million Senior Notes Offering Due 2031",
+      "source": "TipRanks",
+      "source_url": "https://www.tipranks.com/news/company-announcements/gfl-environmental-completes-us750-million-senior-notes-offering-due-2031",
+      "category": "Public Co.",
       "categories": [
-        "ESG",
-        "Renewable Fuels"
+        "Public Co.",
+        "M&A"
       ],
-      "summary": "Under the Inflation Reduction Act's \u00a745Z Clean Fuel Production Credit, recycled cooking oil biodiesel can earn up to $0.70 per gallon in federal tax credits when prevailing wage rules are met. The analysis shows California could unlock roughly $32 million in annual credit value from UCO recycling.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-25"
-    },
-    {
-      "date": "2026-06-18",
-      "headline": "The sustainable aviation fuel cost premium is permanent\u2014Here's what that means",
-      "source": "Carbon Direct",
-      "source_url": "https://www.carbon-direct.com/insights/the-sustainable-aviation-fuel-cost-premium-is-permanent%E2%80%94here-s-what-that-means",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels"
-      ],
-      "summary": "HEFA from waste oils is the cheapest SAF pathway, but waste oil supply is finite and competes with renewable diesel. The article discusses how used cooking oil and tallow face competition between renewable diesel and SAF producers for limited feedstock supply.",
+      "summary": "GFL Environmental closed a US$750 million 5.625% senior notes offering maturing July 1, 2031, intended to fund its acquisition of SECURE Waste Infrastructure Corp and other growth initiatives. The new senior notes enhance long-term funding flexibility and diversify capital structure.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -42,42 +22,64 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-25"
+      "first_seen_date": "2026-06-26"
     }
   ],
-  "backfill_news": [],
+  "recent_news": [
+    {
+      "date": "2026-06-24",
+      "headline": "The biggest Phoenix restaurant closings of the year, so far",
+      "source": "Phoenix New Times",
+      "source_url": "https://www.phoenixnewtimes.com/food-drink/biggest-phoenix-restaurant-closings-of-2026-so-far-40676975/",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Review of eight significant restaurant closures in Phoenix during the first half of 2026, including establishments that closed after years of operation due to economic pressures and changing consumer habits.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-06-26"
+    }
+  ],
+  "backfill_news": [
+    {
+      "date": "2026-06-18",
+      "headline": "Cespira, the Joint Venture between Westport and Volvo Group, Signs Agreement with Volvo Group to Complete Hydrogen-Fueled Engine Development",
+      "source": "Westport Fuel Systems Inc. (SEC Filing)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001370416/000117184326004189/exh_991.htm",
+      "category": "Technology",
+      "categories": [
+        "Technology"
+      ],
+      "summary": "Cespira and Volvo Group signed a development agreement to integrate Cespira's HPDI fuel system technology into Volvo's 13-litre engines to enable hydrogen fuel operation. European certified commercial launch targeted before 2030, with trucks currently in on-road testing.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-06-26"
+    }
+  ],
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-06-22",
-      "headline": "Kitchen Carbon Offsets: What \u00a745Z Makes Your Grease Worth",
-      "source": "Grease Connections",
-      "source_url": "https://greaseconnections.com/kitchen-grease-carbon-offsets-45z-value/",
-      "category": "ESG",
+      "date": "2026-06-25",
+      "headline": "GFL Environmental Completes US$750 Million Senior Notes Offering Due 2031",
+      "source": "TipRanks",
+      "source_url": "https://www.tipranks.com/news/company-announcements/gfl-environmental-completes-us750-million-senior-notes-offering-due-2031",
+      "category": "Public Co.",
       "categories": [
-        "ESG",
-        "Renewable Fuels"
+        "Public Co.",
+        "M&A"
       ],
-      "summary": "Under the Inflation Reduction Act's \u00a745Z Clean Fuel Production Credit, recycled cooking oil biodiesel can earn up to $0.70 per gallon in federal tax credits when prevailing wage rules are met. The analysis shows California could unlock roughly $32 million in annual credit value from UCO recycling.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-25"
-    },
-    {
-      "date": "2026-06-18",
-      "headline": "The sustainable aviation fuel cost premium is permanent\u2014Here's what that means",
-      "source": "Carbon Direct",
-      "source_url": "https://www.carbon-direct.com/insights/the-sustainable-aviation-fuel-cost-premium-is-permanent%E2%80%94here-s-what-that-means",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels"
-      ],
-      "summary": "HEFA from waste oils is the cheapest SAF pathway, but waste oil supply is finite and competes with renewable diesel. The article discusses how used cooking oil and tallow face competition between renewable diesel and SAF producers for limited feedstock supply.",
+      "summary": "GFL Environmental closed a US$750 million 5.625% senior notes offering maturing July 1, 2031, intended to fund its acquisition of SECURE Waste Infrastructure Corp and other growth initiatives. The new senior notes enhance long-term funding flexibility and diversify capital structure.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -85,7 +87,45 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-25"
+      "first_seen_date": "2026-06-26"
+    },
+    {
+      "date": "2026-06-24",
+      "headline": "The biggest Phoenix restaurant closings of the year, so far",
+      "source": "Phoenix New Times",
+      "source_url": "https://www.phoenixnewtimes.com/food-drink/biggest-phoenix-restaurant-closings-of-2026-so-far-40676975/",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Review of eight significant restaurant closures in Phoenix during the first half of 2026, including establishments that closed after years of operation due to economic pressures and changing consumer habits.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-06-26"
+    },
+    {
+      "date": "2026-06-18",
+      "headline": "Cespira, the Joint Venture between Westport and Volvo Group, Signs Agreement with Volvo Group to Complete Hydrogen-Fueled Engine Development",
+      "source": "Westport Fuel Systems Inc. (SEC Filing)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001370416/000117184326004189/exh_991.htm",
+      "category": "Technology",
+      "categories": [
+        "Technology"
+      ],
+      "summary": "Cespira and Volvo Group signed a development agreement to integrate Cespira's HPDI fuel system technology into Volvo's 13-litre engines to enable hydrogen fuel operation. European certified commercial launch targeted before 2030, with trucks currently in on-road testing.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-06-26"
     }
   ]
 }
