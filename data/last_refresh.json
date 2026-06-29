@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-06-26T14:38:20Z",
+  "timestamp": "2026-06-29T15:58:33Z",
   "added_news_count": 3,
   "added_deals_count": 0,
   "archived_count": 0,
-  "new_today_news": [
+  "new_today_news": [],
+  "recent_news": [
     {
-      "date": "2026-06-25",
-      "headline": "GFL Environmental Completes US$750 Million Senior Notes Offering Due 2031",
-      "source": "TipRanks",
-      "source_url": "https://www.tipranks.com/news/company-announcements/gfl-environmental-completes-us750-million-senior-notes-offering-due-2031",
-      "category": "Public Co.",
+      "date": "2026-06-27",
+      "headline": "Commercial Grease Trap Market Expansion Trends & Future Forecast Outlook",
+      "source": "OpenPR",
+      "source_url": "https://www.openpr.com/news/4562515/commercial-grease-trap-market-analysis-by-application-type",
+      "category": "Technology",
       "categories": [
-        "Public Co.",
-        "M&A"
+        "Technology"
       ],
-      "summary": "GFL Environmental closed a US$750 million 5.625% senior notes offering maturing July 1, 2031, intended to fund its acquisition of SECURE Waste Infrastructure Corp and other growth initiatives. The new senior notes enhance long-term funding flexibility and diversify capital structure.",
+      "summary": "Market analysis highlighting IoT-enabled smart monitoring systems, eco-friendly materials, and compact designs as defining trends in grease trap technology. The commercial grease trap market is poised for expansion driven by technological innovations and a shift towards sustainable wastewater management.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -22,20 +22,37 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-26"
-    }
-  ],
-  "recent_news": [
+      "first_seen_date": "2026-06-29"
+    },
+    {
+      "date": "2026-06-25",
+      "headline": "Trash collector joins legal challenge to FMCSA's non-domiciled ban",
+      "source": "Overdrive",
+      "source_url": "https://www.overdriveonline.com/regulations/article/15828635/trash-collector-joins-legal-challenge-to-fmcsas-nondomiciled-ban",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops"
+      ],
+      "summary": "Waste Pro, a Florida-based sanitation company with 2,000+ trucks, has joined litigation against the FMCSA's non-domiciled CDL ban, which has already cost the company 20 drivers. The company argues the rule unfairly impacts waste haulers who work on fixed-price municipal contracts and takes 60-75 days to replace each driver. Oral arguments are scheduled for September.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-06-29"
+    },
     {
       "date": "2026-06-24",
-      "headline": "The biggest Phoenix restaurant closings of the year, so far",
-      "source": "Phoenix New Times",
-      "source_url": "https://www.phoenixnewtimes.com/food-drink/biggest-phoenix-restaurant-closings-of-2026-so-far-40676975/",
-      "category": "Restaurant",
+      "headline": "Portland sewer, stormwater, and water rates to increase July 1, 2026",
+      "source": "Portland.gov",
+      "source_url": "https://www.portland.gov/water/customer-service/news/2026/6/24/portland-sewer-stormwater-and-water-rates-increase-july-1",
+      "category": "Infrastructure",
       "categories": [
-        "Restaurant"
+        "Infrastructure"
       ],
-      "summary": "Review of eight significant restaurant closures in Phoenix during the first half of 2026, including establishments that closed after years of operation due to economic pressures and changing consumer habits.",
+      "summary": "Portland's sewer and stormwater rates will increase 5.15% on July 1, 2026, affecting the wastewater treatment system that receives FOG discharges from food service establishments. The increase funds operating, maintaining, and improving the city's sewer and stormwater systems.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -43,43 +60,22 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-26"
+      "first_seen_date": "2026-06-29"
     }
   ],
-  "backfill_news": [
-    {
-      "date": "2026-06-18",
-      "headline": "Cespira, the Joint Venture between Westport and Volvo Group, Signs Agreement with Volvo Group to Complete Hydrogen-Fueled Engine Development",
-      "source": "Westport Fuel Systems Inc. (SEC Filing)",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/0001370416/000117184326004189/exh_991.htm",
-      "category": "Technology",
-      "categories": [
-        "Technology"
-      ],
-      "summary": "Cespira and Volvo Group signed a development agreement to integrate Cespira's HPDI fuel system technology into Volvo's 13-litre engines to enable hydrogen fuel operation. European certified commercial launch targeted before 2030, with trucks currently in on-road testing.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-26"
-    }
-  ],
+  "backfill_news": [],
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-06-25",
-      "headline": "GFL Environmental Completes US$750 Million Senior Notes Offering Due 2031",
-      "source": "TipRanks",
-      "source_url": "https://www.tipranks.com/news/company-announcements/gfl-environmental-completes-us750-million-senior-notes-offering-due-2031",
-      "category": "Public Co.",
+      "date": "2026-06-27",
+      "headline": "Commercial Grease Trap Market Expansion Trends & Future Forecast Outlook",
+      "source": "OpenPR",
+      "source_url": "https://www.openpr.com/news/4562515/commercial-grease-trap-market-analysis-by-application-type",
+      "category": "Technology",
       "categories": [
-        "Public Co.",
-        "M&A"
+        "Technology"
       ],
-      "summary": "GFL Environmental closed a US$750 million 5.625% senior notes offering maturing July 1, 2031, intended to fund its acquisition of SECURE Waste Infrastructure Corp and other growth initiatives. The new senior notes enhance long-term funding flexibility and diversify capital structure.",
+      "summary": "Market analysis highlighting IoT-enabled smart monitoring systems, eco-friendly materials, and compact designs as defining trends in grease trap technology. The commercial grease trap market is poised for expansion driven by technological innovations and a shift towards sustainable wastewater management.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -87,18 +83,37 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-26"
+      "first_seen_date": "2026-06-29"
+    },
+    {
+      "date": "2026-06-25",
+      "headline": "Trash collector joins legal challenge to FMCSA's non-domiciled ban",
+      "source": "Overdrive",
+      "source_url": "https://www.overdriveonline.com/regulations/article/15828635/trash-collector-joins-legal-challenge-to-fmcsas-nondomiciled-ban",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops"
+      ],
+      "summary": "Waste Pro, a Florida-based sanitation company with 2,000+ trucks, has joined litigation against the FMCSA's non-domiciled CDL ban, which has already cost the company 20 drivers. The company argues the rule unfairly impacts waste haulers who work on fixed-price municipal contracts and takes 60-75 days to replace each driver. Oral arguments are scheduled for September.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-06-29"
     },
     {
       "date": "2026-06-24",
-      "headline": "The biggest Phoenix restaurant closings of the year, so far",
-      "source": "Phoenix New Times",
-      "source_url": "https://www.phoenixnewtimes.com/food-drink/biggest-phoenix-restaurant-closings-of-2026-so-far-40676975/",
-      "category": "Restaurant",
+      "headline": "Portland sewer, stormwater, and water rates to increase July 1, 2026",
+      "source": "Portland.gov",
+      "source_url": "https://www.portland.gov/water/customer-service/news/2026/6/24/portland-sewer-stormwater-and-water-rates-increase-july-1",
+      "category": "Infrastructure",
       "categories": [
-        "Restaurant"
+        "Infrastructure"
       ],
-      "summary": "Review of eight significant restaurant closures in Phoenix during the first half of 2026, including establishments that closed after years of operation due to economic pressures and changing consumer habits.",
+      "summary": "Portland's sewer and stormwater rates will increase 5.15% on July 1, 2026, affecting the wastewater treatment system that receives FOG discharges from food service establishments. The increase funds operating, maintaining, and improving the city's sewer and stormwater systems.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -106,26 +121,7 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-26"
-    },
-    {
-      "date": "2026-06-18",
-      "headline": "Cespira, the Joint Venture between Westport and Volvo Group, Signs Agreement with Volvo Group to Complete Hydrogen-Fueled Engine Development",
-      "source": "Westport Fuel Systems Inc. (SEC Filing)",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/0001370416/000117184326004189/exh_991.htm",
-      "category": "Technology",
-      "categories": [
-        "Technology"
-      ],
-      "summary": "Cespira and Volvo Group signed a development agreement to integrate Cespira's HPDI fuel system technology into Volvo's 13-litre engines to enable hydrogen fuel operation. European certified commercial launch targeted before 2030, with trucks currently in on-road testing.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-26"
+      "first_seen_date": "2026-06-29"
     }
   ]
 }
