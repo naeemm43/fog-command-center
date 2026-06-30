@@ -1,20 +1,19 @@
 {
-  "timestamp": "2026-06-29T15:58:33Z",
-  "added_news_count": 3,
+  "timestamp": "2026-06-30T14:32:10Z",
+  "added_news_count": 4,
   "added_deals_count": 0,
   "archived_count": 0,
-  "new_today_news": [],
-  "recent_news": [
+  "new_today_news": [
     {
-      "date": "2026-06-27",
-      "headline": "Commercial Grease Trap Market Expansion Trends & Future Forecast Outlook",
-      "source": "OpenPR",
-      "source_url": "https://www.openpr.com/news/4562515/commercial-grease-trap-market-analysis-by-application-type",
-      "category": "Technology",
+      "date": "2026-06-30",
+      "headline": "GFL Environmental Inc. Sets Date for Q2 2026 Earnings Release",
+      "source": "SEC Filing (Form 6-K)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001780232/000110465926079065/tm2619312d1_ex99-1.htm",
+      "category": "Public Co.",
       "categories": [
-        "Technology"
+        "Public Co."
       ],
-      "summary": "Market analysis highlighting IoT-enabled smart monitoring systems, eco-friendly materials, and compact designs as defining trends in grease trap technology. The commercial grease trap market is poised for expansion driven by technological innovations and a shift towards sustainable wastewater management.",
+      "summary": "GFL Environmental announced it will release Q2 2026 financial results after market close on July 29, 2026, with an investor conference call on July 30, 2026.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -22,60 +21,83 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-29"
+      "first_seen_date": "2026-06-30"
     },
     {
+      "date": "2026-06-29",
+      "headline": "Agency Information Collection Activities; Proposed Information Collection Request; Comment Request; Renewable Fuel Standard (RFS) Program",
+      "source": "Federal Register",
+      "source_url": "https://www.federalregister.gov/documents/2026/06/29/2026-13077/agency-information-collection-activities-proposed-information-collection-request-comment-request",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels",
+        "Regulatory",
+        "Technology"
+      ],
+      "summary": "EPA issued a proposed information collection request for RFS Program compliance tracking, including recordkeeping requirements for waste feedstocks and biogas-derived renewable fuel. The notice opens a 60-day comment period through August 28, 2026.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-06-30"
+    }
+  ],
+  "recent_news": [
+    {
       "date": "2026-06-25",
-      "headline": "Trash collector joins legal challenge to FMCSA's non-domiciled ban",
-      "source": "Overdrive",
-      "source_url": "https://www.overdriveonline.com/regulations/article/15828635/trash-collector-joins-legal-challenge-to-fmcsas-nondomiciled-ban",
+      "headline": "GFL Environmental Added to Russell 1000 and Russell 3000 Indexes",
+      "source": "PR Newswire",
+      "source_url": "https://www.prnewswire.com/news-releases/gfl-environmental-inc-added-to-russell-1000-index-302924876.html",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "GFL Environmental was added as a member of the U.S. large-cap Russell 1000 Index and broad-market Russell 3000 Index, effective at market opening.",
+      "relevance_score": 3,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-06-30"
+    },
+    {
+      "date": "2026-06-24",
+      "headline": "2026 Waste Hauling Business Valuation: CDL Class B Driver Shortage as Largest Cost Risk",
+      "source": "CT Acquisitions",
+      "source_url": "https://ctacquisitions.com/guides/waste-hauling-business-valuation/",
       "category": "Labor/Ops",
       "categories": [
         "Labor/Ops"
       ],
-      "summary": "Waste Pro, a Florida-based sanitation company with 2,000+ trucks, has joined litigation against the FMCSA's non-domiciled CDL ban, which has already cost the company 20 drivers. The company argues the rule unfairly impacts waste haulers who work on fixed-price municipal contracts and takes 60-75 days to replace each driver. Oral arguments are scheduled for September.",
-      "relevance_score": 4,
+      "summary": "Analysis identifies CDL Class B driver shortage as the single largest cost-side risk in waste hauling valuations. Wage inflation for refuse/recyclable material collectors hit 13.4% over two years (May 2022\u2013May 2024), reaching $22.84/hour median, with top metros at $28\u2013$35/hour. National multiples for waste hauling span 5x\u201313x EBITDA.",
+      "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-29"
-    },
-    {
-      "date": "2026-06-24",
-      "headline": "Portland sewer, stormwater, and water rates to increase July 1, 2026",
-      "source": "Portland.gov",
-      "source_url": "https://www.portland.gov/water/customer-service/news/2026/6/24/portland-sewer-stormwater-and-water-rates-increase-july-1",
-      "category": "Infrastructure",
-      "categories": [
-        "Infrastructure"
-      ],
-      "summary": "Portland's sewer and stormwater rates will increase 5.15% on July 1, 2026, affecting the wastewater treatment system that receives FOG discharges from food service establishments. The increase funds operating, maintaining, and improving the city's sewer and stormwater systems.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-29"
+      "first_seen_date": "2026-06-30"
     }
   ],
   "backfill_news": [],
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-06-27",
-      "headline": "Commercial Grease Trap Market Expansion Trends & Future Forecast Outlook",
-      "source": "OpenPR",
-      "source_url": "https://www.openpr.com/news/4562515/commercial-grease-trap-market-analysis-by-application-type",
-      "category": "Technology",
+      "date": "2026-06-30",
+      "headline": "GFL Environmental Inc. Sets Date for Q2 2026 Earnings Release",
+      "source": "SEC Filing (Form 6-K)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001780232/000110465926079065/tm2619312d1_ex99-1.htm",
+      "category": "Public Co.",
       "categories": [
-        "Technology"
+        "Public Co."
       ],
-      "summary": "Market analysis highlighting IoT-enabled smart monitoring systems, eco-friendly materials, and compact designs as defining trends in grease trap technology. The commercial grease trap market is poised for expansion driven by technological innovations and a shift towards sustainable wastewater management.",
+      "summary": "GFL Environmental announced it will release Q2 2026 financial results after market close on July 29, 2026, with an investor conference call on July 30, 2026.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -83,45 +105,66 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-29"
+      "first_seen_date": "2026-06-30"
+    },
+    {
+      "date": "2026-06-29",
+      "headline": "Agency Information Collection Activities; Proposed Information Collection Request; Comment Request; Renewable Fuel Standard (RFS) Program",
+      "source": "Federal Register",
+      "source_url": "https://www.federalregister.gov/documents/2026/06/29/2026-13077/agency-information-collection-activities-proposed-information-collection-request-comment-request",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels",
+        "Regulatory",
+        "Technology"
+      ],
+      "summary": "EPA issued a proposed information collection request for RFS Program compliance tracking, including recordkeeping requirements for waste feedstocks and biogas-derived renewable fuel. The notice opens a 60-day comment period through August 28, 2026.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-06-30"
     },
     {
       "date": "2026-06-25",
-      "headline": "Trash collector joins legal challenge to FMCSA's non-domiciled ban",
-      "source": "Overdrive",
-      "source_url": "https://www.overdriveonline.com/regulations/article/15828635/trash-collector-joins-legal-challenge-to-fmcsas-nondomiciled-ban",
+      "headline": "GFL Environmental Added to Russell 1000 and Russell 3000 Indexes",
+      "source": "PR Newswire",
+      "source_url": "https://www.prnewswire.com/news-releases/gfl-environmental-inc-added-to-russell-1000-index-302924876.html",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "GFL Environmental was added as a member of the U.S. large-cap Russell 1000 Index and broad-market Russell 3000 Index, effective at market opening.",
+      "relevance_score": 3,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-06-30"
+    },
+    {
+      "date": "2026-06-24",
+      "headline": "2026 Waste Hauling Business Valuation: CDL Class B Driver Shortage as Largest Cost Risk",
+      "source": "CT Acquisitions",
+      "source_url": "https://ctacquisitions.com/guides/waste-hauling-business-valuation/",
       "category": "Labor/Ops",
       "categories": [
         "Labor/Ops"
       ],
-      "summary": "Waste Pro, a Florida-based sanitation company with 2,000+ trucks, has joined litigation against the FMCSA's non-domiciled CDL ban, which has already cost the company 20 drivers. The company argues the rule unfairly impacts waste haulers who work on fixed-price municipal contracts and takes 60-75 days to replace each driver. Oral arguments are scheduled for September.",
-      "relevance_score": 4,
+      "summary": "Analysis identifies CDL Class B driver shortage as the single largest cost-side risk in waste hauling valuations. Wage inflation for refuse/recyclable material collectors hit 13.4% over two years (May 2022\u2013May 2024), reaching $22.84/hour median, with top metros at $28\u2013$35/hour. National multiples for waste hauling span 5x\u201313x EBITDA.",
+      "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-29"
-    },
-    {
-      "date": "2026-06-24",
-      "headline": "Portland sewer, stormwater, and water rates to increase July 1, 2026",
-      "source": "Portland.gov",
-      "source_url": "https://www.portland.gov/water/customer-service/news/2026/6/24/portland-sewer-stormwater-and-water-rates-increase-july-1",
-      "category": "Infrastructure",
-      "categories": [
-        "Infrastructure"
-      ],
-      "summary": "Portland's sewer and stormwater rates will increase 5.15% on July 1, 2026, affecting the wastewater treatment system that receives FOG discharges from food service establishments. The increase funds operating, maintaining, and improving the city's sewer and stormwater systems.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-29"
+      "first_seen_date": "2026-06-30"
     }
   ]
 }

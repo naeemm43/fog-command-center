@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-06-30",
+    "headline": "GFL Environmental Inc. Sets Date for Q2 2026 Earnings Release",
+    "source": "SEC Filing (Form 6-K)",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0001780232/000110465926079065/tm2619312d1_ex99-1.htm",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co."
+    ],
+    "summary": "GFL Environmental announced it will release Q2 2026 financial results after market close on July 29, 2026, with an investor conference call on July 30, 2026.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-30"
+  },
+  {
+    "date": "2026-06-29",
+    "headline": "Agency Information Collection Activities; Proposed Information Collection Request; Comment Request; Renewable Fuel Standard (RFS) Program",
+    "source": "Federal Register",
+    "source_url": "https://www.federalregister.gov/documents/2026/06/29/2026-13077/agency-information-collection-activities-proposed-information-collection-request-comment-request",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels",
+      "Regulatory",
+      "Technology"
+    ],
+    "summary": "EPA issued a proposed information collection request for RFS Program compliance tracking, including recordkeeping requirements for waste feedstocks and biogas-derived renewable fuel. The notice opens a 60-day comment period through August 28, 2026.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-30"
+  },
+  {
     "date": "2026-06-27",
     "headline": "Commercial Grease Trap Market Expansion Trends & Future Forecast Outlook",
     "source": "OpenPR",
@@ -58,6 +98,25 @@
     "first_seen_date": "2026-06-29"
   },
   {
+    "date": "2026-06-25",
+    "headline": "GFL Environmental Added to Russell 1000 and Russell 3000 Indexes",
+    "source": "PR Newswire",
+    "source_url": "https://www.prnewswire.com/news-releases/gfl-environmental-inc-added-to-russell-1000-index-302924876.html",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co."
+    ],
+    "summary": "GFL Environmental was added as a member of the U.S. large-cap Russell 1000 Index and broad-market Russell 3000 Index, effective at market opening.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-30"
+  },
+  {
     "date": "2026-06-24",
     "headline": "The biggest Phoenix restaurant closings of the year, so far",
     "source": "Phoenix New Times",
@@ -94,6 +153,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-06-29"
+  },
+  {
+    "date": "2026-06-24",
+    "headline": "2026 Waste Hauling Business Valuation: CDL Class B Driver Shortage as Largest Cost Risk",
+    "source": "CT Acquisitions",
+    "source_url": "https://ctacquisitions.com/guides/waste-hauling-business-valuation/",
+    "category": "Labor/Ops",
+    "categories": [
+      "Labor/Ops"
+    ],
+    "summary": "Analysis identifies CDL Class B driver shortage as the single largest cost-side risk in waste hauling valuations. Wage inflation for refuse/recyclable material collectors hit 13.4% over two years (May 2022\u2013May 2024), reaching $22.84/hour median, with top metros at $28\u2013$35/hour. National multiples for waste hauling span 5x\u201313x EBITDA.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-30"
   },
   {
     "date": "2026-06-23",
