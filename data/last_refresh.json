@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-06-30T14:32:10Z",
-  "added_news_count": 4,
+  "timestamp": "2026-07-01T14:50:33Z",
+  "added_news_count": 2,
   "added_deals_count": 0,
   "archived_count": 0,
   "new_today_news": [
     {
-      "date": "2026-06-30",
-      "headline": "GFL Environmental Inc. Sets Date for Q2 2026 Earnings Release",
-      "source": "SEC Filing (Form 6-K)",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/0001780232/000110465926079065/tm2619312d1_ex99-1.htm",
-      "category": "Public Co.",
+      "date": "2026-07-01",
+      "headline": "Landfill Leachate Treatment and POTWs: Rising Tipping Fees and Rejection of Leachate",
+      "source": "VSEP (Vibes Newsletter July 2026)",
+      "source_url": "https://www.vsep.com/articles/vibes-newsletter-july-2026/",
+      "category": "Infrastructure",
       "categories": [
-        "Public Co."
+        "Infrastructure"
       ],
-      "summary": "GFL Environmental announced it will release Q2 2026 financial results after market close on July 29, 2026, with an investor conference call on July 30, 2026.",
+      "summary": "POTWs are increasingly imposing PFAS-related conditions, dramatically raising tipping fees, or declining leachate acceptance entirely. The shift reflects growing unease among municipal wastewater operators about PFAS liability, as landfill operators face narrowing pathways to traditional POTW discharge and are being forced to consider on-site treatment.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -21,41 +21,21 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-30"
-    },
-    {
-      "date": "2026-06-29",
-      "headline": "Agency Information Collection Activities; Proposed Information Collection Request; Comment Request; Renewable Fuel Standard (RFS) Program",
-      "source": "Federal Register",
-      "source_url": "https://www.federalregister.gov/documents/2026/06/29/2026-13077/agency-information-collection-activities-proposed-information-collection-request-comment-request",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels",
-        "Regulatory",
-        "Technology"
-      ],
-      "summary": "EPA issued a proposed information collection request for RFS Program compliance tracking, including recordkeeping requirements for waste feedstocks and biogas-derived renewable fuel. The notice opens a 60-day comment period through August 28, 2026.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-30"
+      "first_seen_date": "2026-07-01"
     }
   ],
   "recent_news": [
     {
-      "date": "2026-06-25",
-      "headline": "GFL Environmental Added to Russell 1000 and Russell 3000 Indexes",
-      "source": "PR Newswire",
-      "source_url": "https://www.prnewswire.com/news-releases/gfl-environmental-inc-added-to-russell-1000-index-302924876.html",
-      "category": "Public Co.",
+      "date": "2026-06-26",
+      "headline": "King County Mouth of Duwamish Wet Weather Facilities Program - Combined Sewer Overflow Infrastructure",
+      "source": "King County Department of Natural Resources and Parks",
+      "source_url": "https://cdn.kingcounty.gov/-/media/king-county/depts/dnrp/waste-services/wastewater-treatment/program/mdcso/docs/sepa/mdcso_dns.pdf",
+      "category": "Infrastructure",
       "categories": [
-        "Public Co."
+        "Infrastructure",
+        "Regulatory"
       ],
-      "summary": "GFL Environmental was added as a member of the U.S. large-cap Russell 1000 Index and broad-market Russell 3000 Index, effective at market opening.",
+      "summary": "King County is advancing CSO control infrastructure to comply with EPA consent decree obligations through December 31, 2034. The project includes SODO Wet Weather Treatment Station and Chelan Wet Weather Storage projects targeting five combined sewer overflow outfalls in Duwamish River and Elliott Bay.",
       "relevance_score": 3,
       "is_deal": false,
       "is_target_market": false,
@@ -63,41 +43,22 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-30"
-    },
-    {
-      "date": "2026-06-24",
-      "headline": "2026 Waste Hauling Business Valuation: CDL Class B Driver Shortage as Largest Cost Risk",
-      "source": "CT Acquisitions",
-      "source_url": "https://ctacquisitions.com/guides/waste-hauling-business-valuation/",
-      "category": "Labor/Ops",
-      "categories": [
-        "Labor/Ops"
-      ],
-      "summary": "Analysis identifies CDL Class B driver shortage as the single largest cost-side risk in waste hauling valuations. Wage inflation for refuse/recyclable material collectors hit 13.4% over two years (May 2022\u2013May 2024), reaching $22.84/hour median, with top metros at $28\u2013$35/hour. National multiples for waste hauling span 5x\u201313x EBITDA.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-30"
+      "first_seen_date": "2026-07-01"
     }
   ],
   "backfill_news": [],
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-06-30",
-      "headline": "GFL Environmental Inc. Sets Date for Q2 2026 Earnings Release",
-      "source": "SEC Filing (Form 6-K)",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/0001780232/000110465926079065/tm2619312d1_ex99-1.htm",
-      "category": "Public Co.",
+      "date": "2026-07-01",
+      "headline": "Landfill Leachate Treatment and POTWs: Rising Tipping Fees and Rejection of Leachate",
+      "source": "VSEP (Vibes Newsletter July 2026)",
+      "source_url": "https://www.vsep.com/articles/vibes-newsletter-july-2026/",
+      "category": "Infrastructure",
       "categories": [
-        "Public Co."
+        "Infrastructure"
       ],
-      "summary": "GFL Environmental announced it will release Q2 2026 financial results after market close on July 29, 2026, with an investor conference call on July 30, 2026.",
+      "summary": "POTWs are increasingly imposing PFAS-related conditions, dramatically raising tipping fees, or declining leachate acceptance entirely. The shift reflects growing unease among municipal wastewater operators about PFAS liability, as landfill operators face narrowing pathways to traditional POTW discharge and are being forced to consider on-site treatment.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -105,39 +66,19 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-30"
+      "first_seen_date": "2026-07-01"
     },
     {
-      "date": "2026-06-29",
-      "headline": "Agency Information Collection Activities; Proposed Information Collection Request; Comment Request; Renewable Fuel Standard (RFS) Program",
-      "source": "Federal Register",
-      "source_url": "https://www.federalregister.gov/documents/2026/06/29/2026-13077/agency-information-collection-activities-proposed-information-collection-request-comment-request",
-      "category": "Renewable Fuels",
+      "date": "2026-06-26",
+      "headline": "King County Mouth of Duwamish Wet Weather Facilities Program - Combined Sewer Overflow Infrastructure",
+      "source": "King County Department of Natural Resources and Parks",
+      "source_url": "https://cdn.kingcounty.gov/-/media/king-county/depts/dnrp/waste-services/wastewater-treatment/program/mdcso/docs/sepa/mdcso_dns.pdf",
+      "category": "Infrastructure",
       "categories": [
-        "Renewable Fuels",
-        "Regulatory",
-        "Technology"
+        "Infrastructure",
+        "Regulatory"
       ],
-      "summary": "EPA issued a proposed information collection request for RFS Program compliance tracking, including recordkeeping requirements for waste feedstocks and biogas-derived renewable fuel. The notice opens a 60-day comment period through August 28, 2026.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-30"
-    },
-    {
-      "date": "2026-06-25",
-      "headline": "GFL Environmental Added to Russell 1000 and Russell 3000 Indexes",
-      "source": "PR Newswire",
-      "source_url": "https://www.prnewswire.com/news-releases/gfl-environmental-inc-added-to-russell-1000-index-302924876.html",
-      "category": "Public Co.",
-      "categories": [
-        "Public Co."
-      ],
-      "summary": "GFL Environmental was added as a member of the U.S. large-cap Russell 1000 Index and broad-market Russell 3000 Index, effective at market opening.",
+      "summary": "King County is advancing CSO control infrastructure to comply with EPA consent decree obligations through December 31, 2034. The project includes SODO Wet Weather Treatment Station and Chelan Wet Weather Storage projects targeting five combined sewer overflow outfalls in Duwamish River and Elliott Bay.",
       "relevance_score": 3,
       "is_deal": false,
       "is_target_market": false,
@@ -145,26 +86,7 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-06-30"
-    },
-    {
-      "date": "2026-06-24",
-      "headline": "2026 Waste Hauling Business Valuation: CDL Class B Driver Shortage as Largest Cost Risk",
-      "source": "CT Acquisitions",
-      "source_url": "https://ctacquisitions.com/guides/waste-hauling-business-valuation/",
-      "category": "Labor/Ops",
-      "categories": [
-        "Labor/Ops"
-      ],
-      "summary": "Analysis identifies CDL Class B driver shortage as the single largest cost-side risk in waste hauling valuations. Wage inflation for refuse/recyclable material collectors hit 13.4% over two years (May 2022\u2013May 2024), reaching $22.84/hour median, with top metros at $28\u2013$35/hour. National multiples for waste hauling span 5x\u201313x EBITDA.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-06-30"
+      "first_seen_date": "2026-07-01"
     }
   ]
 }
