@@ -1,92 +1,11 @@
 {
-  "timestamp": "2026-07-01T14:50:33Z",
-  "added_news_count": 2,
+  "timestamp": "2026-07-02T14:15:09Z",
+  "added_news_count": 0,
   "added_deals_count": 0,
   "archived_count": 0,
-  "new_today_news": [
-    {
-      "date": "2026-07-01",
-      "headline": "Landfill Leachate Treatment and POTWs: Rising Tipping Fees and Rejection of Leachate",
-      "source": "VSEP (Vibes Newsletter July 2026)",
-      "source_url": "https://www.vsep.com/articles/vibes-newsletter-july-2026/",
-      "category": "Infrastructure",
-      "categories": [
-        "Infrastructure"
-      ],
-      "summary": "POTWs are increasingly imposing PFAS-related conditions, dramatically raising tipping fees, or declining leachate acceptance entirely. The shift reflects growing unease among municipal wastewater operators about PFAS liability, as landfill operators face narrowing pathways to traditional POTW discharge and are being forced to consider on-site treatment.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-07-01"
-    }
-  ],
-  "recent_news": [
-    {
-      "date": "2026-06-26",
-      "headline": "King County Mouth of Duwamish Wet Weather Facilities Program - Combined Sewer Overflow Infrastructure",
-      "source": "King County Department of Natural Resources and Parks",
-      "source_url": "https://cdn.kingcounty.gov/-/media/king-county/depts/dnrp/waste-services/wastewater-treatment/program/mdcso/docs/sepa/mdcso_dns.pdf",
-      "category": "Infrastructure",
-      "categories": [
-        "Infrastructure",
-        "Regulatory"
-      ],
-      "summary": "King County is advancing CSO control infrastructure to comply with EPA consent decree obligations through December 31, 2034. The project includes SODO Wet Weather Treatment Station and Chelan Wet Weather Storage projects targeting five combined sewer overflow outfalls in Duwamish River and Elliott Bay.",
-      "relevance_score": 3,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-07-01"
-    }
-  ],
+  "new_today_news": [],
+  "recent_news": [],
   "backfill_news": [],
   "new_deals": [],
-  "new_news": [
-    {
-      "date": "2026-07-01",
-      "headline": "Landfill Leachate Treatment and POTWs: Rising Tipping Fees and Rejection of Leachate",
-      "source": "VSEP (Vibes Newsletter July 2026)",
-      "source_url": "https://www.vsep.com/articles/vibes-newsletter-july-2026/",
-      "category": "Infrastructure",
-      "categories": [
-        "Infrastructure"
-      ],
-      "summary": "POTWs are increasingly imposing PFAS-related conditions, dramatically raising tipping fees, or declining leachate acceptance entirely. The shift reflects growing unease among municipal wastewater operators about PFAS liability, as landfill operators face narrowing pathways to traditional POTW discharge and are being forced to consider on-site treatment.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-07-01"
-    },
-    {
-      "date": "2026-06-26",
-      "headline": "King County Mouth of Duwamish Wet Weather Facilities Program - Combined Sewer Overflow Infrastructure",
-      "source": "King County Department of Natural Resources and Parks",
-      "source_url": "https://cdn.kingcounty.gov/-/media/king-county/depts/dnrp/waste-services/wastewater-treatment/program/mdcso/docs/sepa/mdcso_dns.pdf",
-      "category": "Infrastructure",
-      "categories": [
-        "Infrastructure",
-        "Regulatory"
-      ],
-      "summary": "King County is advancing CSO control infrastructure to comply with EPA consent decree obligations through December 31, 2034. The project includes SODO Wet Weather Treatment Station and Chelan Wet Weather Storage projects targeting five combined sewer overflow outfalls in Duwamish River and Elliott Bay.",
-      "relevance_score": 3,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-07-01"
-    }
-  ]
+  "new_news": []
 }
