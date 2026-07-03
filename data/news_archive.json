@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-01-04",
+    "headline": "United Site Services Chapter 11 Filing",
+    "source": "Bondoro",
+    "source_url": "https://bondoro.com/united-site-services/",
+    "category": "Public Co.",
+    "summary": "United Site Services filed for Chapter 11 protection on December 29, 2025, reporting $1-10 billion in assets and liabilities. The company provides non-hazardous liquid waste services including grease trap waste removal.",
+    "is_target_market": false,
+    "target_market_name": null,
+    "relevance_score": 4,
+    "is_deal": false,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-01-04",
+    "categories": [
+      "Public Co."
+    ]
+  },
+  {
     "date": "2025-12-20",
     "headline": "Liquid Environmental Solutions Acquired by Goldman Sachs Infrastructure Fund",
     "source": "Multiple (ESG Today, Baird, Simpson Thacher, Audax)",

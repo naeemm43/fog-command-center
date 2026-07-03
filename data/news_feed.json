@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-07-03",
+    "headline": "Arkansas Grease Trap Regulations: FOG Compliance Guide",
+    "source": "Grease Trap Locator",
+    "source_url": "https://greasetraplocator.com/regulations/arkansas/",
+    "category": "Infrastructure",
+    "categories": [
+      "Infrastructure",
+      "Regulatory"
+    ],
+    "summary": "Updated guide on Arkansas FOG compliance requirements and Fort Smith's $255 million federal consent decree addressing chronic SSOs. Details grease interceptor sizing, service intervals, and pretreatment programs under EPA oversight.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-07-03"
+  },
+  {
     "date": "2026-07-01",
     "headline": "Landfill Leachate Treatment and POTWs: Rising Tipping Fees and Rejection of Leachate",
     "source": "VSEP (Vibes Newsletter July 2026)",
@@ -5308,25 +5328,6 @@
     "first_seen_date": "2026-01-09",
     "categories": [
       "Renewable Fuels"
-    ]
-  },
-  {
-    "date": "2026-01-04",
-    "headline": "United Site Services Chapter 11 Filing",
-    "source": "Bondoro",
-    "source_url": "https://bondoro.com/united-site-services/",
-    "category": "Public Co.",
-    "summary": "United Site Services filed for Chapter 11 protection on December 29, 2025, reporting $1-10 billion in assets and liabilities. The company provides non-hazardous liquid waste services including grease trap waste removal.",
-    "is_target_market": false,
-    "target_market_name": null,
-    "relevance_score": 4,
-    "is_deal": false,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-01-04",
-    "categories": [
-      "Public Co."
     ]
   },
   {

@@ -1,11 +1,53 @@
 {
-  "timestamp": "2026-07-02T14:15:09Z",
-  "added_news_count": 0,
+  "timestamp": "2026-07-03T14:22:57Z",
+  "added_news_count": 1,
   "added_deals_count": 0,
-  "archived_count": 0,
-  "new_today_news": [],
+  "archived_count": 1,
+  "new_today_news": [
+    {
+      "date": "2026-07-03",
+      "headline": "Arkansas Grease Trap Regulations: FOG Compliance Guide",
+      "source": "Grease Trap Locator",
+      "source_url": "https://greasetraplocator.com/regulations/arkansas/",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure",
+        "Regulatory"
+      ],
+      "summary": "Updated guide on Arkansas FOG compliance requirements and Fort Smith's $255 million federal consent decree addressing chronic SSOs. Details grease interceptor sizing, service intervals, and pretreatment programs under EPA oversight.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-07-03"
+    }
+  ],
   "recent_news": [],
   "backfill_news": [],
   "new_deals": [],
-  "new_news": []
+  "new_news": [
+    {
+      "date": "2026-07-03",
+      "headline": "Arkansas Grease Trap Regulations: FOG Compliance Guide",
+      "source": "Grease Trap Locator",
+      "source_url": "https://greasetraplocator.com/regulations/arkansas/",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure",
+        "Regulatory"
+      ],
+      "summary": "Updated guide on Arkansas FOG compliance requirements and Fort Smith's $255 million federal consent decree addressing chronic SSOs. Details grease interceptor sizing, service intervals, and pretreatment programs under EPA oversight.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-07-03"
+    }
+  ]
 }
