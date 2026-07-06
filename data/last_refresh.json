@@ -1,53 +1,206 @@
 {
-  "timestamp": "2026-07-03T14:22:57Z",
-  "added_news_count": 1,
+  "timestamp": "2026-07-06T15:46:35Z",
+  "added_news_count": 5,
   "added_deals_count": 0,
-  "archived_count": 1,
-  "new_today_news": [
+  "archived_count": 0,
+  "new_today_news": [],
+  "recent_news": [
     {
-      "date": "2026-07-03",
-      "headline": "Arkansas Grease Trap Regulations: FOG Compliance Guide",
-      "source": "Grease Trap Locator",
-      "source_url": "https://greasetraplocator.com/regulations/arkansas/",
-      "category": "Infrastructure",
+      "date": "2026-07-01",
+      "headline": "National Restaurant Association Releases 2026 Summer Travel Dining Report",
+      "source": "National Restaurant Association",
+      "source_url": "https://www.restaurant.org/research-and-media/media/press-releases/national-restaurant-association-2026-summer-travel-dining-report/",
+      "category": "Restaurant",
       "categories": [
-        "Infrastructure",
-        "Regulatory"
+        "Restaurant"
       ],
-      "summary": "Updated guide on Arkansas FOG compliance requirements and Fort Smith's $255 million federal consent decree addressing chronic SSOs. Details grease interceptor sizing, service intervals, and pretreatment programs under EPA oversight.",
-      "relevance_score": 5,
+      "summary": "NRA survey of 1,000+ consumers finds 55% plan overnight domestic travel this summer, with dining central to travel experiences. 79% of travelers seek local cuisine and 88% plan to visit new restaurants.",
+      "relevance_score": 1,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-07-03"
+      "first_seen_date": "2026-07-06"
+    },
+    {
+      "date": "2026-07-01",
+      "headline": "Waste Pro Completes $150 Million Florida Development Finance Corporation Solid Waste Disposal Revenue Bonds Sale",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/industry-insights/waste-pro-usa-inc-announces-closing-of-150-0-million-florida-development-finance-corporation-solid-waste-disposal-revenue-bonds",
+      "category": "Industry Events",
+      "categories": [
+        "Industry Events"
+      ],
+      "summary": "Waste Pro USA announced completion of a $150 million bond sale to support expansion of its non-hazardous waste collection, transfer, recycling, and disposal operations across ten southeastern states. The bonds carry a 4.35% interest rate with maturity in April 2037.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-07-06"
+    },
+    {
+      "date": "2026-06-30",
+      "headline": "U.S. Restaurant Opening Cross-Tab Analysis: January\u2013June 2026 Semi-Annual Report",
+      "source": "Restaurantdata.com",
+      "source_url": "https://restaurantdata.com/u-s-restaurant-opening-cross-tab-analysis-january-june-2026-semi-annual-report/",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Report analyzing 9,541 tracked restaurant opening records in first half of 2026, with independent restaurants representing 61% of activity and casual/family dining dominating at 48.3% of tracked activity. Southwest, Southeast and West regions showed strongest demand.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-07-06"
     }
   ],
-  "recent_news": [],
-  "backfill_news": [],
+  "backfill_news": [
+    {
+      "date": "2026-06-22",
+      "headline": "Clean Fuels Focuses the RFS on American Farmers",
+      "source": "Clean Fuels Alliance America",
+      "source_url": "https://cleanfuels.org/policy-issues/renewable-fuels-standard-rfs/",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels",
+        "Regulatory"
+      ],
+      "summary": "Clean Fuels Alliance America noted a June 22, 2026 milestone regarding EPA's focus on strengthening the RFS program for American farmers through the recently finalized 2026-2027 renewable fuel volume requirements.",
+      "relevance_score": 3,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-07-06"
+    },
+    {
+      "date": "2026-06-22",
+      "headline": "Barrel Energy Inc. Files Certificate of Amendment for Series A Preferred Stock Conversion",
+      "source": "SEC Filing / StockTitan",
+      "source_url": "https://www.stocktitan.net/sec-filings/BRLL/8-k-barrel-energy-inc-reports-material-event-3559bbcdabdc.html",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "Barrel Energy (BRLL) filed a corrective amendment to its Series A Preferred Stock designation, clarifying the 1:1,000 conversion ratio that was inadvertently omitted from the original state filing. The amendment was filed on June 22, 2026, relating to 5,000,000 shares of Series A Preferred Stock.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-07-06"
+    }
+  ],
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-07-03",
-      "headline": "Arkansas Grease Trap Regulations: FOG Compliance Guide",
-      "source": "Grease Trap Locator",
-      "source_url": "https://greasetraplocator.com/regulations/arkansas/",
-      "category": "Infrastructure",
+      "date": "2026-07-01",
+      "headline": "National Restaurant Association Releases 2026 Summer Travel Dining Report",
+      "source": "National Restaurant Association",
+      "source_url": "https://www.restaurant.org/research-and-media/media/press-releases/national-restaurant-association-2026-summer-travel-dining-report/",
+      "category": "Restaurant",
       "categories": [
-        "Infrastructure",
-        "Regulatory"
+        "Restaurant"
       ],
-      "summary": "Updated guide on Arkansas FOG compliance requirements and Fort Smith's $255 million federal consent decree addressing chronic SSOs. Details grease interceptor sizing, service intervals, and pretreatment programs under EPA oversight.",
-      "relevance_score": 5,
+      "summary": "NRA survey of 1,000+ consumers finds 55% plan overnight domestic travel this summer, with dining central to travel experiences. 79% of travelers seek local cuisine and 88% plan to visit new restaurants.",
+      "relevance_score": 1,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-07-03"
+      "first_seen_date": "2026-07-06"
+    },
+    {
+      "date": "2026-07-01",
+      "headline": "Waste Pro Completes $150 Million Florida Development Finance Corporation Solid Waste Disposal Revenue Bonds Sale",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/industry-insights/waste-pro-usa-inc-announces-closing-of-150-0-million-florida-development-finance-corporation-solid-waste-disposal-revenue-bonds",
+      "category": "Industry Events",
+      "categories": [
+        "Industry Events"
+      ],
+      "summary": "Waste Pro USA announced completion of a $150 million bond sale to support expansion of its non-hazardous waste collection, transfer, recycling, and disposal operations across ten southeastern states. The bonds carry a 4.35% interest rate with maturity in April 2037.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-07-06"
+    },
+    {
+      "date": "2026-06-30",
+      "headline": "U.S. Restaurant Opening Cross-Tab Analysis: January\u2013June 2026 Semi-Annual Report",
+      "source": "Restaurantdata.com",
+      "source_url": "https://restaurantdata.com/u-s-restaurant-opening-cross-tab-analysis-january-june-2026-semi-annual-report/",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Report analyzing 9,541 tracked restaurant opening records in first half of 2026, with independent restaurants representing 61% of activity and casual/family dining dominating at 48.3% of tracked activity. Southwest, Southeast and West regions showed strongest demand.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-07-06"
+    },
+    {
+      "date": "2026-06-22",
+      "headline": "Clean Fuels Focuses the RFS on American Farmers",
+      "source": "Clean Fuels Alliance America",
+      "source_url": "https://cleanfuels.org/policy-issues/renewable-fuels-standard-rfs/",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels",
+        "Regulatory"
+      ],
+      "summary": "Clean Fuels Alliance America noted a June 22, 2026 milestone regarding EPA's focus on strengthening the RFS program for American farmers through the recently finalized 2026-2027 renewable fuel volume requirements.",
+      "relevance_score": 3,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-07-06"
+    },
+    {
+      "date": "2026-06-22",
+      "headline": "Barrel Energy Inc. Files Certificate of Amendment for Series A Preferred Stock Conversion",
+      "source": "SEC Filing / StockTitan",
+      "source_url": "https://www.stocktitan.net/sec-filings/BRLL/8-k-barrel-energy-inc-reports-material-event-3559bbcdabdc.html",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "Barrel Energy (BRLL) filed a corrective amendment to its Series A Preferred Stock designation, clarifying the 1:1,000 conversion ratio that was inadvertently omitted from the original state filing. The amendment was filed on June 22, 2026, relating to 5,000,000 shares of Series A Preferred Stock.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-07-06"
     }
   ]
 }
