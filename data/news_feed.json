@@ -20,6 +20,25 @@
     "first_seen_date": "2026-07-03"
   },
   {
+    "date": "2026-07-02",
+    "headline": "GFL Environmental Announces Quarterly Dividend of US$0.0169 per Share",
+    "source": "GFL Environmental / SEC Filing (Form 6-K)",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0001780232/000110465926080072/tm2619540d1_ex99-1.htm",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co."
+    ],
+    "summary": "GFL Environmental declared a quarterly cash dividend of US$0.0169 per subordinate voting share and multiple voting share. The dividend will be paid on July 31, 2026, to shareholders of record as of July 13, 2026.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-07-07"
+  },
+  {
     "date": "2026-07-01",
     "headline": "Landfill Leachate Treatment and POTWs: Rising Tipping Fees and Rejection of Leachate",
     "source": "VSEP (Vibes Newsletter July 2026)",
