@@ -1,5 +1,43 @@
 [
   {
+    "date": "2026-01-09",
+    "headline": "UCO Supply-Demand Imbalance Continues: Global Collection Falls Short of Biofuel Targets",
+    "source": "Fastmarkets",
+    "source_url": "https://www.fastmarkets.com/insights/used-cooking-oil-uco-price-forecast-a-cornerstone-feedstock-for-sustainable-aviation-fuel/",
+    "category": "Renewable Fuels",
+    "summary": "Fastmarkets estimates total UCO usage in the US in 2024 at 8.4 billion pounds (42% increase), but UCO collection is estimated at only 3.3 billion pounds in 2024, insufficient to meet the biofuel industry's demand for 5.7 billion pounds of feedstock. Global UCO supply is expected to grow, fueled by improved collection efficiency and investments by biofuel producers integrating upstream into the waste oil value chain.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-01-09",
+    "categories": [
+      "Renewable Fuels"
+    ]
+  },
+  {
+    "date": "2026-01-09",
+    "headline": "Chinese UCO Export Tariffs Reshape Global Biofuel Feedstock Trade Flows and Pricing",
+    "source": "BSI Recycling",
+    "source_url": "https://www.bsirecycling.com/blog/u-s-biofuels-market-and-used-cooking-oil-uco-a-comprehensive-data-review",
+    "category": "Renewable Fuels",
+    "summary": "U.S. farmers welcome trade protection as soy oil prices and demand are expected to firm up as domestic feedstocks replace lost Chinese UCO, and U.S. renewable diesel plants may need to pivot to relying more on homegrown oils and other waste fats. Chinese suppliers are now pivoting to Europe and other Asian countries to offset the loss of the U.S. market.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-01-09",
+    "categories": [
+      "Renewable Fuels"
+    ]
+  },
+  {
     "date": "2026-01-04",
     "headline": "United Site Services Chapter 11 Filing",
     "source": "Bondoro",

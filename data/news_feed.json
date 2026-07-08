@@ -1,5 +1,44 @@
 [
   {
+    "date": "2026-07-08",
+    "headline": "Clean Harbors to Announce Second-Quarter 2026 Financial Results on July 29",
+    "source": "Business Wire",
+    "source_url": "https://www.businesswire.com/news/home/20260708367805/en/Clean-Harbors-to-Announce-Second-Quarter-2026-Financial-Results-on-July-29",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co."
+    ],
+    "summary": "Clean Harbors (NYSE: CLH) announced it will release Q2 2026 financial results after market close on July 29, 2026, with a conference call on the same day at 9:00 a.m. ET featuring co-CEOs and CFO to discuss financial results, business outlook and growth strategy.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-07-08"
+  },
+  {
+    "date": "2026-07-07",
+    "headline": "Waste Connections to Develop Regional PFAS Treatment Hub at Anson Landfill",
+    "source": "Waste360",
+    "source_url": "https://www.waste360.com/pfas-pfoas/waste-connections-to-develop-regional-pfas-treatment-hub-at-anson-landfill",
+    "category": "Industry Events",
+    "categories": [
+      "Industry Events",
+      "Public Co."
+    ],
+    "summary": "Chambers Development of North Carolina (Waste Connections company) announced plans to develop a regional PFAS treatment system at Anson Landfill in Polkton, North Carolina. The system will treat landfill leachate onsite using the LEEF System\u00ae, expected to come online by end of 2026, treating up to 50,000 gallons per day.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-07-08"
+  },
+  {
     "date": "2026-07-03",
     "headline": "Arkansas Grease Trap Regulations: FOG Compliance Guide",
     "source": "Grease Trap Locator",
@@ -5405,44 +5444,6 @@
     "first_seen_date": "2026-01-15",
     "categories": [
       "Technology"
-    ]
-  },
-  {
-    "date": "2026-01-09",
-    "headline": "UCO Supply-Demand Imbalance Continues: Global Collection Falls Short of Biofuel Targets",
-    "source": "Fastmarkets",
-    "source_url": "https://www.fastmarkets.com/insights/used-cooking-oil-uco-price-forecast-a-cornerstone-feedstock-for-sustainable-aviation-fuel/",
-    "category": "Renewable Fuels",
-    "summary": "Fastmarkets estimates total UCO usage in the US in 2024 at 8.4 billion pounds (42% increase), but UCO collection is estimated at only 3.3 billion pounds in 2024, insufficient to meet the biofuel industry's demand for 5.7 billion pounds of feedstock. Global UCO supply is expected to grow, fueled by improved collection efficiency and investments by biofuel producers integrating upstream into the waste oil value chain.",
-    "relevance_score": 4,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-01-09",
-    "categories": [
-      "Renewable Fuels"
-    ]
-  },
-  {
-    "date": "2026-01-09",
-    "headline": "Chinese UCO Export Tariffs Reshape Global Biofuel Feedstock Trade Flows and Pricing",
-    "source": "BSI Recycling",
-    "source_url": "https://www.bsirecycling.com/blog/u-s-biofuels-market-and-used-cooking-oil-uco-a-comprehensive-data-review",
-    "category": "Renewable Fuels",
-    "summary": "U.S. farmers welcome trade protection as soy oil prices and demand are expected to firm up as domestic feedstocks replace lost Chinese UCO, and U.S. renewable diesel plants may need to pivot to relying more on homegrown oils and other waste fats. Chinese suppliers are now pivoting to Europe and other Asian countries to offset the loss of the U.S. market.",
-    "relevance_score": 4,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-01-09",
-    "categories": [
-      "Renewable Fuels"
     ]
   },
   {
