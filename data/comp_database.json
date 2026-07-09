@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-06-26",
+    "target": "HydroTech Environmental, LLC",
+    "acquirer": "Wind River Environmental",
+    "sponsor": "",
+    "location": "Pennsylvania",
+    "deal_type": "Add-On",
+    "deal_size": "Undisclosed",
+    "multiple": "N/A",
+    "services": "",
+    "source": "Wind River Environmental",
+    "source_url": "https://www.wrenvironmental.com/blog/2026/june/wind-river-environmental-acquires-hydrotech-envi/",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "Unknown",
+    "deal_summary": null,
+    "date_confidence": "verified",
+    "notes": "Wind River Environmental, the leading provider of non-hazardous liquid waste services in the Eastern United States, has acquired HydroTech Environmental, LLC, which specializes in sludge and non-sludge hauling across Pennsylvania. This strategic acquisition strengthens Wind River's local operations and service capabilities in the Mid Atlantic.",
+    "latitude": 40.876,
+    "longitude": -77.822,
+    "zoom_hint": "wide"
+  },
+  {
     "date": "2026-06-10",
     "target": "NLR, Inc.",
     "acquirer": "TerraCycle US LLC (TerraCycle Inc.)",

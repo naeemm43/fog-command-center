@@ -39,6 +39,25 @@
     "first_seen_date": "2026-07-08"
   },
   {
+    "date": "2026-07-06",
+    "headline": "Class B CDL Driver - Hazardous & Non-Hazardous Waste Transportation",
+    "source": "Indeed.com",
+    "source_url": "https://www.indeed.com/viewjob?jk=aee0eec3b02bedf1",
+    "category": "Labor/Ops",
+    "categories": [
+      "Labor/Ops"
+    ],
+    "summary": "Triumvirate Environmental seeking Class B CDL driver in Somerville, MA for hazardous and non-hazardous waste material transport. Competitive benefits including health insurance, 401k matching, safety training, and tuition reimbursement offered.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-07-09"
+  },
+  {
     "date": "2026-07-03",
     "headline": "Arkansas Grease Trap Regulations: FOG Compliance Guide",
     "source": "Grease Trap Locator",
@@ -231,6 +250,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-07-01"
+  },
+  {
+    "date": "2026-06-26",
+    "headline": "Wind River Environmental Acquires HydroTech Environmental, LLC",
+    "source": "Wind River Environmental",
+    "source_url": "https://www.wrenvironmental.com/blog/2026/june/wind-river-environmental-acquires-hydrotech-envi/",
+    "category": "M&A",
+    "categories": [
+      "M&A"
+    ],
+    "summary": "Wind River Environmental, the leading provider of non-hazardous liquid waste services in the Eastern United States, has acquired HydroTech Environmental, LLC, which specializes in sludge and non-sludge hauling across Pennsylvania. This strategic acquisition strengthens Wind River's local operations and service capabilities in the Mid Atlantic.",
+    "relevance_score": 5,
+    "is_deal": true,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": 40.876,
+    "longitude": -77.822,
+    "zoom_hint": "wide",
+    "first_seen_date": "2026-07-09"
   },
   {
     "date": "2026-06-25",

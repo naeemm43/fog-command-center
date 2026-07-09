@@ -1,91 +1,113 @@
 {
-  "timestamp": "2026-07-08T14:29:00Z",
+  "timestamp": "2026-07-09T15:23:44Z",
   "added_news_count": 2,
-  "added_deals_count": 0,
-  "archived_count": 2,
-  "new_today_news": [
+  "added_deals_count": 1,
+  "archived_count": 0,
+  "new_today_news": [],
+  "recent_news": [
     {
-      "date": "2026-07-08",
-      "headline": "Clean Harbors to Announce Second-Quarter 2026 Financial Results on July 29",
-      "source": "Business Wire",
-      "source_url": "https://www.businesswire.com/news/home/20260708367805/en/Clean-Harbors-to-Announce-Second-Quarter-2026-Financial-Results-on-July-29",
-      "category": "Public Co.",
+      "date": "2026-07-06",
+      "headline": "Class B CDL Driver - Hazardous & Non-Hazardous Waste Transportation",
+      "source": "Indeed.com",
+      "source_url": "https://www.indeed.com/viewjob?jk=aee0eec3b02bedf1",
+      "category": "Labor/Ops",
       "categories": [
-        "Public Co."
+        "Labor/Ops"
       ],
-      "summary": "Clean Harbors (NYSE: CLH) announced it will release Q2 2026 financial results after market close on July 29, 2026, with a conference call on the same day at 9:00 a.m. ET featuring co-CEOs and CFO to discuss financial results, business outlook and growth strategy.",
-      "relevance_score": 5,
+      "summary": "Triumvirate Environmental seeking Class B CDL driver in Somerville, MA for hazardous and non-hazardous waste material transport. Competitive benefits including health insurance, 401k matching, safety training, and tuition reimbursement offered.",
+      "relevance_score": 3,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-07-08"
-    },
-    {
-      "date": "2026-07-07",
-      "headline": "Waste Connections to Develop Regional PFAS Treatment Hub at Anson Landfill",
-      "source": "Waste360",
-      "source_url": "https://www.waste360.com/pfas-pfoas/waste-connections-to-develop-regional-pfas-treatment-hub-at-anson-landfill",
-      "category": "Industry Events",
-      "categories": [
-        "Industry Events",
-        "Public Co."
-      ],
-      "summary": "Chambers Development of North Carolina (Waste Connections company) announced plans to develop a regional PFAS treatment system at Anson Landfill in Polkton, North Carolina. The system will treat landfill leachate onsite using the LEEF System\u00ae, expected to come online by end of 2026, treating up to 50,000 gallons per day.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-07-08"
+      "first_seen_date": "2026-07-09"
     }
   ],
-  "recent_news": [],
-  "backfill_news": [],
-  "new_deals": [],
+  "backfill_news": [
+    {
+      "date": "2026-06-26",
+      "headline": "Wind River Environmental Acquires HydroTech Environmental, LLC",
+      "source": "Wind River Environmental",
+      "source_url": "https://www.wrenvironmental.com/blog/2026/june/wind-river-environmental-acquires-hydrotech-envi/",
+      "category": "M&A",
+      "categories": [
+        "M&A"
+      ],
+      "summary": "Wind River Environmental, the leading provider of non-hazardous liquid waste services in the Eastern United States, has acquired HydroTech Environmental, LLC, which specializes in sludge and non-sludge hauling across Pennsylvania. This strategic acquisition strengthens Wind River's local operations and service capabilities in the Mid Atlantic.",
+      "relevance_score": 5,
+      "is_deal": true,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": 40.876,
+      "longitude": -77.822,
+      "zoom_hint": "wide",
+      "first_seen_date": "2026-07-09"
+    }
+  ],
+  "new_deals": [
+    {
+      "date": "2026-06-26",
+      "target": "HydroTech Environmental, LLC",
+      "acquirer": "Wind River Environmental",
+      "sponsor": "",
+      "location": "Pennsylvania",
+      "deal_type": "Add-On",
+      "deal_size": "Undisclosed",
+      "multiple": "N/A",
+      "services": "",
+      "source": "Wind River Environmental",
+      "source_url": "https://www.wrenvironmental.com/blog/2026/june/wind-river-environmental-acquires-hydrotech-envi/",
+      "is_target_market": false,
+      "target_market_name": null,
+      "owner_classification": "Unknown",
+      "deal_summary": null,
+      "date_confidence": "verified",
+      "notes": "Wind River Environmental, the leading provider of non-hazardous liquid waste services in the Eastern United States, has acquired HydroTech Environmental, LLC, which specializes in sludge and non-sludge hauling across Pennsylvania. This strategic acquisition strengthens Wind River's local operations and service capabilities in the Mid Atlantic.",
+      "latitude": 40.876,
+      "longitude": -77.822,
+      "zoom_hint": "wide"
+    }
+  ],
   "new_news": [
     {
-      "date": "2026-07-08",
-      "headline": "Clean Harbors to Announce Second-Quarter 2026 Financial Results on July 29",
-      "source": "Business Wire",
-      "source_url": "https://www.businesswire.com/news/home/20260708367805/en/Clean-Harbors-to-Announce-Second-Quarter-2026-Financial-Results-on-July-29",
-      "category": "Public Co.",
+      "date": "2026-07-06",
+      "headline": "Class B CDL Driver - Hazardous & Non-Hazardous Waste Transportation",
+      "source": "Indeed.com",
+      "source_url": "https://www.indeed.com/viewjob?jk=aee0eec3b02bedf1",
+      "category": "Labor/Ops",
       "categories": [
-        "Public Co."
+        "Labor/Ops"
       ],
-      "summary": "Clean Harbors (NYSE: CLH) announced it will release Q2 2026 financial results after market close on July 29, 2026, with a conference call on the same day at 9:00 a.m. ET featuring co-CEOs and CFO to discuss financial results, business outlook and growth strategy.",
-      "relevance_score": 5,
+      "summary": "Triumvirate Environmental seeking Class B CDL driver in Somerville, MA for hazardous and non-hazardous waste material transport. Competitive benefits including health insurance, 401k matching, safety training, and tuition reimbursement offered.",
+      "relevance_score": 3,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-07-08"
+      "first_seen_date": "2026-07-09"
     },
     {
-      "date": "2026-07-07",
-      "headline": "Waste Connections to Develop Regional PFAS Treatment Hub at Anson Landfill",
-      "source": "Waste360",
-      "source_url": "https://www.waste360.com/pfas-pfoas/waste-connections-to-develop-regional-pfas-treatment-hub-at-anson-landfill",
-      "category": "Industry Events",
+      "date": "2026-06-26",
+      "headline": "Wind River Environmental Acquires HydroTech Environmental, LLC",
+      "source": "Wind River Environmental",
+      "source_url": "https://www.wrenvironmental.com/blog/2026/june/wind-river-environmental-acquires-hydrotech-envi/",
+      "category": "M&A",
       "categories": [
-        "Industry Events",
-        "Public Co."
+        "M&A"
       ],
-      "summary": "Chambers Development of North Carolina (Waste Connections company) announced plans to develop a regional PFAS treatment system at Anson Landfill in Polkton, North Carolina. The system will treat landfill leachate onsite using the LEEF System\u00ae, expected to come online by end of 2026, treating up to 50,000 gallons per day.",
-      "relevance_score": 2,
-      "is_deal": false,
+      "summary": "Wind River Environmental, the leading provider of non-hazardous liquid waste services in the Eastern United States, has acquired HydroTech Environmental, LLC, which specializes in sludge and non-sludge hauling across Pennsylvania. This strategic acquisition strengthens Wind River's local operations and service capabilities in the Mid Atlantic.",
+      "relevance_score": 5,
+      "is_deal": true,
       "is_target_market": false,
       "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-07-08"
+      "latitude": 40.876,
+      "longitude": -77.822,
+      "zoom_hint": "wide",
+      "first_seen_date": "2026-07-09"
     }
   ]
 }
