@@ -1,113 +1,284 @@
 {
-  "timestamp": "2026-07-09T15:23:44Z",
-  "added_news_count": 2,
-  "added_deals_count": 1,
+  "timestamp": "2026-07-10T14:42:02Z",
+  "added_news_count": 7,
+  "added_deals_count": 0,
   "archived_count": 0,
-  "new_today_news": [],
-  "recent_news": [
+  "new_today_news": [
     {
-      "date": "2026-07-06",
-      "headline": "Class B CDL Driver - Hazardous & Non-Hazardous Waste Transportation",
-      "source": "Indeed.com",
-      "source_url": "https://www.indeed.com/viewjob?jk=aee0eec3b02bedf1",
-      "category": "Labor/Ops",
+      "date": "2026-07-10",
+      "headline": "Summer Travel & Dining Trends: Key Developments Shaping Restaurant Demand",
+      "source": "National Restaurant Association",
+      "source_url": "https://restaurant.org/education-and-resources/resource-library/report-summer-travel-could-boost-restaurant-sales/",
+      "category": "Restaurant",
       "categories": [
-        "Labor/Ops"
+        "Restaurant"
       ],
-      "summary": "Triumvirate Environmental seeking Class B CDL driver in Somerville, MA for hazardous and non-hazardous waste material transport. Competitive benefits including health insurance, 401k matching, safety training, and tuition reimbursement offered.",
-      "relevance_score": 3,
+      "summary": "55% of consumers plan overnight U.S. travel this summer and expect to dine out. Restaurants positioned for busy summer with travelers including dining as primary vacation activity despite economic concerns.",
+      "relevance_score": 1,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-07-09"
-    }
-  ],
-  "backfill_news": [
-    {
-      "date": "2026-06-26",
-      "headline": "Wind River Environmental Acquires HydroTech Environmental, LLC",
-      "source": "Wind River Environmental",
-      "source_url": "https://www.wrenvironmental.com/blog/2026/june/wind-river-environmental-acquires-hydrotech-envi/",
-      "category": "M&A",
-      "categories": [
-        "M&A"
-      ],
-      "summary": "Wind River Environmental, the leading provider of non-hazardous liquid waste services in the Eastern United States, has acquired HydroTech Environmental, LLC, which specializes in sludge and non-sludge hauling across Pennsylvania. This strategic acquisition strengthens Wind River's local operations and service capabilities in the Mid Atlantic.",
-      "relevance_score": 5,
-      "is_deal": true,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": 40.876,
-      "longitude": -77.822,
-      "zoom_hint": "wide",
-      "first_seen_date": "2026-07-09"
-    }
-  ],
-  "new_deals": [
-    {
-      "date": "2026-06-26",
-      "target": "HydroTech Environmental, LLC",
-      "acquirer": "Wind River Environmental",
-      "sponsor": "",
-      "location": "Pennsylvania",
-      "deal_type": "Add-On",
-      "deal_size": "Undisclosed",
-      "multiple": "N/A",
-      "services": "",
-      "source": "Wind River Environmental",
-      "source_url": "https://www.wrenvironmental.com/blog/2026/june/wind-river-environmental-acquires-hydrotech-envi/",
-      "is_target_market": false,
-      "target_market_name": null,
-      "owner_classification": "Unknown",
-      "deal_summary": null,
-      "date_confidence": "verified",
-      "notes": "Wind River Environmental, the leading provider of non-hazardous liquid waste services in the Eastern United States, has acquired HydroTech Environmental, LLC, which specializes in sludge and non-sludge hauling across Pennsylvania. This strategic acquisition strengthens Wind River's local operations and service capabilities in the Mid Atlantic.",
-      "latitude": 40.876,
-      "longitude": -77.822,
-      "zoom_hint": "wide"
-    }
-  ],
-  "new_news": [
-    {
-      "date": "2026-07-06",
-      "headline": "Class B CDL Driver - Hazardous & Non-Hazardous Waste Transportation",
-      "source": "Indeed.com",
-      "source_url": "https://www.indeed.com/viewjob?jk=aee0eec3b02bedf1",
-      "category": "Labor/Ops",
-      "categories": [
-        "Labor/Ops"
-      ],
-      "summary": "Triumvirate Environmental seeking Class B CDL driver in Somerville, MA for hazardous and non-hazardous waste material transport. Competitive benefits including health insurance, 401k matching, safety training, and tuition reimbursement offered.",
-      "relevance_score": 3,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-07-09"
+      "first_seen_date": "2026-07-10"
     },
     {
-      "date": "2026-06-26",
-      "headline": "Wind River Environmental Acquires HydroTech Environmental, LLC",
-      "source": "Wind River Environmental",
-      "source_url": "https://www.wrenvironmental.com/blog/2026/june/wind-river-environmental-acquires-hydrotech-envi/",
-      "category": "M&A",
+      "date": "2026-07-10",
+      "headline": "New York Cracks Down on PFAS Amid Rising Wave of State Restrictions",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/pfas-pfoas/new-york-cracks-down-on-pfas-amid-rising-wave-of-state-restrictions",
+      "category": "Industry Events",
       "categories": [
-        "M&A"
+        "Industry Events"
       ],
-      "summary": "Wind River Environmental, the leading provider of non-hazardous liquid waste services in the Eastern United States, has acquired HydroTech Environmental, LLC, which specializes in sludge and non-sludge hauling across Pennsylvania. This strategic acquisition strengthens Wind River's local operations and service capabilities in the Mid Atlantic.",
-      "relevance_score": 5,
-      "is_deal": true,
+      "summary": "New York is advancing strict PFAS regulations including requirements for industrial, manufacturing, and sewage treatment plants to monitor and test wastewater for PFAS. The state's measures would establish the strictest rules in the nation, with momentum carrying into 2026 with nearly 100 more state bills introduced across 17 states.",
+      "relevance_score": 3,
+      "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
-      "latitude": 40.876,
-      "longitude": -77.822,
-      "zoom_hint": "wide",
-      "first_seen_date": "2026-07-09"
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-07-10"
+    },
+    {
+      "date": "2026-07-09",
+      "headline": "Tift County Landfill Tipping Fees Increase by Over 50%",
+      "source": "WALB News",
+      "source_url": "https://www.walb.com/2026/07/09/tift-county-landfill-tipping-fees-increase-by-over-50/",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure"
+      ],
+      "summary": "Tift County, Georgia announced significant tipping fee increases effective August 1, 2026, with the Inert Landfill for yard waste rising 55.6% from $18 to $28 per ton. The standard landfill rate increased 11% from $42 to $47 per ton to cover rising operational costs and capital improvements.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-07-10"
+    }
+  ],
+  "recent_news": [
+    {
+      "date": "2026-07-08",
+      "headline": "Michigan Restaurants Fight to Stay Afloat Amid Food, Drink Challenges",
+      "source": "Detroit News",
+      "source_url": "https://www.detroitnews.com/story/entertainment/dining/2026/07/08/michigan-restaurants-fight-to-stay-afloat-amid-food-drink-challenges/90665601007/",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Michigan restaurants face record beef prices, labor cost increases, and declining alcohol sales. 51% of operators saw same-store sales decline in March as profitability pressures mount.",
+      "relevance_score": 1,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-07-10"
+    },
+    {
+      "date": "2026-07-07",
+      "headline": "Restaurant Events LLC Launches Carolinas Restaurant Show",
+      "source": "Watauga Democrat",
+      "source_url": "http://www.wataugademocrat.com/ap/state/restaurant-events-llc-announces-the-launch-of-the-carolinas-restaurant-show-expanding-its-industry-leading/article_30f445d6-8ba3-548f-a530-cf07a5d98177.html",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant",
+        "Industry Events"
+      ],
+      "summary": "New annual Carolinas Restaurant Show announced for June 2027 in Charlotte, expanding trade show portfolio. Event will serve North Carolina and South Carolina hospitality markets worth $59B annually.",
+      "relevance_score": 1,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-07-10"
+    },
+    {
+      "date": "2026-07-07",
+      "headline": "Landfill Gas Continues to Drive U.S. Renewable Natural Gas Growth",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/waste-to-energy/landfill-gas-continues-to-drive-u-s-renewable-natural-gas-growth",
+      "category": "Industry Events",
+      "categories": [
+        "Industry Events",
+        "Technology"
+      ],
+      "summary": "The American Biogas Council released new data showing landfills are the largest source of captured biogas in the U.S., with 598 landfill gas capture systems providing about three-quarters of all biogas captured. Developers brought 20 new landfill gas projects online in 2025, adding 39.9 billion cubic feet of new biogas capture capacity.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-07-10"
+    },
+    {
+      "date": "2026-07-03",
+      "headline": "Crescent Constructors Awarded City of Lewisville Wastewater Treatment Plant Expansion",
+      "source": "PR Newswire",
+      "source_url": "https://www.prnewswire.com/news-releases/crescent-constructors-a-zachry-construction-affiliate-awarded-city-of-lewisville-wastewater-treatment-plant-expansion-302814545.html",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure"
+      ],
+      "summary": "Crescent Constructors won the contract for the Prairie Creek Wastewater Treatment Plant expansion in Lewisville, Texas, increasing capacity from 12 MGD to 16 MGD through aeration basin expansion and system upgrades. Final completion is scheduled for November 2028, with the facility remaining operational during phased construction.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-07-10"
+    }
+  ],
+  "backfill_news": [],
+  "new_deals": [],
+  "new_news": [
+    {
+      "date": "2026-07-10",
+      "headline": "Summer Travel & Dining Trends: Key Developments Shaping Restaurant Demand",
+      "source": "National Restaurant Association",
+      "source_url": "https://restaurant.org/education-and-resources/resource-library/report-summer-travel-could-boost-restaurant-sales/",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "55% of consumers plan overnight U.S. travel this summer and expect to dine out. Restaurants positioned for busy summer with travelers including dining as primary vacation activity despite economic concerns.",
+      "relevance_score": 1,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-07-10"
+    },
+    {
+      "date": "2026-07-10",
+      "headline": "New York Cracks Down on PFAS Amid Rising Wave of State Restrictions",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/pfas-pfoas/new-york-cracks-down-on-pfas-amid-rising-wave-of-state-restrictions",
+      "category": "Industry Events",
+      "categories": [
+        "Industry Events"
+      ],
+      "summary": "New York is advancing strict PFAS regulations including requirements for industrial, manufacturing, and sewage treatment plants to monitor and test wastewater for PFAS. The state's measures would establish the strictest rules in the nation, with momentum carrying into 2026 with nearly 100 more state bills introduced across 17 states.",
+      "relevance_score": 3,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-07-10"
+    },
+    {
+      "date": "2026-07-09",
+      "headline": "Tift County Landfill Tipping Fees Increase by Over 50%",
+      "source": "WALB News",
+      "source_url": "https://www.walb.com/2026/07/09/tift-county-landfill-tipping-fees-increase-by-over-50/",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure"
+      ],
+      "summary": "Tift County, Georgia announced significant tipping fee increases effective August 1, 2026, with the Inert Landfill for yard waste rising 55.6% from $18 to $28 per ton. The standard landfill rate increased 11% from $42 to $47 per ton to cover rising operational costs and capital improvements.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-07-10"
+    },
+    {
+      "date": "2026-07-08",
+      "headline": "Michigan Restaurants Fight to Stay Afloat Amid Food, Drink Challenges",
+      "source": "Detroit News",
+      "source_url": "https://www.detroitnews.com/story/entertainment/dining/2026/07/08/michigan-restaurants-fight-to-stay-afloat-amid-food-drink-challenges/90665601007/",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Michigan restaurants face record beef prices, labor cost increases, and declining alcohol sales. 51% of operators saw same-store sales decline in March as profitability pressures mount.",
+      "relevance_score": 1,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-07-10"
+    },
+    {
+      "date": "2026-07-07",
+      "headline": "Restaurant Events LLC Launches Carolinas Restaurant Show",
+      "source": "Watauga Democrat",
+      "source_url": "http://www.wataugademocrat.com/ap/state/restaurant-events-llc-announces-the-launch-of-the-carolinas-restaurant-show-expanding-its-industry-leading/article_30f445d6-8ba3-548f-a530-cf07a5d98177.html",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant",
+        "Industry Events"
+      ],
+      "summary": "New annual Carolinas Restaurant Show announced for June 2027 in Charlotte, expanding trade show portfolio. Event will serve North Carolina and South Carolina hospitality markets worth $59B annually.",
+      "relevance_score": 1,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-07-10"
+    },
+    {
+      "date": "2026-07-07",
+      "headline": "Landfill Gas Continues to Drive U.S. Renewable Natural Gas Growth",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/waste-to-energy/landfill-gas-continues-to-drive-u-s-renewable-natural-gas-growth",
+      "category": "Industry Events",
+      "categories": [
+        "Industry Events",
+        "Technology"
+      ],
+      "summary": "The American Biogas Council released new data showing landfills are the largest source of captured biogas in the U.S., with 598 landfill gas capture systems providing about three-quarters of all biogas captured. Developers brought 20 new landfill gas projects online in 2025, adding 39.9 billion cubic feet of new biogas capture capacity.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-07-10"
+    },
+    {
+      "date": "2026-07-03",
+      "headline": "Crescent Constructors Awarded City of Lewisville Wastewater Treatment Plant Expansion",
+      "source": "PR Newswire",
+      "source_url": "https://www.prnewswire.com/news-releases/crescent-constructors-a-zachry-construction-affiliate-awarded-city-of-lewisville-wastewater-treatment-plant-expansion-302814545.html",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure"
+      ],
+      "summary": "Crescent Constructors won the contract for the Prairie Creek Wastewater Treatment Plant expansion in Lewisville, Texas, increasing capacity from 12 MGD to 16 MGD through aeration basin expansion and system upgrades. Final completion is scheduled for November 2028, with the facility remaining operational during phased construction.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-07-10"
     }
   ]
 }
