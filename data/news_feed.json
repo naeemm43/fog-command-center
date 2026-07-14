@@ -77,6 +77,25 @@
     "first_seen_date": "2026-07-13"
   },
   {
+    "date": "2026-07-09",
+    "headline": "Darling Ingredients to Release Second Quarter 2026 Financial Results",
+    "source": "Business Wire / Darling Ingredients",
+    "source_url": "https://www.darlingii.com/media/news/20260709-darling-ingredients-to-release-second-quarter-2026-financial-results",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co."
+    ],
+    "summary": "Darling Ingredients announced it will host a conference call on July 30, 2026, at 9 a.m. ET to discuss Q2 2026 financial results. The company processes animal by-products and produces renewable fuels through its joint venture Diamond Green Diesel.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-07-14"
+  },
+  {
     "date": "2026-07-08",
     "headline": "Clean Harbors to Announce Second-Quarter 2026 Financial Results on July 29",
     "source": "Business Wire",
@@ -133,6 +152,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-07-13"
+  },
+  {
+    "date": "2026-07-08",
+    "headline": "Operation Safe Driver Week 2026: Tank Operations Face July Enforcement Scrutiny",
+    "source": "Tank Transport",
+    "source_url": "https://tanktransport.com/2026/07/operation-safe-driver-week-2026/",
+    "category": "Labor/Ops",
+    "categories": [
+      "Labor/Ops"
+    ],
+    "summary": "Wastewater, food-grade, petroleum, and other tank operations face heightened enforcement during Operation Safe Driver Week 2026 in mid-July. The campaign targets unsafe driving behaviors including hard cornering and excessive speed on ramps, which pose elevated risks for tanker vehicles carrying liquids.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-07-14"
   },
   {
     "date": "2026-07-07",
@@ -5620,63 +5658,6 @@
     "categories": [
       "Infrastructure",
       "Public Co."
-    ]
-  },
-  {
-    "date": "2026-01-15",
-    "headline": "Solid Waste Collection Industry Will Add 14,200 Collection Driver Jobs by 2026",
-    "source": "National Waste & Recycling Association",
-    "source_url": "https://wasterecycling.org/driver-shortage-and-workforce-development/",
-    "category": "Labor/Ops",
-    "summary": "By 2026, the solid waste collection industry will have 14,200 new jobs for collection drivers and riders; 1,900 new jobs for diesel service technicians and mechanics; and 300 new jobs for welders, cutters, solderers, and brazers.",
-    "relevance_score": 2,
-    "is_target_market": false,
-    "target_market_name": null,
-    "is_deal": false,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-01-15",
-    "categories": [
-      "Labor/Ops"
-    ]
-  },
-  {
-    "date": "2026-01-15",
-    "headline": "Grease Trap Monitoring Platforms Scale to Enterprise Portfolio Management",
-    "source": "Envigilance",
-    "source_url": "https://envigilance.com/water-leak-detection/grease-trap-monitoring/",
-    "category": "Technology",
-    "summary": "Ultrasonic level sensors provide non-contact measurement of grease layer thickness and overall fill levels without requiring components that contact grease directly, providing reliable measurement requiring minimal maintenance compared to contact-based alternatives. Cloud-based platforms aggregate data from multiple grease traps into unified dashboards, enabling centralized management that scales from single locations to enterprise portfolios efficiently.",
-    "relevance_score": 4,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-01-15",
-    "categories": [
-      "Technology"
-    ]
-  },
-  {
-    "date": "2026-01-15",
-    "headline": "Grease Trap Monitoring: Prevent Costly Overflows Guide 2026",
-    "source": "Envigilance",
-    "source_url": "https://envigilance.com/water-leak-detection/grease-trap-monitoring/",
-    "category": "Technology",
-    "summary": "2026 grease trap monitoring strategies using ultrasonic level sensors, battery-powered cellular sensors, and cloud-based platforms providing facility-wide visibility with automated alerting for service threshold management.",
-    "relevance_score": 4,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-01-15",
-    "categories": [
-      "Technology"
     ]
   },
   {

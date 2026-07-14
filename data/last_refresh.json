@@ -1,69 +1,47 @@
 {
-  "timestamp": "2026-07-13T14:48:06Z",
-  "added_news_count": 3,
+  "timestamp": "2026-07-14T13:58:54Z",
+  "added_news_count": 2,
   "added_deals_count": 0,
-  "archived_count": 0,
+  "archived_count": 3,
   "new_today_news": [],
   "recent_news": [
     {
       "date": "2026-07-09",
-      "headline": "Darling Ingredients Q2 2026 call set for July 30",
-      "source": "StockTitan",
-      "source_url": "https://www.stocktitan.net/news/DAR/darling-ingredients-inc-to-release-second-quarter-2026-financial-36bcbzo9k8hk.html",
-      "category": "Renewable Fuels",
+      "headline": "Darling Ingredients to Release Second Quarter 2026 Financial Results",
+      "source": "Business Wire / Darling Ingredients",
+      "source_url": "https://www.darlingii.com/media/news/20260709-darling-ingredients-to-release-second-quarter-2026-financial-results",
+      "category": "Public Co.",
       "categories": [
-        "Renewable Fuels",
         "Public Co."
       ],
-      "summary": "Darling Ingredients announced Q2 2026 earnings call scheduled for July 30, 2026. The company processes about 15% of the world's animal agricultural by-products and produces 30% of the world's collagen, while serving as one of the largest renewable energy producers.",
-      "relevance_score": 5,
+      "summary": "Darling Ingredients announced it will host a conference call on July 30, 2026, at 9 a.m. ET to discuss Q2 2026 financial results. The company processes animal by-products and produces renewable fuels through its joint venture Diamond Green Diesel.",
+      "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-07-13"
+      "first_seen_date": "2026-07-14"
     },
     {
       "date": "2026-07-08",
-      "headline": "Darling Ingredients refines its renewable fuels story as investors weigh long term demand",
-      "source": "AD HOC NEWS",
-      "source_url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/darling-ingredients-refines-its-renewable-fuels-story-as-investors-weigh/69724295",
-      "category": "Renewable Fuels",
+      "headline": "Operation Safe Driver Week 2026: Tank Operations Face July Enforcement Scrutiny",
+      "source": "Tank Transport",
+      "source_url": "https://tanktransport.com/2026/07/operation-safe-driver-week-2026/",
+      "category": "Labor/Ops",
       "categories": [
-        "Renewable Fuels",
-        "Public Co."
+        "Labor/Ops"
       ],
-      "summary": "Darling Ingredients leverages its waste-to-value model and renewable diesel partnerships to support growth, with investors evaluating demand for low-carbon fuels and sustainable ingredients. The company operates a global platform converting animal by-products, used cooking oil, and residual streams into specialty ingredients and renewable fuels.",
-      "relevance_score": 5,
+      "summary": "Wastewater, food-grade, petroleum, and other tank operations face heightened enforcement during Operation Safe Driver Week 2026 in mid-July. The campaign targets unsafe driving behaviors including hard cornering and excessive speed on ramps, which pose elevated risks for tanker vehicles carrying liquids.",
+      "relevance_score": 3,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-07-13"
-    },
-    {
-      "date": "2026-07-06",
-      "headline": "Darling Ingredients explores strategic paths as sustainable feedstock demand evolves",
-      "source": "AD HOC NEWS",
-      "source_url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/darling-ingredients-explores-strategic-paths-as-sustainable-feedstock/69708344",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels",
-        "Public Co."
-      ],
-      "summary": "Darling Ingredients faces evolving landscape in renewable fuels and specialty ingredients, prompting review of portfolio, capital allocation and long-term growth strategy. The company supplies animal-derived and other feedstocks supporting renewable fuels, food, feed and pharmaceutical markets.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-07-13"
+      "first_seen_date": "2026-07-14"
     }
   ],
   "backfill_news": [],
@@ -71,63 +49,41 @@
   "new_news": [
     {
       "date": "2026-07-09",
-      "headline": "Darling Ingredients Q2 2026 call set for July 30",
-      "source": "StockTitan",
-      "source_url": "https://www.stocktitan.net/news/DAR/darling-ingredients-inc-to-release-second-quarter-2026-financial-36bcbzo9k8hk.html",
-      "category": "Renewable Fuels",
+      "headline": "Darling Ingredients to Release Second Quarter 2026 Financial Results",
+      "source": "Business Wire / Darling Ingredients",
+      "source_url": "https://www.darlingii.com/media/news/20260709-darling-ingredients-to-release-second-quarter-2026-financial-results",
+      "category": "Public Co.",
       "categories": [
-        "Renewable Fuels",
         "Public Co."
       ],
-      "summary": "Darling Ingredients announced Q2 2026 earnings call scheduled for July 30, 2026. The company processes about 15% of the world's animal agricultural by-products and produces 30% of the world's collagen, while serving as one of the largest renewable energy producers.",
-      "relevance_score": 5,
+      "summary": "Darling Ingredients announced it will host a conference call on July 30, 2026, at 9 a.m. ET to discuss Q2 2026 financial results. The company processes animal by-products and produces renewable fuels through its joint venture Diamond Green Diesel.",
+      "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-07-13"
+      "first_seen_date": "2026-07-14"
     },
     {
       "date": "2026-07-08",
-      "headline": "Darling Ingredients refines its renewable fuels story as investors weigh long term demand",
-      "source": "AD HOC NEWS",
-      "source_url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/darling-ingredients-refines-its-renewable-fuels-story-as-investors-weigh/69724295",
-      "category": "Renewable Fuels",
+      "headline": "Operation Safe Driver Week 2026: Tank Operations Face July Enforcement Scrutiny",
+      "source": "Tank Transport",
+      "source_url": "https://tanktransport.com/2026/07/operation-safe-driver-week-2026/",
+      "category": "Labor/Ops",
       "categories": [
-        "Renewable Fuels",
-        "Public Co."
+        "Labor/Ops"
       ],
-      "summary": "Darling Ingredients leverages its waste-to-value model and renewable diesel partnerships to support growth, with investors evaluating demand for low-carbon fuels and sustainable ingredients. The company operates a global platform converting animal by-products, used cooking oil, and residual streams into specialty ingredients and renewable fuels.",
-      "relevance_score": 5,
+      "summary": "Wastewater, food-grade, petroleum, and other tank operations face heightened enforcement during Operation Safe Driver Week 2026 in mid-July. The campaign targets unsafe driving behaviors including hard cornering and excessive speed on ramps, which pose elevated risks for tanker vehicles carrying liquids.",
+      "relevance_score": 3,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-07-13"
-    },
-    {
-      "date": "2026-07-06",
-      "headline": "Darling Ingredients explores strategic paths as sustainable feedstock demand evolves",
-      "source": "AD HOC NEWS",
-      "source_url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/darling-ingredients-explores-strategic-paths-as-sustainable-feedstock/69708344",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels",
-        "Public Co."
-      ],
-      "summary": "Darling Ingredients faces evolving landscape in renewable fuels and specialty ingredients, prompting review of portfolio, capital allocation and long-term growth strategy. The company supplies animal-derived and other feedstocks supporting renewable fuels, food, feed and pharmaceutical markets.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-07-13"
+      "first_seen_date": "2026-07-14"
     }
   ]
 }

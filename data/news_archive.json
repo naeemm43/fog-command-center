@@ -1,5 +1,62 @@
 [
   {
+    "date": "2026-01-15",
+    "headline": "Solid Waste Collection Industry Will Add 14,200 Collection Driver Jobs by 2026",
+    "source": "National Waste & Recycling Association",
+    "source_url": "https://wasterecycling.org/driver-shortage-and-workforce-development/",
+    "category": "Labor/Ops",
+    "summary": "By 2026, the solid waste collection industry will have 14,200 new jobs for collection drivers and riders; 1,900 new jobs for diesel service technicians and mechanics; and 300 new jobs for welders, cutters, solderers, and brazers.",
+    "relevance_score": 2,
+    "is_target_market": false,
+    "target_market_name": null,
+    "is_deal": false,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-01-15",
+    "categories": [
+      "Labor/Ops"
+    ]
+  },
+  {
+    "date": "2026-01-15",
+    "headline": "Grease Trap Monitoring Platforms Scale to Enterprise Portfolio Management",
+    "source": "Envigilance",
+    "source_url": "https://envigilance.com/water-leak-detection/grease-trap-monitoring/",
+    "category": "Technology",
+    "summary": "Ultrasonic level sensors provide non-contact measurement of grease layer thickness and overall fill levels without requiring components that contact grease directly, providing reliable measurement requiring minimal maintenance compared to contact-based alternatives. Cloud-based platforms aggregate data from multiple grease traps into unified dashboards, enabling centralized management that scales from single locations to enterprise portfolios efficiently.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-01-15",
+    "categories": [
+      "Technology"
+    ]
+  },
+  {
+    "date": "2026-01-15",
+    "headline": "Grease Trap Monitoring: Prevent Costly Overflows Guide 2026",
+    "source": "Envigilance",
+    "source_url": "https://envigilance.com/water-leak-detection/grease-trap-monitoring/",
+    "category": "Technology",
+    "summary": "2026 grease trap monitoring strategies using ultrasonic level sensors, battery-powered cellular sensors, and cloud-based platforms providing facility-wide visibility with automated alerting for service threshold management.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-01-15",
+    "categories": [
+      "Technology"
+    ]
+  },
+  {
     "date": "2026-01-09",
     "headline": "UCO Supply-Demand Imbalance Continues: Global Collection Falls Short of Biofuel Targets",
     "source": "Fastmarkets",
