@@ -1,20 +1,19 @@
 {
-  "timestamp": "2026-07-14T13:58:54Z",
-  "added_news_count": 2,
+  "timestamp": "2026-07-15T13:55:37Z",
+  "added_news_count": 1,
   "added_deals_count": 0,
-  "archived_count": 3,
-  "new_today_news": [],
-  "recent_news": [
+  "archived_count": 1,
+  "new_today_news": [
     {
-      "date": "2026-07-09",
-      "headline": "Darling Ingredients to Release Second Quarter 2026 Financial Results",
-      "source": "Business Wire / Darling Ingredients",
-      "source_url": "https://www.darlingii.com/media/news/20260709-darling-ingredients-to-release-second-quarter-2026-financial-results",
-      "category": "Public Co.",
+      "date": "2026-07-15",
+      "headline": "BPCL, Akasa Air join hands to boost Sustainable Aviation Fuel adoption in India",
+      "source": "Business Today",
+      "source_url": "https://www.businesstoday.in/latest/corporate/story/bpcl-akasa-air-sustainable-aviation-fuel-india-saf-blended-atf-mou-543135-2026-07-15",
+      "category": "Renewable Fuels",
       "categories": [
-        "Public Co."
+        "Renewable Fuels"
       ],
-      "summary": "Darling Ingredients announced it will host a conference call on July 30, 2026, at 9 a.m. ET to discuss Q2 2026 financial results. The company processes animal by-products and produces renewable fuels through its joint venture Diamond Green Diesel.",
+      "summary": "BPCL and Akasa Air signed an MoU to collaborate on sustainable aviation fuel development in India. BPCL is investing in a 61 KTPA SAF production facility at its Mumbai Refinery, with fuel to be produced from renewable feedstocks including used cooking oil.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -22,41 +21,23 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-07-14"
-    },
-    {
-      "date": "2026-07-08",
-      "headline": "Operation Safe Driver Week 2026: Tank Operations Face July Enforcement Scrutiny",
-      "source": "Tank Transport",
-      "source_url": "https://tanktransport.com/2026/07/operation-safe-driver-week-2026/",
-      "category": "Labor/Ops",
-      "categories": [
-        "Labor/Ops"
-      ],
-      "summary": "Wastewater, food-grade, petroleum, and other tank operations face heightened enforcement during Operation Safe Driver Week 2026 in mid-July. The campaign targets unsafe driving behaviors including hard cornering and excessive speed on ramps, which pose elevated risks for tanker vehicles carrying liquids.",
-      "relevance_score": 3,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-07-14"
+      "first_seen_date": "2026-07-15"
     }
   ],
+  "recent_news": [],
   "backfill_news": [],
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-07-09",
-      "headline": "Darling Ingredients to Release Second Quarter 2026 Financial Results",
-      "source": "Business Wire / Darling Ingredients",
-      "source_url": "https://www.darlingii.com/media/news/20260709-darling-ingredients-to-release-second-quarter-2026-financial-results",
-      "category": "Public Co.",
+      "date": "2026-07-15",
+      "headline": "BPCL, Akasa Air join hands to boost Sustainable Aviation Fuel adoption in India",
+      "source": "Business Today",
+      "source_url": "https://www.businesstoday.in/latest/corporate/story/bpcl-akasa-air-sustainable-aviation-fuel-india-saf-blended-atf-mou-543135-2026-07-15",
+      "category": "Renewable Fuels",
       "categories": [
-        "Public Co."
+        "Renewable Fuels"
       ],
-      "summary": "Darling Ingredients announced it will host a conference call on July 30, 2026, at 9 a.m. ET to discuss Q2 2026 financial results. The company processes animal by-products and produces renewable fuels through its joint venture Diamond Green Diesel.",
+      "summary": "BPCL and Akasa Air signed an MoU to collaborate on sustainable aviation fuel development in India. BPCL is investing in a 61 KTPA SAF production facility at its Mumbai Refinery, with fuel to be produced from renewable feedstocks including used cooking oil.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -64,26 +45,7 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-07-14"
-    },
-    {
-      "date": "2026-07-08",
-      "headline": "Operation Safe Driver Week 2026: Tank Operations Face July Enforcement Scrutiny",
-      "source": "Tank Transport",
-      "source_url": "https://tanktransport.com/2026/07/operation-safe-driver-week-2026/",
-      "category": "Labor/Ops",
-      "categories": [
-        "Labor/Ops"
-      ],
-      "summary": "Wastewater, food-grade, petroleum, and other tank operations face heightened enforcement during Operation Safe Driver Week 2026 in mid-July. The campaign targets unsafe driving behaviors including hard cornering and excessive speed on ramps, which pose elevated risks for tanker vehicles carrying liquids.",
-      "relevance_score": 3,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-07-14"
+      "first_seen_date": "2026-07-15"
     }
   ]
 }

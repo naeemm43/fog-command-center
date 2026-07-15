@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-07-15",
+    "headline": "BPCL, Akasa Air join hands to boost Sustainable Aviation Fuel adoption in India",
+    "source": "Business Today",
+    "source_url": "https://www.businesstoday.in/latest/corporate/story/bpcl-akasa-air-sustainable-aviation-fuel-india-saf-blended-atf-mou-543135-2026-07-15",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels"
+    ],
+    "summary": "BPCL and Akasa Air signed an MoU to collaborate on sustainable aviation fuel development in India. BPCL is investing in a 61 KTPA SAF production facility at its Mumbai Refinery, with fuel to be produced from renewable feedstocks including used cooking oil.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-07-15"
+  },
+  {
     "date": "2026-07-10",
     "headline": "Summer Travel & Dining Trends: Key Developments Shaping Restaurant Demand",
     "source": "National Restaurant Association",
@@ -5638,26 +5657,6 @@
     "first_seen_date": "2026-01-18",
     "categories": [
       "Regulatory"
-    ]
-  },
-  {
-    "date": "2026-01-16",
-    "headline": "Tipping Fee Increase at Columbia-Shuswap Refuse Facilities",
-    "source": "Vernon Morning Star",
-    "source_url": "https://vernonmorningstar.com/2026/01/16/tipping-fee-increase-new-user-fee-coming-to-columbia-shuswap-refuse-facilities/",
-    "category": "Infrastructure",
-    "summary": "Refuse disposal tipping fees increased from $90 to $100 per ton, while mixed loads without recyclables removed increased to $350 per ton from $270. The increases address operational cost pressures in the regional waste management system.",
-    "relevance_score": 2,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-01-16",
-    "categories": [
-      "Infrastructure",
-      "Public Co."
     ]
   },
   {
