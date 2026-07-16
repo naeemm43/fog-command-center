@@ -1,27 +1,46 @@
 {
-  "timestamp": "2026-07-15T13:55:37Z",
-  "added_news_count": 1,
+  "timestamp": "2026-07-16T14:07:11Z",
+  "added_news_count": 2,
   "added_deals_count": 0,
-  "archived_count": 1,
+  "archived_count": 0,
   "new_today_news": [
     {
-      "date": "2026-07-15",
-      "headline": "BPCL, Akasa Air join hands to boost Sustainable Aviation Fuel adoption in India",
-      "source": "Business Today",
-      "source_url": "https://www.businesstoday.in/latest/corporate/story/bpcl-akasa-air-sustainable-aviation-fuel-india-saf-blended-atf-mou-543135-2026-07-15",
+      "date": "2026-07-16",
+      "headline": "Axens launches France's first industrial-scale Sustainable Aviation Fuel (SAF) unit based on advanced bioethanol using Jetanol\u2122 technology",
+      "source": "BioEnergy Times",
+      "source_url": "https://bioenergytimes.com/axens-launches-frances-first-industrial-scale-sustainable-aviation-fuel-saf-unit-based-on-advanced-bioethanol-using-jetanol-technology/",
       "category": "Renewable Fuels",
       "categories": [
         "Renewable Fuels"
       ],
-      "summary": "BPCL and Akasa Air signed an MoU to collaborate on sustainable aviation fuel development in India. BPCL is investing in a 61 KTPA SAF production facility at its Mumbai Refinery, with fuel to be produced from renewable feedstocks including used cooking oil.",
-      "relevance_score": 4,
+      "summary": "Axens is launching a French industrial-scale SAF unit using Jetanol technology, targeting 50,000 tonnes per year by 2030, expanding beyond traditional UCO and animal fat-based production.",
+      "relevance_score": 3,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-07-15"
+      "first_seen_date": "2026-07-16"
+    },
+    {
+      "date": "2026-07-15",
+      "headline": "Is Darling Ingredients (DAR) Earnings Momentum Quietly Reframing Its Long-Term Investment Narrative?",
+      "source": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/darling-ingredients-dar-earnings-momentum-191049565.html",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "Analysts highlight Darling Ingredients' Q1 2026 performance with $1.55B in sales and $134.3M net income, reversing a loss from prior year. The company shows strong earnings momentum ahead of its Q2 2026 release, with potential for another earnings beat.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-07-16"
     }
   ],
   "recent_news": [],
@@ -29,23 +48,42 @@
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-07-15",
-      "headline": "BPCL, Akasa Air join hands to boost Sustainable Aviation Fuel adoption in India",
-      "source": "Business Today",
-      "source_url": "https://www.businesstoday.in/latest/corporate/story/bpcl-akasa-air-sustainable-aviation-fuel-india-saf-blended-atf-mou-543135-2026-07-15",
+      "date": "2026-07-16",
+      "headline": "Axens launches France's first industrial-scale Sustainable Aviation Fuel (SAF) unit based on advanced bioethanol using Jetanol\u2122 technology",
+      "source": "BioEnergy Times",
+      "source_url": "https://bioenergytimes.com/axens-launches-frances-first-industrial-scale-sustainable-aviation-fuel-saf-unit-based-on-advanced-bioethanol-using-jetanol-technology/",
       "category": "Renewable Fuels",
       "categories": [
         "Renewable Fuels"
       ],
-      "summary": "BPCL and Akasa Air signed an MoU to collaborate on sustainable aviation fuel development in India. BPCL is investing in a 61 KTPA SAF production facility at its Mumbai Refinery, with fuel to be produced from renewable feedstocks including used cooking oil.",
-      "relevance_score": 4,
+      "summary": "Axens is launching a French industrial-scale SAF unit using Jetanol technology, targeting 50,000 tonnes per year by 2030, expanding beyond traditional UCO and animal fat-based production.",
+      "relevance_score": 3,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-07-15"
+      "first_seen_date": "2026-07-16"
+    },
+    {
+      "date": "2026-07-15",
+      "headline": "Is Darling Ingredients (DAR) Earnings Momentum Quietly Reframing Its Long-Term Investment Narrative?",
+      "source": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/darling-ingredients-dar-earnings-momentum-191049565.html",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "Analysts highlight Darling Ingredients' Q1 2026 performance with $1.55B in sales and $134.3M net income, reversing a loss from prior year. The company shows strong earnings momentum ahead of its Q2 2026 release, with potential for another earnings beat.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-07-16"
     }
   ]
 }
