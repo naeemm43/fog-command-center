@@ -1,19 +1,21 @@
 {
-  "timestamp": "2026-07-16T14:07:11Z",
-  "added_news_count": 2,
+  "timestamp": "2026-07-17T13:51:32Z",
+  "added_news_count": 1,
   "added_deals_count": 0,
-  "archived_count": 0,
-  "new_today_news": [
+  "archived_count": 1,
+  "new_today_news": [],
+  "recent_news": [],
+  "backfill_news": [
     {
-      "date": "2026-07-16",
-      "headline": "Axens launches France's first industrial-scale Sustainable Aviation Fuel (SAF) unit based on advanced bioethanol using Jetanol\u2122 technology",
-      "source": "BioEnergy Times",
-      "source_url": "https://bioenergytimes.com/axens-launches-frances-first-industrial-scale-sustainable-aviation-fuel-saf-unit-based-on-advanced-bioethanol-using-jetanol-technology/",
-      "category": "Renewable Fuels",
+      "date": "2026-07-09",
+      "headline": "Westport to Showcase High-Pressure CNG Fuel System for North American Heavy-Duty Fleets at ACT Expo 2026",
+      "source": "Westport Fuel Systems Inc. (SEC Filing)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001370416/000117184326002880/exh_991.htm",
+      "category": "Technology",
       "categories": [
-        "Renewable Fuels"
+        "Technology"
       ],
-      "summary": "Axens is launching a French industrial-scale SAF unit using Jetanol technology, targeting 50,000 tonnes per year by 2030, expanding beyond traditional UCO and animal fat-based production.",
+      "summary": "Westport announced demonstration of next-generation compressed natural gas (CNG) fuel storage system combined with Cespira's HPDI fuel system for heavy-duty trucks at ACT Expo 2026. This technology targets waste collection and transport fleets with diesel-equivalent performance.",
       "relevance_score": 3,
       "is_deal": false,
       "is_target_market": false,
@@ -21,42 +23,21 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-07-16"
-    },
-    {
-      "date": "2026-07-15",
-      "headline": "Is Darling Ingredients (DAR) Earnings Momentum Quietly Reframing Its Long-Term Investment Narrative?",
-      "source": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/markets/stocks/articles/darling-ingredients-dar-earnings-momentum-191049565.html",
-      "category": "Public Co.",
-      "categories": [
-        "Public Co."
-      ],
-      "summary": "Analysts highlight Darling Ingredients' Q1 2026 performance with $1.55B in sales and $134.3M net income, reversing a loss from prior year. The company shows strong earnings momentum ahead of its Q2 2026 release, with potential for another earnings beat.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-07-16"
+      "first_seen_date": "2026-07-17"
     }
   ],
-  "recent_news": [],
-  "backfill_news": [],
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-07-16",
-      "headline": "Axens launches France's first industrial-scale Sustainable Aviation Fuel (SAF) unit based on advanced bioethanol using Jetanol\u2122 technology",
-      "source": "BioEnergy Times",
-      "source_url": "https://bioenergytimes.com/axens-launches-frances-first-industrial-scale-sustainable-aviation-fuel-saf-unit-based-on-advanced-bioethanol-using-jetanol-technology/",
-      "category": "Renewable Fuels",
+      "date": "2026-07-09",
+      "headline": "Westport to Showcase High-Pressure CNG Fuel System for North American Heavy-Duty Fleets at ACT Expo 2026",
+      "source": "Westport Fuel Systems Inc. (SEC Filing)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001370416/000117184326002880/exh_991.htm",
+      "category": "Technology",
       "categories": [
-        "Renewable Fuels"
+        "Technology"
       ],
-      "summary": "Axens is launching a French industrial-scale SAF unit using Jetanol technology, targeting 50,000 tonnes per year by 2030, expanding beyond traditional UCO and animal fat-based production.",
+      "summary": "Westport announced demonstration of next-generation compressed natural gas (CNG) fuel storage system combined with Cespira's HPDI fuel system for heavy-duty trucks at ACT Expo 2026. This technology targets waste collection and transport fleets with diesel-equivalent performance.",
       "relevance_score": 3,
       "is_deal": false,
       "is_target_market": false,
@@ -64,26 +45,7 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-07-16"
-    },
-    {
-      "date": "2026-07-15",
-      "headline": "Is Darling Ingredients (DAR) Earnings Momentum Quietly Reframing Its Long-Term Investment Narrative?",
-      "source": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/markets/stocks/articles/darling-ingredients-dar-earnings-momentum-191049565.html",
-      "category": "Public Co.",
-      "categories": [
-        "Public Co."
-      ],
-      "summary": "Analysts highlight Darling Ingredients' Q1 2026 performance with $1.55B in sales and $134.3M net income, reversing a loss from prior year. The company shows strong earnings momentum ahead of its Q2 2026 release, with potential for another earnings beat.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-07-16"
+      "first_seen_date": "2026-07-17"
     }
   ]
 }
