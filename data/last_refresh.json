@@ -1,21 +1,38 @@
 {
-  "timestamp": "2026-07-17T13:51:32Z",
-  "added_news_count": 1,
+  "timestamp": "2026-07-20T14:20:59Z",
+  "added_news_count": 5,
   "added_deals_count": 0,
   "archived_count": 1,
-  "new_today_news": [],
-  "recent_news": [],
-  "backfill_news": [
+  "new_today_news": [
     {
-      "date": "2026-07-09",
-      "headline": "Westport to Showcase High-Pressure CNG Fuel System for North American Heavy-Duty Fleets at ACT Expo 2026",
-      "source": "Westport Fuel Systems Inc. (SEC Filing)",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/0001370416/000117184326002880/exh_991.htm",
-      "category": "Technology",
+      "date": "2026-07-20",
+      "headline": "Thailand taps used cooking oil to boost sustainable aviation fuel production",
+      "source": "Dining and Cooking",
+      "source_url": "https://www.diningandcooking.com/2734942/thailand-taps-used-cooking-oil-to-boost-sustainable-aviation-fuel-production/",
+      "category": "Renewable Fuels",
       "categories": [
-        "Technology"
+        "Renewable Fuels"
       ],
-      "summary": "Westport announced demonstration of next-generation compressed natural gas (CNG) fuel storage system combined with Cespira's HPDI fuel system for heavy-duty trucks at ACT Expo 2026. This technology targets waste collection and transport fleets with diesel-equivalent performance.",
+      "summary": "Thailand is accelerating SAF production from used cooking oil to reduce aviation emissions and strengthen energy security. The country aims for SAF to account for 0.5-1% of international flight fuel consumption in 2026, with potential CO2 reductions of 60,000 tonnes annually.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-07-20"
+    },
+    {
+      "date": "2026-07-20",
+      "headline": "Senators Markey and Warren, Rep. Trahan Introduce Water Emergency and Technical Assistance Act",
+      "source": "U.S. Senator Ed Markey of Massachusetts",
+      "source_url": "https://www.markey.senate.gov/news/press-releases/sens-markey-and-warren-rep-trahan-introduce-legislation-to-provide-grants-for-local-water-infrastructure-emergencies",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure"
+      ],
+      "summary": "When severe rainstorms this July caused a sewer pipe to break in Haverhill, Massachusetts, millions of gallons of untreated wastewater flowed into the Merrimack River, endangering public safety and resulting in economic losses from beach and fisheries closures. The legislation would amend the Safe Drinking Water Act and the Federal Water Pollution Control Act to authorize emergency assistance and grants for clean water and drinking water infrastructure.",
       "relevance_score": 3,
       "is_deal": false,
       "is_target_market": false,
@@ -23,21 +40,103 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-07-17"
+      "first_seen_date": "2026-07-20"
+    }
+  ],
+  "recent_news": [
+    {
+      "date": "2026-07-18",
+      "headline": "Senate EPW Committee Releases Water Resources Development Act of 2026 with $35 Billion in Water Infrastructure Funding",
+      "source": "National Association of Counties",
+      "source_url": "https://www.naco.org/news/senate-begins-reauthorization-process-state-revolving-fund-programs-and-other-water",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure"
+      ],
+      "summary": "On July 13, leaders of the U.S. Senate Environment and Public Works (EPW) Committee released the text of its Water Resources Development Act of 2026 (WRDA 2026), which would reauthorize the Clean Water and Drinking Water State Revolving Fund (SRF) programs. The bill would authorize $14 billion over four years for the Clean Water SRF (CWSRF) and $16.5 over five years for the Drinking Water SRF (DWSRF).",
+      "relevance_score": 3,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-07-20"
+    },
+    {
+      "date": "2026-07-16",
+      "headline": "Inside Modern Waste Fleets: Efficiency Trends for 2026",
+      "source": "Custom Truck One Source",
+      "source_url": "https://www.customtruck.com/blog/inside-modern-waste-fleets-efficiency-trends-for-2026/",
+      "category": "Technology",
+      "categories": [
+        "Technology"
+      ],
+      "summary": "Analysis of 2026 waste fleet technologies including battery-electric refuse trucks reaching TCO parity with diesel, CNG alternatives, AI-driven predictive maintenance through telematics, and route optimization technologies. Discusses how regenerative braking and electric PTOs benefit waste collection operations.",
+      "relevance_score": 3,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-07-20"
+    }
+  ],
+  "backfill_news": [
+    {
+      "date": null,
+      "headline": "[Date unverified] Portable Toilet & Liquid Waste Software",
+      "source": "CRO Software",
+      "source_url": "https://crosoftware.com/industries/liquid-waste-software/",
+      "category": "Technology",
+      "categories": [
+        "Technology",
+        "Public Co.",
+        "Regulatory"
+      ],
+      "summary": "CRO's liquid waste management software for septic, porta potty, and grease trap services with real-time asset tracking, FOG regulation compliance, smart reporting tools, and customizable service frequencies. Supports both owner-operators and multinational enterprises.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-07-20"
     }
   ],
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-07-09",
-      "headline": "Westport to Showcase High-Pressure CNG Fuel System for North American Heavy-Duty Fleets at ACT Expo 2026",
-      "source": "Westport Fuel Systems Inc. (SEC Filing)",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/0001370416/000117184326002880/exh_991.htm",
-      "category": "Technology",
+      "date": "2026-07-20",
+      "headline": "Thailand taps used cooking oil to boost sustainable aviation fuel production",
+      "source": "Dining and Cooking",
+      "source_url": "https://www.diningandcooking.com/2734942/thailand-taps-used-cooking-oil-to-boost-sustainable-aviation-fuel-production/",
+      "category": "Renewable Fuels",
       "categories": [
-        "Technology"
+        "Renewable Fuels"
       ],
-      "summary": "Westport announced demonstration of next-generation compressed natural gas (CNG) fuel storage system combined with Cespira's HPDI fuel system for heavy-duty trucks at ACT Expo 2026. This technology targets waste collection and transport fleets with diesel-equivalent performance.",
+      "summary": "Thailand is accelerating SAF production from used cooking oil to reduce aviation emissions and strengthen energy security. The country aims for SAF to account for 0.5-1% of international flight fuel consumption in 2026, with potential CO2 reductions of 60,000 tonnes annually.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-07-20"
+    },
+    {
+      "date": "2026-07-20",
+      "headline": "Senators Markey and Warren, Rep. Trahan Introduce Water Emergency and Technical Assistance Act",
+      "source": "U.S. Senator Ed Markey of Massachusetts",
+      "source_url": "https://www.markey.senate.gov/news/press-releases/sens-markey-and-warren-rep-trahan-introduce-legislation-to-provide-grants-for-local-water-infrastructure-emergencies",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure"
+      ],
+      "summary": "When severe rainstorms this July caused a sewer pipe to break in Haverhill, Massachusetts, millions of gallons of untreated wastewater flowed into the Merrimack River, endangering public safety and resulting in economic losses from beach and fisheries closures. The legislation would amend the Safe Drinking Water Act and the Federal Water Pollution Control Act to authorize emergency assistance and grants for clean water and drinking water infrastructure.",
       "relevance_score": 3,
       "is_deal": false,
       "is_target_market": false,
@@ -45,7 +144,66 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-07-17"
+      "first_seen_date": "2026-07-20"
+    },
+    {
+      "date": "2026-07-18",
+      "headline": "Senate EPW Committee Releases Water Resources Development Act of 2026 with $35 Billion in Water Infrastructure Funding",
+      "source": "National Association of Counties",
+      "source_url": "https://www.naco.org/news/senate-begins-reauthorization-process-state-revolving-fund-programs-and-other-water",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure"
+      ],
+      "summary": "On July 13, leaders of the U.S. Senate Environment and Public Works (EPW) Committee released the text of its Water Resources Development Act of 2026 (WRDA 2026), which would reauthorize the Clean Water and Drinking Water State Revolving Fund (SRF) programs. The bill would authorize $14 billion over four years for the Clean Water SRF (CWSRF) and $16.5 over five years for the Drinking Water SRF (DWSRF).",
+      "relevance_score": 3,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-07-20"
+    },
+    {
+      "date": "2026-07-16",
+      "headline": "Inside Modern Waste Fleets: Efficiency Trends for 2026",
+      "source": "Custom Truck One Source",
+      "source_url": "https://www.customtruck.com/blog/inside-modern-waste-fleets-efficiency-trends-for-2026/",
+      "category": "Technology",
+      "categories": [
+        "Technology"
+      ],
+      "summary": "Analysis of 2026 waste fleet technologies including battery-electric refuse trucks reaching TCO parity with diesel, CNG alternatives, AI-driven predictive maintenance through telematics, and route optimization technologies. Discusses how regenerative braking and electric PTOs benefit waste collection operations.",
+      "relevance_score": 3,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-07-20"
+    },
+    {
+      "date": null,
+      "headline": "[Date unverified] Portable Toilet & Liquid Waste Software",
+      "source": "CRO Software",
+      "source_url": "https://crosoftware.com/industries/liquid-waste-software/",
+      "category": "Technology",
+      "categories": [
+        "Technology",
+        "Public Co.",
+        "Regulatory"
+      ],
+      "summary": "CRO's liquid waste management software for septic, porta potty, and grease trap services with real-time asset tracking, FOG regulation compliance, smart reporting tools, and customizable service frequencies. Supports both owner-operators and multinational enterprises.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-07-20"
     }
   ]
 }
