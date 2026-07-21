@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-01-22",
+    "headline": "Governor Hochul Announces $288 Million in Water Infrastructure Funding",
+    "source": "New York Governor's Office",
+    "source_url": "https://www.governor.ny.gov/news/governor-hochul-announces-288-million-make-local-water-infrastructure-projects-affordable",
+    "category": "Infrastructure",
+    "summary": "Governor Hochul announced $288 million in grants and low-cost financing for water infrastructure projects, part of a landmark $3.75 billion plan. Funding includes IIJA grants and state resources for lead service line replacement, modernization of aging systems, and wastewater improvements across New York communities.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-01-22",
+    "categories": [
+      "Infrastructure"
+    ]
+  },
+  {
     "date": "2026-01-19",
     "headline": "CDL Truck Driver Shortage Continues; Carriers Offer Higher Pay and Flexible Benefits",
     "source": "America Truck Driving / Truck Driver Shortage in 2026",
