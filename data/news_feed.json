@@ -1,5 +1,103 @@
 [
   {
+    "date": "2026-07-22",
+    "headline": "Clean Harbors (CLH) Q2 2026 Earnings Report Expected July 29; Positive Earnings ESP of +3.82%",
+    "source": "Yahoo Finance / Zacks Investment Research",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/clean-harbors-clh-beat-estimates-161002635.html",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co."
+    ],
+    "summary": "Clean Harbors' next earnings report is expected on July 29, 2026, with an Earnings ESP of +3.82%, suggesting analysts have become bullish on earnings prospects, and combined with the stock's Zacks Rank #2 (Buy) indicates another beat is possibly around the corner.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-07-23"
+  },
+  {
+    "date": "2026-07-22",
+    "headline": "GFL Environmental (GFL) Q2 2026 Earnings Release Scheduled for July 29, 2026",
+    "source": "MarketBeat",
+    "source_url": "https://www.marketbeat.com/instant-alerts/gfl-environmental-gfl-to-post-quarterly-earnings-on-wednesday-2026-07-22/",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co."
+    ],
+    "summary": "GFL Environmental (NYSE:GFL) will be releasing its Q2 2026 earnings after the market closes on Wednesday, July 29.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-07-23"
+  },
+  {
+    "date": "2026-07-22",
+    "headline": "REI Expands Footprint with Acquisition of MRE Strengthening Nationwide Presence",
+    "source": "Waste360",
+    "source_url": "https://www.waste360.com/industry-insights",
+    "category": "Industry Events",
+    "categories": [
+      "Industry Events",
+      "M&A"
+    ],
+    "summary": "REI announced an acquisition of MRE to expand its nationwide footprint.",
+    "relevance_score": 2,
+    "is_deal": true,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-07-23"
+  },
+  {
+    "date": "2026-07-22",
+    "headline": "Global Used Cooking Oil (UCO) Market to Reach USD 36.9 Billion by 2036, Driven by Renewable Fuel Mandates and Sustainable Aviation Fuel Demand",
+    "source": "Open PR",
+    "source_url": "https://www.openpr.com/news/4583685/global-used-cooking-oil-uco-market-to-reach-usd-36-9-billion",
+    "category": "ESG",
+    "categories": [
+      "ESG",
+      "Public Co.",
+      "Renewable Fuels"
+    ],
+    "summary": "Market analysis projecting significant UCO growth through 2036, highlighting the industry's transition from waste management to structured commodity supply. The report emphasizes renewable fuel mandates, SAF demand, and digital collection platforms as key drivers.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-07-23"
+  },
+  {
+    "date": "2026-07-21",
+    "headline": "First-Half 2026 Restaurant Closure Report: 8,171 U.S. & Canada Locations Closed",
+    "source": "RestaurantData",
+    "source_url": "https://restaurantdata.com/first-half-2026-restaurant-closure-report/",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "summary": "RestaurantData estimates that 8,171 restaurant locations closed across the United States and Canada from January through June 2026. The report analyzes closure activity by state, city, county, metropolitan market, ownership structure, service format, cuisine and operating profile.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-07-23"
+  },
+  {
     "date": "2026-07-20",
     "headline": "Thailand taps used cooking oil to boost sustainable aviation fuel production",
     "source": "Dining and Cooking",
@@ -55,6 +153,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-07-20"
+  },
+  {
+    "date": "2026-07-17",
+    "headline": "Barrel Energy (BRLL) Signs Long-Term Lease for Happy Traps Facility Expansion in Hannacroix, New York",
+    "source": "PRNewswire / StockTitan",
+    "source_url": "https://www.stocktitan.net/news/BRLL/c-o-r-r-e-c-t-i-o-n-barrel-energy-q075dce75ufa.html",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co."
+    ],
+    "summary": "Barrel Energy (OTC: BRLL) announced a significant expansion of its renewable energy platform through its Happy Traps division with the establishment of new corporate offices and build out of a new operational facility in Hannacroix, New York, following execution of a long-term commercial lease that will serve as the Company's operational headquarters for administrative offices, commercial fleet management, equipment staging, and future infrastructure development.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-07-23"
   },
   {
     "date": "2026-07-16",

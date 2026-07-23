@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-07-22",
+    "target": "MRE",
+    "acquirer": "REI",
+    "sponsor": "",
+    "location": "",
+    "deal_type": "Add-On",
+    "deal_size": "Undisclosed",
+    "multiple": "N/A",
+    "services": "",
+    "source": "Waste360",
+    "source_url": "https://www.waste360.com/industry-insights",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "Unknown",
+    "deal_summary": null,
+    "date_confidence": "verified",
+    "notes": "REI announced an acquisition of MRE to expand its nationwide footprint.",
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
+  },
+  {
     "date": "2026-06-26",
     "target": "HydroTech Environmental, LLC",
     "acquirer": "Wind River Environmental",
