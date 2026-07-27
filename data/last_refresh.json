@@ -1,99 +1,59 @@
 {
-  "timestamp": "2026-07-24T13:58:36Z",
-  "added_news_count": 6,
+  "timestamp": "2026-07-27T14:49:28Z",
+  "added_news_count": 4,
   "added_deals_count": 0,
-  "archived_count": 0,
-  "new_today_news": [
-    {
-      "date": "2026-07-23",
-      "headline": "Clean Harbors (CLH) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
-      "source": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/markets/stocks/articles/clean-harbors-clh-earnings-expected-140011186.html",
-      "category": "Public Co.",
-      "categories": [
-        "Public Co."
-      ],
-      "summary": "Consensus estimates call for Clean Harbors Q2 2026 earnings of $2.73 per share, representing 15.7% year-over-year growth. The company has a history of outperforming estimates, with an Earnings ESP of +3.82%.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-07-24"
-    }
-  ],
+  "archived_count": 1,
+  "new_today_news": [],
   "recent_news": [
     {
-      "date": "2026-07-21",
-      "headline": "Airbus unveils study on the potential of sustainable aviation fuel to support economic growth and accelerate Canada's climate transition",
-      "source": "Airbus",
-      "source_url": "https://www.airbus.com/en/newsroom/press-releases/2026-07-airbus-unveils-study-on-the-potential-of-sustainable-aviation-fuel-to-support-economic-growth-and",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels"
-      ],
-      "summary": "Airbus study projects a Canadian SAF market could generate $32B GDP and 140,000 jobs by 2040. Development of the value chain between 2026-2040 would create significant economic benefits.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-07-24"
-    },
-    {
-      "date": "2026-07-20",
-      "headline": "High feedstock costs slow the development of Europe's sustainable aviation fuel market",
-      "source": "UkraAgroConsult",
-      "source_url": "https://ukragroconsult.com/en/news/high-feedstock-costs-slow-the-development-of-europes-sustainable-aviation-fuel-market/",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels"
-      ],
-      "summary": "Europe's SAF market faced sharp increases in production costs during H1 2026, driven primarily by rising used cooking oil (UCO) feedstock prices, volatile energy markets, and capacity concerns. The article highlights structural feedstock constraints limiting SAF supply.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-07-24"
-    },
-    {
-      "date": "2026-07-17",
-      "headline": "Sample New Restaurant Openings from RestaurantData: Blood Bros BBQ, Alexas Cafe, 77 Flavors Wings Expanding",
-      "source": "Restaurant News Resource",
-      "source_url": "https://www.restaurantnewsresource.com/sample-new-restaurant-openings-from-restaurantdata-week-ending-july-17-2026",
+      "date": "2026-07-25",
+      "headline": "RestaurantData Analyzes 1,465 Verified New Restaurant Locations from July 2026",
+      "source": "RestaurantData",
+      "source_url": "https://restaurantdata.com/july-2026-restaurant-market-signals-report/",
       "category": "Restaurant",
       "categories": [
         "Restaurant"
       ],
-      "summary": "Blood Bros BBQ opens second location at Houston airport; Alexas Cafe debuts third location in Riverside, CA; 77 Flavors Wings & Philly opens eighth restaurant in Stockbridge, Georgia. Multi-unit concepts continue regional expansion.",
-      "relevance_score": 2,
+      "summary": "RestaurantData's July 2026 Restaurant Openings & Market Signals Report reveals verified new restaurant locations and expansion trends. Restaurant companies including Slice House, Juiceland, Walk-On's Sports Bistreaux, and Guthrie's Chicken Fingers crossed operating thresholds during November 2025-June 2026.",
+      "relevance_score": 1,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-07-24"
-    }
-  ],
-  "backfill_news": [
+      "first_seen_date": "2026-07-27"
+    },
     {
-      "date": "2026-07-15",
-      "headline": "Waste data becoming the next greatest test of ESG credibility",
-      "source": "Eastern Cape Industrial Business News",
-      "source_url": "https://easterncapeindustrialnews.co.za/waste-data-becoming-the-next-greatest-test-of-esg-credibility/",
+      "date": "2026-07-25",
+      "headline": "Connecticut DEEP Reissues FOG General Permit for Food Service Establishments",
+      "source": "Connecticut Department of Energy and Environmental Protection",
+      "source_url": "https://portal.ct.gov/DEEP/Municipal-Wastewater/Fats-Oils-and-Grease-FOG-Model-Program",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure"
+      ],
+      "summary": "Connecticut DEEP reissued the General Permit for the Discharge of Wastewater Associated with Food Service Establishments effective October 5, 2025, establishing requirements for Class III and IV food service establishments to install grease trap/interceptors or advanced grease recovery units to limit FOG discharges.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-07-27"
+    },
+    {
+      "date": "2026-07-21",
+      "headline": "Sustainability Trends",
+      "source": "ISSA",
+      "source_url": "https://www.issa.com/articles/sustainability-trends/",
       "category": "ESG",
       "categories": [
-        "ESG"
+        "ESG",
+        "Regulatory"
       ],
-      "summary": "Stakeholders now expect waste data to be reported with the same rigor as financial information. Waste has become a strategic ESG factor that investors and financial institutions are scrutinizing closely, with expectations shifting from large corporates to smaller businesses.",
+      "summary": "Most foodservice operators report sustainability initiatives are increasingly prevalent at their establishments. Industrial and institutional kitchens are prioritizing eco-friendly cleaning practices, food waste reduction, and sustainable sourcing while pursuing LEED certification and EPA Energy Star programs.",
       "relevance_score": 3,
       "is_deal": false,
       "is_target_market": false,
@@ -101,18 +61,20 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-07-24"
-    },
+      "first_seen_date": "2026-07-27"
+    }
+  ],
+  "backfill_news": [
     {
-      "date": "2026-07-14",
-      "headline": "St. Louis Restaurant Openings and Closings: BJ's Bar & Restaurant Closes After 70 Years",
-      "source": "St. Louis Magazine",
-      "source_url": "https://www.stlmag.com/dining/st-louis-restaurant-openings-closings-coming-soon/",
+      "date": "2026-07-16",
+      "headline": "Restaurant Sales Trended Higher in Recent Months Despite Elevated Gas Prices",
+      "source": "National Restaurant Association",
+      "source_url": "https://restaurant.org/research-and-media/research/restaurant-economic-insights/economic-indicators/total-restaurant-industry-sales/",
       "category": "Restaurant",
       "categories": [
         "Restaurant"
       ],
-      "summary": "BJ's Bar & Restaurant, a 70-year-old St. Louis institution, closed in July. The Noble Crown opened in Central West End; Del Bono pizzeria and Chico Bueno also launched. Sonic The Hedgehog Speed Caf\u00e9 pop-up extended at Nudo House.",
+      "summary": "Eating and drinking places registered $102.5 billion in seasonally adjusted sales in June 2026, up slightly from May's $102.4 billion. Consumer spending held up well across retail categories despite elevated gasoline prices, with restaurants among sectors experiencing growth.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -120,97 +82,60 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-07-24"
+      "first_seen_date": "2026-07-27"
     }
   ],
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-07-23",
-      "headline": "Clean Harbors (CLH) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
-      "source": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/markets/stocks/articles/clean-harbors-clh-earnings-expected-140011186.html",
-      "category": "Public Co.",
-      "categories": [
-        "Public Co."
-      ],
-      "summary": "Consensus estimates call for Clean Harbors Q2 2026 earnings of $2.73 per share, representing 15.7% year-over-year growth. The company has a history of outperforming estimates, with an Earnings ESP of +3.82%.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-07-24"
-    },
-    {
-      "date": "2026-07-21",
-      "headline": "Airbus unveils study on the potential of sustainable aviation fuel to support economic growth and accelerate Canada's climate transition",
-      "source": "Airbus",
-      "source_url": "https://www.airbus.com/en/newsroom/press-releases/2026-07-airbus-unveils-study-on-the-potential-of-sustainable-aviation-fuel-to-support-economic-growth-and",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels"
-      ],
-      "summary": "Airbus study projects a Canadian SAF market could generate $32B GDP and 140,000 jobs by 2040. Development of the value chain between 2026-2040 would create significant economic benefits.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-07-24"
-    },
-    {
-      "date": "2026-07-20",
-      "headline": "High feedstock costs slow the development of Europe's sustainable aviation fuel market",
-      "source": "UkraAgroConsult",
-      "source_url": "https://ukragroconsult.com/en/news/high-feedstock-costs-slow-the-development-of-europes-sustainable-aviation-fuel-market/",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels"
-      ],
-      "summary": "Europe's SAF market faced sharp increases in production costs during H1 2026, driven primarily by rising used cooking oil (UCO) feedstock prices, volatile energy markets, and capacity concerns. The article highlights structural feedstock constraints limiting SAF supply.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-07-24"
-    },
-    {
-      "date": "2026-07-17",
-      "headline": "Sample New Restaurant Openings from RestaurantData: Blood Bros BBQ, Alexas Cafe, 77 Flavors Wings Expanding",
-      "source": "Restaurant News Resource",
-      "source_url": "https://www.restaurantnewsresource.com/sample-new-restaurant-openings-from-restaurantdata-week-ending-july-17-2026",
+      "date": "2026-07-25",
+      "headline": "RestaurantData Analyzes 1,465 Verified New Restaurant Locations from July 2026",
+      "source": "RestaurantData",
+      "source_url": "https://restaurantdata.com/july-2026-restaurant-market-signals-report/",
       "category": "Restaurant",
       "categories": [
         "Restaurant"
       ],
-      "summary": "Blood Bros BBQ opens second location at Houston airport; Alexas Cafe debuts third location in Riverside, CA; 77 Flavors Wings & Philly opens eighth restaurant in Stockbridge, Georgia. Multi-unit concepts continue regional expansion.",
-      "relevance_score": 2,
+      "summary": "RestaurantData's July 2026 Restaurant Openings & Market Signals Report reveals verified new restaurant locations and expansion trends. Restaurant companies including Slice House, Juiceland, Walk-On's Sports Bistreaux, and Guthrie's Chicken Fingers crossed operating thresholds during November 2025-June 2026.",
+      "relevance_score": 1,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-07-24"
+      "first_seen_date": "2026-07-27"
     },
     {
-      "date": "2026-07-15",
-      "headline": "Waste data becoming the next greatest test of ESG credibility",
-      "source": "Eastern Cape Industrial Business News",
-      "source_url": "https://easterncapeindustrialnews.co.za/waste-data-becoming-the-next-greatest-test-of-esg-credibility/",
+      "date": "2026-07-25",
+      "headline": "Connecticut DEEP Reissues FOG General Permit for Food Service Establishments",
+      "source": "Connecticut Department of Energy and Environmental Protection",
+      "source_url": "https://portal.ct.gov/DEEP/Municipal-Wastewater/Fats-Oils-and-Grease-FOG-Model-Program",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure"
+      ],
+      "summary": "Connecticut DEEP reissued the General Permit for the Discharge of Wastewater Associated with Food Service Establishments effective October 5, 2025, establishing requirements for Class III and IV food service establishments to install grease trap/interceptors or advanced grease recovery units to limit FOG discharges.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-07-27"
+    },
+    {
+      "date": "2026-07-21",
+      "headline": "Sustainability Trends",
+      "source": "ISSA",
+      "source_url": "https://www.issa.com/articles/sustainability-trends/",
       "category": "ESG",
       "categories": [
-        "ESG"
+        "ESG",
+        "Regulatory"
       ],
-      "summary": "Stakeholders now expect waste data to be reported with the same rigor as financial information. Waste has become a strategic ESG factor that investors and financial institutions are scrutinizing closely, with expectations shifting from large corporates to smaller businesses.",
+      "summary": "Most foodservice operators report sustainability initiatives are increasingly prevalent at their establishments. Industrial and institutional kitchens are prioritizing eco-friendly cleaning practices, food waste reduction, and sustainable sourcing while pursuing LEED certification and EPA Energy Star programs.",
       "relevance_score": 3,
       "is_deal": false,
       "is_target_market": false,
@@ -218,18 +143,18 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-07-24"
+      "first_seen_date": "2026-07-27"
     },
     {
-      "date": "2026-07-14",
-      "headline": "St. Louis Restaurant Openings and Closings: BJ's Bar & Restaurant Closes After 70 Years",
-      "source": "St. Louis Magazine",
-      "source_url": "https://www.stlmag.com/dining/st-louis-restaurant-openings-closings-coming-soon/",
+      "date": "2026-07-16",
+      "headline": "Restaurant Sales Trended Higher in Recent Months Despite Elevated Gas Prices",
+      "source": "National Restaurant Association",
+      "source_url": "https://restaurant.org/research-and-media/research/restaurant-economic-insights/economic-indicators/total-restaurant-industry-sales/",
       "category": "Restaurant",
       "categories": [
         "Restaurant"
       ],
-      "summary": "BJ's Bar & Restaurant, a 70-year-old St. Louis institution, closed in July. The Noble Crown opened in Central West End; Del Bono pizzeria and Chico Bueno also launched. Sonic The Hedgehog Speed Caf\u00e9 pop-up extended at Nudo House.",
+      "summary": "Eating and drinking places registered $102.5 billion in seasonally adjusted sales in June 2026, up slightly from May's $102.4 billion. Consumer spending held up well across retail categories despite elevated gasoline prices, with restaurants among sectors experiencing growth.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -237,7 +162,7 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-07-24"
+      "first_seen_date": "2026-07-27"
     }
   ]
 }
