@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-07-27",
+    "headline": "Federal and state officials approve Fort Smith consent decree extension to 2038",
+    "source": "Northwest Arkansas Democrat-Gazette",
+    "source_url": "https://www.nwaonline.com/news/2026/jul/27/federal-and-state-officials-approve-fort-smith/",
+    "category": "Infrastructure",
+    "categories": [
+      "Infrastructure",
+      "Regulatory"
+    ],
+    "summary": "Fort Smith, Arkansas received approval to extend its sanitary sewer overflow (SSO) and combined sewer system consent decree deadline from January 2027 to June 2038. The city agreed to spend over $200 million over 12 years on sewer system upgrades and repairs.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-07-28"
+  },
+  {
     "date": "2026-07-25",
     "headline": "RestaurantData Analyzes 1,465 Verified New Restaurant Locations from July 2026",
     "source": "RestaurantData",
@@ -36,6 +56,26 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-07-27"
+  },
+  {
+    "date": "2026-07-24",
+    "headline": "Darling Ingredients Growth Strategy 2026: 3 Bets, 2 Risks",
+    "source": "Pestel-analysis.com",
+    "source_url": "https://pestel-analysis.com/blogs/growth-strategy/darlingii",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels",
+      "Public Co."
+    ],
+    "summary": "Analysis of Darling Ingredients' strategic positioning in renewable fuels and specialty ingredients, examining commodity cycles, renewable fuel policy changes, and the company's circular-economy business model intersecting waste management, nutrition, and decarbonization.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-07-28"
   },
   {
     "date": "2026-07-23",
@@ -136,6 +176,25 @@
     "first_seen_date": "2026-07-23"
   },
   {
+    "date": "2026-07-22",
+    "headline": "Wastewater treatment plant upgrades set to future-proof facility for 2 decades",
+    "source": "Revelstoke Mountaineer",
+    "source_url": "https://revelstokemountaineer.com/revelstoke-wastewater-treatment-plant-update-july-2026/",
+    "category": "Infrastructure",
+    "categories": [
+      "Infrastructure"
+    ],
+    "summary": "Revelstoke's wastewater treatment plant expansion adds four sequencing batch reactor tanks with ultraviolet treatment capability to handle projected growth over 20 years. The project has remained within budget and timeline, with provisions for four additional tanks in the future.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-07-28"
+  },
+  {
     "date": "2026-07-21",
     "headline": "First-Half 2026 Restaurant Closure Report: 8,171 U.S. & Canada Locations Closed",
     "source": "RestaurantData",
@@ -192,6 +251,46 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-07-27"
+  },
+  {
+    "date": "2026-07-21",
+    "headline": "Medical Waste Transporter Compliance: DOT, EPA & State Permits",
+    "source": "Octopus SAAS",
+    "source_url": "https://www.octopussaas.com/post/medical-waste-transporter-compliance-dot-epa",
+    "category": "Labor/Ops",
+    "categories": [
+      "Labor/Ops",
+      "Regulatory"
+    ],
+    "summary": "In 2026, enforcement activity at federal and state levels has intensified, with regulators prioritizing documentation completeness and electronic manifest adoption for medical waste transporters. Drivers must hold CDLs; those transporting hazardous waste require HazMat endorsement compliance.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-07-28"
+  },
+  {
+    "date": "2026-07-21",
+    "headline": "Sustainability Trends - ISSA Report on Food Service Sustainability Initiatives",
+    "source": "ISSA | The Association for Cleaning & Facility Solutions",
+    "source_url": "https://www.issa.com/articles/sustainability-trends/",
+    "category": "ESG",
+    "categories": [
+      "ESG",
+      "Regulatory"
+    ],
+    "summary": "Report notes that most foodservice operators are increasingly implementing sustainability initiatives including food waste reduction and sustainable cleaning products. Industrial and institutional kitchens prioritize eco-friendly practices and compliance with food safety and environmental regulations, incorporating sustainability goals through 2030 including LEED certification and EPA programs.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-07-28"
   },
   {
     "date": "2026-07-20",
