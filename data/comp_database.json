@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-07-24",
+    "target": "WaterFleet Intermediate Holdings, Inc.",
+    "acquirer": "Xylem Inc.",
+    "sponsor": null,
+    "location": "United States",
+    "deal_type": "Add-On",
+    "deal_size": "$200 million",
+    "multiple": "N/A",
+    "services": "",
+    "source": "SEC Filing (Form 10-Q)",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0001524472/000152447226000110/xyl-20260630.htm",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "Public (NYSE: XYL)",
+    "deal_summary": [
+      "Acquisition of mobile water and wastewater utility services provider"
+    ],
+    "date_confidence": "verified",
+    "notes": "Xylem entered into a definitive agreement on July 24, 2026, to acquire 100% of WaterFleet Intermediate Holdings, Inc., a company specializing in mobile water and wastewater utility services and workforce relief solutions, for approximately $200 million. The acquisition is expected to close in 2026 and will be included in the Water Solutions and Services segment.",
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
+  },
+  {
     "date": "2026-07-22",
     "target": "MRE",
     "acquirer": "REI",
