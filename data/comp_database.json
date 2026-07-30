@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-07-29",
+    "target": "ES&H",
+    "acquirer": "Clean Harbors Inc.",
+    "sponsor": "",
+    "location": "",
+    "deal_type": "Add-On",
+    "deal_size": "$305 million",
+    "multiple": "N/A",
+    "services": "",
+    "source": "Clean Harbors Inc. / SEC Filing",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0000822818/000082281826000031/clh-q22026pressrelease.htm",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "Unknown",
+    "deal_summary": null,
+    "date_confidence": "verified",
+    "notes": "Clean Harbors announced a planned $305 million acquisition of ES&H to expand its field services capabilities. The acquisition is part of the company's strategic growth initiatives in the environmental services sector.",
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
+  },
+  {
     "date": "2026-07-24",
     "target": "WaterFleet Intermediate Holdings, Inc.",
     "acquirer": "Xylem Inc.",
