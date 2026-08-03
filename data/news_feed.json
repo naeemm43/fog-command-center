@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-08-03",
+    "headline": "Restaurant Sector July 2026 Update",
+    "source": "Mondaq",
+    "source_url": "https://www.mondaq.com/unitedstates/technology/1825568/restaurant-sector-july-2026-update",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "summary": "Restaurant brands navigate inflation, shifting consumer behavior, and rising costs as they prepare for renewed IPO opportunities, with Ankura's July 2026 update examining trends from Jersey Mike's and Inspire Brands' anticipated public offerings.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-03"
+  },
+  {
     "date": "2026-07-31",
     "headline": "Darling Ingredients (NYSE:DAR) Issues Earnings Results",
     "source": "Markets Daily",
@@ -57,6 +76,44 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-07-31"
+  },
+  {
+    "date": "2026-07-30",
+    "headline": "Darling Ingredients Q2 2026 Earnings: Profit Soars 29x YoY with $2.41 EPS Beat on Stronger Fat and Protein Prices",
+    "source": "Investing.com",
+    "source_url": "https://www.investing.com/news/transcripts/earnings-call-transcript-darling-ingredients-posts-big-q2-2026-eps-beat-93CH-4825012",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co."
+    ],
+    "summary": "Darling Ingredients reported Q2 2026 net income of $387 million ($2.41 EPS), significantly beating analyst estimates of $1.27. Net sales reached $1.7 billion, falling short of $1.7 billion forecast. Strong fat/protein prices and operational execution drove results.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-03"
+  },
+  {
+    "date": "2026-07-30",
+    "headline": "GFL Environmental Reports 16.3% Q2 Revenue Growth; Acquisitions Drive Nearly 10 Percentage Points",
+    "source": "Pulse2",
+    "source_url": "https://pulse2.com/gfl-environmental-revenue-jumps-16-as-acquisitions-add-nearly-10-percentage-points-of-growth/",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co."
+    ],
+    "summary": "GFL Environmental achieved Q2 2026 revenue growth of 16.3%, with acquisitions contributing 9.9 percentage points and organic growth contributing 6.4 percentage points. Company completed acquisitions generating estimated $435\u2013460 million in annualized revenue during H1 2026.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-03"
   },
   {
     "date": "2026-07-29",
@@ -466,6 +523,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-07-28"
+  },
+  {
+    "date": "2026-07-22",
+    "headline": "Heights Brewing Announces Closure After Aug. 2",
+    "source": "Hour Detroit",
+    "source_url": "https://www.hourdetroit.com/food-cuisine/metro-detroit-dining-news-july-2026/",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "summary": "Michigan brewery announces closure citing rising cost of goods, loan payments, and unforeseen challenges. Reflects current industry margin pressures.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-03"
   },
   {
     "date": "2026-07-21",
@@ -6432,25 +6508,6 @@
     "categories": [
       "ESG",
       "Public Co."
-    ]
-  },
-  {
-    "date": "2026-02-03",
-    "headline": "EPA National Pretreatment Program \u2014 Regulatory History Updated with Current Rulemaking Activities",
-    "source": "US EPA",
-    "source_url": "https://www.epa.gov/npdes/national-pretreatment-program-regulatory-history",
-    "category": "Regulatory",
-    "summary": "EPA updated pretreatment program regulatory history on February 3, 2026, noting current rulemaking activities affecting 40 CFR Part 403. Activities include Effluent Limitation Guidelines for dental and oil/gas industries.",
-    "relevance_score": 3,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-02-03",
-    "categories": [
-      "Regulatory"
     ]
   },
   {

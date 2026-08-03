@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-02-03",
+    "headline": "EPA National Pretreatment Program \u2014 Regulatory History Updated with Current Rulemaking Activities",
+    "source": "US EPA",
+    "source_url": "https://www.epa.gov/npdes/national-pretreatment-program-regulatory-history",
+    "category": "Regulatory",
+    "summary": "EPA updated pretreatment program regulatory history on February 3, 2026, noting current rulemaking activities affecting 40 CFR Part 403. Activities include Effluent Limitation Guidelines for dental and oil/gas industries.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-02-03",
+    "categories": [
+      "Regulatory"
+    ]
+  },
+  {
     "date": "2026-01-27",
     "headline": "Global Food Waste Supply Chain Costs to Reach $540B in 2026 \u2013 Business Case for ESG-Driven Waste Solutions",
     "source": "Sustainable Food Business (via Avery Dennison)",
