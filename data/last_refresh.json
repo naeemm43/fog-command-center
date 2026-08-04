@@ -1,40 +1,41 @@
 {
-  "timestamp": "2026-08-03T14:52:44Z",
+  "timestamp": "2026-08-04T14:29:50Z",
   "added_news_count": 4,
   "added_deals_count": 0,
-  "archived_count": 1,
+  "archived_count": 0,
   "new_today_news": [
     {
       "date": "2026-08-03",
-      "headline": "Restaurant Sector July 2026 Update",
-      "source": "Mondaq",
-      "source_url": "https://www.mondaq.com/unitedstates/technology/1825568/restaurant-sector-july-2026-update",
+      "headline": "Why Grease Matters: Failures Contribute to 22% of Restaurant Fires",
+      "source": "DMA Delivers",
+      "source_url": "https://dmadelivers.com/newsletter/july2026",
       "category": "Restaurant",
       "categories": [
         "Restaurant"
       ],
-      "summary": "Restaurant brands navigate inflation, shifting consumer behavior, and rising costs as they prepare for renewed IPO opportunities, with Ankura's July 2026 update examining trends from Jersey Mike's and Inspire Brands' anticipated public offerings.",
-      "relevance_score": 2,
+      "summary": "Highlights critical importance of grease trap maintenance for food service establishments, noting that failure to clean hood vents and manage FOG contributes to 22% of all restaurant fires and millions in damages annually.",
+      "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-08-03"
+      "first_seen_date": "2026-08-04"
     }
   ],
   "recent_news": [
     {
-      "date": "2026-07-30",
-      "headline": "Darling Ingredients Q2 2026 Earnings: Profit Soars 29x YoY with $2.41 EPS Beat on Stronger Fat and Protein Prices",
-      "source": "Investing.com",
-      "source_url": "https://www.investing.com/news/transcripts/earnings-call-transcript-darling-ingredients-posts-big-q2-2026-eps-beat-93CH-4825012",
-      "category": "Public Co.",
+      "date": "2026-07-31",
+      "headline": "FOG-Related SSOs and Consent Decrees: Understanding the Hidden Costs",
+      "source": "In-Pipe",
+      "source_url": "https://www.in-pipe.com/post/the-hidden-cost-of-fog-related-ssos-it-s-not-the-fine-you-should-worry-about",
+      "category": "Infrastructure",
       "categories": [
-        "Public Co."
+        "Infrastructure",
+        "Regulatory"
       ],
-      "summary": "Darling Ingredients reported Q2 2026 net income of $387 million ($2.41 EPS), significantly beating analyst estimates of $1.27. Net sales reached $1.7 billion, falling short of $1.7 billion forecast. Strong fat/protein prices and operational execution drove results.",
+      "summary": "Baltimore, the Metropolitan St. Louis Sewer District, Miami-Dade County, and Fort Smith, Arkansas have all had FOG named specifically in their consent decrees, illustrating how patterns of FOG-related overflows trigger multi-year federal enforcement actions. The article explains how FOG prevention programs become federal consent decree obligations with ongoing inspection and reporting requirements.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -42,18 +43,38 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-08-03"
+      "first_seen_date": "2026-08-04"
     },
     {
       "date": "2026-07-30",
-      "headline": "GFL Environmental Reports 16.3% Q2 Revenue Growth; Acquisitions Drive Nearly 10 Percentage Points",
-      "source": "Pulse2",
-      "source_url": "https://pulse2.com/gfl-environmental-revenue-jumps-16-as-acquisitions-add-nearly-10-percentage-points-of-growth/",
+      "headline": "Darling Ingredients Inc. Reports Second Quarter 2026 Results",
+      "source": "SEC EDGAR / Darling Ingredients",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0000916540/000091654026000019/exh991-pressreleaseq22026.htm",
       "category": "Public Co.",
       "categories": [
         "Public Co."
       ],
-      "summary": "GFL Environmental achieved Q2 2026 revenue growth of 16.3%, with acquisitions contributing 9.9 percentage points and organic growth contributing 6.4 percentage points. Company completed acquisitions generating estimated $435\u2013460 million in annualized revenue during H1 2026.",
+      "summary": "Darling Ingredients reported net income of $387.3 million ($2.41 per diluted share) for Q2 2026, significantly outperforming analyst estimates of $1.27 EPS. Combined Adjusted EBITDA reached $741.7 million, a 197% increase from Q2 2025's $249.5 million. The company noted strong fat and protein prices, improved trade conditions, and solid operational execution.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-08-04"
+    },
+    {
+      "date": "2026-07-29",
+      "headline": "GFL Environmental Reports Q2 2026 Earnings; CEO Comments on Take-Private Interest",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/industry-insights/gfl-environmental-reports-q2-earnings-ceo-addresses-take-private-interest",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co.",
+        "M&A"
+      ],
+      "summary": "GFL Environmental reported strong Q2 2026 results with 11% revenue growth to $3.59 billion year-to-date and 13.7% adjusted EBITDA growth to $1.07 billion. The company raised full-year 2026 guidance for the second time, citing continued acquisition activity and underlying business strength. CEO Patrick Dovigi addressed recent unsolicited preliminary expressions of interest regarding taking the company private.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -61,61 +82,22 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-08-03"
+      "first_seen_date": "2026-08-04"
     }
   ],
-  "backfill_news": [
-    {
-      "date": "2026-07-22",
-      "headline": "Heights Brewing Announces Closure After Aug. 2",
-      "source": "Hour Detroit",
-      "source_url": "https://www.hourdetroit.com/food-cuisine/metro-detroit-dining-news-july-2026/",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "Michigan brewery announces closure citing rising cost of goods, loan payments, and unforeseen challenges. Reflects current industry margin pressures.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-08-03"
-    }
-  ],
+  "backfill_news": [],
   "new_deals": [],
   "new_news": [
     {
       "date": "2026-08-03",
-      "headline": "Restaurant Sector July 2026 Update",
-      "source": "Mondaq",
-      "source_url": "https://www.mondaq.com/unitedstates/technology/1825568/restaurant-sector-july-2026-update",
+      "headline": "Why Grease Matters: Failures Contribute to 22% of Restaurant Fires",
+      "source": "DMA Delivers",
+      "source_url": "https://dmadelivers.com/newsletter/july2026",
       "category": "Restaurant",
       "categories": [
         "Restaurant"
       ],
-      "summary": "Restaurant brands navigate inflation, shifting consumer behavior, and rising costs as they prepare for renewed IPO opportunities, with Ankura's July 2026 update examining trends from Jersey Mike's and Inspire Brands' anticipated public offerings.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-08-03"
-    },
-    {
-      "date": "2026-07-30",
-      "headline": "Darling Ingredients Q2 2026 Earnings: Profit Soars 29x YoY with $2.41 EPS Beat on Stronger Fat and Protein Prices",
-      "source": "Investing.com",
-      "source_url": "https://www.investing.com/news/transcripts/earnings-call-transcript-darling-ingredients-posts-big-q2-2026-eps-beat-93CH-4825012",
-      "category": "Public Co.",
-      "categories": [
-        "Public Co."
-      ],
-      "summary": "Darling Ingredients reported Q2 2026 net income of $387 million ($2.41 EPS), significantly beating analyst estimates of $1.27. Net sales reached $1.7 billion, falling short of $1.7 billion forecast. Strong fat/protein prices and operational execution drove results.",
+      "summary": "Highlights critical importance of grease trap maintenance for food service establishments, noting that failure to clean hood vents and manage FOG contributes to 22% of all restaurant fires and millions in damages annually.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -123,18 +105,58 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-08-03"
+      "first_seen_date": "2026-08-04"
+    },
+    {
+      "date": "2026-07-31",
+      "headline": "FOG-Related SSOs and Consent Decrees: Understanding the Hidden Costs",
+      "source": "In-Pipe",
+      "source_url": "https://www.in-pipe.com/post/the-hidden-cost-of-fog-related-ssos-it-s-not-the-fine-you-should-worry-about",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure",
+        "Regulatory"
+      ],
+      "summary": "Baltimore, the Metropolitan St. Louis Sewer District, Miami-Dade County, and Fort Smith, Arkansas have all had FOG named specifically in their consent decrees, illustrating how patterns of FOG-related overflows trigger multi-year federal enforcement actions. The article explains how FOG prevention programs become federal consent decree obligations with ongoing inspection and reporting requirements.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-08-04"
     },
     {
       "date": "2026-07-30",
-      "headline": "GFL Environmental Reports 16.3% Q2 Revenue Growth; Acquisitions Drive Nearly 10 Percentage Points",
-      "source": "Pulse2",
-      "source_url": "https://pulse2.com/gfl-environmental-revenue-jumps-16-as-acquisitions-add-nearly-10-percentage-points-of-growth/",
+      "headline": "Darling Ingredients Inc. Reports Second Quarter 2026 Results",
+      "source": "SEC EDGAR / Darling Ingredients",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0000916540/000091654026000019/exh991-pressreleaseq22026.htm",
       "category": "Public Co.",
       "categories": [
         "Public Co."
       ],
-      "summary": "GFL Environmental achieved Q2 2026 revenue growth of 16.3%, with acquisitions contributing 9.9 percentage points and organic growth contributing 6.4 percentage points. Company completed acquisitions generating estimated $435\u2013460 million in annualized revenue during H1 2026.",
+      "summary": "Darling Ingredients reported net income of $387.3 million ($2.41 per diluted share) for Q2 2026, significantly outperforming analyst estimates of $1.27 EPS. Combined Adjusted EBITDA reached $741.7 million, a 197% increase from Q2 2025's $249.5 million. The company noted strong fat and protein prices, improved trade conditions, and solid operational execution.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-08-04"
+    },
+    {
+      "date": "2026-07-29",
+      "headline": "GFL Environmental Reports Q2 2026 Earnings; CEO Comments on Take-Private Interest",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/industry-insights/gfl-environmental-reports-q2-earnings-ceo-addresses-take-private-interest",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co.",
+        "M&A"
+      ],
+      "summary": "GFL Environmental reported strong Q2 2026 results with 11% revenue growth to $3.59 billion year-to-date and 13.7% adjusted EBITDA growth to $1.07 billion. The company raised full-year 2026 guidance for the second time, citing continued acquisition activity and underlying business strength. CEO Patrick Dovigi addressed recent unsolicited preliminary expressions of interest regarding taking the company private.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -142,26 +164,7 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-08-03"
-    },
-    {
-      "date": "2026-07-22",
-      "headline": "Heights Brewing Announces Closure After Aug. 2",
-      "source": "Hour Detroit",
-      "source_url": "https://www.hourdetroit.com/food-cuisine/metro-detroit-dining-news-july-2026/",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "Michigan brewery announces closure citing rising cost of goods, loan payments, and unforeseen challenges. Reflects current industry margin pressures.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-08-03"
+      "first_seen_date": "2026-08-04"
     }
   ]
 }

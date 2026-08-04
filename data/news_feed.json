@@ -19,6 +19,25 @@
     "first_seen_date": "2026-08-03"
   },
   {
+    "date": "2026-08-03",
+    "headline": "Why Grease Matters: Failures Contribute to 22% of Restaurant Fires",
+    "source": "DMA Delivers",
+    "source_url": "https://dmadelivers.com/newsletter/july2026",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "summary": "Highlights critical importance of grease trap maintenance for food service establishments, noting that failure to clean hood vents and manage FOG contributes to 22% of all restaurant fires and millions in damages annually.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-04"
+  },
+  {
     "date": "2026-07-31",
     "headline": "Darling Ingredients (NYSE:DAR) Issues Earnings Results",
     "source": "Markets Daily",
@@ -37,6 +56,26 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-07-31"
+  },
+  {
+    "date": "2026-07-31",
+    "headline": "FOG-Related SSOs and Consent Decrees: Understanding the Hidden Costs",
+    "source": "In-Pipe",
+    "source_url": "https://www.in-pipe.com/post/the-hidden-cost-of-fog-related-ssos-it-s-not-the-fine-you-should-worry-about",
+    "category": "Infrastructure",
+    "categories": [
+      "Infrastructure",
+      "Regulatory"
+    ],
+    "summary": "Baltimore, the Metropolitan St. Louis Sewer District, Miami-Dade County, and Fort Smith, Arkansas have all had FOG named specifically in their consent decrees, illustrating how patterns of FOG-related overflows trigger multi-year federal enforcement actions. The article explains how FOG prevention programs become federal consent decree obligations with ongoing inspection and reporting requirements.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-04"
   },
   {
     "date": "2026-07-30",
@@ -116,6 +155,25 @@
     "first_seen_date": "2026-08-03"
   },
   {
+    "date": "2026-07-30",
+    "headline": "Darling Ingredients Inc. Reports Second Quarter 2026 Results",
+    "source": "SEC EDGAR / Darling Ingredients",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0000916540/000091654026000019/exh991-pressreleaseq22026.htm",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co."
+    ],
+    "summary": "Darling Ingredients reported net income of $387.3 million ($2.41 per diluted share) for Q2 2026, significantly outperforming analyst estimates of $1.27 EPS. Combined Adjusted EBITDA reached $741.7 million, a 197% increase from Q2 2025's $249.5 million. The company noted strong fat and protein prices, improved trade conditions, and solid operational execution.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-04"
+  },
+  {
     "date": "2026-07-29",
     "headline": "Clean Harbors Reports Q2 2026 Earnings Beat with Record Results",
     "source": "Business Wire",
@@ -192,6 +250,26 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-07-30"
+  },
+  {
+    "date": "2026-07-29",
+    "headline": "GFL Environmental Reports Q2 2026 Earnings; CEO Comments on Take-Private Interest",
+    "source": "Waste360",
+    "source_url": "https://www.waste360.com/industry-insights/gfl-environmental-reports-q2-earnings-ceo-addresses-take-private-interest",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co.",
+      "M&A"
+    ],
+    "summary": "GFL Environmental reported strong Q2 2026 results with 11% revenue growth to $3.59 billion year-to-date and 13.7% adjusted EBITDA growth to $1.07 billion. The company raised full-year 2026 guidance for the second time, citing continued acquisition activity and underlying business strength. CEO Patrick Dovigi addressed recent unsolicited preliminary expressions of interest regarding taking the company private.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-04"
   },
   {
     "date": "2026-07-28",
