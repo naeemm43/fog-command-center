@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-07-30",
+    "target": "European Casings Business",
+    "acquirer": "Darling Ingredients",
+    "sponsor": "",
+    "location": "",
+    "deal_type": "Add-On",
+    "deal_size": "Undisclosed",
+    "multiple": "N/A",
+    "services": "",
+    "source": "Motley Fool",
+    "source_url": "https://www.fool.com/earnings/call-transcripts/2026/07/30/darling-ingredients-dar-q2-2026-earnings-call-transcript/",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "Unknown",
+    "deal_summary": [
+      "Agreement signed to sell the European casings business, with the transaction expected to close by the end of 2026."
+    ],
+    "date_confidence": "verified",
+    "notes": "For third quarter 2026, the company estimates core ingredients business Adjusted EBITDA to be approximately $325-340 million. The company expects to continue to deleverage and anticipates ending fiscal year 2026 with net debt at or below $3 billion and bank leverage ratio below 2X.",
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
+  },
+  {
     "date": "2026-07-29",
     "target": "ES&H",
     "acquirer": "Clean Harbors Inc.",
@@ -17,6 +41,30 @@
     "deal_summary": null,
     "date_confidence": "verified",
     "notes": "Clean Harbors announced a planned $305 million acquisition of ES&H to expand its field services capabilities. The acquisition is part of the company's strategic growth initiatives in the environmental services sector.",
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
+  },
+  {
+    "date": "2026-07-29",
+    "target": "Manufacturing customer waste disposal contract",
+    "acquirer": "Clean Harbors",
+    "sponsor": "",
+    "location": "",
+    "deal_type": "Add-On",
+    "deal_size": "$600 million over 10 years",
+    "multiple": "N/A",
+    "services": "",
+    "source": "Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/clean-harbors-q2-earnings-call-200400506.html",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "Unknown",
+    "deal_summary": [
+      "Long-term disposal contract for incineration waste and complex wastewater volumes, beginning Q4 2026."
+    ],
+    "date_confidence": "verified",
+    "notes": "The company also announced a 10-year disposal agreement with a manufacturing customer expanding its U.S. operations. The contract has an estimated value of $600 million and is expected to begin in the fourth quarter, contributing roughly $10 million of revenue in 2026. Clean Harbors expects the agreement to reach full capacity in 2030, when it could generate an $80 million to $100 million annual revenue run rate.",
     "latitude": null,
     "longitude": null,
     "zoom_hint": null

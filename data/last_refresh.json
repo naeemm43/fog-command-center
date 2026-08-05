@@ -1,80 +1,42 @@
 {
-  "timestamp": "2026-08-04T14:29:50Z",
-  "added_news_count": 4,
-  "added_deals_count": 0,
+  "timestamp": "2026-08-05T14:22:59Z",
+  "added_news_count": 11,
+  "added_deals_count": 2,
   "archived_count": 0,
   "new_today_news": [
     {
-      "date": "2026-08-03",
-      "headline": "Why Grease Matters: Failures Contribute to 22% of Restaurant Fires",
-      "source": "DMA Delivers",
-      "source_url": "https://dmadelivers.com/newsletter/july2026",
-      "category": "Restaurant",
+      "date": "2026-08-05",
+      "headline": "Utility rate increases proposed for Olympia in 2026",
+      "source": "The JOLT News Organization",
+      "source_url": "https://www.thejoltnews.com/stories/utility-rate-increase-proposed-for-2026-in-olympia,26801",
+      "category": "Infrastructure",
       "categories": [
-        "Restaurant"
+        "Infrastructure",
+        "Public Co."
       ],
-      "summary": "Highlights critical importance of grease trap maintenance for food service establishments, noting that failure to clean hood vents and manage FOG contributes to 22% of all restaurant fires and millions in damages annually.",
-      "relevance_score": 5,
+      "summary": "Thurston County Waste Recovery Center tipping rates are increasing in 2026, with garbage disposal rising to $133 per ton from $119 per ton and organics tipping fees increasing to $75 per ton from $37 per ton, impacting Olympia's waste management costs.",
+      "relevance_score": 3,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-08-04"
+      "first_seen_date": "2026-08-05"
     }
   ],
   "recent_news": [
     {
-      "date": "2026-07-31",
-      "headline": "FOG-Related SSOs and Consent Decrees: Understanding the Hidden Costs",
-      "source": "In-Pipe",
-      "source_url": "https://www.in-pipe.com/post/the-hidden-cost-of-fog-related-ssos-it-s-not-the-fine-you-should-worry-about",
-      "category": "Infrastructure",
+      "date": "2026-08-03",
+      "headline": "EPA Announces August 3, 2026 Decisions on Petitions for RFS Small Refinery Exemptions",
+      "source": "U.S. Environmental Protection Agency",
+      "source_url": "https://www.epa.gov/renewable-fuel-standard/august-3-2026-decisions-petitions-rfs-small-refinery-exemptions",
+      "category": "Renewable Fuels",
       "categories": [
-        "Infrastructure",
+        "Renewable Fuels",
         "Regulatory"
       ],
-      "summary": "Baltimore, the Metropolitan St. Louis Sewer District, Miami-Dade County, and Fort Smith, Arkansas have all had FOG named specifically in their consent decrees, illustrating how patterns of FOG-related overflows trigger multi-year federal enforcement actions. The article explains how FOG prevention programs become federal consent decree obligations with ongoing inspection and reporting requirements.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-08-04"
-    },
-    {
-      "date": "2026-07-30",
-      "headline": "Darling Ingredients Inc. Reports Second Quarter 2026 Results",
-      "source": "SEC EDGAR / Darling Ingredients",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/0000916540/000091654026000019/exh991-pressreleaseq22026.htm",
-      "category": "Public Co.",
-      "categories": [
-        "Public Co."
-      ],
-      "summary": "Darling Ingredients reported net income of $387.3 million ($2.41 per diluted share) for Q2 2026, significantly outperforming analyst estimates of $1.27 EPS. Combined Adjusted EBITDA reached $741.7 million, a 197% increase from Q2 2025's $249.5 million. The company noted strong fat and protein prices, improved trade conditions, and solid operational execution.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-08-04"
-    },
-    {
-      "date": "2026-07-29",
-      "headline": "GFL Environmental Reports Q2 2026 Earnings; CEO Comments on Take-Private Interest",
-      "source": "Waste360",
-      "source_url": "https://www.waste360.com/industry-insights/gfl-environmental-reports-q2-earnings-ceo-addresses-take-private-interest",
-      "category": "Public Co.",
-      "categories": [
-        "Public Co.",
-        "M&A"
-      ],
-      "summary": "GFL Environmental reported strong Q2 2026 results with 11% revenue growth to $3.59 billion year-to-date and 13.7% adjusted EBITDA growth to $1.07 billion. The company raised full-year 2026 guidance for the second time, citing continued acquisition activity and underlying business strength. CEO Patrick Dovigi addressed recent unsolicited preliminary expressions of interest regarding taking the company private.",
+      "summary": "The EPA announced decisions on six individual small refinery exemption petitions from four refineries for the 2023 and 2024 RFS compliance years. This regulatory action affects renewable fuel volume requirements and RIN generation across the biofuel industry.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -82,42 +44,56 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-08-04"
-    }
-  ],
-  "backfill_news": [],
-  "new_deals": [],
-  "new_news": [
+      "first_seen_date": "2026-08-05"
+    },
     {
       "date": "2026-08-03",
-      "headline": "Why Grease Matters: Failures Contribute to 22% of Restaurant Fires",
-      "source": "DMA Delivers",
-      "source_url": "https://dmadelivers.com/newsletter/july2026",
+      "headline": "GFL Environmental Responds to Unsolicited Take-Private Expressions of Interest",
+      "source": "Pulse2",
+      "source_url": "https://pulse2.com/gfl-environmental-revenue-jumps-16-as-acquisitions-add-nearly-10-percentage-points-of-growth/",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "GFL has received unsolicited preliminary expressions of interest from multiple parties to take the company private, as is often the case when there is a valuation disconnect. The Board has formed a special committee of independent directors to oversee any discussions that might ensue. There can be no guarantee that any expressions of interest will result in a transaction.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-08-05"
+    },
+    {
+      "date": "2026-08-03",
+      "headline": "First Expansions Lead Emerging U.S. Restaurant Growth in 2026",
+      "source": "Restaurant News Resource",
+      "source_url": "https://www.restaurantnewsresource.com/first-expansions-lead-emerging-us-restaurant-growth-in-2026",
       "category": "Restaurant",
       "categories": [
         "Restaurant"
       ],
-      "summary": "Highlights critical importance of grease trap maintenance for food service establishments, noting that failure to clean hood vents and manage FOG contributes to 22% of all restaurant fires and millions in damages annually.",
-      "relevance_score": 5,
+      "summary": "RestaurantData analysis shows that first-expansion units account for 41% of planned 2026 restaurant transitions, with 3,342 records tracking growth-stage restaurants. The Southeast leads with 30.6% of records, while Texas, California, Florida and New York account for over half of planned activity.",
+      "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-08-04"
+      "first_seen_date": "2026-08-05"
     },
     {
-      "date": "2026-07-31",
-      "headline": "FOG-Related SSOs and Consent Decrees: Understanding the Hidden Costs",
-      "source": "In-Pipe",
-      "source_url": "https://www.in-pipe.com/post/the-hidden-cost-of-fog-related-ssos-it-s-not-the-fine-you-should-worry-about",
-      "category": "Infrastructure",
+      "date": "2026-08-02",
+      "headline": "Sustainable Aviation Fuel Scarce and Expensive: Why e-SAF Capacity Severely Lags Mandated Demand",
+      "source": "Aerospace Global News",
+      "source_url": "https://aerospaceglobalnews.com/news/sustainable-aviation-fuel-scarce-expensive-why/",
+      "category": "Renewable Fuels",
       "categories": [
-        "Infrastructure",
-        "Regulatory"
+        "Renewable Fuels"
       ],
-      "summary": "Baltimore, the Metropolitan St. Louis Sewer District, Miami-Dade County, and Fort Smith, Arkansas have all had FOG named specifically in their consent decrees, illustrating how patterns of FOG-related overflows trigger multi-year federal enforcement actions. The article explains how FOG prevention programs become federal consent decree obligations with ongoing inspection and reporting requirements.",
+      "summary": "IATA reported in June 2026 that EU and UK SAF mandates require approximately 600,000 tonnes of e-SAF by 2030, yet global operating and under-construction capacity stood at only 20,000 tonnes with one production site operating. The article discusses UCO-based HEFA pathways and the feedstock constraints limiting SAF scale-up.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -125,38 +101,209 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-08-04"
+      "first_seen_date": "2026-08-05"
     },
     {
-      "date": "2026-07-30",
-      "headline": "Darling Ingredients Inc. Reports Second Quarter 2026 Results",
-      "source": "SEC EDGAR / Darling Ingredients",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/0000916540/000091654026000019/exh991-pressreleaseq22026.htm",
+      "date": "2026-08-01",
+      "headline": "Darling Ingredients Q2 2026: EBITDA Triples on Diamond Green Diesel Renewable Diesel Rebound",
+      "source": "Investing.com",
+      "source_url": "https://www.investing.com/news/company-news/darling-q2-2026-slides-ebitda-triples-on-renewable-diesel-rebound-93CH-4825273",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels",
+        "Public Co."
+      ],
+      "summary": "Darling Ingredients reported combined adjusted EBITDA of $742 million for Q2 2026, a 197% increase YoY, with its Diamond Green Diesel joint venture generating $389 million in adjusted EBITDA. DGD sold 348.8 million gallons of renewable fuels at $2.23/gallon EBITDA, with Q3 2026 production projected at approximately 335 million gallons amid tight RIN markets and strong demand for low-carbon fuels.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-08-05"
+    },
+    {
+      "date": "2026-08-01",
+      "headline": "Emerging Restaurant Brands: 2026 New Weekly Alerts Report",
+      "source": "RestaurantData",
+      "source_url": "https://restaurantdata.com/new-weekly-alerts-2026-emerging-restaurant-growth-report/",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "As of August 2026, 548 actively expanding restaurant companies operate 10-50 units while 111 expanding companies have 51-100 units. The report tracks companies moving through the 2-to-19-unit range across broader company sizes.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-08-05"
+    },
+    {
+      "date": "2026-07-29",
+      "headline": "GFL Environmental Q2 2026: Revenue Up 11%, Updated Full-Year Guidance",
+      "source": "Pulse2",
+      "source_url": "https://pulse2.com/gfl-environmental-revenue-jumps-16-as-acquisitions-add-nearly-10-percentage-points-of-growth/",
       "category": "Public Co.",
       "categories": [
         "Public Co."
       ],
-      "summary": "Darling Ingredients reported net income of $387.3 million ($2.41 per diluted share) for Q2 2026, significantly outperforming analyst estimates of $1.27 EPS. Combined Adjusted EBITDA reached $741.7 million, a 197% increase from Q2 2025's $249.5 million. The company noted strong fat and protein prices, improved trade conditions, and solid operational execution.",
-      "relevance_score": 5,
-      "is_deal": false,
+      "summary": "The company now expects revenue of between $7.51 billion and $7.53 billion. Adjusted EBITDA is projected to reach approximately $2.29 billion, while adjusted free cash flow is expected to total approximately $900 million.",
+      "relevance_score": 4,
+      "is_deal": true,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-08-04"
+      "first_seen_date": "2026-08-05"
     },
     {
       "date": "2026-07-29",
-      "headline": "GFL Environmental Reports Q2 2026 Earnings; CEO Comments on Take-Private Interest",
+      "headline": "Clean Harbors Raises 2026 Full-Year Guidance After Record Q2 Performance",
       "source": "Waste360",
-      "source_url": "https://www.waste360.com/industry-insights/gfl-environmental-reports-q2-earnings-ceo-addresses-take-private-interest",
+      "source_url": "https://www.waste360.com/industry-insights/clean-harbors-reports-record-q2-2026-results-raises-full-year-outlook",
       "category": "Public Co.",
       "categories": [
         "Public Co.",
         "M&A"
       ],
-      "summary": "GFL Environmental reported strong Q2 2026 results with 11% revenue growth to $3.59 billion year-to-date and 13.7% adjusted EBITDA growth to $1.07 billion. The company raised full-year 2026 guidance for the second time, citing continued acquisition activity and underlying business strength. CEO Patrick Dovigi addressed recent unsolicited preliminary expressions of interest regarding taking the company private.",
+      "summary": "Clean Harbors posted record second-quarter 2026 results, driven by strong demand across its Environmental Services (ES) and Safety-Kleen Sustainability Solutions (SKSS) businesses. The company also announced a major long-term disposal contract, a strategic acquisition to expand its Field Services business, and increased its full-year guidance.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-08-05"
+    },
+    {
+      "date": "2026-07-29",
+      "headline": "Clean Harbors Announces 10-Year Disposal Agreement Worth $600 Million",
+      "source": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/clean-harbors-q2-earnings-call-200400506.html",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "The company also announced a 10-year disposal agreement with a manufacturing customer expanding its U.S. operations. The contract has an estimated value of $600 million and is expected to begin in the fourth quarter, contributing roughly $10 million of revenue in 2026. Clean Harbors expects the agreement to reach full capacity in 2030, when it could generate an $80 million to $100 million annual revenue run rate.",
+      "relevance_score": 5,
+      "is_deal": true,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-08-05"
+    }
+  ],
+  "backfill_news": [
+    {
+      "date": "2026-07-27",
+      "headline": "Hazardous Waste Transportation Regulations Updated",
+      "source": "Federal Register (eCFR)",
+      "source_url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-I/part-263",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops"
+      ],
+      "summary": "Title 40 CFR Part 263 was last amended on July 27, 2026. Updates govern standards applicable to transporters of hazardous waste, including DOT compliance requirements.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-08-05"
+    }
+  ],
+  "new_deals": [
+    {
+      "date": "2026-07-30",
+      "target": "European Casings Business",
+      "acquirer": "Darling Ingredients",
+      "sponsor": "",
+      "location": "",
+      "deal_type": "Add-On",
+      "deal_size": "Undisclosed",
+      "multiple": "N/A",
+      "services": "",
+      "source": "Motley Fool",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/07/30/darling-ingredients-dar-q2-2026-earnings-call-transcript/",
+      "is_target_market": false,
+      "target_market_name": null,
+      "owner_classification": "Unknown",
+      "deal_summary": [
+        "Agreement signed to sell the European casings business, with the transaction expected to close by the end of 2026."
+      ],
+      "date_confidence": "verified",
+      "notes": "For third quarter 2026, the company estimates core ingredients business Adjusted EBITDA to be approximately $325-340 million. The company expects to continue to deleverage and anticipates ending fiscal year 2026 with net debt at or below $3 billion and bank leverage ratio below 2X.",
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null
+    },
+    {
+      "date": "2026-07-29",
+      "target": "Manufacturing customer waste disposal contract",
+      "acquirer": "Clean Harbors",
+      "sponsor": "",
+      "location": "",
+      "deal_type": "Add-On",
+      "deal_size": "$600 million over 10 years",
+      "multiple": "N/A",
+      "services": "",
+      "source": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/clean-harbors-q2-earnings-call-200400506.html",
+      "is_target_market": false,
+      "target_market_name": null,
+      "owner_classification": "Unknown",
+      "deal_summary": [
+        "Long-term disposal contract for incineration waste and complex wastewater volumes, beginning Q4 2026."
+      ],
+      "date_confidence": "verified",
+      "notes": "The company also announced a 10-year disposal agreement with a manufacturing customer expanding its U.S. operations. The contract has an estimated value of $600 million and is expected to begin in the fourth quarter, contributing roughly $10 million of revenue in 2026. Clean Harbors expects the agreement to reach full capacity in 2030, when it could generate an $80 million to $100 million annual revenue run rate.",
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null
+    }
+  ],
+  "new_news": [
+    {
+      "date": "2026-08-05",
+      "headline": "Utility rate increases proposed for Olympia in 2026",
+      "source": "The JOLT News Organization",
+      "source_url": "https://www.thejoltnews.com/stories/utility-rate-increase-proposed-for-2026-in-olympia,26801",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure",
+        "Public Co."
+      ],
+      "summary": "Thurston County Waste Recovery Center tipping rates are increasing in 2026, with garbage disposal rising to $133 per ton from $119 per ton and organics tipping fees increasing to $75 per ton from $37 per ton, impacting Olympia's waste management costs.",
+      "relevance_score": 3,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-08-05"
+    },
+    {
+      "date": "2026-08-03",
+      "headline": "EPA Announces August 3, 2026 Decisions on Petitions for RFS Small Refinery Exemptions",
+      "source": "U.S. Environmental Protection Agency",
+      "source_url": "https://www.epa.gov/renewable-fuel-standard/august-3-2026-decisions-petitions-rfs-small-refinery-exemptions",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels",
+        "Regulatory"
+      ],
+      "summary": "The EPA announced decisions on six individual small refinery exemption petitions from four refineries for the 2023 and 2024 RFS compliance years. This regulatory action affects renewable fuel volume requirements and RIN generation across the biofuel industry.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -164,7 +311,180 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-08-04"
+      "first_seen_date": "2026-08-05"
+    },
+    {
+      "date": "2026-08-03",
+      "headline": "GFL Environmental Responds to Unsolicited Take-Private Expressions of Interest",
+      "source": "Pulse2",
+      "source_url": "https://pulse2.com/gfl-environmental-revenue-jumps-16-as-acquisitions-add-nearly-10-percentage-points-of-growth/",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "GFL has received unsolicited preliminary expressions of interest from multiple parties to take the company private, as is often the case when there is a valuation disconnect. The Board has formed a special committee of independent directors to oversee any discussions that might ensue. There can be no guarantee that any expressions of interest will result in a transaction.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-08-05"
+    },
+    {
+      "date": "2026-08-03",
+      "headline": "First Expansions Lead Emerging U.S. Restaurant Growth in 2026",
+      "source": "Restaurant News Resource",
+      "source_url": "https://www.restaurantnewsresource.com/first-expansions-lead-emerging-us-restaurant-growth-in-2026",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "RestaurantData analysis shows that first-expansion units account for 41% of planned 2026 restaurant transitions, with 3,342 records tracking growth-stage restaurants. The Southeast leads with 30.6% of records, while Texas, California, Florida and New York account for over half of planned activity.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-08-05"
+    },
+    {
+      "date": "2026-08-02",
+      "headline": "Sustainable Aviation Fuel Scarce and Expensive: Why e-SAF Capacity Severely Lags Mandated Demand",
+      "source": "Aerospace Global News",
+      "source_url": "https://aerospaceglobalnews.com/news/sustainable-aviation-fuel-scarce-expensive-why/",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels"
+      ],
+      "summary": "IATA reported in June 2026 that EU and UK SAF mandates require approximately 600,000 tonnes of e-SAF by 2030, yet global operating and under-construction capacity stood at only 20,000 tonnes with one production site operating. The article discusses UCO-based HEFA pathways and the feedstock constraints limiting SAF scale-up.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-08-05"
+    },
+    {
+      "date": "2026-08-01",
+      "headline": "Darling Ingredients Q2 2026: EBITDA Triples on Diamond Green Diesel Renewable Diesel Rebound",
+      "source": "Investing.com",
+      "source_url": "https://www.investing.com/news/company-news/darling-q2-2026-slides-ebitda-triples-on-renewable-diesel-rebound-93CH-4825273",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels",
+        "Public Co."
+      ],
+      "summary": "Darling Ingredients reported combined adjusted EBITDA of $742 million for Q2 2026, a 197% increase YoY, with its Diamond Green Diesel joint venture generating $389 million in adjusted EBITDA. DGD sold 348.8 million gallons of renewable fuels at $2.23/gallon EBITDA, with Q3 2026 production projected at approximately 335 million gallons amid tight RIN markets and strong demand for low-carbon fuels.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-08-05"
+    },
+    {
+      "date": "2026-08-01",
+      "headline": "Emerging Restaurant Brands: 2026 New Weekly Alerts Report",
+      "source": "RestaurantData",
+      "source_url": "https://restaurantdata.com/new-weekly-alerts-2026-emerging-restaurant-growth-report/",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "As of August 2026, 548 actively expanding restaurant companies operate 10-50 units while 111 expanding companies have 51-100 units. The report tracks companies moving through the 2-to-19-unit range across broader company sizes.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-08-05"
+    },
+    {
+      "date": "2026-07-29",
+      "headline": "GFL Environmental Q2 2026: Revenue Up 11%, Updated Full-Year Guidance",
+      "source": "Pulse2",
+      "source_url": "https://pulse2.com/gfl-environmental-revenue-jumps-16-as-acquisitions-add-nearly-10-percentage-points-of-growth/",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "The company now expects revenue of between $7.51 billion and $7.53 billion. Adjusted EBITDA is projected to reach approximately $2.29 billion, while adjusted free cash flow is expected to total approximately $900 million.",
+      "relevance_score": 4,
+      "is_deal": true,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-08-05"
+    },
+    {
+      "date": "2026-07-29",
+      "headline": "Clean Harbors Raises 2026 Full-Year Guidance After Record Q2 Performance",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/industry-insights/clean-harbors-reports-record-q2-2026-results-raises-full-year-outlook",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co.",
+        "M&A"
+      ],
+      "summary": "Clean Harbors posted record second-quarter 2026 results, driven by strong demand across its Environmental Services (ES) and Safety-Kleen Sustainability Solutions (SKSS) businesses. The company also announced a major long-term disposal contract, a strategic acquisition to expand its Field Services business, and increased its full-year guidance.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-08-05"
+    },
+    {
+      "date": "2026-07-29",
+      "headline": "Clean Harbors Announces 10-Year Disposal Agreement Worth $600 Million",
+      "source": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/clean-harbors-q2-earnings-call-200400506.html",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "The company also announced a 10-year disposal agreement with a manufacturing customer expanding its U.S. operations. The contract has an estimated value of $600 million and is expected to begin in the fourth quarter, contributing roughly $10 million of revenue in 2026. Clean Harbors expects the agreement to reach full capacity in 2030, when it could generate an $80 million to $100 million annual revenue run rate.",
+      "relevance_score": 5,
+      "is_deal": true,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-08-05"
+    },
+    {
+      "date": "2026-07-27",
+      "headline": "Hazardous Waste Transportation Regulations Updated",
+      "source": "Federal Register (eCFR)",
+      "source_url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-I/part-263",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops"
+      ],
+      "summary": "Title 40 CFR Part 263 was last amended on July 27, 2026. Updates govern standards applicable to transporters of hazardous waste, including DOT compliance requirements.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-08-05"
     }
   ]
 }
