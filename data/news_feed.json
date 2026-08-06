@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-08-06",
+    "headline": "WEFTEC 2026 Water Environment Federation Conference Announced",
+    "source": "WEF",
+    "source_url": "https://www.wef.org/events--education/conferences/weftec-2026/",
+    "category": "Industry Events",
+    "categories": [
+      "Industry Events"
+    ],
+    "summary": "The Water Environment Federation announced WEFTEC 2026, the largest annual water quality exhibition in North America, scheduled for September 26\u201330, 2026 in New Orleans. The conference features cutting-edge solutions in water quality treatment and environmental sustainability.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-06"
+  },
+  {
     "date": "2026-08-05",
     "headline": "Utility rate increases proposed for Olympia in 2026",
     "source": "The JOLT News Organization",
@@ -116,6 +135,25 @@
     "first_seen_date": "2026-08-05"
   },
   {
+    "date": "2026-08-03",
+    "headline": "Grease Bacterial Solution Tackles Grease Trap Buildup",
+    "source": "Pumper",
+    "source_url": "https://www.pumper.com/editorial/2026/08/sewer-cleaning-inspection-utility-locating-equipment",
+    "category": "Industry Events",
+    "categories": [
+      "Industry Events"
+    ],
+    "summary": "Pumper featured a product article covering a bacterial solution for grease trap maintenance. The article discusses technological solutions for tackling grease accumulation in septic and grease trap systems.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-06"
+  },
+  {
     "date": "2026-08-02",
     "headline": "Sustainable Aviation Fuel Scarce and Expensive: Why e-SAF Capacity Severely Lags Mandated Demand",
     "source": "Aerospace Global News",
@@ -133,6 +171,26 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-08-05"
+  },
+  {
+    "date": "2026-08-02",
+    "headline": "FOG-Related Sanitary Sewer Overflows and Consent Decrees: Multi-Year Federal Obligations",
+    "source": "In-Pipe Inc.",
+    "source_url": "https://www.in-pipe.com/post/the-hidden-cost-of-fog-related-ssos-it-s-not-the-fine-you-should-worry-about",
+    "category": "Infrastructure",
+    "categories": [
+      "Infrastructure",
+      "Regulatory"
+    ],
+    "summary": "Article discusses how FOG-related patterns trigger federal consent decrees across municipalities including Baltimore, St. Louis, Miami-Dade, and Fort Smith\u2014establishing multi-year infrastructure obligations with EPA oversight.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-06"
   },
   {
     "date": "2026-08-01",
@@ -172,6 +230,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-08-05"
+  },
+  {
+    "date": "2026-08-01",
+    "headline": "Tifton-Tift County Landfill and Tifton Inert Landfill Implement Tipping Fee Increase",
+    "source": "City of Tifton, GA",
+    "source_url": "https://tifton.net/m/newsflash/home/detail/277",
+    "category": "Infrastructure",
+    "categories": [
+      "Infrastructure"
+    ],
+    "summary": "Effective August 1, 2026, tipping fees increased to cover rising operational costs and future capital improvements at municipal landfill facilities.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-06"
   },
   {
     "date": "2026-07-31",

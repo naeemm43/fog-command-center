@@ -70,6 +70,28 @@
     "zoom_hint": null
   },
   {
+    "date": "2026-07-29",
+    "target": "Environmental Businesses from Depot Connect International",
+    "acquirer": "Clean Harbors",
+    "sponsor": "",
+    "location": "North America",
+    "deal_type": "Add-On",
+    "deal_size": "~$130 million",
+    "multiple": "N/A",
+    "services": "",
+    "source": "Multiple sources (SEC, Investing.com, Waste360)",
+    "source_url": "https://www.waste360.com/industry-insights/clean-harbors-reports-record-q2-2026-results-raises-full-year-outlook",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "Unknown",
+    "deal_summary": null,
+    "date_confidence": "verified",
+    "notes": "Clean Harbors reported record Q2 2026 revenue of $1.74 billion (up 12%) and net income of $170.5 million ($3.22 EPS), beating analyst estimates. The company announced a major $600 million long-term disposal contract and a $305 million acquisition, raising full-year guidance for Adjusted EBITDA to $1.35\u2013$1.41 billion.",
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
+  },
+  {
     "date": "2026-07-24",
     "target": "WaterFleet Intermediate Holdings, Inc.",
     "acquirer": "Xylem Inc.",
