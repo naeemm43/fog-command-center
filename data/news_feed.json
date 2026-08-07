@@ -39,6 +39,26 @@
     "first_seen_date": "2026-08-05"
   },
   {
+    "date": "2026-08-05",
+    "headline": "Darling Ingredients Board Authorizes $1 Billion Share Repurchase Program",
+    "source": "Las Vegas Sun",
+    "source_url": "https://lasvegassun.com/news/2026/aug/05/darling-ingredients-board-of-directors-authorizes-/",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels",
+      "Public Co."
+    ],
+    "summary": "Darling Ingredients takes material from the animal agriculture and food industries and transforms them into valuable ingredients; the company operates over 260 facilities and produces about 30% of the world's collagen and is one of the largest producers of renewable energy. Board authorization of share buyback signals confidence in operational momentum.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-07"
+  },
+  {
     "date": "2026-08-03",
     "headline": "Restaurant Sector July 2026 Update",
     "source": "Mondaq",
@@ -154,6 +174,84 @@
     "first_seen_date": "2026-08-06"
   },
   {
+    "date": "2026-08-03",
+    "headline": "Darling Ingredients: From Used Cooking Oil to Renewable Fuels Through Chick-fil-A Partnership",
+    "source": "Darling Ingredients Sustainability Report",
+    "source_url": "https://www.darlingii.com/sustainability-2025",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels",
+      "Public Co."
+    ],
+    "summary": "Darling Ingredients generated approximately 1.1 million gallons of renewable diesel from used cooking oil collected from more than 2,000 Chick-fil-A restaurants through a strategic partnership. The company continues to expand UCO feedstock collection and conversion to renewable fuels at scale.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-07"
+  },
+  {
+    "date": "2026-08-03",
+    "headline": "Darling Ingredients Dublin, Georgia Facility: Capturing Methane from Wastewater Treatment as Renewable Natural Gas",
+    "source": "Darling Ingredients Sustainability Report",
+    "source_url": "https://www.darlingii.com/sustainability-2025",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels",
+      "Public Co."
+    ],
+    "summary": "At its rendering facility in Dublin, Georgia, Darling Ingredients is capturing methane from wastewater treatment and selling it back to the local Municipal Gas Authority as renewable natural gas. This demonstrates innovation in converting waste streams to renewable energy.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-07"
+  },
+  {
+    "date": "2026-08-03",
+    "headline": "The 5 Must-Haves for a Vacuum Truck Rental",
+    "source": "Pumper",
+    "source_url": "https://www.pumper.com/online_exclusives/2026/08/a-guide-to-vacuum-truck-rentals-from-joe-johnson-equipment_sc_00dbv",
+    "category": "Industry Events",
+    "categories": [
+      "Industry Events"
+    ],
+    "summary": "Article on vacuum truck rental requirements and best practices for septic and grease pumping operations.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-07"
+  },
+  {
+    "date": "2026-08-03",
+    "headline": "Product Focus: Sewer Cleaning, Inspection and Utility Locating Equipment",
+    "source": "Pumper",
+    "source_url": "https://www.pumper.com/editorial/2026/08/sewer-cleaning-inspection-utility-locating-equipment",
+    "category": "Industry Events",
+    "categories": [
+      "Industry Events"
+    ],
+    "summary": "Product focus article covering equipment and technologies for sewer system cleaning, inspection and utility location in wastewater operations.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-07"
+  },
+  {
     "date": "2026-08-02",
     "headline": "Sustainable Aviation Fuel Scarce and Expensive: Why e-SAF Capacity Severely Lags Mandated Demand",
     "source": "Aerospace Global News",
@@ -249,6 +347,45 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-08-06"
+  },
+  {
+    "date": "2026-08-01",
+    "headline": "How Restaurant FOG Becomes a Recyclable Stream Instead of a Sewer Problem",
+    "source": "Waste Advantage Magazine",
+    "source_url": "https://wasteadvantagemag.com/how-restaurant-fog-becomes-a-recyclable-stream-instead-of-a-sewer-problem/",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant",
+      "Renewable Fuels"
+    ],
+    "summary": "Article discusses restaurant FOG as an under-collected recyclable stream and explores how grease-trap waste is moving toward digestion and energy recovery rather than traditional sewer problems. Covers the distinction between used cooking oil (UCO) and grease trap waste.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-07"
+  },
+  {
+    "date": "2026-08-01",
+    "headline": "FOG and Consent Decrees: Prevention and Compliance Insights",
+    "source": "In-Pipe",
+    "source_url": "https://www.in-pipe.com/post/the-hidden-cost-of-fog-related-ssos-it-s-not-the-fine-you-should-worry-about",
+    "category": "Infrastructure",
+    "categories": [
+      "Infrastructure"
+    ],
+    "summary": "Article discusses how FOG-related sanitary sewer overflows can trigger federal consent decrees. Cities including Baltimore, St. Louis Sewer District, Miami-Dade County, and Fort Smith have had FOG specifically named in consent decrees requiring formal control programs.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-07"
   },
   {
     "date": "2026-07-31",
@@ -385,6 +522,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-08-04"
+  },
+  {
+    "date": "2026-07-30",
+    "headline": "GFL Environmental Q2 2026: Revenue Up 11.35%, Organic Growth Accelerates",
+    "source": "Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/gfl-environmental-q2-earnings-call-090406574.html",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co."
+    ],
+    "summary": "GFL Environmental second-quarter revenue increased 16.3% from the prior year, including 6.4% organic growth. Organic growth accelerated 180 basis points from Q1 as pricing and fuel-related surcharge revenue offset volume and commodity pressures.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-07"
   },
   {
     "date": "2026-07-29",
@@ -543,6 +699,44 @@
     "first_seen_date": "2026-08-05"
   },
   {
+    "date": "2026-07-29",
+    "headline": "Clean Harbors Secures $600M Long-Term Manufacturing Disposal Contract",
+    "source": "Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/clean-harbors-inc-clh-q2-210125159.html",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co."
+    ],
+    "summary": "Clean Harbors secured a significant 10-year disposal contract valued at $600 million, with expected full ramp-up to $80-100 million annual revenue by 2030. The contract covers incineration waste and complex wastewater volumes, representing a strategic growth opportunity.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-07"
+  },
+  {
+    "date": "2026-07-29",
+    "headline": "Clean Harbors Posts Q2 Beat, Lifts Outlook; SKSS Shows 40%+ Growth",
+    "source": "Investing.com",
+    "source_url": "https://www.investing.com/news/transcripts/earnings-call-transcript-clean-harbors-posts-q2-2026-beat-lifts-outlook-93CH-4820813",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co."
+    ],
+    "summary": "Adjusted EBITDA rose 22% to $409 million, while management lifted full-year 2026 adjusted EBITDA guidance to $1.35 billion to $1.41 billion, up $110 million from prior guidance. SKSS segment delivered over 40% top-line growth.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-07"
+  },
+  {
     "date": "2026-07-28",
     "headline": "Liquid Waste Management Solution Market Forecast 2026-2032: Environmental Compliance and Waste Treatment Demand Drives Growth",
     "source": "OpenPR",
@@ -580,6 +774,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-07-30"
+  },
+  {
+    "date": "2026-07-28",
+    "headline": "CDL Driver Class A / Field Laborer \u2013 Environmental Services",
+    "source": "JobTarget",
+    "source_url": "https://www.jobtarget.com/jobs/jt-wrhfafob0t/cdl-driver-class-a-field-laborer-environmental-services-baltimore-maryland",
+    "category": "Labor/Ops",
+    "categories": [
+      "Labor/Ops"
+    ],
+    "summary": "Miller Environmental Group is seeking CDL Class A drivers and field laborers for environmental services operations in Baltimore, MD, including waste transport, industrial cleaning, and spill response.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-07"
   },
   {
     "date": "2026-07-27",
