@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-08-10",
+    "headline": "Why Seattle Restaurant Owners Should Deep Clean Grease Traps Monthly",
+    "source": "QB Clean",
+    "source_url": "https://www.qbclean.com/why-seattle-restaurant-owners-should-deep-clean-grease-traps-monthly",
+    "category": "Regulatory",
+    "categories": [
+      "Regulatory"
+    ],
+    "summary": "Article discusses how Seattle restaurant owners face health code violations, emergency repairs, and potential closure from neglected grease trap maintenance. Emphasizes that Seattle's health department takes grease violations seriously.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-10"
+  },
+  {
     "date": "2026-08-06",
     "headline": "WEFTEC 2026 Water Environment Federation Conference Announced",
     "source": "WEF",
@@ -57,6 +76,45 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-08-07"
+  },
+  {
+    "date": "2026-08-04",
+    "headline": "WaterBridge Infrastructure Acquires Northern Delaware Basin Landfill Environmental Waste Management Facility",
+    "source": "SEC Filing (Form 10-Q)",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0002064947/000119312526335651/wbi-20260630.htm",
+    "category": "M&A",
+    "categories": [
+      "M&A",
+      "Public Co."
+    ],
+    "summary": "WaterBridge Infrastructure entered into a purchase agreement to acquire an environmental waste management facility in Lea County, New Mexico for approximately $189 million ($169 million net after selling 560 acres to LandBridge). The facility acquisition supports WaterBridge's expansion of its waste management business.",
+    "relevance_score": 2,
+    "is_deal": true,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": 34.84,
+    "longitude": -106.248,
+    "zoom_hint": "wide",
+    "first_seen_date": "2026-08-10"
+  },
+  {
+    "date": "2026-08-04",
+    "headline": "Cities Look to the Future on Water Infrastructure Funding and Programs",
+    "source": "National League of Cities",
+    "source_url": "https://www.nlc.org/article/2025/12/18/cities-look-to-the-future-on-water-infrastructure-funding-and-programs/",
+    "category": "Infrastructure",
+    "categories": [
+      "Infrastructure"
+    ],
+    "summary": "The IIJA allocates $50 billion over five years for water infrastructure, divided across Clean Water and Drinking Water State Revolving Funds. Highlights concerns about reauthorization challenges and notes that IIJA funding expires on September 30, 2026, leaving states facing significant reductions in assistance.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-10"
   },
   {
     "date": "2026-08-03",
@@ -250,6 +308,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-08-07"
+  },
+  {
+    "date": "2026-08-03",
+    "headline": "Darling Ingredients Q2 2026 Earnings Beat; Strong Fats, Proteins, and Diamond Green Diesel Performance",
+    "source": "The Motley Fool / Investing.com",
+    "source_url": "https://www.fool.com/earnings/call-transcripts/2026/08/03/darling-ingredients-dar-q2-2026-earnings-call-transcript/",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co."
+    ],
+    "summary": "Darling Ingredients reported Q2 2026 net income of $387.3M ($2.41/share), driven by higher fats and proteins prices and strong Diamond Green Diesel performance. The company guides for Q3 2026 core ingredients Adjusted EBITDA of $325\u2013340M and expects net debt below $3B by year-end.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-10"
   },
   {
     "date": "2026-08-02",
@@ -541,6 +618,45 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-08-07"
+  },
+  {
+    "date": "2026-07-30",
+    "headline": "Darling Ingredients Q2 2026: Net Income Jumps to $387.3M, EPS $2.41 Beats; Margin Expansion Driven by Rendering Feedstocks",
+    "source": "StockTitan",
+    "source_url": "https://www.stocktitan.net/sec-filings/DAR/8-k-darling-ingredients-inc-reports-material-event-26aefe9f3da1.html",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co.",
+      "Renewable Fuels"
+    ],
+    "summary": "Darling Ingredients' Q2 2026 results showed net income of $387.3M with sales of $1.7B and combined adjusted EBITDA of $741.7M, triple prior-year levels. The company narrowed leverage to 2.3X and signaled strong momentum into 2027.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-10"
+  },
+  {
+    "date": "2026-07-30",
+    "headline": "GFL Environmental Q2 2026 Earnings; Organic Growth 6.4%, Pricing +7% Sequential, SECURE Transaction Pending",
+    "source": "Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/gfl-environmental-q2-earnings-call-090406574.html",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co."
+    ],
+    "summary": "GFL Environmental's second-quarter revenue increased 16.3% from the prior year, including 6.4% organic growth. The company raised full-year 2026 guidance and noted the pending SECURE transaction could exceed 20% adjusted EBITDA growth if closed in Q4.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-10"
   },
   {
     "date": "2026-07-29",
@@ -7011,84 +7127,6 @@
     "categories": [
       "ESG",
       "Renewable Fuels"
-    ]
-  },
-  {
-    "date": "2026-02-10",
-    "headline": "Noodles & Company Closing 30-35 Additional U.S. Restaurants in 2026",
-    "source": "Mashed / Popular Restaurant Chains Closing Locations 2026",
-    "source_url": "https://www.mashed.com/2098094/restaurant-chains-closing-locations-2026/",
-    "category": "Restaurant",
-    "summary": "Noodles & Company announced plans to close between 30 and 35 additional restaurants across the United States in 2026 after closing 33 company-owned and nine franchise locations in 2025.",
-    "relevance_score": 3,
-    "is_target_market": false,
-    "target_market_name": null,
-    "is_deal": false,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-02-10",
-    "categories": [
-      "Restaurant"
-    ]
-  },
-  {
-    "date": "2026-02-10",
-    "headline": "IoT Smart Sensors Become Essential for Grease Trap Compliance and Cost Savings in 2026",
-    "source": "Miami Florida Plumbing",
-    "source_url": "https://www.miamifloridaplumbing.com/grease-trap-installation-costs-2026-index/",
-    "category": "Technology",
-    "summary": "In 2026, the smartest way to lower grease trap installation costs long-term is by spending an extra $250 \u2013 $450 upfront on IoT smart sensors. Data shows that IoT-enabled kitchens face almost zero emergency shutdowns compared to manual setups, and many 2026 commercial insurers offer a 5\u201310% discount on property insurance if you prove continuous digital monitoring of waste lines.",
-    "relevance_score": 4,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-02-10",
-    "categories": [
-      "Technology"
-    ]
-  },
-  {
-    "date": "2026-02-10",
-    "headline": "Grease Trap Installation Costs 2026: 11 Smart Ways to Save $4,000+",
-    "source": "Miami Florida Plumbing",
-    "source_url": "https://www.miamifloridaplumbing.com/grease-trap-installation-costs-2026-index/",
-    "category": "Technology",
-    "summary": "2026 market analysis of IoT-enabled smart sensors ($250-$450) for grease traps with municipal FOG (Fats, Oils, Grease, and Solids) program requirements, digital permitting, and insurance premium discounts (5-10%) for continuous digital monitoring compliance.",
-    "relevance_score": 4,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-02-10",
-    "categories": [
-      "Technology",
-      "Labor/Ops"
-    ]
-  },
-  {
-    "date": "2026-02-10",
-    "headline": "Unique ESG Considerations for the Waste Industry \u2013 Including Liquid Waste & FOG Management",
-    "source": "KERAMIDA Inc.",
-    "source_url": "https://www.keramida.com/blog/unique-esg-considerations-for-the-waste-industry",
-    "category": "ESG",
-    "summary": "Analysis of ESG frameworks for waste management operations, including specific guidance on GHG emissions disclosure (particularly methane from landfilled grease), fleet efficiency, and SASB/GRI reporting standards. Highlights how FOG-related operations must integrate climate risk and sustainability metrics.",
-    "relevance_score": 4,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-02-10",
-    "categories": [
-      "ESG",
-      "Public Co."
     ]
   },
   {

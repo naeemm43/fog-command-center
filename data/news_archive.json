@@ -1,5 +1,83 @@
 [
   {
+    "date": "2026-02-10",
+    "headline": "Noodles & Company Closing 30-35 Additional U.S. Restaurants in 2026",
+    "source": "Mashed / Popular Restaurant Chains Closing Locations 2026",
+    "source_url": "https://www.mashed.com/2098094/restaurant-chains-closing-locations-2026/",
+    "category": "Restaurant",
+    "summary": "Noodles & Company announced plans to close between 30 and 35 additional restaurants across the United States in 2026 after closing 33 company-owned and nine franchise locations in 2025.",
+    "relevance_score": 3,
+    "is_target_market": false,
+    "target_market_name": null,
+    "is_deal": false,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-02-10",
+    "categories": [
+      "Restaurant"
+    ]
+  },
+  {
+    "date": "2026-02-10",
+    "headline": "IoT Smart Sensors Become Essential for Grease Trap Compliance and Cost Savings in 2026",
+    "source": "Miami Florida Plumbing",
+    "source_url": "https://www.miamifloridaplumbing.com/grease-trap-installation-costs-2026-index/",
+    "category": "Technology",
+    "summary": "In 2026, the smartest way to lower grease trap installation costs long-term is by spending an extra $250 \u2013 $450 upfront on IoT smart sensors. Data shows that IoT-enabled kitchens face almost zero emergency shutdowns compared to manual setups, and many 2026 commercial insurers offer a 5\u201310% discount on property insurance if you prove continuous digital monitoring of waste lines.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-02-10",
+    "categories": [
+      "Technology"
+    ]
+  },
+  {
+    "date": "2026-02-10",
+    "headline": "Grease Trap Installation Costs 2026: 11 Smart Ways to Save $4,000+",
+    "source": "Miami Florida Plumbing",
+    "source_url": "https://www.miamifloridaplumbing.com/grease-trap-installation-costs-2026-index/",
+    "category": "Technology",
+    "summary": "2026 market analysis of IoT-enabled smart sensors ($250-$450) for grease traps with municipal FOG (Fats, Oils, Grease, and Solids) program requirements, digital permitting, and insurance premium discounts (5-10%) for continuous digital monitoring compliance.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-02-10",
+    "categories": [
+      "Technology",
+      "Labor/Ops"
+    ]
+  },
+  {
+    "date": "2026-02-10",
+    "headline": "Unique ESG Considerations for the Waste Industry \u2013 Including Liquid Waste & FOG Management",
+    "source": "KERAMIDA Inc.",
+    "source_url": "https://www.keramida.com/blog/unique-esg-considerations-for-the-waste-industry",
+    "category": "ESG",
+    "summary": "Analysis of ESG frameworks for waste management operations, including specific guidance on GHG emissions disclosure (particularly methane from landfilled grease), fleet efficiency, and SASB/GRI reporting standards. Highlights how FOG-related operations must integrate climate risk and sustainability metrics.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-02-10",
+    "categories": [
+      "ESG",
+      "Public Co."
+    ]
+  },
+  {
     "date": "2026-02-03",
     "headline": "EPA National Pretreatment Program \u2014 Regulatory History Updated with Current Rulemaking Activities",
     "source": "US EPA",

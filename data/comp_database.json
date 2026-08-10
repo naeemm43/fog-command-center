@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-08-04",
+    "target": "Northern Delaware Basin Landfill Environmental Waste Management Facility",
+    "acquirer": "WaterBridge Infrastructure LLC",
+    "sponsor": "",
+    "location": "Lea County, New Mexico",
+    "deal_type": "Add-On",
+    "deal_size": "$169 million (net)",
+    "multiple": "N/A",
+    "services": "",
+    "source": "SEC Filing (Form 10-Q)",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0002064947/000119312526335651/wbi-20260630.htm",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "Unknown",
+    "deal_summary": null,
+    "date_confidence": "verified",
+    "notes": "WaterBridge Infrastructure entered into a purchase agreement to acquire an environmental waste management facility in Lea County, New Mexico for approximately $189 million ($169 million net after selling 560 acres to LandBridge). The facility acquisition supports WaterBridge's expansion of its waste management business.",
+    "latitude": 34.84,
+    "longitude": -106.248,
+    "zoom_hint": "wide"
+  },
+  {
     "date": "2026-07-30",
     "target": "European Casings Business",
     "acquirer": "Darling Ingredients",
