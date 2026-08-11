@@ -38,6 +38,25 @@
     "first_seen_date": "2026-08-06"
   },
   {
+    "date": "2026-08-06",
+    "headline": "Salad and Go files for Chapter 11 after cyclospora fears worsened its challenges",
+    "source": "CNBC",
+    "source_url": "https://www.cnbc.com/restaurants/",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "summary": "Fast-casual restaurant chain Salad and Go filed Chapter 11 bankruptcy amid food safety concerns. Health and safety incidents affect restaurant operations and compliance requirements.",
+    "relevance_score": 1,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-11"
+  },
+  {
     "date": "2026-08-05",
     "headline": "Utility rate increases proposed for Olympia in 2026",
     "source": "The JOLT News Organization",
@@ -115,6 +134,27 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-08-10"
+  },
+  {
+    "date": "2026-08-04",
+    "headline": "WRM Officially Closed on Dar Pro's Trap Grease Collection Assets",
+    "source": "McDonald Farms Inc. / Silver City Processing",
+    "source_url": "https://mcdonaldfarmsinc.com/wrm-officially-closed-on-dar-pros-trap-grease-collection-assets-a-message-to-our-customers/",
+    "category": "M&A",
+    "categories": [
+      "M&A",
+      "Public Co.",
+      "Renewable Fuels"
+    ],
+    "summary": "WRM closed on acquisition of Darling Ingredients' trap grease collection and processing assets from Dar Pro Solutions, adding equipment, service routes, and infrastructure across multiple regions to divert grease from water systems.",
+    "relevance_score": 5,
+    "is_deal": true,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-11"
   },
   {
     "date": "2026-08-03",
@@ -463,6 +503,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-08-07"
+  },
+  {
+    "date": "2026-08-01",
+    "headline": "WEFTEC 2026 Conference Set for September in New Orleans",
+    "source": "Water Environment Federation",
+    "source_url": "https://www.wef.org/events--education/conferences/weftec-2026/",
+    "category": "Industry Events",
+    "categories": [
+      "Industry Events"
+    ],
+    "summary": "WEFTEC 2026, the Water Environment Federation's Technical Exhibition and Conference, is scheduled for September 26-30, 2026 at the Ernest N. Morial Convention Center in New Orleans. The event will feature 950+ exhibitors, 125+ technical sessions, and immersive hubs covering water quality solutions and innovations.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-11"
   },
   {
     "date": "2026-07-31",
@@ -7106,26 +7165,6 @@
     "first_seen_date": "2026-02-13",
     "categories": [
       "M&A",
-      "Renewable Fuels"
-    ]
-  },
-  {
-    "date": "2026-02-12",
-    "headline": "Sustainable transformation of waste cooking oil: A global review of valorization pathways and future directions",
-    "source": "ScienceDirect",
-    "source_url": "https://www.sciencedirect.com/science/article/pii/S2949822826001474",
-    "category": "ESG",
-    "summary": "Comprehensive review of WCO conversion technologies (2019-2025), highlighting biodiesel production efficiencies of 87-96% and emerging applications in bio-jet fuels, bio-asphalt, and biopolymers. Identifies need for next-generation catalysts and machine learning optimization.",
-    "relevance_score": 4,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-02-12",
-    "categories": [
-      "ESG",
       "Renewable Fuels"
     ]
   },

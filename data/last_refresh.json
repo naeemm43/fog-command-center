@@ -1,120 +1,62 @@
 {
-  "timestamp": "2026-08-10T13:21:41Z",
-  "added_news_count": 6,
+  "timestamp": "2026-08-11T13:18:46Z",
+  "added_news_count": 3,
   "added_deals_count": 1,
-  "archived_count": 4,
-  "new_today_news": [
+  "archived_count": 1,
+  "new_today_news": [],
+  "recent_news": [
     {
-      "date": "2026-08-10",
-      "headline": "Why Seattle Restaurant Owners Should Deep Clean Grease Traps Monthly",
-      "source": "QB Clean",
-      "source_url": "https://www.qbclean.com/why-seattle-restaurant-owners-should-deep-clean-grease-traps-monthly",
-      "category": "Regulatory",
+      "date": "2026-08-06",
+      "headline": "Salad and Go files for Chapter 11 after cyclospora fears worsened its challenges",
+      "source": "CNBC",
+      "source_url": "https://www.cnbc.com/restaurants/",
+      "category": "Restaurant",
       "categories": [
-        "Regulatory"
+        "Restaurant"
       ],
-      "summary": "Article discusses how Seattle restaurant owners face health code violations, emergency repairs, and potential closure from neglected grease trap maintenance. Emphasizes that Seattle's health department takes grease violations seriously.",
-      "relevance_score": 3,
+      "summary": "Fast-casual restaurant chain Salad and Go filed Chapter 11 bankruptcy amid food safety concerns. Health and safety incidents affect restaurant operations and compliance requirements.",
+      "relevance_score": 1,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-08-10"
-    }
-  ],
-  "recent_news": [
+      "first_seen_date": "2026-08-11"
+    },
     {
       "date": "2026-08-04",
-      "headline": "WaterBridge Infrastructure Acquires Northern Delaware Basin Landfill Environmental Waste Management Facility",
-      "source": "SEC Filing (Form 10-Q)",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/0002064947/000119312526335651/wbi-20260630.htm",
+      "headline": "WRM Officially Closed on Dar Pro's Trap Grease Collection Assets",
+      "source": "McDonald Farms Inc. / Silver City Processing",
+      "source_url": "https://mcdonaldfarmsinc.com/wrm-officially-closed-on-dar-pros-trap-grease-collection-assets-a-message-to-our-customers/",
       "category": "M&A",
       "categories": [
         "M&A",
-        "Public Co."
+        "Public Co.",
+        "Renewable Fuels"
       ],
-      "summary": "WaterBridge Infrastructure entered into a purchase agreement to acquire an environmental waste management facility in Lea County, New Mexico for approximately $189 million ($169 million net after selling 560 acres to LandBridge). The facility acquisition supports WaterBridge's expansion of its waste management business.",
-      "relevance_score": 2,
+      "summary": "WRM closed on acquisition of Darling Ingredients' trap grease collection and processing assets from Dar Pro Solutions, adding equipment, service routes, and infrastructure across multiple regions to divert grease from water systems.",
+      "relevance_score": 5,
       "is_deal": true,
       "is_target_market": false,
       "target_market_name": null,
-      "latitude": 34.84,
-      "longitude": -106.248,
-      "zoom_hint": "wide",
-      "first_seen_date": "2026-08-10"
-    },
-    {
-      "date": "2026-08-04",
-      "headline": "Cities Look to the Future on Water Infrastructure Funding and Programs",
-      "source": "National League of Cities",
-      "source_url": "https://www.nlc.org/article/2025/12/18/cities-look-to-the-future-on-water-infrastructure-funding-and-programs/",
-      "category": "Infrastructure",
-      "categories": [
-        "Infrastructure"
-      ],
-      "summary": "The IIJA allocates $50 billion over five years for water infrastructure, divided across Clean Water and Drinking Water State Revolving Funds. Highlights concerns about reauthorization challenges and notes that IIJA funding expires on September 30, 2026, leaving states facing significant reductions in assistance.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-08-10"
-    },
-    {
-      "date": "2026-08-03",
-      "headline": "Darling Ingredients Q2 2026 Earnings Beat; Strong Fats, Proteins, and Diamond Green Diesel Performance",
-      "source": "The Motley Fool / Investing.com",
-      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/08/03/darling-ingredients-dar-q2-2026-earnings-call-transcript/",
-      "category": "Public Co.",
-      "categories": [
-        "Public Co."
-      ],
-      "summary": "Darling Ingredients reported Q2 2026 net income of $387.3M ($2.41/share), driven by higher fats and proteins prices and strong Diamond Green Diesel performance. The company guides for Q3 2026 core ingredients Adjusted EBITDA of $325\u2013340M and expects net debt below $3B by year-end.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-08-10"
+      "first_seen_date": "2026-08-11"
     }
   ],
   "backfill_news": [
     {
-      "date": "2026-07-30",
-      "headline": "Darling Ingredients Q2 2026: Net Income Jumps to $387.3M, EPS $2.41 Beats; Margin Expansion Driven by Rendering Feedstocks",
-      "source": "StockTitan",
-      "source_url": "https://www.stocktitan.net/sec-filings/DAR/8-k-darling-ingredients-inc-reports-material-event-26aefe9f3da1.html",
-      "category": "Public Co.",
+      "date": "2026-08-01",
+      "headline": "WEFTEC 2026 Conference Set for September in New Orleans",
+      "source": "Water Environment Federation",
+      "source_url": "https://www.wef.org/events--education/conferences/weftec-2026/",
+      "category": "Industry Events",
       "categories": [
-        "Public Co.",
-        "Renewable Fuels"
+        "Industry Events"
       ],
-      "summary": "Darling Ingredients' Q2 2026 results showed net income of $387.3M with sales of $1.7B and combined adjusted EBITDA of $741.7M, triple prior-year levels. The company narrowed leverage to 2.3X and signaled strong momentum into 2027.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-08-10"
-    },
-    {
-      "date": "2026-07-30",
-      "headline": "GFL Environmental Q2 2026 Earnings; Organic Growth 6.4%, Pricing +7% Sequential, SECURE Transaction Pending",
-      "source": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/markets/stocks/articles/gfl-environmental-q2-earnings-call-090406574.html",
-      "category": "Public Co.",
-      "categories": [
-        "Public Co."
-      ],
-      "summary": "GFL Environmental's second-quarter revenue increased 16.3% from the prior year, including 6.4% organic growth. The company raised full-year 2026 guidance and noted the pending SECURE transaction could exceed 20% adjusted EBITDA growth if closed in Q4.",
+      "summary": "WEFTEC 2026, the Water Environment Federation's Technical Exhibition and Conference, is scheduled for September 26-30, 2026 at the Ernest N. Morial Convention Center in New Orleans. The event will feature 950+ exhibitors, 125+ technical sessions, and immersive hubs covering water quality solutions and innovations.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -122,141 +64,84 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-08-10"
+      "first_seen_date": "2026-08-11"
     }
   ],
   "new_deals": [
     {
       "date": "2026-08-04",
-      "target": "Northern Delaware Basin Landfill Environmental Waste Management Facility",
-      "acquirer": "WaterBridge Infrastructure LLC",
+      "target": "Dar Pro Solutions (Darling Ingredients trap grease assets)",
+      "acquirer": "Waste Resource Management (WRM)",
       "sponsor": "",
-      "location": "Lea County, New Mexico",
+      "location": "Multiple markets",
       "deal_type": "Add-On",
-      "deal_size": "$169 million (net)",
+      "deal_size": "Undisclosed",
       "multiple": "N/A",
       "services": "",
-      "source": "SEC Filing (Form 10-Q)",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/0002064947/000119312526335651/wbi-20260630.htm",
+      "source": "McDonald Farms Inc. / Silver City Processing",
+      "source_url": "https://mcdonaldfarmsinc.com/wrm-officially-closed-on-dar-pros-trap-grease-collection-assets-a-message-to-our-customers/",
       "is_target_market": false,
       "target_market_name": null,
       "owner_classification": "Unknown",
       "deal_summary": null,
-      "date_confidence": "verified",
-      "notes": "WaterBridge Infrastructure entered into a purchase agreement to acquire an environmental waste management facility in Lea County, New Mexico for approximately $189 million ($169 million net after selling 560 acres to LandBridge). The facility acquisition supports WaterBridge's expansion of its waste management business.",
-      "latitude": 34.84,
-      "longitude": -106.248,
-      "zoom_hint": "wide"
+      "date_confidence": "approximate",
+      "notes": "WRM closed on acquisition of Darling Ingredients' trap grease collection and processing assets from Dar Pro Solutions, adding equipment, service routes, and infrastructure across multiple regions to divert grease from water systems.",
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null
     }
   ],
   "new_news": [
     {
-      "date": "2026-08-10",
-      "headline": "Why Seattle Restaurant Owners Should Deep Clean Grease Traps Monthly",
-      "source": "QB Clean",
-      "source_url": "https://www.qbclean.com/why-seattle-restaurant-owners-should-deep-clean-grease-traps-monthly",
-      "category": "Regulatory",
+      "date": "2026-08-06",
+      "headline": "Salad and Go files for Chapter 11 after cyclospora fears worsened its challenges",
+      "source": "CNBC",
+      "source_url": "https://www.cnbc.com/restaurants/",
+      "category": "Restaurant",
       "categories": [
-        "Regulatory"
+        "Restaurant"
       ],
-      "summary": "Article discusses how Seattle restaurant owners face health code violations, emergency repairs, and potential closure from neglected grease trap maintenance. Emphasizes that Seattle's health department takes grease violations seriously.",
-      "relevance_score": 3,
+      "summary": "Fast-casual restaurant chain Salad and Go filed Chapter 11 bankruptcy amid food safety concerns. Health and safety incidents affect restaurant operations and compliance requirements.",
+      "relevance_score": 1,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-08-10"
+      "first_seen_date": "2026-08-11"
     },
     {
       "date": "2026-08-04",
-      "headline": "WaterBridge Infrastructure Acquires Northern Delaware Basin Landfill Environmental Waste Management Facility",
-      "source": "SEC Filing (Form 10-Q)",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/0002064947/000119312526335651/wbi-20260630.htm",
+      "headline": "WRM Officially Closed on Dar Pro's Trap Grease Collection Assets",
+      "source": "McDonald Farms Inc. / Silver City Processing",
+      "source_url": "https://mcdonaldfarmsinc.com/wrm-officially-closed-on-dar-pros-trap-grease-collection-assets-a-message-to-our-customers/",
       "category": "M&A",
       "categories": [
         "M&A",
-        "Public Co."
-      ],
-      "summary": "WaterBridge Infrastructure entered into a purchase agreement to acquire an environmental waste management facility in Lea County, New Mexico for approximately $189 million ($169 million net after selling 560 acres to LandBridge). The facility acquisition supports WaterBridge's expansion of its waste management business.",
-      "relevance_score": 2,
-      "is_deal": true,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": 34.84,
-      "longitude": -106.248,
-      "zoom_hint": "wide",
-      "first_seen_date": "2026-08-10"
-    },
-    {
-      "date": "2026-08-04",
-      "headline": "Cities Look to the Future on Water Infrastructure Funding and Programs",
-      "source": "National League of Cities",
-      "source_url": "https://www.nlc.org/article/2025/12/18/cities-look-to-the-future-on-water-infrastructure-funding-and-programs/",
-      "category": "Infrastructure",
-      "categories": [
-        "Infrastructure"
-      ],
-      "summary": "The IIJA allocates $50 billion over five years for water infrastructure, divided across Clean Water and Drinking Water State Revolving Funds. Highlights concerns about reauthorization challenges and notes that IIJA funding expires on September 30, 2026, leaving states facing significant reductions in assistance.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-08-10"
-    },
-    {
-      "date": "2026-08-03",
-      "headline": "Darling Ingredients Q2 2026 Earnings Beat; Strong Fats, Proteins, and Diamond Green Diesel Performance",
-      "source": "The Motley Fool / Investing.com",
-      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/08/03/darling-ingredients-dar-q2-2026-earnings-call-transcript/",
-      "category": "Public Co.",
-      "categories": [
-        "Public Co."
-      ],
-      "summary": "Darling Ingredients reported Q2 2026 net income of $387.3M ($2.41/share), driven by higher fats and proteins prices and strong Diamond Green Diesel performance. The company guides for Q3 2026 core ingredients Adjusted EBITDA of $325\u2013340M and expects net debt below $3B by year-end.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-08-10"
-    },
-    {
-      "date": "2026-07-30",
-      "headline": "Darling Ingredients Q2 2026: Net Income Jumps to $387.3M, EPS $2.41 Beats; Margin Expansion Driven by Rendering Feedstocks",
-      "source": "StockTitan",
-      "source_url": "https://www.stocktitan.net/sec-filings/DAR/8-k-darling-ingredients-inc-reports-material-event-26aefe9f3da1.html",
-      "category": "Public Co.",
-      "categories": [
         "Public Co.",
         "Renewable Fuels"
       ],
-      "summary": "Darling Ingredients' Q2 2026 results showed net income of $387.3M with sales of $1.7B and combined adjusted EBITDA of $741.7M, triple prior-year levels. The company narrowed leverage to 2.3X and signaled strong momentum into 2027.",
+      "summary": "WRM closed on acquisition of Darling Ingredients' trap grease collection and processing assets from Dar Pro Solutions, adding equipment, service routes, and infrastructure across multiple regions to divert grease from water systems.",
       "relevance_score": 5,
-      "is_deal": false,
+      "is_deal": true,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-08-10"
+      "first_seen_date": "2026-08-11"
     },
     {
-      "date": "2026-07-30",
-      "headline": "GFL Environmental Q2 2026 Earnings; Organic Growth 6.4%, Pricing +7% Sequential, SECURE Transaction Pending",
-      "source": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/markets/stocks/articles/gfl-environmental-q2-earnings-call-090406574.html",
-      "category": "Public Co.",
+      "date": "2026-08-01",
+      "headline": "WEFTEC 2026 Conference Set for September in New Orleans",
+      "source": "Water Environment Federation",
+      "source_url": "https://www.wef.org/events--education/conferences/weftec-2026/",
+      "category": "Industry Events",
       "categories": [
-        "Public Co."
+        "Industry Events"
       ],
-      "summary": "GFL Environmental's second-quarter revenue increased 16.3% from the prior year, including 6.4% organic growth. The company raised full-year 2026 guidance and noted the pending SECURE transaction could exceed 20% adjusted EBITDA growth if closed in Q4.",
+      "summary": "WEFTEC 2026, the Water Environment Federation's Technical Exhibition and Conference, is scheduled for September 26-30, 2026 at the Ernest N. Morial Convention Center in New Orleans. The event will feature 950+ exhibitors, 125+ technical sessions, and immersive hubs covering water quality solutions and innovations.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -264,7 +149,7 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-08-10"
+      "first_seen_date": "2026-08-11"
     }
   ]
 }

@@ -22,6 +22,28 @@
     "zoom_hint": "wide"
   },
   {
+    "date": "2026-08-04",
+    "target": "Dar Pro Solutions (Darling Ingredients trap grease assets)",
+    "acquirer": "Waste Resource Management (WRM)",
+    "sponsor": "",
+    "location": "Multiple markets",
+    "deal_type": "Add-On",
+    "deal_size": "Undisclosed",
+    "multiple": "N/A",
+    "services": "",
+    "source": "McDonald Farms Inc. / Silver City Processing",
+    "source_url": "https://mcdonaldfarmsinc.com/wrm-officially-closed-on-dar-pros-trap-grease-collection-assets-a-message-to-our-customers/",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "Unknown",
+    "deal_summary": null,
+    "date_confidence": "approximate",
+    "notes": "WRM closed on acquisition of Darling Ingredients' trap grease collection and processing assets from Dar Pro Solutions, adding equipment, service routes, and infrastructure across multiple regions to divert grease from water systems.",
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
+  },
+  {
     "date": "2026-07-30",
     "target": "European Casings Business",
     "acquirer": "Darling Ingredients",
