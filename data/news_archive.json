@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-02-13",
+    "headline": "Liquid Environmental Solutions Acquires Commercial Pumping Services",
+    "source": "Liquid Environmental Solutions",
+    "source_url": "https://www.liquidenviro.com/blog-news/liquid-environmental-solutions-acquires-commercial-pumping-services",
+    "category": "M&A",
+    "summary": "Liquid Environmental Solutions has acquired Commercial Pumping Services, a leading provider of grease trap and used cooking oil collection services. Based in St. Charles County, MO and founded in 2000, Commercial Pumping Services will be added to LES' extensive network of non-hazardous wastewater collection facilities.",
+    "relevance_score": 5,
+    "is_deal": true,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": 38.456,
+    "longitude": -92.288,
+    "zoom_hint": "wide",
+    "first_seen_date": "2026-02-13",
+    "categories": [
+      "M&A",
+      "Renewable Fuels"
+    ]
+  },
+  {
     "date": "2026-02-12",
     "headline": "Sustainable transformation of waste cooking oil: A global review of valorization pathways and future directions",
     "source": "ScienceDirect",

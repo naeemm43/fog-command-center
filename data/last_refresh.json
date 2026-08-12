@@ -1,155 +1,89 @@
 {
-  "timestamp": "2026-08-11T13:18:46Z",
-  "added_news_count": 3,
-  "added_deals_count": 1,
+  "timestamp": "2026-08-12T13:22:32Z",
+  "added_news_count": 2,
+  "added_deals_count": 0,
   "archived_count": 1,
   "new_today_news": [],
-  "recent_news": [
-    {
-      "date": "2026-08-06",
-      "headline": "Salad and Go files for Chapter 11 after cyclospora fears worsened its challenges",
-      "source": "CNBC",
-      "source_url": "https://www.cnbc.com/restaurants/",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "Fast-casual restaurant chain Salad and Go filed Chapter 11 bankruptcy amid food safety concerns. Health and safety incidents affect restaurant operations and compliance requirements.",
-      "relevance_score": 1,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-08-11"
-    },
-    {
-      "date": "2026-08-04",
-      "headline": "WRM Officially Closed on Dar Pro's Trap Grease Collection Assets",
-      "source": "McDonald Farms Inc. / Silver City Processing",
-      "source_url": "https://mcdonaldfarmsinc.com/wrm-officially-closed-on-dar-pros-trap-grease-collection-assets-a-message-to-our-customers/",
-      "category": "M&A",
-      "categories": [
-        "M&A",
-        "Public Co.",
-        "Renewable Fuels"
-      ],
-      "summary": "WRM closed on acquisition of Darling Ingredients' trap grease collection and processing assets from Dar Pro Solutions, adding equipment, service routes, and infrastructure across multiple regions to divert grease from water systems.",
-      "relevance_score": 5,
-      "is_deal": true,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-08-11"
-    }
-  ],
+  "recent_news": [],
   "backfill_news": [
     {
-      "date": "2026-08-01",
-      "headline": "WEFTEC 2026 Conference Set for September in New Orleans",
-      "source": "Water Environment Federation",
-      "source_url": "https://www.wef.org/events--education/conferences/weftec-2026/",
-      "category": "Industry Events",
+      "date": "2026-07-30",
+      "headline": "Darling Ingredients Q2 2026 earnings: Strong profitability with $387.3M net income, raises core guidance",
+      "source": "Motley Fool / Business Wire",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/08/03/darling-ingredients-dar-q2-2026-earnings-call-transcript/",
+      "category": "Public Co.",
       "categories": [
-        "Industry Events"
+        "Public Co."
       ],
-      "summary": "WEFTEC 2026, the Water Environment Federation's Technical Exhibition and Conference, is scheduled for September 26-30, 2026 at the Ernest N. Morial Convention Center in New Orleans. The event will feature 950+ exhibitors, 125+ technical sessions, and immersive hubs covering water quality solutions and innovations.",
-      "relevance_score": 4,
+      "summary": "Darling Ingredients reported Q2 2026 net income of $387.3M ($2.41 EPS), a massive 30x jump YoY driven by strong fats and protein prices, and Diamond Green Diesel strength. The company guides Q3 core EBITDA of $325\u2013$340M and expects to end 2026 with net debt at or below $3B and leverage below 2X.",
+      "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-08-11"
-    }
-  ],
-  "new_deals": [
+      "first_seen_date": "2026-08-12"
+    },
     {
-      "date": "2026-08-04",
-      "target": "Dar Pro Solutions (Darling Ingredients trap grease assets)",
-      "acquirer": "Waste Resource Management (WRM)",
-      "sponsor": "",
-      "location": "Multiple markets",
-      "deal_type": "Add-On",
-      "deal_size": "Undisclosed",
-      "multiple": "N/A",
-      "services": "",
-      "source": "McDonald Farms Inc. / Silver City Processing",
-      "source_url": "https://mcdonaldfarmsinc.com/wrm-officially-closed-on-dar-pros-trap-grease-collection-assets-a-message-to-our-customers/",
+      "date": "2026-07-29",
+      "headline": "Clean Harbors Q2 2026: Record revenue of $1.74B, adjusted EBITDA margin reaches 23.6%, secures $600M long-term disposal contract",
+      "source": "Waste360 / Clean Harbors",
+      "source_url": "https://www.waste360.com/industry-insights/clean-harbors-reports-record-q2-2026-results-raises-full-year-outlook",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "Clean Harbors posted record Q2 revenue of $1.74B (+12% YoY) with adjusted EBITDA of $409M (+22% YoY). The company announced a major 10-year, $600M disposal contract with a manufacturing customer expected to generate $80\u2013$100M annual run rate by 2030, and raised full-year 2026 guidance.",
+      "relevance_score": 5,
+      "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
-      "owner_classification": "Unknown",
-      "deal_summary": null,
-      "date_confidence": "approximate",
-      "notes": "WRM closed on acquisition of Darling Ingredients' trap grease collection and processing assets from Dar Pro Solutions, adding equipment, service routes, and infrastructure across multiple regions to divert grease from water systems.",
       "latitude": null,
       "longitude": null,
-      "zoom_hint": null
+      "zoom_hint": null,
+      "first_seen_date": "2026-08-12"
     }
   ],
+  "new_deals": [],
   "new_news": [
     {
-      "date": "2026-08-06",
-      "headline": "Salad and Go files for Chapter 11 after cyclospora fears worsened its challenges",
-      "source": "CNBC",
-      "source_url": "https://www.cnbc.com/restaurants/",
-      "category": "Restaurant",
+      "date": "2026-07-30",
+      "headline": "Darling Ingredients Q2 2026 earnings: Strong profitability with $387.3M net income, raises core guidance",
+      "source": "Motley Fool / Business Wire",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/08/03/darling-ingredients-dar-q2-2026-earnings-call-transcript/",
+      "category": "Public Co.",
       "categories": [
-        "Restaurant"
+        "Public Co."
       ],
-      "summary": "Fast-casual restaurant chain Salad and Go filed Chapter 11 bankruptcy amid food safety concerns. Health and safety incidents affect restaurant operations and compliance requirements.",
-      "relevance_score": 1,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-08-11"
-    },
-    {
-      "date": "2026-08-04",
-      "headline": "WRM Officially Closed on Dar Pro's Trap Grease Collection Assets",
-      "source": "McDonald Farms Inc. / Silver City Processing",
-      "source_url": "https://mcdonaldfarmsinc.com/wrm-officially-closed-on-dar-pros-trap-grease-collection-assets-a-message-to-our-customers/",
-      "category": "M&A",
-      "categories": [
-        "M&A",
-        "Public Co.",
-        "Renewable Fuels"
-      ],
-      "summary": "WRM closed on acquisition of Darling Ingredients' trap grease collection and processing assets from Dar Pro Solutions, adding equipment, service routes, and infrastructure across multiple regions to divert grease from water systems.",
+      "summary": "Darling Ingredients reported Q2 2026 net income of $387.3M ($2.41 EPS), a massive 30x jump YoY driven by strong fats and protein prices, and Diamond Green Diesel strength. The company guides Q3 core EBITDA of $325\u2013$340M and expects to end 2026 with net debt at or below $3B and leverage below 2X.",
       "relevance_score": 5,
-      "is_deal": true,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-08-11"
-    },
-    {
-      "date": "2026-08-01",
-      "headline": "WEFTEC 2026 Conference Set for September in New Orleans",
-      "source": "Water Environment Federation",
-      "source_url": "https://www.wef.org/events--education/conferences/weftec-2026/",
-      "category": "Industry Events",
-      "categories": [
-        "Industry Events"
-      ],
-      "summary": "WEFTEC 2026, the Water Environment Federation's Technical Exhibition and Conference, is scheduled for September 26-30, 2026 at the Ernest N. Morial Convention Center in New Orleans. The event will feature 950+ exhibitors, 125+ technical sessions, and immersive hubs covering water quality solutions and innovations.",
-      "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-08-11"
+      "first_seen_date": "2026-08-12"
+    },
+    {
+      "date": "2026-07-29",
+      "headline": "Clean Harbors Q2 2026: Record revenue of $1.74B, adjusted EBITDA margin reaches 23.6%, secures $600M long-term disposal contract",
+      "source": "Waste360 / Clean Harbors",
+      "source_url": "https://www.waste360.com/industry-insights/clean-harbors-reports-record-q2-2026-results-raises-full-year-outlook",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "Clean Harbors posted record Q2 revenue of $1.74B (+12% YoY) with adjusted EBITDA of $409M (+22% YoY). The company announced a major 10-year, $600M disposal contract with a manufacturing customer expected to generate $80\u2013$100M annual run rate by 2030, and raised full-year 2026 guidance.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-08-12"
     }
   ]
 }

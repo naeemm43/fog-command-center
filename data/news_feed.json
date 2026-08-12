@@ -718,6 +718,25 @@
     "first_seen_date": "2026-08-10"
   },
   {
+    "date": "2026-07-30",
+    "headline": "Darling Ingredients Q2 2026 earnings: Strong profitability with $387.3M net income, raises core guidance",
+    "source": "Motley Fool / Business Wire",
+    "source_url": "https://www.fool.com/earnings/call-transcripts/2026/08/03/darling-ingredients-dar-q2-2026-earnings-call-transcript/",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co."
+    ],
+    "summary": "Darling Ingredients reported Q2 2026 net income of $387.3M ($2.41 EPS), a massive 30x jump YoY driven by strong fats and protein prices, and Diamond Green Diesel strength. The company guides Q3 core EBITDA of $325\u2013$340M and expects to end 2026 with net debt at or below $3B and leverage below 2X.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-12"
+  },
+  {
     "date": "2026-07-29",
     "headline": "Clean Harbors Reports Q2 2026 Earnings Beat with Record Results",
     "source": "Business Wire",
@@ -910,6 +929,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-08-07"
+  },
+  {
+    "date": "2026-07-29",
+    "headline": "Clean Harbors Q2 2026: Record revenue of $1.74B, adjusted EBITDA margin reaches 23.6%, secures $600M long-term disposal contract",
+    "source": "Waste360 / Clean Harbors",
+    "source_url": "https://www.waste360.com/industry-insights/clean-harbors-reports-record-q2-2026-results-raises-full-year-outlook",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co."
+    ],
+    "summary": "Clean Harbors posted record Q2 revenue of $1.74B (+12% YoY) with adjusted EBITDA of $409M (+22% YoY). The company announced a major 10-year, $600M disposal contract with a manufacturing customer expected to generate $80\u2013$100M annual run rate by 2030, and raised full-year 2026 guidance.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-12"
   },
   {
     "date": "2026-07-28",
@@ -7146,26 +7184,6 @@
     "first_seen_date": "2026-02-17",
     "categories": [
       "Regulatory"
-    ]
-  },
-  {
-    "date": "2026-02-13",
-    "headline": "Liquid Environmental Solutions Acquires Commercial Pumping Services",
-    "source": "Liquid Environmental Solutions",
-    "source_url": "https://www.liquidenviro.com/blog-news/liquid-environmental-solutions-acquires-commercial-pumping-services",
-    "category": "M&A",
-    "summary": "Liquid Environmental Solutions has acquired Commercial Pumping Services, a leading provider of grease trap and used cooking oil collection services. Based in St. Charles County, MO and founded in 2000, Commercial Pumping Services will be added to LES' extensive network of non-hazardous wastewater collection facilities.",
-    "relevance_score": 5,
-    "is_deal": true,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": 38.456,
-    "longitude": -92.288,
-    "zoom_hint": "wide",
-    "first_seen_date": "2026-02-13",
-    "categories": [
-      "M&A",
-      "Renewable Fuels"
     ]
   },
   {
