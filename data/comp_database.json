@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-08-12",
+    "target": "EnviroServe",
+    "acquirer": "Clean Harbors, Inc.",
+    "sponsor": "One Rock Capital Partners, LLC",
+    "location": "United States (National)",
+    "deal_type": "Add-On",
+    "deal_size": "$470 million",
+    "multiple": "~9X Adjusted EBITDA (post-synergy)",
+    "services": "",
+    "source": "Clean Harbors Inc. - SEC Filing",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0000822818/000082281826000037/enviroservepressrelease.htm",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "Financial Sponsor",
+    "deal_summary": [
+      "Acquisition of environmental waste management services provider by publicly-traded environmental services company"
+    ],
+    "date_confidence": "verified",
+    "notes": "Clean Harbors entered into a definitive agreement to acquire EnviroServe, a national provider of environmental and waste management services, from One Rock Capital Partners for $470 million. The acquisition is expected to close in H2 2026 and includes 40 locations with specialized fleet and recurring revenue stream.",
+    "latitude": 39.828,
+    "longitude": -98.58,
+    "zoom_hint": "narrow"
+  },
+  {
     "date": "2026-08-11",
     "target": "Production tax credits from Diamond Green Diesel",
     "acquirer": "Corporate buyer (unnamed)",
@@ -22,6 +46,30 @@
     "latitude": null,
     "longitude": null,
     "zoom_hint": null
+  },
+  {
+    "date": "2026-08-11",
+    "target": "Western Oil",
+    "acquirer": "Clean Harbors Inc.",
+    "sponsor": "",
+    "location": "New England",
+    "deal_type": "Add-On",
+    "deal_size": "$30 million",
+    "multiple": "N/A",
+    "services": "",
+    "source": "Simply Wall St",
+    "source_url": "https://simplywall.st/stocks/us/commercial-services/nyse-clh/clean-harbors/news/stronger-earnings-guidance-and-western-oil-deal-could-be-a-g",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "Unknown",
+    "deal_summary": [
+      "Acquisition to expand Field Services business"
+    ],
+    "date_confidence": "verified",
+    "notes": "Clean Harbors completed a $30 million acquisition of New England-based Western Oil to expand its Field Services business. The acquisition adds context to Clean Harbors' capital allocation strategy alongside higher earnings and continued share repurchases.",
+    "latitude": 42.407,
+    "longitude": -71.383,
+    "zoom_hint": "wide"
   },
   {
     "date": "2026-08-04",

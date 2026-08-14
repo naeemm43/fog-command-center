@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-08-14",
+    "headline": "Wastewater treatment plant expansion approaching finish line",
+    "source": "Weirton Daily Times",
+    "source_url": "https://www.weirtondailytimes.com/news/local-news/2026/08/wastewater-treatment-plant-expansion-approaching-finish-line/",
+    "category": "Infrastructure",
+    "categories": [
+      "Infrastructure"
+    ],
+    "summary": "The Weirton Sanitary Board's $28.6 million wastewater treatment plant expansion project is 99.9% complete. The project expands treatment capacity from 4 to 8 million gallons per day and was performed by Triton Construction.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-14"
+  },
+  {
     "date": "2026-08-13",
     "headline": "August 2026 QSR Trends: Traffic, Inflation Recovery, & Guest Loyalty",
     "source": "Harmelin Media",
@@ -36,6 +55,26 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-08-13"
+  },
+  {
+    "date": "2026-08-12",
+    "headline": "Clean Harbors to Acquire EnviroServe for $470 Million",
+    "source": "Clean Harbors Inc. - SEC Filing",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0000822818/000082281826000037/enviroservepressrelease.htm",
+    "category": "M&A",
+    "categories": [
+      "M&A",
+      "Public Co."
+    ],
+    "summary": "Clean Harbors entered into a definitive agreement to acquire EnviroServe, a national provider of environmental and waste management services, from One Rock Capital Partners for $470 million. The acquisition is expected to close in H2 2026 and includes 40 locations with specialized fleet and recurring revenue stream.",
+    "relevance_score": 2,
+    "is_deal": true,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": 39.828,
+    "longitude": -98.58,
+    "zoom_hint": "narrow",
+    "first_seen_date": "2026-08-14"
   },
   {
     "date": "2026-08-11",
@@ -77,6 +116,26 @@
     "zoom_hint": null,
     "first_seen_date": "2026-08-13",
     "_synthesized_from_deal": true
+  },
+  {
+    "date": "2026-08-11",
+    "headline": "Clean Harbors Completes $30 Million Western Oil Acquisition",
+    "source": "Simply Wall St",
+    "source_url": "https://simplywall.st/stocks/us/commercial-services/nyse-clh/clean-harbors/news/stronger-earnings-guidance-and-western-oil-deal-could-be-a-g",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co.",
+      "M&A"
+    ],
+    "summary": "Clean Harbors completed a $30 million acquisition of New England-based Western Oil to expand its Field Services business. The acquisition adds context to Clean Harbors' capital allocation strategy alongside higher earnings and continued share repurchases.",
+    "relevance_score": 4,
+    "is_deal": true,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": 42.407,
+    "longitude": -71.383,
+    "zoom_hint": "wide",
+    "first_seen_date": "2026-08-14"
   },
   {
     "date": "2026-08-10",
