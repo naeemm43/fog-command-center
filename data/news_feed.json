@@ -77,6 +77,26 @@
     "first_seen_date": "2026-08-14"
   },
   {
+    "date": "2026-08-12",
+    "headline": "Darling Ingredients to Sell $150 Million in Renewable Diesel Tax Credits",
+    "source": "IGrow News",
+    "source_url": "https://igrownews.com/darling-ingredients-latest-news/",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels",
+      "Public Co."
+    ],
+    "summary": "Darling Ingredients agreed to sell about $150 million in production tax credits to a corporate buyer, with credits generated under the Inflation Reduction Act by its Diamond Green Diesel joint venture. Diamond Green Diesel is a 50/50 venture with Valero that can produce more than 1.2 billion gallons of renewable diesel and sustainable aviation fuel a year.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-17"
+  },
+  {
     "date": "2026-08-11",
     "headline": "Darling Ingredients Announces Agreement to Sell Approximately $150 Million of Production Tax Credits",
     "source": "Darling Ingredients / Business Wire",
@@ -7440,25 +7460,6 @@
     "categories": [
       "ESG",
       "Renewable Fuels"
-    ]
-  },
-  {
-    "date": "2026-02-17",
-    "headline": "City of Stanton RFP for Environmental Services for NPDES and FOG Programs",
-    "source": "ConstructConnect",
-    "source_url": "https://projects.constructconnect.com/details/7424691-rfp-environmental-services-for-npdes-ms4-and-fog-programs&find_loc=california-90680",
-    "category": "Regulatory",
-    "summary": "The City of Stanton is requesting proposals from qualified consultants to provide services for National Pollutant Elimination Systems (NPDES) and Fats Oils & Grease (FOG) programs with question deadline March 11, 2026.",
-    "is_target_market": false,
-    "target_market_name": null,
-    "relevance_score": 4,
-    "is_deal": false,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-02-17",
-    "categories": [
-      "Regulatory"
     ]
   },
   {

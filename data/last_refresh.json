@@ -1,181 +1,53 @@
 {
-  "timestamp": "2026-08-14T13:19:00Z",
-  "added_news_count": 3,
-  "added_deals_count": 2,
-  "archived_count": 0,
-  "new_today_news": [
-    {
-      "date": "2026-08-14",
-      "headline": "Wastewater treatment plant expansion approaching finish line",
-      "source": "Weirton Daily Times",
-      "source_url": "https://www.weirtondailytimes.com/news/local-news/2026/08/wastewater-treatment-plant-expansion-approaching-finish-line/",
-      "category": "Infrastructure",
-      "categories": [
-        "Infrastructure"
-      ],
-      "summary": "The Weirton Sanitary Board's $28.6 million wastewater treatment plant expansion project is 99.9% complete. The project expands treatment capacity from 4 to 8 million gallons per day and was performed by Triton Construction.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-08-14"
-    }
-  ],
+  "timestamp": "2026-08-17T12:55:36Z",
+  "added_news_count": 1,
+  "added_deals_count": 0,
+  "archived_count": 1,
+  "new_today_news": [],
   "recent_news": [
     {
       "date": "2026-08-12",
-      "headline": "Clean Harbors to Acquire EnviroServe for $470 Million",
-      "source": "Clean Harbors Inc. - SEC Filing",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/0000822818/000082281826000037/enviroservepressrelease.htm",
-      "category": "M&A",
+      "headline": "Darling Ingredients to Sell $150 Million in Renewable Diesel Tax Credits",
+      "source": "IGrow News",
+      "source_url": "https://igrownews.com/darling-ingredients-latest-news/",
+      "category": "Renewable Fuels",
       "categories": [
-        "M&A",
+        "Renewable Fuels",
         "Public Co."
       ],
-      "summary": "Clean Harbors entered into a definitive agreement to acquire EnviroServe, a national provider of environmental and waste management services, from One Rock Capital Partners for $470 million. The acquisition is expected to close in H2 2026 and includes 40 locations with specialized fleet and recurring revenue stream.",
-      "relevance_score": 2,
-      "is_deal": true,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": 39.828,
-      "longitude": -98.58,
-      "zoom_hint": "narrow",
-      "first_seen_date": "2026-08-14"
-    },
-    {
-      "date": "2026-08-11",
-      "headline": "Clean Harbors Completes $30 Million Western Oil Acquisition",
-      "source": "Simply Wall St",
-      "source_url": "https://simplywall.st/stocks/us/commercial-services/nyse-clh/clean-harbors/news/stronger-earnings-guidance-and-western-oil-deal-could-be-a-g",
-      "category": "Public Co.",
-      "categories": [
-        "Public Co.",
-        "M&A"
-      ],
-      "summary": "Clean Harbors completed a $30 million acquisition of New England-based Western Oil to expand its Field Services business. The acquisition adds context to Clean Harbors' capital allocation strategy alongside higher earnings and continued share repurchases.",
-      "relevance_score": 4,
-      "is_deal": true,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": 42.407,
-      "longitude": -71.383,
-      "zoom_hint": "wide",
-      "first_seen_date": "2026-08-14"
-    }
-  ],
-  "backfill_news": [],
-  "new_deals": [
-    {
-      "date": "2026-08-12",
-      "target": "EnviroServe",
-      "acquirer": "Clean Harbors, Inc.",
-      "sponsor": "One Rock Capital Partners, LLC",
-      "location": "United States (National)",
-      "deal_type": "Add-On",
-      "deal_size": "$470 million",
-      "multiple": "~9X Adjusted EBITDA (post-synergy)",
-      "services": "",
-      "source": "Clean Harbors Inc. - SEC Filing",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/0000822818/000082281826000037/enviroservepressrelease.htm",
-      "is_target_market": false,
-      "target_market_name": null,
-      "owner_classification": "Financial Sponsor",
-      "deal_summary": [
-        "Acquisition of environmental waste management services provider by publicly-traded environmental services company"
-      ],
-      "date_confidence": "verified",
-      "notes": "Clean Harbors entered into a definitive agreement to acquire EnviroServe, a national provider of environmental and waste management services, from One Rock Capital Partners for $470 million. The acquisition is expected to close in H2 2026 and includes 40 locations with specialized fleet and recurring revenue stream.",
-      "latitude": 39.828,
-      "longitude": -98.58,
-      "zoom_hint": "narrow"
-    },
-    {
-      "date": "2026-08-11",
-      "target": "Western Oil",
-      "acquirer": "Clean Harbors Inc.",
-      "sponsor": "",
-      "location": "New England",
-      "deal_type": "Add-On",
-      "deal_size": "$30 million",
-      "multiple": "N/A",
-      "services": "",
-      "source": "Simply Wall St",
-      "source_url": "https://simplywall.st/stocks/us/commercial-services/nyse-clh/clean-harbors/news/stronger-earnings-guidance-and-western-oil-deal-could-be-a-g",
-      "is_target_market": false,
-      "target_market_name": null,
-      "owner_classification": "Unknown",
-      "deal_summary": [
-        "Acquisition to expand Field Services business"
-      ],
-      "date_confidence": "verified",
-      "notes": "Clean Harbors completed a $30 million acquisition of New England-based Western Oil to expand its Field Services business. The acquisition adds context to Clean Harbors' capital allocation strategy alongside higher earnings and continued share repurchases.",
-      "latitude": 42.407,
-      "longitude": -71.383,
-      "zoom_hint": "wide"
-    }
-  ],
-  "new_news": [
-    {
-      "date": "2026-08-14",
-      "headline": "Wastewater treatment plant expansion approaching finish line",
-      "source": "Weirton Daily Times",
-      "source_url": "https://www.weirtondailytimes.com/news/local-news/2026/08/wastewater-treatment-plant-expansion-approaching-finish-line/",
-      "category": "Infrastructure",
-      "categories": [
-        "Infrastructure"
-      ],
-      "summary": "The Weirton Sanitary Board's $28.6 million wastewater treatment plant expansion project is 99.9% complete. The project expands treatment capacity from 4 to 8 million gallons per day and was performed by Triton Construction.",
-      "relevance_score": 4,
+      "summary": "Darling Ingredients agreed to sell about $150 million in production tax credits to a corporate buyer, with credits generated under the Inflation Reduction Act by its Diamond Green Diesel joint venture. Diamond Green Diesel is a 50/50 venture with Valero that can produce more than 1.2 billion gallons of renewable diesel and sustainable aviation fuel a year.",
+      "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-08-14"
-    },
+      "first_seen_date": "2026-08-17"
+    }
+  ],
+  "backfill_news": [],
+  "new_deals": [],
+  "new_news": [
     {
       "date": "2026-08-12",
-      "headline": "Clean Harbors to Acquire EnviroServe for $470 Million",
-      "source": "Clean Harbors Inc. - SEC Filing",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/0000822818/000082281826000037/enviroservepressrelease.htm",
-      "category": "M&A",
+      "headline": "Darling Ingredients to Sell $150 Million in Renewable Diesel Tax Credits",
+      "source": "IGrow News",
+      "source_url": "https://igrownews.com/darling-ingredients-latest-news/",
+      "category": "Renewable Fuels",
       "categories": [
-        "M&A",
+        "Renewable Fuels",
         "Public Co."
       ],
-      "summary": "Clean Harbors entered into a definitive agreement to acquire EnviroServe, a national provider of environmental and waste management services, from One Rock Capital Partners for $470 million. The acquisition is expected to close in H2 2026 and includes 40 locations with specialized fleet and recurring revenue stream.",
-      "relevance_score": 2,
-      "is_deal": true,
+      "summary": "Darling Ingredients agreed to sell about $150 million in production tax credits to a corporate buyer, with credits generated under the Inflation Reduction Act by its Diamond Green Diesel joint venture. Diamond Green Diesel is a 50/50 venture with Valero that can produce more than 1.2 billion gallons of renewable diesel and sustainable aviation fuel a year.",
+      "relevance_score": 5,
+      "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
-      "latitude": 39.828,
-      "longitude": -98.58,
-      "zoom_hint": "narrow",
-      "first_seen_date": "2026-08-14"
-    },
-    {
-      "date": "2026-08-11",
-      "headline": "Clean Harbors Completes $30 Million Western Oil Acquisition",
-      "source": "Simply Wall St",
-      "source_url": "https://simplywall.st/stocks/us/commercial-services/nyse-clh/clean-harbors/news/stronger-earnings-guidance-and-western-oil-deal-could-be-a-g",
-      "category": "Public Co.",
-      "categories": [
-        "Public Co.",
-        "M&A"
-      ],
-      "summary": "Clean Harbors completed a $30 million acquisition of New England-based Western Oil to expand its Field Services business. The acquisition adds context to Clean Harbors' capital allocation strategy alongside higher earnings and continued share repurchases.",
-      "relevance_score": 4,
-      "is_deal": true,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": 42.407,
-      "longitude": -71.383,
-      "zoom_hint": "wide",
-      "first_seen_date": "2026-08-14"
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-08-17"
     }
   ]
 }
