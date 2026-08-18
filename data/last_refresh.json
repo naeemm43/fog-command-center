@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-08-17T12:55:36Z",
+  "timestamp": "2026-08-18T12:56:59Z",
   "added_news_count": 1,
   "added_deals_count": 0,
-  "archived_count": 1,
+  "archived_count": 5,
   "new_today_news": [],
   "recent_news": [
     {
-      "date": "2026-08-12",
-      "headline": "Darling Ingredients to Sell $150 Million in Renewable Diesel Tax Credits",
-      "source": "IGrow News",
-      "source_url": "https://igrownews.com/darling-ingredients-latest-news/",
-      "category": "Renewable Fuels",
+      "date": "2026-08-11",
+      "headline": "Pretreatment for FOG Online Course",
+      "source": "Alliance for Integrated Resources and Waste (AIRW)",
+      "source_url": "https://www.facebook.com/allianceAIRW/posts/keep-fog-from-becoming-a-costly-problem-fats-oils-and-grease-fog-are-one-of-the-/1653076220154323/",
+      "category": "Industry Events",
       "categories": [
-        "Renewable Fuels",
-        "Public Co."
+        "Industry Events",
+        "Regulatory"
       ],
-      "summary": "Darling Ingredients agreed to sell about $150 million in production tax credits to a corporate buyer, with credits generated under the Inflation Reduction Act by its Diamond Green Diesel joint venture. Diamond Green Diesel is a 50/50 venture with Valero that can produce more than 1.2 billion gallons of renewable diesel and sustainable aviation fuel a year.",
+      "summary": "Online training course on FOG pretreatment offered on August 11, 2026, focusing on fats, oils, and grease management for water and wastewater professionals.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -23,23 +23,23 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-08-17"
+      "first_seen_date": "2026-08-18"
     }
   ],
   "backfill_news": [],
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-08-12",
-      "headline": "Darling Ingredients to Sell $150 Million in Renewable Diesel Tax Credits",
-      "source": "IGrow News",
-      "source_url": "https://igrownews.com/darling-ingredients-latest-news/",
-      "category": "Renewable Fuels",
+      "date": "2026-08-11",
+      "headline": "Pretreatment for FOG Online Course",
+      "source": "Alliance for Integrated Resources and Waste (AIRW)",
+      "source_url": "https://www.facebook.com/allianceAIRW/posts/keep-fog-from-becoming-a-costly-problem-fats-oils-and-grease-fog-are-one-of-the-/1653076220154323/",
+      "category": "Industry Events",
       "categories": [
-        "Renewable Fuels",
-        "Public Co."
+        "Industry Events",
+        "Regulatory"
       ],
-      "summary": "Darling Ingredients agreed to sell about $150 million in production tax credits to a corporate buyer, with credits generated under the Inflation Reduction Act by its Diamond Green Diesel joint venture. Diamond Green Diesel is a 50/50 venture with Valero that can produce more than 1.2 billion gallons of renewable diesel and sustainable aviation fuel a year.",
+      "summary": "Online training course on FOG pretreatment offered on August 11, 2026, focusing on fats, oils, and grease management for water and wastewater professionals.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -47,7 +47,7 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-08-17"
+      "first_seen_date": "2026-08-18"
     }
   ]
 }
