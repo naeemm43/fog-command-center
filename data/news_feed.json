@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-08-19",
+    "headline": "Grease Guardian Exhibits at Food System Solutions Japan 2025",
+    "source": "Grease Guardian",
+    "source_url": "https://www.greaseguardian.com/2026/05/28/fuel-crisis-the-answer-might-be-flowing-through-commercial-kitchen-drains/",
+    "category": "ESG",
+    "categories": [
+      "ESG",
+      "Renewable Fuels"
+    ],
+    "summary": "Grease Guardian's grease recovery technology recovered two tonnes of dewatered waste oil per week at the Guyader Gastronomie facility in partnership with recycling company Valol\u00e9\u00efque. The recovered waste holds high recyclable value for biofuel production, demonstrating effectiveness in repurposing FOG materials for sustainable outcomes.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-19"
+  },
+  {
     "date": "2026-08-14",
     "headline": "Wastewater treatment plant expansion approaching finish line",
     "source": "Weirton Daily Times",
@@ -17,6 +37,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-08-14"
+  },
+  {
+    "date": "2026-08-14",
+    "headline": "Clean Harbors Co-CEO Sells $803K in Common Stock",
+    "source": "Investing.com",
+    "source_url": "https://www.investing.com/news/insider-trading-news/clean-harbors-coceo-sells-803k-in-common-stock-93CH-4865910",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co."
+    ],
+    "summary": "Eric Gerstenberg, co-CEO of Clean Harbors (CLH), sold 2,500 shares totaling $803,349 on August 14, 2026, at $321.34 per share. The stock has surged 39% year-to-date and is trading near its 52-week high of $335.94.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-19"
   },
   {
     "date": "2026-08-13",
@@ -350,6 +389,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-08-13"
+  },
+  {
+    "date": "2026-08-05",
+    "headline": "Restaurant FOG Compliance 2026: Permits, Checklist & Fines",
+    "source": "GreaseTrapLocator",
+    "source_url": "https://greasetraplocator.com/fog-compliance-guide/",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "summary": "Compliance guide covering FOG management requirements, enforcement agencies, inspection protocols, and documentation systems for restaurant operators managing grease traps and interceptors.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-19"
   },
   {
     "date": "2026-08-04",
