@@ -58,6 +58,44 @@
     "first_seen_date": "2026-08-19"
   },
   {
+    "date": "2026-08-14",
+    "headline": "Houston Southeast Wastewater Treatment Plant Improvements Nearing Spring 2026 Completion",
+    "source": "City of Houston",
+    "source_url": "https://www.engagehouston.org/southeastwwtp-pkg1",
+    "category": "Infrastructure",
+    "categories": [
+      "Infrastructure"
+    ],
+    "summary": "Southeast WWTP expansion project undergoing final testing to expand capacity to 10.2 MGD. Project includes improvements to blowers, headworks, clarifiers, and aeration basins for compliance with environmental regulations.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-20"
+  },
+  {
+    "date": "2026-08-14",
+    "headline": "This Week in Waste: Top Stories August 10-13",
+    "source": "Waste360",
+    "source_url": "https://waste360.com/industry-insights/this-week-in-waste-top-stories-august-10-13",
+    "category": "Industry Events",
+    "categories": [
+      "Industry Events"
+    ],
+    "summary": "Weekly roundup of top waste industry news stories and developments from August 10-13, 2026.",
+    "relevance_score": 1,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-20"
+  },
+  {
     "date": "2026-08-13",
     "headline": "August 2026 QSR Trends: Traffic, Inflation Recovery, & Guest Loyalty",
     "source": "Harmelin Media",
