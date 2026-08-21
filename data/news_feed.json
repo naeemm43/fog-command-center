@@ -1,5 +1,64 @@
 [
   {
+    "date": "2026-08-21",
+    "headline": "Roanoke City Works to address bulk and brush pickup delays",
+    "source": "WSLS",
+    "source_url": "https://www.wsls.com/news/local/2026/08/21/roanoke-city-works-to-address-bulk-and-brush-pickup-delays/",
+    "category": "Labor/Ops",
+    "categories": [
+      "Labor/Ops",
+      "Public Co."
+    ],
+    "summary": "City of Roanoke addresses bulk and brush pickup service delays due to CDL driver shortage affecting Solid Waste Management operations. Crews prioritize trash and recycling pickup during weekdays, with weekend catch-up efforts underway.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-21"
+  },
+  {
+    "date": "2026-08-20",
+    "headline": "Heil Garbage Truck Electric Sideload Body RevAMP Transforms EV Waste Collection in Texas Case Study",
+    "source": "Heil (Official)",
+    "source_url": "https://www.heil.com/bodies/revamp-electric-side-load-garbage-truck/",
+    "category": "Technology",
+    "categories": [
+      "Technology"
+    ],
+    "summary": "Heil's RevAMP all-electric sideload body demonstrates real-world performance improvements on residential MSW routes in Texas with optimized EV chassis utilization and reduced fuel consumption.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-21"
+  },
+  {
+    "date": "2026-08-20",
+    "headline": "Driver shortage disrupts brush and bulk pickup in Roanoke",
+    "source": "WFXR TV",
+    "source_url": "https://www.wfxrtv.com/news/driver-shortage-disrupts-brush-and-bulk-pickup-in-roanoke/",
+    "category": "Labor/Ops",
+    "categories": [
+      "Labor/Ops",
+      "Public Co."
+    ],
+    "summary": "Roanoke experiencing delays in bulk and brush pickup amid ongoing CDL driver shortage. Solid Waste Management crews prioritize regular trash and recycling, with volunteers working extra hours weekends.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-21"
+  },
+  {
     "date": "2026-08-19",
     "headline": "Grease Guardian Exhibits at Food System Solutions Japan 2025",
     "source": "Grease Guardian",
@@ -18,6 +77,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-08-19"
+  },
+  {
+    "date": "2026-08-15",
+    "headline": "Shreveport garbage collection delays tied to shortage of CDL drivers",
+    "source": "KTBS",
+    "source_url": "https://www.ktbs.com/news/shreveport-garbage-collection-delays-tied-to-shortage-of-cdl-drivers/article_e85d139f-51d0-490d-b914-9a4bc842b26a.html",
+    "category": "Labor/Ops",
+    "categories": [
+      "Labor/Ops"
+    ],
+    "summary": "City of Shreveport reports garbage collection route delays due to shortage of qualified CDL drivers. Mayor notes city is short 11 drivers and can operate only 30 of 40 available garbage trucks weekly.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-21"
   },
   {
     "date": "2026-08-14",
@@ -113,6 +191,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-08-13"
+  },
+  {
+    "date": "2026-08-13",
+    "headline": "Malaysia's FatHopes Energy and Vietnam's PVOIL Team Up for Sustainable Aviation Fuel Production",
+    "source": "TNGlobal",
+    "source_url": "https://technode.global/2026/08/13/malaysias-fathopes-energy-and-vietnams-pvoil-team-up-for-sustainable-aviation-fuel-production/",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels"
+    ],
+    "summary": "FatHopes Energy, a Malaysian waste-based feedstock solutions firm for SAF, entered a strategic partnership with PetroVietnam Oil Corporation (PVOIL) to establish Vietnam's first nationwide used cooking oil collection ecosystem for sustainable aviation fuel production.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-21"
   },
   {
     "date": "2026-08-12",
@@ -253,6 +350,26 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-08-18"
+  },
+  {
+    "date": "2026-08-11",
+    "headline": "Total M&A spending in 2026 surpasses $2.7B among top waste companies",
+    "source": "Waste Dive",
+    "source_url": "https://www.wastedive.com/news/waste-company-acquisition-spending-two-billion-first-half-2026-Q2-earnings/827549/",
+    "category": "M&A",
+    "categories": [
+      "M&A",
+      "Public Co."
+    ],
+    "summary": "Major publicly traded solid waste and recycling companies spent more than $2 billion on mergers and acquisitions in Q2 2026, with year-to-date spending of $2.7 billion. Notable transactions include GFL Environmental's acquisition of Frontier Waste Solutions and Casella Waste Systems' acquisition of Star Waste Systems.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-21"
   },
   {
     "date": "2026-08-10",
