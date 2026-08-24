@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-08-24",
+    "headline": "Federal Register: Renewable Fuel Standard (RFS) Program Standards for 2026 and 2027",
+    "source": "Federal Register",
+    "source_url": "https://www.federalregister.gov/documents/2026/04/01/2026-06275/renewable-fuel-standard-rfs-program-standards-for-2026-and-2027-partial-waiver-of-2025-cellulosic",
+    "category": "ESG",
+    "categories": [
+      "ESG",
+      "Renewable Fuels",
+      "Regulatory"
+    ],
+    "summary": "EPA publishes final RFS standards for 2026-2027, establishing renewable fuel volume obligations and carbon intensity requirements. Standards mandate increased biomass-based biofuel blending with emphasis on waste-derived feedstocks including FOG and UCO.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-24"
+  },
+  {
     "date": "2026-08-21",
     "headline": "Roanoke City Works to address bulk and brush pickup delays",
     "source": "WSLS",
@@ -7534,65 +7555,6 @@
     "first_seen_date": "2026-02-26",
     "categories": [
       "ESG"
-    ]
-  },
-  {
-    "date": "2026-02-25",
-    "headline": "Fats, Oils, and Grease (FOG) Management in the Restaurant Sector: A Study of Guadalajara",
-    "source": "MDPI (Sustainability Journal)",
-    "source_url": "https://www.mdpi.com/2079-9276/15/3/35",
-    "category": "ESG",
-    "summary": "Peer-reviewed research on FOG management examining collection systems, restaurant practices, and grease trap waste characterization. Emphasizes circular economy approaches and FOG valorization through energy recovery pathways to address environmental sustainability.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-02-25",
-    "categories": [
-      "ESG",
-      "Restaurant"
-    ]
-  },
-  {
-    "date": "2026-02-25",
-    "headline": "Austin Wastewater Plant Expansion Costs to Increase $600M",
-    "source": "Community Impact",
-    "source_url": "https://communityimpact.com/austin/north-central-austin/government/2026/02/25/austin-wastewater-plant-expansion-costs-to-increase-600m/",
-    "category": "Infrastructure",
-    "summary": "City officials considered a $600 million (66%) cost increase to the Walnut Creek Wastewater Treatment Plant expansion project. The total project cost rose to $1.5 billion due to rising costs of goods and services, site constraints, and other factors. The project aims to increase capacity to 100 MGD by 2032.",
-    "relevance_score": 2,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-02-25",
-    "categories": [
-      "Infrastructure"
-    ]
-  },
-  {
-    "date": "2026-02-25",
-    "headline": "What to Know About the Section 45Z PTC Proposed Regulations",
-    "source": "Holland & Knight",
-    "source_url": "https://www.hklaw.com/en/insights/publications/2026/02/what-to-know-about-the-section-45z-ptc-proposed-regulations",
-    "category": "ESG",
-    "summary": "Treasury and IRS issue proposed regulations for Section 45Z Clean Fuel Production Credit covering transportation fuels including biodiesel from used cooking oil. Credit amounts up to $1/gallon for qualifying facilities through 2027, with heightened scrutiny on imported UCO feedstock sourcing.",
-    "relevance_score": 4,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-02-25",
-    "categories": [
-      "ESG",
-      "Renewable Fuels"
     ]
   },
   {
