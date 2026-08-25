@@ -1,21 +1,20 @@
 {
-  "timestamp": "2026-08-24T13:01:46Z",
-  "added_news_count": 1,
+  "timestamp": "2026-08-25T12:57:25Z",
+  "added_news_count": 5,
   "added_deals_count": 0,
-  "archived_count": 3,
+  "archived_count": 2,
   "new_today_news": [
     {
-      "date": "2026-08-24",
-      "headline": "Federal Register: Renewable Fuel Standard (RFS) Program Standards for 2026 and 2027",
-      "source": "Federal Register",
-      "source_url": "https://www.federalregister.gov/documents/2026/04/01/2026-06275/renewable-fuel-standard-rfs-program-standards-for-2026-and-2027-partial-waiver-of-2025-cellulosic",
+      "date": "2026-08-25",
+      "headline": "Global Bulk Supply of Used Cooking Oil: Sustainable Feedstocks for the 2026 Industrial Market",
+      "source": "Cavin Resource",
+      "source_url": "https://cavinresource.com/shop/where-to-buy-used-cooking-oil-uco/",
       "category": "ESG",
       "categories": [
         "ESG",
-        "Renewable Fuels",
-        "Regulatory"
+        "Renewable Fuels"
       ],
-      "summary": "EPA publishes final RFS standards for 2026-2027, establishing renewable fuel volume obligations and carbon intensity requirements. Standards mandate increased biomass-based biofuel blending with emphasis on waste-derived feedstocks including FOG and UCO.",
+      "summary": "Cavin Resource highlights UCO as a critical feedstock for renewable energy production, emphasizing circular economy principles and full traceability. The company offers bulk UCO supply for biodiesel, renewable diesel, and SAF production with transparent sourcing and ESG-aligned procurement.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -23,25 +22,104 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-08-24"
+      "first_seen_date": "2026-08-25"
     }
   ],
-  "recent_news": [],
-  "backfill_news": [],
+  "recent_news": [
+    {
+      "date": "2026-08-20",
+      "headline": "San Diego restaurant openings and closings for August 2026",
+      "source": "Axios San Diego",
+      "source_url": "https://www.axios.com/local/san-diego/2026/08/20/san-diego-restaurant-openings-closings-zuma-breakfast-republic",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "San Diego region saw new restaurant openings downtown, Coronado and UTC, along with several longtime local restaurant closures. Notable openings include Chula Tacos' third location, Rei Do Gado Brazilian steakhouse reopening after two-year closure, and new women's sports gastropub One of Us.",
+      "relevance_score": 1,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-08-25"
+    },
+    {
+      "date": "2026-08-19",
+      "headline": "Darling Ingredients: Renewable Fuel Tailwinds & Margin Expansion Support Upside",
+      "source": "Seeking Alpha",
+      "source_url": "https://seekingalpha.com/article/4938409-darling-ingredients-renewable-fuel-tailwinds-and-margin-expansion-support-upside",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels",
+        "Public Co."
+      ],
+      "summary": "Analysis of Darling Ingredients' FY26 position, highlighting benefits from higher fat/protein prices and favorable renewable fuel economics. Diamond Green Diesel remains key earnings driver with robust volume growth.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-08-25"
+    }
+  ],
+  "backfill_news": [
+    {
+      "date": "2026-08-15",
+      "headline": "The Growing Strategic Importance of Used Cooking Oil",
+      "source": "Prisma NEC Consulting",
+      "source_url": "https://prismaneconsulting.com/blog-details/used-cooking-oil-uco-from-waste-to-strategic-feedstock-in-the-global-energy-transition",
+      "category": "ESG",
+      "categories": [
+        "ESG",
+        "Renewable Fuels"
+      ],
+      "summary": "Analysis of UCO's transformation from waste to strategic feedstock in the energy transition. Discusses UCO's role in renewable fuels, SAF, HVO, and oleochemical production with emphasis on lifecycle carbon reductions and circular economy value.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-08-25"
+    },
+    {
+      "date": "2026-08-11",
+      "headline": "City addresses garbage collection delays; drivers needed",
+      "source": "westcentralsbest.com",
+      "source_url": "https://www.westcentralsbest.com/news/state/city-addresses-garbage-collection-delays-drivers-needed/article_43e3bcd2-1202-50c3-9c72-c5f0328ac5d9.html",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops"
+      ],
+      "summary": "Shreveport, Louisiana's solid waste division faces a CDL driver shortage, requiring 11 additional drivers. Collection delays have occurred on some routes despite collection days remaining unchanged.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-08-25"
+    }
+  ],
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-08-24",
-      "headline": "Federal Register: Renewable Fuel Standard (RFS) Program Standards for 2026 and 2027",
-      "source": "Federal Register",
-      "source_url": "https://www.federalregister.gov/documents/2026/04/01/2026-06275/renewable-fuel-standard-rfs-program-standards-for-2026-and-2027-partial-waiver-of-2025-cellulosic",
+      "date": "2026-08-25",
+      "headline": "Global Bulk Supply of Used Cooking Oil: Sustainable Feedstocks for the 2026 Industrial Market",
+      "source": "Cavin Resource",
+      "source_url": "https://cavinresource.com/shop/where-to-buy-used-cooking-oil-uco/",
       "category": "ESG",
       "categories": [
         "ESG",
-        "Renewable Fuels",
-        "Regulatory"
+        "Renewable Fuels"
       ],
-      "summary": "EPA publishes final RFS standards for 2026-2027, establishing renewable fuel volume obligations and carbon intensity requirements. Standards mandate increased biomass-based biofuel blending with emphasis on waste-derived feedstocks including FOG and UCO.",
+      "summary": "Cavin Resource highlights UCO as a critical feedstock for renewable energy production, emphasizing circular economy principles and full traceability. The company offers bulk UCO supply for biodiesel, renewable diesel, and SAF production with transparent sourcing and ESG-aligned procurement.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -49,7 +127,85 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-08-24"
+      "first_seen_date": "2026-08-25"
+    },
+    {
+      "date": "2026-08-20",
+      "headline": "San Diego restaurant openings and closings for August 2026",
+      "source": "Axios San Diego",
+      "source_url": "https://www.axios.com/local/san-diego/2026/08/20/san-diego-restaurant-openings-closings-zuma-breakfast-republic",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "San Diego region saw new restaurant openings downtown, Coronado and UTC, along with several longtime local restaurant closures. Notable openings include Chula Tacos' third location, Rei Do Gado Brazilian steakhouse reopening after two-year closure, and new women's sports gastropub One of Us.",
+      "relevance_score": 1,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-08-25"
+    },
+    {
+      "date": "2026-08-19",
+      "headline": "Darling Ingredients: Renewable Fuel Tailwinds & Margin Expansion Support Upside",
+      "source": "Seeking Alpha",
+      "source_url": "https://seekingalpha.com/article/4938409-darling-ingredients-renewable-fuel-tailwinds-and-margin-expansion-support-upside",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels",
+        "Public Co."
+      ],
+      "summary": "Analysis of Darling Ingredients' FY26 position, highlighting benefits from higher fat/protein prices and favorable renewable fuel economics. Diamond Green Diesel remains key earnings driver with robust volume growth.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-08-25"
+    },
+    {
+      "date": "2026-08-15",
+      "headline": "The Growing Strategic Importance of Used Cooking Oil",
+      "source": "Prisma NEC Consulting",
+      "source_url": "https://prismaneconsulting.com/blog-details/used-cooking-oil-uco-from-waste-to-strategic-feedstock-in-the-global-energy-transition",
+      "category": "ESG",
+      "categories": [
+        "ESG",
+        "Renewable Fuels"
+      ],
+      "summary": "Analysis of UCO's transformation from waste to strategic feedstock in the energy transition. Discusses UCO's role in renewable fuels, SAF, HVO, and oleochemical production with emphasis on lifecycle carbon reductions and circular economy value.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-08-25"
+    },
+    {
+      "date": "2026-08-11",
+      "headline": "City addresses garbage collection delays; drivers needed",
+      "source": "westcentralsbest.com",
+      "source_url": "https://www.westcentralsbest.com/news/state/city-addresses-garbage-collection-delays-drivers-needed/article_43e3bcd2-1202-50c3-9c72-c5f0328ac5d9.html",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops"
+      ],
+      "summary": "Shreveport, Louisiana's solid waste division faces a CDL driver shortage, requiring 11 additional drivers. Collection delays have occurred on some routes despite collection days remaining unchanged.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-08-25"
     }
   ]
 }
