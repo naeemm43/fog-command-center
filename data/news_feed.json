@@ -61,6 +61,25 @@
     "first_seen_date": "2026-08-21"
   },
   {
+    "date": "2026-08-21",
+    "headline": "How Grease Trap Services Work: Environmental Septic's Guide to Kitchen Drain Management",
+    "source": "Environmental Septic",
+    "source_url": "https://environmental-septic.com/grease-traps/",
+    "category": "ESG",
+    "categories": [
+      "ESG"
+    ],
+    "summary": "Overview of grease trap operations, maintenance requirements, and compliance with environmental regulations. Covers how grease traps prevent pipeline blockages and protect septic systems and municipal wastewater treatment.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-26"
+  },
+  {
     "date": "2026-08-20",
     "headline": "Heil Garbage Truck Electric Sideload Body RevAMP Transforms EV Waste Collection in Texas Case Study",
     "source": "Heil (Official)",
@@ -117,6 +136,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-08-25"
+  },
+  {
+    "date": "2026-08-20",
+    "headline": "ServiceCore Named Best Overall Portable Sanitation Software for 2026; Grease, Septic, and Liquid Waste Operators Consolidate Dispatch, Route Optimization, and Billing",
+    "source": "ServiceCore Blog",
+    "source_url": "https://servicecore.com/blog/best-portable-sanitation-software/",
+    "category": "Technology",
+    "categories": [
+      "Technology"
+    ],
+    "summary": "ServiceCore released updated guidance positioning its platform as purpose-built software for grease, septic, and portable sanitation operators, emphasizing route optimization, 28-day billing cycles, and compliance features integrated into a single system.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-26"
   },
   {
     "date": "2026-08-19",
@@ -272,6 +310,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-08-20"
+  },
+  {
+    "date": "2026-08-14",
+    "headline": "Electric Truck Adoption in Waste Fleets Hinges on Business Case as Regulations Fade; Over 40% of Garbage Trucks Expected to Be Zero-Emission by 2026",
+    "source": "Transport Topics",
+    "source_url": "https://www.ttnews.com/articles/electric-truck-adoption-2026",
+    "category": "Technology",
+    "categories": [
+      "Technology"
+    ],
+    "summary": "Report highlights that despite regulatory changes, electric and alternative-fuel garbage trucks are gaining adoption driven by total cost of ownership and sustainability goals, with Volvo previewing next-generation VNL Electric for waste collection applications.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-26"
   },
   {
     "date": "2026-08-13",
@@ -7576,45 +7633,6 @@
     "first_seen_date": "2026-03-01",
     "categories": [
       "Renewable Fuels"
-    ]
-  },
-  {
-    "date": "2026-02-27",
-    "headline": "Food Waste Laws & Regulations in the USA in 2026: ESG Compliance Requirements Tighten",
-    "source": "Power Knot",
-    "source_url": "https://powerknot.com/food-waste-laws-2026",
-    "category": "ESG",
-    "summary": "Comprehensive review of 2026 food waste regulations across U.S. states, with emphasis on organics diversion, FOG management compliance, and ESG reporting requirements. California SB 1383 now requires 97% of jurisdictions to operate integrated organics programs; emphasis on waste-to-energy and alternative treatment technologies.",
-    "relevance_score": 4,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-02-27",
-    "categories": [
-      "ESG"
-    ]
-  },
-  {
-    "date": "2026-02-27",
-    "headline": "PFAS Behavior During Water and Wastewater Treatment",
-    "source": "Waste360",
-    "source_url": "https://www.waste360.com/pfas-pfoas/pfas-behavior-during-water-and-wastewater-treatment",
-    "category": "Industry Events",
-    "summary": "The Global Waste Management Symposium (GWMS) session on 'PFAS Behavior During Water and Wastewater Treatment' explored mechanics of contaminant management during treatment processes.",
-    "relevance_score": 2,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-02-27",
-    "categories": [
-      "Industry Events",
-      "Public Co."
     ]
   },
   {
