@@ -1,20 +1,21 @@
 {
-  "timestamp": "2026-08-26T13:03:27Z",
-  "added_news_count": 3,
+  "timestamp": "2026-08-27T22:06:23Z",
+  "added_news_count": 1,
   "added_deals_count": 0,
-  "archived_count": 2,
+  "archived_count": 0,
   "new_today_news": [],
-  "recent_news": [
+  "recent_news": [],
+  "backfill_news": [
     {
-      "date": "2026-08-21",
-      "headline": "How Grease Trap Services Work: Environmental Septic's Guide to Kitchen Drain Management",
-      "source": "Environmental Septic",
-      "source_url": "https://environmental-septic.com/grease-traps/",
-      "category": "ESG",
+      "date": "2026-08-15",
+      "headline": "Clean Harbors Safety-Kleen SKSS Segment Delivers 40% Revenue Growth Driven by Oil Pricing",
+      "source": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/clean-harbors-inc-clh-q2-210125159.html",
+      "category": "Public Co.",
       "categories": [
-        "ESG"
+        "Public Co."
       ],
-      "summary": "Overview of grease trap operations, maintenance requirements, and compliance with environmental regulations. Covers how grease traps prevent pipeline blockages and protect septic systems and municipal wastewater treatment.",
+      "summary": "Clean Harbors' Safety-Kleen Sustainability Solutions segment posted greater than 40% top-line growth in Q2 2026, driven by elevated market pricing and effective management of oil collection services. A large manufacturing contract is expected to ramp to an $80 million run rate over 4-5 years.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -22,61 +23,21 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-08-26"
-    },
-    {
-      "date": "2026-08-20",
-      "headline": "ServiceCore Named Best Overall Portable Sanitation Software for 2026; Grease, Septic, and Liquid Waste Operators Consolidate Dispatch, Route Optimization, and Billing",
-      "source": "ServiceCore Blog",
-      "source_url": "https://servicecore.com/blog/best-portable-sanitation-software/",
-      "category": "Technology",
-      "categories": [
-        "Technology"
-      ],
-      "summary": "ServiceCore released updated guidance positioning its platform as purpose-built software for grease, septic, and portable sanitation operators, emphasizing route optimization, 28-day billing cycles, and compliance features integrated into a single system.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-08-26"
-    }
-  ],
-  "backfill_news": [
-    {
-      "date": "2026-08-14",
-      "headline": "Electric Truck Adoption in Waste Fleets Hinges on Business Case as Regulations Fade; Over 40% of Garbage Trucks Expected to Be Zero-Emission by 2026",
-      "source": "Transport Topics",
-      "source_url": "https://www.ttnews.com/articles/electric-truck-adoption-2026",
-      "category": "Technology",
-      "categories": [
-        "Technology"
-      ],
-      "summary": "Report highlights that despite regulatory changes, electric and alternative-fuel garbage trucks are gaining adoption driven by total cost of ownership and sustainability goals, with Volvo previewing next-generation VNL Electric for waste collection applications.",
-      "relevance_score": 3,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-08-26"
+      "first_seen_date": "2026-08-27"
     }
   ],
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-08-21",
-      "headline": "How Grease Trap Services Work: Environmental Septic's Guide to Kitchen Drain Management",
-      "source": "Environmental Septic",
-      "source_url": "https://environmental-septic.com/grease-traps/",
-      "category": "ESG",
+      "date": "2026-08-15",
+      "headline": "Clean Harbors Safety-Kleen SKSS Segment Delivers 40% Revenue Growth Driven by Oil Pricing",
+      "source": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/clean-harbors-inc-clh-q2-210125159.html",
+      "category": "Public Co.",
       "categories": [
-        "ESG"
+        "Public Co."
       ],
-      "summary": "Overview of grease trap operations, maintenance requirements, and compliance with environmental regulations. Covers how grease traps prevent pipeline blockages and protect septic systems and municipal wastewater treatment.",
+      "summary": "Clean Harbors' Safety-Kleen Sustainability Solutions segment posted greater than 40% top-line growth in Q2 2026, driven by elevated market pricing and effective management of oil collection services. A large manufacturing contract is expected to ramp to an $80 million run rate over 4-5 years.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -84,45 +45,7 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-08-26"
-    },
-    {
-      "date": "2026-08-20",
-      "headline": "ServiceCore Named Best Overall Portable Sanitation Software for 2026; Grease, Septic, and Liquid Waste Operators Consolidate Dispatch, Route Optimization, and Billing",
-      "source": "ServiceCore Blog",
-      "source_url": "https://servicecore.com/blog/best-portable-sanitation-software/",
-      "category": "Technology",
-      "categories": [
-        "Technology"
-      ],
-      "summary": "ServiceCore released updated guidance positioning its platform as purpose-built software for grease, septic, and portable sanitation operators, emphasizing route optimization, 28-day billing cycles, and compliance features integrated into a single system.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-08-26"
-    },
-    {
-      "date": "2026-08-14",
-      "headline": "Electric Truck Adoption in Waste Fleets Hinges on Business Case as Regulations Fade; Over 40% of Garbage Trucks Expected to Be Zero-Emission by 2026",
-      "source": "Transport Topics",
-      "source_url": "https://www.ttnews.com/articles/electric-truck-adoption-2026",
-      "category": "Technology",
-      "categories": [
-        "Technology"
-      ],
-      "summary": "Report highlights that despite regulatory changes, electric and alternative-fuel garbage trucks are gaining adoption driven by total cost of ownership and sustainability goals, with Volvo previewing next-generation VNL Electric for waste collection applications.",
-      "relevance_score": 3,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-08-26"
+      "first_seen_date": "2026-08-27"
     }
   ]
 }
