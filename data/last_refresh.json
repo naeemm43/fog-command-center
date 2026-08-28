@@ -1,51 +1,11 @@
 {
-  "timestamp": "2026-08-27T22:06:23Z",
-  "added_news_count": 1,
+  "timestamp": "2026-08-28T22:03:07Z",
+  "added_news_count": 0,
   "added_deals_count": 0,
-  "archived_count": 0,
+  "archived_count": 1,
   "new_today_news": [],
   "recent_news": [],
-  "backfill_news": [
-    {
-      "date": "2026-08-15",
-      "headline": "Clean Harbors Safety-Kleen SKSS Segment Delivers 40% Revenue Growth Driven by Oil Pricing",
-      "source": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/markets/stocks/articles/clean-harbors-inc-clh-q2-210125159.html",
-      "category": "Public Co.",
-      "categories": [
-        "Public Co."
-      ],
-      "summary": "Clean Harbors' Safety-Kleen Sustainability Solutions segment posted greater than 40% top-line growth in Q2 2026, driven by elevated market pricing and effective management of oil collection services. A large manufacturing contract is expected to ramp to an $80 million run rate over 4-5 years.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-08-27"
-    }
-  ],
+  "backfill_news": [],
   "new_deals": [],
-  "new_news": [
-    {
-      "date": "2026-08-15",
-      "headline": "Clean Harbors Safety-Kleen SKSS Segment Delivers 40% Revenue Growth Driven by Oil Pricing",
-      "source": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/markets/stocks/articles/clean-harbors-inc-clh-q2-210125159.html",
-      "category": "Public Co.",
-      "categories": [
-        "Public Co."
-      ],
-      "summary": "Clean Harbors' Safety-Kleen Sustainability Solutions segment posted greater than 40% top-line growth in Q2 2026, driven by elevated market pricing and effective management of oil collection services. A large manufacturing contract is expected to ramp to an $80 million run rate over 4-5 years.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-08-27"
-    }
-  ]
+  "new_news": []
 }
