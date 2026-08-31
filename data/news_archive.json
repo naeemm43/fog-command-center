@@ -1,5 +1,64 @@
 [
   {
+    "date": "2026-03-03",
+    "headline": "Fats, Oils, and Grease Stormwater Pollution",
+    "source": "City of Raleigh",
+    "source_url": "https://raleighnc.gov/stormwater/services/spot-report-and-stop-water-pollution/fats-oils-and-grease-stormwater-pollution",
+    "category": "ESG",
+    "summary": "Municipal FOG pollution prevention page updated with current regulatory and environmental compliance information. Notes EPA estimate that 47% of sewer blockages are due to grease from restaurants and industrial sources.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-03",
+    "categories": [
+      "ESG",
+      "Regulatory"
+    ]
+  },
+  {
+    "date": "2026-03-03",
+    "headline": "Raleigh, NC FOG Program Updates \u2013 Municipal ESG Compliance & Infrastructure Oversight",
+    "source": "City of Raleigh, NC Official Website",
+    "source_url": "https://raleighnc.gov/stormwater/services/spot-report-and-stop-water-pollution/fats-oils-and-grease-stormwater-pollution",
+    "category": "ESG",
+    "summary": "City of Raleigh updates FOG stormwater pollution program guidance (last updated Feb 3, 2026). Emphasizes EPA estimate that 47% of sewer blockages are FOG-related; reinforces municipal FOG permitting and compliance framework as part of broader ESG infrastructure goals.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-03",
+    "categories": [
+      "ESG",
+      "Regulatory"
+    ]
+  },
+  {
+    "date": "2026-03-02",
+    "headline": "Insurance for Waste & Recycle Haulers: Protecting Your Business and Operations",
+    "source": "Deerfield Risk Advisors",
+    "source_url": "https://deerfieldrisk.com/blog/insurance-for-waste-recycle-haulers-protecting-your-business-and-operations/",
+    "category": "Labor/Ops",
+    "summary": "Article discusses rising insurance costs for waste and recycling haulers in 2026, noting increased exposure and liability challenges. Liquid waste haulers are called out as requiring special pollution liability endorsements and additional coverage.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-02",
+    "categories": [
+      "Labor/Ops"
+    ]
+  },
+  {
     "date": "2026-03-01",
     "headline": "Used Cooking Oil Market Valuation Reaches $8.47B in 2026; Set to Grow to $13.86B by 2033",
     "source": "Coherent Market Insights / UCO Market Report",

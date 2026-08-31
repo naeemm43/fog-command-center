@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-08-28",
+    "headline": "This Week in Waste: Top Stories Aug 24 \u2013 Aug 27",
+    "source": "Waste360",
+    "source_url": "https://www.waste360.com/industry-insights/this-week-in-waste-top-stories-aug-24-aug-27",
+    "category": "Industry Events",
+    "categories": [
+      "Industry Events"
+    ],
+    "summary": "Weekly roundup covering broad waste industry topics including asphalt shingle recycling and landfill gas utilization projects. Does not focus on FOG, grease, or liquid waste segments.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-31"
+  },
+  {
     "date": "2026-08-25",
     "headline": "Global Bulk Supply of Used Cooking Oil: Sustainable Feedstocks for the 2026 Industrial Market",
     "source": "Cavin Resource",
@@ -78,6 +97,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-08-26"
+  },
+  {
+    "date": "2026-08-21",
+    "headline": "Commissioners approve 50-cent-per-ton tipping fee increase",
+    "source": "Journal Gazette",
+    "source_url": "https://www.journalgazette.net/local/local-government/commissioners-approve-50-cent-per-ton-tipping-fee-increase/article_1e0ac15d-e4e2-4f2d-bf76-454bf3fbe0c3.html",
+    "category": "Infrastructure",
+    "categories": [
+      "Infrastructure"
+    ],
+    "summary": "Allen County commissioners approved a 50-cent-per-ton tipping fee increase to encourage recycling. The rate has remained at $1.35 per ton for over 25 years, with revenues directed to operational costs and hazardous waste facility expansion.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-31"
   },
   {
     "date": "2026-08-20",
@@ -7577,65 +7615,6 @@
     ]
   },
   {
-    "date": "2026-03-03",
-    "headline": "Fats, Oils, and Grease Stormwater Pollution",
-    "source": "City of Raleigh",
-    "source_url": "https://raleighnc.gov/stormwater/services/spot-report-and-stop-water-pollution/fats-oils-and-grease-stormwater-pollution",
-    "category": "ESG",
-    "summary": "Municipal FOG pollution prevention page updated with current regulatory and environmental compliance information. Notes EPA estimate that 47% of sewer blockages are due to grease from restaurants and industrial sources.",
-    "relevance_score": 4,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-03-03",
-    "categories": [
-      "ESG",
-      "Regulatory"
-    ]
-  },
-  {
-    "date": "2026-03-03",
-    "headline": "Raleigh, NC FOG Program Updates \u2013 Municipal ESG Compliance & Infrastructure Oversight",
-    "source": "City of Raleigh, NC Official Website",
-    "source_url": "https://raleighnc.gov/stormwater/services/spot-report-and-stop-water-pollution/fats-oils-and-grease-stormwater-pollution",
-    "category": "ESG",
-    "summary": "City of Raleigh updates FOG stormwater pollution program guidance (last updated Feb 3, 2026). Emphasizes EPA estimate that 47% of sewer blockages are FOG-related; reinforces municipal FOG permitting and compliance framework as part of broader ESG infrastructure goals.",
-    "relevance_score": 3,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-03-03",
-    "categories": [
-      "ESG",
-      "Regulatory"
-    ]
-  },
-  {
-    "date": "2026-03-02",
-    "headline": "Insurance for Waste & Recycle Haulers: Protecting Your Business and Operations",
-    "source": "Deerfield Risk Advisors",
-    "source_url": "https://deerfieldrisk.com/blog/insurance-for-waste-recycle-haulers-protecting-your-business-and-operations/",
-    "category": "Labor/Ops",
-    "summary": "Article discusses rising insurance costs for waste and recycling haulers in 2026, noting increased exposure and liability challenges. Liquid waste haulers are called out as requiring special pollution liability endorsements and additional coverage.",
-    "relevance_score": 4,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-03-02",
-    "categories": [
-      "Labor/Ops"
-    ]
-  },
-  {
     "date": null,
     "headline": "[Date unverified] Regulatory Update: Iowa EPA FCG Program Developments and Clean Water Standards",
     "source": "EPA Regulations",
@@ -7713,5 +7692,24 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-07-20"
+  },
+  {
+    "date": null,
+    "headline": "[Date unverified] WEFTEC 2026 - Water Environment Federation's Technical Exhibition and Conference",
+    "source": "Water Environment Federation",
+    "source_url": "https://www.wef.org/events--education/conferences/weftec-2026/",
+    "category": "Industry Events",
+    "categories": [
+      "Industry Events"
+    ],
+    "summary": "The largest annual water quality conference in North America featuring 23,000+ professionals and 950+ exhibitors. WEFTEC 2026 will take place September 26\u201330 in New Orleans and covers wastewater treatment and environmental solutions.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-08-31"
   }
 ]
