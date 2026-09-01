@@ -1,128 +1,53 @@
 {
-  "timestamp": "2026-08-31T19:02:22Z",
-  "added_news_count": 3,
+  "timestamp": "2026-09-01T16:23:32Z",
+  "added_news_count": 1,
   "added_deals_count": 0,
-  "archived_count": 3,
+  "archived_count": 0,
   "new_today_news": [],
-  "recent_news": [
-    {
-      "date": "2026-08-28",
-      "headline": "This Week in Waste: Top Stories Aug 24 \u2013 Aug 27",
-      "source": "Waste360",
-      "source_url": "https://www.waste360.com/industry-insights/this-week-in-waste-top-stories-aug-24-aug-27",
-      "category": "Industry Events",
-      "categories": [
-        "Industry Events"
-      ],
-      "summary": "Weekly roundup covering broad waste industry topics including asphalt shingle recycling and landfill gas utilization projects. Does not focus on FOG, grease, or liquid waste segments.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-08-31"
-    }
-  ],
+  "recent_news": [],
   "backfill_news": [
     {
-      "date": "2026-08-21",
-      "headline": "Commissioners approve 50-cent-per-ton tipping fee increase",
-      "source": "Journal Gazette",
-      "source_url": "https://www.journalgazette.net/local/local-government/commissioners-approve-50-cent-per-ton-tipping-fee-increase/article_1e0ac15d-e4e2-4f2d-bf76-454bf3fbe0c3.html",
-      "category": "Infrastructure",
+      "date": "2026-08-20",
+      "headline": "Fire reported at Diamond Green Diesel Norco, Louisiana facility",
+      "source": "Aegis Market Insights",
+      "source_url": "https://aegis-hedging.com/insights/renewable-diesel-margins-mixed-as-diesel-cools-feedstock-prices-mixed",
+      "category": "Renewable Fuels",
       "categories": [
-        "Infrastructure"
+        "Renewable Fuels",
+        "Public Co."
       ],
-      "summary": "Allen County commissioners approved a 50-cent-per-ton tipping fee increase to encourage recycling. The rate has remained at $1.35 per ton for over 25 years, with revenues directed to operational costs and hazardous waste facility expansion.",
-      "relevance_score": 2,
+      "summary": "A fire was reported at Diamond Green Diesel's Norco, Louisiana renewable diesel facility on August 20. Darling Ingredients confirmed the facility was running following a 10-day outage.",
+      "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-08-31"
-    },
-    {
-      "date": null,
-      "headline": "[Date unverified] WEFTEC 2026 - Water Environment Federation's Technical Exhibition and Conference",
-      "source": "Water Environment Federation",
-      "source_url": "https://www.wef.org/events--education/conferences/weftec-2026/",
-      "category": "Industry Events",
-      "categories": [
-        "Industry Events"
-      ],
-      "summary": "The largest annual water quality conference in North America featuring 23,000+ professionals and 950+ exhibitors. WEFTEC 2026 will take place September 26\u201330 in New Orleans and covers wastewater treatment and environmental solutions.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-08-31"
+      "first_seen_date": "2026-09-01"
     }
   ],
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-08-28",
-      "headline": "This Week in Waste: Top Stories Aug 24 \u2013 Aug 27",
-      "source": "Waste360",
-      "source_url": "https://www.waste360.com/industry-insights/this-week-in-waste-top-stories-aug-24-aug-27",
-      "category": "Industry Events",
+      "date": "2026-08-20",
+      "headline": "Fire reported at Diamond Green Diesel Norco, Louisiana facility",
+      "source": "Aegis Market Insights",
+      "source_url": "https://aegis-hedging.com/insights/renewable-diesel-margins-mixed-as-diesel-cools-feedstock-prices-mixed",
+      "category": "Renewable Fuels",
       "categories": [
-        "Industry Events"
+        "Renewable Fuels",
+        "Public Co."
       ],
-      "summary": "Weekly roundup covering broad waste industry topics including asphalt shingle recycling and landfill gas utilization projects. Does not focus on FOG, grease, or liquid waste segments.",
-      "relevance_score": 2,
+      "summary": "A fire was reported at Diamond Green Diesel's Norco, Louisiana renewable diesel facility on August 20. Darling Ingredients confirmed the facility was running following a 10-day outage.",
+      "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-08-31"
-    },
-    {
-      "date": "2026-08-21",
-      "headline": "Commissioners approve 50-cent-per-ton tipping fee increase",
-      "source": "Journal Gazette",
-      "source_url": "https://www.journalgazette.net/local/local-government/commissioners-approve-50-cent-per-ton-tipping-fee-increase/article_1e0ac15d-e4e2-4f2d-bf76-454bf3fbe0c3.html",
-      "category": "Infrastructure",
-      "categories": [
-        "Infrastructure"
-      ],
-      "summary": "Allen County commissioners approved a 50-cent-per-ton tipping fee increase to encourage recycling. The rate has remained at $1.35 per ton for over 25 years, with revenues directed to operational costs and hazardous waste facility expansion.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-08-31"
-    },
-    {
-      "date": null,
-      "headline": "[Date unverified] WEFTEC 2026 - Water Environment Federation's Technical Exhibition and Conference",
-      "source": "Water Environment Federation",
-      "source_url": "https://www.wef.org/events--education/conferences/weftec-2026/",
-      "category": "Industry Events",
-      "categories": [
-        "Industry Events"
-      ],
-      "summary": "The largest annual water quality conference in North America featuring 23,000+ professionals and 950+ exhibitors. WEFTEC 2026 will take place September 26\u201330 in New Orleans and covers wastewater treatment and environmental solutions.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-08-31"
+      "first_seen_date": "2026-09-01"
     }
   ]
 }

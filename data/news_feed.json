@@ -195,6 +195,26 @@
     "first_seen_date": "2026-08-26"
   },
   {
+    "date": "2026-08-20",
+    "headline": "Fire reported at Diamond Green Diesel Norco, Louisiana facility",
+    "source": "Aegis Market Insights",
+    "source_url": "https://aegis-hedging.com/insights/renewable-diesel-margins-mixed-as-diesel-cools-feedstock-prices-mixed",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels",
+      "Public Co."
+    ],
+    "summary": "A fire was reported at Diamond Green Diesel's Norco, Louisiana renewable diesel facility on August 20. Darling Ingredients confirmed the facility was running following a 10-day outage.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-01"
+  },
+  {
     "date": "2026-08-19",
     "headline": "Grease Guardian Exhibits at Food System Solutions Japan 2025",
     "source": "Grease Guardian",
