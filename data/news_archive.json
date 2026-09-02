@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-03-06",
+    "headline": "Black Box Intelligence: 9% of Full-Service Restaurants at Risk of Closure in 2026",
+    "source": "Restaurant Dive",
+    "source_url": "https://www.restaurantdive.com/news/black-box-intelligence-data-restaurant-closures-2026/814042/",
+    "category": "Restaurant",
+    "summary": "Black Box Intelligence data shows 9% of full-service restaurants are at risk of shuttering, while only 4% of limited-service units could close this year. For the 3% of Full-Service restaurants experiencing sales drop exceeding 50%, the question for 2026 isn't if they will close, but when.",
+    "relevance_score": 3,
+    "is_target_market": false,
+    "target_market_name": null,
+    "is_deal": false,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-06",
+    "categories": [
+      "Restaurant"
+    ]
+  },
+  {
     "date": "2026-03-03",
     "headline": "Fats, Oils, and Grease Stormwater Pollution",
     "source": "City of Raleigh",
