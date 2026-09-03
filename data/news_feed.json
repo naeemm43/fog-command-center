@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-09-02",
+    "headline": "Wind River Environmental Acquires GDM Environmental, Colorado-Based Grease and Septic Services Specialist",
+    "source": "Hydrovac News",
+    "source_url": "https://www.hydrovacnews.com/press-releases/wind-river-environmental-acquires-gdm-environmental",
+    "category": "M&A",
+    "categories": [
+      "M&A"
+    ],
+    "summary": "Wind River Environmental acquired GDM Environmental, a Colorado-based grease and septic services specialist, marking Wind River's first expansion into the western United States.",
+    "relevance_score": 5,
+    "is_deal": true,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": 39.06,
+    "longitude": -105.311,
+    "zoom_hint": "wide",
+    "first_seen_date": "2026-09-03"
+  },
+  {
     "date": "2026-08-28",
     "headline": "This Week in Waste: Top Stories Aug 24 \u2013 Aug 27",
     "source": "Waste360",
@@ -58,6 +77,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-08-24"
+  },
+  {
+    "date": "2026-08-24",
+    "headline": "Barrel Energy Raises $173K via 6% Convertible Note",
+    "source": "StockTitan (SEC 8-K filing)",
+    "source_url": "https://www.stocktitan.net/sec-filings/BRLL/8-k-barrel-energy-inc-reports-material-event-0c1cf6d594f6.html",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co."
+    ],
+    "summary": "Barrel Energy (OTC: BRLL) entered into a Securities Purchase Agreement with CFI Capital LLC, issuing a $200,000 6% Convertible Redeemable Note. Net cash proceeds to the company were $173,000. The company operates Happy Traps, a Portland, Maine grease-trap and FOG waste-to-energy business.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-03"
   },
   {
     "date": "2026-08-21",
@@ -7712,5 +7750,24 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-08-31"
+  },
+  {
+    "date": null,
+    "headline": "[Date unverified] WEFTEC 2026 Technical Exhibition and Conference",
+    "source": "BIC Magazine / Water Environment Federation",
+    "source_url": "https://www.bicmagazine.com/events/september-2026-water-environment-federation-technical-exhibition-conference/",
+    "category": "Industry Events",
+    "categories": [
+      "Industry Events"
+    ],
+    "summary": "WEFTEC 2026 takes place September 26-30, 2026 in New Orleans, Louisiana, bringing water quality professionals together for technical education, exhibitions, networking and solutions focused on wastewater treatment and water environment innovation.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-03"
   }
 ]

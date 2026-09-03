@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-09-02",
+    "target": "GDM Environmental",
+    "acquirer": "Wind River Environmental",
+    "sponsor": "",
+    "location": "Colorado, United States",
+    "deal_type": "Add-On",
+    "deal_size": null,
+    "multiple": "N/A",
+    "services": "",
+    "source": "Hydrovac News",
+    "source_url": "https://www.hydrovacnews.com/press-releases/wind-river-environmental-acquires-gdm-environmental",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "Add-on acquisition to Gryphon Investors-backed platform consolidator",
+    "deal_summary": [
+      "Wind River Environmental's first western U.S. expansion via acquisition of grease and septic services provider; acquisition pushed company past 100-acquisition milestone."
+    ],
+    "date_confidence": "approximate",
+    "notes": "Wind River Environmental acquired GDM Environmental, a Colorado-based grease and septic services specialist, marking Wind River's first expansion into the western United States.",
+    "latitude": 39.06,
+    "longitude": -105.311,
+    "zoom_hint": "wide"
+  },
+  {
     "date": "2026-08-12",
     "target": "EnviroServe",
     "acquirer": "Clean Harbors, Inc.",
