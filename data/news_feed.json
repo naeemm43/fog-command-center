@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-09-04",
+    "headline": "Renewable Fuel Standard (RFS) Program: Extension of 2025 Compliance Reporting Deadline",
+    "source": "Federal Register",
+    "source_url": "https://www.federalregister.gov/documents/2026/09/04/2026-18132/renewable-fuel-standard-rfs-program-extension-of-2025-compliance-reporting-deadline",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels",
+      "Regulatory"
+    ],
+    "summary": "EPA extends the 2025 RFS compliance reporting deadline from September 1, 2026, to October 1, 2026, to allow obligated parties and small refineries time to adjust compliance strategies following SRE decisions.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-04"
+  },
+  {
     "date": "2026-09-02",
     "headline": "Wind River Environmental Acquires GDM Environmental, Colorado-Based Grease and Septic Services Specialist",
     "source": "Hydrovac News",
@@ -19,6 +39,25 @@
     "first_seen_date": "2026-09-03"
   },
   {
+    "date": "2026-08-31",
+    "headline": "Cloud Kitchen Market Outlook: Why Ghost Kitchens Are Scaling Fast",
+    "source": "Express Press Release Distribution",
+    "source_url": "https://express-press-release.net/news/2026/08/31/1769838",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "summary": "The cloud kitchen model continues to expand as a structural part of food delivery, with market growth projected from $88.7 billion in 2026 to $203.7 billion by 2033. Operators focusing on platform dependency, brand visibility, and delivery quality are best positioned to capture growth.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-04"
+  },
+  {
     "date": "2026-08-28",
     "headline": "This Week in Waste: Top Stories Aug 24 \u2013 Aug 27",
     "source": "Waste360",
@@ -36,6 +75,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-08-31"
+  },
+  {
+    "date": "2026-08-27",
+    "headline": "Emvolon and Freepoint Commodities Execute Multi-Year Definitive Agreements to Scale High-Value Liquid Fuels",
+    "source": "Waste360",
+    "source_url": "https://www.waste360.com/waste-to-energy/emvolon-and-freepoint-commodities-execute-multi-year-definitive-agreements-to-scale-high-value-liquid-fuels",
+    "category": "Industry Events",
+    "categories": [
+      "Industry Events"
+    ],
+    "summary": "Emvolon, an MIT-spinout converting methane-rich waste gases into high-value liquid fuels, executed definitive commercial agreements with Freepoint Commodities. The transaction establishes Freepoint as anchor off-taker and cornerstone project capital partner for Emvolon's global deployment pipeline, enabling product offtake, global distribution, and capital for individual projects.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-04"
   },
   {
     "date": "2026-08-25",

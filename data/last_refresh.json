@@ -1,145 +1,85 @@
 {
-  "timestamp": "2026-09-03T16:12:11Z",
+  "timestamp": "2026-09-04T16:06:43Z",
   "added_news_count": 3,
-  "added_deals_count": 1,
+  "added_deals_count": 0,
   "archived_count": 0,
   "new_today_news": [
     {
-      "date": "2026-09-02",
-      "headline": "Wind River Environmental Acquires GDM Environmental, Colorado-Based Grease and Septic Services Specialist",
-      "source": "Hydrovac News",
-      "source_url": "https://www.hydrovacnews.com/press-releases/wind-river-environmental-acquires-gdm-environmental",
-      "category": "M&A",
+      "date": "2026-09-04",
+      "headline": "Renewable Fuel Standard (RFS) Program: Extension of 2025 Compliance Reporting Deadline",
+      "source": "Federal Register",
+      "source_url": "https://www.federalregister.gov/documents/2026/09/04/2026-18132/renewable-fuel-standard-rfs-program-extension-of-2025-compliance-reporting-deadline",
+      "category": "Renewable Fuels",
       "categories": [
-        "M&A"
+        "Renewable Fuels",
+        "Regulatory"
       ],
-      "summary": "Wind River Environmental acquired GDM Environmental, a Colorado-based grease and septic services specialist, marking Wind River's first expansion into the western United States.",
-      "relevance_score": 5,
-      "is_deal": true,
+      "summary": "EPA extends the 2025 RFS compliance reporting deadline from September 1, 2026, to October 1, 2026, to allow obligated parties and small refineries time to adjust compliance strategies following SRE decisions.",
+      "relevance_score": 4,
+      "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
-      "latitude": 39.06,
-      "longitude": -105.311,
-      "zoom_hint": "wide",
-      "first_seen_date": "2026-09-03"
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-09-04"
     }
   ],
-  "recent_news": [],
+  "recent_news": [
+    {
+      "date": "2026-08-31",
+      "headline": "Cloud Kitchen Market Outlook: Why Ghost Kitchens Are Scaling Fast",
+      "source": "Express Press Release Distribution",
+      "source_url": "https://express-press-release.net/news/2026/08/31/1769838",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "The cloud kitchen model continues to expand as a structural part of food delivery, with market growth projected from $88.7 billion in 2026 to $203.7 billion by 2033. Operators focusing on platform dependency, brand visibility, and delivery quality are best positioned to capture growth.",
+      "relevance_score": 3,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-09-04"
+    }
+  ],
   "backfill_news": [
     {
-      "date": "2026-08-24",
-      "headline": "Barrel Energy Raises $173K via 6% Convertible Note",
-      "source": "StockTitan (SEC 8-K filing)",
-      "source_url": "https://www.stocktitan.net/sec-filings/BRLL/8-k-barrel-energy-inc-reports-material-event-0c1cf6d594f6.html",
-      "category": "Public Co.",
-      "categories": [
-        "Public Co."
-      ],
-      "summary": "Barrel Energy (OTC: BRLL) entered into a Securities Purchase Agreement with CFI Capital LLC, issuing a $200,000 6% Convertible Redeemable Note. Net cash proceeds to the company were $173,000. The company operates Happy Traps, a Portland, Maine grease-trap and FOG waste-to-energy business.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-09-03"
-    },
-    {
-      "date": null,
-      "headline": "[Date unverified] WEFTEC 2026 Technical Exhibition and Conference",
-      "source": "BIC Magazine / Water Environment Federation",
-      "source_url": "https://www.bicmagazine.com/events/september-2026-water-environment-federation-technical-exhibition-conference/",
+      "date": "2026-08-27",
+      "headline": "Emvolon and Freepoint Commodities Execute Multi-Year Definitive Agreements to Scale High-Value Liquid Fuels",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/waste-to-energy/emvolon-and-freepoint-commodities-execute-multi-year-definitive-agreements-to-scale-high-value-liquid-fuels",
       "category": "Industry Events",
       "categories": [
         "Industry Events"
       ],
-      "summary": "WEFTEC 2026 takes place September 26-30, 2026 in New Orleans, Louisiana, bringing water quality professionals together for technical education, exhibitions, networking and solutions focused on wastewater treatment and water environment innovation.",
-      "relevance_score": 4,
+      "summary": "Emvolon, an MIT-spinout converting methane-rich waste gases into high-value liquid fuels, executed definitive commercial agreements with Freepoint Commodities. The transaction establishes Freepoint as anchor off-taker and cornerstone project capital partner for Emvolon's global deployment pipeline, enabling product offtake, global distribution, and capital for individual projects.",
+      "relevance_score": 3,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-09-03"
+      "first_seen_date": "2026-09-04"
     }
   ],
-  "new_deals": [
-    {
-      "date": "2026-09-02",
-      "target": "GDM Environmental",
-      "acquirer": "Wind River Environmental",
-      "sponsor": "",
-      "location": "Colorado, United States",
-      "deal_type": "Add-On",
-      "deal_size": null,
-      "multiple": "N/A",
-      "services": "",
-      "source": "Hydrovac News",
-      "source_url": "https://www.hydrovacnews.com/press-releases/wind-river-environmental-acquires-gdm-environmental",
-      "is_target_market": false,
-      "target_market_name": null,
-      "owner_classification": "Add-on acquisition to Gryphon Investors-backed platform consolidator",
-      "deal_summary": [
-        "Wind River Environmental's first western U.S. expansion via acquisition of grease and septic services provider; acquisition pushed company past 100-acquisition milestone."
-      ],
-      "date_confidence": "approximate",
-      "notes": "Wind River Environmental acquired GDM Environmental, a Colorado-based grease and septic services specialist, marking Wind River's first expansion into the western United States.",
-      "latitude": 39.06,
-      "longitude": -105.311,
-      "zoom_hint": "wide"
-    }
-  ],
+  "new_deals": [],
   "new_news": [
     {
-      "date": "2026-09-02",
-      "headline": "Wind River Environmental Acquires GDM Environmental, Colorado-Based Grease and Septic Services Specialist",
-      "source": "Hydrovac News",
-      "source_url": "https://www.hydrovacnews.com/press-releases/wind-river-environmental-acquires-gdm-environmental",
-      "category": "M&A",
+      "date": "2026-09-04",
+      "headline": "Renewable Fuel Standard (RFS) Program: Extension of 2025 Compliance Reporting Deadline",
+      "source": "Federal Register",
+      "source_url": "https://www.federalregister.gov/documents/2026/09/04/2026-18132/renewable-fuel-standard-rfs-program-extension-of-2025-compliance-reporting-deadline",
+      "category": "Renewable Fuels",
       "categories": [
-        "M&A"
+        "Renewable Fuels",
+        "Regulatory"
       ],
-      "summary": "Wind River Environmental acquired GDM Environmental, a Colorado-based grease and septic services specialist, marking Wind River's first expansion into the western United States.",
-      "relevance_score": 5,
-      "is_deal": true,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": 39.06,
-      "longitude": -105.311,
-      "zoom_hint": "wide",
-      "first_seen_date": "2026-09-03"
-    },
-    {
-      "date": "2026-08-24",
-      "headline": "Barrel Energy Raises $173K via 6% Convertible Note",
-      "source": "StockTitan (SEC 8-K filing)",
-      "source_url": "https://www.stocktitan.net/sec-filings/BRLL/8-k-barrel-energy-inc-reports-material-event-0c1cf6d594f6.html",
-      "category": "Public Co.",
-      "categories": [
-        "Public Co."
-      ],
-      "summary": "Barrel Energy (OTC: BRLL) entered into a Securities Purchase Agreement with CFI Capital LLC, issuing a $200,000 6% Convertible Redeemable Note. Net cash proceeds to the company were $173,000. The company operates Happy Traps, a Portland, Maine grease-trap and FOG waste-to-energy business.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-09-03"
-    },
-    {
-      "date": null,
-      "headline": "[Date unverified] WEFTEC 2026 Technical Exhibition and Conference",
-      "source": "BIC Magazine / Water Environment Federation",
-      "source_url": "https://www.bicmagazine.com/events/september-2026-water-environment-federation-technical-exhibition-conference/",
-      "category": "Industry Events",
-      "categories": [
-        "Industry Events"
-      ],
-      "summary": "WEFTEC 2026 takes place September 26-30, 2026 in New Orleans, Louisiana, bringing water quality professionals together for technical education, exhibitions, networking and solutions focused on wastewater treatment and water environment innovation.",
+      "summary": "EPA extends the 2025 RFS compliance reporting deadline from September 1, 2026, to October 1, 2026, to allow obligated parties and small refineries time to adjust compliance strategies following SRE decisions.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -147,7 +87,45 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-09-03"
+      "first_seen_date": "2026-09-04"
+    },
+    {
+      "date": "2026-08-31",
+      "headline": "Cloud Kitchen Market Outlook: Why Ghost Kitchens Are Scaling Fast",
+      "source": "Express Press Release Distribution",
+      "source_url": "https://express-press-release.net/news/2026/08/31/1769838",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "The cloud kitchen model continues to expand as a structural part of food delivery, with market growth projected from $88.7 billion in 2026 to $203.7 billion by 2033. Operators focusing on platform dependency, brand visibility, and delivery quality are best positioned to capture growth.",
+      "relevance_score": 3,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-09-04"
+    },
+    {
+      "date": "2026-08-27",
+      "headline": "Emvolon and Freepoint Commodities Execute Multi-Year Definitive Agreements to Scale High-Value Liquid Fuels",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/waste-to-energy/emvolon-and-freepoint-commodities-execute-multi-year-definitive-agreements-to-scale-high-value-liquid-fuels",
+      "category": "Industry Events",
+      "categories": [
+        "Industry Events"
+      ],
+      "summary": "Emvolon, an MIT-spinout converting methane-rich waste gases into high-value liquid fuels, executed definitive commercial agreements with Freepoint Commodities. The transaction establishes Freepoint as anchor off-taker and cornerstone project capital partner for Emvolon's global deployment pipeline, enabling product offtake, global distribution, and capital for individual projects.",
+      "relevance_score": 3,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-09-04"
     }
   ]
 }
