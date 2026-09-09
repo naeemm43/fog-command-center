@@ -1,11 +1,51 @@
 {
-  "timestamp": "2026-09-08T16:24:53Z",
-  "added_news_count": 0,
+  "timestamp": "2026-09-09T16:20:29Z",
+  "added_news_count": 1,
   "added_deals_count": 0,
   "archived_count": 0,
   "new_today_news": [],
   "recent_news": [],
-  "backfill_news": [],
+  "backfill_news": [
+    {
+      "date": "2026-08-27",
+      "headline": "Grant County Landfill Tipping Fee and Allowance Changes Approved for September 2026",
+      "source": "Grant County Beat",
+      "source_url": "https://grantcountybeat.com/home/news-articles/attempt-to-clarify-some-questions-on-the-solid-waste-issue",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure"
+      ],
+      "summary": "Grant County commissioners approved changes to landfill operations effective September 1, 2026, including a reduction in monthly allowance from one ton to 500 pounds and increases to tipping fees. Final fee amounts were to be determined in subsequent meetings.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-09-09"
+    }
+  ],
   "new_deals": [],
-  "new_news": []
+  "new_news": [
+    {
+      "date": "2026-08-27",
+      "headline": "Grant County Landfill Tipping Fee and Allowance Changes Approved for September 2026",
+      "source": "Grant County Beat",
+      "source_url": "https://grantcountybeat.com/home/news-articles/attempt-to-clarify-some-questions-on-the-solid-waste-issue",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure"
+      ],
+      "summary": "Grant County commissioners approved changes to landfill operations effective September 1, 2026, including a reduction in monthly allowance from one ton to 500 pounds and increases to tipping fees. Final fee amounts were to be determined in subsequent meetings.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-09-09"
+    }
+  ]
 }
