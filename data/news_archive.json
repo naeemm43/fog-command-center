@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-03-14",
+    "headline": "The Future of FOG Compliance: What's Coming in 2027 and Beyond",
+    "source": "Grease Trap Locator",
+    "source_url": "https://greasetraplocator.com/future-of-fog-compliance/",
+    "category": "Industry Events",
+    "summary": "EPA's draft 2026 guidance clarifies that chemical or biological FOG treatment does not constitute legal 'removal' under Clean Water Act standards. Water Environment Federation laboratory studies show these products can increase downstream FOG deposits by 30-40%, prompting regulatory bodies and municipalities to enforce mechanical removal as the only defensible compliance strategy.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-14",
+    "categories": [
+      "Industry Events",
+      "Regulatory"
+    ]
+  },
+  {
+    "date": "2026-03-14",
+    "headline": "EPA Draft Guidance: Chemical/Biological FOG Treatment Does Not Constitute 'Removal'",
+    "source": "Grease Trap Locator",
+    "source_url": "https://greasetraplocator.com/future-of-fog-compliance/",
+    "category": "Industry Events",
+    "summary": "The EPA's draft 2026 guidance clarifies that chemical or biological FOG treatment does not qualify as 'removal' under Clean Water Act standards. Water Environment Federation research shows biological additives can increase downstream FOG deposits by 30-40%, pushing regulatory focus toward mechanical removal and IoT-enabled grease interceptor monitoring.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-14",
+    "categories": [
+      "Industry Events",
+      "Regulatory",
+      "Technology"
+    ]
+  },
+  {
     "date": "2026-03-11",
     "headline": "Seekye Capital Acquires SES Mid Atlantic, Advantage Septic and Joiner Micro Laboratories",
     "source": "PrivSource",

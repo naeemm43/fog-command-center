@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-09-10",
+    "headline": "Darling Ingredients at Barclays Conference: Margins, Debt and Peptides",
+    "source": "Investing.com",
+    "source_url": "https://www.investing.com/news/transcripts/darling-ingredients-at-barclays-conference-margins-debt-and-peptides-93CH-4894400",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels",
+      "Public Co."
+    ],
+    "summary": "Darling Ingredients management discussed renewable diesel margins, feedstock constraints, and regional market dislocations. North American fat markets remain tight, with animal fat prices expected to stay elevated through 2026-2027.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-10"
+  },
+  {
+    "date": "2026-09-10",
+    "headline": "Darling Ingredients Enters a New Strategic Growth Phase",
+    "source": "Seeking Alpha",
+    "source_url": "https://seekingalpha.com/article/4945016-darling-ingredients-turnaround-is-just-getting-started",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels",
+      "Public Co.",
+      "ESG"
+    ],
+    "summary": "Analysis of Darling Ingredients' structural advantages in collecting and processing fats for renewable diesel through its Valero joint venture. Highlights renewable diesel and circular economy as strategic tailwinds for the company.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-10"
+  },
+  {
     "date": "2026-09-07",
     "headline": "Where Do I Throw It? The Kitchen Dilemma of Used Cooking Oil and the Rules for Proper Disposal",
     "source": "SmartGreen Post",
@@ -116,6 +157,45 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-09-07"
+  },
+  {
+    "date": "2026-09-04",
+    "headline": "Used Cooking Oil Recycling for Sustainability & ESG Reporting",
+    "source": "Phibro RenewOil",
+    "source_url": "https://www.phibrorenewoil.com/post/used-cooking-oil-sustainability-esg-reporting",
+    "category": "ESG",
+    "categories": [
+      "ESG",
+      "Renewable Fuels"
+    ],
+    "summary": "Article discusses how commercial kitchens can leverage UCO recycling partnerships to improve ESG reporting, obtain LEED certification, and enhance environmental credentials. Highlights the role of certified oil collection providers in transforming UCO into renewable diesel and biodiesel.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-10"
+  },
+  {
+    "date": "2026-09-03",
+    "headline": "Wind River Environmental Acquires GDM Environmental, Marking First Western U.S. Expansion",
+    "source": "Hydrovac News",
+    "source_url": "https://www.hydrovacnews.com/press-releases/wind-river-environmental-acquires-gdm-environmental",
+    "category": "M&A",
+    "categories": [
+      "M&A"
+    ],
+    "summary": "Wind River Environmental acquired Colorado-based GDM Environmental, a grease trap and septic services specialist. This marks the company's first expansion into the western United States and brings total acquisitions past 100.",
+    "relevance_score": 5,
+    "is_deal": true,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": 39.06,
+    "longitude": -105.311,
+    "zoom_hint": "wide",
+    "first_seen_date": "2026-09-10"
   },
   {
     "date": "2026-09-02",
@@ -7806,47 +7886,6 @@
     "first_seen_date": "2026-03-15",
     "categories": [
       "Labor/Ops"
-    ]
-  },
-  {
-    "date": "2026-03-14",
-    "headline": "The Future of FOG Compliance: What's Coming in 2027 and Beyond",
-    "source": "Grease Trap Locator",
-    "source_url": "https://greasetraplocator.com/future-of-fog-compliance/",
-    "category": "Industry Events",
-    "summary": "EPA's draft 2026 guidance clarifies that chemical or biological FOG treatment does not constitute legal 'removal' under Clean Water Act standards. Water Environment Federation laboratory studies show these products can increase downstream FOG deposits by 30-40%, prompting regulatory bodies and municipalities to enforce mechanical removal as the only defensible compliance strategy.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-03-14",
-    "categories": [
-      "Industry Events",
-      "Regulatory"
-    ]
-  },
-  {
-    "date": "2026-03-14",
-    "headline": "EPA Draft Guidance: Chemical/Biological FOG Treatment Does Not Constitute 'Removal'",
-    "source": "Grease Trap Locator",
-    "source_url": "https://greasetraplocator.com/future-of-fog-compliance/",
-    "category": "Industry Events",
-    "summary": "The EPA's draft 2026 guidance clarifies that chemical or biological FOG treatment does not qualify as 'removal' under Clean Water Act standards. Water Environment Federation research shows biological additives can increase downstream FOG deposits by 30-40%, pushing regulatory focus toward mechanical removal and IoT-enabled grease interceptor monitoring.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-03-14",
-    "categories": [
-      "Industry Events",
-      "Regulatory",
-      "Technology"
     ]
   },
   {
