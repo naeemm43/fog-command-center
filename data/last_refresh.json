@@ -1,174 +1,133 @@
 {
-  "timestamp": "2026-09-10T16:11:44Z",
-  "added_news_count": 4,
+  "timestamp": "2026-09-11T16:14:52Z",
+  "added_news_count": 3,
   "added_deals_count": 0,
-  "archived_count": 2,
+  "archived_count": 3,
   "new_today_news": [
     {
-      "date": "2026-09-10",
-      "headline": "Darling Ingredients at Barclays Conference: Margins, Debt and Peptides",
-      "source": "Investing.com",
-      "source_url": "https://www.investing.com/news/transcripts/darling-ingredients-at-barclays-conference-margins-debt-and-peptides-93CH-4894400",
-      "category": "Renewable Fuels",
+      "date": "2026-09-11",
+      "headline": "New Jersey Extends Exemption, Delays Recycled Content Requirements for Food Packaging Until 2029",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/waste-recycling/recycling-industry-slams-new-jersey-food-packaging-delay",
+      "category": "Industry Events",
       "categories": [
-        "Renewable Fuels",
+        "Industry Events",
         "Public Co."
       ],
-      "summary": "Darling Ingredients management discussed renewable diesel margins, feedstock constraints, and regional market dislocations. North American fat markets remain tight, with animal fat prices expected to stay elevated through 2026-2027.",
-      "relevance_score": 5,
+      "summary": "New Jersey postponed recycled content requirements for food packaging containers until December 31, 2029, drawing opposition from the plastics recycling industry. Related to broader waste management regulatory environment affecting food service businesses.",
+      "relevance_score": 1,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-09-10"
+      "first_seen_date": "2026-09-11"
     },
     {
       "date": "2026-09-10",
-      "headline": "Darling Ingredients Enters a New Strategic Growth Phase",
-      "source": "Seeking Alpha",
-      "source_url": "https://seekingalpha.com/article/4945016-darling-ingredients-turnaround-is-just-getting-started",
+      "headline": "RFS Set 2: Record Renewable Fuel Volumes and Energy Dominance",
+      "source": "Growth Energy",
+      "source_url": "https://growthenergy.org/2026/09/10/rfs-set-2-renewable-fuel-standard/",
       "category": "Renewable Fuels",
       "categories": [
         "Renewable Fuels",
-        "Public Co.",
-        "ESG"
+        "Regulatory"
       ],
-      "summary": "Analysis of Darling Ingredients' structural advantages in collecting and processing fats for renewable diesel through its Valero joint venture. Highlights renewable diesel and circular economy as strategic tailwinds for the company.",
-      "relevance_score": 5,
+      "summary": "EPA's RFS Set 2 final rule (issued March 27, 2026) establishes record-setting renewable fuel volumes for 2026 and 2027, with provisions aimed at boosting domestic biofuel production by reallocating 70% of small refinery exemption volumes.",
+      "relevance_score": 3,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-09-10"
-    }
-  ],
-  "recent_news": [
-    {
-      "date": "2026-09-04",
-      "headline": "Used Cooking Oil Recycling for Sustainability & ESG Reporting",
-      "source": "Phibro RenewOil",
-      "source_url": "https://www.phibrorenewoil.com/post/used-cooking-oil-sustainability-esg-reporting",
-      "category": "ESG",
-      "categories": [
-        "ESG",
-        "Renewable Fuels"
-      ],
-      "summary": "Article discusses how commercial kitchens can leverage UCO recycling partnerships to improve ESG reporting, obtain LEED certification, and enhance environmental credentials. Highlights the role of certified oil collection providers in transforming UCO into renewable diesel and biodiesel.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-09-10"
+      "first_seen_date": "2026-09-11"
     },
     {
-      "date": "2026-09-03",
-      "headline": "Wind River Environmental Acquires GDM Environmental, Marking First Western U.S. Expansion",
-      "source": "Hydrovac News",
-      "source_url": "https://www.hydrovacnews.com/press-releases/wind-river-environmental-acquires-gdm-environmental",
-      "category": "M&A",
+      "date": "2026-09-10",
+      "headline": "Fertile Earth Receives Authorization for Food-to-Food Recycling in Palm Beach County",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/food-waste/fertile-earth-receives-authorization-for-food-to-food-recycling-in-palm-beach-county",
+      "category": "Industry Events",
       "categories": [
-        "M&A"
+        "Industry Events",
+        "Public Co."
       ],
-      "summary": "Wind River Environmental acquired Colorado-based GDM Environmental, a grease trap and septic services specialist. This marks the company's first expansion into the western United States and brings total acquisitions past 100.",
-      "relevance_score": 5,
-      "is_deal": true,
+      "summary": "Fertile Earth received authorization from the Solid Waste Authority of Palm Beach County to operate a Food-to-Food Recycling Program, collecting pre-consumer food scraps for delivery to participating animal farms. While not directly FOG-focused, this program addresses organic waste management in commercial food generation.",
+      "relevance_score": 2,
+      "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
-      "latitude": 39.06,
-      "longitude": -105.311,
-      "zoom_hint": "wide",
-      "first_seen_date": "2026-09-10"
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-09-11"
     }
   ],
+  "recent_news": [],
   "backfill_news": [],
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-09-10",
-      "headline": "Darling Ingredients at Barclays Conference: Margins, Debt and Peptides",
-      "source": "Investing.com",
-      "source_url": "https://www.investing.com/news/transcripts/darling-ingredients-at-barclays-conference-margins-debt-and-peptides-93CH-4894400",
-      "category": "Renewable Fuels",
+      "date": "2026-09-11",
+      "headline": "New Jersey Extends Exemption, Delays Recycled Content Requirements for Food Packaging Until 2029",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/waste-recycling/recycling-industry-slams-new-jersey-food-packaging-delay",
+      "category": "Industry Events",
       "categories": [
-        "Renewable Fuels",
+        "Industry Events",
         "Public Co."
       ],
-      "summary": "Darling Ingredients management discussed renewable diesel margins, feedstock constraints, and regional market dislocations. North American fat markets remain tight, with animal fat prices expected to stay elevated through 2026-2027.",
-      "relevance_score": 5,
+      "summary": "New Jersey postponed recycled content requirements for food packaging containers until December 31, 2029, drawing opposition from the plastics recycling industry. Related to broader waste management regulatory environment affecting food service businesses.",
+      "relevance_score": 1,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-09-10"
+      "first_seen_date": "2026-09-11"
     },
     {
       "date": "2026-09-10",
-      "headline": "Darling Ingredients Enters a New Strategic Growth Phase",
-      "source": "Seeking Alpha",
-      "source_url": "https://seekingalpha.com/article/4945016-darling-ingredients-turnaround-is-just-getting-started",
+      "headline": "RFS Set 2: Record Renewable Fuel Volumes and Energy Dominance",
+      "source": "Growth Energy",
+      "source_url": "https://growthenergy.org/2026/09/10/rfs-set-2-renewable-fuel-standard/",
       "category": "Renewable Fuels",
       "categories": [
         "Renewable Fuels",
-        "Public Co.",
-        "ESG"
+        "Regulatory"
       ],
-      "summary": "Analysis of Darling Ingredients' structural advantages in collecting and processing fats for renewable diesel through its Valero joint venture. Highlights renewable diesel and circular economy as strategic tailwinds for the company.",
-      "relevance_score": 5,
+      "summary": "EPA's RFS Set 2 final rule (issued March 27, 2026) establishes record-setting renewable fuel volumes for 2026 and 2027, with provisions aimed at boosting domestic biofuel production by reallocating 70% of small refinery exemption volumes.",
+      "relevance_score": 3,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-09-10"
+      "first_seen_date": "2026-09-11"
     },
     {
-      "date": "2026-09-04",
-      "headline": "Used Cooking Oil Recycling for Sustainability & ESG Reporting",
-      "source": "Phibro RenewOil",
-      "source_url": "https://www.phibrorenewoil.com/post/used-cooking-oil-sustainability-esg-reporting",
-      "category": "ESG",
+      "date": "2026-09-10",
+      "headline": "Fertile Earth Receives Authorization for Food-to-Food Recycling in Palm Beach County",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/food-waste/fertile-earth-receives-authorization-for-food-to-food-recycling-in-palm-beach-county",
+      "category": "Industry Events",
       "categories": [
-        "ESG",
-        "Renewable Fuels"
+        "Industry Events",
+        "Public Co."
       ],
-      "summary": "Article discusses how commercial kitchens can leverage UCO recycling partnerships to improve ESG reporting, obtain LEED certification, and enhance environmental credentials. Highlights the role of certified oil collection providers in transforming UCO into renewable diesel and biodiesel.",
-      "relevance_score": 5,
+      "summary": "Fertile Earth received authorization from the Solid Waste Authority of Palm Beach County to operate a Food-to-Food Recycling Program, collecting pre-consumer food scraps for delivery to participating animal farms. While not directly FOG-focused, this program addresses organic waste management in commercial food generation.",
+      "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-09-10"
-    },
-    {
-      "date": "2026-09-03",
-      "headline": "Wind River Environmental Acquires GDM Environmental, Marking First Western U.S. Expansion",
-      "source": "Hydrovac News",
-      "source_url": "https://www.hydrovacnews.com/press-releases/wind-river-environmental-acquires-gdm-environmental",
-      "category": "M&A",
-      "categories": [
-        "M&A"
-      ],
-      "summary": "Wind River Environmental acquired Colorado-based GDM Environmental, a grease trap and septic services specialist. This marks the company's first expansion into the western United States and brings total acquisitions past 100.",
-      "relevance_score": 5,
-      "is_deal": true,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": 39.06,
-      "longitude": -105.311,
-      "zoom_hint": "wide",
-      "first_seen_date": "2026-09-10"
+      "first_seen_date": "2026-09-11"
     }
   ]
 }

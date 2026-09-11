@@ -1,5 +1,62 @@
 [
   {
+    "date": "2026-03-15",
+    "headline": "FMCSA CDL Rule Restricting Non-Domiciled Drivers Takes Effect; Waste Haulers Face 20% Driver Impact",
+    "source": "Waste Dive",
+    "source_url": "https://www.wastedive.com/news/fmcsa-cdl-rule-affects-non-citizen-drivers-waste-pro-teamsters-afscme/814806/",
+    "category": "Labor/Ops",
+    "summary": "FMCSA final rule affecting CDL eligibility for nearly 200,000 drivers took effect, restricting certain non-domiciled drivers including asylum seekers and refugees from holding CDLs. Waste Pro reports the rule change would affect up to 20% of its drivers in Southwest Florida, delaying service and making it hard to replace qualified drivers.",
+    "relevance_score": 2,
+    "is_target_market": false,
+    "target_market_name": null,
+    "is_deal": false,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-15",
+    "categories": [
+      "Labor/Ops"
+    ]
+  },
+  {
+    "date": "2026-03-15",
+    "headline": "Quatra Secures 15-Year Used Cooking Oil Supply Agreement with TotalEnergies",
+    "source": "Coherent Market Insights / Used Cooking Oil Market Report",
+    "source_url": "https://www.coherentmarketinsights.com/industry-reports/used-cooking-oil-market",
+    "category": "Renewable Fuels",
+    "summary": "Quatra signed a 15-year agreement to supply TotalEnergies with 60,000 tons of European used cooking oil annually from 2026, to be processed into biodiesel and sustainable aviation fuel.",
+    "relevance_score": 4,
+    "is_target_market": false,
+    "target_market_name": null,
+    "is_deal": false,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-15",
+    "categories": [
+      "Renewable Fuels"
+    ]
+  },
+  {
+    "date": "2026-03-15",
+    "headline": "CDL Immigration Rule Impact: Federal Rules Bar Asylum Seekers from Commercial Driving",
+    "source": "O Trucking",
+    "source_url": "https://otrucking.com/resources/guides/truck-driver-shortage-2026/",
+    "category": "Labor/Ops",
+    "summary": "Federal rules implemented in March 2026 now bar asylum seekers, refugees, and DACA recipients from obtaining or renewing CDLs, with an estimated 200,000 active CDL holders\u2014roughly 5% of all commercial drivers\u2014directly affected. Texas is the epicenter of the driver shortage impact due to its high freight volume and disproportionate immigrant driver population.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-15",
+    "categories": [
+      "Labor/Ops"
+    ]
+  },
+  {
     "date": "2026-03-14",
     "headline": "The Future of FOG Compliance: What's Coming in 2027 and Beyond",
     "source": "Grease Trap Locator",
