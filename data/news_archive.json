@@ -1,5 +1,62 @@
 [
   {
+    "date": "2026-03-16",
+    "headline": "CDL rule affecting non-citizens taking effect despite waste hauler concerns",
+    "source": "Waste Dive",
+    "source_url": "https://www.wastedive.com/news/fmcsa-cdl-rule-affects-non-citizen-drivers-waste-pro-teamsters-afscme/814806/",
+    "category": "Labor/Ops",
+    "summary": "A federal CDL eligibility rule restricting non-domiciled drivers took effect March 16, 2026, immediately affecting up to 20% of Waste Pro's drivers in Southwest Florida. The regulation impacts asylum seekers, refugees, and DACA recipients previously eligible for commercial licenses, exacerbating existing driver shortages.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-16",
+    "categories": [
+      "Labor/Ops"
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "headline": "LCFS 2024 Amendments: Tightened CI Targets and Expanded Verification Framework",
+    "source": "Stillwater Publications",
+    "source_url": "https://stillwaterpublications.com/lcfs-101/",
+    "category": "Renewable Fuels",
+    "summary": "California's 2024 LCFS amendments, effective July 1, 2025, significantly tightened credit supply and expanded producer obligations. The 2025 reporting year required GREET 4.0 model use, and 2026 brings expanded feedstock and land-use documentation for renewable fuels from waste oils including UCO.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-16",
+    "categories": [
+      "Renewable Fuels"
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "headline": "Junk Removal Business Insurance Cost (2026 Rates)",
+    "source": "MoneyGeek",
+    "source_url": "https://www.moneygeek.com/insurance/business/cleaning/junk-removal/cost/",
+    "category": "Labor/Ops",
+    "summary": "Broad waste/junk removal insurance survey noting that disposal fees and regional regulations significantly affect both operations and risk exposure for hauling businesses.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-16",
+    "categories": [
+      "Labor/Ops"
+    ]
+  },
+  {
     "date": "2026-03-15",
     "headline": "FMCSA CDL Rule Restricting Non-Domiciled Drivers Takes Effect; Waste Haulers Face 20% Driver Impact",
     "source": "Waste Dive",

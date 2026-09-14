@@ -1,5 +1,44 @@
 [
   {
+    "date": "2026-09-14",
+    "headline": "Waste Hauler Insurance Rates Remain Stable as New Entrants Exert Downward Pressure",
+    "source": "Amwins",
+    "source_url": "https://www.amwins.com/products/waste-haulers",
+    "category": "Labor/Ops",
+    "categories": [
+      "Labor/Ops"
+    ],
+    "summary": "Environmental insurance market remains stable with broad carrier competition. For primary casualty lines, pricing generally ranges from flat to 10% increases depending on operational nature, size, and location. Driver shortage pressures carriers to make exceptions on driver hiring requirements.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-14"
+  },
+  {
+    "date": "2026-09-14",
+    "headline": "EPA Approves Oversight for San Jacinto Waste Pit Superfund Site",
+    "source": "Waste360",
+    "source_url": "https://www.waste360.com/industry-insights/epa-approves-oversight-for-san-jacinto-waste-pit-superfund-site",
+    "category": "Industry Events",
+    "categories": [
+      "Industry Events",
+      "Regulatory"
+    ],
+    "summary": "The EPA announced that responsible parties for the San Jacinto Waste Pits Superfund site have selected supervisors and coordinators for the remediation project. The plan involves excavating nearly 230,000 cubic yards of contaminated material from the 15-acre northern impoundment.",
+    "relevance_score": 1,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-14"
+  },
+  {
     "date": "2026-09-11",
     "headline": "New Jersey Extends Exemption, Delays Recycled Content Requirements for Food Packaging Until 2029",
     "source": "Waste360",
@@ -7832,63 +7871,6 @@
     "first_seen_date": "2026-03-19",
     "categories": [
       "Regulatory"
-    ]
-  },
-  {
-    "date": "2026-03-16",
-    "headline": "CDL rule affecting non-citizens taking effect despite waste hauler concerns",
-    "source": "Waste Dive",
-    "source_url": "https://www.wastedive.com/news/fmcsa-cdl-rule-affects-non-citizen-drivers-waste-pro-teamsters-afscme/814806/",
-    "category": "Labor/Ops",
-    "summary": "A federal CDL eligibility rule restricting non-domiciled drivers took effect March 16, 2026, immediately affecting up to 20% of Waste Pro's drivers in Southwest Florida. The regulation impacts asylum seekers, refugees, and DACA recipients previously eligible for commercial licenses, exacerbating existing driver shortages.",
-    "relevance_score": 3,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-03-16",
-    "categories": [
-      "Labor/Ops"
-    ]
-  },
-  {
-    "date": "2026-03-16",
-    "headline": "LCFS 2024 Amendments: Tightened CI Targets and Expanded Verification Framework",
-    "source": "Stillwater Publications",
-    "source_url": "https://stillwaterpublications.com/lcfs-101/",
-    "category": "Renewable Fuels",
-    "summary": "California's 2024 LCFS amendments, effective July 1, 2025, significantly tightened credit supply and expanded producer obligations. The 2025 reporting year required GREET 4.0 model use, and 2026 brings expanded feedstock and land-use documentation for renewable fuels from waste oils including UCO.",
-    "relevance_score": 4,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-03-16",
-    "categories": [
-      "Renewable Fuels"
-    ]
-  },
-  {
-    "date": "2026-03-16",
-    "headline": "Junk Removal Business Insurance Cost (2026 Rates)",
-    "source": "MoneyGeek",
-    "source_url": "https://www.moneygeek.com/insurance/business/cleaning/junk-removal/cost/",
-    "category": "Labor/Ops",
-    "summary": "Broad waste/junk removal insurance survey noting that disposal fees and regional regulations significantly affect both operations and risk exposure for hauling businesses.",
-    "relevance_score": 2,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-03-16",
-    "categories": [
-      "Labor/Ops"
     ]
   },
   {
