@@ -140,6 +140,26 @@
     "first_seen_date": "2026-09-11"
   },
   {
+    "date": "2026-09-10",
+    "headline": "Scotiabank Raises GFL Environmental FY2026 EPS Forecast to $0.61, Sector Outperform Rating",
+    "source": "Scotiabank / Daily Political",
+    "source_url": "https://www.dailypolitical.com/2026/09/15/fy2026-eps-forecast-for-gfl-environmental-lifted-by-analyst.html",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co.",
+      "M&A"
+    ],
+    "summary": "Scotiabank upgraded its FY2026 EPS estimate for GFL Environmental to $0.61 from $0.50, maintaining a Sector Outperform rating with $57 price target. The firm also projects FY2027 EPS at $1.09, reflecting confidence in the company's execution on its Secure acquisition integration and organic growth initiatives.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-15"
+  },
+  {
     "date": "2026-09-07",
     "headline": "Where Do I Throw It? The Kitchen Dilemma of Used Cooking Oil and the Rules for Proper Disposal",
     "source": "SmartGreen Post",
@@ -354,6 +374,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-09-07"
+  },
+  {
+    "date": "2026-09-01",
+    "headline": "Intelligent route planning cuts costs and time",
+    "source": "Waste Today Magazine",
+    "source_url": "https://www.wastetodaymagazine.com/media/routesmart-supplier-spotlight-route-planningcuts-costs-and-time/",
+    "category": "Technology",
+    "categories": [
+      "Technology"
+    ],
+    "summary": "RouteSmart Optimize is a web application engineered to optimize route plans for waste collection operations, addressing manual planning inefficiencies that drive up operational costs and lead to missed pickups.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-15"
   },
   {
     "date": "2026-08-31",
@@ -7852,25 +7891,6 @@
     "first_seen_date": "2026-03-20",
     "categories": [
       "M&A"
-    ]
-  },
-  {
-    "date": "2026-03-19",
-    "headline": "Miami-Dade Grease Trap Compliance for Restaurants 2026 \u2014 Federal Consent Decree Enforcement Remains Strict",
-    "source": "Unclogme",
-    "source_url": "https://unclogme.com/2026/03/19/complete-guide-to-miami-dade-grease-trap-compliance-for-restaurants-in-2026/",
-    "category": "Regulatory",
-    "summary": "Miami-Dade enforces FOG compliance under a federal consent decree with 90-day cleaning maximums and 99% efficiency requirements. A February 2026 County Commission resolution signals potential future relief, though current regulations remain fully enforceable.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-03-19",
-    "categories": [
-      "Regulatory"
     ]
   },
   {
