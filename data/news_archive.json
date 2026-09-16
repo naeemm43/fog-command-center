@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-03-20",
+    "headline": "Wind River Environmental Acquires J&M Transfer, Inc.",
+    "source": "Wind River Blog",
+    "source_url": "https://wrenvironmental.com",
+    "category": "M&A",
+    "summary": "Wind River continues aggressive expansion, acquiring J&M Transfer to extend its liquid waste transfer capabilities.",
+    "is_target_market": false,
+    "target_market_name": null,
+    "relevance_score": 5,
+    "is_deal": true,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-20",
+    "categories": [
+      "M&A"
+    ]
+  },
+  {
     "date": "2026-03-19",
     "headline": "Miami-Dade Grease Trap Compliance for Restaurants 2026 \u2014 Federal Consent Decree Enforcement Remains Strict",
     "source": "Unclogme",
