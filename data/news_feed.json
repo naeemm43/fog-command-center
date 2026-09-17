@@ -20,6 +20,27 @@
     "first_seen_date": "2026-09-16"
   },
   {
+    "date": "2026-09-16",
+    "headline": "Darling Ingredients stock jumps after EPA proposes renewable fuel standards",
+    "source": "Investing.com",
+    "source_url": "https://www.investing.com/news/stock-market-news/darling-ingredients-stock-jumps-after-epa-proposes-renewable-fuel-standards-93CH-4241016",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels",
+      "Public Co.",
+      "Regulatory"
+    ],
+    "summary": "Darling Ingredients (NYSE:DAR) stock rose 9% following the EPA's announcement of supplemental proposed renewable fuel standards for 2026 and 2027. The proposal includes reallocation considerations for small refinery exemptions that could impact compliance requirements for renewable fuel producers.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-17"
+  },
+  {
     "date": "2026-09-15",
     "headline": "Managing Used Cooking Oil: What Food Truck Operators Need to Know in 2026",
     "source": "SonicMenuUSA",
@@ -117,6 +138,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-09-11"
+  },
+  {
+    "date": "2026-09-11",
+    "headline": "City of Byron Begins $31 Million Wastewater Plant Upgrade Project",
+    "source": "Govly",
+    "source_url": "https://app.govly.com/public/signals/190039",
+    "category": "Infrastructure",
+    "categories": [
+      "Infrastructure"
+    ],
+    "summary": "The City of Byron commenced a $31 million wastewater treatment plant upgrade project with groundbreaking held on September 11, 2026. Construction activities are scheduled to start in September 2026, representing a significant municipal infrastructure investment to enhance capacity and support future community needs.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-17"
   },
   {
     "date": "2026-09-10",
@@ -218,6 +258,27 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-09-15"
+  },
+  {
+    "date": "2026-09-10",
+    "headline": "Darling Ingredients: The Turnaround Is Just Getting Started",
+    "source": "Seeking Alpha",
+    "source_url": "https://seekingalpha.com/article/4945016-darling-ingredients-turnaround-is-just-getting-started",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels",
+      "Public Co.",
+      "ESG"
+    ],
+    "summary": "Analysis highlighting Darling Ingredients' structural advantages in collecting and processing waste materials into renewable diesel and circular economy products. The company's joint venture with Valero produces renewable diesel from animal fats and used cooking oil.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-17"
   },
   {
     "date": "2026-09-07",

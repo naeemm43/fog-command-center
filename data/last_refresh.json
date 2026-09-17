@@ -1,41 +1,21 @@
 {
-  "timestamp": "2026-09-16T16:34:49Z",
+  "timestamp": "2026-09-17T16:40:08Z",
   "added_news_count": 3,
   "added_deals_count": 0,
-  "archived_count": 1,
+  "archived_count": 0,
   "new_today_news": [
     {
       "date": "2026-09-16",
-      "headline": "Korea to Test Turning Fryer Scraps Into Jet Fuel Feedstock",
-      "source": "Seoul Economic Daily",
-      "source_url": "https://en.sedaily.com/finance/2026/09/15/korea-to-test-turning-fryer-scraps-into-jet-fuel-feedstock",
+      "headline": "Darling Ingredients stock jumps after EPA proposes renewable fuel standards",
+      "source": "Investing.com",
+      "source_url": "https://www.investing.com/news/stock-market-news/darling-ingredients-stock-jumps-after-epa-proposes-renewable-fuel-standards-93CH-4241016",
       "category": "Renewable Fuels",
       "categories": [
         "Renewable Fuels",
-        "ESG"
-      ],
-      "summary": "South Korea's government is launching a pilot project to extract oil from deep-frying residue and use it as feedstock for sustainable aviation fuel (SAF) as a 1% SAF blending mandate takes effect next year. The Ministry of Climate, Energy and Environment will accept applications from September 16 through October 30 for three regulatory sandbox projects focused on circular economy practices.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-09-16"
-    },
-    {
-      "date": "2026-09-15",
-      "headline": "Managing Used Cooking Oil: What Food Truck Operators Need to Know in 2026",
-      "source": "SonicMenuUSA",
-      "source_url": "https://sonicmenuusa.com/food-truck-operators-need-to-know-in-2026/",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant",
-        "Renewable Fuels",
+        "Public Co.",
         "Regulatory"
       ],
-      "summary": "Food truck operators are increasingly subject to FOG compliance requirements and UCO management obligations. The article discusses how improper grease disposal is an EPA-identified environmental concern driving municipal enforcement, and how UCO management is now a regulated waste stream affecting operations.",
+      "summary": "Darling Ingredients (NYSE:DAR) stock rose 9% following the EPA's announcement of supplemental proposed renewable fuel standards for 2026 and 2027. The proposal includes reallocation considerations for small refinery exemptions that could impact compliance requirements for renewable fuel producers.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -43,18 +23,20 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-09-16"
-    },
+      "first_seen_date": "2026-09-17"
+    }
+  ],
+  "recent_news": [
     {
-      "date": "2026-09-15",
-      "headline": "September 2026 Fire Report: Waste and Recycling Facility Fires Reach Year-to-Date High",
-      "source": "Waste360",
-      "source_url": "https://www.waste360.com/industry-insights/september-2026-fire-report-trends-risks-and-progress",
-      "category": "Industry Events",
+      "date": "2026-09-11",
+      "headline": "City of Byron Begins $31 Million Wastewater Plant Upgrade Project",
+      "source": "Govly",
+      "source_url": "https://app.govly.com/public/signals/190039",
+      "category": "Infrastructure",
       "categories": [
-        "Industry Events"
+        "Infrastructure"
       ],
-      "summary": "49 fires at waste and recycling facilities in August 2026 tied August 2025 for the highest August total in 10 years, bringing the year-to-date count to 293 fires, the third-highest January-August total on record. Industry data tracking shows sustained risk in facility operations.",
+      "summary": "The City of Byron commenced a $31 million wastewater treatment plant upgrade project with groundbreaking held on September 11, 2026. Construction activities are scheduled to start in September 2026, representing a significant municipal infrastructure investment to enhance capacity and support future community needs.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -62,45 +44,45 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-09-16"
+      "first_seen_date": "2026-09-17"
+    },
+    {
+      "date": "2026-09-10",
+      "headline": "Darling Ingredients: The Turnaround Is Just Getting Started",
+      "source": "Seeking Alpha",
+      "source_url": "https://seekingalpha.com/article/4945016-darling-ingredients-turnaround-is-just-getting-started",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels",
+        "Public Co.",
+        "ESG"
+      ],
+      "summary": "Analysis highlighting Darling Ingredients' structural advantages in collecting and processing waste materials into renewable diesel and circular economy products. The company's joint venture with Valero produces renewable diesel from animal fats and used cooking oil.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-09-17"
     }
   ],
-  "recent_news": [],
   "backfill_news": [],
   "new_deals": [],
   "new_news": [
     {
       "date": "2026-09-16",
-      "headline": "Korea to Test Turning Fryer Scraps Into Jet Fuel Feedstock",
-      "source": "Seoul Economic Daily",
-      "source_url": "https://en.sedaily.com/finance/2026/09/15/korea-to-test-turning-fryer-scraps-into-jet-fuel-feedstock",
+      "headline": "Darling Ingredients stock jumps after EPA proposes renewable fuel standards",
+      "source": "Investing.com",
+      "source_url": "https://www.investing.com/news/stock-market-news/darling-ingredients-stock-jumps-after-epa-proposes-renewable-fuel-standards-93CH-4241016",
       "category": "Renewable Fuels",
       "categories": [
         "Renewable Fuels",
-        "ESG"
-      ],
-      "summary": "South Korea's government is launching a pilot project to extract oil from deep-frying residue and use it as feedstock for sustainable aviation fuel (SAF) as a 1% SAF blending mandate takes effect next year. The Ministry of Climate, Energy and Environment will accept applications from September 16 through October 30 for three regulatory sandbox projects focused on circular economy practices.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-09-16"
-    },
-    {
-      "date": "2026-09-15",
-      "headline": "Managing Used Cooking Oil: What Food Truck Operators Need to Know in 2026",
-      "source": "SonicMenuUSA",
-      "source_url": "https://sonicmenuusa.com/food-truck-operators-need-to-know-in-2026/",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant",
-        "Renewable Fuels",
+        "Public Co.",
         "Regulatory"
       ],
-      "summary": "Food truck operators are increasingly subject to FOG compliance requirements and UCO management obligations. The article discusses how improper grease disposal is an EPA-identified environmental concern driving municipal enforcement, and how UCO management is now a regulated waste stream affecting operations.",
+      "summary": "Darling Ingredients (NYSE:DAR) stock rose 9% following the EPA's announcement of supplemental proposed renewable fuel standards for 2026 and 2027. The proposal includes reallocation considerations for small refinery exemptions that could impact compliance requirements for renewable fuel producers.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -108,18 +90,18 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-09-16"
+      "first_seen_date": "2026-09-17"
     },
     {
-      "date": "2026-09-15",
-      "headline": "September 2026 Fire Report: Waste and Recycling Facility Fires Reach Year-to-Date High",
-      "source": "Waste360",
-      "source_url": "https://www.waste360.com/industry-insights/september-2026-fire-report-trends-risks-and-progress",
-      "category": "Industry Events",
+      "date": "2026-09-11",
+      "headline": "City of Byron Begins $31 Million Wastewater Plant Upgrade Project",
+      "source": "Govly",
+      "source_url": "https://app.govly.com/public/signals/190039",
+      "category": "Infrastructure",
       "categories": [
-        "Industry Events"
+        "Infrastructure"
       ],
-      "summary": "49 fires at waste and recycling facilities in August 2026 tied August 2025 for the highest August total in 10 years, bringing the year-to-date count to 293 fires, the third-highest January-August total on record. Industry data tracking shows sustained risk in facility operations.",
+      "summary": "The City of Byron commenced a $31 million wastewater treatment plant upgrade project with groundbreaking held on September 11, 2026. Construction activities are scheduled to start in September 2026, representing a significant municipal infrastructure investment to enhance capacity and support future community needs.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -127,7 +109,28 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-09-16"
+      "first_seen_date": "2026-09-17"
+    },
+    {
+      "date": "2026-09-10",
+      "headline": "Darling Ingredients: The Turnaround Is Just Getting Started",
+      "source": "Seeking Alpha",
+      "source_url": "https://seekingalpha.com/article/4945016-darling-ingredients-turnaround-is-just-getting-started",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels",
+        "Public Co.",
+        "ESG"
+      ],
+      "summary": "Analysis highlighting Darling Ingredients' structural advantages in collecting and processing waste materials into renewable diesel and circular economy products. The company's joint venture with Valero produces renewable diesel from animal fats and used cooking oil.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-09-17"
     }
   ]
 }
