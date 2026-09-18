@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-09-18",
+    "headline": "Blackstone and Brookfield consortia to bid for GFL",
+    "source": "Waste360",
+    "source_url": "https://www.waste360.com/industry-insights/blackstone-and-brookfield-consortia-to-bid-for-gfl",
+    "category": "Industry Events",
+    "categories": [
+      "Industry Events",
+      "Public Co."
+    ],
+    "summary": "Infrastructure investors including KKR & Co., Energy Capital Partners, Blackstone Inc., Brookfield Asset Management, and IFM Investors are bidding to take over GFL Environmental Inc. in what could be one of the largest leveraged buyouts of the year.",
+    "relevance_score": 3,
+    "is_deal": true,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-18"
+  },
+  {
+    "date": "2026-09-17",
+    "headline": "Sanitary sewer overflow in Glen Cove, NY caused by grease blockage\u2014regulatory notice issued",
+    "source": "New York State Department of Environmental Conservation (NYSDEC)",
+    "source_url": "https://dec.ny.gov/environmental-protection/water/water-quality/sewage-pollution-right-to-know",
+    "category": "Regulatory",
+    "categories": [
+      "Regulatory",
+      "Infrastructure"
+    ],
+    "summary": "The Glen Cove wastewater treatment facility reported a sanitary sewer overflow on September 15 due to grease blockage in an 8-inch line, releasing approximately 14.4 gallons into a nearby catch basin. This is a mandatory pollution notification under New York's Sewage Pollution Right to Know law.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-18"
+  },
+  {
     "date": "2026-09-16",
     "headline": "Korea to Test Turning Fryer Scraps Into Jet Fuel Feedstock",
     "source": "Seoul Economic Daily",
@@ -79,6 +119,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-09-16"
+  },
+  {
+    "date": "2026-09-15",
+    "headline": "Global Foodservice News \u2014 Sept. 15, 2026",
+    "source": "American Recruiters",
+    "source_url": "https://americanrecruiters.com/blog/global-foodservice-news-sept-15-2026/",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "summary": "Carl's Jr. franchised store count declined from 1,020 in 2024 to 942 by end of fiscal 2026, with franchisees struggling with profitability. The article also notes that only 14% of food and beverage brands saw purchase consideration growth in 2026, a five-year low, as consumers shift spending patterns.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-18"
   },
   {
     "date": "2026-09-14",

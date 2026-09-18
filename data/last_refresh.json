@@ -1,42 +1,61 @@
 {
-  "timestamp": "2026-09-17T16:40:08Z",
+  "timestamp": "2026-09-18T16:11:45Z",
   "added_news_count": 3,
-  "added_deals_count": 0,
+  "added_deals_count": 1,
   "archived_count": 0,
   "new_today_news": [
     {
-      "date": "2026-09-16",
-      "headline": "Darling Ingredients stock jumps after EPA proposes renewable fuel standards",
-      "source": "Investing.com",
-      "source_url": "https://www.investing.com/news/stock-market-news/darling-ingredients-stock-jumps-after-epa-proposes-renewable-fuel-standards-93CH-4241016",
-      "category": "Renewable Fuels",
+      "date": "2026-09-18",
+      "headline": "Blackstone and Brookfield consortia to bid for GFL",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/industry-insights/blackstone-and-brookfield-consortia-to-bid-for-gfl",
+      "category": "Industry Events",
       "categories": [
-        "Renewable Fuels",
-        "Public Co.",
-        "Regulatory"
+        "Industry Events",
+        "Public Co."
       ],
-      "summary": "Darling Ingredients (NYSE:DAR) stock rose 9% following the EPA's announcement of supplemental proposed renewable fuel standards for 2026 and 2027. The proposal includes reallocation considerations for small refinery exemptions that could impact compliance requirements for renewable fuel producers.",
-      "relevance_score": 5,
+      "summary": "Infrastructure investors including KKR & Co., Energy Capital Partners, Blackstone Inc., Brookfield Asset Management, and IFM Investors are bidding to take over GFL Environmental Inc. in what could be one of the largest leveraged buyouts of the year.",
+      "relevance_score": 3,
+      "is_deal": true,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-09-18"
+    },
+    {
+      "date": "2026-09-17",
+      "headline": "Sanitary sewer overflow in Glen Cove, NY caused by grease blockage\u2014regulatory notice issued",
+      "source": "New York State Department of Environmental Conservation (NYSDEC)",
+      "source_url": "https://dec.ny.gov/environmental-protection/water/water-quality/sewage-pollution-right-to-know",
+      "category": "Regulatory",
+      "categories": [
+        "Regulatory",
+        "Infrastructure"
+      ],
+      "summary": "The Glen Cove wastewater treatment facility reported a sanitary sewer overflow on September 15 due to grease blockage in an 8-inch line, releasing approximately 14.4 gallons into a nearby catch basin. This is a mandatory pollution notification under New York's Sewage Pollution Right to Know law.",
+      "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-09-17"
+      "first_seen_date": "2026-09-18"
     }
   ],
   "recent_news": [
     {
-      "date": "2026-09-11",
-      "headline": "City of Byron Begins $31 Million Wastewater Plant Upgrade Project",
-      "source": "Govly",
-      "source_url": "https://app.govly.com/public/signals/190039",
-      "category": "Infrastructure",
+      "date": "2026-09-15",
+      "headline": "Global Foodservice News \u2014 Sept. 15, 2026",
+      "source": "American Recruiters",
+      "source_url": "https://americanrecruiters.com/blog/global-foodservice-news-sept-15-2026/",
+      "category": "Restaurant",
       "categories": [
-        "Infrastructure"
+        "Restaurant"
       ],
-      "summary": "The City of Byron commenced a $31 million wastewater treatment plant upgrade project with groundbreaking held on September 11, 2026. Construction activities are scheduled to start in September 2026, representing a significant municipal infrastructure investment to enhance capacity and support future community needs.",
+      "summary": "Carl's Jr. franchised store count declined from 1,020 in 2024 to 942 by end of fiscal 2026, with franchisees struggling with profitability. The article also notes that only 14% of food and beverage brands saw purchase consideration growth in 2026, a five-year low, as consumers shift spending patterns.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -44,64 +63,87 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-09-17"
-    },
-    {
-      "date": "2026-09-10",
-      "headline": "Darling Ingredients: The Turnaround Is Just Getting Started",
-      "source": "Seeking Alpha",
-      "source_url": "https://seekingalpha.com/article/4945016-darling-ingredients-turnaround-is-just-getting-started",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels",
-        "Public Co.",
-        "ESG"
-      ],
-      "summary": "Analysis highlighting Darling Ingredients' structural advantages in collecting and processing waste materials into renewable diesel and circular economy products. The company's joint venture with Valero produces renewable diesel from animal fats and used cooking oil.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-09-17"
+      "first_seen_date": "2026-09-18"
     }
   ],
   "backfill_news": [],
-  "new_deals": [],
+  "new_deals": [
+    {
+      "date": "2026-09-18",
+      "target": "GFL Environmental Inc.",
+      "acquirer": "Multiple consortia: (1) KKR & Co., Energy Capital Partners, Blackstone Inc.; (2) Brookfield Asset Management, IFM Investors",
+      "sponsor": "",
+      "location": "North America",
+      "deal_type": "Add-On",
+      "deal_size": "Undisclosed",
+      "multiple": "N/A",
+      "services": "",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/industry-insights/blackstone-and-brookfield-consortia-to-bid-for-gfl",
+      "is_target_market": false,
+      "target_market_name": null,
+      "owner_classification": "Unknown",
+      "deal_summary": [
+        "LBO bidding competition for major waste services company"
+      ],
+      "date_confidence": "verified",
+      "notes": "Infrastructure investors including KKR & Co., Energy Capital Partners, Blackstone Inc., Brookfield Asset Management, and IFM Investors are bidding to take over GFL Environmental Inc. in what could be one of the largest leveraged buyouts of the year.",
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null
+    }
+  ],
   "new_news": [
     {
-      "date": "2026-09-16",
-      "headline": "Darling Ingredients stock jumps after EPA proposes renewable fuel standards",
-      "source": "Investing.com",
-      "source_url": "https://www.investing.com/news/stock-market-news/darling-ingredients-stock-jumps-after-epa-proposes-renewable-fuel-standards-93CH-4241016",
-      "category": "Renewable Fuels",
+      "date": "2026-09-18",
+      "headline": "Blackstone and Brookfield consortia to bid for GFL",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/industry-insights/blackstone-and-brookfield-consortia-to-bid-for-gfl",
+      "category": "Industry Events",
       "categories": [
-        "Renewable Fuels",
-        "Public Co.",
-        "Regulatory"
+        "Industry Events",
+        "Public Co."
       ],
-      "summary": "Darling Ingredients (NYSE:DAR) stock rose 9% following the EPA's announcement of supplemental proposed renewable fuel standards for 2026 and 2027. The proposal includes reallocation considerations for small refinery exemptions that could impact compliance requirements for renewable fuel producers.",
-      "relevance_score": 5,
+      "summary": "Infrastructure investors including KKR & Co., Energy Capital Partners, Blackstone Inc., Brookfield Asset Management, and IFM Investors are bidding to take over GFL Environmental Inc. in what could be one of the largest leveraged buyouts of the year.",
+      "relevance_score": 3,
+      "is_deal": true,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-09-18"
+    },
+    {
+      "date": "2026-09-17",
+      "headline": "Sanitary sewer overflow in Glen Cove, NY caused by grease blockage\u2014regulatory notice issued",
+      "source": "New York State Department of Environmental Conservation (NYSDEC)",
+      "source_url": "https://dec.ny.gov/environmental-protection/water/water-quality/sewage-pollution-right-to-know",
+      "category": "Regulatory",
+      "categories": [
+        "Regulatory",
+        "Infrastructure"
+      ],
+      "summary": "The Glen Cove wastewater treatment facility reported a sanitary sewer overflow on September 15 due to grease blockage in an 8-inch line, releasing approximately 14.4 gallons into a nearby catch basin. This is a mandatory pollution notification under New York's Sewage Pollution Right to Know law.",
+      "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-09-17"
+      "first_seen_date": "2026-09-18"
     },
     {
-      "date": "2026-09-11",
-      "headline": "City of Byron Begins $31 Million Wastewater Plant Upgrade Project",
-      "source": "Govly",
-      "source_url": "https://app.govly.com/public/signals/190039",
-      "category": "Infrastructure",
+      "date": "2026-09-15",
+      "headline": "Global Foodservice News \u2014 Sept. 15, 2026",
+      "source": "American Recruiters",
+      "source_url": "https://americanrecruiters.com/blog/global-foodservice-news-sept-15-2026/",
+      "category": "Restaurant",
       "categories": [
-        "Infrastructure"
+        "Restaurant"
       ],
-      "summary": "The City of Byron commenced a $31 million wastewater treatment plant upgrade project with groundbreaking held on September 11, 2026. Construction activities are scheduled to start in September 2026, representing a significant municipal infrastructure investment to enhance capacity and support future community needs.",
+      "summary": "Carl's Jr. franchised store count declined from 1,020 in 2024 to 942 by end of fiscal 2026, with franchisees struggling with profitability. The article also notes that only 14% of food and beverage brands saw purchase consideration growth in 2026, a five-year low, as consumers shift spending patterns.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -109,28 +151,7 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-09-17"
-    },
-    {
-      "date": "2026-09-10",
-      "headline": "Darling Ingredients: The Turnaround Is Just Getting Started",
-      "source": "Seeking Alpha",
-      "source_url": "https://seekingalpha.com/article/4945016-darling-ingredients-turnaround-is-just-getting-started",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels",
-        "Public Co.",
-        "ESG"
-      ],
-      "summary": "Analysis highlighting Darling Ingredients' structural advantages in collecting and processing waste materials into renewable diesel and circular economy products. The company's joint venture with Valero produces renewable diesel from animal fats and used cooking oil.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-09-17"
+      "first_seen_date": "2026-09-18"
     }
   ]
 }

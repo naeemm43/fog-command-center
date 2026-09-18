@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-09-18",
+    "target": "GFL Environmental Inc.",
+    "acquirer": "Multiple consortia: (1) KKR & Co., Energy Capital Partners, Blackstone Inc.; (2) Brookfield Asset Management, IFM Investors",
+    "sponsor": "",
+    "location": "North America",
+    "deal_type": "Add-On",
+    "deal_size": "Undisclosed",
+    "multiple": "N/A",
+    "services": "",
+    "source": "Waste360",
+    "source_url": "https://www.waste360.com/industry-insights/blackstone-and-brookfield-consortia-to-bid-for-gfl",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "Unknown",
+    "deal_summary": [
+      "LBO bidding competition for major waste services company"
+    ],
+    "date_confidence": "verified",
+    "notes": "Infrastructure investors including KKR & Co., Energy Capital Partners, Blackstone Inc., Brookfield Asset Management, and IFM Investors are bidding to take over GFL Environmental Inc. in what could be one of the largest leveraged buyouts of the year.",
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
+  },
+  {
     "date": "2026-09-02",
     "target": "GDM Environmental",
     "acquirer": "Wind River Environmental",
