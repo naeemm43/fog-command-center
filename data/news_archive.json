@@ -1,5 +1,44 @@
 [
   {
+    "date": "2026-03-25",
+    "headline": "Barrel Energy Inc. (OTC: BRLL) Acquires Renewable Energy Company Happy Traps to Expand Waste-to-Energy Platform",
+    "source": "Stock Titan",
+    "source_url": "https://www.stocktitan.net/news/BRLL/",
+    "category": "Public Co.",
+    "summary": "Barrel Energy acquired Happy Traps, a Portland, Maine waste-to-energy and environmental services company, which has 200+ recurring commercial clients and >3,500 grease trap cleanings with customer retention above 95%, positioning Barrel Energy to expand its grease-management services into the $8+ billion U.S. market.",
+    "relevance_score": 5,
+    "is_deal": true,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": 43.661,
+    "longitude": -70.255,
+    "zoom_hint": "narrow",
+    "first_seen_date": "2026-03-25",
+    "categories": [
+      "Public Co.",
+      "M&A"
+    ]
+  },
+  {
+    "date": "2026-03-23",
+    "headline": "Waste Hauling Insurance: Why Recycling & Garbage Companies Are Getting Hit at Renewal",
+    "source": "Deerfield Risk Advisors",
+    "source_url": "https://deerfieldrisk.com/blog/insurance-for-waste-recycle-haulers-protecting-your-business-and-operations/",
+    "category": "Labor/Ops",
+    "summary": "Waste and recycling haulers face increased exposure and liability challenges securing adequate insurance coverage. The sector is experiencing difficult renewal conditions as companies navigate complex risk profiles across diverse operations.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-03-23",
+    "categories": [
+      "Labor/Ops"
+    ]
+  },
+  {
     "date": "2026-03-20",
     "headline": "Wind River Environmental Acquires J&M Transfer, Inc.",
     "source": "Wind River Blog",

@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-09-21",
+    "headline": "Update to Landfill Tipping Fees",
+    "source": "Tifton, GA",
+    "source_url": "https://tifton.net/m/newsflash/home/detail/277",
+    "category": "Infrastructure",
+    "categories": [
+      "Infrastructure"
+    ],
+    "summary": "Tift County Landfill announced increases in tipping fees effective August 1, 2026, reflecting rising operational costs and future capital improvements.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-21"
+  },
+  {
     "date": "2026-09-18",
     "headline": "Blackstone and Brookfield consortia to bid for GFL",
     "source": "Waste360",
@@ -338,6 +357,26 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-09-17"
+  },
+  {
+    "date": "2026-09-08",
+    "headline": "IRS Issues 45Z Tax Credit Notice and DOE Updates 45ZCF-GREET Model",
+    "source": "Environment, Land & Resources (Global ELR)",
+    "source_url": "https://www.globalelr.com/2026/09/irs-issues-45z-tax-credit-notice-and-doe-updates-45zcf-greet-model/",
+    "category": "ESG",
+    "categories": [
+      "ESG",
+      "Renewable Fuels"
+    ],
+    "summary": "The IRS published Notice 2026-53 on September 8, 2026, providing calendar year 2026 emissions rates for Section 45Z clean fuel production credit, including provisions for used cooking oil (UCO) and fats, oils, greases feedstock. The September 2026 version of the 45ZCF-GREET model integrates USDA's final Framework for Determining Carbon Intensity of Crops and restricts post-2025 fuel production to feedstock from the U.S., Canada, or Mexico\u2014eliminating eligibility for imported UCO.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-21"
   },
   {
     "date": "2026-09-07",
@@ -8013,45 +8052,6 @@
     "first_seen_date": "2026-03-26",
     "categories": [
       "M&A"
-    ]
-  },
-  {
-    "date": "2026-03-25",
-    "headline": "Barrel Energy Inc. (OTC: BRLL) Acquires Renewable Energy Company Happy Traps to Expand Waste-to-Energy Platform",
-    "source": "Stock Titan",
-    "source_url": "https://www.stocktitan.net/news/BRLL/",
-    "category": "Public Co.",
-    "summary": "Barrel Energy acquired Happy Traps, a Portland, Maine waste-to-energy and environmental services company, which has 200+ recurring commercial clients and >3,500 grease trap cleanings with customer retention above 95%, positioning Barrel Energy to expand its grease-management services into the $8+ billion U.S. market.",
-    "relevance_score": 5,
-    "is_deal": true,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": 43.661,
-    "longitude": -70.255,
-    "zoom_hint": "narrow",
-    "first_seen_date": "2026-03-25",
-    "categories": [
-      "Public Co.",
-      "M&A"
-    ]
-  },
-  {
-    "date": "2026-03-23",
-    "headline": "Waste Hauling Insurance: Why Recycling & Garbage Companies Are Getting Hit at Renewal",
-    "source": "Deerfield Risk Advisors",
-    "source_url": "https://deerfieldrisk.com/blog/insurance-for-waste-recycle-haulers-protecting-your-business-and-operations/",
-    "category": "Labor/Ops",
-    "summary": "Waste and recycling haulers face increased exposure and liability challenges securing adequate insurance coverage. The sector is experiencing difficult renewal conditions as companies navigate complex risk profiles across diverse operations.",
-    "relevance_score": 3,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-03-23",
-    "categories": [
-      "Labor/Ops"
     ]
   },
   {
