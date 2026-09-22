@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-09-22",
+    "target": "Ninety Nine Restaurants",
+    "acquirer": "Unknown",
+    "sponsor": "",
+    "location": "",
+    "deal_type": "Add-On",
+    "deal_size": "Undisclosed",
+    "multiple": "N/A",
+    "services": "",
+    "source": "Nation's Restaurant News",
+    "source_url": "https://www.nrn.com/casual-dining/ninety-nine-restaurants-could-soon-be-under-new-ownership",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "Unknown",
+    "deal_summary": null,
+    "date_confidence": "verified",
+    "notes": "Ninety Nine Restaurants is exploring new ownership opportunities. The potential transaction could affect operational continuity of waste service contracts for the chain's locations.",
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
+  },
+  {
     "date": "2026-09-18",
     "target": "GFL Environmental Inc.",
     "acquirer": "Multiple consortia: (1) KKR & Co., Energy Capital Partners, Blackstone Inc.; (2) Brookfield Asset Management, IFM Investors",
