@@ -1,97 +1,40 @@
 {
-  "timestamp": "2026-09-22T16:41:29Z",
-  "added_news_count": 5,
-  "added_deals_count": 1,
-  "archived_count": 1,
+  "timestamp": "2026-09-23T16:34:25Z",
+  "added_news_count": 4,
+  "added_deals_count": 0,
+  "archived_count": 7,
   "new_today_news": [
     {
-      "date": "2026-09-22",
-      "headline": "Ninety Nine Restaurants could soon be under new ownership",
-      "source": "Nation's Restaurant News",
-      "source_url": "https://www.nrn.com/casual-dining/ninety-nine-restaurants-could-soon-be-under-new-ownership",
-      "category": "Restaurant",
+      "date": "2026-09-23",
+      "headline": "Septic Truck DOT Inspection Requirements Explained",
+      "source": "KeeVac",
+      "source_url": "https://keevac.com/2026/03/septic-truck-dot-inspection-requirements-explained/",
+      "category": "Labor/Ops",
       "categories": [
-        "Restaurant"
+        "Labor/Ops"
       ],
-      "summary": "Ninety Nine Restaurants is exploring new ownership opportunities. The potential transaction could affect operational continuity of waste service contracts for the chain's locations.",
-      "relevance_score": 2,
-      "is_deal": true,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-09-22"
-    },
-    {
-      "date": "2026-09-22",
-      "headline": "Electric Waste Collection Trucks Market Forecast Report 2026-2030",
-      "source": "The Business Research Company",
-      "source_url": "https://www.thebusinessresearchcompany.com/report/electric-waste-collection-trucks-global-market-report",
-      "category": "Technology",
-      "categories": [
-        "Technology"
-      ],
-      "summary": "Electric waste collection trucks market reached $0.3 billion in 2026 and is expected to grow to $0.63 billion by 2030 at a 20.3% CAGR. Major players include Ford, Hyundai, and Tesla, with government electrification mandates and declining battery costs driving growth.",
-      "relevance_score": 2,
+      "summary": "Article covers DOT inspection requirements for septic trucks, including annual inspections and daily pre-trip/post-trip compliance requirements under FMCSA regulations for commercial motor vehicles.",
+      "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-09-22"
-    },
-    {
-      "date": "2026-09-21",
-      "headline": "Yardbird files for Chapter 11 bankruptcy",
-      "source": "Nation's Restaurant News",
-      "source_url": "https://www.nrn.com/casual-dining/yardbird-files-chapter-11-bankruptcy",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "Casual dining chain Yardbird filed for Chapter 11 bankruptcy. The filing impacts restaurant operations and could have downstream effects on waste disposal service contracts and grease trap maintenance obligations.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-09-22"
-    },
-    {
-      "date": "2026-09-21",
-      "headline": "Vaulted Deep Secures $35 Million in Debt Financing to Expand Nationwide",
-      "source": "Waste360",
-      "source_url": "https://www.waste360.com/waste-management-business/vaulted-deep-secures-35-million-debt-financing",
-      "category": "Industry Events",
-      "categories": [
-        "Industry Events"
-      ],
-      "summary": "Vaulted Deep announced $35 million in debt financing to support nationwide expansion of its waste and environmental services operations.",
-      "relevance_score": 2,
-      "is_deal": true,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-09-22"
+      "first_seen_date": "2026-09-23"
     }
   ],
   "recent_news": [
     {
-      "date": "2026-09-16",
-      "headline": "Ray's Detroit opens fourth location in downtown Detroit",
+      "date": "2026-09-20",
+      "headline": "Vecino Expands Second Location to Cleveland",
       "source": "Hour Detroit",
       "source_url": "https://www.hourdetroit.com/food-cuisine/metro-detroit-dining-news-september-2026/",
       "category": "Restaurant",
       "categories": [
         "Restaurant"
       ],
-      "summary": "Ray's Detroit, a bar owned in part by actors Justin Theroux and Nicholas Braun, opened its fourth location on September 1 in downtown Detroit. New restaurant openings drive demand for grease trap installation and FOG collection services.",
+      "summary": "Award-winning Mexico City-inspired upscale eatery Vecino expands from Detroit to Cleveland with opening planned for November 2026.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -99,121 +42,80 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-09-22"
+      "first_seen_date": "2026-09-23"
     }
   ],
-  "backfill_news": [],
-  "new_deals": [
+  "backfill_news": [
     {
-      "date": "2026-09-22",
-      "target": "Ninety Nine Restaurants",
-      "acquirer": "Unknown",
-      "sponsor": "",
-      "location": "",
-      "deal_type": "Add-On",
-      "deal_size": "Undisclosed",
-      "multiple": "N/A",
-      "services": "",
-      "source": "Nation's Restaurant News",
-      "source_url": "https://www.nrn.com/casual-dining/ninety-nine-restaurants-could-soon-be-under-new-ownership",
+      "date": "2026-09-15",
+      "headline": "Carl's Jr. Franchisee Struggles Drive Strategy Shift",
+      "source": "American Recruiters",
+      "source_url": "https://americanrecruiters.com/blog/global-foodservice-news-sept-15-2026/",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Carl's Jr. franchised store count declined from 1,020 in 2024 to 942 by end of fiscal 2026 as franchisees struggle with profitability.",
+      "relevance_score": 2,
+      "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
-      "owner_classification": "Unknown",
-      "deal_summary": null,
-      "date_confidence": "verified",
-      "notes": "Ninety Nine Restaurants is exploring new ownership opportunities. The potential transaction could affect operational continuity of waste service contracts for the chain's locations.",
       "latitude": null,
       "longitude": null,
-      "zoom_hint": null
+      "zoom_hint": null,
+      "first_seen_date": "2026-09-23"
+    },
+    {
+      "date": "2026-09-09",
+      "headline": "Detroit Announced as Host City for First Michelin Guide American Great Lakes Ceremony",
+      "source": "Hour Detroit",
+      "source_url": "https://www.hourdetroit.com/food-cuisine/metro-detroit-dining-news-september-2026/",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Detroit selected to host inaugural Michelin Guide American Great Lakes Ceremony, positioning the city as culinary destination.",
+      "relevance_score": 1,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-09-23"
     }
   ],
+  "new_deals": [],
   "new_news": [
     {
-      "date": "2026-09-22",
-      "headline": "Ninety Nine Restaurants could soon be under new ownership",
-      "source": "Nation's Restaurant News",
-      "source_url": "https://www.nrn.com/casual-dining/ninety-nine-restaurants-could-soon-be-under-new-ownership",
-      "category": "Restaurant",
+      "date": "2026-09-23",
+      "headline": "Septic Truck DOT Inspection Requirements Explained",
+      "source": "KeeVac",
+      "source_url": "https://keevac.com/2026/03/septic-truck-dot-inspection-requirements-explained/",
+      "category": "Labor/Ops",
       "categories": [
-        "Restaurant"
+        "Labor/Ops"
       ],
-      "summary": "Ninety Nine Restaurants is exploring new ownership opportunities. The potential transaction could affect operational continuity of waste service contracts for the chain's locations.",
-      "relevance_score": 2,
-      "is_deal": true,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-09-22"
-    },
-    {
-      "date": "2026-09-22",
-      "headline": "Electric Waste Collection Trucks Market Forecast Report 2026-2030",
-      "source": "The Business Research Company",
-      "source_url": "https://www.thebusinessresearchcompany.com/report/electric-waste-collection-trucks-global-market-report",
-      "category": "Technology",
-      "categories": [
-        "Technology"
-      ],
-      "summary": "Electric waste collection trucks market reached $0.3 billion in 2026 and is expected to grow to $0.63 billion by 2030 at a 20.3% CAGR. Major players include Ford, Hyundai, and Tesla, with government electrification mandates and declining battery costs driving growth.",
-      "relevance_score": 2,
+      "summary": "Article covers DOT inspection requirements for septic trucks, including annual inspections and daily pre-trip/post-trip compliance requirements under FMCSA regulations for commercial motor vehicles.",
+      "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-09-22"
+      "first_seen_date": "2026-09-23"
     },
     {
-      "date": "2026-09-21",
-      "headline": "Yardbird files for Chapter 11 bankruptcy",
-      "source": "Nation's Restaurant News",
-      "source_url": "https://www.nrn.com/casual-dining/yardbird-files-chapter-11-bankruptcy",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "Casual dining chain Yardbird filed for Chapter 11 bankruptcy. The filing impacts restaurant operations and could have downstream effects on waste disposal service contracts and grease trap maintenance obligations.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-09-22"
-    },
-    {
-      "date": "2026-09-21",
-      "headline": "Vaulted Deep Secures $35 Million in Debt Financing to Expand Nationwide",
-      "source": "Waste360",
-      "source_url": "https://www.waste360.com/waste-management-business/vaulted-deep-secures-35-million-debt-financing",
-      "category": "Industry Events",
-      "categories": [
-        "Industry Events"
-      ],
-      "summary": "Vaulted Deep announced $35 million in debt financing to support nationwide expansion of its waste and environmental services operations.",
-      "relevance_score": 2,
-      "is_deal": true,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-09-22"
-    },
-    {
-      "date": "2026-09-16",
-      "headline": "Ray's Detroit opens fourth location in downtown Detroit",
+      "date": "2026-09-20",
+      "headline": "Vecino Expands Second Location to Cleveland",
       "source": "Hour Detroit",
       "source_url": "https://www.hourdetroit.com/food-cuisine/metro-detroit-dining-news-september-2026/",
       "category": "Restaurant",
       "categories": [
         "Restaurant"
       ],
-      "summary": "Ray's Detroit, a bar owned in part by actors Justin Theroux and Nicholas Braun, opened its fourth location on September 1 in downtown Detroit. New restaurant openings drive demand for grease trap installation and FOG collection services.",
+      "summary": "Award-winning Mexico City-inspired upscale eatery Vecino expands from Detroit to Cleveland with opening planned for November 2026.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -221,7 +123,45 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-09-22"
+      "first_seen_date": "2026-09-23"
+    },
+    {
+      "date": "2026-09-15",
+      "headline": "Carl's Jr. Franchisee Struggles Drive Strategy Shift",
+      "source": "American Recruiters",
+      "source_url": "https://americanrecruiters.com/blog/global-foodservice-news-sept-15-2026/",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Carl's Jr. franchised store count declined from 1,020 in 2024 to 942 by end of fiscal 2026 as franchisees struggle with profitability.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-09-23"
+    },
+    {
+      "date": "2026-09-09",
+      "headline": "Detroit Announced as Host City for First Michelin Guide American Great Lakes Ceremony",
+      "source": "Hour Detroit",
+      "source_url": "https://www.hourdetroit.com/food-cuisine/metro-detroit-dining-news-september-2026/",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Detroit selected to host inaugural Michelin Guide American Great Lakes Ceremony, positioning the city as culinary destination.",
+      "relevance_score": 1,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-09-23"
     }
   ]
 }
