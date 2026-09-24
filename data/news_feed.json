@@ -19,6 +19,46 @@
     "first_seen_date": "2026-09-23"
   },
   {
+    "date": "2026-09-23",
+    "headline": "Greasezilla Opens Ashland FOG Processing Hub",
+    "source": "TPO Magazine",
+    "source_url": "https://www.tpomag.com/online_exclusives/2026/09/greasezilla-builds-national-fog-infrastructure-network-to-take-processing-burden-off-municipalities",
+    "category": "Infrastructure",
+    "categories": [
+      "Infrastructure",
+      "Renewable Fuels",
+      "Technology"
+    ],
+    "summary": "Downey Ridge Environmental Company (Greasezilla) has announced the operational opening of its second regional processing hub in Ashland, Virginia, advancing an additional 30-site national infrastructure expansion. The regional hub advances a national rollout with a potential infrastructure value exceeding $150 million. The system processes grease-trap waste without chemicals, separating out Brown Grease that can be used as a feedstock for renewable fuels and directing other recovered materials to anaerobic digestion and composting.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-24"
+  },
+  {
+    "date": "2026-09-23",
+    "headline": "Food Waste Prevention Week 2026: How Foodservice Can Lead the Way",
+    "source": "Metafoodx",
+    "source_url": "https://www.metafoodx.com/post/food-waste-prevention-week-2026-how-foodservice-can-lead-the-way",
+    "category": "ESG",
+    "categories": [
+      "ESG"
+    ],
+    "summary": "Food Waste Prevention Week runs September 28\u2013October 4, 2026. The article discusses how foodservice operations can reduce overproduction and waste below 10%, with customers seeing 5\u201311x ROI, and built-in sustainability reporting to support ESG goals.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-24"
+  },
+  {
     "date": "2026-09-22",
     "headline": "Ninety Nine Restaurants could soon be under new ownership",
     "source": "Nation's Restaurant News",
@@ -75,6 +115,25 @@
     "zoom_hint": null,
     "first_seen_date": "2026-09-22",
     "_synthesized_from_deal": true
+  },
+  {
+    "date": "2026-09-22",
+    "headline": "U.S. Economic Outlook September 2026 - U.S. Economy Poised to Remain Resilient Despite Consumer Pressures",
+    "source": "National Restaurant Association",
+    "source_url": "https://www.restaurantnewsresource.com/us-economic-outlook-september-2026-us-economy-poised-to-remain-resilient-despite-consumer-pressures",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "summary": "September 2026 economic outlook projects continued resilience with nonfarm payroll employment increasing by 162,000 in August, though real disposable personal income projected to increase just 0.5% in 2026.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-24"
   },
   {
     "date": "2026-09-21",
@@ -251,6 +310,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-09-22"
+  },
+  {
+    "date": "2026-09-16",
+    "headline": "Restaurant Sales Maintained Positive Trajectory in August",
+    "source": "National Restaurant Association",
+    "source_url": "https://restaurant.org/research-and-media/research/restaurant-economic-insights/economic-indicators/total-restaurant-industry-sales/",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "summary": "Restaurant sales registered $105.1 billion on a seasonally adjusted basis in August, up 1.2% from July, marking the fifth consecutive month of growth.",
+    "relevance_score": 1,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-24"
   },
   {
     "date": "2026-09-15",
@@ -8069,25 +8147,6 @@
     "categories": [
       "Infrastructure",
       "Regulatory"
-    ]
-  },
-  {
-    "date": "2026-03-28",
-    "headline": "Wind River Environmental Acquires East Coast Resources",
-    "source": "Wind River Environmental",
-    "source_url": "https://www.wrenvironmental.com/blog/2025/march/wind-river-environmental-acquires-east-coast-res/",
-    "category": "M&A",
-    "summary": "Wind River Environmental acquired East Coast Resources, a Fuquay Varina-based company specializing in grease trap pumping. The deal expands Wind River's footprint in North Carolina and continues its consolidation strategy.",
-    "relevance_score": 5,
-    "is_deal": true,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": 35.63,
-    "longitude": -79.806,
-    "zoom_hint": "wide",
-    "first_seen_date": "2026-03-28",
-    "categories": [
-      "M&A"
     ]
   },
   {
