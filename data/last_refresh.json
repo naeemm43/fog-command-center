@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-09-24T16:56:40Z",
-  "added_news_count": 4,
+  "timestamp": "2026-09-25T16:58:13Z",
+  "added_news_count": 1,
   "added_deals_count": 0,
   "archived_count": 1,
-  "new_today_news": [
+  "new_today_news": [],
+  "recent_news": [],
+  "backfill_news": [
     {
-      "date": "2026-09-23",
-      "headline": "Greasezilla Opens Ashland FOG Processing Hub",
-      "source": "TPO Magazine",
-      "source_url": "https://www.tpomag.com/online_exclusives/2026/09/greasezilla-builds-national-fog-infrastructure-network-to-take-processing-burden-off-municipalities",
-      "category": "Infrastructure",
+      "date": "2026-09-17",
+      "headline": "EU Sustainable Aviation Fuel Supply Exceeds 2025 ReFuelEU Aviation Target",
+      "source": "EASA",
+      "source_url": "https://www.easa.europa.eu/en/newsroom-and-events/press-releases/eu-sustainable-aviation-fuel-supply-exceeds-2025-refueleu-aviation-target",
+      "category": "Renewable Fuels",
       "categories": [
-        "Infrastructure",
-        "Renewable Fuels",
-        "Technology"
+        "Renewable Fuels"
       ],
-      "summary": "Downey Ridge Environmental Company (Greasezilla) has announced the operational opening of its second regional processing hub in Ashland, Virginia, advancing an additional 30-site national infrastructure expansion. The regional hub advances a national rollout with a potential infrastructure value exceeding $150 million. The system processes grease-trap waste without chemicals, separating out Brown Grease that can be used as a feedstock for renewable fuels and directing other recovered materials to anaerobic digestion and composting.",
+      "summary": "The European Union reported that SAF supply exceeded the mandatory 2% target in 2025, reaching 2.8% (1.1 million tonnes). Used cooking oil remained the predominant feedstock at 80% of total SAF volume.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -23,84 +23,21 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-09-24"
-    },
-    {
-      "date": "2026-09-23",
-      "headline": "Food Waste Prevention Week 2026: How Foodservice Can Lead the Way",
-      "source": "Metafoodx",
-      "source_url": "https://www.metafoodx.com/post/food-waste-prevention-week-2026-how-foodservice-can-lead-the-way",
-      "category": "ESG",
-      "categories": [
-        "ESG"
-      ],
-      "summary": "Food Waste Prevention Week runs September 28\u2013October 4, 2026. The article discusses how foodservice operations can reduce overproduction and waste below 10%, with customers seeing 5\u201311x ROI, and built-in sustainability reporting to support ESG goals.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-09-24"
-    }
-  ],
-  "recent_news": [
-    {
-      "date": "2026-09-22",
-      "headline": "U.S. Economic Outlook September 2026 - U.S. Economy Poised to Remain Resilient Despite Consumer Pressures",
-      "source": "National Restaurant Association",
-      "source_url": "https://www.restaurantnewsresource.com/us-economic-outlook-september-2026-us-economy-poised-to-remain-resilient-despite-consumer-pressures",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "September 2026 economic outlook projects continued resilience with nonfarm payroll employment increasing by 162,000 in August, though real disposable personal income projected to increase just 0.5% in 2026.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-09-24"
-    }
-  ],
-  "backfill_news": [
-    {
-      "date": "2026-09-16",
-      "headline": "Restaurant Sales Maintained Positive Trajectory in August",
-      "source": "National Restaurant Association",
-      "source_url": "https://restaurant.org/research-and-media/research/restaurant-economic-insights/economic-indicators/total-restaurant-industry-sales/",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "Restaurant sales registered $105.1 billion on a seasonally adjusted basis in August, up 1.2% from July, marking the fifth consecutive month of growth.",
-      "relevance_score": 1,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-09-24"
+      "first_seen_date": "2026-09-25"
     }
   ],
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-09-23",
-      "headline": "Greasezilla Opens Ashland FOG Processing Hub",
-      "source": "TPO Magazine",
-      "source_url": "https://www.tpomag.com/online_exclusives/2026/09/greasezilla-builds-national-fog-infrastructure-network-to-take-processing-burden-off-municipalities",
-      "category": "Infrastructure",
+      "date": "2026-09-17",
+      "headline": "EU Sustainable Aviation Fuel Supply Exceeds 2025 ReFuelEU Aviation Target",
+      "source": "EASA",
+      "source_url": "https://www.easa.europa.eu/en/newsroom-and-events/press-releases/eu-sustainable-aviation-fuel-supply-exceeds-2025-refueleu-aviation-target",
+      "category": "Renewable Fuels",
       "categories": [
-        "Infrastructure",
-        "Renewable Fuels",
-        "Technology"
+        "Renewable Fuels"
       ],
-      "summary": "Downey Ridge Environmental Company (Greasezilla) has announced the operational opening of its second regional processing hub in Ashland, Virginia, advancing an additional 30-site national infrastructure expansion. The regional hub advances a national rollout with a potential infrastructure value exceeding $150 million. The system processes grease-trap waste without chemicals, separating out Brown Grease that can be used as a feedstock for renewable fuels and directing other recovered materials to anaerobic digestion and composting.",
+      "summary": "The European Union reported that SAF supply exceeded the mandatory 2% target in 2025, reaching 2.8% (1.1 million tonnes). Used cooking oil remained the predominant feedstock at 80% of total SAF volume.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -108,64 +45,7 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-09-24"
-    },
-    {
-      "date": "2026-09-23",
-      "headline": "Food Waste Prevention Week 2026: How Foodservice Can Lead the Way",
-      "source": "Metafoodx",
-      "source_url": "https://www.metafoodx.com/post/food-waste-prevention-week-2026-how-foodservice-can-lead-the-way",
-      "category": "ESG",
-      "categories": [
-        "ESG"
-      ],
-      "summary": "Food Waste Prevention Week runs September 28\u2013October 4, 2026. The article discusses how foodservice operations can reduce overproduction and waste below 10%, with customers seeing 5\u201311x ROI, and built-in sustainability reporting to support ESG goals.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-09-24"
-    },
-    {
-      "date": "2026-09-22",
-      "headline": "U.S. Economic Outlook September 2026 - U.S. Economy Poised to Remain Resilient Despite Consumer Pressures",
-      "source": "National Restaurant Association",
-      "source_url": "https://www.restaurantnewsresource.com/us-economic-outlook-september-2026-us-economy-poised-to-remain-resilient-despite-consumer-pressures",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "September 2026 economic outlook projects continued resilience with nonfarm payroll employment increasing by 162,000 in August, though real disposable personal income projected to increase just 0.5% in 2026.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-09-24"
-    },
-    {
-      "date": "2026-09-16",
-      "headline": "Restaurant Sales Maintained Positive Trajectory in August",
-      "source": "National Restaurant Association",
-      "source_url": "https://restaurant.org/research-and-media/research/restaurant-economic-insights/economic-indicators/total-restaurant-industry-sales/",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "Restaurant sales registered $105.1 billion on a seasonally adjusted basis in August, up 1.2% from July, marking the fifth consecutive month of growth.",
-      "relevance_score": 1,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-09-24"
+      "first_seen_date": "2026-09-25"
     }
   ]
 }

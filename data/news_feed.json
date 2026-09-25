@@ -252,6 +252,25 @@
     "first_seen_date": "2026-09-18"
   },
   {
+    "date": "2026-09-17",
+    "headline": "EU Sustainable Aviation Fuel Supply Exceeds 2025 ReFuelEU Aviation Target",
+    "source": "EASA",
+    "source_url": "https://www.easa.europa.eu/en/newsroom-and-events/press-releases/eu-sustainable-aviation-fuel-supply-exceeds-2025-refueleu-aviation-target",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels"
+    ],
+    "summary": "The European Union reported that SAF supply exceeded the mandatory 2% target in 2025, reaching 2.8% (1.1 million tonnes). Used cooking oil remained the predominant feedstock at 80% of total SAF volume.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-25"
+  },
+  {
     "date": "2026-09-16",
     "headline": "Korea to Test Turning Fryer Scraps Into Jet Fuel Feedstock",
     "source": "Seoul Economic Daily",
@@ -8127,26 +8146,6 @@
     "first_seen_date": "2026-03-30",
     "categories": [
       "ESG"
-    ]
-  },
-  {
-    "date": "2026-03-29",
-    "headline": "Water Infrastructure Grants in 2026: CWSRF, IIJA Programs, and USDA Funding for Clean Water Projects",
-    "source": "Funding Landscape",
-    "source_url": "https://fundinglandscape.com/answers/water-infrastructure-grants-funding-2026",
-    "category": "Infrastructure",
-    "summary": "Federal water infrastructure funding in 2026 totals billions through EPA's Clean Water and Drinking Water State Revolving Funds, with IIJA authorization running through FY2026. States are actively seeking projects to obligate remaining funds before the authorization window closes.",
-    "relevance_score": 2,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-03-29",
-    "categories": [
-      "Infrastructure",
-      "Regulatory"
     ]
   },
   {
