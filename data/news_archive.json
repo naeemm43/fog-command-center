@@ -1,5 +1,64 @@
 [
   {
+    "date": "2026-04-02",
+    "headline": "Goldman Sachs-backed LES Acquires New Orleans Grease Trap Cleaning",
+    "source": "PE Hub",
+    "source_url": "https://pehub.com",
+    "category": "M&A",
+    "summary": "LES continues add-on acquisition strategy under Goldman Sachs ownership, adding a New Orleans-based grease trap cleaning operation to its network.",
+    "is_target_market": false,
+    "target_market_name": null,
+    "relevance_score": 5,
+    "is_deal": true,
+    "latitude": 29.951,
+    "longitude": -90.072,
+    "zoom_hint": "narrow",
+    "first_seen_date": "2026-04-02",
+    "categories": [
+      "M&A",
+      "Public Co."
+    ]
+  },
+  {
+    "date": "2026-04-02",
+    "headline": "CARB posts new Frequently Asked Questions for 2025 LCFS amendments",
+    "source": "California Air Resources Board",
+    "source_url": "https://ww2.arb.ca.gov/our-work/programs/low-carbon-fuel-standard",
+    "category": "Renewable Fuels",
+    "summary": "CARB released new FAQs clarifying implementation of 2025 LCFS amendments, which include a 20% cap on virgin soybean and canola oil usage, directing producers toward waste-based UCO and grease feedstocks for biodiesel and renewable diesel production.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-04-02",
+    "categories": [
+      "Renewable Fuels"
+    ]
+  },
+  {
+    "date": "2026-04-02",
+    "headline": "Liquid Environmental Solutions Makes New Orleans Acquisition",
+    "source": "Waste Today Magazine",
+    "source_url": "https://www.wastetodaymagazine.com/news/liquid-environmental-solutions-new-orleans-acquisition/",
+    "category": "M&A",
+    "summary": "LES acquired New Orleans Grease Trap Cleaning (NOL), a grease trap and used cooking oil cleaning services provider based in New Orleans. The acquisition expands LES' network of nonhazardous wastewater collection facilities. LES has executed a series of strategic acquisitions including Grease Masters in December 2025.",
+    "relevance_score": 5,
+    "is_deal": true,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": 29.951,
+    "longitude": -90.072,
+    "zoom_hint": "narrow",
+    "first_seen_date": "2026-04-02",
+    "categories": [
+      "M&A",
+      "Renewable Fuels"
+    ]
+  },
+  {
     "date": "2026-04-01",
     "headline": "DeKalb County FOG Program Reduces SSO Causation from 57% to 52% via Enhanced Inspections",
     "source": "SwiftComply / FOG Inspector Best Practices",

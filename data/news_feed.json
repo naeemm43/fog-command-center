@@ -1,5 +1,101 @@
 [
   {
+    "date": "2026-09-29",
+    "headline": "The Great Restaurant Closure Wave of 2026: Who Is Shutting Doors and Why",
+    "source": "QSR Pro",
+    "source_url": "https://qsr.pro/articles/restaurant-chain-closures-2026-wendys-papa-johns-pizza-hut-jack-in-the-box",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "summary": "Major chains including Wendy's (140 closures), Papa John's (200), Pizza Hut (250), Jack in the Box (50-100), and Noodles & Company (30-35) are closing significant numbers of underperforming locations. Persistent inflation, rising labor costs, and changing consumer preferences are driving the wave of consolidation.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-29"
+  },
+  {
+    "date": "2026-09-29",
+    "headline": "Schneider Electric Showcases Technologies Advancing Water Resilience at WEFTEC 2026",
+    "source": "Yahoo Finance Canada",
+    "source_url": "https://ca.finance.yahoo.com/news/schneider-electric-showcases-technologies-advancing-124500336.html",
+    "category": "Industry Events",
+    "categories": [
+      "Industry Events"
+    ],
+    "summary": "Schneider Electric will showcase automation and digital technologies at WEFTEC 2026 during its September 26-30 conference in New Orleans, highlighting water resilience solutions for the wastewater industry.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-29"
+  },
+  {
+    "date": "2026-09-28",
+    "headline": "New ABC Report Finds More Opportunities to Put Wastewater Plants to Work",
+    "source": "Waste360",
+    "source_url": "https://www.waste360.com/wastewater/new-abc-report-finds-more-opportunities-to-put-wastewater-plants-to-work",
+    "category": "Industry Events",
+    "categories": [
+      "Industry Events",
+      "Technology"
+    ],
+    "summary": "American Biogas Council released its first comprehensive assessment of anaerobic digestion at U.S. wastewater facilities in over a decade. The report highlights opportunities for co-digestion of organic materials including food waste and fats, oils, and grease (FOG) at 139 wastewater facilities nationwide.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-29"
+  },
+  {
+    "date": "2026-09-28",
+    "headline": "WEFTEC 2026 Opens in New Orleans, Showcasing Innovation, Partnerships, and Collaboration to Solve the World's Toughest Water Challenges",
+    "source": "Water Environment Federation",
+    "source_url": "https://www.wef.org/events--education/conferences/weftec-2026/",
+    "category": "Industry Events",
+    "categories": [
+      "Industry Events"
+    ],
+    "summary": "WEFTEC 2026, the Water Environment Federation's premier annual technical exhibition and conference, opens September 26-30 in New Orleans. The event brings together 23,000+ water quality professionals from 100+ countries for technical sessions, workshops, and exhibitions on wastewater treatment and water environment innovation.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-29"
+  },
+  {
+    "date": "2026-09-26",
+    "headline": "Survey: How US restaurants are handling inflation, labor, AI, and revenue growth",
+    "source": "ABC17NEWS/Toast",
+    "source_url": "https://abc17news.com/stacker-business-economy/2026/09/26/survey-how-us-restaurants-are-handling-inflation-labor-ai-and-revenue-growth/",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "summary": "The 2026 Voice of the Restaurant Industry Survey shows 91% of operators rate their business as good or excellent. Inflation (27%) and hiring (22%) remain top challenges, while 87% of operators now feel comfortable using AI in their operations.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-29"
+  },
+  {
     "date": "2026-09-23",
     "headline": "Septic Truck DOT Inspection Requirements Explained",
     "source": "KeeVac",
@@ -57,6 +153,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-09-24"
+  },
+  {
+    "date": "2026-09-23",
+    "headline": "Greasezilla Builds National FOG Infrastructure Network to Take Processing Burden Off Municipalities",
+    "source": "PRNewswire",
+    "source_url": "https://www.prnewswire.com/news-releases/greasezilla-builds-national-fog-infrastructure-network-to-take-processing-burden-off-municipalities-302887057.html",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co."
+    ],
+    "summary": "Downey Ridge Environmental Company (Greasezilla) announced the operational opening of its second FOG processing hub in Ashland, Virginia, advancing a 30-site national expansion with potential infrastructure value exceeding $150 million. The system processes grease-trap waste without chemicals, recovering materials for renewable fuels and other applications.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-29"
   },
   {
     "date": "2026-09-22",
@@ -7952,65 +8067,6 @@
     "zoom_hint": null,
     "first_seen_date": "2026-04-03",
     "categories": [
-      "Renewable Fuels"
-    ]
-  },
-  {
-    "date": "2026-04-02",
-    "headline": "Goldman Sachs-backed LES Acquires New Orleans Grease Trap Cleaning",
-    "source": "PE Hub",
-    "source_url": "https://pehub.com",
-    "category": "M&A",
-    "summary": "LES continues add-on acquisition strategy under Goldman Sachs ownership, adding a New Orleans-based grease trap cleaning operation to its network.",
-    "is_target_market": false,
-    "target_market_name": null,
-    "relevance_score": 5,
-    "is_deal": true,
-    "latitude": 29.951,
-    "longitude": -90.072,
-    "zoom_hint": "narrow",
-    "first_seen_date": "2026-04-02",
-    "categories": [
-      "M&A",
-      "Public Co."
-    ]
-  },
-  {
-    "date": "2026-04-02",
-    "headline": "CARB posts new Frequently Asked Questions for 2025 LCFS amendments",
-    "source": "California Air Resources Board",
-    "source_url": "https://ww2.arb.ca.gov/our-work/programs/low-carbon-fuel-standard",
-    "category": "Renewable Fuels",
-    "summary": "CARB released new FAQs clarifying implementation of 2025 LCFS amendments, which include a 20% cap on virgin soybean and canola oil usage, directing producers toward waste-based UCO and grease feedstocks for biodiesel and renewable diesel production.",
-    "relevance_score": 4,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-04-02",
-    "categories": [
-      "Renewable Fuels"
-    ]
-  },
-  {
-    "date": "2026-04-02",
-    "headline": "Liquid Environmental Solutions Makes New Orleans Acquisition",
-    "source": "Waste Today Magazine",
-    "source_url": "https://www.wastetodaymagazine.com/news/liquid-environmental-solutions-new-orleans-acquisition/",
-    "category": "M&A",
-    "summary": "LES acquired New Orleans Grease Trap Cleaning (NOL), a grease trap and used cooking oil cleaning services provider based in New Orleans. The acquisition expands LES' network of nonhazardous wastewater collection facilities. LES has executed a series of strategic acquisitions including Grease Masters in December 2025.",
-    "relevance_score": 5,
-    "is_deal": true,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": 29.951,
-    "longitude": -90.072,
-    "zoom_hint": "narrow",
-    "first_seen_date": "2026-04-02",
-    "categories": [
-      "M&A",
       "Renewable Fuels"
     ]
   },
