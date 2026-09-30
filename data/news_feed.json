@@ -1,5 +1,62 @@
 [
   {
+    "date": "2026-09-30",
+    "headline": "New SAF technology could reduce reliance on vegetable oils",
+    "source": "UkrAgroConsult",
+    "source_url": "https://ukragroconsult.com/en/news/new-saf-technology-could-reduce-reliance-on-vegetable-oils/",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels"
+    ],
+    "summary": "US-based Aether Fuels has demonstrated production of sustainable aviation fuel from renewable natural gas and industrial CO\u2082, meeting ASTM D7566 specifications. The technology uses biomethane including landfill-derived gas with captured carbon dioxide, enabling SAF production without relying on vegetable oils, used cooking oil or animal fats.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-30"
+  },
+  {
+    "date": "2026-09-30",
+    "headline": "Darling Ingredients Upgraded to Strong-Buy at Jefferies Financial Group",
+    "source": "MarketBeat/Zacks",
+    "source_url": "https://www.marketbeat.com/instant-alerts/analyst-darling-ingredients-nyse-dar-upgraded-to-strong-buy-at-jefferies-financial-group-2026-09-30/",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co."
+    ],
+    "summary": "Jefferies Financial Group upgraded Darling Ingredients to strong-buy rating. The stock carries a consensus Moderate Buy rating with average price target of $69.91.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-30"
+  },
+  {
+    "date": "2026-09-30",
+    "headline": "SustainabilityOnline: The Sustainability Brief \u2013 30 September 2026",
+    "source": "SustainabilityOnline",
+    "source_url": "https://sustainabilityonline.net/news/sustainabilityonline-the-sustainability-brief-30-september-2026/",
+    "category": "ESG",
+    "categories": [
+      "ESG"
+    ],
+    "summary": "Sodexo and the UK Government partnership prevented over one million meals from waste over five years through food donation programs across government and energy sites. The initiative redirects surplus food rather than disposing of it, forming part of Sodexo's wider work to reduce food waste.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-30"
+  },
+  {
     "date": "2026-09-29",
     "headline": "The Great Restaurant Closure Wave of 2026: Who Is Shutting Doors and Why",
     "source": "QSR Pro",
@@ -36,6 +93,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-09-29"
+  },
+  {
+    "date": "2026-09-29",
+    "headline": "Alternative fuel solutions for decarbonizing aviation",
+    "source": "IATA Airlines",
+    "source_url": "https://airlines.iata.org/2026/09/29/alternative-fuel-solutions-decarbonizing-aviation",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels"
+    ],
+    "summary": "IATA reports only 2.4 million tonnes of SAF expected in 2026, representing 0.8% of aviation fuel demand. The article highlights SAF's slow progress and discusses transitional alternatives including co-processing and low-carbon aviation fuel.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-30"
   },
   {
     "date": "2026-09-28",
@@ -75,6 +151,84 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-09-29"
+  },
+  {
+    "date": "2026-09-28",
+    "headline": "UBS Reiterates Buy Rating on Darling Ingredients with $88 Price Target",
+    "source": "Investing.com",
+    "source_url": "https://www.investing.com/news/analyst-ratings/ubs-reiterates-darling-ingredients-stock-buy-rating-at-88-93CH-4920720",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co."
+    ],
+    "summary": "UBS reiterated Buy rating on Darling Ingredients with $88.00 price target. Stock has gained 91% over past year and 70% year-to-date, currently trading at $61.13.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-30"
+  },
+  {
+    "date": "2026-09-28",
+    "headline": "Grease Trap Overflows in Los Angeles Restaurants: Causes, Warning Signs, Risks and Prevention",
+    "source": "EIN Presswire",
+    "source_url": "https://www.einpresswire.com/article/945260128/grease-trap-overflows-in-los-angeles-restaurants-causes-warning-signs-risks-and-prevention-tips-for-food-businesses",
+    "category": "Labor/Ops",
+    "categories": [
+      "Labor/Ops",
+      "Regulatory"
+    ],
+    "summary": "Los Angeles restaurants face operational challenges managing grease trap maintenance under LA Municipal Code Section 64.30 FOG Control Program. Licensed commercial grease trap pumping experts are essential for compliance, with regular service needed to prevent overflows and sewer blockages.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-30"
+  },
+  {
+    "date": "2026-09-28",
+    "headline": "Los Angeles Restaurants Face Growing Grease Trap & Interceptor Maintenance Challenges",
+    "source": "EIN Presswire",
+    "source_url": "https://einpresswire.com/article/945259266/los-angeles-restaurants-face-growing-grease-trap-interceptor-maintenance-challenges-across-local-communities",
+    "category": "Labor/Ops",
+    "categories": [
+      "Labor/Ops",
+      "Regulatory"
+    ],
+    "summary": "LA County Public Works operates an Industrial Waste FOG Program requiring pretreatment systems to prevent sewer blockages. Licensed commercial pumping experts identify excessive buildup, damaged components, and difficult access issues that require professional grease trap servicing.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-30"
+  },
+  {
+    "date": "2026-09-27",
+    "headline": "FOG (Fat, Oil & Grease) Removal Equipment Market to Grow at 5.1% CAGR Through 2033",
+    "source": "OpenPR / Persistence Market Research",
+    "source_url": "https://openpr.com/news/4641938/fog-fat-oil-grease-removal-equipment-market-to-grow-at-5-1",
+    "category": "Labor/Ops",
+    "categories": [
+      "Labor/Ops"
+    ],
+    "summary": "Industry analysis shows FOG removal equipment market growth driven by expansion in foodservice, municipal wastewater infrastructure investment, and stringent environmental standards. Commercial establishments are adopting dedicated grease-management equipment, with adoption expected to increase across emerging economies.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-30"
   },
   {
     "date": "2026-09-26",
@@ -366,6 +520,26 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-09-28"
+  },
+  {
+    "date": "2026-09-18",
+    "headline": "EPA Updates Wasted Food Scale and Excess Food Opportunities Map",
+    "source": "EPA Sustainable Management of Food",
+    "source_url": "https://www.epa.gov/sustainable-management-food",
+    "category": "ESG",
+    "categories": [
+      "ESG",
+      "Regulatory"
+    ],
+    "summary": "EPA posted new version (3.1) of the Excess Food Opportunities Map showing over 960,000 potential excess food generators and nearly 15,000 potential recipients in industrial, commercial, and institutional sectors. Updated recommendations emphasize preventing food waste as the best option.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-09-30"
   },
   {
     "date": "2026-09-17",
@@ -8049,25 +8223,6 @@
     "categories": [
       "ESG",
       "Public Co."
-    ]
-  },
-  {
-    "date": "2026-04-03",
-    "headline": "2026 Requirements for Renewable Fuel Producers in State Clean Fuel Programs",
-    "source": "Christianson PLLP",
-    "source_url": "https://www.christiansoncpa.com/2026-requirements-for-renewable-fuel-producers-in-state-clean-fuel-programs/",
-    "category": "Renewable Fuels",
-    "summary": "California, Oregon, and Washington now require supply-chain attestations for used cooking oil, animal fats, and corn oil feedstocks starting 2026. New Mexico's Clean Fuel Standard begins April 1, 2026. Compliance focuses on feedstock documentation, land-use records, and transparency for UCO and waste grease sources.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-04-03",
-    "categories": [
-      "Renewable Fuels"
     ]
   },
   {

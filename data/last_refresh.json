@@ -1,58 +1,19 @@
 {
-  "timestamp": "2026-09-29T17:57:41Z",
-  "added_news_count": 6,
+  "timestamp": "2026-09-30T17:53:28Z",
+  "added_news_count": 9,
   "added_deals_count": 0,
-  "archived_count": 3,
+  "archived_count": 1,
   "new_today_news": [
     {
-      "date": "2026-09-29",
-      "headline": "The Great Restaurant Closure Wave of 2026: Who Is Shutting Doors and Why",
-      "source": "QSR Pro",
-      "source_url": "https://qsr.pro/articles/restaurant-chain-closures-2026-wendys-papa-johns-pizza-hut-jack-in-the-box",
-      "category": "Restaurant",
+      "date": "2026-09-30",
+      "headline": "New SAF technology could reduce reliance on vegetable oils",
+      "source": "UkrAgroConsult",
+      "source_url": "https://ukragroconsult.com/en/news/new-saf-technology-could-reduce-reliance-on-vegetable-oils/",
+      "category": "Renewable Fuels",
       "categories": [
-        "Restaurant"
+        "Renewable Fuels"
       ],
-      "summary": "Major chains including Wendy's (140 closures), Papa John's (200), Pizza Hut (250), Jack in the Box (50-100), and Noodles & Company (30-35) are closing significant numbers of underperforming locations. Persistent inflation, rising labor costs, and changing consumer preferences are driving the wave of consolidation.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-09-29"
-    },
-    {
-      "date": "2026-09-29",
-      "headline": "Schneider Electric Showcases Technologies Advancing Water Resilience at WEFTEC 2026",
-      "source": "Yahoo Finance Canada",
-      "source_url": "https://ca.finance.yahoo.com/news/schneider-electric-showcases-technologies-advancing-124500336.html",
-      "category": "Industry Events",
-      "categories": [
-        "Industry Events"
-      ],
-      "summary": "Schneider Electric will showcase automation and digital technologies at WEFTEC 2026 during its September 26-30 conference in New Orleans, highlighting water resilience solutions for the wastewater industry.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-09-29"
-    },
-    {
-      "date": "2026-09-28",
-      "headline": "New ABC Report Finds More Opportunities to Put Wastewater Plants to Work",
-      "source": "Waste360",
-      "source_url": "https://www.waste360.com/wastewater/new-abc-report-finds-more-opportunities-to-put-wastewater-plants-to-work",
-      "category": "Industry Events",
-      "categories": [
-        "Industry Events",
-        "Technology"
-      ],
-      "summary": "American Biogas Council released its first comprehensive assessment of anaerobic digestion at U.S. wastewater facilities in over a decade. The report highlights opportunities for co-digestion of organic materials including food waste and fats, oils, and grease (FOG) at 139 wastewater facilities nationwide.",
+      "summary": "US-based Aether Fuels has demonstrated production of sustainable aviation fuel from renewable natural gas and industrial CO\u2082, meeting ASTM D7566 specifications. The technology uses biomethane including landfill-derived gas with captured carbon dioxide, enabling SAF production without relying on vegetable oils, used cooking oil or animal fats.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -60,58 +21,77 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-09-29"
+      "first_seen_date": "2026-09-30"
     },
     {
-      "date": "2026-09-28",
-      "headline": "WEFTEC 2026 Opens in New Orleans, Showcasing Innovation, Partnerships, and Collaboration to Solve the World's Toughest Water Challenges",
-      "source": "Water Environment Federation",
-      "source_url": "https://www.wef.org/events--education/conferences/weftec-2026/",
-      "category": "Industry Events",
+      "date": "2026-09-30",
+      "headline": "Darling Ingredients Upgraded to Strong-Buy at Jefferies Financial Group",
+      "source": "MarketBeat/Zacks",
+      "source_url": "https://www.marketbeat.com/instant-alerts/analyst-darling-ingredients-nyse-dar-upgraded-to-strong-buy-at-jefferies-financial-group-2026-09-30/",
+      "category": "Public Co.",
       "categories": [
-        "Industry Events"
+        "Public Co."
       ],
-      "summary": "WEFTEC 2026, the Water Environment Federation's premier annual technical exhibition and conference, opens September 26-30 in New Orleans. The event brings together 23,000+ water quality professionals from 100+ countries for technical sessions, workshops, and exhibitions on wastewater treatment and water environment innovation.",
-      "relevance_score": 4,
+      "summary": "Jefferies Financial Group upgraded Darling Ingredients to strong-buy rating. The stock carries a consensus Moderate Buy rating with average price target of $69.91.",
+      "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-09-29"
+      "first_seen_date": "2026-09-30"
+    },
+    {
+      "date": "2026-09-30",
+      "headline": "SustainabilityOnline: The Sustainability Brief \u2013 30 September 2026",
+      "source": "SustainabilityOnline",
+      "source_url": "https://sustainabilityonline.net/news/sustainabilityonline-the-sustainability-brief-30-september-2026/",
+      "category": "ESG",
+      "categories": [
+        "ESG"
+      ],
+      "summary": "Sodexo and the UK Government partnership prevented over one million meals from waste over five years through food donation programs across government and energy sites. The initiative redirects surplus food rather than disposing of it, forming part of Sodexo's wider work to reduce food waste.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-09-30"
+    },
+    {
+      "date": "2026-09-29",
+      "headline": "Alternative fuel solutions for decarbonizing aviation",
+      "source": "IATA Airlines",
+      "source_url": "https://airlines.iata.org/2026/09/29/alternative-fuel-solutions-decarbonizing-aviation",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels"
+      ],
+      "summary": "IATA reports only 2.4 million tonnes of SAF expected in 2026, representing 0.8% of aviation fuel demand. The article highlights SAF's slow progress and discusses transitional alternatives including co-processing and low-carbon aviation fuel.",
+      "relevance_score": 3,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-09-30"
     }
   ],
   "recent_news": [
     {
-      "date": "2026-09-26",
-      "headline": "Survey: How US restaurants are handling inflation, labor, AI, and revenue growth",
-      "source": "ABC17NEWS/Toast",
-      "source_url": "https://abc17news.com/stacker-business-economy/2026/09/26/survey-how-us-restaurants-are-handling-inflation-labor-ai-and-revenue-growth/",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "The 2026 Voice of the Restaurant Industry Survey shows 91% of operators rate their business as good or excellent. Inflation (27%) and hiring (22%) remain top challenges, while 87% of operators now feel comfortable using AI in their operations.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-09-29"
-    },
-    {
-      "date": "2026-09-23",
-      "headline": "Greasezilla Builds National FOG Infrastructure Network to Take Processing Burden Off Municipalities",
-      "source": "PRNewswire",
-      "source_url": "https://www.prnewswire.com/news-releases/greasezilla-builds-national-fog-infrastructure-network-to-take-processing-burden-off-municipalities-302887057.html",
+      "date": "2026-09-28",
+      "headline": "UBS Reiterates Buy Rating on Darling Ingredients with $88 Price Target",
+      "source": "Investing.com",
+      "source_url": "https://www.investing.com/news/analyst-ratings/ubs-reiterates-darling-ingredients-stock-buy-rating-at-88-93CH-4920720",
       "category": "Public Co.",
       "categories": [
         "Public Co."
       ],
-      "summary": "Downey Ridge Environmental Company (Greasezilla) announced the operational opening of its second FOG processing hub in Ashland, Virginia, advancing a 30-site national expansion with potential infrastructure value exceeding $150 million. The system processes grease-trap waste without chemicals, recovering materials for renewable fuels and other applications.",
+      "summary": "UBS reiterated Buy rating on Darling Ingredients with $88.00 price target. Stock has gained 91% over past year and 70% year-to-date, currently trading at $61.13.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -119,61 +99,102 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-09-29"
+      "first_seen_date": "2026-09-30"
+    },
+    {
+      "date": "2026-09-28",
+      "headline": "Grease Trap Overflows in Los Angeles Restaurants: Causes, Warning Signs, Risks and Prevention",
+      "source": "EIN Presswire",
+      "source_url": "https://www.einpresswire.com/article/945260128/grease-trap-overflows-in-los-angeles-restaurants-causes-warning-signs-risks-and-prevention-tips-for-food-businesses",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops",
+        "Regulatory"
+      ],
+      "summary": "Los Angeles restaurants face operational challenges managing grease trap maintenance under LA Municipal Code Section 64.30 FOG Control Program. Licensed commercial grease trap pumping experts are essential for compliance, with regular service needed to prevent overflows and sewer blockages.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-09-30"
+    },
+    {
+      "date": "2026-09-28",
+      "headline": "Los Angeles Restaurants Face Growing Grease Trap & Interceptor Maintenance Challenges",
+      "source": "EIN Presswire",
+      "source_url": "https://einpresswire.com/article/945259266/los-angeles-restaurants-face-growing-grease-trap-interceptor-maintenance-challenges-across-local-communities",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops",
+        "Regulatory"
+      ],
+      "summary": "LA County Public Works operates an Industrial Waste FOG Program requiring pretreatment systems to prevent sewer blockages. Licensed commercial pumping experts identify excessive buildup, damaged components, and difficult access issues that require professional grease trap servicing.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-09-30"
+    },
+    {
+      "date": "2026-09-27",
+      "headline": "FOG (Fat, Oil & Grease) Removal Equipment Market to Grow at 5.1% CAGR Through 2033",
+      "source": "OpenPR / Persistence Market Research",
+      "source_url": "https://openpr.com/news/4641938/fog-fat-oil-grease-removal-equipment-market-to-grow-at-5-1",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops"
+      ],
+      "summary": "Industry analysis shows FOG removal equipment market growth driven by expansion in foodservice, municipal wastewater infrastructure investment, and stringent environmental standards. Commercial establishments are adopting dedicated grease-management equipment, with adoption expected to increase across emerging economies.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-09-30"
     }
   ],
-  "backfill_news": [],
+  "backfill_news": [
+    {
+      "date": "2026-09-18",
+      "headline": "EPA Updates Wasted Food Scale and Excess Food Opportunities Map",
+      "source": "EPA Sustainable Management of Food",
+      "source_url": "https://www.epa.gov/sustainable-management-food",
+      "category": "ESG",
+      "categories": [
+        "ESG",
+        "Regulatory"
+      ],
+      "summary": "EPA posted new version (3.1) of the Excess Food Opportunities Map showing over 960,000 potential excess food generators and nearly 15,000 potential recipients in industrial, commercial, and institutional sectors. Updated recommendations emphasize preventing food waste as the best option.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-09-30"
+    }
+  ],
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-09-29",
-      "headline": "The Great Restaurant Closure Wave of 2026: Who Is Shutting Doors and Why",
-      "source": "QSR Pro",
-      "source_url": "https://qsr.pro/articles/restaurant-chain-closures-2026-wendys-papa-johns-pizza-hut-jack-in-the-box",
-      "category": "Restaurant",
+      "date": "2026-09-30",
+      "headline": "New SAF technology could reduce reliance on vegetable oils",
+      "source": "UkrAgroConsult",
+      "source_url": "https://ukragroconsult.com/en/news/new-saf-technology-could-reduce-reliance-on-vegetable-oils/",
+      "category": "Renewable Fuels",
       "categories": [
-        "Restaurant"
+        "Renewable Fuels"
       ],
-      "summary": "Major chains including Wendy's (140 closures), Papa John's (200), Pizza Hut (250), Jack in the Box (50-100), and Noodles & Company (30-35) are closing significant numbers of underperforming locations. Persistent inflation, rising labor costs, and changing consumer preferences are driving the wave of consolidation.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-09-29"
-    },
-    {
-      "date": "2026-09-29",
-      "headline": "Schneider Electric Showcases Technologies Advancing Water Resilience at WEFTEC 2026",
-      "source": "Yahoo Finance Canada",
-      "source_url": "https://ca.finance.yahoo.com/news/schneider-electric-showcases-technologies-advancing-124500336.html",
-      "category": "Industry Events",
-      "categories": [
-        "Industry Events"
-      ],
-      "summary": "Schneider Electric will showcase automation and digital technologies at WEFTEC 2026 during its September 26-30 conference in New Orleans, highlighting water resilience solutions for the wastewater industry.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-09-29"
-    },
-    {
-      "date": "2026-09-28",
-      "headline": "New ABC Report Finds More Opportunities to Put Wastewater Plants to Work",
-      "source": "Waste360",
-      "source_url": "https://www.waste360.com/wastewater/new-abc-report-finds-more-opportunities-to-put-wastewater-plants-to-work",
-      "category": "Industry Events",
-      "categories": [
-        "Industry Events",
-        "Technology"
-      ],
-      "summary": "American Biogas Council released its first comprehensive assessment of anaerobic digestion at U.S. wastewater facilities in over a decade. The report highlights opportunities for co-digestion of organic materials including food waste and fats, oils, and grease (FOG) at 139 wastewater facilities nationwide.",
+      "summary": "US-based Aether Fuels has demonstrated production of sustainable aviation fuel from renewable natural gas and industrial CO\u2082, meeting ASTM D7566 specifications. The technology uses biomethane including landfill-derived gas with captured carbon dioxide, enabling SAF production without relying on vegetable oils, used cooking oil or animal fats.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -181,56 +202,18 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-09-29"
+      "first_seen_date": "2026-09-30"
     },
     {
-      "date": "2026-09-28",
-      "headline": "WEFTEC 2026 Opens in New Orleans, Showcasing Innovation, Partnerships, and Collaboration to Solve the World's Toughest Water Challenges",
-      "source": "Water Environment Federation",
-      "source_url": "https://www.wef.org/events--education/conferences/weftec-2026/",
-      "category": "Industry Events",
-      "categories": [
-        "Industry Events"
-      ],
-      "summary": "WEFTEC 2026, the Water Environment Federation's premier annual technical exhibition and conference, opens September 26-30 in New Orleans. The event brings together 23,000+ water quality professionals from 100+ countries for technical sessions, workshops, and exhibitions on wastewater treatment and water environment innovation.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-09-29"
-    },
-    {
-      "date": "2026-09-26",
-      "headline": "Survey: How US restaurants are handling inflation, labor, AI, and revenue growth",
-      "source": "ABC17NEWS/Toast",
-      "source_url": "https://abc17news.com/stacker-business-economy/2026/09/26/survey-how-us-restaurants-are-handling-inflation-labor-ai-and-revenue-growth/",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "The 2026 Voice of the Restaurant Industry Survey shows 91% of operators rate their business as good or excellent. Inflation (27%) and hiring (22%) remain top challenges, while 87% of operators now feel comfortable using AI in their operations.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-09-29"
-    },
-    {
-      "date": "2026-09-23",
-      "headline": "Greasezilla Builds National FOG Infrastructure Network to Take Processing Burden Off Municipalities",
-      "source": "PRNewswire",
-      "source_url": "https://www.prnewswire.com/news-releases/greasezilla-builds-national-fog-infrastructure-network-to-take-processing-burden-off-municipalities-302887057.html",
+      "date": "2026-09-30",
+      "headline": "Darling Ingredients Upgraded to Strong-Buy at Jefferies Financial Group",
+      "source": "MarketBeat/Zacks",
+      "source_url": "https://www.marketbeat.com/instant-alerts/analyst-darling-ingredients-nyse-dar-upgraded-to-strong-buy-at-jefferies-financial-group-2026-09-30/",
       "category": "Public Co.",
       "categories": [
         "Public Co."
       ],
-      "summary": "Downey Ridge Environmental Company (Greasezilla) announced the operational opening of its second FOG processing hub in Ashland, Virginia, advancing a 30-site national expansion with potential infrastructure value exceeding $150 million. The system processes grease-trap waste without chemicals, recovering materials for renewable fuels and other applications.",
+      "summary": "Jefferies Financial Group upgraded Darling Ingredients to strong-buy rating. The stock carries a consensus Moderate Buy rating with average price target of $69.91.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -238,7 +221,143 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-09-29"
+      "first_seen_date": "2026-09-30"
+    },
+    {
+      "date": "2026-09-30",
+      "headline": "SustainabilityOnline: The Sustainability Brief \u2013 30 September 2026",
+      "source": "SustainabilityOnline",
+      "source_url": "https://sustainabilityonline.net/news/sustainabilityonline-the-sustainability-brief-30-september-2026/",
+      "category": "ESG",
+      "categories": [
+        "ESG"
+      ],
+      "summary": "Sodexo and the UK Government partnership prevented over one million meals from waste over five years through food donation programs across government and energy sites. The initiative redirects surplus food rather than disposing of it, forming part of Sodexo's wider work to reduce food waste.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-09-30"
+    },
+    {
+      "date": "2026-09-29",
+      "headline": "Alternative fuel solutions for decarbonizing aviation",
+      "source": "IATA Airlines",
+      "source_url": "https://airlines.iata.org/2026/09/29/alternative-fuel-solutions-decarbonizing-aviation",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels"
+      ],
+      "summary": "IATA reports only 2.4 million tonnes of SAF expected in 2026, representing 0.8% of aviation fuel demand. The article highlights SAF's slow progress and discusses transitional alternatives including co-processing and low-carbon aviation fuel.",
+      "relevance_score": 3,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-09-30"
+    },
+    {
+      "date": "2026-09-28",
+      "headline": "UBS Reiterates Buy Rating on Darling Ingredients with $88 Price Target",
+      "source": "Investing.com",
+      "source_url": "https://www.investing.com/news/analyst-ratings/ubs-reiterates-darling-ingredients-stock-buy-rating-at-88-93CH-4920720",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "UBS reiterated Buy rating on Darling Ingredients with $88.00 price target. Stock has gained 91% over past year and 70% year-to-date, currently trading at $61.13.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-09-30"
+    },
+    {
+      "date": "2026-09-28",
+      "headline": "Grease Trap Overflows in Los Angeles Restaurants: Causes, Warning Signs, Risks and Prevention",
+      "source": "EIN Presswire",
+      "source_url": "https://www.einpresswire.com/article/945260128/grease-trap-overflows-in-los-angeles-restaurants-causes-warning-signs-risks-and-prevention-tips-for-food-businesses",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops",
+        "Regulatory"
+      ],
+      "summary": "Los Angeles restaurants face operational challenges managing grease trap maintenance under LA Municipal Code Section 64.30 FOG Control Program. Licensed commercial grease trap pumping experts are essential for compliance, with regular service needed to prevent overflows and sewer blockages.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-09-30"
+    },
+    {
+      "date": "2026-09-28",
+      "headline": "Los Angeles Restaurants Face Growing Grease Trap & Interceptor Maintenance Challenges",
+      "source": "EIN Presswire",
+      "source_url": "https://einpresswire.com/article/945259266/los-angeles-restaurants-face-growing-grease-trap-interceptor-maintenance-challenges-across-local-communities",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops",
+        "Regulatory"
+      ],
+      "summary": "LA County Public Works operates an Industrial Waste FOG Program requiring pretreatment systems to prevent sewer blockages. Licensed commercial pumping experts identify excessive buildup, damaged components, and difficult access issues that require professional grease trap servicing.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-09-30"
+    },
+    {
+      "date": "2026-09-27",
+      "headline": "FOG (Fat, Oil & Grease) Removal Equipment Market to Grow at 5.1% CAGR Through 2033",
+      "source": "OpenPR / Persistence Market Research",
+      "source_url": "https://openpr.com/news/4641938/fog-fat-oil-grease-removal-equipment-market-to-grow-at-5-1",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops"
+      ],
+      "summary": "Industry analysis shows FOG removal equipment market growth driven by expansion in foodservice, municipal wastewater infrastructure investment, and stringent environmental standards. Commercial establishments are adopting dedicated grease-management equipment, with adoption expected to increase across emerging economies.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-09-30"
+    },
+    {
+      "date": "2026-09-18",
+      "headline": "EPA Updates Wasted Food Scale and Excess Food Opportunities Map",
+      "source": "EPA Sustainable Management of Food",
+      "source_url": "https://www.epa.gov/sustainable-management-food",
+      "category": "ESG",
+      "categories": [
+        "ESG",
+        "Regulatory"
+      ],
+      "summary": "EPA posted new version (3.1) of the Excess Food Opportunities Map showing over 960,000 potential excess food generators and nearly 15,000 potential recipients in industrial, commercial, and institutional sectors. Updated recommendations emphasize preventing food waste as the best option.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-09-30"
     }
   ]
 }
