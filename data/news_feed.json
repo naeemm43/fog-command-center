@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-10-01",
+    "headline": "Amarillo City Council adopts 2026 tax rate, discusses water and sewer fees",
+    "source": "Amarillo Tribune",
+    "source_url": "https://amarillotribune.org/2026/09/30/amarillo-city-council-adopts-2026-tax-rate-discusses-water-and-sewer-fees/",
+    "category": "Infrastructure",
+    "categories": [
+      "Infrastructure"
+    ],
+    "summary": "Amarillo City Council approved an 11% increase in water and sewer fees to fund capital improvements for wastewater treatment facilities. The budget includes an 8% increase for capital improvements and 3% for debt service toward a $60 million loan for the Hollywood Road Wastewater Treatment Facility project.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-01"
+  },
+  {
     "date": "2026-09-30",
     "headline": "New SAF technology could reduce reliance on vegetable oils",
     "source": "UkrAgroConsult",
@@ -57,6 +76,25 @@
     "first_seen_date": "2026-09-30"
   },
   {
+    "date": "2026-09-30",
+    "headline": "Sodexo and UK Government partnership saves one million meals from waste",
+    "source": "SustainabilityOnline",
+    "source_url": "https://sustainabilityonline.net/news/sustainabilityonline-the-sustainability-brief-30-september-2026/",
+    "category": "ESG",
+    "categories": [
+      "ESG"
+    ],
+    "summary": "Sodexo and the UK Government have prevented over one million meals from waste over five years through a surplus food redistribution program operating across government and energy sites. The initiative redirects meals to food donation partners rather than disposal.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-01"
+  },
+  {
     "date": "2026-09-29",
     "headline": "The Great Restaurant Closure Wave of 2026: Who Is Shutting Doors and Why",
     "source": "QSR Pro",
@@ -112,6 +150,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-09-30"
+  },
+  {
+    "date": "2026-09-29",
+    "headline": "GFL Environmental Inc. Announces Quarterly Dividend",
+    "source": "SEC Filing / StockTitan",
+    "source_url": "https://www.stocktitan.net/sec-filings/GFL/6-k-gfl-environmental-inc-current-report-foreign-issuer-0a6d194d55ce.html",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co."
+    ],
+    "summary": "GFL Environmental declared a Q3 dividend of US$0.0169 per share for shareholders of record October 14, payable October 30, 2026.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-01"
   },
   {
     "date": "2026-09-28",
@@ -248,6 +305,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-09-29"
+  },
+  {
+    "date": "2026-09-26",
+    "headline": "2026 Wastewater Rate Adjustments",
+    "source": "City of Dripping Springs",
+    "source_url": "https://www.drippingspringstx.gov/2026wastewaterrateadjustments",
+    "category": "Infrastructure",
+    "categories": [
+      "Infrastructure"
+    ],
+    "summary": "Dripping Springs approved wastewater rate increases effective September 2026 to address rising infrastructure costs and support a growing community. Residential customers will see approximately $20-30 monthly increases depending on usage, with additional increases anticipated through fiscal year 2032.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-01"
   },
   {
     "date": "2026-09-23",
@@ -403,6 +479,26 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-09-24"
+  },
+  {
+    "date": "2026-09-22",
+    "headline": "Research on Clarifying the Merits of Electrification for Garbage Trucks Through Actual Driving Condition Surveys",
+    "source": "Springer",
+    "source_url": "https://link.springer.com/chapter/10.1007/978-3-032-13865-1_13",
+    "category": "Technology",
+    "categories": [
+      "Technology",
+      "Public Co."
+    ],
+    "summary": "Academic research published in July 2026 examines the energy efficiency and viability of electric garbage trucks in urban waste management. The study analyzes driving patterns and conditions, providing evidence for sustainable fleet electrification strategies.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-01"
   },
   {
     "date": "2026-09-21",
