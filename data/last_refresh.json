@@ -1,20 +1,100 @@
 {
-  "timestamp": "2026-10-02T17:44:21Z",
-  "added_news_count": 1,
+  "timestamp": "2026-10-05T20:33:58Z",
+  "added_news_count": 5,
   "added_deals_count": 0,
-  "archived_count": 0,
-  "new_today_news": [],
+  "archived_count": 2,
+  "new_today_news": [
+    {
+      "date": "2026-10-05",
+      "headline": "EPA Withdraws PFAS Wastewater Permitting Guidance",
+      "source": "EHSLeaders",
+      "source_url": "https://ehsleaders.org/2026/10/epa-withdraws-pfas-wastewater-permitting-guidance/",
+      "category": "Regulatory",
+      "categories": [
+        "Regulatory"
+      ],
+      "summary": "The EPA rescinded 2022 PFAS guidance recommending states use NPDES permits and pretreatment programs to reduce PFAS discharges. The Agency stated the memorandum caused confusion and resulted in inconsistent application, though PFAS can still be addressed through pretreatment authorities.",
+      "relevance_score": 3,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-05"
+    }
+  ],
   "recent_news": [
     {
-      "date": "2026-09-30",
-      "headline": "LiqTech QureFlow Expected to Enable More Than 95% Wastewater Recovery at WWIS's New Texas Facility",
-      "source": "Waste360",
-      "source_url": "https://www.waste360.com/wastewater/liqtech-qureflow-expected-to-enable-more-than-95-wastewater-recovery-at-wwis-s-new-texas-facility",
-      "category": "Industry Events",
+      "date": "2026-10-01",
+      "headline": "CDL A or B Local Tanker Drivers in Casa Grande, AZ Job at Universal Environmental Services",
+      "source": "Drive My Way Jobs",
+      "source_url": "https://jobs.drivemyway.com/jobs/612787629-cdl-a-or-b-local-tanker-drivers-in-casa-grande-az-at-universal-environmental-services",
+      "category": "Labor/Ops",
       "categories": [
-        "Industry Events"
+        "Labor/Ops"
       ],
-      "summary": "LiqTech International announced its QureFlow QF-6 ceramic membrane filtration system will support wastewater reuse at Water Works Industrial Services' new facility in Freeport, Texas, enabling over 95% wastewater recovery. The system was initially announced in August 2026.",
+      "summary": "Universal Environmental Services, a major used oil collector and processing company serving 24 states with 300+ trucks, is actively hiring CDL A or B local tanker drivers for waste oil recovery operations in Casa Grande, Arizona. Drivers will handle loading, transporting, and unloading used oil and other liquids.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-05"
+    },
+    {
+      "date": "2026-09-29",
+      "headline": "Driver shortage - The Mining Gazette",
+      "source": "The Mining Gazette",
+      "source_url": "https://www.mininggazette.com/news/local-news/2026/09/driver-shortage/",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops"
+      ],
+      "summary": "The Houghton County Materials Management transfer station is down to a single CDL-A driver due to staffing vacancy, forcing the facility to restrict construction and demolition waste intake. The ongoing shortage has limited the county's ability to clear its tipping floor and manage incoming debris loads.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-05"
+    },
+    {
+      "date": "2026-09-28",
+      "headline": "Amarillo City Council to consider $613M budget, tax rate Tuesday",
+      "source": "KVII-ABC7",
+      "source_url": "https://abc7amarillo.com/news/local/amarillo-city-council-to-consider-613m-budget-tax-rate-tuesday-increase-property-tax-revenue-utility-rates-landfill-tipping-fees-raises-police-officers-fire-fighters-cost-of-living-increase",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure"
+      ],
+      "summary": "Amarillo City Council approved a $613.3 million budget including an 8% increase in water and sewer rates and a 29.76% increase in solid-waste tipping fees to finance capital projects. The typical residential monthly sewer charge will increase from $40.87 to $44.14.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-05"
+    }
+  ],
+  "backfill_news": [
+    {
+      "date": "2026-09-21",
+      "headline": "California Grease Trap Regulations 2026: Codes, Fines & Compliance Guide",
+      "source": "Grease Trap Locator",
+      "source_url": "https://greasetraplocator.com/regulations/california/",
+      "category": "ESG",
+      "categories": [
+        "ESG",
+        "Regulatory"
+      ],
+      "summary": "Comprehensive guide to California's FOG compliance requirements including documentation, record-keeping for grease interceptor maintenance, and enforcement protocols under state and federal pretreatment standards.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -22,22 +102,98 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-02"
+      "first_seen_date": "2026-10-05"
     }
   ],
-  "backfill_news": [],
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-09-30",
-      "headline": "LiqTech QureFlow Expected to Enable More Than 95% Wastewater Recovery at WWIS's New Texas Facility",
-      "source": "Waste360",
-      "source_url": "https://www.waste360.com/wastewater/liqtech-qureflow-expected-to-enable-more-than-95-wastewater-recovery-at-wwis-s-new-texas-facility",
-      "category": "Industry Events",
+      "date": "2026-10-05",
+      "headline": "EPA Withdraws PFAS Wastewater Permitting Guidance",
+      "source": "EHSLeaders",
+      "source_url": "https://ehsleaders.org/2026/10/epa-withdraws-pfas-wastewater-permitting-guidance/",
+      "category": "Regulatory",
       "categories": [
-        "Industry Events"
+        "Regulatory"
       ],
-      "summary": "LiqTech International announced its QureFlow QF-6 ceramic membrane filtration system will support wastewater reuse at Water Works Industrial Services' new facility in Freeport, Texas, enabling over 95% wastewater recovery. The system was initially announced in August 2026.",
+      "summary": "The EPA rescinded 2022 PFAS guidance recommending states use NPDES permits and pretreatment programs to reduce PFAS discharges. The Agency stated the memorandum caused confusion and resulted in inconsistent application, though PFAS can still be addressed through pretreatment authorities.",
+      "relevance_score": 3,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-05"
+    },
+    {
+      "date": "2026-10-01",
+      "headline": "CDL A or B Local Tanker Drivers in Casa Grande, AZ Job at Universal Environmental Services",
+      "source": "Drive My Way Jobs",
+      "source_url": "https://jobs.drivemyway.com/jobs/612787629-cdl-a-or-b-local-tanker-drivers-in-casa-grande-az-at-universal-environmental-services",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops"
+      ],
+      "summary": "Universal Environmental Services, a major used oil collector and processing company serving 24 states with 300+ trucks, is actively hiring CDL A or B local tanker drivers for waste oil recovery operations in Casa Grande, Arizona. Drivers will handle loading, transporting, and unloading used oil and other liquids.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-05"
+    },
+    {
+      "date": "2026-09-29",
+      "headline": "Driver shortage - The Mining Gazette",
+      "source": "The Mining Gazette",
+      "source_url": "https://www.mininggazette.com/news/local-news/2026/09/driver-shortage/",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops"
+      ],
+      "summary": "The Houghton County Materials Management transfer station is down to a single CDL-A driver due to staffing vacancy, forcing the facility to restrict construction and demolition waste intake. The ongoing shortage has limited the county's ability to clear its tipping floor and manage incoming debris loads.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-05"
+    },
+    {
+      "date": "2026-09-28",
+      "headline": "Amarillo City Council to consider $613M budget, tax rate Tuesday",
+      "source": "KVII-ABC7",
+      "source_url": "https://abc7amarillo.com/news/local/amarillo-city-council-to-consider-613m-budget-tax-rate-tuesday-increase-property-tax-revenue-utility-rates-landfill-tipping-fees-raises-police-officers-fire-fighters-cost-of-living-increase",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure"
+      ],
+      "summary": "Amarillo City Council approved a $613.3 million budget including an 8% increase in water and sewer rates and a 29.76% increase in solid-waste tipping fees to finance capital projects. The typical residential monthly sewer charge will increase from $40.87 to $44.14.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-05"
+    },
+    {
+      "date": "2026-09-21",
+      "headline": "California Grease Trap Regulations 2026: Codes, Fines & Compliance Guide",
+      "source": "Grease Trap Locator",
+      "source_url": "https://greasetraplocator.com/regulations/california/",
+      "category": "ESG",
+      "categories": [
+        "ESG",
+        "Regulatory"
+      ],
+      "summary": "Comprehensive guide to California's FOG compliance requirements including documentation, record-keeping for grease interceptor maintenance, and enforcement protocols under state and federal pretreatment standards.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -45,7 +201,7 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-02"
+      "first_seen_date": "2026-10-05"
     }
   ]
 }

@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-10-05",
+    "headline": "EPA Withdraws PFAS Wastewater Permitting Guidance",
+    "source": "EHSLeaders",
+    "source_url": "https://ehsleaders.org/2026/10/epa-withdraws-pfas-wastewater-permitting-guidance/",
+    "category": "Regulatory",
+    "categories": [
+      "Regulatory"
+    ],
+    "summary": "The EPA rescinded 2022 PFAS guidance recommending states use NPDES permits and pretreatment programs to reduce PFAS discharges. The Agency stated the memorandum caused confusion and resulted in inconsistent application, though PFAS can still be addressed through pretreatment authorities.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-05"
+  },
+  {
     "date": "2026-10-01",
     "headline": "Amarillo City Council adopts 2026 tax rate, discusses water and sewer fees",
     "source": "Amarillo Tribune",
@@ -17,6 +36,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-10-01"
+  },
+  {
+    "date": "2026-10-01",
+    "headline": "CDL A or B Local Tanker Drivers in Casa Grande, AZ Job at Universal Environmental Services",
+    "source": "Drive My Way Jobs",
+    "source_url": "https://jobs.drivemyway.com/jobs/612787629-cdl-a-or-b-local-tanker-drivers-in-casa-grande-az-at-universal-environmental-services",
+    "category": "Labor/Ops",
+    "categories": [
+      "Labor/Ops"
+    ],
+    "summary": "Universal Environmental Services, a major used oil collector and processing company serving 24 states with 300+ trucks, is actively hiring CDL A or B local tanker drivers for waste oil recovery operations in Casa Grande, Arizona. Drivers will handle loading, transporting, and unloading used oil and other liquids.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-05"
   },
   {
     "date": "2026-09-30",
@@ -190,6 +228,25 @@
     "first_seen_date": "2026-10-01"
   },
   {
+    "date": "2026-09-29",
+    "headline": "Driver shortage - The Mining Gazette",
+    "source": "The Mining Gazette",
+    "source_url": "https://www.mininggazette.com/news/local-news/2026/09/driver-shortage/",
+    "category": "Labor/Ops",
+    "categories": [
+      "Labor/Ops"
+    ],
+    "summary": "The Houghton County Materials Management transfer station is down to a single CDL-A driver due to staffing vacancy, forcing the facility to restrict construction and demolition waste intake. The ongoing shortage has limited the county's ability to clear its tipping floor and manage incoming debris loads.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-05"
+  },
+  {
     "date": "2026-09-28",
     "headline": "New ABC Report Finds More Opportunities to Put Wastewater Plants to Work",
     "source": "Waste360",
@@ -286,6 +343,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-09-30"
+  },
+  {
+    "date": "2026-09-28",
+    "headline": "Amarillo City Council to consider $613M budget, tax rate Tuesday",
+    "source": "KVII-ABC7",
+    "source_url": "https://abc7amarillo.com/news/local/amarillo-city-council-to-consider-613m-budget-tax-rate-tuesday-increase-property-tax-revenue-utility-rates-landfill-tipping-fees-raises-police-officers-fire-fighters-cost-of-living-increase",
+    "category": "Infrastructure",
+    "categories": [
+      "Infrastructure"
+    ],
+    "summary": "Amarillo City Council approved a $613.3 million budget including an 8% increase in water and sewer rates and a 29.76% increase in solid-waste tipping fees to finance capital projects. The typical residential monthly sewer charge will increase from $40.87 to $44.14.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-05"
   },
   {
     "date": "2026-09-27",
@@ -575,6 +651,26 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-09-22"
+  },
+  {
+    "date": "2026-09-21",
+    "headline": "California Grease Trap Regulations 2026: Codes, Fines & Compliance Guide",
+    "source": "Grease Trap Locator",
+    "source_url": "https://greasetraplocator.com/regulations/california/",
+    "category": "ESG",
+    "categories": [
+      "ESG",
+      "Regulatory"
+    ],
+    "summary": "Comprehensive guide to California's FOG compliance requirements including documentation, record-keeping for grease interceptor maintenance, and enforcement protocols under state and federal pretreatment standards.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-05"
   },
   {
     "date": "2026-09-20",
@@ -8299,45 +8395,6 @@
     "first_seen_date": "2026-04-09",
     "categories": [
       "Infrastructure"
-    ]
-  },
-  {
-    "date": "2026-04-06",
-    "headline": "New Jersey Grease Trap Regulations 2026 Guide \u2014 Updated Manifest and Violation Penalties",
-    "source": "Grease Trap Locator",
-    "source_url": "https://greasetraplocator.com/regulations/new-jersey/",
-    "category": "Regulatory",
-    "summary": "New Jersey enforces strict manifest requirements and civil penalties up to $50,000 per violation per day for missing or fraudulent manifests. Multiple search results from April 2026 confirm continued enforcement of grease trap regulations across municipalities.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-04-06",
-    "categories": [
-      "Regulatory"
-    ]
-  },
-  {
-    "date": "2026-04-06",
-    "headline": "Tierra Environmental & Industrial Brings Expanded Waste Solutions to Chicagoland",
-    "source": "Submit123PR",
-    "source_url": "https://newsroom.submitmypressrelease.com/2026/04/06/tierra-environmental-industrial-brings-expanded-waste-solutions-to-chicagoland_2301455.html",
-    "category": "ESG",
-    "summary": "Tierra Environmental & Industrial, an IEPA-licensed special waste hauler, has expanded operations into the Chicagoland area. The company delivers professional grease trap cleaning, waste management, and industrial cleaning services, with expertise in managing FOG from commercial kitchens and support for regulatory compliance in the Midwest.",
-    "relevance_score": 4,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-04-06",
-    "categories": [
-      "ESG",
-      "Public Co."
     ]
   },
   {
