@@ -19,6 +19,26 @@
     "first_seen_date": "2026-10-05"
   },
   {
+    "date": "2026-10-02",
+    "headline": "This Week in Waste: Top Stories Sept 28 \u2013 Oct 2",
+    "source": "Waste360",
+    "source_url": "https://www.waste360.com/industry-insights/this-week-in-waste-top-stories-sept-28-oct-2",
+    "category": "Industry Events",
+    "categories": [
+      "Industry Events",
+      "Public Co."
+    ],
+    "summary": "Weekly roundup of top waste industry news including RCon 2026 updates, WEF organizational changes, and industry developments. Focus on broader waste management sector news.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-06"
+  },
+  {
     "date": "2026-10-01",
     "headline": "Amarillo City Council adopts 2026 tax rate, discusses water and sewer fees",
     "source": "Amarillo Tribune",
@@ -55,6 +75,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-10-05"
+  },
+  {
+    "date": "2026-10-01",
+    "headline": "Fog Cutter Holdings Takes Over Tavia Acquisition Corp. Sponsor Role",
+    "source": "TipRanks/Company Announcement",
+    "source_url": "https://tipranks.com/news/company-announcements/fog-cutter-takes-control-tavia-acquisition-revamps-leadership",
+    "category": "M&A",
+    "categories": [
+      "M&A"
+    ],
+    "summary": "Fog Cutter Holdings LLC acquired significant share and unit interests in Tavia Acquisition Corp. (a SPAC) on October 1, 2026, assuming sponsor responsibilities and funding obligations. The SPAC subsequently underwent board and management restructuring with new leadership installed.",
+    "relevance_score": 2,
+    "is_deal": true,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-06"
   },
   {
     "date": "2026-09-30",
@@ -152,6 +191,25 @@
     "first_seen_date": "2026-10-02"
   },
   {
+    "date": "2026-09-30",
+    "headline": "South Bay Wastewater Plant Expansion Advances Amid Tijuana River Cleanup",
+    "source": "Environmental Protection",
+    "source_url": "https://eponline.com/articles/2026/09/30/south-bay-wastewater-plant-expansion-advances-amid-tijuana-river-cleanup.aspx",
+    "category": "Infrastructure",
+    "categories": [
+      "Infrastructure"
+    ],
+    "summary": "The South Bay International Wastewater Treatment Plant expansion project advanced during Q3 2026 with completion of the Parallel Gravity Line pipeline and award of the first major construction contract. The project will raise treatment capacity from 35 to 50 million gallons per day, overseen by the U.S. Section of the International Boundary and Water Commission.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-06"
+  },
+  {
     "date": "2026-09-29",
     "headline": "The Great Restaurant Closure Wave of 2026: Who Is Shutting Doors and Why",
     "source": "QSR Pro",
@@ -245,6 +303,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-10-05"
+  },
+  {
+    "date": "2026-09-29",
+    "headline": "Driver shortage - Transfer station restricts construction waste",
+    "source": "The Mining Gazette",
+    "source_url": "https://www.mininggazette.com/news/local-news/2026/09/driver-shortage/",
+    "category": "Labor/Ops",
+    "categories": [
+      "Labor/Ops"
+    ],
+    "summary": "Houghton County Materials Management facility in Michigan is down to a single driver due to an ongoing staffing vacancy, forcing the county transfer station to restrict or reject incoming construction and demolition waste.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-06"
   },
   {
     "date": "2026-09-28",
@@ -8376,25 +8453,6 @@
     "categories": [
       "Labor/Ops",
       "Public Co."
-    ]
-  },
-  {
-    "date": "2026-04-09",
-    "headline": "Ara Partners Announces Up to $500 Million Investment in Sedron to Scale Waste Upcycling Technology",
-    "source": "PRNewswire",
-    "source_url": "https://www.prnewswire.com/news-releases/ara-partners-announces-up-to-500-million-investment-in-sedron-to-scale-waste-upcycling-technology-302737451.html",
-    "category": "Infrastructure",
-    "summary": "Ara Partners, a global PE and infrastructure firm, announced up to $500 million investment in Sedron Technologies to scale its Varcor\u00ae technology, which transforms liquid waste streams including biosolids and agricultural manure into reusable water and fertilizer products. Sedron recently announced a strategic partnership with Synagro for a biosolids upcycling facility in Indiantown, Florida, with construction expected to commence spring 2026 and commissioning in 2028.",
-    "relevance_score": 4,
-    "is_deal": true,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": 28.538,
-    "longitude": -81.379,
-    "zoom_hint": "wide",
-    "first_seen_date": "2026-04-09",
-    "categories": [
-      "Infrastructure"
     ]
   },
   {

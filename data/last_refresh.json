@@ -1,59 +1,21 @@
 {
-  "timestamp": "2026-10-05T20:33:58Z",
-  "added_news_count": 5,
-  "added_deals_count": 0,
-  "archived_count": 2,
-  "new_today_news": [
-    {
-      "date": "2026-10-05",
-      "headline": "EPA Withdraws PFAS Wastewater Permitting Guidance",
-      "source": "EHSLeaders",
-      "source_url": "https://ehsleaders.org/2026/10/epa-withdraws-pfas-wastewater-permitting-guidance/",
-      "category": "Regulatory",
-      "categories": [
-        "Regulatory"
-      ],
-      "summary": "The EPA rescinded 2022 PFAS guidance recommending states use NPDES permits and pretreatment programs to reduce PFAS discharges. The Agency stated the memorandum caused confusion and resulted in inconsistent application, though PFAS can still be addressed through pretreatment authorities.",
-      "relevance_score": 3,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-05"
-    }
-  ],
+  "timestamp": "2026-10-06T18:11:36Z",
+  "added_news_count": 4,
+  "added_deals_count": 1,
+  "archived_count": 1,
+  "new_today_news": [],
   "recent_news": [
     {
-      "date": "2026-10-01",
-      "headline": "CDL A or B Local Tanker Drivers in Casa Grande, AZ Job at Universal Environmental Services",
-      "source": "Drive My Way Jobs",
-      "source_url": "https://jobs.drivemyway.com/jobs/612787629-cdl-a-or-b-local-tanker-drivers-in-casa-grande-az-at-universal-environmental-services",
-      "category": "Labor/Ops",
+      "date": "2026-10-02",
+      "headline": "This Week in Waste: Top Stories Sept 28 \u2013 Oct 2",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/industry-insights/this-week-in-waste-top-stories-sept-28-oct-2",
+      "category": "Industry Events",
       "categories": [
-        "Labor/Ops"
+        "Industry Events",
+        "Public Co."
       ],
-      "summary": "Universal Environmental Services, a major used oil collector and processing company serving 24 states with 300+ trucks, is actively hiring CDL A or B local tanker drivers for waste oil recovery operations in Casa Grande, Arizona. Drivers will handle loading, transporting, and unloading used oil and other liquids.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-05"
-    },
-    {
-      "date": "2026-09-29",
-      "headline": "Driver shortage - The Mining Gazette",
-      "source": "The Mining Gazette",
-      "source_url": "https://www.mininggazette.com/news/local-news/2026/09/driver-shortage/",
-      "category": "Labor/Ops",
-      "categories": [
-        "Labor/Ops"
-      ],
-      "summary": "The Houghton County Materials Management transfer station is down to a single CDL-A driver due to staffing vacancy, forcing the facility to restrict construction and demolition waste intake. The ongoing shortage has limited the county's ability to clear its tipping floor and manage incoming debris loads.",
+      "summary": "Weekly roundup of top waste industry news including RCon 2026 updates, WEF organizational changes, and industry developments. Focus on broader waste management sector news.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -61,40 +23,37 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-05"
+      "first_seen_date": "2026-10-06"
     },
     {
-      "date": "2026-09-28",
-      "headline": "Amarillo City Council to consider $613M budget, tax rate Tuesday",
-      "source": "KVII-ABC7",
-      "source_url": "https://abc7amarillo.com/news/local/amarillo-city-council-to-consider-613m-budget-tax-rate-tuesday-increase-property-tax-revenue-utility-rates-landfill-tipping-fees-raises-police-officers-fire-fighters-cost-of-living-increase",
+      "date": "2026-10-01",
+      "headline": "Fog Cutter Holdings Takes Over Tavia Acquisition Corp. Sponsor Role",
+      "source": "TipRanks/Company Announcement",
+      "source_url": "https://tipranks.com/news/company-announcements/fog-cutter-takes-control-tavia-acquisition-revamps-leadership",
+      "category": "M&A",
+      "categories": [
+        "M&A"
+      ],
+      "summary": "Fog Cutter Holdings LLC acquired significant share and unit interests in Tavia Acquisition Corp. (a SPAC) on October 1, 2026, assuming sponsor responsibilities and funding obligations. The SPAC subsequently underwent board and management restructuring with new leadership installed.",
+      "relevance_score": 2,
+      "is_deal": true,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-06"
+    },
+    {
+      "date": "2026-09-30",
+      "headline": "South Bay Wastewater Plant Expansion Advances Amid Tijuana River Cleanup",
+      "source": "Environmental Protection",
+      "source_url": "https://eponline.com/articles/2026/09/30/south-bay-wastewater-plant-expansion-advances-amid-tijuana-river-cleanup.aspx",
       "category": "Infrastructure",
       "categories": [
         "Infrastructure"
       ],
-      "summary": "Amarillo City Council approved a $613.3 million budget including an 8% increase in water and sewer rates and a 29.76% increase in solid-waste tipping fees to finance capital projects. The typical residential monthly sewer charge will increase from $40.87 to $44.14.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-05"
-    }
-  ],
-  "backfill_news": [
-    {
-      "date": "2026-09-21",
-      "headline": "California Grease Trap Regulations 2026: Codes, Fines & Compliance Guide",
-      "source": "Grease Trap Locator",
-      "source_url": "https://greasetraplocator.com/regulations/california/",
-      "category": "ESG",
-      "categories": [
-        "ESG",
-        "Regulatory"
-      ],
-      "summary": "Comprehensive guide to California's FOG compliance requirements including documentation, record-keeping for grease interceptor maintenance, and enforcement protocols under state and federal pretreatment standards.",
+      "summary": "The South Bay International Wastewater Treatment Plant expansion project advanced during Q3 2026 with completion of the Parallel Gravity Line pipeline and award of the first major construction contract. The project will raise treatment capacity from 35 to 50 million gallons per day, overseen by the U.S. Section of the International Boundary and Water Commission.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -102,59 +61,65 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-05"
+      "first_seen_date": "2026-10-06"
+    },
+    {
+      "date": "2026-09-29",
+      "headline": "Driver shortage - Transfer station restricts construction waste",
+      "source": "The Mining Gazette",
+      "source_url": "https://www.mininggazette.com/news/local-news/2026/09/driver-shortage/",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops"
+      ],
+      "summary": "Houghton County Materials Management facility in Michigan is down to a single driver due to an ongoing staffing vacancy, forcing the county transfer station to restrict or reject incoming construction and demolition waste.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-06"
     }
   ],
-  "new_deals": [],
+  "backfill_news": [],
+  "new_deals": [
+    {
+      "date": "2026-10-01",
+      "target": "Tavia Acquisition Corp. (sponsor control)",
+      "acquirer": "Fog Cutter Holdings LLC",
+      "sponsor": "",
+      "location": "Cayman Islands/United States",
+      "deal_type": "Add-On",
+      "deal_size": "Undisclosed",
+      "multiple": "N/A",
+      "services": "",
+      "source": "TipRanks/Company Announcement",
+      "source_url": "https://tipranks.com/news/company-announcements/fog-cutter-takes-control-tavia-acquisition-revamps-leadership",
+      "is_target_market": false,
+      "target_market_name": null,
+      "owner_classification": "Unknown",
+      "deal_summary": null,
+      "date_confidence": "verified",
+      "notes": "Fog Cutter Holdings LLC acquired significant share and unit interests in Tavia Acquisition Corp. (a SPAC) on October 1, 2026, assuming sponsor responsibilities and funding obligations. The SPAC subsequently underwent board and management restructuring with new leadership installed.",
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null
+    }
+  ],
   "new_news": [
     {
-      "date": "2026-10-05",
-      "headline": "EPA Withdraws PFAS Wastewater Permitting Guidance",
-      "source": "EHSLeaders",
-      "source_url": "https://ehsleaders.org/2026/10/epa-withdraws-pfas-wastewater-permitting-guidance/",
-      "category": "Regulatory",
+      "date": "2026-10-02",
+      "headline": "This Week in Waste: Top Stories Sept 28 \u2013 Oct 2",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/industry-insights/this-week-in-waste-top-stories-sept-28-oct-2",
+      "category": "Industry Events",
       "categories": [
-        "Regulatory"
+        "Industry Events",
+        "Public Co."
       ],
-      "summary": "The EPA rescinded 2022 PFAS guidance recommending states use NPDES permits and pretreatment programs to reduce PFAS discharges. The Agency stated the memorandum caused confusion and resulted in inconsistent application, though PFAS can still be addressed through pretreatment authorities.",
-      "relevance_score": 3,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-05"
-    },
-    {
-      "date": "2026-10-01",
-      "headline": "CDL A or B Local Tanker Drivers in Casa Grande, AZ Job at Universal Environmental Services",
-      "source": "Drive My Way Jobs",
-      "source_url": "https://jobs.drivemyway.com/jobs/612787629-cdl-a-or-b-local-tanker-drivers-in-casa-grande-az-at-universal-environmental-services",
-      "category": "Labor/Ops",
-      "categories": [
-        "Labor/Ops"
-      ],
-      "summary": "Universal Environmental Services, a major used oil collector and processing company serving 24 states with 300+ trucks, is actively hiring CDL A or B local tanker drivers for waste oil recovery operations in Casa Grande, Arizona. Drivers will handle loading, transporting, and unloading used oil and other liquids.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-05"
-    },
-    {
-      "date": "2026-09-29",
-      "headline": "Driver shortage - The Mining Gazette",
-      "source": "The Mining Gazette",
-      "source_url": "https://www.mininggazette.com/news/local-news/2026/09/driver-shortage/",
-      "category": "Labor/Ops",
-      "categories": [
-        "Labor/Ops"
-      ],
-      "summary": "The Houghton County Materials Management transfer station is down to a single CDL-A driver due to staffing vacancy, forcing the facility to restrict construction and demolition waste intake. The ongoing shortage has limited the county's ability to clear its tipping floor and manage incoming debris loads.",
+      "summary": "Weekly roundup of top waste industry news including RCon 2026 updates, WEF organizational changes, and industry developments. Focus on broader waste management sector news.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -162,38 +127,37 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-05"
+      "first_seen_date": "2026-10-06"
     },
     {
-      "date": "2026-09-28",
-      "headline": "Amarillo City Council to consider $613M budget, tax rate Tuesday",
-      "source": "KVII-ABC7",
-      "source_url": "https://abc7amarillo.com/news/local/amarillo-city-council-to-consider-613m-budget-tax-rate-tuesday-increase-property-tax-revenue-utility-rates-landfill-tipping-fees-raises-police-officers-fire-fighters-cost-of-living-increase",
+      "date": "2026-10-01",
+      "headline": "Fog Cutter Holdings Takes Over Tavia Acquisition Corp. Sponsor Role",
+      "source": "TipRanks/Company Announcement",
+      "source_url": "https://tipranks.com/news/company-announcements/fog-cutter-takes-control-tavia-acquisition-revamps-leadership",
+      "category": "M&A",
+      "categories": [
+        "M&A"
+      ],
+      "summary": "Fog Cutter Holdings LLC acquired significant share and unit interests in Tavia Acquisition Corp. (a SPAC) on October 1, 2026, assuming sponsor responsibilities and funding obligations. The SPAC subsequently underwent board and management restructuring with new leadership installed.",
+      "relevance_score": 2,
+      "is_deal": true,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-06"
+    },
+    {
+      "date": "2026-09-30",
+      "headline": "South Bay Wastewater Plant Expansion Advances Amid Tijuana River Cleanup",
+      "source": "Environmental Protection",
+      "source_url": "https://eponline.com/articles/2026/09/30/south-bay-wastewater-plant-expansion-advances-amid-tijuana-river-cleanup.aspx",
       "category": "Infrastructure",
       "categories": [
         "Infrastructure"
       ],
-      "summary": "Amarillo City Council approved a $613.3 million budget including an 8% increase in water and sewer rates and a 29.76% increase in solid-waste tipping fees to finance capital projects. The typical residential monthly sewer charge will increase from $40.87 to $44.14.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-05"
-    },
-    {
-      "date": "2026-09-21",
-      "headline": "California Grease Trap Regulations 2026: Codes, Fines & Compliance Guide",
-      "source": "Grease Trap Locator",
-      "source_url": "https://greasetraplocator.com/regulations/california/",
-      "category": "ESG",
-      "categories": [
-        "ESG",
-        "Regulatory"
-      ],
-      "summary": "Comprehensive guide to California's FOG compliance requirements including documentation, record-keeping for grease interceptor maintenance, and enforcement protocols under state and federal pretreatment standards.",
+      "summary": "The South Bay International Wastewater Treatment Plant expansion project advanced during Q3 2026 with completion of the Parallel Gravity Line pipeline and award of the first major construction contract. The project will raise treatment capacity from 35 to 50 million gallons per day, overseen by the U.S. Section of the International Boundary and Water Commission.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -201,7 +165,26 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-05"
+      "first_seen_date": "2026-10-06"
+    },
+    {
+      "date": "2026-09-29",
+      "headline": "Driver shortage - Transfer station restricts construction waste",
+      "source": "The Mining Gazette",
+      "source_url": "https://www.mininggazette.com/news/local-news/2026/09/driver-shortage/",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops"
+      ],
+      "summary": "Houghton County Materials Management facility in Michigan is down to a single driver due to an ongoing staffing vacancy, forcing the county transfer station to restrict or reject incoming construction and demolition waste.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-06"
     }
   ]
 }

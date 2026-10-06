@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-10-01",
+    "target": "Tavia Acquisition Corp. (sponsor control)",
+    "acquirer": "Fog Cutter Holdings LLC",
+    "sponsor": "",
+    "location": "Cayman Islands/United States",
+    "deal_type": "Add-On",
+    "deal_size": "Undisclosed",
+    "multiple": "N/A",
+    "services": "",
+    "source": "TipRanks/Company Announcement",
+    "source_url": "https://tipranks.com/news/company-announcements/fog-cutter-takes-control-tavia-acquisition-revamps-leadership",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "Unknown",
+    "deal_summary": null,
+    "date_confidence": "verified",
+    "notes": "Fog Cutter Holdings LLC acquired significant share and unit interests in Tavia Acquisition Corp. (a SPAC) on October 1, 2026, assuming sponsor responsibilities and funding obligations. The SPAC subsequently underwent board and management restructuring with new leadership installed.",
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
+  },
+  {
     "date": "2026-09-22",
     "target": "Ninety Nine Restaurants",
     "acquirer": "Unknown",
