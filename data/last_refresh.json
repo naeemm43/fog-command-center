@@ -1,59 +1,59 @@
 {
-  "timestamp": "2026-10-06T18:11:36Z",
-  "added_news_count": 4,
+  "timestamp": "2026-10-07T18:45:07Z",
+  "added_news_count": 10,
   "added_deals_count": 1,
   "archived_count": 1,
-  "new_today_news": [],
-  "recent_news": [
+  "new_today_news": [
     {
-      "date": "2026-10-02",
-      "headline": "This Week in Waste: Top Stories Sept 28 \u2013 Oct 2",
-      "source": "Waste360",
-      "source_url": "https://www.waste360.com/industry-insights/this-week-in-waste-top-stories-sept-28-oct-2",
-      "category": "Industry Events",
+      "date": "2026-10-07",
+      "headline": "Unregulated Grease Discharge From San Diego Restaurants Raises Environmental Concern for Waterways and Sewers",
+      "source": "EIN Presswire",
+      "source_url": "https://www.einnews.com/pr_news/947826920/unregulated-grease-discharge-from-san-diego-restaurants-raises-environmental-concern-for-waterways-and-sewers",
+      "category": "Restaurant",
       "categories": [
-        "Industry Events",
-        "Public Co."
+        "Restaurant",
+        "Renewable Fuels"
       ],
-      "summary": "Weekly roundup of top waste industry news including RCon 2026 updates, WEF organizational changes, and industry developments. Focus on broader waste management sector news.",
-      "relevance_score": 2,
+      "summary": "Industry experts warn about improper FOG management from commercial kitchens entering wastewater systems. The article emphasizes the importance of clear procedures for used cooking oil, preventing grease from entering drains, and maintaining grease-control equipment.",
+      "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-06"
+      "first_seen_date": "2026-10-07"
     },
     {
-      "date": "2026-10-01",
-      "headline": "Fog Cutter Holdings Takes Over Tavia Acquisition Corp. Sponsor Role",
-      "source": "TipRanks/Company Announcement",
-      "source_url": "https://tipranks.com/news/company-announcements/fog-cutter-takes-control-tavia-acquisition-revamps-leadership",
-      "category": "M&A",
+      "date": "2026-10-06",
+      "headline": "The Grease Co Highlights Growing Grease Management Concerns as Aging SoCal Sewer Infrastructure Faces More Failures",
+      "source": "EIN Presswire",
+      "source_url": "https://www.einpresswire.com/article/947995348/the-grease-co-highlights-grease-management-concerns-as-aging-socal-sewer-infrastructure-faces-more-failures",
+      "category": "Restaurant",
       "categories": [
-        "M&A"
+        "Restaurant",
+        "Renewable Fuels"
       ],
-      "summary": "Fog Cutter Holdings LLC acquired significant share and unit interests in Tavia Acquisition Corp. (a SPAC) on October 1, 2026, assuming sponsor responsibilities and funding obligations. The SPAC subsequently underwent board and management restructuring with new leadership installed.",
-      "relevance_score": 2,
-      "is_deal": true,
+      "summary": "Southern California restaurant grease management challenges intensify as aging sewer infrastructure deteriorates under FOG pressure. The report highlights proper grease trap cleaning, maintenance, and safe used cooking oil storage as critical mitigation strategies.",
+      "relevance_score": 5,
+      "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-06"
+      "first_seen_date": "2026-10-07"
     },
     {
-      "date": "2026-09-30",
-      "headline": "South Bay Wastewater Plant Expansion Advances Amid Tijuana River Cleanup",
-      "source": "Environmental Protection",
-      "source_url": "https://eponline.com/articles/2026/09/30/south-bay-wastewater-plant-expansion-advances-amid-tijuana-river-cleanup.aspx",
-      "category": "Infrastructure",
+      "date": "2026-10-06",
+      "headline": "Performance and microbial community dynamics in full-scale anaerobic co-digesters fed with fats, oils and grease",
+      "source": "Bioresource Technology",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42235697/",
+      "category": "Technology",
       "categories": [
-        "Infrastructure"
+        "Technology"
       ],
-      "summary": "The South Bay International Wastewater Treatment Plant expansion project advanced during Q3 2026 with completion of the Parallel Gravity Line pipeline and award of the first major construction contract. The project will raise treatment capacity from 35 to 50 million gallons per day, overseen by the U.S. Section of the International Boundary and Water Commission.",
+      "summary": "Research published October 2026 on full-scale anaerobic digesters shows FOG co-digestion with municipal sludge increases methane yields and improves solids reduction. Study monitored 1.36-million-gallon digesters for 10 months, demonstrating stable operation with measurable benefits.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -61,18 +61,120 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-06"
+      "first_seen_date": "2026-10-07"
+    }
+  ],
+  "recent_news": [
+    {
+      "date": "2026-10-05",
+      "headline": "Orange County Restaurants Face Growing Challenges Managing Fats, Oils and Grease (FOG) From Daily Kitchen Activity",
+      "source": "EIN Presswire",
+      "source_url": "https://www.einpresswire.com/article/947369135/orange-county-restaurants-face-growing-challenges-managing-fats-oils-and-grease-fog-from-daily-kitchen-activity",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant",
+        "Renewable Fuels"
+      ],
+      "summary": "Orange County grease management experts emphasize proper FOG handling and best practices to prevent wastewater disruptions. Article covers proper used cooking oil separation, grease collection containers, and routine grease trap maintenance requirements.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-07"
     },
     {
-      "date": "2026-09-29",
-      "headline": "Driver shortage - Transfer station restricts construction waste",
-      "source": "The Mining Gazette",
-      "source_url": "https://www.mininggazette.com/news/local-news/2026/09/driver-shortage/",
+      "date": "2026-10-04",
+      "headline": "Walnut Creek Wastewater Treatment Plant Expansion",
+      "source": "InfraDay",
+      "source_url": "https://infraday.com/infrastructure-project/walnut-creek-wastewater-treatment-plant-expansion/",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure"
+      ],
+      "summary": "Expansion and modernization of Walnut Creek wastewater treatment facility in Austin, Texas, adding 25 million gallons per day of capacity and upgrading treatment processes. Austin Water broke ground in April 2026; project is currently in construction phase.",
+      "relevance_score": 3,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-07"
+    },
+    {
+      "date": "2026-10-02",
+      "headline": "DOT authorizes use of ASME standard for hazardous materials transport tanks",
+      "source": "Waste Today Magazine",
+      "source_url": "https://www.wastetodaymagazine.com/news/dot-authorizes-asme-standard-hazardous-material-transport-tanks/",
       "category": "Labor/Ops",
       "categories": [
         "Labor/Ops"
       ],
-      "summary": "Houghton County Materials Management facility in Michigan is down to a single driver due to an ongoing staffing vacancy, forcing the county transfer station to restrict or reject incoming construction and demolition waste.",
+      "summary": "Final DOT rule published September 28, 2026, modernizes requirements for cargo tank motor vehicles, cryogenic portable tanks and ton tanks. Updates provide regulatory flexibility and cost savings without compromising safety; voluntary compliance began Sept. 28 with enforcement starting Oct. 28.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-07"
+    },
+    {
+      "date": "2026-10-01",
+      "headline": "Meridian Waste Acquires Select Assets of Lafferty Disposal",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/industry-insights/mergers-acquisitions",
+      "category": "M&A",
+      "categories": [
+        "M&A"
+      ],
+      "summary": "Meridian Waste, an integrated non-hazardous solid waste services company, announced the acquisition of select assets of Lafferty Disposal, a residential waste collection company based in Meherrin, Virginia. The transaction closed on October 1, 2026.",
+      "relevance_score": 2,
+      "is_deal": true,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": 37.769,
+      "longitude": -78.17,
+      "zoom_hint": "wide",
+      "first_seen_date": "2026-10-07"
+    },
+    {
+      "date": "2026-09-30",
+      "headline": "Darling Ingredients' Waste-to-Fuel Model Underscores Renewable Fuels Leadership",
+      "source": "Kalkine Media",
+      "source_url": "https://kalkinemedia.com/us/stocks/consumer/why-is-darling-ingredients-nysedar-waste-to-fuel-model-in-focus",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels",
+        "Public Co."
+      ],
+      "summary": "Darling Ingredients operates in the collection and conversion of animal by-products, food waste and used cooking oil into sustainable ingredients and renewable fuels. The company participates in renewable diesel production through Diamond Green Diesel joint venture.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-07"
+    }
+  ],
+  "backfill_news": [
+    {
+      "date": "2026-09-29",
+      "headline": "Industry Remains Active on Acquisition Front",
+      "source": "Waste Today",
+      "source_url": "https://www.wastetodaymagazine.com/article/capital-insights-october-2026/",
+      "category": "M&A",
+      "categories": [
+        "M&A",
+        "Public Co."
+      ],
+      "summary": "Industry overview noting continued M&A activity in the environmental services sector, including GFL Environmental's September 1 acquisition of Secure Waste Infrastructure Corp. for approximately $4.64 billion enterprise value.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -80,84 +182,105 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-06"
+      "first_seen_date": "2026-10-07"
+    },
+    {
+      "date": "2026-09-24",
+      "headline": "GFL Environmental Sets Date for Q3 2026 Results and Investor Call",
+      "source": "GFL Environmental / TipRanks",
+      "source_url": "https://www.tipranks.com/news/company-announcements/gfl-environmental-sets-date-for-q3-2026-results-and-investor-call",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "GFL Environmental announced its third-quarter 2026 financial results will be released after market close on October 28, 2026, with an investor conference call scheduled for October 29, 2026 at 8:30 am ET. The company is a leading North American diversified environmental services provider specializing in solid waste management.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-07"
     }
   ],
-  "backfill_news": [],
   "new_deals": [
     {
       "date": "2026-10-01",
-      "target": "Tavia Acquisition Corp. (sponsor control)",
-      "acquirer": "Fog Cutter Holdings LLC",
+      "target": "Lafferty Disposal (select assets)",
+      "acquirer": "Meridian Waste",
       "sponsor": "",
-      "location": "Cayman Islands/United States",
+      "location": "Meherrin, Virginia, United States",
       "deal_type": "Add-On",
       "deal_size": "Undisclosed",
       "multiple": "N/A",
       "services": "",
-      "source": "TipRanks/Company Announcement",
-      "source_url": "https://tipranks.com/news/company-announcements/fog-cutter-takes-control-tavia-acquisition-revamps-leadership",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/industry-insights/mergers-acquisitions",
       "is_target_market": false,
       "target_market_name": null,
       "owner_classification": "Unknown",
-      "deal_summary": null,
+      "deal_summary": [
+        "Asset acquisition of residential waste collection operations"
+      ],
       "date_confidence": "verified",
-      "notes": "Fog Cutter Holdings LLC acquired significant share and unit interests in Tavia Acquisition Corp. (a SPAC) on October 1, 2026, assuming sponsor responsibilities and funding obligations. The SPAC subsequently underwent board and management restructuring with new leadership installed.",
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null
+      "notes": "Meridian Waste, an integrated non-hazardous solid waste services company, announced the acquisition of select assets of Lafferty Disposal, a residential waste collection company based in Meherrin, Virginia. The transaction closed on October 1, 2026.",
+      "latitude": 37.769,
+      "longitude": -78.17,
+      "zoom_hint": "wide"
     }
   ],
   "new_news": [
     {
-      "date": "2026-10-02",
-      "headline": "This Week in Waste: Top Stories Sept 28 \u2013 Oct 2",
-      "source": "Waste360",
-      "source_url": "https://www.waste360.com/industry-insights/this-week-in-waste-top-stories-sept-28-oct-2",
-      "category": "Industry Events",
+      "date": "2026-10-07",
+      "headline": "Unregulated Grease Discharge From San Diego Restaurants Raises Environmental Concern for Waterways and Sewers",
+      "source": "EIN Presswire",
+      "source_url": "https://www.einnews.com/pr_news/947826920/unregulated-grease-discharge-from-san-diego-restaurants-raises-environmental-concern-for-waterways-and-sewers",
+      "category": "Restaurant",
       "categories": [
-        "Industry Events",
-        "Public Co."
+        "Restaurant",
+        "Renewable Fuels"
       ],
-      "summary": "Weekly roundup of top waste industry news including RCon 2026 updates, WEF organizational changes, and industry developments. Focus on broader waste management sector news.",
-      "relevance_score": 2,
+      "summary": "Industry experts warn about improper FOG management from commercial kitchens entering wastewater systems. The article emphasizes the importance of clear procedures for used cooking oil, preventing grease from entering drains, and maintaining grease-control equipment.",
+      "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-06"
+      "first_seen_date": "2026-10-07"
     },
     {
-      "date": "2026-10-01",
-      "headline": "Fog Cutter Holdings Takes Over Tavia Acquisition Corp. Sponsor Role",
-      "source": "TipRanks/Company Announcement",
-      "source_url": "https://tipranks.com/news/company-announcements/fog-cutter-takes-control-tavia-acquisition-revamps-leadership",
-      "category": "M&A",
+      "date": "2026-10-06",
+      "headline": "The Grease Co Highlights Growing Grease Management Concerns as Aging SoCal Sewer Infrastructure Faces More Failures",
+      "source": "EIN Presswire",
+      "source_url": "https://www.einpresswire.com/article/947995348/the-grease-co-highlights-grease-management-concerns-as-aging-socal-sewer-infrastructure-faces-more-failures",
+      "category": "Restaurant",
       "categories": [
-        "M&A"
+        "Restaurant",
+        "Renewable Fuels"
       ],
-      "summary": "Fog Cutter Holdings LLC acquired significant share and unit interests in Tavia Acquisition Corp. (a SPAC) on October 1, 2026, assuming sponsor responsibilities and funding obligations. The SPAC subsequently underwent board and management restructuring with new leadership installed.",
-      "relevance_score": 2,
-      "is_deal": true,
+      "summary": "Southern California restaurant grease management challenges intensify as aging sewer infrastructure deteriorates under FOG pressure. The report highlights proper grease trap cleaning, maintenance, and safe used cooking oil storage as critical mitigation strategies.",
+      "relevance_score": 5,
+      "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-06"
+      "first_seen_date": "2026-10-07"
     },
     {
-      "date": "2026-09-30",
-      "headline": "South Bay Wastewater Plant Expansion Advances Amid Tijuana River Cleanup",
-      "source": "Environmental Protection",
-      "source_url": "https://eponline.com/articles/2026/09/30/south-bay-wastewater-plant-expansion-advances-amid-tijuana-river-cleanup.aspx",
-      "category": "Infrastructure",
+      "date": "2026-10-06",
+      "headline": "Performance and microbial community dynamics in full-scale anaerobic co-digesters fed with fats, oils and grease",
+      "source": "Bioresource Technology",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42235697/",
+      "category": "Technology",
       "categories": [
-        "Infrastructure"
+        "Technology"
       ],
-      "summary": "The South Bay International Wastewater Treatment Plant expansion project advanced during Q3 2026 with completion of the Parallel Gravity Line pipeline and award of the first major construction contract. The project will raise treatment capacity from 35 to 50 million gallons per day, overseen by the U.S. Section of the International Boundary and Water Commission.",
+      "summary": "Research published October 2026 on full-scale anaerobic digesters shows FOG co-digestion with municipal sludge increases methane yields and improves solids reduction. Study monitored 1.36-million-gallon digesters for 10 months, demonstrating stable operation with measurable benefits.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -165,18 +288,116 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-06"
+      "first_seen_date": "2026-10-07"
     },
     {
-      "date": "2026-09-29",
-      "headline": "Driver shortage - Transfer station restricts construction waste",
-      "source": "The Mining Gazette",
-      "source_url": "https://www.mininggazette.com/news/local-news/2026/09/driver-shortage/",
+      "date": "2026-10-05",
+      "headline": "Orange County Restaurants Face Growing Challenges Managing Fats, Oils and Grease (FOG) From Daily Kitchen Activity",
+      "source": "EIN Presswire",
+      "source_url": "https://www.einpresswire.com/article/947369135/orange-county-restaurants-face-growing-challenges-managing-fats-oils-and-grease-fog-from-daily-kitchen-activity",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant",
+        "Renewable Fuels"
+      ],
+      "summary": "Orange County grease management experts emphasize proper FOG handling and best practices to prevent wastewater disruptions. Article covers proper used cooking oil separation, grease collection containers, and routine grease trap maintenance requirements.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-07"
+    },
+    {
+      "date": "2026-10-04",
+      "headline": "Walnut Creek Wastewater Treatment Plant Expansion",
+      "source": "InfraDay",
+      "source_url": "https://infraday.com/infrastructure-project/walnut-creek-wastewater-treatment-plant-expansion/",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure"
+      ],
+      "summary": "Expansion and modernization of Walnut Creek wastewater treatment facility in Austin, Texas, adding 25 million gallons per day of capacity and upgrading treatment processes. Austin Water broke ground in April 2026; project is currently in construction phase.",
+      "relevance_score": 3,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-07"
+    },
+    {
+      "date": "2026-10-02",
+      "headline": "DOT authorizes use of ASME standard for hazardous materials transport tanks",
+      "source": "Waste Today Magazine",
+      "source_url": "https://www.wastetodaymagazine.com/news/dot-authorizes-asme-standard-hazardous-material-transport-tanks/",
       "category": "Labor/Ops",
       "categories": [
         "Labor/Ops"
       ],
-      "summary": "Houghton County Materials Management facility in Michigan is down to a single driver due to an ongoing staffing vacancy, forcing the county transfer station to restrict or reject incoming construction and demolition waste.",
+      "summary": "Final DOT rule published September 28, 2026, modernizes requirements for cargo tank motor vehicles, cryogenic portable tanks and ton tanks. Updates provide regulatory flexibility and cost savings without compromising safety; voluntary compliance began Sept. 28 with enforcement starting Oct. 28.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-07"
+    },
+    {
+      "date": "2026-10-01",
+      "headline": "Meridian Waste Acquires Select Assets of Lafferty Disposal",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/industry-insights/mergers-acquisitions",
+      "category": "M&A",
+      "categories": [
+        "M&A"
+      ],
+      "summary": "Meridian Waste, an integrated non-hazardous solid waste services company, announced the acquisition of select assets of Lafferty Disposal, a residential waste collection company based in Meherrin, Virginia. The transaction closed on October 1, 2026.",
+      "relevance_score": 2,
+      "is_deal": true,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": 37.769,
+      "longitude": -78.17,
+      "zoom_hint": "wide",
+      "first_seen_date": "2026-10-07"
+    },
+    {
+      "date": "2026-09-30",
+      "headline": "Darling Ingredients' Waste-to-Fuel Model Underscores Renewable Fuels Leadership",
+      "source": "Kalkine Media",
+      "source_url": "https://kalkinemedia.com/us/stocks/consumer/why-is-darling-ingredients-nysedar-waste-to-fuel-model-in-focus",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels",
+        "Public Co."
+      ],
+      "summary": "Darling Ingredients operates in the collection and conversion of animal by-products, food waste and used cooking oil into sustainable ingredients and renewable fuels. The company participates in renewable diesel production through Diamond Green Diesel joint venture.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-07"
+    },
+    {
+      "date": "2026-09-29",
+      "headline": "Industry Remains Active on Acquisition Front",
+      "source": "Waste Today",
+      "source_url": "https://www.wastetodaymagazine.com/article/capital-insights-october-2026/",
+      "category": "M&A",
+      "categories": [
+        "M&A",
+        "Public Co."
+      ],
+      "summary": "Industry overview noting continued M&A activity in the environmental services sector, including GFL Environmental's September 1 acquisition of Secure Waste Infrastructure Corp. for approximately $4.64 billion enterprise value.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -184,7 +405,26 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-06"
+      "first_seen_date": "2026-10-07"
+    },
+    {
+      "date": "2026-09-24",
+      "headline": "GFL Environmental Sets Date for Q3 2026 Results and Investor Call",
+      "source": "GFL Environmental / TipRanks",
+      "source_url": "https://www.tipranks.com/news/company-announcements/gfl-environmental-sets-date-for-q3-2026-results-and-investor-call",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "GFL Environmental announced its third-quarter 2026 financial results will be released after market close on October 28, 2026, with an investor conference call scheduled for October 29, 2026 at 8:30 am ET. The company is a leading North American diversified environmental services provider specializing in solid waste management.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-07"
     }
   ]
 }

@@ -1,5 +1,64 @@
 [
   {
+    "date": "2026-10-07",
+    "headline": "Unregulated Grease Discharge From San Diego Restaurants Raises Environmental Concern for Waterways and Sewers",
+    "source": "EIN Presswire",
+    "source_url": "https://www.einnews.com/pr_news/947826920/unregulated-grease-discharge-from-san-diego-restaurants-raises-environmental-concern-for-waterways-and-sewers",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant",
+      "Renewable Fuels"
+    ],
+    "summary": "Industry experts warn about improper FOG management from commercial kitchens entering wastewater systems. The article emphasizes the importance of clear procedures for used cooking oil, preventing grease from entering drains, and maintaining grease-control equipment.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-07"
+  },
+  {
+    "date": "2026-10-06",
+    "headline": "The Grease Co Highlights Growing Grease Management Concerns as Aging SoCal Sewer Infrastructure Faces More Failures",
+    "source": "EIN Presswire",
+    "source_url": "https://www.einpresswire.com/article/947995348/the-grease-co-highlights-grease-management-concerns-as-aging-socal-sewer-infrastructure-faces-more-failures",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant",
+      "Renewable Fuels"
+    ],
+    "summary": "Southern California restaurant grease management challenges intensify as aging sewer infrastructure deteriorates under FOG pressure. The report highlights proper grease trap cleaning, maintenance, and safe used cooking oil storage as critical mitigation strategies.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-07"
+  },
+  {
+    "date": "2026-10-06",
+    "headline": "Performance and microbial community dynamics in full-scale anaerobic co-digesters fed with fats, oils and grease",
+    "source": "Bioresource Technology",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42235697/",
+    "category": "Technology",
+    "categories": [
+      "Technology"
+    ],
+    "summary": "Research published October 2026 on full-scale anaerobic digesters shows FOG co-digestion with municipal sludge increases methane yields and improves solids reduction. Study monitored 1.36-million-gallon digesters for 10 months, demonstrating stable operation with measurable benefits.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-07"
+  },
+  {
     "date": "2026-10-05",
     "headline": "EPA Withdraws PFAS Wastewater Permitting Guidance",
     "source": "EHSLeaders",
@@ -17,6 +76,45 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-10-05"
+  },
+  {
+    "date": "2026-10-05",
+    "headline": "Orange County Restaurants Face Growing Challenges Managing Fats, Oils and Grease (FOG) From Daily Kitchen Activity",
+    "source": "EIN Presswire",
+    "source_url": "https://www.einpresswire.com/article/947369135/orange-county-restaurants-face-growing-challenges-managing-fats-oils-and-grease-fog-from-daily-kitchen-activity",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant",
+      "Renewable Fuels"
+    ],
+    "summary": "Orange County grease management experts emphasize proper FOG handling and best practices to prevent wastewater disruptions. Article covers proper used cooking oil separation, grease collection containers, and routine grease trap maintenance requirements.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-07"
+  },
+  {
+    "date": "2026-10-04",
+    "headline": "Walnut Creek Wastewater Treatment Plant Expansion",
+    "source": "InfraDay",
+    "source_url": "https://infraday.com/infrastructure-project/walnut-creek-wastewater-treatment-plant-expansion/",
+    "category": "Infrastructure",
+    "categories": [
+      "Infrastructure"
+    ],
+    "summary": "Expansion and modernization of Walnut Creek wastewater treatment facility in Austin, Texas, adding 25 million gallons per day of capacity and upgrading treatment processes. Austin Water broke ground in April 2026; project is currently in construction phase.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-07"
   },
   {
     "date": "2026-10-02",
@@ -37,6 +135,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-10-06"
+  },
+  {
+    "date": "2026-10-02",
+    "headline": "DOT authorizes use of ASME standard for hazardous materials transport tanks",
+    "source": "Waste Today Magazine",
+    "source_url": "https://www.wastetodaymagazine.com/news/dot-authorizes-asme-standard-hazardous-material-transport-tanks/",
+    "category": "Labor/Ops",
+    "categories": [
+      "Labor/Ops"
+    ],
+    "summary": "Final DOT rule published September 28, 2026, modernizes requirements for cargo tank motor vehicles, cryogenic portable tanks and ton tanks. Updates provide regulatory flexibility and cost savings without compromising safety; voluntary compliance began Sept. 28 with enforcement starting Oct. 28.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-07"
   },
   {
     "date": "2026-10-01",
@@ -94,6 +211,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-10-06"
+  },
+  {
+    "date": "2026-10-01",
+    "headline": "Meridian Waste Acquires Select Assets of Lafferty Disposal",
+    "source": "Waste360",
+    "source_url": "https://www.waste360.com/industry-insights/mergers-acquisitions",
+    "category": "M&A",
+    "categories": [
+      "M&A"
+    ],
+    "summary": "Meridian Waste, an integrated non-hazardous solid waste services company, announced the acquisition of select assets of Lafferty Disposal, a residential waste collection company based in Meherrin, Virginia. The transaction closed on October 1, 2026.",
+    "relevance_score": 2,
+    "is_deal": true,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": 37.769,
+    "longitude": -78.17,
+    "zoom_hint": "wide",
+    "first_seen_date": "2026-10-07"
   },
   {
     "date": "2026-09-30",
@@ -210,6 +346,26 @@
     "first_seen_date": "2026-10-06"
   },
   {
+    "date": "2026-09-30",
+    "headline": "Darling Ingredients' Waste-to-Fuel Model Underscores Renewable Fuels Leadership",
+    "source": "Kalkine Media",
+    "source_url": "https://kalkinemedia.com/us/stocks/consumer/why-is-darling-ingredients-nysedar-waste-to-fuel-model-in-focus",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels",
+      "Public Co."
+    ],
+    "summary": "Darling Ingredients operates in the collection and conversion of animal by-products, food waste and used cooking oil into sustainable ingredients and renewable fuels. The company participates in renewable diesel production through Diamond Green Diesel joint venture.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-07"
+  },
+  {
     "date": "2026-09-29",
     "headline": "The Great Restaurant Closure Wave of 2026: Who Is Shutting Doors and Why",
     "source": "QSR Pro",
@@ -322,6 +478,26 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-10-06"
+  },
+  {
+    "date": "2026-09-29",
+    "headline": "Industry Remains Active on Acquisition Front",
+    "source": "Waste Today",
+    "source_url": "https://www.wastetodaymagazine.com/article/capital-insights-october-2026/",
+    "category": "M&A",
+    "categories": [
+      "M&A",
+      "Public Co."
+    ],
+    "summary": "Industry overview noting continued M&A activity in the environmental services sector, including GFL Environmental's September 1 acquisition of Secure Waste Infrastructure Corp. for approximately $4.64 billion enterprise value.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-07"
   },
   {
     "date": "2026-09-28",
@@ -496,6 +672,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-10-01"
+  },
+  {
+    "date": "2026-09-24",
+    "headline": "GFL Environmental Sets Date for Q3 2026 Results and Investor Call",
+    "source": "GFL Environmental / TipRanks",
+    "source_url": "https://www.tipranks.com/news/company-announcements/gfl-environmental-sets-date-for-q3-2026-results-and-investor-call",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co."
+    ],
+    "summary": "GFL Environmental announced its third-quarter 2026 financial results will be released after market close on October 28, 2026, with an investor conference call scheduled for October 29, 2026 at 8:30 am ET. The company is a leading North American diversified environmental services provider specializing in solid waste management.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-07"
   },
   {
     "date": "2026-09-23",
@@ -8433,26 +8628,6 @@
     "first_seen_date": "2026-04-13",
     "categories": [
       "Industry Events"
-    ]
-  },
-  {
-    "date": "2026-04-10",
-    "headline": "Driver shortage causing workforce challenges for Roanoke's Solid Waste Management team",
-    "source": "WDBJ7",
-    "source_url": "https://www.wdbj7.com/2026/04/10/recycling-services-were-temporarily-adjusted-driver-shortage-causing-workforce-challenges-roanokes-solid-waste-management-team/",
-    "category": "Labor/Ops",
-    "summary": "The nationwide demand for CDL drivers is creating workforce challenges for Roanoke's Solid Waste Management operations, forcing temporary suspension of recycling services. The city is implementing crew prioritization and developing drop-off sites as interim solutions.",
-    "relevance_score": 2,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-04-10",
-    "categories": [
-      "Labor/Ops",
-      "Public Co."
     ]
   },
   {

@@ -22,6 +22,30 @@
     "zoom_hint": null
   },
   {
+    "date": "2026-10-01",
+    "target": "Lafferty Disposal (select assets)",
+    "acquirer": "Meridian Waste",
+    "sponsor": "",
+    "location": "Meherrin, Virginia, United States",
+    "deal_type": "Add-On",
+    "deal_size": "Undisclosed",
+    "multiple": "N/A",
+    "services": "",
+    "source": "Waste360",
+    "source_url": "https://www.waste360.com/industry-insights/mergers-acquisitions",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "Unknown",
+    "deal_summary": [
+      "Asset acquisition of residential waste collection operations"
+    ],
+    "date_confidence": "verified",
+    "notes": "Meridian Waste, an integrated non-hazardous solid waste services company, announced the acquisition of select assets of Lafferty Disposal, a residential waste collection company based in Meherrin, Virginia. The transaction closed on October 1, 2026.",
+    "latitude": 37.769,
+    "longitude": -78.17,
+    "zoom_hint": "wide"
+  },
+  {
     "date": "2026-09-22",
     "target": "Ninety Nine Restaurants",
     "acquirer": "Unknown",
