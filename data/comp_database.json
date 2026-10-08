@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-10-08",
+    "target": "CTH Sausage Casings Business",
+    "acquirer": "SARIA",
+    "sponsor": null,
+    "location": "United States",
+    "deal_type": "Add-On",
+    "deal_size": null,
+    "multiple": "N/A",
+    "services": "",
+    "source": "Darling Ingredients Investor Relations",
+    "source_url": "https://www.darlingii.com/investors",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "Unknown",
+    "deal_summary": [
+      "Sale of CTH branded sausage casing business"
+    ],
+    "date_confidence": "verified",
+    "notes": "Darling Ingredients completed the sale of its CTH branded sausage casing business to SARIA on October 5, 2026. The transaction was for an undisclosed amount and is part of the company's strategic portfolio optimization efforts.",
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
+  },
+  {
     "date": "2026-10-01",
     "target": "Tavia Acquisition Corp. (sponsor control)",
     "acquirer": "Fog Cutter Holdings LLC",

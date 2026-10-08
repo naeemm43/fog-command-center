@@ -1,59 +1,39 @@
 {
-  "timestamp": "2026-10-07T18:45:07Z",
-  "added_news_count": 10,
+  "timestamp": "2026-10-08T18:43:36Z",
+  "added_news_count": 8,
   "added_deals_count": 1,
-  "archived_count": 1,
+  "archived_count": 0,
   "new_today_news": [
     {
-      "date": "2026-10-07",
-      "headline": "Unregulated Grease Discharge From San Diego Restaurants Raises Environmental Concern for Waterways and Sewers",
-      "source": "EIN Presswire",
-      "source_url": "https://www.einnews.com/pr_news/947826920/unregulated-grease-discharge-from-san-diego-restaurants-raises-environmental-concern-for-waterways-and-sewers",
-      "category": "Restaurant",
+      "date": "2026-10-08",
+      "headline": "Darling Ingredients Closes Sale of CTH Sausage Casings Business to SARIA",
+      "source": "Darling Ingredients Investor Relations",
+      "source_url": "https://www.darlingii.com/investors",
+      "category": "Public Co.",
       "categories": [
-        "Restaurant",
-        "Renewable Fuels"
+        "Public Co."
       ],
-      "summary": "Industry experts warn about improper FOG management from commercial kitchens entering wastewater systems. The article emphasizes the importance of clear procedures for used cooking oil, preventing grease from entering drains, and maintaining grease-control equipment.",
-      "relevance_score": 5,
-      "is_deal": false,
+      "summary": "Darling Ingredients completed the sale of its CTH branded sausage casing business to SARIA on October 5, 2026. The transaction was for an undisclosed amount and is part of the company's strategic portfolio optimization efforts.",
+      "relevance_score": 4,
+      "is_deal": true,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-07"
+      "first_seen_date": "2026-10-08"
     },
     {
-      "date": "2026-10-06",
-      "headline": "The Grease Co Highlights Growing Grease Management Concerns as Aging SoCal Sewer Infrastructure Faces More Failures",
-      "source": "EIN Presswire",
-      "source_url": "https://www.einpresswire.com/article/947995348/the-grease-co-highlights-grease-management-concerns-as-aging-socal-sewer-infrastructure-faces-more-failures",
-      "category": "Restaurant",
+      "date": "2026-10-08",
+      "headline": "Cooking Oil Recycling Center Near Me: Drop-Off, Pickup & Rules",
+      "source": "Recycling Centre (industry guide)",
+      "source_url": "https://recycling-centre.org/cooking-oil-recycling-center/",
+      "category": "Labor/Ops",
       "categories": [
-        "Restaurant",
+        "Labor/Ops",
         "Renewable Fuels"
       ],
-      "summary": "Southern California restaurant grease management challenges intensify as aging sewer infrastructure deteriorates under FOG pressure. The report highlights proper grease trap cleaning, maintenance, and safe used cooking oil storage as critical mitigation strategies.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-07"
-    },
-    {
-      "date": "2026-10-06",
-      "headline": "Performance and microbial community dynamics in full-scale anaerobic co-digesters fed with fats, oils and grease",
-      "source": "Bioresource Technology",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42235697/",
-      "category": "Technology",
-      "categories": [
-        "Technology"
-      ],
-      "summary": "Research published October 2026 on full-scale anaerobic digesters shows FOG co-digestion with municipal sludge increases methane yields and improves solids reduction. Study monitored 1.36-million-gallon digesters for 10 months, demonstrating stable operation with measurable benefits.",
+      "summary": "Industry guide distinguishing yellow grease (UCO) from grease-trap waste collection streams, highlighting operational differences and contamination risks. Emphasizes proper segregation of collection streams to prevent service failures.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -61,98 +41,79 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-07"
+      "first_seen_date": "2026-10-08"
+    },
+    {
+      "date": "2026-10-08",
+      "headline": "Akron could avoid $300 million treatment facility under proposed consent decree change",
+      "source": "Ideastream",
+      "source_url": "https://www.ideastream.org/environment-energy/2026-10-08/akron-could-avoid-300-million-treatment-facility-under-proposed-consent-decree-change",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure",
+        "Regulatory"
+      ],
+      "summary": "Akron, Ohio is proposing to modify its federal sewer consent decree to avoid a $300 million Enhanced High Rate Treatment facility. Instead, the city would expand wastewater disinfection for two additional months annually (April and November). The city has completed 24 of 26 major projects totaling nearly $1 billion in ratepayer investments.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-08"
+    },
+    {
+      "date": "2026-10-07",
+      "headline": "Clean Harbors to Announce Third-Quarter 2026 Financial Results on October 28",
+      "source": "Business Wire",
+      "source_url": "https://ir.cleanharbors.com/news-releases/news-release-details/clean-harbors-announce-third-quarter-2026-financial-results",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "Clean Harbors announced it will release Q3 2026 financial results after market close on October 28, 2026, with a conference call on the same day at 9:00 a.m. ET. The announcement comes after the company completed two major acquisitions in early October.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-08"
     }
   ],
   "recent_news": [
     {
-      "date": "2026-10-05",
-      "headline": "Orange County Restaurants Face Growing Challenges Managing Fats, Oils and Grease (FOG) From Daily Kitchen Activity",
-      "source": "EIN Presswire",
-      "source_url": "https://www.einpresswire.com/article/947369135/orange-county-restaurants-face-growing-challenges-managing-fats-oils-and-grease-fog-from-daily-kitchen-activity",
-      "category": "Restaurant",
+      "date": "2026-10-06",
+      "headline": "Clean Harbors Completes EnviroServe and ES&H Acquisitions for $775 Million",
+      "source": "TipRanks",
+      "source_url": "https://www.tipranks.com/news/company-announcements/clean-harbors-expands-environmental-services-with-strategic-u-s-acquisitions",
+      "category": "Public Co.",
       "categories": [
-        "Restaurant",
-        "Renewable Fuels"
+        "Public Co."
       ],
-      "summary": "Orange County grease management experts emphasize proper FOG handling and best practices to prevent wastewater disruptions. Article covers proper used cooking oil separation, grease collection containers, and routine grease trap maintenance requirements.",
+      "summary": "Clean Harbors completed acquisitions of EnviroServe and ES&H for a combined $775 million, funded by available cash and a $600 million senior notes offering. The deals are expected to add approximately $340 million in annual revenue and $87 million in post-synergy adjusted EBITDA.",
       "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-07"
-    },
-    {
-      "date": "2026-10-04",
-      "headline": "Walnut Creek Wastewater Treatment Plant Expansion",
-      "source": "InfraDay",
-      "source_url": "https://infraday.com/infrastructure-project/walnut-creek-wastewater-treatment-plant-expansion/",
-      "category": "Infrastructure",
-      "categories": [
-        "Infrastructure"
-      ],
-      "summary": "Expansion and modernization of Walnut Creek wastewater treatment facility in Austin, Texas, adding 25 million gallons per day of capacity and upgrading treatment processes. Austin Water broke ground in April 2026; project is currently in construction phase.",
-      "relevance_score": 3,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-07"
-    },
-    {
-      "date": "2026-10-02",
-      "headline": "DOT authorizes use of ASME standard for hazardous materials transport tanks",
-      "source": "Waste Today Magazine",
-      "source_url": "https://www.wastetodaymagazine.com/news/dot-authorizes-asme-standard-hazardous-material-transport-tanks/",
-      "category": "Labor/Ops",
-      "categories": [
-        "Labor/Ops"
-      ],
-      "summary": "Final DOT rule published September 28, 2026, modernizes requirements for cargo tank motor vehicles, cryogenic portable tanks and ton tanks. Updates provide regulatory flexibility and cost savings without compromising safety; voluntary compliance began Sept. 28 with enforcement starting Oct. 28.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-07"
-    },
-    {
-      "date": "2026-10-01",
-      "headline": "Meridian Waste Acquires Select Assets of Lafferty Disposal",
-      "source": "Waste360",
-      "source_url": "https://www.waste360.com/industry-insights/mergers-acquisitions",
-      "category": "M&A",
-      "categories": [
-        "M&A"
-      ],
-      "summary": "Meridian Waste, an integrated non-hazardous solid waste services company, announced the acquisition of select assets of Lafferty Disposal, a residential waste collection company based in Meherrin, Virginia. The transaction closed on October 1, 2026.",
-      "relevance_score": 2,
       "is_deal": true,
       "is_target_market": false,
       "target_market_name": null,
-      "latitude": 37.769,
-      "longitude": -78.17,
-      "zoom_hint": "wide",
-      "first_seen_date": "2026-10-07"
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-08"
     },
     {
-      "date": "2026-09-30",
-      "headline": "Darling Ingredients' Waste-to-Fuel Model Underscores Renewable Fuels Leadership",
-      "source": "Kalkine Media",
-      "source_url": "https://kalkinemedia.com/us/stocks/consumer/why-is-darling-ingredients-nysedar-waste-to-fuel-model-in-focus",
-      "category": "Renewable Fuels",
+      "date": "2026-10-04",
+      "headline": "45Z Clean Fuel Production Credit: 2026 Guide",
+      "source": "Cenet Capital",
+      "source_url": "https://www.cenetcapital.com/blog/45z-tax-credit-guide",
+      "category": "ESG",
       "categories": [
-        "Renewable Fuels",
-        "Public Co."
+        "ESG",
+        "Renewable Fuels"
       ],
-      "summary": "Darling Ingredients operates in the collection and conversion of animal by-products, food waste and used cooking oil into sustainable ingredients and renewable fuels. The company participates in renewable diesel production through Diamond Green Diesel joint venture.",
+      "summary": "Comprehensive guide explaining Section 45Z tax credits for low-carbon transportation fuels, including biodiesel from UCO. Treasury issued proposed regulations on February 4, 2026, with September 8 emissions rate table update. Credits reach up to $1.00 per gallon for fuels meeting prevailing wage requirements, incentivizing grease and FOG conversion.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -160,40 +121,39 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-07"
+      "first_seen_date": "2026-10-08"
+    },
+    {
+      "date": "2026-10-01",
+      "headline": "Shining a Light on Food Waste",
+      "source": "Sustainable Carolina",
+      "source_url": "https://sustainable.unc.edu/2026/10/shining-a-light-on-food-waste/",
+      "category": "ESG",
+      "categories": [
+        "ESG"
+      ],
+      "summary": "University-led article on food waste as a sustainability issue, noting that food waste is the single most common material landfilled in the United States. While not industry-specific, it underscores ESG drivers that motivate waste diversion in food service operations.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-08"
     }
   ],
   "backfill_news": [
     {
       "date": "2026-09-29",
-      "headline": "Industry Remains Active on Acquisition Front",
-      "source": "Waste Today",
-      "source_url": "https://www.wastetodaymagazine.com/article/capital-insights-october-2026/",
-      "category": "M&A",
-      "categories": [
-        "M&A",
-        "Public Co."
-      ],
-      "summary": "Industry overview noting continued M&A activity in the environmental services sector, including GFL Environmental's September 1 acquisition of Secure Waste Infrastructure Corp. for approximately $4.64 billion enterprise value.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-07"
-    },
-    {
-      "date": "2026-09-24",
-      "headline": "GFL Environmental Sets Date for Q3 2026 Results and Investor Call",
-      "source": "GFL Environmental / TipRanks",
-      "source_url": "https://www.tipranks.com/news/company-announcements/gfl-environmental-sets-date-for-q3-2026-results-and-investor-call",
+      "headline": "GFL Environmental Declares Third-Quarter 2026 Cash Dividend",
+      "source": "PRNewswire",
+      "source_url": "https://www.stocktitan.net/news/GFL/gfl-environmental-inc-announces-quarterly-ei6wxeavcpk8.html",
       "category": "Public Co.",
       "categories": [
         "Public Co."
       ],
-      "summary": "GFL Environmental announced its third-quarter 2026 financial results will be released after market close on October 28, 2026, with an investor conference call scheduled for October 29, 2026 at 8:30 am ET. The company is a leading North American diversified environmental services provider specializing in solid waste management.",
+      "summary": "GFL Environmental declared a third-quarter 2026 cash dividend of US$0.0169 per subordinate and multiple voting share, payable October 30, 2026 to shareholders of record as of October 14, 2026.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -201,222 +161,163 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-07"
+      "first_seen_date": "2026-10-08"
     }
   ],
   "new_deals": [
     {
-      "date": "2026-10-01",
-      "target": "Lafferty Disposal (select assets)",
-      "acquirer": "Meridian Waste",
-      "sponsor": "",
-      "location": "Meherrin, Virginia, United States",
+      "date": "2026-10-08",
+      "target": "CTH Sausage Casings Business",
+      "acquirer": "SARIA",
+      "sponsor": null,
+      "location": "United States",
       "deal_type": "Add-On",
-      "deal_size": "Undisclosed",
+      "deal_size": null,
       "multiple": "N/A",
       "services": "",
-      "source": "Waste360",
-      "source_url": "https://www.waste360.com/industry-insights/mergers-acquisitions",
+      "source": "Darling Ingredients Investor Relations",
+      "source_url": "https://www.darlingii.com/investors",
       "is_target_market": false,
       "target_market_name": null,
       "owner_classification": "Unknown",
       "deal_summary": [
-        "Asset acquisition of residential waste collection operations"
+        "Sale of CTH branded sausage casing business"
       ],
       "date_confidence": "verified",
-      "notes": "Meridian Waste, an integrated non-hazardous solid waste services company, announced the acquisition of select assets of Lafferty Disposal, a residential waste collection company based in Meherrin, Virginia. The transaction closed on October 1, 2026.",
-      "latitude": 37.769,
-      "longitude": -78.17,
-      "zoom_hint": "wide"
+      "notes": "Darling Ingredients completed the sale of its CTH branded sausage casing business to SARIA on October 5, 2026. The transaction was for an undisclosed amount and is part of the company's strategic portfolio optimization efforts.",
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null
     }
   ],
   "new_news": [
     {
-      "date": "2026-10-07",
-      "headline": "Unregulated Grease Discharge From San Diego Restaurants Raises Environmental Concern for Waterways and Sewers",
-      "source": "EIN Presswire",
-      "source_url": "https://www.einnews.com/pr_news/947826920/unregulated-grease-discharge-from-san-diego-restaurants-raises-environmental-concern-for-waterways-and-sewers",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant",
-        "Renewable Fuels"
-      ],
-      "summary": "Industry experts warn about improper FOG management from commercial kitchens entering wastewater systems. The article emphasizes the importance of clear procedures for used cooking oil, preventing grease from entering drains, and maintaining grease-control equipment.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-07"
-    },
-    {
-      "date": "2026-10-06",
-      "headline": "The Grease Co Highlights Growing Grease Management Concerns as Aging SoCal Sewer Infrastructure Faces More Failures",
-      "source": "EIN Presswire",
-      "source_url": "https://www.einpresswire.com/article/947995348/the-grease-co-highlights-grease-management-concerns-as-aging-socal-sewer-infrastructure-faces-more-failures",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant",
-        "Renewable Fuels"
-      ],
-      "summary": "Southern California restaurant grease management challenges intensify as aging sewer infrastructure deteriorates under FOG pressure. The report highlights proper grease trap cleaning, maintenance, and safe used cooking oil storage as critical mitigation strategies.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-07"
-    },
-    {
-      "date": "2026-10-06",
-      "headline": "Performance and microbial community dynamics in full-scale anaerobic co-digesters fed with fats, oils and grease",
-      "source": "Bioresource Technology",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42235697/",
-      "category": "Technology",
-      "categories": [
-        "Technology"
-      ],
-      "summary": "Research published October 2026 on full-scale anaerobic digesters shows FOG co-digestion with municipal sludge increases methane yields and improves solids reduction. Study monitored 1.36-million-gallon digesters for 10 months, demonstrating stable operation with measurable benefits.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-07"
-    },
-    {
-      "date": "2026-10-05",
-      "headline": "Orange County Restaurants Face Growing Challenges Managing Fats, Oils and Grease (FOG) From Daily Kitchen Activity",
-      "source": "EIN Presswire",
-      "source_url": "https://www.einpresswire.com/article/947369135/orange-county-restaurants-face-growing-challenges-managing-fats-oils-and-grease-fog-from-daily-kitchen-activity",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant",
-        "Renewable Fuels"
-      ],
-      "summary": "Orange County grease management experts emphasize proper FOG handling and best practices to prevent wastewater disruptions. Article covers proper used cooking oil separation, grease collection containers, and routine grease trap maintenance requirements.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-07"
-    },
-    {
-      "date": "2026-10-04",
-      "headline": "Walnut Creek Wastewater Treatment Plant Expansion",
-      "source": "InfraDay",
-      "source_url": "https://infraday.com/infrastructure-project/walnut-creek-wastewater-treatment-plant-expansion/",
-      "category": "Infrastructure",
-      "categories": [
-        "Infrastructure"
-      ],
-      "summary": "Expansion and modernization of Walnut Creek wastewater treatment facility in Austin, Texas, adding 25 million gallons per day of capacity and upgrading treatment processes. Austin Water broke ground in April 2026; project is currently in construction phase.",
-      "relevance_score": 3,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-07"
-    },
-    {
-      "date": "2026-10-02",
-      "headline": "DOT authorizes use of ASME standard for hazardous materials transport tanks",
-      "source": "Waste Today Magazine",
-      "source_url": "https://www.wastetodaymagazine.com/news/dot-authorizes-asme-standard-hazardous-material-transport-tanks/",
-      "category": "Labor/Ops",
-      "categories": [
-        "Labor/Ops"
-      ],
-      "summary": "Final DOT rule published September 28, 2026, modernizes requirements for cargo tank motor vehicles, cryogenic portable tanks and ton tanks. Updates provide regulatory flexibility and cost savings without compromising safety; voluntary compliance began Sept. 28 with enforcement starting Oct. 28.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-07"
-    },
-    {
-      "date": "2026-10-01",
-      "headline": "Meridian Waste Acquires Select Assets of Lafferty Disposal",
-      "source": "Waste360",
-      "source_url": "https://www.waste360.com/industry-insights/mergers-acquisitions",
-      "category": "M&A",
-      "categories": [
-        "M&A"
-      ],
-      "summary": "Meridian Waste, an integrated non-hazardous solid waste services company, announced the acquisition of select assets of Lafferty Disposal, a residential waste collection company based in Meherrin, Virginia. The transaction closed on October 1, 2026.",
-      "relevance_score": 2,
-      "is_deal": true,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": 37.769,
-      "longitude": -78.17,
-      "zoom_hint": "wide",
-      "first_seen_date": "2026-10-07"
-    },
-    {
-      "date": "2026-09-30",
-      "headline": "Darling Ingredients' Waste-to-Fuel Model Underscores Renewable Fuels Leadership",
-      "source": "Kalkine Media",
-      "source_url": "https://kalkinemedia.com/us/stocks/consumer/why-is-darling-ingredients-nysedar-waste-to-fuel-model-in-focus",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels",
-        "Public Co."
-      ],
-      "summary": "Darling Ingredients operates in the collection and conversion of animal by-products, food waste and used cooking oil into sustainable ingredients and renewable fuels. The company participates in renewable diesel production through Diamond Green Diesel joint venture.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-07"
-    },
-    {
-      "date": "2026-09-29",
-      "headline": "Industry Remains Active on Acquisition Front",
-      "source": "Waste Today",
-      "source_url": "https://www.wastetodaymagazine.com/article/capital-insights-october-2026/",
-      "category": "M&A",
-      "categories": [
-        "M&A",
-        "Public Co."
-      ],
-      "summary": "Industry overview noting continued M&A activity in the environmental services sector, including GFL Environmental's September 1 acquisition of Secure Waste Infrastructure Corp. for approximately $4.64 billion enterprise value.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-07"
-    },
-    {
-      "date": "2026-09-24",
-      "headline": "GFL Environmental Sets Date for Q3 2026 Results and Investor Call",
-      "source": "GFL Environmental / TipRanks",
-      "source_url": "https://www.tipranks.com/news/company-announcements/gfl-environmental-sets-date-for-q3-2026-results-and-investor-call",
+      "date": "2026-10-08",
+      "headline": "Darling Ingredients Closes Sale of CTH Sausage Casings Business to SARIA",
+      "source": "Darling Ingredients Investor Relations",
+      "source_url": "https://www.darlingii.com/investors",
       "category": "Public Co.",
       "categories": [
         "Public Co."
       ],
-      "summary": "GFL Environmental announced its third-quarter 2026 financial results will be released after market close on October 28, 2026, with an investor conference call scheduled for October 29, 2026 at 8:30 am ET. The company is a leading North American diversified environmental services provider specializing in solid waste management.",
+      "summary": "Darling Ingredients completed the sale of its CTH branded sausage casing business to SARIA on October 5, 2026. The transaction was for an undisclosed amount and is part of the company's strategic portfolio optimization efforts.",
+      "relevance_score": 4,
+      "is_deal": true,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-08"
+    },
+    {
+      "date": "2026-10-08",
+      "headline": "Cooking Oil Recycling Center Near Me: Drop-Off, Pickup & Rules",
+      "source": "Recycling Centre (industry guide)",
+      "source_url": "https://recycling-centre.org/cooking-oil-recycling-center/",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops",
+        "Renewable Fuels"
+      ],
+      "summary": "Industry guide distinguishing yellow grease (UCO) from grease-trap waste collection streams, highlighting operational differences and contamination risks. Emphasizes proper segregation of collection streams to prevent service failures.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-08"
+    },
+    {
+      "date": "2026-10-08",
+      "headline": "Akron could avoid $300 million treatment facility under proposed consent decree change",
+      "source": "Ideastream",
+      "source_url": "https://www.ideastream.org/environment-energy/2026-10-08/akron-could-avoid-300-million-treatment-facility-under-proposed-consent-decree-change",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure",
+        "Regulatory"
+      ],
+      "summary": "Akron, Ohio is proposing to modify its federal sewer consent decree to avoid a $300 million Enhanced High Rate Treatment facility. Instead, the city would expand wastewater disinfection for two additional months annually (April and November). The city has completed 24 of 26 major projects totaling nearly $1 billion in ratepayer investments.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-08"
+    },
+    {
+      "date": "2026-10-07",
+      "headline": "Clean Harbors to Announce Third-Quarter 2026 Financial Results on October 28",
+      "source": "Business Wire",
+      "source_url": "https://ir.cleanharbors.com/news-releases/news-release-details/clean-harbors-announce-third-quarter-2026-financial-results",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "Clean Harbors announced it will release Q3 2026 financial results after market close on October 28, 2026, with a conference call on the same day at 9:00 a.m. ET. The announcement comes after the company completed two major acquisitions in early October.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-08"
+    },
+    {
+      "date": "2026-10-06",
+      "headline": "Clean Harbors Completes EnviroServe and ES&H Acquisitions for $775 Million",
+      "source": "TipRanks",
+      "source_url": "https://www.tipranks.com/news/company-announcements/clean-harbors-expands-environmental-services-with-strategic-u-s-acquisitions",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "Clean Harbors completed acquisitions of EnviroServe and ES&H for a combined $775 million, funded by available cash and a $600 million senior notes offering. The deals are expected to add approximately $340 million in annual revenue and $87 million in post-synergy adjusted EBITDA.",
+      "relevance_score": 5,
+      "is_deal": true,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-08"
+    },
+    {
+      "date": "2026-10-04",
+      "headline": "45Z Clean Fuel Production Credit: 2026 Guide",
+      "source": "Cenet Capital",
+      "source_url": "https://www.cenetcapital.com/blog/45z-tax-credit-guide",
+      "category": "ESG",
+      "categories": [
+        "ESG",
+        "Renewable Fuels"
+      ],
+      "summary": "Comprehensive guide explaining Section 45Z tax credits for low-carbon transportation fuels, including biodiesel from UCO. Treasury issued proposed regulations on February 4, 2026, with September 8 emissions rate table update. Credits reach up to $1.00 per gallon for fuels meeting prevailing wage requirements, incentivizing grease and FOG conversion.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-08"
+    },
+    {
+      "date": "2026-10-01",
+      "headline": "Shining a Light on Food Waste",
+      "source": "Sustainable Carolina",
+      "source_url": "https://sustainable.unc.edu/2026/10/shining-a-light-on-food-waste/",
+      "category": "ESG",
+      "categories": [
+        "ESG"
+      ],
+      "summary": "University-led article on food waste as a sustainability issue, noting that food waste is the single most common material landfilled in the United States. While not industry-specific, it underscores ESG drivers that motivate waste diversion in food service operations.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -424,7 +325,26 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-07"
+      "first_seen_date": "2026-10-08"
+    },
+    {
+      "date": "2026-09-29",
+      "headline": "GFL Environmental Declares Third-Quarter 2026 Cash Dividend",
+      "source": "PRNewswire",
+      "source_url": "https://www.stocktitan.net/news/GFL/gfl-environmental-inc-announces-quarterly-ei6wxeavcpk8.html",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "GFL Environmental declared a third-quarter 2026 cash dividend of US$0.0169 per subordinate and multiple voting share, payable October 30, 2026 to shareholders of record as of October 14, 2026.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-08"
     }
   ]
 }
