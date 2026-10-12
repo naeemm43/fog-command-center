@@ -1,5 +1,81 @@
 [
   {
+    "date": "2026-04-15",
+    "headline": "LJP Waste Solutions Acquires United Liquid Waste Recycling",
+    "source": "LJP Press Release",
+    "source_url": "https://ljpenviro.com",
+    "category": "M&A",
+    "summary": "GreyLion Capital-backed LJP Waste Solutions acquires United Liquid Waste Recycling, materially expanding its liquid-waste footprint across Wisconsin and the upper Midwest. First add-on of size for LJP's liquid-waste line and a notable consolidation move outside the named Big-4 platforms.",
+    "is_target_market": false,
+    "target_market_name": null,
+    "relevance_score": 5,
+    "is_deal": true,
+    "latitude": 44.268,
+    "longitude": -89.616,
+    "zoom_hint": "wide",
+    "first_seen_date": "2026-04-15",
+    "categories": [
+      "M&A"
+    ]
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Q1 2026 Biodiesel Prices and UCO Feedstock Markets Show Seasonal Volatility",
+    "source": "IMARC Group / Biodiesel Pricing Report",
+    "source_url": "https://www.imarcgroup.com/biodiesel-pricing-report",
+    "category": "Renewable Fuels",
+    "summary": "Biodiesel prices in Europe reached $1.50/KG in March 2026, with downward pricing movement of 2.0% between December and March. Europe's shift toward waste-based sources like used cooking oil and animal fats created cost pressure, with limited UCO availability supporting higher prices despite increased U.S. exports.",
+    "relevance_score": 4,
+    "is_target_market": false,
+    "target_market_name": null,
+    "is_deal": false,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-04-15",
+    "categories": [
+      "Renewable Fuels"
+    ]
+  },
+  {
+    "date": "2026-04-13",
+    "headline": "Folly Beach Considers Water and Sewer Fee Increase",
+    "source": "Live 5 News",
+    "source_url": "https://www.live5news.com/2026/04/13/folly-beach-considers-water-sewer-fee-increase/",
+    "category": "Infrastructure",
+    "summary": "Folly Beach City Council considered increasing water and sewer tap and impact fees after a 5-year rate study revealed they were lower than surrounding areas. The \u00be-inch water tap and impact fee would increase from $1,375 to $3,500.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": 33.856,
+    "longitude": -80.945,
+    "zoom_hint": "wide",
+    "first_seen_date": "2026-04-13",
+    "categories": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "date": "2026-04-13",
+    "headline": "Water Sector Groups Press Congress on Funding, PFAS and Affordability During Water Week",
+    "source": "WaterWorld",
+    "source_url": "https://www.waterworld.com/water-utility-management/news/55370453/water-sector-groups-press-congress-on-funding-pfas-and-affordability-during-water-week",
+    "category": "Industry Events",
+    "summary": "Water sector professionals including the Water Environment Federation held meetings with lawmakers during the annual National Water Policy Fly-In in Washington, D.C. Key topics included declining federal water infrastructure investment, PFAS management compliance costs, and the need for reauthorization of Drinking Water and Clean Water State Revolving Funds.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-04-13",
+    "categories": [
+      "Industry Events"
+    ]
+  },
+  {
     "date": "2026-04-10",
     "headline": "Driver shortage causing workforce challenges for Roanoke's Solid Waste Management team",
     "source": "WDBJ7",

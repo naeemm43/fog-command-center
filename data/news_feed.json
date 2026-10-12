@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-10-10",
+    "headline": "How Does a Grease Vacuum Truck Collect and Transport Waste?",
+    "source": "Theology Pathfinder (Derek DeMars blog)",
+    "source_url": "https://derekdemars.com/blog/how-does-a-grease-vacuum-truck-collect-and-transport-waste/",
+    "category": "Labor/Ops",
+    "categories": [
+      "Labor/Ops"
+    ],
+    "summary": "Educational overview of grease vacuum truck operations, pumping requirements (30\u201390 days depending on jurisdiction), and the role of these vehicles in handling FOG waste from food service establishments.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-12"
+  },
+  {
     "date": "2026-10-09",
     "headline": "SAF Production Doubled to Two Million Tonnes in 2025 as Industry Shifts Focus From Climate to Strategic Resilience",
     "source": "Avi-Go.com",
@@ -445,6 +464,25 @@
     "first_seen_date": "2026-10-09"
   },
   {
+    "date": "2026-10-02",
+    "headline": "ESG Regulations in the Food Sector: The 2026 Compliance Guide",
+    "source": "Orbisk",
+    "source_url": "https://orbisk.com/blog/esg-regulations-food-sector/",
+    "category": "ESG",
+    "categories": [
+      "ESG"
+    ],
+    "summary": "Guide detailing ESG compliance requirements for food operators, including waste reporting standards under CSRD/ESRS E5 and SASB Food & Beverage standards that mandate tracking of food waste generation and diversion rates.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-12"
+  },
+  {
     "date": "2026-10-01",
     "headline": "Amarillo City Council adopts 2026 tax rate, discusses water and sewer fees",
     "source": "Amarillo Tribune",
@@ -538,6 +576,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-10-08"
+  },
+  {
+    "date": "2026-10-01",
+    "headline": "Darling Ingredients Sets Third-Quarter 2026 Earnings Release for October 29",
+    "source": "Business Wire",
+    "source_url": "https://www.stocktitan.net/news/DAR/darling-ingredients-inc-to-release-third-quarter-2026-financial-mefpe3c8jgwc.html",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co."
+    ],
+    "summary": "Darling Ingredients (NYSE: DAR) announced it will release Q3 2026 financial results and host a conference call on October 29, 2026, at 9:00 a.m. ET.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-12"
   },
   {
     "date": "2026-09-30",
@@ -8879,82 +8936,6 @@
     "first_seen_date": "2026-04-17",
     "categories": [
       "Infrastructure"
-    ]
-  },
-  {
-    "date": "2026-04-15",
-    "headline": "LJP Waste Solutions Acquires United Liquid Waste Recycling",
-    "source": "LJP Press Release",
-    "source_url": "https://ljpenviro.com",
-    "category": "M&A",
-    "summary": "GreyLion Capital-backed LJP Waste Solutions acquires United Liquid Waste Recycling, materially expanding its liquid-waste footprint across Wisconsin and the upper Midwest. First add-on of size for LJP's liquid-waste line and a notable consolidation move outside the named Big-4 platforms.",
-    "is_target_market": false,
-    "target_market_name": null,
-    "relevance_score": 5,
-    "is_deal": true,
-    "latitude": 44.268,
-    "longitude": -89.616,
-    "zoom_hint": "wide",
-    "first_seen_date": "2026-04-15",
-    "categories": [
-      "M&A"
-    ]
-  },
-  {
-    "date": "2026-04-15",
-    "headline": "Q1 2026 Biodiesel Prices and UCO Feedstock Markets Show Seasonal Volatility",
-    "source": "IMARC Group / Biodiesel Pricing Report",
-    "source_url": "https://www.imarcgroup.com/biodiesel-pricing-report",
-    "category": "Renewable Fuels",
-    "summary": "Biodiesel prices in Europe reached $1.50/KG in March 2026, with downward pricing movement of 2.0% between December and March. Europe's shift toward waste-based sources like used cooking oil and animal fats created cost pressure, with limited UCO availability supporting higher prices despite increased U.S. exports.",
-    "relevance_score": 4,
-    "is_target_market": false,
-    "target_market_name": null,
-    "is_deal": false,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-04-15",
-    "categories": [
-      "Renewable Fuels"
-    ]
-  },
-  {
-    "date": "2026-04-13",
-    "headline": "Folly Beach Considers Water and Sewer Fee Increase",
-    "source": "Live 5 News",
-    "source_url": "https://www.live5news.com/2026/04/13/folly-beach-considers-water-sewer-fee-increase/",
-    "category": "Infrastructure",
-    "summary": "Folly Beach City Council considered increasing water and sewer tap and impact fees after a 5-year rate study revealed they were lower than surrounding areas. The \u00be-inch water tap and impact fee would increase from $1,375 to $3,500.",
-    "relevance_score": 2,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": 33.856,
-    "longitude": -80.945,
-    "zoom_hint": "wide",
-    "first_seen_date": "2026-04-13",
-    "categories": [
-      "Infrastructure"
-    ]
-  },
-  {
-    "date": "2026-04-13",
-    "headline": "Water Sector Groups Press Congress on Funding, PFAS and Affordability During Water Week",
-    "source": "WaterWorld",
-    "source_url": "https://www.waterworld.com/water-utility-management/news/55370453/water-sector-groups-press-congress-on-funding-pfas-and-affordability-during-water-week",
-    "category": "Industry Events",
-    "summary": "Water sector professionals including the Water Environment Federation held meetings with lawmakers during the annual National Water Policy Fly-In in Washington, D.C. Key topics included declining federal water infrastructure investment, PFAS management compliance costs, and the need for reauthorization of Drinking Water and Clean Water State Revolving Funds.",
-    "relevance_score": 4,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-04-13",
-    "categories": [
-      "Industry Events"
     ]
   },
   {
