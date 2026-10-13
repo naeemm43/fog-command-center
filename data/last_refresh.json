@@ -1,41 +1,215 @@
 {
-  "timestamp": "2026-10-12T21:09:25Z",
-  "added_news_count": 3,
+  "timestamp": "2026-10-13T19:08:26Z",
+  "added_news_count": 11,
   "added_deals_count": 0,
-  "archived_count": 4,
-  "new_today_news": [],
-  "recent_news": [
+  "archived_count": 0,
+  "new_today_news": [
     {
-      "date": "2026-10-10",
-      "headline": "How Does a Grease Vacuum Truck Collect and Transport Waste?",
-      "source": "Theology Pathfinder (Derek DeMars blog)",
-      "source_url": "https://derekdemars.com/blog/how-does-a-grease-vacuum-truck-collect-and-transport-waste/",
-      "category": "Labor/Ops",
+      "date": "2026-10-13",
+      "headline": "MIT startup says it can turn diesel trucks into cheaper hydrogen haulers \u2014 see it at Disrupt",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/13/mit-startup-says-it-can-turn-diesel-trucks-into-cheaper-hydrogen-haulers-see-it-at-disrupt",
+      "category": "Technology",
       "categories": [
-        "Labor/Ops"
+        "Technology"
       ],
-      "summary": "Educational overview of grease vacuum truck operations, pumping requirements (30\u201390 days depending on jurisdiction), and the role of these vehicles in handling FOG waste from food service establishments.",
-      "relevance_score": 4,
+      "summary": "LNK Energies, an MIT startup, announced technology that converts diesel trucks to hydrogen haulers by releasing hydrogen on-truck for combustion in modified internal combustion engines. The approach undercuts diesel on cost and addresses rising fuel prices affecting waste and logistics industries.",
+      "relevance_score": 3,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-12"
+      "first_seen_date": "2026-10-13"
+    },
+    {
+      "date": "2026-10-13",
+      "headline": "How Waste and Recycling Is Rethinking Capital Investment in an Uncertain Market",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/commodities-pricing/how-waste-and-recycling-is-rethinking-capital-investment-in-an-uncertain-market",
+      "category": "Industry Events",
+      "categories": [
+        "Industry Events"
+      ],
+      "summary": "Waste360 analysis on capital investment strategies in the waste and recycling industry during market uncertainty. The piece explores how companies are adapting their investment approaches.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-13"
+    },
+    {
+      "date": "2026-10-13",
+      "headline": "Pro Disposal receives loan from Closed Loop Partners",
+      "source": "Waste Today",
+      "source_url": "https://www.wastetodaymagazine.com/news/pro-disposal-receives-loan-from-closed-loop-partners/",
+      "category": "Industry Events",
+      "categories": [
+        "Industry Events"
+      ],
+      "summary": "Pro Disposal Inc. secured financing from Closed Loop Partners to increase sorting capacity for PET at its MRF facility in Pennsylvania.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-13"
+    },
+    {
+      "date": "2026-10-13",
+      "headline": "Notice 2026-53: What the New Section 45Z Guidance Means",
+      "source": "Mickelson & Company",
+      "source_url": "https://www.mickco.com/news-insights/section45zguidance-3xPpc",
+      "category": "ESG",
+      "categories": [
+        "ESG",
+        "Renewable Fuels"
+      ],
+      "summary": "U.S. Treasury and IRS released updated 45Z guidance and GREET model on September 8, 2026, with important changes for clean fuel credit calculations. The June 2026 GREET update added Canadian and Mexican UCO as distinct feedstocks alongside U.S. UCO for emissions calculations and Section 45Z credit determination.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-13"
+    }
+  ],
+  "recent_news": [
+    {
+      "date": "2026-10-11",
+      "headline": "Caterpillar announces $1B US compact equipment investment",
+      "source": "Waste Today",
+      "source_url": "https://www.wastetodaymagazine.com/news/caterpillar-north-carolina-compact-construction-equipment-investment-billion-dollars/",
+      "category": "Industry Events",
+      "categories": [
+        "Industry Events"
+      ],
+      "summary": "Caterpillar announced a $1 billion investment in compact construction equipment manufacturing in North Carolina, relevant to waste equipment sector.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-13"
+    },
+    {
+      "date": "2026-10-08",
+      "headline": "Oswego County Solid Waste Updates Fee Schedule for 2027",
+      "source": "EIN Presswire",
+      "source_url": "https://www.einpresswire.com/article/948343427/oswego-county-solid-waste-updates-fee-schedule-for-2027",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure"
+      ],
+      "summary": "Oswego County Solid Waste Department announces updates to fee schedule due to rising operation and maintenance costs. Changes affecting weighed tipping fees and recycling programs effective January 1, 2027.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-13"
+    },
+    {
+      "date": "2026-10-08",
+      "headline": "Foodservice Compliance in 2026: Waste and Temperature Rules",
+      "source": "Metafoodx",
+      "source_url": "https://www.metafoodx.com/post/foodservice-compliance-in-2026-how-metafoodx-helps-kitchens-meet-food-waste-and-temperature-regulat",
+      "category": "ESG",
+      "categories": [
+        "ESG"
+      ],
+      "summary": "Platforms now help operators document and report food waste data for ESG commitments tied to SDG 12.3 and Farm to Fork targets. UK and EU mandatory food waste reporting regulations for 2026 drive transparency requirements across foodservice operations.",
+      "relevance_score": 3,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-13"
+    },
+    {
+      "date": "2026-10-07",
+      "headline": "Clean Harbors Schedules Q3 2026 Earnings Call for October 28",
+      "source": "Business Wire / Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/clean-harbors-announce-third-quarter-123000419.html",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "Clean Harbors announced it will host its third-quarter 2026 financial results conference call on Wednesday, October 28, 2026 at 9:00 a.m. ET. Call will include discussion of business outlook and growth strategy.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-13"
     }
   ],
   "backfill_news": [
     {
       "date": "2026-10-02",
-      "headline": "ESG Regulations in the Food Sector: The 2026 Compliance Guide",
-      "source": "Orbisk",
-      "source_url": "https://orbisk.com/blog/esg-regulations-food-sector/",
-      "category": "ESG",
+      "headline": "Transfer-Station Manager: Tipping-Fee Increase Pushes Budget Line to About $164,000",
+      "source": "Citizen Portal",
+      "source_url": "https://citizenportal.ai/articles/10469679/maine/york-county/limerick/transferstation-manager-tippingfee-increase-pushes-that-line-up-to-about-164000",
+      "category": "Infrastructure",
       "categories": [
-        "ESG"
+        "Infrastructure"
       ],
-      "summary": "Guide detailing ESG compliance requirements for food operators, including waste reporting standards under CSRD/ESRS E5 and SASB Food & Beverage standards that mandate tracking of food waste generation and diversion rates.",
+      "summary": "EcoMaine's midyear fee change and higher tonnage (1,750 tons) raised Maine town's tipping-fee estimate to approximately $164,000. Transfer station tipping fees averaged $93.63 per ton for the year.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-13"
+    },
+    {
+      "date": "2026-09-30",
+      "headline": "EPA Information Collection Activities Notice for RFS Program Standards 2023-2025 (Renewal)",
+      "source": "Federal Register",
+      "source_url": "https://www.federalregister.gov/documents/2026/09/30/2026-20053/agency-information-collection-activities-proposed-information-collection-request-comment-request",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels",
+        "Regulatory"
+      ],
+      "summary": "The EPA issued a renewal notice for the RFS program information collection request, extending the currently approved ICR through September 30, 2026, with a 60-day public comment period ending August 28, 2026.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-13"
+    },
+    {
+      "date": "2026-09-30",
+      "headline": "Federal Water Program Reauthorization Urged After Funding Lapsed Sept. 30",
+      "source": "Water FM",
+      "source_url": "https://waterfm.com/federal-water-program-funding-lapsed-sept-30/",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure"
+      ],
+      "summary": "IIJA's five-year authorization and supplemental funding period ended September 30, 2026, creating significant uncertainty for states, utilities, and water infrastructure projects. Federal water infrastructure funding could fall approximately 60 percent from FY 2026 to FY 2027 without Congressional reauthorization.",
       "relevance_score": 3,
       "is_deal": false,
       "is_target_market": false,
@@ -43,59 +217,21 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-12"
-    },
-    {
-      "date": "2026-10-01",
-      "headline": "Darling Ingredients Sets Third-Quarter 2026 Earnings Release for October 29",
-      "source": "Business Wire",
-      "source_url": "https://www.stocktitan.net/news/DAR/darling-ingredients-inc-to-release-third-quarter-2026-financial-mefpe3c8jgwc.html",
-      "category": "Public Co.",
-      "categories": [
-        "Public Co."
-      ],
-      "summary": "Darling Ingredients (NYSE: DAR) announced it will release Q3 2026 financial results and host a conference call on October 29, 2026, at 9:00 a.m. ET.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-12"
+      "first_seen_date": "2026-10-13"
     }
   ],
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-10-10",
-      "headline": "How Does a Grease Vacuum Truck Collect and Transport Waste?",
-      "source": "Theology Pathfinder (Derek DeMars blog)",
-      "source_url": "https://derekdemars.com/blog/how-does-a-grease-vacuum-truck-collect-and-transport-waste/",
-      "category": "Labor/Ops",
+      "date": "2026-10-13",
+      "headline": "MIT startup says it can turn diesel trucks into cheaper hydrogen haulers \u2014 see it at Disrupt",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/13/mit-startup-says-it-can-turn-diesel-trucks-into-cheaper-hydrogen-haulers-see-it-at-disrupt",
+      "category": "Technology",
       "categories": [
-        "Labor/Ops"
+        "Technology"
       ],
-      "summary": "Educational overview of grease vacuum truck operations, pumping requirements (30\u201390 days depending on jurisdiction), and the role of these vehicles in handling FOG waste from food service establishments.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-12"
-    },
-    {
-      "date": "2026-10-02",
-      "headline": "ESG Regulations in the Food Sector: The 2026 Compliance Guide",
-      "source": "Orbisk",
-      "source_url": "https://orbisk.com/blog/esg-regulations-food-sector/",
-      "category": "ESG",
-      "categories": [
-        "ESG"
-      ],
-      "summary": "Guide detailing ESG compliance requirements for food operators, including waste reporting standards under CSRD/ESRS E5 and SASB Food & Beverage standards that mandate tracking of food waste generation and diversion rates.",
+      "summary": "LNK Energies, an MIT startup, announced technology that converts diesel trucks to hydrogen haulers by releasing hydrogen on-truck for combustion in modified internal combustion engines. The approach undercuts diesel on cost and addresses rising fuel prices affecting waste and logistics industries.",
       "relevance_score": 3,
       "is_deal": false,
       "is_target_market": false,
@@ -103,18 +239,57 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-12"
+      "first_seen_date": "2026-10-13"
     },
     {
-      "date": "2026-10-01",
-      "headline": "Darling Ingredients Sets Third-Quarter 2026 Earnings Release for October 29",
-      "source": "Business Wire",
-      "source_url": "https://www.stocktitan.net/news/DAR/darling-ingredients-inc-to-release-third-quarter-2026-financial-mefpe3c8jgwc.html",
-      "category": "Public Co.",
+      "date": "2026-10-13",
+      "headline": "How Waste and Recycling Is Rethinking Capital Investment in an Uncertain Market",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/commodities-pricing/how-waste-and-recycling-is-rethinking-capital-investment-in-an-uncertain-market",
+      "category": "Industry Events",
       "categories": [
-        "Public Co."
+        "Industry Events"
       ],
-      "summary": "Darling Ingredients (NYSE: DAR) announced it will release Q3 2026 financial results and host a conference call on October 29, 2026, at 9:00 a.m. ET.",
+      "summary": "Waste360 analysis on capital investment strategies in the waste and recycling industry during market uncertainty. The piece explores how companies are adapting their investment approaches.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-13"
+    },
+    {
+      "date": "2026-10-13",
+      "headline": "Pro Disposal receives loan from Closed Loop Partners",
+      "source": "Waste Today",
+      "source_url": "https://www.wastetodaymagazine.com/news/pro-disposal-receives-loan-from-closed-loop-partners/",
+      "category": "Industry Events",
+      "categories": [
+        "Industry Events"
+      ],
+      "summary": "Pro Disposal Inc. secured financing from Closed Loop Partners to increase sorting capacity for PET at its MRF facility in Pennsylvania.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-13"
+    },
+    {
+      "date": "2026-10-13",
+      "headline": "Notice 2026-53: What the New Section 45Z Guidance Means",
+      "source": "Mickelson & Company",
+      "source_url": "https://www.mickco.com/news-insights/section45zguidance-3xPpc",
+      "category": "ESG",
+      "categories": [
+        "ESG",
+        "Renewable Fuels"
+      ],
+      "summary": "U.S. Treasury and IRS released updated 45Z guidance and GREET model on September 8, 2026, with important changes for clean fuel credit calculations. The June 2026 GREET update added Canadian and Mexican UCO as distinct feedstocks alongside U.S. UCO for emissions calculations and Section 45Z credit determination.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -122,7 +297,141 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-12"
+      "first_seen_date": "2026-10-13"
+    },
+    {
+      "date": "2026-10-11",
+      "headline": "Caterpillar announces $1B US compact equipment investment",
+      "source": "Waste Today",
+      "source_url": "https://www.wastetodaymagazine.com/news/caterpillar-north-carolina-compact-construction-equipment-investment-billion-dollars/",
+      "category": "Industry Events",
+      "categories": [
+        "Industry Events"
+      ],
+      "summary": "Caterpillar announced a $1 billion investment in compact construction equipment manufacturing in North Carolina, relevant to waste equipment sector.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-13"
+    },
+    {
+      "date": "2026-10-08",
+      "headline": "Oswego County Solid Waste Updates Fee Schedule for 2027",
+      "source": "EIN Presswire",
+      "source_url": "https://www.einpresswire.com/article/948343427/oswego-county-solid-waste-updates-fee-schedule-for-2027",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure"
+      ],
+      "summary": "Oswego County Solid Waste Department announces updates to fee schedule due to rising operation and maintenance costs. Changes affecting weighed tipping fees and recycling programs effective January 1, 2027.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-13"
+    },
+    {
+      "date": "2026-10-08",
+      "headline": "Foodservice Compliance in 2026: Waste and Temperature Rules",
+      "source": "Metafoodx",
+      "source_url": "https://www.metafoodx.com/post/foodservice-compliance-in-2026-how-metafoodx-helps-kitchens-meet-food-waste-and-temperature-regulat",
+      "category": "ESG",
+      "categories": [
+        "ESG"
+      ],
+      "summary": "Platforms now help operators document and report food waste data for ESG commitments tied to SDG 12.3 and Farm to Fork targets. UK and EU mandatory food waste reporting regulations for 2026 drive transparency requirements across foodservice operations.",
+      "relevance_score": 3,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-13"
+    },
+    {
+      "date": "2026-10-07",
+      "headline": "Clean Harbors Schedules Q3 2026 Earnings Call for October 28",
+      "source": "Business Wire / Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/clean-harbors-announce-third-quarter-123000419.html",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "Clean Harbors announced it will host its third-quarter 2026 financial results conference call on Wednesday, October 28, 2026 at 9:00 a.m. ET. Call will include discussion of business outlook and growth strategy.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-13"
+    },
+    {
+      "date": "2026-10-02",
+      "headline": "Transfer-Station Manager: Tipping-Fee Increase Pushes Budget Line to About $164,000",
+      "source": "Citizen Portal",
+      "source_url": "https://citizenportal.ai/articles/10469679/maine/york-county/limerick/transferstation-manager-tippingfee-increase-pushes-that-line-up-to-about-164000",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure"
+      ],
+      "summary": "EcoMaine's midyear fee change and higher tonnage (1,750 tons) raised Maine town's tipping-fee estimate to approximately $164,000. Transfer station tipping fees averaged $93.63 per ton for the year.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-13"
+    },
+    {
+      "date": "2026-09-30",
+      "headline": "EPA Information Collection Activities Notice for RFS Program Standards 2023-2025 (Renewal)",
+      "source": "Federal Register",
+      "source_url": "https://www.federalregister.gov/documents/2026/09/30/2026-20053/agency-information-collection-activities-proposed-information-collection-request-comment-request",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels",
+        "Regulatory"
+      ],
+      "summary": "The EPA issued a renewal notice for the RFS program information collection request, extending the currently approved ICR through September 30, 2026, with a 60-day public comment period ending August 28, 2026.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-13"
+    },
+    {
+      "date": "2026-09-30",
+      "headline": "Federal Water Program Reauthorization Urged After Funding Lapsed Sept. 30",
+      "source": "Water FM",
+      "source_url": "https://waterfm.com/federal-water-program-funding-lapsed-sept-30/",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure"
+      ],
+      "summary": "IIJA's five-year authorization and supplemental funding period ended September 30, 2026, creating significant uncertainty for states, utilities, and water infrastructure projects. Federal water infrastructure funding could fall approximately 60 percent from FY 2026 to FY 2027 without Congressional reauthorization.",
+      "relevance_score": 3,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-13"
     }
   ]
 }
