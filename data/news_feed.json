@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-14",
+    "headline": "Crisp & Green to Acquire Mad Greens and Snappy Salads from Coors Family's Salad Collective",
+    "source": "Nation's Restaurant News",
+    "source_url": "https://www.nrn.com/fast-casual/crisp-green-acquire-mad-greens-snappy-salads-coors-family-s-salad-collective",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant",
+      "M&A"
+    ],
+    "summary": "Crisp & Green announced acquisition of Mad Greens and Snappy Salads from the Coors family-owned Salad Collective. The deal expands Crisp & Green's fast-casual salad portfolio. No financial terms disclosed.",
+    "relevance_score": 2,
+    "is_deal": true,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-14"
+  },
+  {
     "date": "2026-10-13",
     "headline": "MIT startup says it can turn diesel trucks into cheaper hydrogen haulers \u2014 see it at Disrupt",
     "source": "TechCrunch",
@@ -75,6 +95,101 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-10-13"
+  },
+  {
+    "date": "2026-10-13",
+    "headline": "In the Meritage Bankruptcy, Wendy's Finds Its Control Limited",
+    "source": "Restaurant Business",
+    "source_url": "https://www.restaurantbusinessonline.com/operations/meritage-bankruptcy-wendys-finds-its-control-limited",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "summary": "A dispute in the Meritage bankrupty shows how much struggling restaurants challenge franchisors' control over closure decisions. The case illustrates broader challenges Wendy's faces with struggling franchisee operations.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-14"
+  },
+  {
+    "date": "2026-10-13",
+    "headline": "In Charleston, Sysco Makes Its Case for Buying Restaurant Depot",
+    "source": "Restaurant Business",
+    "source_url": "https://www.restaurantbusinessonline.com/distribution/charleston-sysco-makes-its-case-buying-restaurant-depot",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "summary": "Giant broadline distributor Sysco argues that combining two industry suppliers would benefit restaurants, though critics continue pushing to block the deal. The FTC challenge continues over competitive concerns.",
+    "relevance_score": 2,
+    "is_deal": true,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-14"
+  },
+  {
+    "date": "2026-10-13",
+    "headline": "Joey Continues U.S. Expansion, Opening Second Location in Dallas",
+    "source": "Nation's Restaurant News",
+    "source_url": "https://www.nrn.com/news/joey-continues-its-us-expansion-opening-second-location-dallas",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "summary": "Canadian upscale restaurant Joey announced opening of a second U.S. location in Dallas. The expansion continues the brand's growth strategy in high-volume dining markets.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-14"
+  },
+  {
+    "date": "2026-10-13",
+    "headline": "Krispy Kreme Targets Shop Growth in New York",
+    "source": "Nation's Restaurant News",
+    "source_url": "https://www.nrn.com/franchising/krispy-kreme-targets-shop-growth-new-york",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "summary": "Krispy Kreme signed an agreement for 33 new shops in New York, representing a significant expansion in the region. The franchisor continues aggressive growth in key markets.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-14"
+  },
+  {
+    "date": "2026-10-13",
+    "headline": "Rules and Regs: USDA Loans to Improve Septic Systems and Wells Available Nationwide",
+    "source": "Pumper",
+    "source_url": "https://www.pumper.com/tags/onsite-septic-system",
+    "category": "Industry Events",
+    "categories": [
+      "Industry Events"
+    ],
+    "summary": "Coverage of regulatory updates regarding USDA loans for septic system improvements. Includes information on Jefferson County, New York grants for waterfront septic upgrades and Hurricane Helene repair funds.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-14"
   },
   {
     "date": "2026-10-11",
@@ -208,6 +323,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-10-09"
+  },
+  {
+    "date": "2026-10-09",
+    "headline": "Greasezilla Plans Nationwide Expansion to Combat FOG in Wastewater",
+    "source": "Water Tech Online",
+    "source_url": "https://watertechonline.com/industry/food-beverage/article/55410936/greaszilla-plans-nationwide-expansion-to-combat-grease-in-wastewater",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co."
+    ],
+    "summary": "West Virginia-based Greasezilla is expanding its FOG processing infrastructure to establish 30 regional hubs nationwide, targeting capacity of 15 million gallons annually. The company converts fats, oils, and grease into valuable biofuels using advanced separation technology.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-14"
   },
   {
     "date": "2026-10-08",
@@ -460,6 +594,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-10-08"
+  },
+  {
+    "date": "2026-10-06",
+    "headline": "Commercial Truck Insurance Costs: Why Rates Are Rising",
+    "source": "J.E.B. Insurance Services, LLC",
+    "source_url": "https://www.jebinsurance.com/commercial-truck-insurance-skyrocketing/",
+    "category": "Labor/Ops",
+    "categories": [
+      "Labor/Ops"
+    ],
+    "summary": "Commercial truck insurance costs continue to rise due to increased repair prices, medical costs, litigation, and severe crashes, affecting all motor carriers including waste haulers. Premium increases reflect both individual account history and insurer expectations of future losses, impacting operational expenses across the industry.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-14"
   },
   {
     "date": "2026-10-05",
@@ -767,6 +920,44 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-10-12"
+  },
+  {
+    "date": "2026-10-01",
+    "headline": "St. Louis Restaurants Opened and Closed in September 2026",
+    "source": "St. Louis Public Radio",
+    "source_url": "https://www.stlpr.org/economy-business/2026-10-01/st-louis-restaurants-opened-closed-september-2026",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "summary": "St. Louis saw multiple restaurant openings and closings in September 2026, including closures of Grace Meat + Three, Ozzy's Market, and Chao Baan, plus openings of Coffeestamp, Sur Lie, and multiple other locations. The market shows mixed activity.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-14"
+  },
+  {
+    "date": "2026-10-01",
+    "headline": "Industry Spotlight: More Restaurants Struggling with Profitability, and Technology Isn't Always Helping",
+    "source": "American Recruiters",
+    "source_url": "https://americanrecruiters.com/blog/global-foodservice-news-oct-1-2026/",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "summary": "National Restaurant Association reports one-third of restaurant operators were not profitable in the first half of 2026. Weak traffic, particularly among low-income consumers, and technology shortfalls continue to pressure margins despite recent industry optimism.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-14"
   },
   {
     "date": "2026-09-30",
@@ -9128,25 +9319,6 @@
     "first_seen_date": "2026-04-18",
     "categories": [
       "Renewable Fuels"
-    ]
-  },
-  {
-    "date": "2026-04-17",
-    "headline": "Weirton Wastewater Plant Upgrade Nears Completion at 96%",
-    "source": "Herald Star",
-    "source_url": "https://www.heraldstaronline.com/news/local-news/2026/04/weirton-wastewater-plant-upgrade-nears-completion/",
-    "category": "Infrastructure",
-    "summary": "Weirton's $38 million wastewater treatment plant upgrade project has reached 96% completion, designed to expand treatment capacity from 4 to 8 MGD. Final payments are expected in late May. The project was triggered by interest from a large manufacturing company looking to locate in the city.",
-    "relevance_score": 2,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-04-17",
-    "categories": [
-      "Infrastructure"
     ]
   },
   {

@@ -1,38 +1,39 @@
 {
-  "timestamp": "2026-10-13T19:08:26Z",
-  "added_news_count": 11,
-  "added_deals_count": 0,
-  "archived_count": 0,
+  "timestamp": "2026-10-14T16:55:55Z",
+  "added_news_count": 10,
+  "added_deals_count": 2,
+  "archived_count": 1,
   "new_today_news": [
     {
-      "date": "2026-10-13",
-      "headline": "MIT startup says it can turn diesel trucks into cheaper hydrogen haulers \u2014 see it at Disrupt",
-      "source": "TechCrunch",
-      "source_url": "https://techcrunch.com/2026/10/13/mit-startup-says-it-can-turn-diesel-trucks-into-cheaper-hydrogen-haulers-see-it-at-disrupt",
-      "category": "Technology",
+      "date": "2026-10-14",
+      "headline": "Crisp & Green to Acquire Mad Greens and Snappy Salads from Coors Family's Salad Collective",
+      "source": "Nation's Restaurant News",
+      "source_url": "https://www.nrn.com/fast-casual/crisp-green-acquire-mad-greens-snappy-salads-coors-family-s-salad-collective",
+      "category": "Restaurant",
       "categories": [
-        "Technology"
+        "Restaurant",
+        "M&A"
       ],
-      "summary": "LNK Energies, an MIT startup, announced technology that converts diesel trucks to hydrogen haulers by releasing hydrogen on-truck for combustion in modified internal combustion engines. The approach undercuts diesel on cost and addresses rising fuel prices affecting waste and logistics industries.",
-      "relevance_score": 3,
-      "is_deal": false,
+      "summary": "Crisp & Green announced acquisition of Mad Greens and Snappy Salads from the Coors family-owned Salad Collective. The deal expands Crisp & Green's fast-casual salad portfolio. No financial terms disclosed.",
+      "relevance_score": 2,
+      "is_deal": true,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-13"
+      "first_seen_date": "2026-10-14"
     },
     {
       "date": "2026-10-13",
-      "headline": "How Waste and Recycling Is Rethinking Capital Investment in an Uncertain Market",
-      "source": "Waste360",
-      "source_url": "https://www.waste360.com/commodities-pricing/how-waste-and-recycling-is-rethinking-capital-investment-in-an-uncertain-market",
-      "category": "Industry Events",
+      "headline": "In the Meritage Bankruptcy, Wendy's Finds Its Control Limited",
+      "source": "Restaurant Business",
+      "source_url": "https://www.restaurantbusinessonline.com/operations/meritage-bankruptcy-wendys-finds-its-control-limited",
+      "category": "Restaurant",
       "categories": [
-        "Industry Events"
+        "Restaurant"
       ],
-      "summary": "Waste360 analysis on capital investment strategies in the waste and recycling industry during market uncertainty. The piece explores how companies are adapting their investment approaches.",
+      "summary": "A dispute in the Meritage bankrupty shows how much struggling restaurants challenge franchisors' control over closure decisions. The case illustrates broader challenges Wendy's faces with struggling franchisee operations.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -40,18 +41,37 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-13"
+      "first_seen_date": "2026-10-14"
     },
     {
       "date": "2026-10-13",
-      "headline": "Pro Disposal receives loan from Closed Loop Partners",
-      "source": "Waste Today",
-      "source_url": "https://www.wastetodaymagazine.com/news/pro-disposal-receives-loan-from-closed-loop-partners/",
-      "category": "Industry Events",
+      "headline": "In Charleston, Sysco Makes Its Case for Buying Restaurant Depot",
+      "source": "Restaurant Business",
+      "source_url": "https://www.restaurantbusinessonline.com/distribution/charleston-sysco-makes-its-case-buying-restaurant-depot",
+      "category": "Restaurant",
       "categories": [
-        "Industry Events"
+        "Restaurant"
       ],
-      "summary": "Pro Disposal Inc. secured financing from Closed Loop Partners to increase sorting capacity for PET at its MRF facility in Pennsylvania.",
+      "summary": "Giant broadline distributor Sysco argues that combining two industry suppliers would benefit restaurants, though critics continue pushing to block the deal. The FTC challenge continues over competitive concerns.",
+      "relevance_score": 2,
+      "is_deal": true,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-14"
+    },
+    {
+      "date": "2026-10-13",
+      "headline": "Joey Continues U.S. Expansion, Opening Second Location in Dallas",
+      "source": "Nation's Restaurant News",
+      "source_url": "https://www.nrn.com/news/joey-continues-its-us-expansion-opening-second-location-dallas",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Canadian upscale restaurant Joey announced opening of a second U.S. location in Dallas. The expansion continues the brand's growth strategy in high-volume dining markets.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -59,237 +79,58 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-13"
+      "first_seen_date": "2026-10-14"
     },
     {
       "date": "2026-10-13",
-      "headline": "Notice 2026-53: What the New Section 45Z Guidance Means",
-      "source": "Mickelson & Company",
-      "source_url": "https://www.mickco.com/news-insights/section45zguidance-3xPpc",
-      "category": "ESG",
+      "headline": "Krispy Kreme Targets Shop Growth in New York",
+      "source": "Nation's Restaurant News",
+      "source_url": "https://www.nrn.com/franchising/krispy-kreme-targets-shop-growth-new-york",
+      "category": "Restaurant",
       "categories": [
-        "ESG",
-        "Renewable Fuels"
+        "Restaurant"
       ],
-      "summary": "U.S. Treasury and IRS released updated 45Z guidance and GREET model on September 8, 2026, with important changes for clean fuel credit calculations. The June 2026 GREET update added Canadian and Mexican UCO as distinct feedstocks alongside U.S. UCO for emissions calculations and Section 45Z credit determination.",
-      "relevance_score": 5,
+      "summary": "Krispy Kreme signed an agreement for 33 new shops in New York, representing a significant expansion in the region. The franchisor continues aggressive growth in key markets.",
+      "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-13"
+      "first_seen_date": "2026-10-14"
+    },
+    {
+      "date": "2026-10-13",
+      "headline": "Rules and Regs: USDA Loans to Improve Septic Systems and Wells Available Nationwide",
+      "source": "Pumper",
+      "source_url": "https://www.pumper.com/tags/onsite-septic-system",
+      "category": "Industry Events",
+      "categories": [
+        "Industry Events"
+      ],
+      "summary": "Coverage of regulatory updates regarding USDA loans for septic system improvements. Includes information on Jefferson County, New York grants for waterfront septic upgrades and Hurricane Helene repair funds.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-14"
     }
   ],
   "recent_news": [
     {
-      "date": "2026-10-11",
-      "headline": "Caterpillar announces $1B US compact equipment investment",
-      "source": "Waste Today",
-      "source_url": "https://www.wastetodaymagazine.com/news/caterpillar-north-carolina-compact-construction-equipment-investment-billion-dollars/",
-      "category": "Industry Events",
-      "categories": [
-        "Industry Events"
-      ],
-      "summary": "Caterpillar announced a $1 billion investment in compact construction equipment manufacturing in North Carolina, relevant to waste equipment sector.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-13"
-    },
-    {
-      "date": "2026-10-08",
-      "headline": "Oswego County Solid Waste Updates Fee Schedule for 2027",
-      "source": "EIN Presswire",
-      "source_url": "https://www.einpresswire.com/article/948343427/oswego-county-solid-waste-updates-fee-schedule-for-2027",
-      "category": "Infrastructure",
-      "categories": [
-        "Infrastructure"
-      ],
-      "summary": "Oswego County Solid Waste Department announces updates to fee schedule due to rising operation and maintenance costs. Changes affecting weighed tipping fees and recycling programs effective January 1, 2027.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-13"
-    },
-    {
-      "date": "2026-10-08",
-      "headline": "Foodservice Compliance in 2026: Waste and Temperature Rules",
-      "source": "Metafoodx",
-      "source_url": "https://www.metafoodx.com/post/foodservice-compliance-in-2026-how-metafoodx-helps-kitchens-meet-food-waste-and-temperature-regulat",
-      "category": "ESG",
-      "categories": [
-        "ESG"
-      ],
-      "summary": "Platforms now help operators document and report food waste data for ESG commitments tied to SDG 12.3 and Farm to Fork targets. UK and EU mandatory food waste reporting regulations for 2026 drive transparency requirements across foodservice operations.",
-      "relevance_score": 3,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-13"
-    },
-    {
-      "date": "2026-10-07",
-      "headline": "Clean Harbors Schedules Q3 2026 Earnings Call for October 28",
-      "source": "Business Wire / Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/markets/stocks/articles/clean-harbors-announce-third-quarter-123000419.html",
+      "date": "2026-10-09",
+      "headline": "Greasezilla Plans Nationwide Expansion to Combat FOG in Wastewater",
+      "source": "Water Tech Online",
+      "source_url": "https://watertechonline.com/industry/food-beverage/article/55410936/greaszilla-plans-nationwide-expansion-to-combat-grease-in-wastewater",
       "category": "Public Co.",
       "categories": [
         "Public Co."
       ],
-      "summary": "Clean Harbors announced it will host its third-quarter 2026 financial results conference call on Wednesday, October 28, 2026 at 9:00 a.m. ET. Call will include discussion of business outlook and growth strategy.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-13"
-    }
-  ],
-  "backfill_news": [
-    {
-      "date": "2026-10-02",
-      "headline": "Transfer-Station Manager: Tipping-Fee Increase Pushes Budget Line to About $164,000",
-      "source": "Citizen Portal",
-      "source_url": "https://citizenportal.ai/articles/10469679/maine/york-county/limerick/transferstation-manager-tippingfee-increase-pushes-that-line-up-to-about-164000",
-      "category": "Infrastructure",
-      "categories": [
-        "Infrastructure"
-      ],
-      "summary": "EcoMaine's midyear fee change and higher tonnage (1,750 tons) raised Maine town's tipping-fee estimate to approximately $164,000. Transfer station tipping fees averaged $93.63 per ton for the year.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-13"
-    },
-    {
-      "date": "2026-09-30",
-      "headline": "EPA Information Collection Activities Notice for RFS Program Standards 2023-2025 (Renewal)",
-      "source": "Federal Register",
-      "source_url": "https://www.federalregister.gov/documents/2026/09/30/2026-20053/agency-information-collection-activities-proposed-information-collection-request-comment-request",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels",
-        "Regulatory"
-      ],
-      "summary": "The EPA issued a renewal notice for the RFS program information collection request, extending the currently approved ICR through September 30, 2026, with a 60-day public comment period ending August 28, 2026.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-13"
-    },
-    {
-      "date": "2026-09-30",
-      "headline": "Federal Water Program Reauthorization Urged After Funding Lapsed Sept. 30",
-      "source": "Water FM",
-      "source_url": "https://waterfm.com/federal-water-program-funding-lapsed-sept-30/",
-      "category": "Infrastructure",
-      "categories": [
-        "Infrastructure"
-      ],
-      "summary": "IIJA's five-year authorization and supplemental funding period ended September 30, 2026, creating significant uncertainty for states, utilities, and water infrastructure projects. Federal water infrastructure funding could fall approximately 60 percent from FY 2026 to FY 2027 without Congressional reauthorization.",
-      "relevance_score": 3,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-13"
-    }
-  ],
-  "new_deals": [],
-  "new_news": [
-    {
-      "date": "2026-10-13",
-      "headline": "MIT startup says it can turn diesel trucks into cheaper hydrogen haulers \u2014 see it at Disrupt",
-      "source": "TechCrunch",
-      "source_url": "https://techcrunch.com/2026/10/13/mit-startup-says-it-can-turn-diesel-trucks-into-cheaper-hydrogen-haulers-see-it-at-disrupt",
-      "category": "Technology",
-      "categories": [
-        "Technology"
-      ],
-      "summary": "LNK Energies, an MIT startup, announced technology that converts diesel trucks to hydrogen haulers by releasing hydrogen on-truck for combustion in modified internal combustion engines. The approach undercuts diesel on cost and addresses rising fuel prices affecting waste and logistics industries.",
-      "relevance_score": 3,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-13"
-    },
-    {
-      "date": "2026-10-13",
-      "headline": "How Waste and Recycling Is Rethinking Capital Investment in an Uncertain Market",
-      "source": "Waste360",
-      "source_url": "https://www.waste360.com/commodities-pricing/how-waste-and-recycling-is-rethinking-capital-investment-in-an-uncertain-market",
-      "category": "Industry Events",
-      "categories": [
-        "Industry Events"
-      ],
-      "summary": "Waste360 analysis on capital investment strategies in the waste and recycling industry during market uncertainty. The piece explores how companies are adapting their investment approaches.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-13"
-    },
-    {
-      "date": "2026-10-13",
-      "headline": "Pro Disposal receives loan from Closed Loop Partners",
-      "source": "Waste Today",
-      "source_url": "https://www.wastetodaymagazine.com/news/pro-disposal-receives-loan-from-closed-loop-partners/",
-      "category": "Industry Events",
-      "categories": [
-        "Industry Events"
-      ],
-      "summary": "Pro Disposal Inc. secured financing from Closed Loop Partners to increase sorting capacity for PET at its MRF facility in Pennsylvania.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-13"
-    },
-    {
-      "date": "2026-10-13",
-      "headline": "Notice 2026-53: What the New Section 45Z Guidance Means",
-      "source": "Mickelson & Company",
-      "source_url": "https://www.mickco.com/news-insights/section45zguidance-3xPpc",
-      "category": "ESG",
-      "categories": [
-        "ESG",
-        "Renewable Fuels"
-      ],
-      "summary": "U.S. Treasury and IRS released updated 45Z guidance and GREET model on September 8, 2026, with important changes for clean fuel credit calculations. The June 2026 GREET update added Canadian and Mexican UCO as distinct feedstocks alongside U.S. UCO for emissions calculations and Section 45Z credit determination.",
+      "summary": "West Virginia-based Greasezilla is expanding its FOG processing infrastructure to establish 30 regional hubs nationwide, targeting capacity of 15 million gallons annually. The company converts fats, oils, and grease into valuable biofuels using advanced separation technology.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -297,75 +138,259 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-13"
+      "first_seen_date": "2026-10-14"
+    }
+  ],
+  "backfill_news": [
+    {
+      "date": "2026-10-06",
+      "headline": "Commercial Truck Insurance Costs: Why Rates Are Rising",
+      "source": "J.E.B. Insurance Services, LLC",
+      "source_url": "https://www.jebinsurance.com/commercial-truck-insurance-skyrocketing/",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops"
+      ],
+      "summary": "Commercial truck insurance costs continue to rise due to increased repair prices, medical costs, litigation, and severe crashes, affecting all motor carriers including waste haulers. Premium increases reflect both individual account history and insurer expectations of future losses, impacting operational expenses across the industry.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-14"
     },
     {
-      "date": "2026-10-11",
-      "headline": "Caterpillar announces $1B US compact equipment investment",
-      "source": "Waste Today",
-      "source_url": "https://www.wastetodaymagazine.com/news/caterpillar-north-carolina-compact-construction-equipment-investment-billion-dollars/",
+      "date": "2026-10-01",
+      "headline": "St. Louis Restaurants Opened and Closed in September 2026",
+      "source": "St. Louis Public Radio",
+      "source_url": "https://www.stlpr.org/economy-business/2026-10-01/st-louis-restaurants-opened-closed-september-2026",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "St. Louis saw multiple restaurant openings and closings in September 2026, including closures of Grace Meat + Three, Ozzy's Market, and Chao Baan, plus openings of Coffeestamp, Sur Lie, and multiple other locations. The market shows mixed activity.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-14"
+    },
+    {
+      "date": "2026-10-01",
+      "headline": "Industry Spotlight: More Restaurants Struggling with Profitability, and Technology Isn't Always Helping",
+      "source": "American Recruiters",
+      "source_url": "https://americanrecruiters.com/blog/global-foodservice-news-oct-1-2026/",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "National Restaurant Association reports one-third of restaurant operators were not profitable in the first half of 2026. Weak traffic, particularly among low-income consumers, and technology shortfalls continue to pressure margins despite recent industry optimism.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-14"
+    }
+  ],
+  "new_deals": [
+    {
+      "date": "2026-10-14",
+      "target": "Mad Greens, Snappy Salads",
+      "acquirer": "Crisp & Green",
+      "sponsor": "Coors Family (Salad Collective)",
+      "location": "United States",
+      "deal_type": "Add-On",
+      "deal_size": "Undisclosed",
+      "multiple": "N/A",
+      "services": "",
+      "source": "Nation's Restaurant News",
+      "source_url": "https://www.nrn.com/fast-casual/crisp-green-acquire-mad-greens-snappy-salads-coors-family-s-salad-collective",
+      "is_target_market": false,
+      "target_market_name": null,
+      "owner_classification": "Unknown",
+      "deal_summary": null,
+      "date_confidence": "verified",
+      "notes": "Crisp & Green announced acquisition of Mad Greens and Snappy Salads from the Coors family-owned Salad Collective. The deal expands Crisp & Green's fast-casual salad portfolio. No financial terms disclosed.",
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null
+    },
+    {
+      "date": "2026-10-13",
+      "target": "Restaurant Depot",
+      "acquirer": "Sysco",
+      "sponsor": "",
+      "location": "United States",
+      "deal_type": "Add-On",
+      "deal_size": "Undisclosed",
+      "multiple": "N/A",
+      "services": "",
+      "source": "Restaurant Business",
+      "source_url": "https://www.restaurantbusinessonline.com/distribution/charleston-sysco-makes-its-case-buying-restaurant-depot",
+      "is_target_market": false,
+      "target_market_name": null,
+      "owner_classification": "Unknown",
+      "deal_summary": null,
+      "date_confidence": "verified",
+      "notes": "Giant broadline distributor Sysco argues that combining two industry suppliers would benefit restaurants, though critics continue pushing to block the deal. The FTC challenge continues over competitive concerns.",
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null
+    }
+  ],
+  "new_news": [
+    {
+      "date": "2026-10-14",
+      "headline": "Crisp & Green to Acquire Mad Greens and Snappy Salads from Coors Family's Salad Collective",
+      "source": "Nation's Restaurant News",
+      "source_url": "https://www.nrn.com/fast-casual/crisp-green-acquire-mad-greens-snappy-salads-coors-family-s-salad-collective",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant",
+        "M&A"
+      ],
+      "summary": "Crisp & Green announced acquisition of Mad Greens and Snappy Salads from the Coors family-owned Salad Collective. The deal expands Crisp & Green's fast-casual salad portfolio. No financial terms disclosed.",
+      "relevance_score": 2,
+      "is_deal": true,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-14"
+    },
+    {
+      "date": "2026-10-13",
+      "headline": "In the Meritage Bankruptcy, Wendy's Finds Its Control Limited",
+      "source": "Restaurant Business",
+      "source_url": "https://www.restaurantbusinessonline.com/operations/meritage-bankruptcy-wendys-finds-its-control-limited",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "A dispute in the Meritage bankrupty shows how much struggling restaurants challenge franchisors' control over closure decisions. The case illustrates broader challenges Wendy's faces with struggling franchisee operations.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-14"
+    },
+    {
+      "date": "2026-10-13",
+      "headline": "In Charleston, Sysco Makes Its Case for Buying Restaurant Depot",
+      "source": "Restaurant Business",
+      "source_url": "https://www.restaurantbusinessonline.com/distribution/charleston-sysco-makes-its-case-buying-restaurant-depot",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Giant broadline distributor Sysco argues that combining two industry suppliers would benefit restaurants, though critics continue pushing to block the deal. The FTC challenge continues over competitive concerns.",
+      "relevance_score": 2,
+      "is_deal": true,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-14"
+    },
+    {
+      "date": "2026-10-13",
+      "headline": "Joey Continues U.S. Expansion, Opening Second Location in Dallas",
+      "source": "Nation's Restaurant News",
+      "source_url": "https://www.nrn.com/news/joey-continues-its-us-expansion-opening-second-location-dallas",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Canadian upscale restaurant Joey announced opening of a second U.S. location in Dallas. The expansion continues the brand's growth strategy in high-volume dining markets.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-14"
+    },
+    {
+      "date": "2026-10-13",
+      "headline": "Krispy Kreme Targets Shop Growth in New York",
+      "source": "Nation's Restaurant News",
+      "source_url": "https://www.nrn.com/franchising/krispy-kreme-targets-shop-growth-new-york",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Krispy Kreme signed an agreement for 33 new shops in New York, representing a significant expansion in the region. The franchisor continues aggressive growth in key markets.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-14"
+    },
+    {
+      "date": "2026-10-13",
+      "headline": "Rules and Regs: USDA Loans to Improve Septic Systems and Wells Available Nationwide",
+      "source": "Pumper",
+      "source_url": "https://www.pumper.com/tags/onsite-septic-system",
       "category": "Industry Events",
       "categories": [
         "Industry Events"
       ],
-      "summary": "Caterpillar announced a $1 billion investment in compact construction equipment manufacturing in North Carolina, relevant to waste equipment sector.",
-      "relevance_score": 2,
+      "summary": "Coverage of regulatory updates regarding USDA loans for septic system improvements. Includes information on Jefferson County, New York grants for waterfront septic upgrades and Hurricane Helene repair funds.",
+      "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-13"
+      "first_seen_date": "2026-10-14"
     },
     {
-      "date": "2026-10-08",
-      "headline": "Oswego County Solid Waste Updates Fee Schedule for 2027",
-      "source": "EIN Presswire",
-      "source_url": "https://www.einpresswire.com/article/948343427/oswego-county-solid-waste-updates-fee-schedule-for-2027",
-      "category": "Infrastructure",
-      "categories": [
-        "Infrastructure"
-      ],
-      "summary": "Oswego County Solid Waste Department announces updates to fee schedule due to rising operation and maintenance costs. Changes affecting weighed tipping fees and recycling programs effective January 1, 2027.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-13"
-    },
-    {
-      "date": "2026-10-08",
-      "headline": "Foodservice Compliance in 2026: Waste and Temperature Rules",
-      "source": "Metafoodx",
-      "source_url": "https://www.metafoodx.com/post/foodservice-compliance-in-2026-how-metafoodx-helps-kitchens-meet-food-waste-and-temperature-regulat",
-      "category": "ESG",
-      "categories": [
-        "ESG"
-      ],
-      "summary": "Platforms now help operators document and report food waste data for ESG commitments tied to SDG 12.3 and Farm to Fork targets. UK and EU mandatory food waste reporting regulations for 2026 drive transparency requirements across foodservice operations.",
-      "relevance_score": 3,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-13"
-    },
-    {
-      "date": "2026-10-07",
-      "headline": "Clean Harbors Schedules Q3 2026 Earnings Call for October 28",
-      "source": "Business Wire / Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/markets/stocks/articles/clean-harbors-announce-third-quarter-123000419.html",
+      "date": "2026-10-09",
+      "headline": "Greasezilla Plans Nationwide Expansion to Combat FOG in Wastewater",
+      "source": "Water Tech Online",
+      "source_url": "https://watertechonline.com/industry/food-beverage/article/55410936/greaszilla-plans-nationwide-expansion-to-combat-grease-in-wastewater",
       "category": "Public Co.",
       "categories": [
         "Public Co."
       ],
-      "summary": "Clean Harbors announced it will host its third-quarter 2026 financial results conference call on Wednesday, October 28, 2026 at 9:00 a.m. ET. Call will include discussion of business outlook and growth strategy.",
+      "summary": "West Virginia-based Greasezilla is expanding its FOG processing infrastructure to establish 30 regional hubs nationwide, targeting capacity of 15 million gallons annually. The company converts fats, oils, and grease into valuable biofuels using advanced separation technology.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-14"
+    },
+    {
+      "date": "2026-10-06",
+      "headline": "Commercial Truck Insurance Costs: Why Rates Are Rising",
+      "source": "J.E.B. Insurance Services, LLC",
+      "source_url": "https://www.jebinsurance.com/commercial-truck-insurance-skyrocketing/",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops"
+      ],
+      "summary": "Commercial truck insurance costs continue to rise due to increased repair prices, medical costs, litigation, and severe crashes, affecting all motor carriers including waste haulers. Premium increases reflect both individual account history and insurer expectations of future losses, impacting operational expenses across the industry.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -373,18 +398,18 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-13"
+      "first_seen_date": "2026-10-14"
     },
     {
-      "date": "2026-10-02",
-      "headline": "Transfer-Station Manager: Tipping-Fee Increase Pushes Budget Line to About $164,000",
-      "source": "Citizen Portal",
-      "source_url": "https://citizenportal.ai/articles/10469679/maine/york-county/limerick/transferstation-manager-tippingfee-increase-pushes-that-line-up-to-about-164000",
-      "category": "Infrastructure",
+      "date": "2026-10-01",
+      "headline": "St. Louis Restaurants Opened and Closed in September 2026",
+      "source": "St. Louis Public Radio",
+      "source_url": "https://www.stlpr.org/economy-business/2026-10-01/st-louis-restaurants-opened-closed-september-2026",
+      "category": "Restaurant",
       "categories": [
-        "Infrastructure"
+        "Restaurant"
       ],
-      "summary": "EcoMaine's midyear fee change and higher tonnage (1,750 tons) raised Maine town's tipping-fee estimate to approximately $164,000. Transfer station tipping fees averaged $93.63 per ton for the year.",
+      "summary": "St. Louis saw multiple restaurant openings and closings in September 2026, including closures of Grace Meat + Three, Ozzy's Market, and Chao Baan, plus openings of Coffeestamp, Sur Lie, and multiple other locations. The market shows mixed activity.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -392,19 +417,18 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-13"
+      "first_seen_date": "2026-10-14"
     },
     {
-      "date": "2026-09-30",
-      "headline": "EPA Information Collection Activities Notice for RFS Program Standards 2023-2025 (Renewal)",
-      "source": "Federal Register",
-      "source_url": "https://www.federalregister.gov/documents/2026/09/30/2026-20053/agency-information-collection-activities-proposed-information-collection-request-comment-request",
-      "category": "Renewable Fuels",
+      "date": "2026-10-01",
+      "headline": "Industry Spotlight: More Restaurants Struggling with Profitability, and Technology Isn't Always Helping",
+      "source": "American Recruiters",
+      "source_url": "https://americanrecruiters.com/blog/global-foodservice-news-oct-1-2026/",
+      "category": "Restaurant",
       "categories": [
-        "Renewable Fuels",
-        "Regulatory"
+        "Restaurant"
       ],
-      "summary": "The EPA issued a renewal notice for the RFS program information collection request, extending the currently approved ICR through September 30, 2026, with a 60-day public comment period ending August 28, 2026.",
+      "summary": "National Restaurant Association reports one-third of restaurant operators were not profitable in the first half of 2026. Weak traffic, particularly among low-income consumers, and technology shortfalls continue to pressure margins despite recent industry optimism.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -412,26 +436,7 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-13"
-    },
-    {
-      "date": "2026-09-30",
-      "headline": "Federal Water Program Reauthorization Urged After Funding Lapsed Sept. 30",
-      "source": "Water FM",
-      "source_url": "https://waterfm.com/federal-water-program-funding-lapsed-sept-30/",
-      "category": "Infrastructure",
-      "categories": [
-        "Infrastructure"
-      ],
-      "summary": "IIJA's five-year authorization and supplemental funding period ended September 30, 2026, creating significant uncertainty for states, utilities, and water infrastructure projects. Federal water infrastructure funding could fall approximately 60 percent from FY 2026 to FY 2027 without Congressional reauthorization.",
-      "relevance_score": 3,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-13"
+      "first_seen_date": "2026-10-14"
     }
   ]
 }

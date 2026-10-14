@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-04-17",
+    "headline": "Weirton Wastewater Plant Upgrade Nears Completion at 96%",
+    "source": "Herald Star",
+    "source_url": "https://www.heraldstaronline.com/news/local-news/2026/04/weirton-wastewater-plant-upgrade-nears-completion/",
+    "category": "Infrastructure",
+    "summary": "Weirton's $38 million wastewater treatment plant upgrade project has reached 96% completion, designed to expand treatment capacity from 4 to 8 MGD. Final payments are expected in late May. The project was triggered by interest from a large manufacturing company looking to locate in the city.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-04-17",
+    "categories": [
+      "Infrastructure"
+    ]
+  },
+  {
     "date": "2026-04-15",
     "headline": "LJP Waste Solutions Acquires United Liquid Waste Recycling",
     "source": "LJP Press Release",
