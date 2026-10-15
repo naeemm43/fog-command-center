@@ -1,5 +1,44 @@
 [
   {
+    "date": "2026-10-15",
+    "headline": "Webster completes $16 million wastewater plant upgrade",
+    "source": "Finger Lakes 1",
+    "source_url": "https://www.fingerlakes1.com/2026/10/15/webster-completes-16-million-wastewater-plant-upgrade/",
+    "category": "Infrastructure",
+    "categories": [
+      "Infrastructure"
+    ],
+    "summary": "The village of Webster, New York completed a $16 million upgrade to its wastewater treatment plant, replacing aging equipment and improving the system serving Monroe County residents and businesses. The work is intended to improve treatment reliability and protect water quality in Lake Ontario's Rochester Embayment.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-15"
+  },
+  {
+    "date": "2026-10-15",
+    "headline": "Driving the Circular Economy: HydroCycle Embarks on New Liquid Waste Recycling Venture",
+    "source": "Waste360",
+    "source_url": "https://www.waste360.com/waste-recycling",
+    "category": "Industry Events",
+    "categories": [
+      "Industry Events",
+      "ESG"
+    ],
+    "summary": "Waste360 reports on HydroCycle's new liquid waste recycling initiative as part of circular economy efforts in the waste industry.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-15"
+  },
+  {
     "date": "2026-10-14",
     "headline": "Crisp & Green to Acquire Mad Greens and Snappy Salads from Coors Family's Salad Collective",
     "source": "Nation's Restaurant News",
@@ -192,6 +231,65 @@
     "first_seen_date": "2026-10-14"
   },
   {
+    "date": "2026-10-13",
+    "headline": "NYC Restaurants Shut Off Air Conditioning, Close on Sundays as Costs Surge",
+    "source": "Bloomberg",
+    "source_url": "https://bloomberg.com/news/features/2026-10-13/nyc-bars-and-restaurants-hike-prices-cut-back-on-ac-to-fight-mounting-costs",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "summary": "New York City restaurants are implementing extreme cost-cutting measures including shutting off air conditioning and closing on Sundays as gas and electric bills spike to record levels amid mounting inflation.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-15"
+  },
+  {
+    "date": "2026-10-12",
+    "headline": "Public Health Warning Issued Related To Recent Sewage Discharge",
+    "source": "City of Boston",
+    "source_url": "https://www.boston.gov/news/public-health-warning-issued-related-recent-sewage-discharge-6",
+    "category": "Regulatory",
+    "categories": [
+      "Regulatory",
+      "Infrastructure"
+    ],
+    "summary": "Boston issued public health warnings for combined sewer overflows (CSOs) on October 11-12, 2026, affecting Fort Point Channel and Inner Harbor areas. State regulations require notification when discharge-related risks persist beyond two hours.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-15"
+  },
+  {
+    "date": "2026-10-12",
+    "headline": "Darling Ingredients (NYSE:DAR) Reports Quarterly Growth and Business Developments",
+    "source": "Kalkinemedia",
+    "source_url": "https://kalkinemedia.com/us/stocks/consumer/darling-ingredients-nysedar-reports-quarterly-growth-and-business-developments",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels",
+      "Public Co."
+    ],
+    "summary": "Darling Ingredients operates in sustainable ingredients and renewable fuels, transforming animal by-products, food waste and used cooking oil into commercial materials. Through Diamond Green Diesel, the company converts waste fats and oils into renewable diesel and lower-carbon fuel products.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-15"
+  },
+  {
     "date": "2026-10-11",
     "headline": "Caterpillar announces $1B US compact equipment investment",
     "source": "Waste Today",
@@ -342,6 +440,45 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-10-14"
+  },
+  {
+    "date": "2026-10-09",
+    "headline": "Why Is Darling Ingredients (NYSE:DAR) Drawing Russell 1000 Attention?",
+    "source": "Kalkinemedia",
+    "source_url": "https://kalkinemedia.com/us/stocks/consumer/why-is-darling-ingredients-nysedar-drawing-russell-1000-attention",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels",
+      "Public Co."
+    ],
+    "summary": "Darling Ingredients collects and processes animal by-products, food waste and used cooking oil into ingredients and renewable fuels through Diamond Green Diesel's waste fats and oils conversion operations.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-15"
+  },
+  {
+    "date": "2026-10-09",
+    "headline": "Waste Hauler Insurance: Liability Coverage, Requirements, and Risk Management",
+    "source": "STARR Insurance Group",
+    "source_url": "https://starrrg.com/blog/waste-hauler-insurance-liability-coverage-requirements-and-risk-management",
+    "category": "Labor/Ops",
+    "categories": [
+      "Labor/Ops"
+    ],
+    "summary": "Guide covering waste hauler insurance coverage types, cost factors, and operational requirements. Notes that pricing is influenced by waste types, collection methods, vehicle values, operating territory, and driver records.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-15"
   },
   {
     "date": "2026-10-08",
@@ -654,6 +791,25 @@
     "first_seen_date": "2026-10-07"
   },
   {
+    "date": "2026-10-05",
+    "headline": "Commission directs staff to revisit transfer-station rates as landfill tipping fees rise",
+    "source": "Citizen Portal",
+    "source_url": "https://citizenportal.ai/articles/10568218/kansas/marion-county/commission-directs-staff-to-revisit-transferstation-rates-as-landfill-tipping-fees-rise",
+    "category": "Infrastructure",
+    "categories": [
+      "Infrastructure"
+    ],
+    "summary": "Marion County commissioners directed staff to rework tire and construction debris fee schedules in light of expected tipping-fee increases to $54/ton. The presentation focused on transfer-station operations and the impact of projected landfill tipping-fee increases.",
+    "relevance_score": 1,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-15"
+  },
+  {
     "date": "2026-10-04",
     "headline": "Walnut Creek Wastewater Treatment Plant Expansion",
     "source": "InfraDay",
@@ -958,6 +1114,44 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-10-14"
+  },
+  {
+    "date": "2026-10-01",
+    "headline": "Renewable Water Resources Sewer Use Regulation - FOG Enforcement Response Guide Amendment",
+    "source": "Renewable Water Resources (ReWa)",
+    "source_url": "https://rewaonline.org/pdfs/ReWa_SUR_October-2026_revision.pdf",
+    "category": "Regulatory",
+    "categories": [
+      "Regulatory"
+    ],
+    "summary": "ReWa amended its Sewer Use Regulation effective October 1, 2026, including updates to FOG Enforcement Response Guide and pretreatment program definitions and requirements.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-15"
+  },
+  {
+    "date": "2026-10-01",
+    "headline": "National Restaurant Association State of the Industry Report shows profitability pressures",
+    "source": "American Recruiters / Global Foodservice News",
+    "source_url": "https://americanrecruiters.com/blog/global-foodservice-news-oct-1-2026/",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "summary": "A third of restaurant operators reported being unprofitable in the first half of 2026, with weak traffic particularly among low-income consumers constraining sales despite technology investments not delivering expected cost relief.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-15"
   },
   {
     "date": "2026-09-30",
@@ -9298,25 +9492,6 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-04-28",
-    "categories": [
-      "Renewable Fuels"
-    ]
-  },
-  {
-    "date": "2026-04-18",
-    "headline": "Loyola University's lab turns used cooking oil into fuel to run buses",
-    "source": "Chicago Sun-Times",
-    "source_url": "https://chicago.suntimes.com/energy/2026/04/18/loyola-university-searle-biodiesel-lab-cooking-oil-fuel-buses",
-    "category": "Renewable Fuels",
-    "summary": "Article profiles Loyola University's Searle Biodiesel Lab, which converts used cooking oil collected from Chicago-area restaurants and institutional sources into biodiesel fuel. Green Grease, the local UCO collector, expects to recycle 1 million gallons in 2026.",
-    "relevance_score": 4,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-04-18",
     "categories": [
       "Renewable Fuels"
     ]

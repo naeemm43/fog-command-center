@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-04-18",
+    "headline": "Loyola University's lab turns used cooking oil into fuel to run buses",
+    "source": "Chicago Sun-Times",
+    "source_url": "https://chicago.suntimes.com/energy/2026/04/18/loyola-university-searle-biodiesel-lab-cooking-oil-fuel-buses",
+    "category": "Renewable Fuels",
+    "summary": "Article profiles Loyola University's Searle Biodiesel Lab, which converts used cooking oil collected from Chicago-area restaurants and institutional sources into biodiesel fuel. Green Grease, the local UCO collector, expects to recycle 1 million gallons in 2026.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-04-18",
+    "categories": [
+      "Renewable Fuels"
+    ]
+  },
+  {
     "date": "2026-04-17",
     "headline": "Weirton Wastewater Plant Upgrade Nears Completion at 96%",
     "source": "Herald Star",
