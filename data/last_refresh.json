@@ -1,19 +1,39 @@
 {
-  "timestamp": "2026-10-15T16:43:05Z",
-  "added_news_count": 10,
+  "timestamp": "2026-10-16T16:25:47Z",
+  "added_news_count": 7,
   "added_deals_count": 0,
-  "archived_count": 1,
+  "archived_count": 0,
   "new_today_news": [
     {
-      "date": "2026-10-15",
-      "headline": "Webster completes $16 million wastewater plant upgrade",
-      "source": "Finger Lakes 1",
-      "source_url": "https://www.fingerlakes1.com/2026/10/15/webster-completes-16-million-wastewater-plant-upgrade/",
+      "date": "2026-10-16",
+      "headline": "Restaurant cooking oil theft is on the rise, Beverly police say \u2014 here's why",
+      "source": "NBC Boston",
+      "source_url": "https://nbcboston.com/news/local/restaurant-cooking-oil-theft-is-on-the-rise-beverly-police-say-heres-why/4029947",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant",
+        "Renewable Fuels"
+      ],
+      "summary": "Used cooking oil theft from restaurants is increasing as thieves sell it on the black market for recycling into reusable fuel. Security video captured multiple thefts from Beverly, Massachusetts restaurants, highlighting the value of used cooking oil as it can be turned into expensive biodiesel.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-16"
+    },
+    {
+      "date": "2026-10-16",
+      "headline": "Weirton Wastewater Treatment Plant Expansion Continues Toward Finish Line",
+      "source": "The Herald Star",
+      "source_url": "https://www.heraldstaronline.com/news/local-news/2026/10/wastewater-treatment-plant-expansion-continues-toward-the-finish-line/",
       "category": "Infrastructure",
       "categories": [
         "Infrastructure"
       ],
-      "summary": "The village of Webster, New York completed a $16 million upgrade to its wastewater treatment plant, replacing aging equipment and improving the system serving Monroe County residents and businesses. The work is intended to improve treatment reliability and protect water quality in Lake Ontario's Rochester Embayment.",
+      "summary": "$38 million project expanding Weirton's WWTP capacity from 4 to 8 million gallons per day reached substantial completion in April 2026. Remaining work includes touch-up, aeration basin tasks, and warranty-related items.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -21,80 +41,58 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-15"
+      "first_seen_date": "2026-10-16"
     },
     {
-      "date": "2026-10-15",
-      "headline": "Driving the Circular Economy: HydroCycle Embarks on New Liquid Waste Recycling Venture",
+      "date": "2026-10-16",
+      "headline": "Fredericksburg, VA Takes on Pizza Box Recycling",
       "source": "Waste360",
-      "source_url": "https://www.waste360.com/waste-recycling",
+      "source_url": "https://www.waste360.com/waste-recycling/fredericksburg-va-takes-on-pizza-box-recycling",
       "category": "Industry Events",
       "categories": [
-        "Industry Events",
-        "ESG"
+        "Industry Events"
       ],
-      "summary": "Waste360 reports on HydroCycle's new liquid waste recycling initiative as part of circular economy efforts in the waste industry.",
-      "relevance_score": 3,
+      "summary": "A study confirmed that pizza boxes are recyclable by paper mills. Grease and cheese in amounts typically found on pizza boxes are not an issue for the recycling process.",
+      "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-15"
+      "first_seen_date": "2026-10-16"
+    },
+    {
+      "date": "2026-10-15",
+      "headline": "Cortland County DPW Potentially Won't Have Plow Drivers After 5 p.m. This Winter",
+      "source": "CNY Central",
+      "source_url": "https://cnycentral.com/news/local/cortland-county-dpw-wont-have-plow-drivers-after-5pm-this-winter",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops"
+      ],
+      "summary": "Cortland County's Department of Public Works reports being down 14 CDL drivers, requiring 14 more to reach full staffing of 28 drivers. County has approved a $7,500 CDL driver stipend to address workforce shortages.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-16"
     }
   ],
   "recent_news": [
     {
       "date": "2026-10-13",
-      "headline": "NYC Restaurants Shut Off Air Conditioning, Close on Sundays as Costs Surge",
-      "source": "Bloomberg",
-      "source_url": "https://bloomberg.com/news/features/2026-10-13/nyc-bars-and-restaurants-hike-prices-cut-back-on-ac-to-fight-mounting-costs",
-      "category": "Restaurant",
+      "headline": "Barrel Energy Plans October Launch of Almighty Cleaners Eco-Friendly Degreaser Line",
+      "source": "Webull / Barrel Energy",
+      "source_url": "https://www.webull.com/news/15743022603461632",
+      "category": "Public Co.",
       "categories": [
-        "Restaurant"
-      ],
-      "summary": "New York City restaurants are implementing extreme cost-cutting measures including shutting off air conditioning and closing on Sundays as gas and electric bills spike to record levels amid mounting inflation.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-15"
-    },
-    {
-      "date": "2026-10-12",
-      "headline": "Public Health Warning Issued Related To Recent Sewage Discharge",
-      "source": "City of Boston",
-      "source_url": "https://www.boston.gov/news/public-health-warning-issued-related-recent-sewage-discharge-6",
-      "category": "Regulatory",
-      "categories": [
-        "Regulatory",
-        "Infrastructure"
-      ],
-      "summary": "Boston issued public health warnings for combined sewer overflows (CSOs) on October 11-12, 2026, affecting Fort Point Channel and Inner Harbor areas. State regulations require notification when discharge-related risks persist beyond two hours.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-15"
-    },
-    {
-      "date": "2026-10-12",
-      "headline": "Darling Ingredients (NYSE:DAR) Reports Quarterly Growth and Business Developments",
-      "source": "Kalkinemedia",
-      "source_url": "https://kalkinemedia.com/us/stocks/consumer/darling-ingredients-nysedar-reports-quarterly-growth-and-business-developments",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels",
         "Public Co."
       ],
-      "summary": "Darling Ingredients operates in sustainable ingredients and renewable fuels, transforming animal by-products, food waste and used cooking oil into commercial materials. Through Diamond Green Diesel, the company converts waste fats and oils into renewable diesel and lower-carbon fuel products.",
+      "summary": "Barrel Energy plans to launch Almighty Cleaners, an eco-friendly cleaners and degreasers line in October 2026, extending its Happy Traps grease-trap waste collection unit into branded product sales. Recovered cooking oil and grease-trap waste will serve as feedstock, providing cost and sourcing advantages in sustainability-focused markets.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -102,198 +100,20 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-15"
-    },
-    {
-      "date": "2026-10-09",
-      "headline": "Why Is Darling Ingredients (NYSE:DAR) Drawing Russell 1000 Attention?",
-      "source": "Kalkinemedia",
-      "source_url": "https://kalkinemedia.com/us/stocks/consumer/why-is-darling-ingredients-nysedar-drawing-russell-1000-attention",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels",
-        "Public Co."
-      ],
-      "summary": "Darling Ingredients collects and processes animal by-products, food waste and used cooking oil into ingredients and renewable fuels through Diamond Green Diesel's waste fats and oils conversion operations.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-15"
-    },
-    {
-      "date": "2026-10-09",
-      "headline": "Waste Hauler Insurance: Liability Coverage, Requirements, and Risk Management",
-      "source": "STARR Insurance Group",
-      "source_url": "https://starrrg.com/blog/waste-hauler-insurance-liability-coverage-requirements-and-risk-management",
-      "category": "Labor/Ops",
-      "categories": [
-        "Labor/Ops"
-      ],
-      "summary": "Guide covering waste hauler insurance coverage types, cost factors, and operational requirements. Notes that pricing is influenced by waste types, collection methods, vehicle values, operating territory, and driver records.",
-      "relevance_score": 3,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-15"
-    }
-  ],
-  "backfill_news": [
-    {
-      "date": "2026-10-05",
-      "headline": "Commission directs staff to revisit transfer-station rates as landfill tipping fees rise",
-      "source": "Citizen Portal",
-      "source_url": "https://citizenportal.ai/articles/10568218/kansas/marion-county/commission-directs-staff-to-revisit-transferstation-rates-as-landfill-tipping-fees-rise",
-      "category": "Infrastructure",
-      "categories": [
-        "Infrastructure"
-      ],
-      "summary": "Marion County commissioners directed staff to rework tire and construction debris fee schedules in light of expected tipping-fee increases to $54/ton. The presentation focused on transfer-station operations and the impact of projected landfill tipping-fee increases.",
-      "relevance_score": 1,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-15"
-    },
-    {
-      "date": "2026-10-01",
-      "headline": "Renewable Water Resources Sewer Use Regulation - FOG Enforcement Response Guide Amendment",
-      "source": "Renewable Water Resources (ReWa)",
-      "source_url": "https://rewaonline.org/pdfs/ReWa_SUR_October-2026_revision.pdf",
-      "category": "Regulatory",
-      "categories": [
-        "Regulatory"
-      ],
-      "summary": "ReWa amended its Sewer Use Regulation effective October 1, 2026, including updates to FOG Enforcement Response Guide and pretreatment program definitions and requirements.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-15"
-    },
-    {
-      "date": "2026-10-01",
-      "headline": "National Restaurant Association State of the Industry Report shows profitability pressures",
-      "source": "American Recruiters / Global Foodservice News",
-      "source_url": "https://americanrecruiters.com/blog/global-foodservice-news-oct-1-2026/",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "A third of restaurant operators reported being unprofitable in the first half of 2026, with weak traffic particularly among low-income consumers constraining sales despite technology investments not delivering expected cost relief.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-15"
-    }
-  ],
-  "new_deals": [],
-  "new_news": [
-    {
-      "date": "2026-10-15",
-      "headline": "Webster completes $16 million wastewater plant upgrade",
-      "source": "Finger Lakes 1",
-      "source_url": "https://www.fingerlakes1.com/2026/10/15/webster-completes-16-million-wastewater-plant-upgrade/",
-      "category": "Infrastructure",
-      "categories": [
-        "Infrastructure"
-      ],
-      "summary": "The village of Webster, New York completed a $16 million upgrade to its wastewater treatment plant, replacing aging equipment and improving the system serving Monroe County residents and businesses. The work is intended to improve treatment reliability and protect water quality in Lake Ontario's Rochester Embayment.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-15"
-    },
-    {
-      "date": "2026-10-15",
-      "headline": "Driving the Circular Economy: HydroCycle Embarks on New Liquid Waste Recycling Venture",
-      "source": "Waste360",
-      "source_url": "https://www.waste360.com/waste-recycling",
-      "category": "Industry Events",
-      "categories": [
-        "Industry Events",
-        "ESG"
-      ],
-      "summary": "Waste360 reports on HydroCycle's new liquid waste recycling initiative as part of circular economy efforts in the waste industry.",
-      "relevance_score": 3,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-15"
+      "first_seen_date": "2026-10-16"
     },
     {
       "date": "2026-10-13",
-      "headline": "NYC Restaurants Shut Off Air Conditioning, Close on Sundays as Costs Surge",
-      "source": "Bloomberg",
-      "source_url": "https://bloomberg.com/news/features/2026-10-13/nyc-bars-and-restaurants-hike-prices-cut-back-on-ac-to-fight-mounting-costs",
-      "category": "Restaurant",
+      "headline": "RTI's Impact Report Reflects on Growth, Innovation, and Measurable Sustainability in the Food Service Industry",
+      "source": "Globe Newswire",
+      "source_url": "https://www.globenewswire.com/news-release/2026/10/13/3380028/0/en/rti-s-impact-report-reflects-on-growth-innovation-and-measurable-sustainability-in-the-food-service-industry.html",
+      "category": "ESG",
       "categories": [
+        "ESG",
+        "Renewable Fuels",
         "Restaurant"
       ],
-      "summary": "New York City restaurants are implementing extreme cost-cutting measures including shutting off air conditioning and closing on Sundays as gas and electric bills spike to record levels amid mounting inflation.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-15"
-    },
-    {
-      "date": "2026-10-12",
-      "headline": "Public Health Warning Issued Related To Recent Sewage Discharge",
-      "source": "City of Boston",
-      "source_url": "https://www.boston.gov/news/public-health-warning-issued-related-recent-sewage-discharge-6",
-      "category": "Regulatory",
-      "categories": [
-        "Regulatory",
-        "Infrastructure"
-      ],
-      "summary": "Boston issued public health warnings for combined sewer overflows (CSOs) on October 11-12, 2026, affecting Fort Point Channel and Inner Harbor areas. State regulations require notification when discharge-related risks persist beyond two hours.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-15"
-    },
-    {
-      "date": "2026-10-12",
-      "headline": "Darling Ingredients (NYSE:DAR) Reports Quarterly Growth and Business Developments",
-      "source": "Kalkinemedia",
-      "source_url": "https://kalkinemedia.com/us/stocks/consumer/darling-ingredients-nysedar-reports-quarterly-growth-and-business-developments",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels",
-        "Public Co."
-      ],
-      "summary": "Darling Ingredients operates in sustainable ingredients and renewable fuels, transforming animal by-products, food waste and used cooking oil into commercial materials. Through Diamond Green Diesel, the company converts waste fats and oils into renewable diesel and lower-carbon fuel products.",
+      "summary": "Restaurant Technologies (RTI) released its 2026 Impact Report highlighting 393 million pounds of used cooking oil (UCO) recycled in 2025, alongside delivery of 719.4 million pounds of fresh cooking oil. The report showcases improved fleet efficiency, new sustainability certifications, and expanded opportunities to convert UCO into renewable fuels, while eliminating 19.3 million plastic oil jugs.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -301,19 +121,43 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-15"
+      "first_seen_date": "2026-10-16"
     },
     {
       "date": "2026-10-09",
-      "headline": "Why Is Darling Ingredients (NYSE:DAR) Drawing Russell 1000 Attention?",
-      "source": "Kalkinemedia",
-      "source_url": "https://kalkinemedia.com/us/stocks/consumer/why-is-darling-ingredients-nysedar-drawing-russell-1000-attention",
-      "category": "Renewable Fuels",
+      "headline": "This Week in Waste: Top Stories Oct 5 \u2013 Oct 9",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/industry-insights/this-week-in-waste-top-stories-oct-5-oct-9",
+      "category": "Industry Events",
       "categories": [
-        "Renewable Fuels",
+        "Industry Events",
         "Public Co."
       ],
-      "summary": "Darling Ingredients collects and processes animal by-products, food waste and used cooking oil into ingredients and renewable fuels through Diamond Green Diesel's waste fats and oils conversion operations.",
+      "summary": "Weekly waste industry roundup covering October 5-9, 2026. Casella Waste Systems announced its landfill in Bethlehem will close by end of 2026, a year earlier than planned.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-16"
+    }
+  ],
+  "backfill_news": [],
+  "new_deals": [],
+  "new_news": [
+    {
+      "date": "2026-10-16",
+      "headline": "Restaurant cooking oil theft is on the rise, Beverly police say \u2014 here's why",
+      "source": "NBC Boston",
+      "source_url": "https://nbcboston.com/news/local/restaurant-cooking-oil-theft-is-on-the-rise-beverly-police-say-heres-why/4029947",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant",
+        "Renewable Fuels"
+      ],
+      "summary": "Used cooking oil theft from restaurants is increasing as thieves sell it on the black market for recycling into reusable fuel. Security video captured multiple thefts from Beverly, Massachusetts restaurants, highlighting the value of used cooking oil as it can be turned into expensive biodiesel.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -321,75 +165,18 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-15"
+      "first_seen_date": "2026-10-16"
     },
     {
-      "date": "2026-10-09",
-      "headline": "Waste Hauler Insurance: Liability Coverage, Requirements, and Risk Management",
-      "source": "STARR Insurance Group",
-      "source_url": "https://starrrg.com/blog/waste-hauler-insurance-liability-coverage-requirements-and-risk-management",
-      "category": "Labor/Ops",
-      "categories": [
-        "Labor/Ops"
-      ],
-      "summary": "Guide covering waste hauler insurance coverage types, cost factors, and operational requirements. Notes that pricing is influenced by waste types, collection methods, vehicle values, operating territory, and driver records.",
-      "relevance_score": 3,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-15"
-    },
-    {
-      "date": "2026-10-05",
-      "headline": "Commission directs staff to revisit transfer-station rates as landfill tipping fees rise",
-      "source": "Citizen Portal",
-      "source_url": "https://citizenportal.ai/articles/10568218/kansas/marion-county/commission-directs-staff-to-revisit-transferstation-rates-as-landfill-tipping-fees-rise",
+      "date": "2026-10-16",
+      "headline": "Weirton Wastewater Treatment Plant Expansion Continues Toward Finish Line",
+      "source": "The Herald Star",
+      "source_url": "https://www.heraldstaronline.com/news/local-news/2026/10/wastewater-treatment-plant-expansion-continues-toward-the-finish-line/",
       "category": "Infrastructure",
       "categories": [
         "Infrastructure"
       ],
-      "summary": "Marion County commissioners directed staff to rework tire and construction debris fee schedules in light of expected tipping-fee increases to $54/ton. The presentation focused on transfer-station operations and the impact of projected landfill tipping-fee increases.",
-      "relevance_score": 1,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-15"
-    },
-    {
-      "date": "2026-10-01",
-      "headline": "Renewable Water Resources Sewer Use Regulation - FOG Enforcement Response Guide Amendment",
-      "source": "Renewable Water Resources (ReWa)",
-      "source_url": "https://rewaonline.org/pdfs/ReWa_SUR_October-2026_revision.pdf",
-      "category": "Regulatory",
-      "categories": [
-        "Regulatory"
-      ],
-      "summary": "ReWa amended its Sewer Use Regulation effective October 1, 2026, including updates to FOG Enforcement Response Guide and pretreatment program definitions and requirements.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-15"
-    },
-    {
-      "date": "2026-10-01",
-      "headline": "National Restaurant Association State of the Industry Report shows profitability pressures",
-      "source": "American Recruiters / Global Foodservice News",
-      "source_url": "https://americanrecruiters.com/blog/global-foodservice-news-oct-1-2026/",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "A third of restaurant operators reported being unprofitable in the first half of 2026, with weak traffic particularly among low-income consumers constraining sales despite technology investments not delivering expected cost relief.",
+      "summary": "$38 million project expanding Weirton's WWTP capacity from 4 to 8 million gallons per day reached substantial completion in April 2026. Remaining work includes touch-up, aeration basin tasks, and warranty-related items.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -397,7 +184,105 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-15"
+      "first_seen_date": "2026-10-16"
+    },
+    {
+      "date": "2026-10-16",
+      "headline": "Fredericksburg, VA Takes on Pizza Box Recycling",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/waste-recycling/fredericksburg-va-takes-on-pizza-box-recycling",
+      "category": "Industry Events",
+      "categories": [
+        "Industry Events"
+      ],
+      "summary": "A study confirmed that pizza boxes are recyclable by paper mills. Grease and cheese in amounts typically found on pizza boxes are not an issue for the recycling process.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-16"
+    },
+    {
+      "date": "2026-10-15",
+      "headline": "Cortland County DPW Potentially Won't Have Plow Drivers After 5 p.m. This Winter",
+      "source": "CNY Central",
+      "source_url": "https://cnycentral.com/news/local/cortland-county-dpw-wont-have-plow-drivers-after-5pm-this-winter",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops"
+      ],
+      "summary": "Cortland County's Department of Public Works reports being down 14 CDL drivers, requiring 14 more to reach full staffing of 28 drivers. County has approved a $7,500 CDL driver stipend to address workforce shortages.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-16"
+    },
+    {
+      "date": "2026-10-13",
+      "headline": "Barrel Energy Plans October Launch of Almighty Cleaners Eco-Friendly Degreaser Line",
+      "source": "Webull / Barrel Energy",
+      "source_url": "https://www.webull.com/news/15743022603461632",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "Barrel Energy plans to launch Almighty Cleaners, an eco-friendly cleaners and degreasers line in October 2026, extending its Happy Traps grease-trap waste collection unit into branded product sales. Recovered cooking oil and grease-trap waste will serve as feedstock, providing cost and sourcing advantages in sustainability-focused markets.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-16"
+    },
+    {
+      "date": "2026-10-13",
+      "headline": "RTI's Impact Report Reflects on Growth, Innovation, and Measurable Sustainability in the Food Service Industry",
+      "source": "Globe Newswire",
+      "source_url": "https://www.globenewswire.com/news-release/2026/10/13/3380028/0/en/rti-s-impact-report-reflects-on-growth-innovation-and-measurable-sustainability-in-the-food-service-industry.html",
+      "category": "ESG",
+      "categories": [
+        "ESG",
+        "Renewable Fuels",
+        "Restaurant"
+      ],
+      "summary": "Restaurant Technologies (RTI) released its 2026 Impact Report highlighting 393 million pounds of used cooking oil (UCO) recycled in 2025, alongside delivery of 719.4 million pounds of fresh cooking oil. The report showcases improved fleet efficiency, new sustainability certifications, and expanded opportunities to convert UCO into renewable fuels, while eliminating 19.3 million plastic oil jugs.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-16"
+    },
+    {
+      "date": "2026-10-09",
+      "headline": "This Week in Waste: Top Stories Oct 5 \u2013 Oct 9",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/industry-insights/this-week-in-waste-top-stories-oct-5-oct-9",
+      "category": "Industry Events",
+      "categories": [
+        "Industry Events",
+        "Public Co."
+      ],
+      "summary": "Weekly waste industry roundup covering October 5-9, 2026. Casella Waste Systems announced its landfill in Bethlehem will close by end of 2026, a year earlier than planned.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-16"
     }
   ]
 }
