@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-10-19",
+    "headline": "Savory Closes Oversubscribed $200 Million Fund III \u2013 Eyes America's Next Great Restaurant Brands",
+    "source": "RestaurantNews.com",
+    "source_url": "https://www.restaurantnews.com/savory-fund-and-19-more-restaurant-news-headliners-of-the-past-week-101926/",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "summary": "Savory Fund has successfully closed its latest investment vehicle at over $200 million, surpassing its original fundraising goal. The fund is positioning itself to invest in America's next great restaurant brands.",
+    "relevance_score": 2,
+    "is_deal": true,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-19"
+  },
+  {
     "date": "2026-10-16",
     "headline": "Restaurant cooking oil theft is on the rise, Beverly police say \u2014 here's why",
     "source": "NBC Boston",
@@ -56,6 +75,45 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-10-16"
+  },
+  {
+    "date": "2026-10-16",
+    "headline": "Renewable Fuel Standard (RFS) Program: Reallocation of Additional 2025 Small Refinery Exemptions",
+    "source": "Federal Register / EPA",
+    "source_url": "https://www.federalregister.gov/documents/2026/10/16/2026-21155/renewable-fuel-standard-rfs-program-reallocation-of-additional-2025-small-refinery-exemptions",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels",
+      "Regulatory"
+    ],
+    "summary": "EPA proposed revising 2026 and 2027 small refinery exemption reallocation volumes under the RFS program in response to higher-than-projected 2025 SREs. The proposed rule was announced October 13, 2026, with public hearing registration required by October 28.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-19"
+  },
+  {
+    "date": "2026-10-16",
+    "headline": "EU risks becoming dependent on China amid aviation fuel feedstock shortages",
+    "source": "UkrAgroConsult",
+    "source_url": "https://ukragroconsult.com/en/news/eu-risks-becoming-dependent-on-china-amid-aviation-fuel-feedstock-shortages",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels"
+    ],
+    "summary": "European SAF producers warn of supply chain risks as used cooking oil and animal fats account for 98% of EU SAF feedstock in 2024. Over two-thirds of EU SAF feedstock is imported, with China accounting for more than half of imports.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-19"
   },
   {
     "date": "2026-10-15",
@@ -134,6 +192,44 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-10-14"
+  },
+  {
+    "date": "2026-10-14",
+    "headline": "Proposed PFOA and PFOS Compliance Extension Rule",
+    "source": "EPA.gov",
+    "source_url": "https://www.epa.gov/sdwa/proposed-pfoa-and-pfos-compliance-extension-rule",
+    "category": "Regulatory",
+    "categories": [
+      "Regulatory"
+    ],
+    "summary": "EPA announced proposed rule to extend Maximum Contaminant Level compliance deadline for PFOA and PFOS to 2031 for drinking water systems. While not FOG-specific, impacts wastewater treatment and pretreatment program operations.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-19"
+  },
+  {
+    "date": "2026-10-14",
+    "headline": "Industrial Pretreatment Program for New England - Region 1 Conference Update",
+    "source": "EPA.gov",
+    "source_url": "https://www.epa.gov/npdes-permits/industrial-pretreatment-program-new-england",
+    "category": "Regulatory",
+    "categories": [
+      "Regulatory"
+    ],
+    "summary": "EPA Region 1 maintains annual pretreatment training workshop with sessions on FOG losses, biosolids, and pretreatment compliance. Last updated September 22, 2026.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-19"
   },
   {
     "date": "2026-10-13",
@@ -365,6 +461,26 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-10-16"
+  },
+  {
+    "date": "2026-10-13",
+    "headline": "Proposed Reallocation of Additional 2025 Small Refinery Exemptions",
+    "source": "EPA",
+    "source_url": "https://www.epa.gov/renewable-fuel-standard/proposed-reallocation-additional-2025-small-refinery-exemptions",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels",
+      "Regulatory"
+    ],
+    "summary": "EPA announced October 13, 2026 proposed rule to revise 2026-2027 small refinery exemption reallocation volumes under RFS program due to higher 2025 SRE volumes than previously projected.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-19"
   },
   {
     "date": "2026-10-12",
@@ -887,6 +1003,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-10-14"
+  },
+  {
+    "date": "2026-10-06",
+    "headline": "Who is buying septic companies? PE roll-up tracker (2026)",
+    "source": "DealSeam",
+    "source_url": "https://dealseam.com/septic-pe-rollup-tracker-2026",
+    "category": "M&A",
+    "categories": [
+      "M&A"
+    ],
+    "summary": "Industry tracker documents that Wind River Environmental, backed by Gryphon Investors, remains the most active consolidator with over 100 acquisitions across 16 states. The tracker was last updated October 6, 2026, noting the most recent named acquisition closed in September 2026.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-19"
   },
   {
     "date": "2026-10-05",

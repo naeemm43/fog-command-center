@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-10-19",
+    "target": "Restaurant brands (unspecified)",
+    "acquirer": "Savory Fund",
+    "sponsor": "Savory Fund",
+    "location": "United States",
+    "deal_type": "Add-On",
+    "deal_size": "$200 million",
+    "multiple": "N/A",
+    "services": "",
+    "source": "RestaurantNews.com",
+    "source_url": "https://www.restaurantnews.com/savory-fund-and-19-more-restaurant-news-headliners-of-the-past-week-101926/",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "Unknown",
+    "deal_summary": [
+      "Fund III closed at $200 million"
+    ],
+    "date_confidence": "verified",
+    "notes": "Savory Fund has successfully closed its latest investment vehicle at over $200 million, surpassing its original fundraising goal. The fund is positioning itself to invest in America's next great restaurant brands.",
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
+  },
+  {
     "date": "2026-10-14",
     "target": "Mad Greens, Snappy Salads",
     "acquirer": "Crisp & Green",
