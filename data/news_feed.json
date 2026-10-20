@@ -232,6 +232,45 @@
     "first_seen_date": "2026-10-19"
   },
   {
+    "date": "2026-10-14",
+    "headline": "Grease Happens: Why Smart Facilities Stay Ahead of the Mess",
+    "source": "Retail & Restaurant Facility Business",
+    "source_url": "https://retailrestaurantfb.com/grease-happens/",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co."
+    ],
+    "summary": "Editorial piece discussing grease trap maintenance for retail food operations, explaining how grocery stores, convenience stores and food courts manage FOG waste to protect operations and the public sewer system.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-20"
+  },
+  {
+    "date": "2026-10-14",
+    "headline": "Beyond Oil USA and Eazy Grease Partner to Redefine Sustainable Frying Oil Management",
+    "source": "Business Wire",
+    "source_url": "https://www.businesswire.com/news/home/20251014451202/en/Beyond-Oil-USA-and-Eazy-Grease-Partner-to-Redefine-Sustainable-Frying-Oil-Management",
+    "category": "ESG",
+    "categories": [
+      "ESG",
+      "Renewable Fuels"
+    ],
+    "summary": "Beyond Oil USA and Eazy Grease announced a strategic partnership combining oil purification technology that extends frying oil life with used cooking oil recycling services. The collaboration creates an end-to-end solution enabling restaurants to reduce oil consumption while ensuring used oil is recycled into renewable fuels, establishing a circular economy model for food service operations.",
+    "relevance_score": 5,
+    "is_deal": true,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": 28.538,
+    "longitude": -81.379,
+    "zoom_hint": "wide",
+    "first_seen_date": "2026-10-20"
+  },
+  {
     "date": "2026-10-13",
     "headline": "MIT startup says it can turn diesel trucks into cheaper hydrogen haulers \u2014 see it at Disrupt",
     "source": "TechCrunch",
@@ -9884,5 +9923,24 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-09-03"
+  },
+  {
+    "date": null,
+    "headline": "[Date unverified] Darling Ingredients to Release Third Quarter 2026 Earnings Results",
+    "source": "Darling Ingredients",
+    "source_url": "https://www.darlingii.com/media/news/2026101-darling-ingredients-to-release-third-quarter-earnings-results",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co."
+    ],
+    "summary": "Darling Ingredients announced it will host a conference call on October 29, 2026 at 9:00 AM ET to discuss Q3 2026 financial results. The company will release earnings earlier that day.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-20"
   }
 ]

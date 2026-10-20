@@ -46,6 +46,30 @@
     "zoom_hint": null
   },
   {
+    "date": "2026-10-14",
+    "target": "Beyond Oil USA (partnership/technology integration)",
+    "acquirer": "Eazy Grease",
+    "sponsor": null,
+    "location": "Miami, Florida (announcement location); Multi-state (Eazy Grease operations)",
+    "deal_type": "Add-On",
+    "deal_size": null,
+    "multiple": "N/A",
+    "services": "",
+    "source": "Business Wire",
+    "source_url": "https://www.businesswire.com/news/home/20251014451202/en/Beyond-Oil-USA-and-Eazy-Grease-Partner-to-Redefine-Sustainable-Frying-Oil-Management",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "Unknown",
+    "deal_summary": [
+      "Strategic partnership integrating Beyond Oil's FDA-approved oil purification filter powder with Eazy Grease's multi-state used cooking oil collection and recycling services. Eazy Grease serves 6,700+ customers."
+    ],
+    "date_confidence": "verified",
+    "notes": "Beyond Oil USA and Eazy Grease announced a strategic partnership combining oil purification technology that extends frying oil life with used cooking oil recycling services. The collaboration creates an end-to-end solution enabling restaurants to reduce oil consumption while ensuring used oil is recycled into renewable fuels, establishing a circular economy model for food service operations.",
+    "latitude": 28.538,
+    "longitude": -81.379,
+    "zoom_hint": "wide"
+  },
+  {
     "date": "2026-10-13",
     "target": "Restaurant Depot",
     "acquirer": "Sysco",
