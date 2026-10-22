@@ -1,38 +1,58 @@
 {
-  "timestamp": "2026-10-21T16:58:42Z",
-  "added_news_count": 10,
+  "timestamp": "2026-10-22T16:58:01Z",
+  "added_news_count": 5,
   "added_deals_count": 0,
   "archived_count": 0,
   "new_today_news": [
     {
-      "date": "2026-10-21",
-      "headline": "Openings & Closings: Eataly Caff\u00e8; Adobo Mexican Grill/Taco Tek; Dunkin; Blu Cafe",
-      "source": "West Side Rag",
-      "source_url": "https://westsiderag.com/2026/10/21/openings-adobo-mexican-grill-taco-tek-dunkin-blu-cafe",
-      "category": "Restaurant",
+      "date": "2026-10-22",
+      "headline": "Darling Ingredients Issues Statement on Third Quarter 2026 Earnings; Guidance for Fiscal Year 2026",
+      "source": "SEC Filing / Darling Ingredients",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0000916540/000091654026000025/exh991-pressrelease102226.htm",
+      "category": "Public Co.",
       "categories": [
-        "Restaurant"
+        "Public Co."
       ],
-      "summary": "New York City restaurant openings and rebranding activities including Eataly Caff\u00e8, Taco Tek (formerly Adobo Mexican Grill), and multiple Dunkin locations across the Upper West Side.",
-      "relevance_score": 2,
+      "summary": "Darling Ingredients issued a statement on Q3 2026 earnings and provided fiscal year 2026 Combined Adjusted EBITDA guidance of $2.2-$2.3 billion, supported by strong business fundamentals. The company's Diamond Green Diesel joint venture sold 314.9 million gallons of renewable fuels in Q3.",
+      "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-21"
+      "first_seen_date": "2026-10-22"
     },
     {
-      "date": "2026-10-20",
-      "headline": "China expands waste oil processing for sustainable aviation fuel production",
-      "source": "UkragroConsult",
-      "source_url": "https://ukragroconsult.com/en/news/china-expands-waste-oil-processing-for-sustainable-aviation-fuel-production/",
-      "category": "Renewable Fuels",
+      "date": "2026-10-22",
+      "headline": "Darling Ingredients updates on Diamond Green Diesel Q3 results",
+      "source": "Investing.com",
+      "source_url": "https://www.investing.com/news/company-news/darling-ingredients-updates-on-diamond-green-diesel-q3-results-93CH-4965362",
+      "category": "Public Co.",
       "categories": [
+        "Public Co.",
         "Renewable Fuels"
       ],
-      "summary": "A new plant in China will process up to 320,000 tons of used cooking oil and other bio-based feedstocks annually to produce SAF using HEFA technology and Haldor Topsoe's hydroisomerization process, expected to yield 800 kg of SAF per ton of pretreated waste oil.",
+      "summary": "Darling Ingredients' joint venture partner reported renewable diesel segment earned approximately $350 million in operating income for Q3 2026. Diamond Green Diesel sold 314.9 million gallons of renewable fuels in Q3 with adjusted EBITDA per gallon of $1.30.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-22"
+    },
+    {
+      "date": "2026-10-22",
+      "headline": "Global Food Waste Laws in 2026: What Foodservice Operators Must Do, Country by Country",
+      "source": "MetafoodX",
+      "source_url": "https://www.metafoodx.com/post/global-food-waste-laws-in-2026-what-foodservice-operators-must-do-country-by-country",
+      "category": "ESG",
+      "categories": [
+        "ESG"
+      ],
+      "summary": "Overview of tightening food waste regulations worldwide including EU binding reduction targets, Spain's fines for businesses without waste plans, and England's separation requirements. Directly relevant to FOG management compliance and ESG reporting for foodservice.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -40,313 +60,62 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-21"
-    },
-    {
-      "date": "2026-10-20",
-      "headline": "Golden Corral is closing more restaurants than usual this year",
-      "source": "Nation's Restaurant News",
-      "source_url": "https://nrn.com/casual-dining/golden-corral-is-closing-more-restaurants-than-usual-this-year",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "Golden Corral confirmed closure of multiple buffet chain locations in 2026, with at least seven shuttered sites. The company indicated several closed locations will reopen under new franchisee ownership.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-21"
-    },
-    {
-      "date": "2026-10-20",
-      "headline": "Kolekt launches waste simulator for government use",
-      "source": "Waste Today Magazine",
-      "source_url": "https://www.wastetodaymagazine.com/news/kolekt-launches-waste-simulator-for-government-use/",
-      "category": "Industry Events",
-      "categories": [
-        "Industry Events"
-      ],
-      "summary": "Kolekt has launched a waste simulator tool designed for government use. The tool appears to be part of broader innovation in the waste industry.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-21"
+      "first_seen_date": "2026-10-22"
     }
   ],
   "recent_news": [
     {
+      "date": "2026-10-20",
+      "headline": "City reviews snow and ice manual; staff warns CDL driver shortage may force contractor use",
+      "source": "Citizen Portal (Leavenworth, KS)",
+      "source_url": "https://citizenportal.ai/articles/11281653/Kansas/Leavenworth-County/Leavenworth-City/City-reviews-snow-and-ice-manual-staff-warns-CDL-driver-shortage-may-force-contractor-use",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops"
+      ],
+      "summary": "Public works staff warned that limited CDL driver availability may require contractor assistance for snow and ice operations, which would increase municipal operating costs. The city continues to face staffing challenges related to the ongoing CDL driver shortage.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-22"
+    },
+    {
       "date": "2026-10-19",
-      "headline": "Five of Montgomery County's Hottest Recent Restaurant Openings (October 2026 Edition)",
-      "source": "The MoCo Show",
-      "source_url": "https://mocoshow.com/2026/10/19/five-of-montgomery-countys-hottest-recent-restaurant-openings-october-2026-edition/",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "Montgomery County, Maryland saw notable restaurant openings including Guapo's GO fast-casual concept, ZiZa Kabob halal restaurant, and other concepts in recent months, generating strong community interest.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-21"
-    },
-    {
-      "date": "2026-10-16",
-      "headline": "5 best new restaurant openings and dining updates in Boston (October 16, 2026)",
-      "source": "Boston.com",
-      "source_url": "https://www.boston.com/food/restaurants/2026/10/16/best-restaurant-openings-october-16-2026/",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "Boston-area restaurant openings including EnYa Robatayaki & Sake Bar, Michette Bakery expansion, and The Sports Bra bar concept planned for the Financial District.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-21"
-    },
-    {
-      "date": "2026-10-15",
-      "headline": "Total restaurant industry sales",
-      "source": "National Restaurant Association",
-      "source_url": "https://restaurant.org/research-and-media/research/restaurant-economic-insights/economic-indicators/total-restaurant-industry-sales/",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "Latest NRA economic data shows positive sales trajectory despite headwinds including elevated gas prices and labor market softening. Real restaurant sales rose for sixth consecutive month in September 2026.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-21"
-    },
-    {
-      "date": "2026-10-14",
-      "headline": "Barrel Energy's Happy Traps Launches Eco-Friendly Cleaners Line",
-      "source": "TipRanks",
-      "source_url": "https://www.tipranks.com/news/company-announcements/barrel-energys-happy-traps-launches-eco-friendly-cleaners",
+      "headline": "Barrel Energy Inc. - 8-K Filing - Material Event",
+      "source": "SEC",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1631463/000147793226006318/0001477932-26-006318-index.htm",
       "category": "Public Co.",
       "categories": [
-        "Public Co.",
-        "Renewable Fuels"
+        "Public Co."
       ],
-      "summary": "Barrel Energy, through its Happy Traps business in waste collection and recycling focused on used cooking oil and grease-trap waste, is extending activities beyond collection by converting recovered by-products into commercial cleaners and degreasers.",
-      "relevance_score": 5,
+      "summary": "Barrel Energy filed for registration covering registrable securities, with commitment to file an initial registration statement by October 12, 2026. Recent 8-K filing indicates ongoing capital structure activities.",
+      "relevance_score": 3,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-21"
-    },
-    {
-      "date": "2026-10-14",
-      "headline": "Notice of Lodging of Proposed Fourth Amended Consent Decree Under the Clean Water Act - City of Akron",
-      "source": "Federal Register",
-      "source_url": "https://www.federalregister.gov/documents/2026/10/14/2026-21003/notice-of-lodging-of-proposed-fourth-amended-consent-decree-under-the-clean-water-act",
-      "category": "Infrastructure",
-      "categories": [
-        "Infrastructure",
-        "Regulatory"
-      ],
-      "summary": "Department of Justice lodged a Fourth Amendment to the Consent Decree for Akron's municipal wastewater treatment facility and sewer system, addressing combined sewer overflows and treatment bypasses under a comprehensive Long Term Control Plan Update.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-21"
+      "first_seen_date": "2026-10-22"
     }
   ],
-  "backfill_news": [
-    {
-      "date": "2026-10-08",
-      "headline": "Grease Waste Requirements are Now Effective",
-      "source": "Florida Department of Environmental Protection",
-      "source_url": "https://floridadep.gov/waste/permitting-compliance-assistance/content/grease-waste",
-      "category": "ESG",
-      "categories": [
-        "ESG"
-      ],
-      "summary": "Florida's grease waste program update ensures that fats, oils, and grease from restaurant kitchens are handled safely and responsibly through licensed haulers and self-cleaners. The program addresses proper disposal to prevent environmental damage and clogged pipes.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-21"
-    }
-  ],
+  "backfill_news": [],
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-10-21",
-      "headline": "Openings & Closings: Eataly Caff\u00e8; Adobo Mexican Grill/Taco Tek; Dunkin; Blu Cafe",
-      "source": "West Side Rag",
-      "source_url": "https://westsiderag.com/2026/10/21/openings-adobo-mexican-grill-taco-tek-dunkin-blu-cafe",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "New York City restaurant openings and rebranding activities including Eataly Caff\u00e8, Taco Tek (formerly Adobo Mexican Grill), and multiple Dunkin locations across the Upper West Side.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-21"
-    },
-    {
-      "date": "2026-10-20",
-      "headline": "China expands waste oil processing for sustainable aviation fuel production",
-      "source": "UkragroConsult",
-      "source_url": "https://ukragroconsult.com/en/news/china-expands-waste-oil-processing-for-sustainable-aviation-fuel-production/",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels"
-      ],
-      "summary": "A new plant in China will process up to 320,000 tons of used cooking oil and other bio-based feedstocks annually to produce SAF using HEFA technology and Haldor Topsoe's hydroisomerization process, expected to yield 800 kg of SAF per ton of pretreated waste oil.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-21"
-    },
-    {
-      "date": "2026-10-20",
-      "headline": "Golden Corral is closing more restaurants than usual this year",
-      "source": "Nation's Restaurant News",
-      "source_url": "https://nrn.com/casual-dining/golden-corral-is-closing-more-restaurants-than-usual-this-year",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "Golden Corral confirmed closure of multiple buffet chain locations in 2026, with at least seven shuttered sites. The company indicated several closed locations will reopen under new franchisee ownership.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-21"
-    },
-    {
-      "date": "2026-10-20",
-      "headline": "Kolekt launches waste simulator for government use",
-      "source": "Waste Today Magazine",
-      "source_url": "https://www.wastetodaymagazine.com/news/kolekt-launches-waste-simulator-for-government-use/",
-      "category": "Industry Events",
-      "categories": [
-        "Industry Events"
-      ],
-      "summary": "Kolekt has launched a waste simulator tool designed for government use. The tool appears to be part of broader innovation in the waste industry.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-21"
-    },
-    {
-      "date": "2026-10-19",
-      "headline": "Five of Montgomery County's Hottest Recent Restaurant Openings (October 2026 Edition)",
-      "source": "The MoCo Show",
-      "source_url": "https://mocoshow.com/2026/10/19/five-of-montgomery-countys-hottest-recent-restaurant-openings-october-2026-edition/",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "Montgomery County, Maryland saw notable restaurant openings including Guapo's GO fast-casual concept, ZiZa Kabob halal restaurant, and other concepts in recent months, generating strong community interest.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-21"
-    },
-    {
-      "date": "2026-10-16",
-      "headline": "5 best new restaurant openings and dining updates in Boston (October 16, 2026)",
-      "source": "Boston.com",
-      "source_url": "https://www.boston.com/food/restaurants/2026/10/16/best-restaurant-openings-october-16-2026/",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "Boston-area restaurant openings including EnYa Robatayaki & Sake Bar, Michette Bakery expansion, and The Sports Bra bar concept planned for the Financial District.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-21"
-    },
-    {
-      "date": "2026-10-15",
-      "headline": "Total restaurant industry sales",
-      "source": "National Restaurant Association",
-      "source_url": "https://restaurant.org/research-and-media/research/restaurant-economic-insights/economic-indicators/total-restaurant-industry-sales/",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "Latest NRA economic data shows positive sales trajectory despite headwinds including elevated gas prices and labor market softening. Real restaurant sales rose for sixth consecutive month in September 2026.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-21"
-    },
-    {
-      "date": "2026-10-14",
-      "headline": "Barrel Energy's Happy Traps Launches Eco-Friendly Cleaners Line",
-      "source": "TipRanks",
-      "source_url": "https://www.tipranks.com/news/company-announcements/barrel-energys-happy-traps-launches-eco-friendly-cleaners",
+      "date": "2026-10-22",
+      "headline": "Darling Ingredients Issues Statement on Third Quarter 2026 Earnings; Guidance for Fiscal Year 2026",
+      "source": "SEC Filing / Darling Ingredients",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0000916540/000091654026000025/exh991-pressrelease102226.htm",
       "category": "Public Co.",
       "categories": [
-        "Public Co.",
-        "Renewable Fuels"
+        "Public Co."
       ],
-      "summary": "Barrel Energy, through its Happy Traps business in waste collection and recycling focused on used cooking oil and grease-trap waste, is extending activities beyond collection by converting recovered by-products into commercial cleaners and degreasers.",
+      "summary": "Darling Ingredients issued a statement on Q3 2026 earnings and provided fiscal year 2026 Combined Adjusted EBITDA guidance of $2.2-$2.3 billion, supported by strong business fundamentals. The company's Diamond Green Diesel joint venture sold 314.9 million gallons of renewable fuels in Q3.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -354,38 +123,38 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-21"
+      "first_seen_date": "2026-10-22"
     },
     {
-      "date": "2026-10-14",
-      "headline": "Notice of Lodging of Proposed Fourth Amended Consent Decree Under the Clean Water Act - City of Akron",
-      "source": "Federal Register",
-      "source_url": "https://www.federalregister.gov/documents/2026/10/14/2026-21003/notice-of-lodging-of-proposed-fourth-amended-consent-decree-under-the-clean-water-act",
-      "category": "Infrastructure",
+      "date": "2026-10-22",
+      "headline": "Darling Ingredients updates on Diamond Green Diesel Q3 results",
+      "source": "Investing.com",
+      "source_url": "https://www.investing.com/news/company-news/darling-ingredients-updates-on-diamond-green-diesel-q3-results-93CH-4965362",
+      "category": "Public Co.",
       "categories": [
-        "Infrastructure",
-        "Regulatory"
+        "Public Co.",
+        "Renewable Fuels"
       ],
-      "summary": "Department of Justice lodged a Fourth Amendment to the Consent Decree for Akron's municipal wastewater treatment facility and sewer system, addressing combined sewer overflows and treatment bypasses under a comprehensive Long Term Control Plan Update.",
-      "relevance_score": 4,
+      "summary": "Darling Ingredients' joint venture partner reported renewable diesel segment earned approximately $350 million in operating income for Q3 2026. Diamond Green Diesel sold 314.9 million gallons of renewable fuels in Q3 with adjusted EBITDA per gallon of $1.30.",
+      "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-21"
+      "first_seen_date": "2026-10-22"
     },
     {
-      "date": "2026-10-08",
-      "headline": "Grease Waste Requirements are Now Effective",
-      "source": "Florida Department of Environmental Protection",
-      "source_url": "https://floridadep.gov/waste/permitting-compliance-assistance/content/grease-waste",
+      "date": "2026-10-22",
+      "headline": "Global Food Waste Laws in 2026: What Foodservice Operators Must Do, Country by Country",
+      "source": "MetafoodX",
+      "source_url": "https://www.metafoodx.com/post/global-food-waste-laws-in-2026-what-foodservice-operators-must-do-country-by-country",
       "category": "ESG",
       "categories": [
         "ESG"
       ],
-      "summary": "Florida's grease waste program update ensures that fats, oils, and grease from restaurant kitchens are handled safely and responsibly through licensed haulers and self-cleaners. The program addresses proper disposal to prevent environmental damage and clogged pipes.",
+      "summary": "Overview of tightening food waste regulations worldwide including EU binding reduction targets, Spain's fines for businesses without waste plans, and England's separation requirements. Directly relevant to FOG management compliance and ESG reporting for foodservice.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -393,7 +162,45 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-21"
+      "first_seen_date": "2026-10-22"
+    },
+    {
+      "date": "2026-10-20",
+      "headline": "City reviews snow and ice manual; staff warns CDL driver shortage may force contractor use",
+      "source": "Citizen Portal (Leavenworth, KS)",
+      "source_url": "https://citizenportal.ai/articles/11281653/Kansas/Leavenworth-County/Leavenworth-City/City-reviews-snow-and-ice-manual-staff-warns-CDL-driver-shortage-may-force-contractor-use",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops"
+      ],
+      "summary": "Public works staff warned that limited CDL driver availability may require contractor assistance for snow and ice operations, which would increase municipal operating costs. The city continues to face staffing challenges related to the ongoing CDL driver shortage.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-22"
+    },
+    {
+      "date": "2026-10-19",
+      "headline": "Barrel Energy Inc. - 8-K Filing - Material Event",
+      "source": "SEC",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1631463/000147793226006318/0001477932-26-006318-index.htm",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "Barrel Energy filed for registration covering registrable securities, with commitment to file an initial registration statement by October 12, 2026. Recent 8-K filing indicates ongoing capital structure activities.",
+      "relevance_score": 3,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-22"
     }
   ]
 }
