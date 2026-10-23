@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-10-23",
+    "headline": "City Breaks Ground on Wastewater Treatment Plant Expansion",
+    "source": "Eagle Mountain City Government",
+    "source_url": "https://eaglemountain.gov/wastewater-treatment-plant-expansion-october-2026/",
+    "category": "Infrastructure",
+    "categories": [
+      "Infrastructure"
+    ],
+    "summary": "Eagle Mountain City broke ground on a wastewater treatment plant expansion to handle growing demand from the city's rapidly increasing population. The project will upgrade the existing plant and build a new membrane bioreactor facility adding 6 MGD capacity, with construction expected to take three to four years.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-23"
+  },
+  {
     "date": "2026-10-22",
     "headline": "Darling Ingredients Issues Statement on Third Quarter 2026 Earnings; Guidance for Fiscal Year 2026",
     "source": "SEC Filing / Darling Ingredients",
@@ -58,6 +77,63 @@
     "first_seen_date": "2026-10-22"
   },
   {
+    "date": "2026-10-22",
+    "headline": "New fuel, same planes: Inside the bid to clean up air travel with cooking oil and captured carbon",
+    "source": "GeekWire",
+    "source_url": "https://www.geekwire.com/2026/new-fuel-same-planes-inside-the-bid-to-clean-up-air-travel-with-cooking-oil-and-captured-carbon/",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels"
+    ],
+    "summary": "Montana Renewables aims to expand SAF production from 60 million gallons annually to 200 million by end of 2028, addressing the U.S. government's goal of 3 billion gallons of SAF annually by 2030. SAF production faces cost challenges but is expected to become cheaper as production scales.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-23"
+  },
+  {
+    "date": "2026-10-22",
+    "headline": "Morocco's $239M Plan: Turning Used Cooking Oil into Jet Fuel",
+    "source": "21st Century Leadership Skills",
+    "source_url": "https://21stcenturyleadershipskills.com/article/morocco-s-239m-plan-turning-used-cooking-oil-into-jet-fuel-sustainable-aviation-fuel-revolution",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels"
+    ],
+    "summary": "Morocco is developing a $239 million SAF facility using Axens' Vegan HEFA technology to process waste-based oils and fats, with expected startup in August 2028. The plant will also produce renewable diesel, renewable naphtha, and bio-propane.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-23"
+  },
+  {
+    "date": "2026-10-22",
+    "headline": "Brunswick Wastewater Expansion to Cost Hundreds of Millions as Development Outpaces Capacity",
+    "source": "Port City Daily",
+    "source_url": "https://portcitydaily.com/latest-news/2026/10/22/brunswick-wastewater-expansion-to-cost-hundreds-of-millions-as-development-outpaces-capacity/",
+    "category": "Infrastructure",
+    "categories": [
+      "Infrastructure"
+    ],
+    "summary": "Brunswick County wastewater plants are exceeding capacity with new sewer permits frozen under state law. Commissioners are considering $250 million to $1 billion in infrastructure investments, with one plant expansion set to break ground in August 2027 to increase capacity from 1.5 MGD to 9.5-15.5 MGD.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-23"
+  },
+  {
     "date": "2026-10-21",
     "headline": "Openings & Closings: Eataly Caff\u00e8; Adobo Mexican Grill/Taco Tek; Dunkin; Blu Cafe",
     "source": "West Side Rag",
@@ -75,6 +151,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-10-21"
+  },
+  {
+    "date": "2026-10-21",
+    "headline": "Dump Truck Insurance Costs in 2026: Rates & Factors",
+    "source": "First State Insurance",
+    "source_url": "https://firststateinsurance.net/blog/dump-truck-insurance-costs-in-2026-average-rates-and-cost-factors/",
+    "category": "Labor/Ops",
+    "categories": [
+      "Labor/Ops"
+    ],
+    "summary": "Dump truck insurance for a single unit typically runs $9,000-$20,000 annually for standard operators, with higher rates for new authorities and high-risk materials. Monthly premiums for established owner-operators fall in the $750-$1,700 range.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-10-23"
   },
   {
     "date": "2026-10-20",
