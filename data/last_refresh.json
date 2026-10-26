@@ -1,97 +1,116 @@
 {
-  "timestamp": "2026-10-23T16:50:07Z",
-  "added_news_count": 5,
+  "timestamp": "2026-10-26T18:34:24Z",
+  "added_news_count": 12,
   "added_deals_count": 0,
-  "archived_count": 0,
+  "archived_count": 6,
   "new_today_news": [
     {
-      "date": "2026-10-23",
-      "headline": "City Breaks Ground on Wastewater Treatment Plant Expansion",
-      "source": "Eagle Mountain City Government",
-      "source_url": "https://eaglemountain.gov/wastewater-treatment-plant-expansion-october-2026/",
-      "category": "Infrastructure",
+      "date": "2026-10-26",
+      "headline": "Cutting Through Sewer Line FOG",
+      "source": "MSW Management Magazine",
+      "source_url": "https://www.mswmag.com/editorial/2026/11/cutting-through-sewer-line-fog",
+      "category": "Regulatory",
       "categories": [
-        "Infrastructure"
+        "Regulatory"
       ],
-      "summary": "Eagle Mountain City broke ground on a wastewater treatment plant expansion to handle growing demand from the city's rapidly increasing population. The project will upgrade the existing plant and build a new membrane bioreactor facility adding 6 MGD capacity, with construction expected to take three to four years.",
-      "relevance_score": 4,
+      "summary": "Johnson County Wastewater's FOG prevention program combines regular inspection and enforcement at commercial establishments with residential educational outreach to prevent collection system maintenance problems and sanitary sewer overflows.",
+      "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-23"
+      "first_seen_date": "2026-10-26"
     },
     {
-      "date": "2026-10-22",
-      "headline": "New fuel, same planes: Inside the bid to clean up air travel with cooking oil and captured carbon",
-      "source": "GeekWire",
-      "source_url": "https://www.geekwire.com/2026/new-fuel-same-planes-inside-the-bid-to-clean-up-air-travel-with-cooking-oil-and-captured-carbon/",
-      "category": "Renewable Fuels",
+      "date": "2026-10-26",
+      "headline": "What's in the Cards for Darling Ingredients in Q3 Earnings Release?",
+      "source": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/whats-cards-darling-ingredients-q3-114500179.html",
+      "category": "Public Co.",
       "categories": [
-        "Renewable Fuels"
+        "Public Co."
       ],
-      "summary": "Montana Renewables aims to expand SAF production from 60 million gallons annually to 200 million by end of 2028, addressing the U.S. government's goal of 3 billion gallons of SAF annually by 2030. SAF production faces cost challenges but is expected to become cheaper as production scales.",
-      "relevance_score": 4,
+      "summary": "Darling Ingredients is expected to report Q3 2026 earnings on October 29 with revenue guidance of $1.8 billion (14% increase YoY). Management expects strong core-business fundamentals and favorable momentum entering Q4.",
+      "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-23"
+      "first_seen_date": "2026-10-26"
     },
     {
-      "date": "2026-10-22",
-      "headline": "Morocco's $239M Plan: Turning Used Cooking Oil into Jet Fuel",
-      "source": "21st Century Leadership Skills",
-      "source_url": "https://21stcenturyleadershipskills.com/article/morocco-s-239m-plan-turning-used-cooking-oil-into-jet-fuel-sustainable-aviation-fuel-revolution",
-      "category": "Renewable Fuels",
+      "date": "2026-10-26",
+      "headline": "Clean Harbors (CLH) Projected to Release Quarterly Earnings on Wednesday",
+      "source": "The Cerbat Gem",
+      "source_url": "https://www.thecerbatgem.com/2026/10/26/clean-harbors-clh-projected-to-release-quarterly-earnings-on-wednesday.html",
+      "category": "Public Co.",
       "categories": [
-        "Renewable Fuels"
+        "Public Co."
       ],
-      "summary": "Morocco is developing a $239 million SAF facility using Axens' Vegan HEFA technology to process waste-based oils and fats, with expected startup in August 2028. The plant will also produce renewable diesel, renewable naphtha, and bio-propane.",
-      "relevance_score": 4,
+      "summary": "Clean Harbors will likely be posting its Q3 2026 results before the market opens on Wednesday, October 28th, with analysts expecting earnings of $3.26 per share and revenue of $1.73 billion.",
+      "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-23"
+      "first_seen_date": "2026-10-26"
     },
     {
-      "date": "2026-10-22",
-      "headline": "Brunswick Wastewater Expansion to Cost Hundreds of Millions as Development Outpaces Capacity",
-      "source": "Port City Daily",
-      "source_url": "https://portcitydaily.com/latest-news/2026/10/22/brunswick-wastewater-expansion-to-cost-hundreds-of-millions-as-development-outpaces-capacity/",
-      "category": "Infrastructure",
+      "date": "2026-10-26",
+      "headline": "More than 7,500 U.S. restaurant locations closed in six months",
+      "source": "Morning News Watch",
+      "source_url": "https://morningnewswatch.com/article/more-than-7500-us-restaurant-locations-closed-in-six-months",
+      "category": "Restaurant",
       "categories": [
-        "Infrastructure"
+        "Restaurant"
       ],
-      "summary": "Brunswick County wastewater plants are exceeding capacity with new sewer permits frozen under state law. Commissioners are considering $250 million to $1 billion in infrastructure investments, with one plant expansion set to break ground in August 2027 to increase capacity from 1.5 MGD to 9.5-15.5 MGD.",
-      "relevance_score": 4,
+      "summary": "More than 7,500 U.S. restaurant locations closed in the first half of 2026 due to rising costs and declining sales. CBS News reported the closures were nationwide rather than isolated to specific regions or chains.",
+      "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-23"
+      "first_seen_date": "2026-10-26"
     }
   ],
   "recent_news": [
     {
-      "date": "2026-10-21",
-      "headline": "Dump Truck Insurance Costs in 2026: Rates & Factors",
-      "source": "First State Insurance",
-      "source_url": "https://firststateinsurance.net/blog/dump-truck-insurance-costs-in-2026-average-rates-and-cost-factors/",
-      "category": "Labor/Ops",
+      "date": "2026-10-24",
+      "headline": "Darling Ingredients Reaffirms FY26 Outlook Despite DGD Margin Compression",
+      "source": "Panabee",
+      "source_url": "https://www.panabee.com/news/darling-ingredients-earnings-q4-2026",
+      "category": "Public Co.",
       "categories": [
-        "Labor/Ops"
+        "Public Co."
       ],
-      "summary": "Dump truck insurance for a single unit typically runs $9,000-$20,000 annually for standard operators, with higher rates for new authorities and high-risk materials. Monthly premiums for established owner-operators fall in the $750-$1,700 range.",
+      "summary": "Darling Ingredients maintained its FY26 adjusted EBITDA guidance of $2.2-$2.3 billion despite notable margin pressure in its Diamond Green Diesel joint venture, with unit economics facing 18% compression to $1.30 per gallon.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-26"
+    },
+    {
+      "date": "2026-10-24",
+      "headline": "Mashed: The Most Unexpected Chain Restaurant Closures To Happen In 2026",
+      "source": "Mashed",
+      "source_url": "https://mashed.com/2291732/unexepected-chain-retstaurant-closures-2026",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "O'Charley's permanently closed all remaining 49 locations in 2026. Papa John's initiated a multi-year plan to close up to 300 locations across 17 states. Starbucks announced sudden closures of 250 cafes with one week's notice.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -99,98 +118,175 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-23"
+      "first_seen_date": "2026-10-26"
+    },
+    {
+      "date": "2026-10-23",
+      "headline": "Hooters keeps closing restaurants as bankruptcy comeback sputters",
+      "source": "TheStreet",
+      "source_url": "https://www.thestreet.com/restaurants/hooters-closes-another-restaurant-as-it-shutters-about-56-in-2026",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Hooters has closed approximately 56 restaurant locations so far in 2026. The closures reflect broader industry challenges despite the chain's attempted bankruptcy comeback.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-26"
+    },
+    {
+      "date": "2026-10-22",
+      "headline": "Pittsburgh restaurant openings & closings: October guide",
+      "source": "Next Pittsburgh",
+      "source_url": "https://nextpittsburgh.com/eatdrink/pittsburgh-restaurant-openings-and-closings-october-2026/",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Pittsburgh area restaurant activity report for October 2026 showing new openings including a Mediterranean restaurant on Butler Street in Lawrenceville and a SouthSide Works bakery.",
+      "relevance_score": 1,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-26"
+    },
+    {
+      "date": "2026-10-21",
+      "headline": "GFL Environmental (GFL) Projected to Announce Quarterly Earnings on Wednesday",
+      "source": "MarketBeat",
+      "source_url": "https://www.marketbeat.com/instant-alerts/upcoming-gfl-environmental-gfl-projected-to-announce-quarterly-earnings-on-wednesday-2026-10-21/",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "GFL Environmental will be releasing its Q3 2026 earnings after the market closes on Wednesday, October 28, with analysts expecting earnings of $0.1878 per share and revenue of $1.49 billion.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-26"
+    },
+    {
+      "date": "2026-10-21",
+      "headline": "Committee approves raising hauling and tipping fees after nearby facility closure",
+      "source": "Citizen Portal",
+      "source_url": "https://citizenportal.ai/articles/11287574/new-york/warren-county/committee-approves-raising-hauling-and-tipping-fees-after-nearby-facility-closure",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure"
+      ],
+      "summary": "Warren County's committee approved raising tipping fees from $68 to $99.00 per ton and hauling rates from $3.14 to $3.45 per mile after a nearby disposal facility closure increased hauling distances.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-26"
+    },
+    {
+      "date": "2026-10-20",
+      "headline": "City proposes housekeeping changes to sewer ordinance on FOG, impact fees and meters",
+      "source": "Citizen Portal (Maine/York County)",
+      "source_url": "https://citizenportal.ai/articles/11247830/Maine/York-County/Saco-City/City-proposes-housekeeping-changes-to-sewer-ordinance-on-FOG-impact-fees-and-meters",
+      "category": "Regulatory",
+      "categories": [
+        "Regulatory"
+      ],
+      "summary": "Saco City proposes minor code amendments to its sewer ordinance to clarify fat/soil/grease device timelines, standardize impact fees, and improve transparency and consistency for businesses and staff.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-26"
     }
   ],
-  "backfill_news": [],
+  "backfill_news": [
+    {
+      "date": "2026-10-18",
+      "headline": "Top Waste-to-Energy Companies in 2026",
+      "source": "One Stop ESG",
+      "source_url": "https://onestopesg.com/esg-resources/guide/waste-to-energy-companies-2",
+      "category": "Technology",
+      "categories": [
+        "Technology"
+      ],
+      "summary": "Guide covering leading waste-to-energy operators and technology providers, including LanzaTech's gas-fermentation platform for waste-to-fuel conversion and Enerkem's gasification-based process for converting waste to fuels.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-26"
+    }
+  ],
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-10-23",
-      "headline": "City Breaks Ground on Wastewater Treatment Plant Expansion",
-      "source": "Eagle Mountain City Government",
-      "source_url": "https://eaglemountain.gov/wastewater-treatment-plant-expansion-october-2026/",
-      "category": "Infrastructure",
+      "date": "2026-10-26",
+      "headline": "Cutting Through Sewer Line FOG",
+      "source": "MSW Management Magazine",
+      "source_url": "https://www.mswmag.com/editorial/2026/11/cutting-through-sewer-line-fog",
+      "category": "Regulatory",
       "categories": [
-        "Infrastructure"
+        "Regulatory"
       ],
-      "summary": "Eagle Mountain City broke ground on a wastewater treatment plant expansion to handle growing demand from the city's rapidly increasing population. The project will upgrade the existing plant and build a new membrane bioreactor facility adding 6 MGD capacity, with construction expected to take three to four years.",
-      "relevance_score": 4,
+      "summary": "Johnson County Wastewater's FOG prevention program combines regular inspection and enforcement at commercial establishments with residential educational outreach to prevent collection system maintenance problems and sanitary sewer overflows.",
+      "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-23"
+      "first_seen_date": "2026-10-26"
     },
     {
-      "date": "2026-10-22",
-      "headline": "New fuel, same planes: Inside the bid to clean up air travel with cooking oil and captured carbon",
-      "source": "GeekWire",
-      "source_url": "https://www.geekwire.com/2026/new-fuel-same-planes-inside-the-bid-to-clean-up-air-travel-with-cooking-oil-and-captured-carbon/",
-      "category": "Renewable Fuels",
+      "date": "2026-10-26",
+      "headline": "What's in the Cards for Darling Ingredients in Q3 Earnings Release?",
+      "source": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/whats-cards-darling-ingredients-q3-114500179.html",
+      "category": "Public Co.",
       "categories": [
-        "Renewable Fuels"
+        "Public Co."
       ],
-      "summary": "Montana Renewables aims to expand SAF production from 60 million gallons annually to 200 million by end of 2028, addressing the U.S. government's goal of 3 billion gallons of SAF annually by 2030. SAF production faces cost challenges but is expected to become cheaper as production scales.",
-      "relevance_score": 4,
+      "summary": "Darling Ingredients is expected to report Q3 2026 earnings on October 29 with revenue guidance of $1.8 billion (14% increase YoY). Management expects strong core-business fundamentals and favorable momentum entering Q4.",
+      "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-23"
+      "first_seen_date": "2026-10-26"
     },
     {
-      "date": "2026-10-22",
-      "headline": "Morocco's $239M Plan: Turning Used Cooking Oil into Jet Fuel",
-      "source": "21st Century Leadership Skills",
-      "source_url": "https://21stcenturyleadershipskills.com/article/morocco-s-239m-plan-turning-used-cooking-oil-into-jet-fuel-sustainable-aviation-fuel-revolution",
-      "category": "Renewable Fuels",
+      "date": "2026-10-26",
+      "headline": "Clean Harbors (CLH) Projected to Release Quarterly Earnings on Wednesday",
+      "source": "The Cerbat Gem",
+      "source_url": "https://www.thecerbatgem.com/2026/10/26/clean-harbors-clh-projected-to-release-quarterly-earnings-on-wednesday.html",
+      "category": "Public Co.",
       "categories": [
-        "Renewable Fuels"
+        "Public Co."
       ],
-      "summary": "Morocco is developing a $239 million SAF facility using Axens' Vegan HEFA technology to process waste-based oils and fats, with expected startup in August 2028. The plant will also produce renewable diesel, renewable naphtha, and bio-propane.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-23"
-    },
-    {
-      "date": "2026-10-22",
-      "headline": "Brunswick Wastewater Expansion to Cost Hundreds of Millions as Development Outpaces Capacity",
-      "source": "Port City Daily",
-      "source_url": "https://portcitydaily.com/latest-news/2026/10/22/brunswick-wastewater-expansion-to-cost-hundreds-of-millions-as-development-outpaces-capacity/",
-      "category": "Infrastructure",
-      "categories": [
-        "Infrastructure"
-      ],
-      "summary": "Brunswick County wastewater plants are exceeding capacity with new sewer permits frozen under state law. Commissioners are considering $250 million to $1 billion in infrastructure investments, with one plant expansion set to break ground in August 2027 to increase capacity from 1.5 MGD to 9.5-15.5 MGD.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-23"
-    },
-    {
-      "date": "2026-10-21",
-      "headline": "Dump Truck Insurance Costs in 2026: Rates & Factors",
-      "source": "First State Insurance",
-      "source_url": "https://firststateinsurance.net/blog/dump-truck-insurance-costs-in-2026-average-rates-and-cost-factors/",
-      "category": "Labor/Ops",
-      "categories": [
-        "Labor/Ops"
-      ],
-      "summary": "Dump truck insurance for a single unit typically runs $9,000-$20,000 annually for standard operators, with higher rates for new authorities and high-risk materials. Monthly premiums for established owner-operators fall in the $750-$1,700 range.",
+      "summary": "Clean Harbors will likely be posting its Q3 2026 results before the market opens on Wednesday, October 28th, with analysts expecting earnings of $3.26 per share and revenue of $1.73 billion.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -198,7 +294,178 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-23"
+      "first_seen_date": "2026-10-26"
+    },
+    {
+      "date": "2026-10-26",
+      "headline": "More than 7,500 U.S. restaurant locations closed in six months",
+      "source": "Morning News Watch",
+      "source_url": "https://morningnewswatch.com/article/more-than-7500-us-restaurant-locations-closed-in-six-months",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "More than 7,500 U.S. restaurant locations closed in the first half of 2026 due to rising costs and declining sales. CBS News reported the closures were nationwide rather than isolated to specific regions or chains.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-26"
+    },
+    {
+      "date": "2026-10-24",
+      "headline": "Darling Ingredients Reaffirms FY26 Outlook Despite DGD Margin Compression",
+      "source": "Panabee",
+      "source_url": "https://www.panabee.com/news/darling-ingredients-earnings-q4-2026",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "Darling Ingredients maintained its FY26 adjusted EBITDA guidance of $2.2-$2.3 billion despite notable margin pressure in its Diamond Green Diesel joint venture, with unit economics facing 18% compression to $1.30 per gallon.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-26"
+    },
+    {
+      "date": "2026-10-24",
+      "headline": "Mashed: The Most Unexpected Chain Restaurant Closures To Happen In 2026",
+      "source": "Mashed",
+      "source_url": "https://mashed.com/2291732/unexepected-chain-retstaurant-closures-2026",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "O'Charley's permanently closed all remaining 49 locations in 2026. Papa John's initiated a multi-year plan to close up to 300 locations across 17 states. Starbucks announced sudden closures of 250 cafes with one week's notice.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-26"
+    },
+    {
+      "date": "2026-10-23",
+      "headline": "Hooters keeps closing restaurants as bankruptcy comeback sputters",
+      "source": "TheStreet",
+      "source_url": "https://www.thestreet.com/restaurants/hooters-closes-another-restaurant-as-it-shutters-about-56-in-2026",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Hooters has closed approximately 56 restaurant locations so far in 2026. The closures reflect broader industry challenges despite the chain's attempted bankruptcy comeback.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-26"
+    },
+    {
+      "date": "2026-10-22",
+      "headline": "Pittsburgh restaurant openings & closings: October guide",
+      "source": "Next Pittsburgh",
+      "source_url": "https://nextpittsburgh.com/eatdrink/pittsburgh-restaurant-openings-and-closings-october-2026/",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Pittsburgh area restaurant activity report for October 2026 showing new openings including a Mediterranean restaurant on Butler Street in Lawrenceville and a SouthSide Works bakery.",
+      "relevance_score": 1,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-26"
+    },
+    {
+      "date": "2026-10-21",
+      "headline": "GFL Environmental (GFL) Projected to Announce Quarterly Earnings on Wednesday",
+      "source": "MarketBeat",
+      "source_url": "https://www.marketbeat.com/instant-alerts/upcoming-gfl-environmental-gfl-projected-to-announce-quarterly-earnings-on-wednesday-2026-10-21/",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "GFL Environmental will be releasing its Q3 2026 earnings after the market closes on Wednesday, October 28, with analysts expecting earnings of $0.1878 per share and revenue of $1.49 billion.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-26"
+    },
+    {
+      "date": "2026-10-21",
+      "headline": "Committee approves raising hauling and tipping fees after nearby facility closure",
+      "source": "Citizen Portal",
+      "source_url": "https://citizenportal.ai/articles/11287574/new-york/warren-county/committee-approves-raising-hauling-and-tipping-fees-after-nearby-facility-closure",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure"
+      ],
+      "summary": "Warren County's committee approved raising tipping fees from $68 to $99.00 per ton and hauling rates from $3.14 to $3.45 per mile after a nearby disposal facility closure increased hauling distances.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-26"
+    },
+    {
+      "date": "2026-10-20",
+      "headline": "City proposes housekeeping changes to sewer ordinance on FOG, impact fees and meters",
+      "source": "Citizen Portal (Maine/York County)",
+      "source_url": "https://citizenportal.ai/articles/11247830/Maine/York-County/Saco-City/City-proposes-housekeeping-changes-to-sewer-ordinance-on-FOG-impact-fees-and-meters",
+      "category": "Regulatory",
+      "categories": [
+        "Regulatory"
+      ],
+      "summary": "Saco City proposes minor code amendments to its sewer ordinance to clarify fat/soil/grease device timelines, standardize impact fees, and improve transparency and consistency for businesses and staff.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-26"
+    },
+    {
+      "date": "2026-10-18",
+      "headline": "Top Waste-to-Energy Companies in 2026",
+      "source": "One Stop ESG",
+      "source_url": "https://onestopesg.com/esg-resources/guide/waste-to-energy-companies-2",
+      "category": "Technology",
+      "categories": [
+        "Technology"
+      ],
+      "summary": "Guide covering leading waste-to-energy operators and technology providers, including LanzaTech's gas-fermentation platform for waste-to-fuel conversion and Enerkem's gasification-based process for converting waste to fuels.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-26"
     }
   ]
 }

@@ -1,5 +1,123 @@
 [
   {
+    "date": "2026-04-29",
+    "headline": "Roanoke's CDL driver shortage causes recycling backlog \u2014 city turns to art contest for creative solution",
+    "source": "WSLS",
+    "source_url": "https://www.wsls.com/news/local/2026/04/29/roanokes-cdl-driver-shortage-causes-recycling-backlog-city-turns-to-art-contest-for-creative-solution/",
+    "category": "Labor/Ops",
+    "summary": "Roanoke is experiencing recycling delays due to a shortage of CDL-certified drivers, causing overflowing bins and resident frustration. The city is implementing staff augmentation efforts and weekend work schedules to address the labor shortage impact on waste collection operations.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-04-29",
+    "categories": [
+      "Labor/Ops"
+    ]
+  },
+  {
+    "date": "2026-04-29",
+    "headline": "GFL Environmental Announces Proposed Acquisition of Secure Waste Infrastructure in Western Canada",
+    "source": "GFL Environmental (from earnings announcements)",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/gfl-environmental-q1-earnings-call-210658304.html",
+    "category": "Public Co.",
+    "summary": "GFL announced a proposed acquisition of Secure Waste Infrastructure to strengthen its operations in Western Canada. Operational cost and revenue synergies are expected to be material and could represent an incremental 25 to 50 million of opportunity above 25 million of largely SGA cost savings already identified, with Secure's 2026 revenue expected to be 1.5 to 1.6 billion.",
+    "relevance_score": 4,
+    "is_deal": true,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-04-29",
+    "categories": [
+      "Public Co.",
+      "M&A"
+    ]
+  },
+  {
+    "date": "2026-04-29",
+    "headline": "GFL Environmental Q1 2026 Earnings Call: Record Margins and Eight Acquisitions Completed",
+    "source": "Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/gfl-environmental-q1-earnings-call-210658304.html",
+    "category": "Public Co.",
+    "summary": "GFL Environmental achieved the highest adjusted EBITDA margin in company history at 29.1%, with pricing growing 7.0% and organic growth of 4.6% in Q1 2026. The company completed eight acquisitions including Frontier Waste Solutions in Texas and announced a proposed acquisition of Secure Waste Infrastructure for Western Canada, with management maintaining target leverage of 3.0-3.5x.",
+    "relevance_score": 4,
+    "is_deal": true,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": 31.0,
+    "longitude": -100.0,
+    "zoom_hint": "wide",
+    "first_seen_date": "2026-04-29",
+    "categories": [
+      "Public Co.",
+      "M&A"
+    ]
+  },
+  {
+    "date": "2026-04-29",
+    "headline": "GFL Environmental Completes Eight Acquisitions Including Frontier Waste Solutions; Raises 2026 Guidance",
+    "source": "Stock Titan",
+    "source_url": "https://www.stocktitan.net/sec-filings/GFL/6-k-gfl-environmental-inc-current-report-foreign-issuer-91263518db96.html",
+    "category": "Public Co.",
+    "summary": "GFL Environmental completed eight acquisitions year-to-date, including Frontier Waste Solutions in Texas. These deals add $425-450M in annualized revenue and further densify GFL's North American network. Proposed SECURE Waste acquisition expected in H2 2026 is described as incremental to current outlook. Net leverage reached 3.6x despite positive operational metrics.",
+    "relevance_score": 4,
+    "is_deal": true,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": 31.0,
+    "longitude": -100.0,
+    "zoom_hint": "wide",
+    "first_seen_date": "2026-04-29",
+    "categories": [
+      "Public Co.",
+      "M&A"
+    ]
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "EPA Updates Interim PFAS Destruction and Disposal Guidance",
+    "source": "Waste360",
+    "source_url": "https://www.waste360.com/industry-insights/epa-updates-interim-pfas-destruction-and-disposal-guidance-what-it-means-for-msw-recycling-and-composting-operations",
+    "category": "Industry Events",
+    "summary": "The EPA released updated Interim Guidance on PFAS destruction and disposal published in the Federal Register on April 28, 2026, with public comments due by June 29, 2026. The guidance addresses disposal pathways including landfilling, underground injection, and thermal treatment for PFAS-containing materials.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-04-28",
+    "categories": [
+      "Industry Events",
+      "Regulatory"
+    ]
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "Queen Sirikit National Convention Center partners with PTTGC to convert used cooking oil into SAF under 'From Kitchen to Creation' initiative",
+    "source": "Pacific Asia Travel Association",
+    "source_url": "https://www.pata.org/member-chapter-news-1/qsncc-partners-with-pttgc-to-convert-used-cooking-oil-into-sustainable-aviation-fuel-reinforcing-its-role-as-a-green-convention-center",
+    "category": "Renewable Fuels",
+    "summary": "Queen Sirikit National Convention Center launched the 'From Kitchen to Creation' initiative with PTT Global Chemical, collecting used cooking oil from on-site food operations and converting it into SAF, diverting over 68,000 kilograms of food waste and UCO from landfill in 2025.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-04-28",
+    "categories": [
+      "Renewable Fuels"
+    ]
+  },
+  {
     "date": "2026-04-18",
     "headline": "Loyola University's lab turns used cooking oil into fuel to run buses",
     "source": "Chicago Sun-Times",
