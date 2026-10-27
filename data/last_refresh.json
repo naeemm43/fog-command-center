@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-10-26T18:34:24Z",
-  "added_news_count": 12,
+  "timestamp": "2026-10-27T17:49:07Z",
+  "added_news_count": 9,
   "added_deals_count": 0,
-  "archived_count": 6,
+  "archived_count": 7,
   "new_today_news": [
     {
-      "date": "2026-10-26",
-      "headline": "Cutting Through Sewer Line FOG",
-      "source": "MSW Management Magazine",
-      "source_url": "https://www.mswmag.com/editorial/2026/11/cutting-through-sewer-line-fog",
-      "category": "Regulatory",
+      "date": "2026-10-27",
+      "headline": "Pertamina Turns Used Cooking Oil Into Sustainable Jet Fuel",
+      "source": "ANTARA News",
+      "source_url": "https://en.antaranews.com/news/438123/pertamina-turns-used-cooking-oil-into-sustainable-jet-fuel",
+      "category": "Renewable Fuels",
       "categories": [
-        "Regulatory"
+        "Renewable Fuels"
       ],
-      "summary": "Johnson County Wastewater's FOG prevention program combines regular inspection and enforcement at commercial establishments with residential educational outreach to prevent collection system maintenance problems and sanitary sewer overflows.",
+      "summary": "PT Pertamina Patra Niaga is expanding Indonesia's sustainable energy supply by converting used cooking oil into sustainable aviation fuel at its Cilacap Green Refinery, achieving commercial production stage with approximately 11 million liters of co-processed SAF in October 2026.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -21,18 +21,38 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-26"
+      "first_seen_date": "2026-10-27"
     },
     {
-      "date": "2026-10-26",
-      "headline": "What's in the Cards for Darling Ingredients in Q3 Earnings Release?",
-      "source": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/markets/stocks/articles/whats-cards-darling-ingredients-q3-114500179.html",
-      "category": "Public Co.",
+      "date": "2026-10-27",
+      "headline": "Stanwood Grill Closes After 25 Years, Family Bets It All on Max Dale's",
+      "source": "Hoodline",
+      "source_url": "https://hoodline.com/2026/10/stanwood-grill-closes-after-25-years-family-bets-it-all-on-max-dale-s",
+      "category": "Restaurant",
       "categories": [
-        "Public Co."
+        "Restaurant"
       ],
-      "summary": "Darling Ingredients is expected to report Q3 2026 earnings on October 29 with revenue guidance of $1.8 billion (14% increase YoY). Management expects strong core-business fundamentals and favorable momentum entering Q4.",
+      "summary": "A 25-year-old restaurant in Stanwood, Washington closes as operating costs soar in the region. The family is consolidating operations by folding Stanwood Grill into Max Dale's, reflecting broader restaurant industry consolidation trends.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-27"
+    },
+    {
+      "date": "2026-10-27",
+      "headline": "Biofuels Partners and Jianglan Bio-Energy strengthen collaboration to advance renewable fuel supply chains",
+      "source": "Biofuels International Magazine",
+      "source_url": "https://biofuels-news.com/news/biofuels-partners-and-jianglan-bio-energy-strengthen-collaboration-to-advance-renewable-fuel-supply-chains",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant",
+        "Renewable Fuels"
+      ],
+      "summary": "Biofuels Partners has signed a collaboration agreement with Jianglan Bio-Energy to expand international cooperation across used cooking oil (UCO), hydrotreated vegetable oil (HVO), and sustainable aviation fuel (SAF). The partnership emphasizes transparent sourcing and verified sustainability.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -40,58 +60,19 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-26"
+      "first_seen_date": "2026-10-27"
     },
     {
-      "date": "2026-10-26",
-      "headline": "Clean Harbors (CLH) Projected to Release Quarterly Earnings on Wednesday",
-      "source": "The Cerbat Gem",
-      "source_url": "https://www.thecerbatgem.com/2026/10/26/clean-harbors-clh-projected-to-release-quarterly-earnings-on-wednesday.html",
-      "category": "Public Co.",
-      "categories": [
-        "Public Co."
-      ],
-      "summary": "Clean Harbors will likely be posting its Q3 2026 results before the market opens on Wednesday, October 28th, with analysts expecting earnings of $3.26 per share and revenue of $1.73 billion.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-26"
-    },
-    {
-      "date": "2026-10-26",
-      "headline": "More than 7,500 U.S. restaurant locations closed in six months",
-      "source": "Morning News Watch",
-      "source_url": "https://morningnewswatch.com/article/more-than-7500-us-restaurant-locations-closed-in-six-months",
+      "date": "2026-10-27",
+      "headline": "The Grease Hunters of Bengaluru Want Leftover Fryer Oil to Fuel India's Jets",
+      "source": "Bloomberg",
+      "source_url": "https://bloomberg.com/news/articles/2026-10-27/india-s-biofuel-mandate-spurs-rush-for-waste-cooking-oil-to-fuel-trucks-to-jets",
       "category": "Restaurant",
       "categories": [
-        "Restaurant"
+        "Restaurant",
+        "Renewable Fuels"
       ],
-      "summary": "More than 7,500 U.S. restaurant locations closed in the first half of 2026 due to rising costs and declining sales. CBS News reported the closures were nationwide rather than isolated to specific regions or chains.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-26"
-    }
-  ],
-  "recent_news": [
-    {
-      "date": "2026-10-24",
-      "headline": "Darling Ingredients Reaffirms FY26 Outlook Despite DGD Margin Compression",
-      "source": "Panabee",
-      "source_url": "https://www.panabee.com/news/darling-ingredients-earnings-q4-2026",
-      "category": "Public Co.",
-      "categories": [
-        "Public Co."
-      ],
-      "summary": "Darling Ingredients maintained its FY26 adjusted EBITDA guidance of $2.2-$2.3 billion despite notable margin pressure in its Diamond Green Diesel joint venture, with unit economics facing 18% compression to $1.30 per gallon.",
+      "summary": "India's biofuel mandate is driving demand for used cooking oil from restaurants. Collectors traverse cities gathering fryer oil from kitchens as refiners compete for UCO feedstock to meet renewable fuel requirements.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -99,134 +80,18 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-26"
+      "first_seen_date": "2026-10-27"
     },
     {
-      "date": "2026-10-24",
-      "headline": "Mashed: The Most Unexpected Chain Restaurant Closures To Happen In 2026",
-      "source": "Mashed",
-      "source_url": "https://mashed.com/2291732/unexepected-chain-retstaurant-closures-2026",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "O'Charley's permanently closed all remaining 49 locations in 2026. Papa John's initiated a multi-year plan to close up to 300 locations across 17 states. Starbucks announced sudden closures of 250 cafes with one week's notice.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-26"
-    },
-    {
-      "date": "2026-10-23",
-      "headline": "Hooters keeps closing restaurants as bankruptcy comeback sputters",
-      "source": "TheStreet",
-      "source_url": "https://www.thestreet.com/restaurants/hooters-closes-another-restaurant-as-it-shutters-about-56-in-2026",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "Hooters has closed approximately 56 restaurant locations so far in 2026. The closures reflect broader industry challenges despite the chain's attempted bankruptcy comeback.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-26"
-    },
-    {
-      "date": "2026-10-22",
-      "headline": "Pittsburgh restaurant openings & closings: October guide",
-      "source": "Next Pittsburgh",
-      "source_url": "https://nextpittsburgh.com/eatdrink/pittsburgh-restaurant-openings-and-closings-october-2026/",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "Pittsburgh area restaurant activity report for October 2026 showing new openings including a Mediterranean restaurant on Butler Street in Lawrenceville and a SouthSide Works bakery.",
-      "relevance_score": 1,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-26"
-    },
-    {
-      "date": "2026-10-21",
-      "headline": "GFL Environmental (GFL) Projected to Announce Quarterly Earnings on Wednesday",
-      "source": "MarketBeat",
-      "source_url": "https://www.marketbeat.com/instant-alerts/upcoming-gfl-environmental-gfl-projected-to-announce-quarterly-earnings-on-wednesday-2026-10-21/",
-      "category": "Public Co.",
-      "categories": [
-        "Public Co."
-      ],
-      "summary": "GFL Environmental will be releasing its Q3 2026 earnings after the market closes on Wednesday, October 28, with analysts expecting earnings of $0.1878 per share and revenue of $1.49 billion.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-26"
-    },
-    {
-      "date": "2026-10-21",
-      "headline": "Committee approves raising hauling and tipping fees after nearby facility closure",
-      "source": "Citizen Portal",
-      "source_url": "https://citizenportal.ai/articles/11287574/new-york/warren-county/committee-approves-raising-hauling-and-tipping-fees-after-nearby-facility-closure",
+      "date": "2026-10-26",
+      "headline": "'Tremendous leap forward': Libertyville upgrading wastewater treatment plant",
+      "source": "Daily Herald",
+      "source_url": "https://www.dailyherald.com/20261026/environmental/tremendous-leap-forward-libertyville-upgrading-wastewater-treatment-plant/",
       "category": "Infrastructure",
       "categories": [
         "Infrastructure"
       ],
-      "summary": "Warren County's committee approved raising tipping fees from $68 to $99.00 per ton and hauling rates from $3.14 to $3.45 per mile after a nearby disposal facility closure increased hauling distances.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-26"
-    },
-    {
-      "date": "2026-10-20",
-      "headline": "City proposes housekeeping changes to sewer ordinance on FOG, impact fees and meters",
-      "source": "Citizen Portal (Maine/York County)",
-      "source_url": "https://citizenportal.ai/articles/11247830/Maine/York-County/Saco-City/City-proposes-housekeeping-changes-to-sewer-ordinance-on-FOG-impact-fees-and-meters",
-      "category": "Regulatory",
-      "categories": [
-        "Regulatory"
-      ],
-      "summary": "Saco City proposes minor code amendments to its sewer ordinance to clarify fat/soil/grease device timelines, standardize impact fees, and improve transparency and consistency for businesses and staff.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-26"
-    }
-  ],
-  "backfill_news": [
-    {
-      "date": "2026-10-18",
-      "headline": "Top Waste-to-Energy Companies in 2026",
-      "source": "One Stop ESG",
-      "source_url": "https://onestopesg.com/esg-resources/guide/waste-to-energy-companies-2",
-      "category": "Technology",
-      "categories": [
-        "Technology"
-      ],
-      "summary": "Guide covering leading waste-to-energy operators and technology providers, including LanzaTech's gas-fermentation platform for waste-to-fuel conversion and Enerkem's gasification-based process for converting waste to fuels.",
+      "summary": "Libertyville awarded a $3.28 million contract to upgrade its wastewater treatment plant, converting the disinfection process from liquid chlorine to ultraviolet light and replacing pumps and nondrinking water systems.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -234,21 +99,102 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-26"
+      "first_seen_date": "2026-10-27"
+    }
+  ],
+  "recent_news": [
+    {
+      "date": "2026-10-22",
+      "headline": "Taco Bell extends PepsiCo partnership through 2036",
+      "source": "Nation's Restaurant News",
+      "source_url": "https://www.nrn.com/restaurant-insights",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Taco Bell has extended its partnership with PepsiCo through 2036, with a focus on crafted, functional, and energy beverages. This reflects continued beverage innovation in the QSR sector.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-27"
+    },
+    {
+      "date": "2026-10-22",
+      "headline": "Chinese UCO exports rise by 55%",
+      "source": "OFI Magazine",
+      "source_url": "https://www.ofimagazine.com/news/chinese-uco-exports-rise-by-55",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant",
+        "Renewable Fuels"
+      ],
+      "summary": "Chinese used cooking oil exports rose 55% in January-August 2026 compared to the same period in 2025, reaching 2.57 million tonnes. The USA imported 452,000 tonnes, making it the second-largest buyer after Europe.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-27"
+    },
+    {
+      "date": "2026-10-20",
+      "headline": "Spring Restaurant Ditches Its Last Server for an AI Host Named Haniya",
+      "source": "Hoodline",
+      "source_url": "https://hoodline.com/2026/10/spring-restaurant-ditches-its-last-server-for-an-ai-host-named-haniya",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "A restaurant in Texas eliminates its last human server by deploying an AI host, with kitchen staff receiving 100% of customer tips. The trend reflects 26% of restaurant operators using some form of AI tools.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-27"
+    }
+  ],
+  "backfill_news": [
+    {
+      "date": null,
+      "headline": "[Date unverified] Clean Harbors to Report Q3 2026 Earnings Before Market Open",
+      "source": "MarketBeat / CleanHarbors IR",
+      "source_url": "https://www.marketbeat.com/earnings/reports/2026-10-28-clean-harbors-inc-stock/",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "Clean Harbors (NYSE: CLH) is scheduled to report Q3 2026 results on October 28, 2026 before market open. Analysts expect EPS of $3.21\u2013$3.23 and revenue of $1.72\u2013$1.73 billion, with expected YoY revenue growth of 11.3\u201311.4%. The company has beaten EPS estimates in 6 of last 8 quarters.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-27"
     }
   ],
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-10-26",
-      "headline": "Cutting Through Sewer Line FOG",
-      "source": "MSW Management Magazine",
-      "source_url": "https://www.mswmag.com/editorial/2026/11/cutting-through-sewer-line-fog",
-      "category": "Regulatory",
+      "date": "2026-10-27",
+      "headline": "Pertamina Turns Used Cooking Oil Into Sustainable Jet Fuel",
+      "source": "ANTARA News",
+      "source_url": "https://en.antaranews.com/news/438123/pertamina-turns-used-cooking-oil-into-sustainable-jet-fuel",
+      "category": "Renewable Fuels",
       "categories": [
-        "Regulatory"
+        "Renewable Fuels"
       ],
-      "summary": "Johnson County Wastewater's FOG prevention program combines regular inspection and enforcement at commercial establishments with residential educational outreach to prevent collection system maintenance problems and sanitary sewer overflows.",
+      "summary": "PT Pertamina Patra Niaga is expanding Indonesia's sustainable energy supply by converting used cooking oil into sustainable aviation fuel at its Cilacap Green Refinery, achieving commercial production stage with approximately 11 million liters of co-processed SAF in October 2026.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -256,18 +202,38 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-26"
+      "first_seen_date": "2026-10-27"
     },
     {
-      "date": "2026-10-26",
-      "headline": "What's in the Cards for Darling Ingredients in Q3 Earnings Release?",
-      "source": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/markets/stocks/articles/whats-cards-darling-ingredients-q3-114500179.html",
-      "category": "Public Co.",
+      "date": "2026-10-27",
+      "headline": "Stanwood Grill Closes After 25 Years, Family Bets It All on Max Dale's",
+      "source": "Hoodline",
+      "source_url": "https://hoodline.com/2026/10/stanwood-grill-closes-after-25-years-family-bets-it-all-on-max-dale-s",
+      "category": "Restaurant",
       "categories": [
-        "Public Co."
+        "Restaurant"
       ],
-      "summary": "Darling Ingredients is expected to report Q3 2026 earnings on October 29 with revenue guidance of $1.8 billion (14% increase YoY). Management expects strong core-business fundamentals and favorable momentum entering Q4.",
+      "summary": "A 25-year-old restaurant in Stanwood, Washington closes as operating costs soar in the region. The family is consolidating operations by folding Stanwood Grill into Max Dale's, reflecting broader restaurant industry consolidation trends.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-27"
+    },
+    {
+      "date": "2026-10-27",
+      "headline": "Biofuels Partners and Jianglan Bio-Energy strengthen collaboration to advance renewable fuel supply chains",
+      "source": "Biofuels International Magazine",
+      "source_url": "https://biofuels-news.com/news/biofuels-partners-and-jianglan-bio-energy-strengthen-collaboration-to-advance-renewable-fuel-supply-chains",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant",
+        "Renewable Fuels"
+      ],
+      "summary": "Biofuels Partners has signed a collaboration agreement with Jianglan Bio-Energy to expand international cooperation across used cooking oil (UCO), hydrotreated vegetable oil (HVO), and sustainable aviation fuel (SAF). The partnership emphasizes transparent sourcing and verified sustainability.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -275,56 +241,19 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-26"
+      "first_seen_date": "2026-10-27"
     },
     {
-      "date": "2026-10-26",
-      "headline": "Clean Harbors (CLH) Projected to Release Quarterly Earnings on Wednesday",
-      "source": "The Cerbat Gem",
-      "source_url": "https://www.thecerbatgem.com/2026/10/26/clean-harbors-clh-projected-to-release-quarterly-earnings-on-wednesday.html",
-      "category": "Public Co.",
-      "categories": [
-        "Public Co."
-      ],
-      "summary": "Clean Harbors will likely be posting its Q3 2026 results before the market opens on Wednesday, October 28th, with analysts expecting earnings of $3.26 per share and revenue of $1.73 billion.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-26"
-    },
-    {
-      "date": "2026-10-26",
-      "headline": "More than 7,500 U.S. restaurant locations closed in six months",
-      "source": "Morning News Watch",
-      "source_url": "https://morningnewswatch.com/article/more-than-7500-us-restaurant-locations-closed-in-six-months",
+      "date": "2026-10-27",
+      "headline": "The Grease Hunters of Bengaluru Want Leftover Fryer Oil to Fuel India's Jets",
+      "source": "Bloomberg",
+      "source_url": "https://bloomberg.com/news/articles/2026-10-27/india-s-biofuel-mandate-spurs-rush-for-waste-cooking-oil-to-fuel-trucks-to-jets",
       "category": "Restaurant",
       "categories": [
-        "Restaurant"
+        "Restaurant",
+        "Renewable Fuels"
       ],
-      "summary": "More than 7,500 U.S. restaurant locations closed in the first half of 2026 due to rising costs and declining sales. CBS News reported the closures were nationwide rather than isolated to specific regions or chains.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-26"
-    },
-    {
-      "date": "2026-10-24",
-      "headline": "Darling Ingredients Reaffirms FY26 Outlook Despite DGD Margin Compression",
-      "source": "Panabee",
-      "source_url": "https://www.panabee.com/news/darling-ingredients-earnings-q4-2026",
-      "category": "Public Co.",
-      "categories": [
-        "Public Co."
-      ],
-      "summary": "Darling Ingredients maintained its FY26 adjusted EBITDA guidance of $2.2-$2.3 billion despite notable margin pressure in its Diamond Green Diesel joint venture, with unit economics facing 18% compression to $1.30 per gallon.",
+      "summary": "India's biofuel mandate is driving demand for used cooking oil from restaurants. Collectors traverse cities gathering fryer oil from kitchens as refiners compete for UCO feedstock to meet renewable fuel requirements.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -332,132 +261,18 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-26"
+      "first_seen_date": "2026-10-27"
     },
     {
-      "date": "2026-10-24",
-      "headline": "Mashed: The Most Unexpected Chain Restaurant Closures To Happen In 2026",
-      "source": "Mashed",
-      "source_url": "https://mashed.com/2291732/unexepected-chain-retstaurant-closures-2026",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "O'Charley's permanently closed all remaining 49 locations in 2026. Papa John's initiated a multi-year plan to close up to 300 locations across 17 states. Starbucks announced sudden closures of 250 cafes with one week's notice.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-26"
-    },
-    {
-      "date": "2026-10-23",
-      "headline": "Hooters keeps closing restaurants as bankruptcy comeback sputters",
-      "source": "TheStreet",
-      "source_url": "https://www.thestreet.com/restaurants/hooters-closes-another-restaurant-as-it-shutters-about-56-in-2026",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "Hooters has closed approximately 56 restaurant locations so far in 2026. The closures reflect broader industry challenges despite the chain's attempted bankruptcy comeback.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-26"
-    },
-    {
-      "date": "2026-10-22",
-      "headline": "Pittsburgh restaurant openings & closings: October guide",
-      "source": "Next Pittsburgh",
-      "source_url": "https://nextpittsburgh.com/eatdrink/pittsburgh-restaurant-openings-and-closings-october-2026/",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "Pittsburgh area restaurant activity report for October 2026 showing new openings including a Mediterranean restaurant on Butler Street in Lawrenceville and a SouthSide Works bakery.",
-      "relevance_score": 1,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-26"
-    },
-    {
-      "date": "2026-10-21",
-      "headline": "GFL Environmental (GFL) Projected to Announce Quarterly Earnings on Wednesday",
-      "source": "MarketBeat",
-      "source_url": "https://www.marketbeat.com/instant-alerts/upcoming-gfl-environmental-gfl-projected-to-announce-quarterly-earnings-on-wednesday-2026-10-21/",
-      "category": "Public Co.",
-      "categories": [
-        "Public Co."
-      ],
-      "summary": "GFL Environmental will be releasing its Q3 2026 earnings after the market closes on Wednesday, October 28, with analysts expecting earnings of $0.1878 per share and revenue of $1.49 billion.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-26"
-    },
-    {
-      "date": "2026-10-21",
-      "headline": "Committee approves raising hauling and tipping fees after nearby facility closure",
-      "source": "Citizen Portal",
-      "source_url": "https://citizenportal.ai/articles/11287574/new-york/warren-county/committee-approves-raising-hauling-and-tipping-fees-after-nearby-facility-closure",
+      "date": "2026-10-26",
+      "headline": "'Tremendous leap forward': Libertyville upgrading wastewater treatment plant",
+      "source": "Daily Herald",
+      "source_url": "https://www.dailyherald.com/20261026/environmental/tremendous-leap-forward-libertyville-upgrading-wastewater-treatment-plant/",
       "category": "Infrastructure",
       "categories": [
         "Infrastructure"
       ],
-      "summary": "Warren County's committee approved raising tipping fees from $68 to $99.00 per ton and hauling rates from $3.14 to $3.45 per mile after a nearby disposal facility closure increased hauling distances.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-26"
-    },
-    {
-      "date": "2026-10-20",
-      "headline": "City proposes housekeeping changes to sewer ordinance on FOG, impact fees and meters",
-      "source": "Citizen Portal (Maine/York County)",
-      "source_url": "https://citizenportal.ai/articles/11247830/Maine/York-County/Saco-City/City-proposes-housekeeping-changes-to-sewer-ordinance-on-FOG-impact-fees-and-meters",
-      "category": "Regulatory",
-      "categories": [
-        "Regulatory"
-      ],
-      "summary": "Saco City proposes minor code amendments to its sewer ordinance to clarify fat/soil/grease device timelines, standardize impact fees, and improve transparency and consistency for businesses and staff.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-26"
-    },
-    {
-      "date": "2026-10-18",
-      "headline": "Top Waste-to-Energy Companies in 2026",
-      "source": "One Stop ESG",
-      "source_url": "https://onestopesg.com/esg-resources/guide/waste-to-energy-companies-2",
-      "category": "Technology",
-      "categories": [
-        "Technology"
-      ],
-      "summary": "Guide covering leading waste-to-energy operators and technology providers, including LanzaTech's gas-fermentation platform for waste-to-fuel conversion and Enerkem's gasification-based process for converting waste to fuels.",
+      "summary": "Libertyville awarded a $3.28 million contract to upgrade its wastewater treatment plant, converting the disinfection process from liquid chlorine to ultraviolet light and replacing pumps and nondrinking water systems.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -465,7 +280,84 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-26"
+      "first_seen_date": "2026-10-27"
+    },
+    {
+      "date": "2026-10-22",
+      "headline": "Taco Bell extends PepsiCo partnership through 2036",
+      "source": "Nation's Restaurant News",
+      "source_url": "https://www.nrn.com/restaurant-insights",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Taco Bell has extended its partnership with PepsiCo through 2036, with a focus on crafted, functional, and energy beverages. This reflects continued beverage innovation in the QSR sector.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-27"
+    },
+    {
+      "date": "2026-10-22",
+      "headline": "Chinese UCO exports rise by 55%",
+      "source": "OFI Magazine",
+      "source_url": "https://www.ofimagazine.com/news/chinese-uco-exports-rise-by-55",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant",
+        "Renewable Fuels"
+      ],
+      "summary": "Chinese used cooking oil exports rose 55% in January-August 2026 compared to the same period in 2025, reaching 2.57 million tonnes. The USA imported 452,000 tonnes, making it the second-largest buyer after Europe.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-27"
+    },
+    {
+      "date": "2026-10-20",
+      "headline": "Spring Restaurant Ditches Its Last Server for an AI Host Named Haniya",
+      "source": "Hoodline",
+      "source_url": "https://hoodline.com/2026/10/spring-restaurant-ditches-its-last-server-for-an-ai-host-named-haniya",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "A restaurant in Texas eliminates its last human server by deploying an AI host, with kitchen staff receiving 100% of customer tips. The trend reflects 26% of restaurant operators using some form of AI tools.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-27"
+    },
+    {
+      "date": null,
+      "headline": "[Date unverified] Clean Harbors to Report Q3 2026 Earnings Before Market Open",
+      "source": "MarketBeat / CleanHarbors IR",
+      "source_url": "https://www.marketbeat.com/earnings/reports/2026-10-28-clean-harbors-inc-stock/",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "Clean Harbors (NYSE: CLH) is scheduled to report Q3 2026 results on October 28, 2026 before market open. Analysts expect EPS of $3.21\u2013$3.23 and revenue of $1.72\u2013$1.73 billion, with expected YoY revenue growth of 11.3\u201311.4%. The company has beaten EPS estimates in 6 of last 8 quarters.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-27"
     }
   ]
 }
