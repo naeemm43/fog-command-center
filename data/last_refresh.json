@@ -1,97 +1,19 @@
 {
-  "timestamp": "2026-10-27T17:49:07Z",
-  "added_news_count": 9,
+  "timestamp": "2026-10-28T18:13:23Z",
+  "added_news_count": 11,
   "added_deals_count": 0,
   "archived_count": 7,
   "new_today_news": [
     {
-      "date": "2026-10-27",
-      "headline": "Pertamina Turns Used Cooking Oil Into Sustainable Jet Fuel",
-      "source": "ANTARA News",
-      "source_url": "https://en.antaranews.com/news/438123/pertamina-turns-used-cooking-oil-into-sustainable-jet-fuel",
-      "category": "Renewable Fuels",
+      "date": "2026-10-28",
+      "headline": "Clean Harbors Announces Third-Quarter 2026 Financial Results \u2013 Record Revenue of $1.87B and 42% EBITDA Growth",
+      "source": "SEC Filing (8-K)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0000822818/000082281826000045/clh-q32026pressrelease.htm",
+      "category": "Public Co.",
       "categories": [
-        "Renewable Fuels"
+        "Public Co."
       ],
-      "summary": "PT Pertamina Patra Niaga is expanding Indonesia's sustainable energy supply by converting used cooking oil into sustainable aviation fuel at its Cilacap Green Refinery, achieving commercial production stage with approximately 11 million liters of co-processed SAF in October 2026.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-27"
-    },
-    {
-      "date": "2026-10-27",
-      "headline": "Stanwood Grill Closes After 25 Years, Family Bets It All on Max Dale's",
-      "source": "Hoodline",
-      "source_url": "https://hoodline.com/2026/10/stanwood-grill-closes-after-25-years-family-bets-it-all-on-max-dale-s",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "A 25-year-old restaurant in Stanwood, Washington closes as operating costs soar in the region. The family is consolidating operations by folding Stanwood Grill into Max Dale's, reflecting broader restaurant industry consolidation trends.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-27"
-    },
-    {
-      "date": "2026-10-27",
-      "headline": "Biofuels Partners and Jianglan Bio-Energy strengthen collaboration to advance renewable fuel supply chains",
-      "source": "Biofuels International Magazine",
-      "source_url": "https://biofuels-news.com/news/biofuels-partners-and-jianglan-bio-energy-strengthen-collaboration-to-advance-renewable-fuel-supply-chains",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant",
-        "Renewable Fuels"
-      ],
-      "summary": "Biofuels Partners has signed a collaboration agreement with Jianglan Bio-Energy to expand international cooperation across used cooking oil (UCO), hydrotreated vegetable oil (HVO), and sustainable aviation fuel (SAF). The partnership emphasizes transparent sourcing and verified sustainability.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-27"
-    },
-    {
-      "date": "2026-10-27",
-      "headline": "The Grease Hunters of Bengaluru Want Leftover Fryer Oil to Fuel India's Jets",
-      "source": "Bloomberg",
-      "source_url": "https://bloomberg.com/news/articles/2026-10-27/india-s-biofuel-mandate-spurs-rush-for-waste-cooking-oil-to-fuel-trucks-to-jets",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant",
-        "Renewable Fuels"
-      ],
-      "summary": "India's biofuel mandate is driving demand for used cooking oil from restaurants. Collectors traverse cities gathering fryer oil from kitchens as refiners compete for UCO feedstock to meet renewable fuel requirements.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-27"
-    },
-    {
-      "date": "2026-10-26",
-      "headline": "'Tremendous leap forward': Libertyville upgrading wastewater treatment plant",
-      "source": "Daily Herald",
-      "source_url": "https://www.dailyherald.com/20261026/environmental/tremendous-leap-forward-libertyville-upgrading-wastewater-treatment-plant/",
-      "category": "Infrastructure",
-      "categories": [
-        "Infrastructure"
-      ],
-      "summary": "Libertyville awarded a $3.28 million contract to upgrade its wastewater treatment plant, converting the disinfection process from liquid chlorine to ultraviolet light and replacing pumps and nondrinking water systems.",
+      "summary": "Clean Harbors reported Q3 2026 revenues of $1.87 billion (up 21% YoY) and adjusted EBITDA of $456.1 million (up 42% YoY), with a record adjusted EBITDA margin of 24.4%. The Environmental Services segment delivered 18 consecutive quarters of year-over-year margin expansion, driven by emergency response work, PFAS-related activities, strong waste collections, and pricing initiatives. Management raised full-year 2026 guidance.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -99,199 +21,116 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-27"
+      "first_seen_date": "2026-10-28"
+    },
+    {
+      "date": "2026-10-28",
+      "headline": "GFL Environmental to Release Q3 2026 Earnings Results After Market Close",
+      "source": "SEC Filing (6-K)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001780232/000110465926110148/tm2626039d1_ex99-1.htm",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "GFL Environmental announced it will release third quarter 2026 financial results after market close on October 28, 2026, and host an investor conference call on October 29, 2026 at 8:30 AM Eastern Time. This follows strong Q1 and Q2 2026 performance where the company raised full-year guidance and completed 8 acquisitions generating $425-450 million in annualized revenue.",
+      "relevance_score": 3,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-28"
+    },
+    {
+      "date": "2026-10-28",
+      "headline": "Minnesota restaurant openings & closings for October 2026",
+      "source": "Yahoo Finance / Bring Me The News",
+      "source_url": "https://www.yahoo.com/lifestyle/articles/minnesota-restaurant-openings-closings-october-190230334.html",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Minnesota continues to see significant restaurant activity with chains like 7 Brew, Dave's Hot Chicken, and Shake Shack expanding their presence. The Twin Cities welcomed new independent coffee shops and restaurants in October, with fast-growing national chains establishing additional locations.",
+      "relevance_score": 1,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-28"
+    },
+    {
+      "date": "2026-10-28",
+      "headline": "Only 205,000 CDL holders are left in Wisconsin after a steady drop over the last 15 years",
+      "source": "CDL Life",
+      "source_url": "https://cdllife.com/2026/only-205000-cdl-holders-are-left-in-wisconsin-after-a-steady-drop-over-the-last-15-years",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops"
+      ],
+      "summary": "Wisconsin has lost nearly 10% of its truck drivers since 2010, with CDL holders declining from 224,860 in 2010 to 204,766 by 2025. The decline occurs as transportation demand in the state rises, creating staffing pressures for waste haulers.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-28"
     }
   ],
   "recent_news": [
     {
-      "date": "2026-10-22",
-      "headline": "Taco Bell extends PepsiCo partnership through 2036",
-      "source": "Nation's Restaurant News",
-      "source_url": "https://www.nrn.com/restaurant-insights",
-      "category": "Restaurant",
+      "date": "2026-10-26",
+      "headline": "BC Partners Negotiates GFL Environmental Buyout as Stock Stabilizes",
+      "source": "GuruFocus",
+      "source_url": "https://www.gurufocus.com/news/9142910/bc-partners-negotiates-gfl-environmental-gfl-buyout-as-stock-stabilizes",
+      "category": "M&A",
       "categories": [
-        "Restaurant"
-      ],
-      "summary": "Taco Bell has extended its partnership with PepsiCo through 2036, with a focus on crafted, functional, and energy beverages. This reflects continued beverage innovation in the QSR sector.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-27"
-    },
-    {
-      "date": "2026-10-22",
-      "headline": "Chinese UCO exports rise by 55%",
-      "source": "OFI Magazine",
-      "source_url": "https://www.ofimagazine.com/news/chinese-uco-exports-rise-by-55",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant",
-        "Renewable Fuels"
-      ],
-      "summary": "Chinese used cooking oil exports rose 55% in January-August 2026 compared to the same period in 2025, reaching 2.57 million tonnes. The USA imported 452,000 tonnes, making it the second-largest buyer after Europe.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-27"
-    },
-    {
-      "date": "2026-10-20",
-      "headline": "Spring Restaurant Ditches Its Last Server for an AI Host Named Haniya",
-      "source": "Hoodline",
-      "source_url": "https://hoodline.com/2026/10/spring-restaurant-ditches-its-last-server-for-an-ai-host-named-haniya",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "A restaurant in Texas eliminates its last human server by deploying an AI host, with kitchen staff receiving 100% of customer tips. The trend reflects 26% of restaurant operators using some form of AI tools.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-27"
-    }
-  ],
-  "backfill_news": [
-    {
-      "date": null,
-      "headline": "[Date unverified] Clean Harbors to Report Q3 2026 Earnings Before Market Open",
-      "source": "MarketBeat / CleanHarbors IR",
-      "source_url": "https://www.marketbeat.com/earnings/reports/2026-10-28-clean-harbors-inc-stock/",
-      "category": "Public Co.",
-      "categories": [
+        "M&A",
         "Public Co."
       ],
-      "summary": "Clean Harbors (NYSE: CLH) is scheduled to report Q3 2026 results on October 28, 2026 before market open. Analysts expect EPS of $3.21\u2013$3.23 and revenue of $1.72\u2013$1.73 billion, with expected YoY revenue growth of 11.3\u201311.4%. The company has beaten EPS estimates in 6 of last 8 quarters.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-27"
-    }
-  ],
-  "new_deals": [],
-  "new_news": [
-    {
-      "date": "2026-10-27",
-      "headline": "Pertamina Turns Used Cooking Oil Into Sustainable Jet Fuel",
-      "source": "ANTARA News",
-      "source_url": "https://en.antaranews.com/news/438123/pertamina-turns-used-cooking-oil-into-sustainable-jet-fuel",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels"
-      ],
-      "summary": "PT Pertamina Patra Niaga is expanding Indonesia's sustainable energy supply by converting used cooking oil into sustainable aviation fuel at its Cilacap Green Refinery, achieving commercial production stage with approximately 11 million liters of co-processed SAF in October 2026.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-27"
-    },
-    {
-      "date": "2026-10-27",
-      "headline": "Stanwood Grill Closes After 25 Years, Family Bets It All on Max Dale's",
-      "source": "Hoodline",
-      "source_url": "https://hoodline.com/2026/10/stanwood-grill-closes-after-25-years-family-bets-it-all-on-max-dale-s",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "A 25-year-old restaurant in Stanwood, Washington closes as operating costs soar in the region. The family is consolidating operations by folding Stanwood Grill into Max Dale's, reflecting broader restaurant industry consolidation trends.",
+      "summary": "BC Partners is negotiating to roll its 22% minority stake in GFL Environmental into a full buyout of the waste-management company. The potential deal is rumored to be priced in the mid-$50s per share, with competing bids from KKR and Brookfield Asset Management.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-27"
-    },
-    {
-      "date": "2026-10-27",
-      "headline": "Biofuels Partners and Jianglan Bio-Energy strengthen collaboration to advance renewable fuel supply chains",
-      "source": "Biofuels International Magazine",
-      "source_url": "https://biofuels-news.com/news/biofuels-partners-and-jianglan-bio-energy-strengthen-collaboration-to-advance-renewable-fuel-supply-chains",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant",
-        "Renewable Fuels"
-      ],
-      "summary": "Biofuels Partners has signed a collaboration agreement with Jianglan Bio-Energy to expand international cooperation across used cooking oil (UCO), hydrotreated vegetable oil (HVO), and sustainable aviation fuel (SAF). The partnership emphasizes transparent sourcing and verified sustainability.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-27"
-    },
-    {
-      "date": "2026-10-27",
-      "headline": "The Grease Hunters of Bengaluru Want Leftover Fryer Oil to Fuel India's Jets",
-      "source": "Bloomberg",
-      "source_url": "https://bloomberg.com/news/articles/2026-10-27/india-s-biofuel-mandate-spurs-rush-for-waste-cooking-oil-to-fuel-trucks-to-jets",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant",
-        "Renewable Fuels"
-      ],
-      "summary": "India's biofuel mandate is driving demand for used cooking oil from restaurants. Collectors traverse cities gathering fryer oil from kitchens as refiners compete for UCO feedstock to meet renewable fuel requirements.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-27"
+      "latitude": 28.538,
+      "longitude": -81.379,
+      "zoom_hint": "wide",
+      "first_seen_date": "2026-10-28"
     },
     {
       "date": "2026-10-26",
-      "headline": "'Tremendous leap forward': Libertyville upgrading wastewater treatment plant",
-      "source": "Daily Herald",
-      "source_url": "https://www.dailyherald.com/20261026/environmental/tremendous-leap-forward-libertyville-upgrading-wastewater-treatment-plant/",
+      "headline": "Lansing Has Said Goodbye to These Restaurants in 2026",
+      "source": "WITL",
+      "source_url": "https://witl.com/lansing-restaurant-closures-2026-2",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Lansing's restaurant scene experienced notable closures in 2026, including La Cocina Cubana (temporarily closed in October) and Make It Sweet bakery (closing October 31). Despite more openings than closings overall, the city has lost several long-standing favorites.",
+      "relevance_score": 1,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-28"
+    },
+    {
+      "date": "2026-10-26",
+      "headline": "$120M Utah Wastewater Expansion Targets Rapid Growth, Capacity Crunch",
+      "source": "Engineering News-Record",
+      "source_url": "https://www.enr.com/articles/64084-120m-utah-wastewater-expansion-targets-rapid-growth-capacity-crunch",
       "category": "Infrastructure",
       "categories": [
         "Infrastructure"
       ],
-      "summary": "Libertyville awarded a $3.28 million contract to upgrade its wastewater treatment plant, converting the disinfection process from liquid chlorine to ultraviolet light and replacing pumps and nondrinking water systems.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-27"
-    },
-    {
-      "date": "2026-10-22",
-      "headline": "Taco Bell extends PepsiCo partnership through 2036",
-      "source": "Nation's Restaurant News",
-      "source_url": "https://www.nrn.com/restaurant-insights",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "Taco Bell has extended its partnership with PepsiCo through 2036, with a focus on crafted, functional, and energy beverages. This reflects continued beverage innovation in the QSR sector.",
+      "summary": "Eagle Mountain, Utah, broke ground on a $120 million wastewater treatment plant expansion on Oct. 23, adding a 6-million-gallon-per-day membrane bioreactor facility. The existing plant reached its loading limit at 1.5 MGD despite 2.4 MGD hydraulic capacity, driven by concentrated sewage from new low-flow fixtures.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -299,38 +138,18 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-27"
+      "first_seen_date": "2026-10-28"
     },
     {
-      "date": "2026-10-22",
-      "headline": "Chinese UCO exports rise by 55%",
-      "source": "OFI Magazine",
-      "source_url": "https://www.ofimagazine.com/news/chinese-uco-exports-rise-by-55",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant",
-        "Renewable Fuels"
-      ],
-      "summary": "Chinese used cooking oil exports rose 55% in January-August 2026 compared to the same period in 2025, reaching 2.57 million tonnes. The USA imported 452,000 tonnes, making it the second-largest buyer after Europe.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-27"
-    },
-    {
-      "date": "2026-10-20",
-      "headline": "Spring Restaurant Ditches Its Last Server for an AI Host Named Haniya",
-      "source": "Hoodline",
-      "source_url": "https://hoodline.com/2026/10/spring-restaurant-ditches-its-last-server-for-an-ai-host-named-haniya",
+      "date": "2026-10-25",
+      "headline": "Thousands of American restaurants closing over rising costs, declining sales",
+      "source": "Yahoo News",
+      "source_url": "https://www.yahoo.com/news/videos/thousands-american-restaurants-closing-over-235341034.html",
       "category": "Restaurant",
       "categories": [
         "Restaurant"
       ],
-      "summary": "A restaurant in Texas eliminates its last human server by deploying an AI host, with kitchen staff receiving 100% of customer tips. The trend reflects 26% of restaurant operators using some form of AI tools.",
+      "summary": "More than 7,500 restaurant locations closed nationwide in the first six months of 2026, driven by rising costs and declining sales. The trend reflects broader economic pressures forcing restaurants to make difficult operational decisions.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -338,18 +157,37 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-27"
+      "first_seen_date": "2026-10-28"
     },
     {
-      "date": null,
-      "headline": "[Date unverified] Clean Harbors to Report Q3 2026 Earnings Before Market Open",
-      "source": "MarketBeat / CleanHarbors IR",
-      "source_url": "https://www.marketbeat.com/earnings/reports/2026-10-28-clean-harbors-inc-stock/",
+      "date": "2026-10-23",
+      "headline": "This Week In Food: Deep Fall",
+      "source": "SFist",
+      "source_url": "https://sfist.com/2026/10/23/this-week-in-food-deep-fall/",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "San Francisco's dining scene includes expansions and new openings: El Buen Comer is expanding to Chase Center, and a new chicken restaurant is preparing for a soft opening on October 29. Multiple venues are opening and relocating across the city.",
+      "relevance_score": 1,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-28"
+    },
+    {
+      "date": "2026-10-22",
+      "headline": "Global Grease Trap Cleaning Service Market Valued at $4.2 Billion in 2025",
+      "source": "AP Grease Trappers Industry Analysis",
+      "source_url": "https://apgreasetrappers.com/elevating-kitchen-compliance-with-grease-trap-cleaning-services",
       "category": "Public Co.",
       "categories": [
         "Public Co."
       ],
-      "summary": "Clean Harbors (NYSE: CLH) is scheduled to report Q3 2026 results on October 28, 2026 before market open. Analysts expect EPS of $3.21\u2013$3.23 and revenue of $1.72\u2013$1.73 billion, with expected YoY revenue growth of 11.3\u201311.4%. The company has beaten EPS estimates in 6 of last 8 quarters.",
+      "summary": "Market analysis indicating the global grease trap cleaning service market reached $4.2 billion in 2025, demonstrating the substantial industry footprint and increasing importance of professional wastewater management for food establishments. Commercial kitchens face strict municipal regulations requiring routine grease management to avoid operational shutdowns and financial penalties.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -357,7 +195,240 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-27"
+      "first_seen_date": "2026-10-28"
+    },
+    {
+      "date": "2026-10-22",
+      "headline": "Survey Shows Restaurant Worker Sentiment on the Rise",
+      "source": "The Food Institute",
+      "source_url": "https://foodinstitute.com/labor/survey-shows-restaurant-worker-sentiment-on-rise/",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "The 2026 Voice of the Restaurant Employee Survey shows improving sentiment in foodservice, with 67% of employees satisfied with pay (up 12 percentage points year-over-year) and 62% satisfied with benefits (up 16 points). Tips are also trending upward.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-28"
+    }
+  ],
+  "backfill_news": [],
+  "new_deals": [],
+  "new_news": [
+    {
+      "date": "2026-10-28",
+      "headline": "Clean Harbors Announces Third-Quarter 2026 Financial Results \u2013 Record Revenue of $1.87B and 42% EBITDA Growth",
+      "source": "SEC Filing (8-K)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0000822818/000082281826000045/clh-q32026pressrelease.htm",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "Clean Harbors reported Q3 2026 revenues of $1.87 billion (up 21% YoY) and adjusted EBITDA of $456.1 million (up 42% YoY), with a record adjusted EBITDA margin of 24.4%. The Environmental Services segment delivered 18 consecutive quarters of year-over-year margin expansion, driven by emergency response work, PFAS-related activities, strong waste collections, and pricing initiatives. Management raised full-year 2026 guidance.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-28"
+    },
+    {
+      "date": "2026-10-28",
+      "headline": "GFL Environmental to Release Q3 2026 Earnings Results After Market Close",
+      "source": "SEC Filing (6-K)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001780232/000110465926110148/tm2626039d1_ex99-1.htm",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "GFL Environmental announced it will release third quarter 2026 financial results after market close on October 28, 2026, and host an investor conference call on October 29, 2026 at 8:30 AM Eastern Time. This follows strong Q1 and Q2 2026 performance where the company raised full-year guidance and completed 8 acquisitions generating $425-450 million in annualized revenue.",
+      "relevance_score": 3,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-28"
+    },
+    {
+      "date": "2026-10-28",
+      "headline": "Minnesota restaurant openings & closings for October 2026",
+      "source": "Yahoo Finance / Bring Me The News",
+      "source_url": "https://www.yahoo.com/lifestyle/articles/minnesota-restaurant-openings-closings-october-190230334.html",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Minnesota continues to see significant restaurant activity with chains like 7 Brew, Dave's Hot Chicken, and Shake Shack expanding their presence. The Twin Cities welcomed new independent coffee shops and restaurants in October, with fast-growing national chains establishing additional locations.",
+      "relevance_score": 1,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-28"
+    },
+    {
+      "date": "2026-10-28",
+      "headline": "Only 205,000 CDL holders are left in Wisconsin after a steady drop over the last 15 years",
+      "source": "CDL Life",
+      "source_url": "https://cdllife.com/2026/only-205000-cdl-holders-are-left-in-wisconsin-after-a-steady-drop-over-the-last-15-years",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops"
+      ],
+      "summary": "Wisconsin has lost nearly 10% of its truck drivers since 2010, with CDL holders declining from 224,860 in 2010 to 204,766 by 2025. The decline occurs as transportation demand in the state rises, creating staffing pressures for waste haulers.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-28"
+    },
+    {
+      "date": "2026-10-26",
+      "headline": "BC Partners Negotiates GFL Environmental Buyout as Stock Stabilizes",
+      "source": "GuruFocus",
+      "source_url": "https://www.gurufocus.com/news/9142910/bc-partners-negotiates-gfl-environmental-gfl-buyout-as-stock-stabilizes",
+      "category": "M&A",
+      "categories": [
+        "M&A",
+        "Public Co."
+      ],
+      "summary": "BC Partners is negotiating to roll its 22% minority stake in GFL Environmental into a full buyout of the waste-management company. The potential deal is rumored to be priced in the mid-$50s per share, with competing bids from KKR and Brookfield Asset Management.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": 28.538,
+      "longitude": -81.379,
+      "zoom_hint": "wide",
+      "first_seen_date": "2026-10-28"
+    },
+    {
+      "date": "2026-10-26",
+      "headline": "Lansing Has Said Goodbye to These Restaurants in 2026",
+      "source": "WITL",
+      "source_url": "https://witl.com/lansing-restaurant-closures-2026-2",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Lansing's restaurant scene experienced notable closures in 2026, including La Cocina Cubana (temporarily closed in October) and Make It Sweet bakery (closing October 31). Despite more openings than closings overall, the city has lost several long-standing favorites.",
+      "relevance_score": 1,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-28"
+    },
+    {
+      "date": "2026-10-26",
+      "headline": "$120M Utah Wastewater Expansion Targets Rapid Growth, Capacity Crunch",
+      "source": "Engineering News-Record",
+      "source_url": "https://www.enr.com/articles/64084-120m-utah-wastewater-expansion-targets-rapid-growth-capacity-crunch",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure"
+      ],
+      "summary": "Eagle Mountain, Utah, broke ground on a $120 million wastewater treatment plant expansion on Oct. 23, adding a 6-million-gallon-per-day membrane bioreactor facility. The existing plant reached its loading limit at 1.5 MGD despite 2.4 MGD hydraulic capacity, driven by concentrated sewage from new low-flow fixtures.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-28"
+    },
+    {
+      "date": "2026-10-25",
+      "headline": "Thousands of American restaurants closing over rising costs, declining sales",
+      "source": "Yahoo News",
+      "source_url": "https://www.yahoo.com/news/videos/thousands-american-restaurants-closing-over-235341034.html",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "More than 7,500 restaurant locations closed nationwide in the first six months of 2026, driven by rising costs and declining sales. The trend reflects broader economic pressures forcing restaurants to make difficult operational decisions.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-28"
+    },
+    {
+      "date": "2026-10-23",
+      "headline": "This Week In Food: Deep Fall",
+      "source": "SFist",
+      "source_url": "https://sfist.com/2026/10/23/this-week-in-food-deep-fall/",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "San Francisco's dining scene includes expansions and new openings: El Buen Comer is expanding to Chase Center, and a new chicken restaurant is preparing for a soft opening on October 29. Multiple venues are opening and relocating across the city.",
+      "relevance_score": 1,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-28"
+    },
+    {
+      "date": "2026-10-22",
+      "headline": "Global Grease Trap Cleaning Service Market Valued at $4.2 Billion in 2025",
+      "source": "AP Grease Trappers Industry Analysis",
+      "source_url": "https://apgreasetrappers.com/elevating-kitchen-compliance-with-grease-trap-cleaning-services",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "Market analysis indicating the global grease trap cleaning service market reached $4.2 billion in 2025, demonstrating the substantial industry footprint and increasing importance of professional wastewater management for food establishments. Commercial kitchens face strict municipal regulations requiring routine grease management to avoid operational shutdowns and financial penalties.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-28"
+    },
+    {
+      "date": "2026-10-22",
+      "headline": "Survey Shows Restaurant Worker Sentiment on the Rise",
+      "source": "The Food Institute",
+      "source_url": "https://foodinstitute.com/labor/survey-shows-restaurant-worker-sentiment-on-rise/",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "The 2026 Voice of the Restaurant Employee Survey shows improving sentiment in foodservice, with 67% of employees satisfied with pay (up 12 percentage points year-over-year) and 62% satisfied with benefits (up 16 points). Tips are also trending upward.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-28"
     }
   ]
 }
