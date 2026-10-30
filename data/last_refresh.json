@@ -1,40 +1,79 @@
 {
-  "timestamp": "2026-10-29T18:19:38Z",
-  "added_news_count": 5,
+  "timestamp": "2026-10-30T17:55:34Z",
+  "added_news_count": 8,
   "added_deals_count": 0,
   "archived_count": 1,
   "new_today_news": [
     {
-      "date": "2026-10-29",
-      "headline": "India Turns Kitchen Grease to Fuel in Drive to Cut Crude Imports",
-      "source": "Bloomberg",
-      "source_url": "https://www.bloomberg.com/news/newsletters/2026-10-27/india-turns-kitchen-grease-to-fuel-in-drive-to-cut-crude-imports",
-      "category": "ESG",
+      "date": "2026-10-30",
+      "headline": "NUERA Notice of Potential Fee Increase",
+      "source": "Northern Utah Environmental Resource Agency",
+      "source_url": "https://nueraut.gov/updates/nuera-notice-of-potential-fee-increase/",
+      "category": "Infrastructure",
       "categories": [
-        "ESG",
-        "Renewable Fuels"
+        "Infrastructure"
       ],
-      "summary": "India is expanding kitchen waste into biofuels to reduce its crude import bill, with state-owned energy majors pursuing used cooking oil as an alternative feedstock. The report explores how this circular economy initiative mirrors global trends in FOG recycling and sustainable fuel production.",
-      "relevance_score": 4,
+      "summary": "Northern Utah Environmental Resource Agency (NUERA) announced a public hearing on November 16, 2026 to receive input on a proposed tipping fee increase for the Bayview Landfill in Utah County and the 2027 Agency Budget.",
+      "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-29"
+      "first_seen_date": "2026-10-30"
     },
     {
+      "date": "2026-10-30",
+      "headline": "Keep FOG Out of Your Drains This Holiday Season",
+      "source": "City of Salisbury (Salisbury-Rowan Utilities)",
+      "source_url": "https://salisburync.gov/Government/Community-Engagement/Newsroom/ArtMID/884/userid/20/ArticleID/9917/Keep-FOG-Out-of-Your-Drains-This-Holiday-Season",
+      "category": "ESG",
+      "categories": [
+        "ESG"
+      ],
+      "summary": "Salisbury-Rowan Utilities issued public guidance on proper FOG disposal to prevent sewer blockages and protect local waterways during holiday cooking season.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-30"
+    },
+    {
+      "date": "2026-10-29",
+      "headline": "6 Los Angeles Restaurants that Closed Their Doors Permanently in October 2026",
+      "source": "What Now",
+      "source_url": "https://whatnow.com/los-angeles/restaurants/6-los-angeles-restaurants-that-closed-their-doors-permanently-in-october-2026",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Several restaurants across Los Angeles and Santa Monica closed permanently in October 2026, including Japanese-inspired restaurants, bakeries, and wood-fired establishments. The Sycamore Kitchen ended its 15-year run on October 25.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-30"
+    }
+  ],
+  "recent_news": [
+    {
       "date": "2026-10-28",
-      "headline": "Darling Ingredients Inc. Reports Third Quarter 2026 Results",
-      "source": "Financial Content",
-      "source_url": "https://www.financialcontent.com/article/bizwire-2026-10-28-darling-ingredients-inc-reports-third-quarter-2026-results",
+      "headline": "Diamond Green Diesel posts strong renewable diesel volumes in third quarter",
+      "source": "Biofuels International",
+      "source_url": "https://www.sustainableconstruction-now.com/article/558244/diamond-green-diesel-posts-strong-renewable-diesel-volumes-in-third-quarter",
       "category": "Renewable Fuels",
       "categories": [
         "Renewable Fuels",
         "Public Co."
       ],
-      "summary": "Darling Ingredients reported Q3 2026 results with Combined Adjusted EBITDA of $514.3M, including $171M in cash distributions from Diamond Green Diesel joint venture. DGD sold 314.9M gallons of renewable fuels in Q3 and 936.1M gallons year-to-date, with $1.30 per gallon adjusted EBITDA.",
+      "summary": "Diamond Green Diesel reported robust third-quarter operating performance, shipping nearly 315 million gallons of renewable fuels. The joint venture between Darling Ingredients and Valero continues to expand production capacity for renewable diesel and sustainable aviation fuel.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -42,58 +81,37 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-29"
+      "first_seen_date": "2026-10-30"
     },
     {
       "date": "2026-10-28",
-      "headline": "GFL Environmental Inc. Reports Third-Quarter 2026 Results and Raises 2026 Guidance",
-      "source": "SEC/GFL Environmental",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/0001780232/000110465926119630/tm2626649d2_ex99-1.htm",
+      "headline": "GFL Environmental Inc. Reports Q3 2026 Earnings Results",
+      "source": "MarketBeat",
+      "source_url": "https://www.marketbeat.com/instant-alerts/earnings-gfl-environmental-nyse-gfl-posts-earnings-results-meets-estimates-2026-10-29/",
       "category": "Public Co.",
       "categories": [
         "Public Co."
       ],
-      "summary": "GFL Environmental raised FY2026 revenue guidance to $8,055-$8,075 million from $7,510-$7,530 million and adjusted EBITDA guidance to $2,490-$2,495 million from $2,290 million. Adjusted Free Cash Flow was $484.9 million for the nine months ended September 30, 2026, compared to $331.3 million for the same period in 2025.",
-      "relevance_score": 4,
+      "summary": "GFL Environmental reported $0.19 earnings per share for Q3 2026, meeting analysts' consensus estimates, with revenue of $2.16 billion compared to consensus estimate of $1.49 billion. GFL Environmental reported strong third quarter revenue growth of 27% year-over-year, driven by organic growth and significant contributions from recent acquisitions like Secure and Frontier.",
+      "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-29"
-    }
-  ],
-  "recent_news": [
-    {
-      "date": "2026-10-22",
-      "headline": "Elevating Kitchen Compliance With Grease Trap Cleaning Services",
-      "source": "A&P Grease Trappers, Inc",
-      "source_url": "https://apgreasetrappers.com/elevating-kitchen-compliance-with-grease-trap-cleaning-services",
-      "category": "Labor/Ops",
-      "categories": [
-        "Labor/Ops"
-      ],
-      "summary": "Article discusses municipal regulatory standards for grease trap maintenance and the $4.2 billion global market for grease trap cleaning services. Highlights inspection requirements and professional upkeep to extend interceptor lifespan.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-10-29"
+      "first_seen_date": "2026-10-30"
     },
     {
-      "date": "2026-10-22",
-      "headline": "Grease Trap Maintenance for Restaurants: Schedule and Records",
-      "source": "LAEQ365",
-      "source_url": "https://beta.laeq365.com/en/Screens/website/blog/grease-trap-maintenance",
+      "date": "2026-10-27",
+      "headline": "Commercial Dump Truck Insurance: 7 Coverages, 2026 Costs",
+      "source": "Logrock",
+      "source_url": "https://www.logrock.com/commercial-truck-insurance/commercial-dump-truck-insurance/",
       "category": "Labor/Ops",
       "categories": [
         "Labor/Ops"
       ],
-      "summary": "Practical guide covering grease trap maintenance, pumping schedules, municipal expectations, and record-keeping. Notes that large external interceptors typically require licensed contractors with vacuum trucks.",
+      "summary": "Commercial dump truck insurance typically costs $400-$1,200+ per truck per month in 2026, with pricing driven by state, radius, driver experience, job type, limits, deductibles, and claims history. For liquid waste and septic operations, costs trend toward the high end due to pollution and spill liability exposure.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -101,43 +119,119 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-29"
+      "first_seen_date": "2026-10-30"
+    },
+    {
+      "date": "2026-10-26",
+      "headline": "Restaurant chains closing hundreds of locations\u2014recent analysis of industry closures",
+      "source": "Mashed",
+      "source_url": "https://www.mashed.com/2291732/unexepected-chain-retstaurant-closures-2026/",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Analysis of major restaurant chains closing locations in 2026 due to rising costs and underperformance. Red Lobster has closed 7% of its locations (36 restaurants) in 2026 so far, while O'Charley's permanently shut 49 remaining locations.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-30"
+    },
+    {
+      "date": "2026-10-23",
+      "headline": "US-based UCO collector expands compliance to California programmes",
+      "source": "QC Intelligence",
+      "source_url": "https://www.qcintel.com/biofuels/article/us-based-uco-collector-expands-compliance-to-california-programmes-75916.html",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels",
+        "Public Co."
+      ],
+      "summary": "Neste's subsidiary Mahoney Environmental, a US-based used cooking oil recycler, expanded its sustainability compliance for California programs. The expansion supports Neste's feedstock sourcing strategy for renewable diesel and SAF production.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-30"
     }
   ],
   "backfill_news": [],
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-10-29",
-      "headline": "India Turns Kitchen Grease to Fuel in Drive to Cut Crude Imports",
-      "source": "Bloomberg",
-      "source_url": "https://www.bloomberg.com/news/newsletters/2026-10-27/india-turns-kitchen-grease-to-fuel-in-drive-to-cut-crude-imports",
-      "category": "ESG",
+      "date": "2026-10-30",
+      "headline": "NUERA Notice of Potential Fee Increase",
+      "source": "Northern Utah Environmental Resource Agency",
+      "source_url": "https://nueraut.gov/updates/nuera-notice-of-potential-fee-increase/",
+      "category": "Infrastructure",
       "categories": [
-        "ESG",
-        "Renewable Fuels"
+        "Infrastructure"
       ],
-      "summary": "India is expanding kitchen waste into biofuels to reduce its crude import bill, with state-owned energy majors pursuing used cooking oil as an alternative feedstock. The report explores how this circular economy initiative mirrors global trends in FOG recycling and sustainable fuel production.",
-      "relevance_score": 4,
+      "summary": "Northern Utah Environmental Resource Agency (NUERA) announced a public hearing on November 16, 2026 to receive input on a proposed tipping fee increase for the Bayview Landfill in Utah County and the 2027 Agency Budget.",
+      "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-29"
+      "first_seen_date": "2026-10-30"
+    },
+    {
+      "date": "2026-10-30",
+      "headline": "Keep FOG Out of Your Drains This Holiday Season",
+      "source": "City of Salisbury (Salisbury-Rowan Utilities)",
+      "source_url": "https://salisburync.gov/Government/Community-Engagement/Newsroom/ArtMID/884/userid/20/ArticleID/9917/Keep-FOG-Out-of-Your-Drains-This-Holiday-Season",
+      "category": "ESG",
+      "categories": [
+        "ESG"
+      ],
+      "summary": "Salisbury-Rowan Utilities issued public guidance on proper FOG disposal to prevent sewer blockages and protect local waterways during holiday cooking season.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-30"
+    },
+    {
+      "date": "2026-10-29",
+      "headline": "6 Los Angeles Restaurants that Closed Their Doors Permanently in October 2026",
+      "source": "What Now",
+      "source_url": "https://whatnow.com/los-angeles/restaurants/6-los-angeles-restaurants-that-closed-their-doors-permanently-in-october-2026",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Several restaurants across Los Angeles and Santa Monica closed permanently in October 2026, including Japanese-inspired restaurants, bakeries, and wood-fired establishments. The Sycamore Kitchen ended its 15-year run on October 25.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-30"
     },
     {
       "date": "2026-10-28",
-      "headline": "Darling Ingredients Inc. Reports Third Quarter 2026 Results",
-      "source": "Financial Content",
-      "source_url": "https://www.financialcontent.com/article/bizwire-2026-10-28-darling-ingredients-inc-reports-third-quarter-2026-results",
+      "headline": "Diamond Green Diesel posts strong renewable diesel volumes in third quarter",
+      "source": "Biofuels International",
+      "source_url": "https://www.sustainableconstruction-now.com/article/558244/diamond-green-diesel-posts-strong-renewable-diesel-volumes-in-third-quarter",
       "category": "Renewable Fuels",
       "categories": [
         "Renewable Fuels",
         "Public Co."
       ],
-      "summary": "Darling Ingredients reported Q3 2026 results with Combined Adjusted EBITDA of $514.3M, including $171M in cash distributions from Diamond Green Diesel joint venture. DGD sold 314.9M gallons of renewable fuels in Q3 and 936.1M gallons year-to-date, with $1.30 per gallon adjusted EBITDA.",
+      "summary": "Diamond Green Diesel reported robust third-quarter operating performance, shipping nearly 315 million gallons of renewable fuels. The joint venture between Darling Ingredients and Valero continues to expand production capacity for renewable diesel and sustainable aviation fuel.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -145,37 +239,37 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-29"
+      "first_seen_date": "2026-10-30"
     },
     {
       "date": "2026-10-28",
-      "headline": "GFL Environmental Inc. Reports Third-Quarter 2026 Results and Raises 2026 Guidance",
-      "source": "SEC/GFL Environmental",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/0001780232/000110465926119630/tm2626649d2_ex99-1.htm",
+      "headline": "GFL Environmental Inc. Reports Q3 2026 Earnings Results",
+      "source": "MarketBeat",
+      "source_url": "https://www.marketbeat.com/instant-alerts/earnings-gfl-environmental-nyse-gfl-posts-earnings-results-meets-estimates-2026-10-29/",
       "category": "Public Co.",
       "categories": [
         "Public Co."
       ],
-      "summary": "GFL Environmental raised FY2026 revenue guidance to $8,055-$8,075 million from $7,510-$7,530 million and adjusted EBITDA guidance to $2,490-$2,495 million from $2,290 million. Adjusted Free Cash Flow was $484.9 million for the nine months ended September 30, 2026, compared to $331.3 million for the same period in 2025.",
-      "relevance_score": 4,
+      "summary": "GFL Environmental reported $0.19 earnings per share for Q3 2026, meeting analysts' consensus estimates, with revenue of $2.16 billion compared to consensus estimate of $1.49 billion. GFL Environmental reported strong third quarter revenue growth of 27% year-over-year, driven by organic growth and significant contributions from recent acquisitions like Secure and Frontier.",
+      "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-29"
+      "first_seen_date": "2026-10-30"
     },
     {
-      "date": "2026-10-22",
-      "headline": "Elevating Kitchen Compliance With Grease Trap Cleaning Services",
-      "source": "A&P Grease Trappers, Inc",
-      "source_url": "https://apgreasetrappers.com/elevating-kitchen-compliance-with-grease-trap-cleaning-services",
+      "date": "2026-10-27",
+      "headline": "Commercial Dump Truck Insurance: 7 Coverages, 2026 Costs",
+      "source": "Logrock",
+      "source_url": "https://www.logrock.com/commercial-truck-insurance/commercial-dump-truck-insurance/",
       "category": "Labor/Ops",
       "categories": [
         "Labor/Ops"
       ],
-      "summary": "Article discusses municipal regulatory standards for grease trap maintenance and the $4.2 billion global market for grease trap cleaning services. Highlights inspection requirements and professional upkeep to extend interceptor lifespan.",
+      "summary": "Commercial dump truck insurance typically costs $400-$1,200+ per truck per month in 2026, with pricing driven by state, radius, driver experience, job type, limits, deductibles, and claims history. For liquid waste and septic operations, costs trend toward the high end due to pollution and spill liability exposure.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -183,26 +277,46 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-29"
+      "first_seen_date": "2026-10-30"
     },
     {
-      "date": "2026-10-22",
-      "headline": "Grease Trap Maintenance for Restaurants: Schedule and Records",
-      "source": "LAEQ365",
-      "source_url": "https://beta.laeq365.com/en/Screens/website/blog/grease-trap-maintenance",
-      "category": "Labor/Ops",
+      "date": "2026-10-26",
+      "headline": "Restaurant chains closing hundreds of locations\u2014recent analysis of industry closures",
+      "source": "Mashed",
+      "source_url": "https://www.mashed.com/2291732/unexepected-chain-retstaurant-closures-2026/",
+      "category": "Restaurant",
       "categories": [
-        "Labor/Ops"
+        "Restaurant"
       ],
-      "summary": "Practical guide covering grease trap maintenance, pumping schedules, municipal expectations, and record-keeping. Notes that large external interceptors typically require licensed contractors with vacuum trucks.",
-      "relevance_score": 4,
+      "summary": "Analysis of major restaurant chains closing locations in 2026 due to rising costs and underperformance. Red Lobster has closed 7% of its locations (36 restaurants) in 2026 so far, while O'Charley's permanently shut 49 remaining locations.",
+      "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-10-29"
+      "first_seen_date": "2026-10-30"
+    },
+    {
+      "date": "2026-10-23",
+      "headline": "US-based UCO collector expands compliance to California programmes",
+      "source": "QC Intelligence",
+      "source_url": "https://www.qcintel.com/biofuels/article/us-based-uco-collector-expands-compliance-to-california-programmes-75916.html",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels",
+        "Public Co."
+      ],
+      "summary": "Neste's subsidiary Mahoney Environmental, a US-based used cooking oil recycler, expanded its sustainability compliance for California programs. The expansion supports Neste's feedstock sourcing strategy for renewable diesel and SAF production.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-10-30"
     }
   ]
 }
