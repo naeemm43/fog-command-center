@@ -1,5 +1,104 @@
 [
   {
+    "date": "2026-05-07",
+    "headline": "eCFR Title 40 Part 403 Updated \u2014 General Pretreatment Regulations for Existing and New Sources of Pollution",
+    "source": "Electronic Code of Federal Regulations (eCFR)",
+    "source_url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-N/part-403",
+    "category": "Regulatory",
+    "summary": "Title 40 CFR Part 403 was last amended on May 7, 2026, containing federal general pretreatment regulations that govern industrial and commercial wastewater discharges to publicly owned treatment works (POTWs). This update affects municipal FOG enforcement programs nationwide.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-07",
+    "categories": [
+      "Regulatory"
+    ]
+  },
+  {
+    "date": "2026-05-07",
+    "headline": "Oil crisis could boost struggling sustainable aviation fuel industry",
+    "source": "Climate Change News",
+    "source_url": "https://www.climatechangenews.com/2026/05/07/oil-crisis-could-boost-struggling-sustainable-aviation-fuel-industry/",
+    "category": "Renewable Fuels",
+    "summary": "Article discusses how geopolitical tensions affecting global oil prices may accelerate SAF adoption by narrowing cost gaps with conventional jet fuel. Notes that used cooking oil remains the dominant feedstock for HEFA SAF production but faces feedstock scarcity challenges beyond 2030.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-07",
+    "categories": [
+      "Renewable Fuels"
+    ]
+  },
+  {
+    "date": "2026-05-07",
+    "headline": "Waste Reduction Strategies Reshape Environmental Growth",
+    "source": "Brightpath Associates",
+    "source_url": "https://brightpathassociates.com/waste-reduction-strategies-reshape-environmental-growth/",
+    "category": "ESG",
+    "summary": "Brightpath Associates released insights on how advanced analytics is transforming waste management solutions across the environmental industry. Organizations are using data-driven strategies, automation, and AI-driven monitoring systems to optimize waste reduction while supporting regulatory compliance and environmental sustainability objectives.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-07",
+    "categories": [
+      "ESG",
+      "Public Co.",
+      "Technology"
+    ]
+  },
+  {
+    "date": "2026-05-07",
+    "headline": "Reno City Council Moves Forward with Sewer Fee Increase",
+    "source": "KOLO TV",
+    "source_url": "https://www.kolotv.com/2026/05/07/reno-city-council-moves-forward-with-sewer-fee-increase/",
+    "category": "Infrastructure",
+    "summary": "The Reno City Council voted to adopt an ordinance implementing a sewer user fee increase to support wastewater infrastructure operations and capital improvements.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": 38.313,
+    "longitude": -117.055,
+    "zoom_hint": "wide",
+    "first_seen_date": "2026-05-07",
+    "categories": [
+      "Infrastructure",
+      "Regulatory"
+    ]
+  },
+  {
+    "date": "2026-05-07",
+    "headline": "2026 Refuse Truck Market Reaches First Year of Electric-Diesel Cost Parity on Waste Routes",
+    "source": "FleetRabbit",
+    "source_url": "https://fleetrabbit.com/blogs/post/top-electric-cng-garbage-trucks-2026",
+    "category": "Technology",
+    "summary": "2026 marks first year where electric and CNG refuse trucks compete directly with diesel on cost and range. EPA NOx limits tightening 90%, California Advanced Clean Fleets rule driving electrification; regenerative braking enables ~30% energy recovery at stop-and-go collection cycles.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-07",
+    "categories": [
+      "Technology",
+      "Regulatory"
+    ]
+  },
+  {
     "date": "2026-05-06",
     "headline": "CDL Driver Shortage Peaks at 80,000: Wage Growth and Retention Challenges in 2026",
     "source": "Unfinished Man",

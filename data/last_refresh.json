@@ -1,41 +1,21 @@
 {
-  "timestamp": "2026-11-02T21:37:52Z",
-  "added_news_count": 5,
+  "timestamp": "2026-11-03T19:20:51Z",
+  "added_news_count": 4,
   "added_deals_count": 0,
-  "archived_count": 13,
-  "new_today_news": [
-    {
-      "date": "2026-11-02",
-      "headline": "From Fryer to Flyer: Converting Used Cooking Oil into Sustainable Aviation Fuel",
-      "source": "Globe Newswire",
-      "source_url": "https://www.globenewswire.com/news-release/2026/11/02/3393618/0/en/from-fryer-to-flyer-converting-used-cooking-oil-into-sustainable-aviation-fuel.html",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels"
-      ],
-      "summary": "Phillips 66 and Restaurant Technologies, Inc. (RTI) announced a long-term agreement to supply used cooking oil from U.S. restaurants for renewable fuels production at Phillips 66's Rodeo Renewable Energy Complex in California. RTI collects high-quality, ISCC-certified UCO from over 45,000 food service establishments across 41 markets nationwide.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-02"
-    }
-  ],
+  "archived_count": 5,
+  "new_today_news": [],
   "recent_news": [
     {
       "date": "2026-10-29",
-      "headline": "Darling (DAR) Q3 2026 Earnings Call Transcript",
+      "headline": "Darling Ingredients Q3 2026 Earnings Call: Diamond Green Diesel Renewable Fuel Sales Recovery",
       "source": "Motley Fool",
-      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/10/29/darling-dar-q3-2026-earnings-call-transcript/",
+      "source_url": "https://fool.com/earnings/call-transcripts/2026/10/29/darling-dar-q3-2026-earnings-call-transcript",
       "category": "Renewable Fuels",
       "categories": [
         "Renewable Fuels",
         "Public Co."
       ],
-      "summary": "Darling Ingredients reported Q3 2026 results with net income of $267 million and renewable fuel sales of 314.9 million gallons through Diamond Green Diesel. The company processed waste fats, used cooking oil, and rendering byproducts into renewable diesel and SAF.",
+      "summary": "Darling Ingredients reported Q3 2026 results with net income surging to $267 million as renewable fuel margins recovered. Diamond Green Diesel sold 314.9 million gallons of renewable fuel in Q3, totaling 936.1 million gallons for the first nine months of 2026, with a short-term hydrogen outage in Louisiana reducing output by approximately 20 million gallons.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -43,58 +23,18 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-02"
+      "first_seen_date": "2026-11-03"
     },
     {
-      "date": "2026-10-29",
-      "headline": "Indonesia Pilots Used Cooking Oil-to-Aviation Fuel Initiative",
-      "source": "ANTARA News",
-      "source_url": "https://en.antaranews.com/news/438963/indonesia-pilots-used-cooking-oil-to-aviation-fuel-initiative",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels"
-      ],
-      "summary": "The Indonesian government launched a pilot project to convert used cooking oil into sustainable aviation fuel through cooperatives and PT Pertamina. The initiative aims to boost domestic SAF production and create export opportunities.",
-      "relevance_score": 3,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-02"
-    },
-    {
-      "date": "2026-10-29",
-      "headline": "Darling Ingredients Reports Q3 2026 Earnings; Reaffirms Full-Year Guidance",
-      "source": "Darling Ingredients / SEC Filing",
-      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/10/29/darling-dar-q3-2026-earnings-call-transcript/",
+      "date": "2026-10-28",
+      "headline": "Clean Harbors Tops Q3 2026 Estimates and Lifts Outlook",
+      "source": "Investing.com",
+      "source_url": "https://www.investing.com/news/transcripts/earnings-call-transcript-clean-harbors-tops-q3-2026-estimates-and-lifts-outlook-93CH-4979828",
       "category": "Public Co.",
       "categories": [
         "Public Co."
       ],
-      "summary": "Darling Ingredients reported an increase in net income and reaffirmed its full-year earnings guidance despite sequential accounting and operational headwinds in its feed and fuel segments. FY 2026 Combined Adjusted EBITDA Guidance stands at $2.2 billion to $2.3 billion, reaffirmed based on stable core business margins and projected DGD production. Feed Ingredients Revenue reached $1.2 billion, up from $1.0 billion in Q3 2025, and Food Ingredients Revenue grew to $415.8 million.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-02"
-    }
-  ],
-  "backfill_news": [
-    {
-      "date": "2026-10-21",
-      "headline": "What Is a Grease Tank Truck?",
-      "source": "KeeVac",
-      "source_url": "https://keevac.com/2024/09/what-is-a-grease-tank-truck/",
-      "category": "Labor/Ops",
-      "categories": [
-        "Labor/Ops"
-      ],
-      "summary": "Technical specification guide for grease tank trucks, covering FOG-specific vacuum pump ratings, tank coatings, hose configurations, and operational differences from standard septic vacuum trucks.",
+      "summary": "Clean Harbors beat Wall Street's third-quarter expectations with earnings of $3.93 a share on revenue of $1.87 billion, and raised its full-year outlook after posting record quarterly revenue, record adjusted EBITDA and its highest-ever consolidated margin. A large emergency response job in Los Angeles contributed about $120 million in revenue during the quarter.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -102,41 +42,62 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-02"
+      "first_seen_date": "2026-11-03"
+    },
+    {
+      "date": "2026-10-27",
+      "headline": "Biogas Digester Design in 2026: Engineering Guide for Industrial Wastewater",
+      "source": "HydropureWater",
+      "source_url": "https://hydropurewater.com/blog/11124-biogas-digester-design-in-2026-engineering-guide-for-industrial-wastewater.html",
+      "category": "Technology",
+      "categories": [
+        "Technology"
+      ],
+      "summary": "Engineering guide for 2026 biogas digester design covering FOG (fats, oils and grease) treatment, pre-treatment requirements via DAF, and pH control strategies for high-FOG industrial wastewater streams including grease trap waste to optimize biogas production.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-03"
+    }
+  ],
+  "backfill_news": [
+    {
+      "date": "2026-10-20",
+      "headline": "North Dakota adopts permanent septic system rules",
+      "source": "J.J. Keller Compliance Network",
+      "source_url": "https://jjkellercompliancenetwork.com/news/north-dakota-adopts-permanent-septic-system-rules",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops"
+      ],
+      "summary": "North Dakota finalized permanent rules for on-site wastewater treatment systems (septic systems) effective October 1, 2026, establishing statewide licensing requirements and a common technical code. This regulatory shift impacts septage haulers and installers.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-03"
     }
   ],
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-11-02",
-      "headline": "From Fryer to Flyer: Converting Used Cooking Oil into Sustainable Aviation Fuel",
-      "source": "Globe Newswire",
-      "source_url": "https://www.globenewswire.com/news-release/2026/11/02/3393618/0/en/from-fryer-to-flyer-converting-used-cooking-oil-into-sustainable-aviation-fuel.html",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels"
-      ],
-      "summary": "Phillips 66 and Restaurant Technologies, Inc. (RTI) announced a long-term agreement to supply used cooking oil from U.S. restaurants for renewable fuels production at Phillips 66's Rodeo Renewable Energy Complex in California. RTI collects high-quality, ISCC-certified UCO from over 45,000 food service establishments across 41 markets nationwide.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-02"
-    },
-    {
       "date": "2026-10-29",
-      "headline": "Darling (DAR) Q3 2026 Earnings Call Transcript",
+      "headline": "Darling Ingredients Q3 2026 Earnings Call: Diamond Green Diesel Renewable Fuel Sales Recovery",
       "source": "Motley Fool",
-      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/10/29/darling-dar-q3-2026-earnings-call-transcript/",
+      "source_url": "https://fool.com/earnings/call-transcripts/2026/10/29/darling-dar-q3-2026-earnings-call-transcript",
       "category": "Renewable Fuels",
       "categories": [
         "Renewable Fuels",
         "Public Co."
       ],
-      "summary": "Darling Ingredients reported Q3 2026 results with net income of $267 million and renewable fuel sales of 314.9 million gallons through Diamond Green Diesel. The company processed waste fats, used cooking oil, and rendering byproducts into renewable diesel and SAF.",
+      "summary": "Darling Ingredients reported Q3 2026 results with net income surging to $267 million as renewable fuel margins recovered. Diamond Green Diesel sold 314.9 million gallons of renewable fuel in Q3, totaling 936.1 million gallons for the first nine months of 2026, with a short-term hydrogen outage in Louisiana reducing output by approximately 20 million gallons.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -144,56 +105,18 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-02"
+      "first_seen_date": "2026-11-03"
     },
     {
-      "date": "2026-10-29",
-      "headline": "Indonesia Pilots Used Cooking Oil-to-Aviation Fuel Initiative",
-      "source": "ANTARA News",
-      "source_url": "https://en.antaranews.com/news/438963/indonesia-pilots-used-cooking-oil-to-aviation-fuel-initiative",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels"
-      ],
-      "summary": "The Indonesian government launched a pilot project to convert used cooking oil into sustainable aviation fuel through cooperatives and PT Pertamina. The initiative aims to boost domestic SAF production and create export opportunities.",
-      "relevance_score": 3,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-02"
-    },
-    {
-      "date": "2026-10-29",
-      "headline": "Darling Ingredients Reports Q3 2026 Earnings; Reaffirms Full-Year Guidance",
-      "source": "Darling Ingredients / SEC Filing",
-      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/10/29/darling-dar-q3-2026-earnings-call-transcript/",
+      "date": "2026-10-28",
+      "headline": "Clean Harbors Tops Q3 2026 Estimates and Lifts Outlook",
+      "source": "Investing.com",
+      "source_url": "https://www.investing.com/news/transcripts/earnings-call-transcript-clean-harbors-tops-q3-2026-estimates-and-lifts-outlook-93CH-4979828",
       "category": "Public Co.",
       "categories": [
         "Public Co."
       ],
-      "summary": "Darling Ingredients reported an increase in net income and reaffirmed its full-year earnings guidance despite sequential accounting and operational headwinds in its feed and fuel segments. FY 2026 Combined Adjusted EBITDA Guidance stands at $2.2 billion to $2.3 billion, reaffirmed based on stable core business margins and projected DGD production. Feed Ingredients Revenue reached $1.2 billion, up from $1.0 billion in Q3 2025, and Food Ingredients Revenue grew to $415.8 million.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-02"
-    },
-    {
-      "date": "2026-10-21",
-      "headline": "What Is a Grease Tank Truck?",
-      "source": "KeeVac",
-      "source_url": "https://keevac.com/2024/09/what-is-a-grease-tank-truck/",
-      "category": "Labor/Ops",
-      "categories": [
-        "Labor/Ops"
-      ],
-      "summary": "Technical specification guide for grease tank trucks, covering FOG-specific vacuum pump ratings, tank coatings, hose configurations, and operational differences from standard septic vacuum trucks.",
+      "summary": "Clean Harbors beat Wall Street's third-quarter expectations with earnings of $3.93 a share on revenue of $1.87 billion, and raised its full-year outlook after posting record quarterly revenue, record adjusted EBITDA and its highest-ever consolidated margin. A large emergency response job in Los Angeles contributed about $120 million in revenue during the quarter.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -201,7 +124,45 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-02"
+      "first_seen_date": "2026-11-03"
+    },
+    {
+      "date": "2026-10-27",
+      "headline": "Biogas Digester Design in 2026: Engineering Guide for Industrial Wastewater",
+      "source": "HydropureWater",
+      "source_url": "https://hydropurewater.com/blog/11124-biogas-digester-design-in-2026-engineering-guide-for-industrial-wastewater.html",
+      "category": "Technology",
+      "categories": [
+        "Technology"
+      ],
+      "summary": "Engineering guide for 2026 biogas digester design covering FOG (fats, oils and grease) treatment, pre-treatment requirements via DAF, and pH control strategies for high-FOG industrial wastewater streams including grease trap waste to optimize biogas production.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-03"
+    },
+    {
+      "date": "2026-10-20",
+      "headline": "North Dakota adopts permanent septic system rules",
+      "source": "J.J. Keller Compliance Network",
+      "source_url": "https://jjkellercompliancenetwork.com/news/north-dakota-adopts-permanent-septic-system-rules",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops"
+      ],
+      "summary": "North Dakota finalized permanent rules for on-site wastewater treatment systems (septic systems) effective October 1, 2026, establishing statewide licensing requirements and a common technical code. This regulatory shift impacts septage haulers and installers.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-03"
     }
   ]
 }
