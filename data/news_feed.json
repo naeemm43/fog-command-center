@@ -1,5 +1,44 @@
 [
   {
+    "date": "2026-11-03",
+    "headline": "RTI Cooperates with Phillips 66 on UCO Collection and SAF Production",
+    "source": "Waste Today Magazine",
+    "source_url": "https://www.wastetodaymagazine.com/news/rti-used-cooking-oil-phillips-66-refinery-california-aviation-fuel/",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels"
+    ],
+    "summary": "Restaurant Technologies Inc. is working with Phillips 66 on sustainable aviation fuel production, collecting UCO from its network of some 45,000 restaurants, hotels, casinos, colleges and other food service operations in more than 40 markets nationwide. RTI supplies Phillips 66 with high quality, traceable, ISCC-certified UCO to support SAF production at the Phillips 66 Rodeo Renewable Energy Complex in California.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-04"
+  },
+  {
+    "date": "2026-11-03",
+    "headline": "Fastmarkets discontinues price assessments for used cooking oil, delivered Atlantic Seaboard and Southeast US",
+    "source": "Fastmarkets",
+    "source_url": "https://www.fastmarkets.com/insights/fastmarkets-launches-cookstove-and-landfill-gas-ccp-carbon-credit-assessments/",
+    "category": "ESG",
+    "categories": [
+      "ESG",
+      "Renewable Fuels"
+    ],
+    "summary": "Fastmarkets discontinued Yellow grease price assessments effective November 3, 2026 for US Pacific Northwest and New York markets, citing sustained lack of observable spot market activity following a June 2026 proposal notice.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-04"
+  },
+  {
     "date": "2026-11-02",
     "headline": "From Fryer to Flyer: Converting Used Cooking Oil into Sustainable Aviation Fuel",
     "source": "Globe Newswire",
@@ -17,6 +56,63 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-11-02"
+  },
+  {
+    "date": "2026-11-02",
+    "headline": "Phillips 66 and Restaurant Technologies (RTI) Announce Long-Term UCO Supply Agreement for SAF Production",
+    "source": "GlobeNewswire",
+    "source_url": "https://www.globenewswire.com/news-release/2026/11/02/3393618/0/en/from-fryer-to-flyer-converting-used-cooking-oil-into-sustainable-aviation-fuel.html",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels"
+    ],
+    "summary": "Phillips 66 and Restaurant Technologies (RTI) have a long-term agreement to supply used cooking oil from U.S. restaurants to produce renewable fuels in California. RTI supplies Phillips 66 with high quality, traceable, ISCC certified UCO to support renewable diesel and SAF production at the Phillips 66 Rodeo Renewable Energy Complex in California, one of the largest renewable fuels facilities in the world.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-04"
+  },
+  {
+    "date": "2026-11-01",
+    "headline": "Grease caused 47 percent of reported sewer blockages behind overflows",
+    "source": "EIN Presswire",
+    "source_url": "https://einpresswire.com/article/951482179/thanksgiving-grease-and-older-dfw-sewer-lines-are-a-bad-mix-plano-plumber-says",
+    "category": "Regulatory",
+    "categories": [
+      "Regulatory"
+    ],
+    "summary": "News article citing EPA findings that grease is the most common reported cause of sewer blockages, representing 47% of blockages that lead to overflows. Plano utilities and local agencies emphasize proper FOG disposal.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-04"
+  },
+  {
+    "date": "2026-10-31",
+    "headline": "Debris Removal Insurance: Costs and Coverage for 2026",
+    "source": "ERGO NEXT",
+    "source_url": "https://www.nextinsurance.com/business/debris-removal-insurance/",
+    "category": "Labor/Ops",
+    "categories": [
+      "Labor/Ops"
+    ],
+    "summary": "National averages for debris removal insurance as of October 2026 show general liability averaging $79/month, business owner's policies at $146/month, and commercial property insurance at $64/month. Pricing varies based on project types, locations, payroll, and vehicle types.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-04"
   },
   {
     "date": "2026-10-30",
@@ -1016,6 +1112,45 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-10-29"
+  },
+  {
+    "date": "2026-10-22",
+    "headline": "Waynesville seeks $150,000 to curb grease clogs in sewer lines",
+    "source": "WLOS",
+    "source_url": "https://wlos.com/newsletter-daily/waynesville-gease-sewer-clogs-lines-wastewater-fog-restaurants-public-fats-oils-western-north-carolina-works-facility-community",
+    "category": "Regulatory",
+    "categories": [
+      "Regulatory"
+    ],
+    "summary": "Waynesville, North Carolina is formalizing its FOG (fats, oils, and grease) program and seeking $150,000 in funding to address grease blockages in sewer lines. The initiative includes educational opportunities for the community and enforcement of FOG management requirements.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-04"
+  },
+  {
+    "date": "2026-10-22",
+    "headline": "Diamond Green Diesel Reports Q3 2026 Results: 314.9M Gallons Sold with $1.30 Adjusted EBITDA per Gallon",
+    "source": "Darling Ingredients / SEC Filing",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0000916540/000091654026000025/exh991-pressrelease102226.htm",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels",
+      "Public Co."
+    ],
+    "summary": "Diamond Green Diesel Q3 2026 results were released by Darling Ingredients' joint venture partner. DGD sold/shipped 314.9 million gallons of renewable fuels in the quarter, with adjusted EBITDA per gallon of $1.30. The JV partner reported that its renewable diesel segment earned approximately $350 million in operating income for the three months ended Sept. 30, 2026.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-04"
   },
   {
     "date": "2026-10-21",
@@ -10371,64 +10506,6 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-05-18"
-  },
-  {
-    "date": "2026-05-08",
-    "headline": "Austin Water Breaks Ground on $1.5 Billion Walnut Creek Wastewater Treatment Plant Expansion",
-    "source": "AustinTexas.gov",
-    "source_url": "https://www.austintexas.gov/water/news/austin-water-and-city-leaders-break-ground-expansion-walnut-creek-wastewater-treatment",
-    "category": "Infrastructure",
-    "summary": "Austin Water and City leaders broke ground on a $1.5 billion expansion of the Walnut Creek Wastewater Treatment Plant, increasing capacity from 75 to 100 MGD. The project includes advanced treatment technology, UV disinfection system replacement of chlorine gas, advanced odor control with biofilters, and a flood wall. This addresses future growth projected to reach 1.5 million residents by 2040.",
-    "relevance_score": 2,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-08",
-    "categories": [
-      "Infrastructure"
-    ]
-  },
-  {
-    "date": "2026-05-08",
-    "headline": "Notice of Lodging of Proposed Consent Decree Under the Clean Water Act\u2014Fishing Vessel Bilge Water Discharge",
-    "source": "Federal Register",
-    "source_url": "https://www.federalregister.gov/documents/2026/05/08/2026-09114/notice-of-lodging-of-proposed-consent-decree-under-the-clean-water-act",
-    "category": "Infrastructure",
-    "summary": "DOJ lodged a consent decree resolving alleged Clean Water Act violations involving discharge of oily bilge water from the fishing vessel Amelia Joyce into Fairhaven Harbor. Defendant required to pay $200,000 civil penalty for failures in pollution control equipment.",
-    "relevance_score": 2,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-08",
-    "categories": [
-      "Infrastructure",
-      "Regulatory"
-    ]
-  },
-  {
-    "date": "2026-05-08",
-    "headline": "Restaurant job growth was choppy in recent months but trendline continues positive",
-    "source": "National Restaurant Association",
-    "source_url": "https://restaurant.org/research-and-media/research/restaurant-economic-insights/economic-indicators/total-restaurant-industry-jobs/",
-    "category": "Restaurant",
-    "categories": [
-      "Restaurant"
-    ],
-    "summary": "May 2026 report showing restaurants added 17,200 jobs in April but faced losses in February. Employment remains 71,400 jobs above pre-pandemic levels but full-service segment still 193,000 jobs below Feb 2020 peak.",
-    "relevance_score": 2,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-19"
   },
   {
     "date": null,
