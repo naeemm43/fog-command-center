@@ -77,6 +77,27 @@
     "first_seen_date": "2026-11-04"
   },
   {
+    "date": "2026-11-02",
+    "headline": "Greasing the Wheels of Sustainability: Why Cooking Oil Waste Needs EPR Attention",
+    "source": "envirorecyclean",
+    "source_url": "https://envirorecyclean.com/blogs/greasing-the-wheels-of-sustainability-why-cooking-oil-waste-needs-epr-attention/",
+    "category": "ESG",
+    "categories": [
+      "ESG",
+      "Public Co.",
+      "Renewable Fuels"
+    ],
+    "summary": "Analyzes the role of used cooking oil in waste management and EPR frameworks, addressing environmental risks from improper disposal and proposing extended producer responsibility as a scalable solution for UCO management.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-05"
+  },
+  {
     "date": "2026-11-01",
     "headline": "Grease caused 47 percent of reported sewer blockages behind overflows",
     "source": "EIN Presswire",
@@ -113,6 +134,26 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-11-04"
+  },
+  {
+    "date": "2026-10-31",
+    "headline": "Darling Ingredients Q3 2026 Earnings Call Transcript",
+    "source": "Benzinga",
+    "source_url": "https://www.benzinga.com/news/26/10/62698581/darling-ingredients-q3-2026-earnings-call-transcript",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels",
+      "Public Co."
+    ],
+    "summary": "Diamond Green Diesel reported third quarter operating results with its renewable diesel segment earning approximately $350 million in operating income for the three months ended Sept. 30, 2026. Diamond Green Diesel sold 314.9 million gallons of renewable fuels in the third quarter.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-05"
   },
   {
     "date": "2026-10-30",
@@ -268,6 +309,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-11-03"
+  },
+  {
+    "date": "2026-10-29",
+    "headline": "Clean Harbors Q3 2026 Earnings Call Transcript",
+    "source": "Investing.com",
+    "source_url": "https://www.investing.com/news/transcripts/earnings-call-transcript-clean-harbors-tops-q3-2026-estimates-and-lifts-outlook-93CH-4979828",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co."
+    ],
+    "summary": "Clean Harbors reported record Q3 2026 revenue of $1.87 billion (up 21%) and record Adjusted EBITDA of $456 million (up 42%) with EPS of $3.93. A large emergency response job in Los Angeles contributed approximately $120 million in Q3 revenue. The company raised full-year 2026 adjusted EBITDA guidance to $1.44\u2013$1.48 billion.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-05"
   },
   {
     "date": "2026-10-28",
@@ -10449,63 +10509,6 @@
     "categories": [
       "Restaurant"
     ]
-  },
-  {
-    "date": "2026-05-09",
-    "headline": "New Way and Hyzon Unveil North America's First Hydrogen Fuel Cell Refuse Truck at WasteExpo",
-    "source": "Waste Today",
-    "source_url": "https://www.wastetodaymagazine.com/news/new-way-and-hyzon-unveil-hydrogen-fuel-cell-refuse-truck/",
-    "category": "Technology",
-    "summary": "New Way Trucks and Hyzon unveiled North America's first hydrogen fuel cell-powered electric refuse truck at WasteExpo. Following February joint development agreement, the truck will test on California routes with Recology starting after the show.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-09",
-    "categories": [
-      "Technology"
-    ]
-  },
-  {
-    "date": "2026-05-09",
-    "headline": "W\u00e4rtsil\u00e4 Unveils Innovative Wastewater Management Solution for Cruise Ships and Vessels",
-    "source": "Travel And Tour World",
-    "source_url": "https://www.travelandtourworld.com/news/article/wartsila-unveils-innovative-wastewater-management-solution-for-cruise-ships-and-vessels/",
-    "category": "M&A",
-    "summary": "W\u00e4rtsil\u00e4 Water & Waste introduced a new Grease Trap \u2013 GM Series for maritime wastewater management, designed to separate fats, oils, and grease from galley wastewater. The modular system is available as of May 2026 and works for both newbuild and retrofit vessel projects across multiple sizes.",
-    "relevance_score": 4,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-09",
-    "categories": [
-      "M&A"
-    ]
-  },
-  {
-    "date": "2026-05-09",
-    "headline": "Washington DC restaurants face wave of high-profile closures amid labor costs and office culture shifts",
-    "source": "WTOP News",
-    "source_url": "https://wtop.com/food-restaurant/2026/05/restaurant-closures-struggles-downtown-dc/",
-    "category": "Restaurant",
-    "categories": [
-      "Restaurant"
-    ],
-    "summary": "D.C. downtown restaurant closures continue despite positive opening-to-closing ratio. Labor costs and Initiative 82's tipped minimum wage increase to $17.50 cited as key challenges for operators.",
-    "relevance_score": 1,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-18"
   },
   {
     "date": null,
