@@ -1,61 +1,19 @@
 {
-  "timestamp": "2026-11-05T19:46:41Z",
-  "added_news_count": 3,
+  "timestamp": "2026-11-06T19:09:53Z",
+  "added_news_count": 8,
   "added_deals_count": 0,
   "archived_count": 3,
-  "new_today_news": [],
-  "recent_news": [
+  "new_today_news": [
     {
-      "date": "2026-11-02",
-      "headline": "Greasing the Wheels of Sustainability: Why Cooking Oil Waste Needs EPR Attention",
-      "source": "envirorecyclean",
-      "source_url": "https://envirorecyclean.com/blogs/greasing-the-wheels-of-sustainability-why-cooking-oil-waste-needs-epr-attention/",
-      "category": "ESG",
+      "date": "2026-11-06",
+      "headline": "Greasezilla Converts Waste Grease into Renewable Fuel Feedstock",
+      "source": "Clean the Sky",
+      "source_url": "https://cleanthesky.com/innovation/industrial-grease-recovery-systems",
+      "category": "Industry Events",
       "categories": [
-        "ESG",
-        "Public Co.",
-        "Renewable Fuels"
+        "Industry Events"
       ],
-      "summary": "Analyzes the role of used cooking oil in waste management and EPR frameworks, addressing environmental risks from improper disposal and proposing extended producer responsibility as a scalable solution for UCO management.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-05"
-    },
-    {
-      "date": "2026-10-31",
-      "headline": "Darling Ingredients Q3 2026 Earnings Call Transcript",
-      "source": "Benzinga",
-      "source_url": "https://www.benzinga.com/news/26/10/62698581/darling-ingredients-q3-2026-earnings-call-transcript",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels",
-        "Public Co."
-      ],
-      "summary": "Diamond Green Diesel reported third quarter operating results with its renewable diesel segment earning approximately $350 million in operating income for the three months ended Sept. 30, 2026. Diamond Green Diesel sold 314.9 million gallons of renewable fuels in the third quarter.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-05"
-    },
-    {
-      "date": "2026-10-29",
-      "headline": "Clean Harbors Q3 2026 Earnings Call Transcript",
-      "source": "Investing.com",
-      "source_url": "https://www.investing.com/news/transcripts/earnings-call-transcript-clean-harbors-tops-q3-2026-estimates-and-lifts-outlook-93CH-4979828",
-      "category": "Public Co.",
-      "categories": [
-        "Public Co."
-      ],
-      "summary": "Clean Harbors reported record Q3 2026 revenue of $1.87 billion (up 21%) and record Adjusted EBITDA of $456 million (up 42%) with EPS of $3.93. A large emergency response job in Los Angeles contributed approximately $120 million in Q3 revenue. The company raised full-year 2026 adjusted EBITDA guidance to $1.44\u2013$1.48 billion.",
+      "summary": "Greasezilla is expanding its FOG processing infrastructure through a planned installation at the Passaic Valley Sewerage Commission's Newark Bay treatment facility in New Jersey. The system will process up to 15 million gallons of grease waste annually, separating commercial grease-trap waste into reusable materials and feedstock for renewable fuels.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -63,63 +21,161 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-05"
+      "first_seen_date": "2026-11-06"
+    },
+    {
+      "date": "2026-11-06",
+      "headline": "Nearly 70 Million Tons of Food Waste Could Be a Major Source of Renewable Energy, New Research Finds",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/industry-insights/this-week-in-waste-top-stories-nov-2-nov-5",
+      "category": "ESG",
+      "categories": [
+        "ESG",
+        "Public Co."
+      ],
+      "summary": "New research highlights the renewable energy potential of food waste, including FOG-related streams. The article discusses how waste management industry leaders are identifying energy recovery opportunities from waste sources.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-06"
+    },
+    {
+      "date": "2026-11-05",
+      "headline": "Jeff Parent's Top Picks for Nov. 5, 2026",
+      "source": "BNN Bloomberg",
+      "source_url": "https://bnnbloomberg.ca/markets/2026/11/05/jeff-parents-top-picks-for-nov-5-2026",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels",
+        "Public Co."
+      ],
+      "summary": "Portfolio manager highlights Darling Ingredients as an investment pick, noting the company's unique business model converting animal waste into feed, food ingredients, and renewable diesel, with recent support-level pricing.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-06"
+    },
+    {
+      "date": "2026-11-05",
+      "headline": "PVSC picks Greasezilla to separate fats, oils and grease at Newark Bay treatment facility",
+      "source": "NJ.com (ROI-NJ)",
+      "source_url": "https://www.roi-nj.com/2026/11/05/industry/energy-utilities/pvsc-picks-greasezilla-to-separate-fats-oils-and-grease-at-newark-bay-treatment-facility/",
+      "category": "Industry Events",
+      "categories": [
+        "Industry Events",
+        "Renewable Fuels"
+      ],
+      "summary": "The Passaic Valley Sewerage Commission selected Greasezilla to install its FOG separation and recovery system at Newark Bay treatment facility after an extensive industry review. The system uses heat-based separation technology to convert grease-trap waste into water, pasteurized solids, and clean brown grease without chemical polymers.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-06"
+    }
+  ],
+  "recent_news": [
+    {
+      "date": "2026-11-03",
+      "headline": "Restaurants on the hook for sewer grease",
+      "source": "Yahoo News (AP)",
+      "source_url": "https://yahoo.com/news/articles/restaurants-hook-sewer-grease-011800258.html",
+      "category": "Industry Events",
+      "categories": [
+        "Industry Events"
+      ],
+      "summary": "Waynesville is implementing an enforceable FOG management program after receiving a state violation notice for failure to comply with Department of Environmental Quality regulations. The program will require restaurants to install grease traps or interceptors and educate non-residential users about FOG prevention, with an estimated annual program cost of $112,000.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-06"
+    },
+    {
+      "date": "2026-11-02",
+      "headline": "Clean Harbors Revenue Surpasses $1.8 Billion as Net Income Jumps 75%",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/industry-insights/clean-harbors-revenue-surpasses-1-8-billion-as-net-income-jumps-75-",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "Clean Harbors reported Q3 2026 record revenue of $1.87 billion (up 21% YoY) and net income of $208.1 million (up 75%). Adjusted EBITDA grew 42% to $456.1 million with record margin of 24.4%, and the company raised full-year 2026 guidance.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-06"
+    },
+    {
+      "date": "2026-10-31",
+      "headline": "Used Cooking Oil Market Gaining Momentum in 2026",
+      "source": "NSN Headlines",
+      "source_url": "https://www.nsnheadlines.com/post/used-cooking-oil-uco-market-transforming-waste-into-sustainable-energy",
+      "category": "ESG",
+      "categories": [
+        "ESG",
+        "Renewable Fuels"
+      ],
+      "summary": "The UCO market is accelerating as industries prioritize renewable energy and circular economy solutions. Biodiesel production accounts for 48.65% of the market in 2025, supported by growing renewable energy demand and ESG commitments.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-06"
+    },
+    {
+      "date": "2026-10-30",
+      "headline": "Wind River Environmental Expands with Acquisition of Greenway Waste Solutions & TCW Wastewater Management in Charlotte, NC",
+      "source": "Wind River Environmental Blog",
+      "source_url": "https://www.wrenvironmental.com/blog/2024/october/wind-river-environmental-acquires-greenway-waste/",
+      "category": "M&A",
+      "categories": [
+        "M&A"
+      ],
+      "summary": "Wind River Environmental announced the acquisition of Greenway Waste Solutions and TCW Wastewater Management in Charlotte, North Carolina. Greenway has 40 employees and serves the restaurant and homeowner communities across North Carolina, South Carolina, and Georgia.",
+      "relevance_score": 5,
+      "is_deal": true,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": 35.227,
+      "longitude": -80.843,
+      "zoom_hint": "narrow",
+      "first_seen_date": "2026-11-06"
     }
   ],
   "backfill_news": [],
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-11-02",
-      "headline": "Greasing the Wheels of Sustainability: Why Cooking Oil Waste Needs EPR Attention",
-      "source": "envirorecyclean",
-      "source_url": "https://envirorecyclean.com/blogs/greasing-the-wheels-of-sustainability-why-cooking-oil-waste-needs-epr-attention/",
-      "category": "ESG",
+      "date": "2026-11-06",
+      "headline": "Greasezilla Converts Waste Grease into Renewable Fuel Feedstock",
+      "source": "Clean the Sky",
+      "source_url": "https://cleanthesky.com/innovation/industrial-grease-recovery-systems",
+      "category": "Industry Events",
       "categories": [
-        "ESG",
-        "Public Co.",
-        "Renewable Fuels"
+        "Industry Events"
       ],
-      "summary": "Analyzes the role of used cooking oil in waste management and EPR frameworks, addressing environmental risks from improper disposal and proposing extended producer responsibility as a scalable solution for UCO management.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-05"
-    },
-    {
-      "date": "2026-10-31",
-      "headline": "Darling Ingredients Q3 2026 Earnings Call Transcript",
-      "source": "Benzinga",
-      "source_url": "https://www.benzinga.com/news/26/10/62698581/darling-ingredients-q3-2026-earnings-call-transcript",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels",
-        "Public Co."
-      ],
-      "summary": "Diamond Green Diesel reported third quarter operating results with its renewable diesel segment earning approximately $350 million in operating income for the three months ended Sept. 30, 2026. Diamond Green Diesel sold 314.9 million gallons of renewable fuels in the third quarter.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-05"
-    },
-    {
-      "date": "2026-10-29",
-      "headline": "Clean Harbors Q3 2026 Earnings Call Transcript",
-      "source": "Investing.com",
-      "source_url": "https://www.investing.com/news/transcripts/earnings-call-transcript-clean-harbors-tops-q3-2026-estimates-and-lifts-outlook-93CH-4979828",
-      "category": "Public Co.",
-      "categories": [
-        "Public Co."
-      ],
-      "summary": "Clean Harbors reported record Q3 2026 revenue of $1.87 billion (up 21%) and record Adjusted EBITDA of $456 million (up 42%) with EPS of $3.93. A large emergency response job in Los Angeles contributed approximately $120 million in Q3 revenue. The company raised full-year 2026 adjusted EBITDA guidance to $1.44\u2013$1.48 billion.",
+      "summary": "Greasezilla is expanding its FOG processing infrastructure through a planned installation at the Passaic Valley Sewerage Commission's Newark Bay treatment facility in New Jersey. The system will process up to 15 million gallons of grease waste annually, separating commercial grease-trap waste into reusable materials and feedstock for renewable fuels.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -127,7 +183,144 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-05"
+      "first_seen_date": "2026-11-06"
+    },
+    {
+      "date": "2026-11-06",
+      "headline": "Nearly 70 Million Tons of Food Waste Could Be a Major Source of Renewable Energy, New Research Finds",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/industry-insights/this-week-in-waste-top-stories-nov-2-nov-5",
+      "category": "ESG",
+      "categories": [
+        "ESG",
+        "Public Co."
+      ],
+      "summary": "New research highlights the renewable energy potential of food waste, including FOG-related streams. The article discusses how waste management industry leaders are identifying energy recovery opportunities from waste sources.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-06"
+    },
+    {
+      "date": "2026-11-05",
+      "headline": "Jeff Parent's Top Picks for Nov. 5, 2026",
+      "source": "BNN Bloomberg",
+      "source_url": "https://bnnbloomberg.ca/markets/2026/11/05/jeff-parents-top-picks-for-nov-5-2026",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels",
+        "Public Co."
+      ],
+      "summary": "Portfolio manager highlights Darling Ingredients as an investment pick, noting the company's unique business model converting animal waste into feed, food ingredients, and renewable diesel, with recent support-level pricing.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-06"
+    },
+    {
+      "date": "2026-11-05",
+      "headline": "PVSC picks Greasezilla to separate fats, oils and grease at Newark Bay treatment facility",
+      "source": "NJ.com (ROI-NJ)",
+      "source_url": "https://www.roi-nj.com/2026/11/05/industry/energy-utilities/pvsc-picks-greasezilla-to-separate-fats-oils-and-grease-at-newark-bay-treatment-facility/",
+      "category": "Industry Events",
+      "categories": [
+        "Industry Events",
+        "Renewable Fuels"
+      ],
+      "summary": "The Passaic Valley Sewerage Commission selected Greasezilla to install its FOG separation and recovery system at Newark Bay treatment facility after an extensive industry review. The system uses heat-based separation technology to convert grease-trap waste into water, pasteurized solids, and clean brown grease without chemical polymers.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-06"
+    },
+    {
+      "date": "2026-11-03",
+      "headline": "Restaurants on the hook for sewer grease",
+      "source": "Yahoo News (AP)",
+      "source_url": "https://yahoo.com/news/articles/restaurants-hook-sewer-grease-011800258.html",
+      "category": "Industry Events",
+      "categories": [
+        "Industry Events"
+      ],
+      "summary": "Waynesville is implementing an enforceable FOG management program after receiving a state violation notice for failure to comply with Department of Environmental Quality regulations. The program will require restaurants to install grease traps or interceptors and educate non-residential users about FOG prevention, with an estimated annual program cost of $112,000.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-06"
+    },
+    {
+      "date": "2026-11-02",
+      "headline": "Clean Harbors Revenue Surpasses $1.8 Billion as Net Income Jumps 75%",
+      "source": "Waste360",
+      "source_url": "https://www.waste360.com/industry-insights/clean-harbors-revenue-surpasses-1-8-billion-as-net-income-jumps-75-",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "Clean Harbors reported Q3 2026 record revenue of $1.87 billion (up 21% YoY) and net income of $208.1 million (up 75%). Adjusted EBITDA grew 42% to $456.1 million with record margin of 24.4%, and the company raised full-year 2026 guidance.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-06"
+    },
+    {
+      "date": "2026-10-31",
+      "headline": "Used Cooking Oil Market Gaining Momentum in 2026",
+      "source": "NSN Headlines",
+      "source_url": "https://www.nsnheadlines.com/post/used-cooking-oil-uco-market-transforming-waste-into-sustainable-energy",
+      "category": "ESG",
+      "categories": [
+        "ESG",
+        "Renewable Fuels"
+      ],
+      "summary": "The UCO market is accelerating as industries prioritize renewable energy and circular economy solutions. Biodiesel production accounts for 48.65% of the market in 2025, supported by growing renewable energy demand and ESG commitments.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-06"
+    },
+    {
+      "date": "2026-10-30",
+      "headline": "Wind River Environmental Expands with Acquisition of Greenway Waste Solutions & TCW Wastewater Management in Charlotte, NC",
+      "source": "Wind River Environmental Blog",
+      "source_url": "https://www.wrenvironmental.com/blog/2024/october/wind-river-environmental-acquires-greenway-waste/",
+      "category": "M&A",
+      "categories": [
+        "M&A"
+      ],
+      "summary": "Wind River Environmental announced the acquisition of Greenway Waste Solutions and TCW Wastewater Management in Charlotte, North Carolina. Greenway has 40 employees and serves the restaurant and homeowner communities across North Carolina, South Carolina, and Georgia.",
+      "relevance_score": 5,
+      "is_deal": true,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": 35.227,
+      "longitude": -80.843,
+      "zoom_hint": "narrow",
+      "first_seen_date": "2026-11-06"
     }
   ]
 }
