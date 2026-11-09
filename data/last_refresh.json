@@ -1,100 +1,80 @@
 {
-  "timestamp": "2026-11-06T19:09:53Z",
-  "added_news_count": 8,
+  "timestamp": "2026-11-09T22:10:40Z",
+  "added_news_count": 9,
   "added_deals_count": 0,
-  "archived_count": 3,
+  "archived_count": 26,
   "new_today_news": [
     {
-      "date": "2026-11-06",
-      "headline": "Greasezilla Converts Waste Grease into Renewable Fuel Feedstock",
-      "source": "Clean the Sky",
-      "source_url": "https://cleanthesky.com/innovation/industrial-grease-recovery-systems",
-      "category": "Industry Events",
+      "date": "2026-11-09",
+      "headline": "Restaurant employment slipped by 7,200 jobs in October",
+      "source": "National Restaurant News",
+      "source_url": "https://www.nrn.com/restaurant-labor/restaurant-employment-slipped-by-7-200-jobs-in-october",
+      "category": "Restaurant",
       "categories": [
-        "Industry Events"
+        "Restaurant"
       ],
-      "summary": "Greasezilla is expanding its FOG processing infrastructure through a planned installation at the Passaic Valley Sewerage Commission's Newark Bay treatment facility in New Jersey. The system will process up to 15 million gallons of grease waste annually, separating commercial grease-trap waste into reusable materials and feedstock for renewable fuels.",
-      "relevance_score": 5,
+      "summary": "Foodservice and drinking places lost 7,200 jobs in October on a seasonally-adjusted basis, following a period of relatively steady employment earlier in 2026. Restaurant hiring has been uneven throughout the year with declines at summer start, a jump in August, and decline again in October.",
+      "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-06"
+      "first_seen_date": "2026-11-09"
     },
     {
-      "date": "2026-11-06",
-      "headline": "Nearly 70 Million Tons of Food Waste Could Be a Major Source of Renewable Energy, New Research Finds",
-      "source": "Waste360",
-      "source_url": "https://www.waste360.com/industry-insights/this-week-in-waste-top-stories-nov-2-nov-5",
+      "date": "2026-11-09",
+      "headline": "Don't let holiday cooking clog your pipes: the 2026 holiday grease roundup Is here!",
+      "source": "Audacy",
+      "source_url": "https://www.audacy.com/national/news/dont-let-holiday-cooking-clog-your-pipes-the-2026-holiday-grease-roundup-is-here",
       "category": "ESG",
       "categories": [
         "ESG",
-        "Public Co."
-      ],
-      "summary": "New research highlights the renewable energy potential of food waste, including FOG-related streams. The article discusses how waste management industry leaders are identifying energy recovery opportunities from waste sources.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-06"
-    },
-    {
-      "date": "2026-11-05",
-      "headline": "Jeff Parent's Top Picks for Nov. 5, 2026",
-      "source": "BNN Bloomberg",
-      "source_url": "https://bnnbloomberg.ca/markets/2026/11/05/jeff-parents-top-picks-for-nov-5-2026",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels",
-        "Public Co."
-      ],
-      "summary": "Portfolio manager highlights Darling Ingredients as an investment pick, noting the company's unique business model converting animal waste into feed, food ingredients, and renewable diesel, with recent support-level pricing.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-06"
-    },
-    {
-      "date": "2026-11-05",
-      "headline": "PVSC picks Greasezilla to separate fats, oils and grease at Newark Bay treatment facility",
-      "source": "NJ.com (ROI-NJ)",
-      "source_url": "https://www.roi-nj.com/2026/11/05/industry/energy-utilities/pvsc-picks-greasezilla-to-separate-fats-oils-and-grease-at-newark-bay-treatment-facility/",
-      "category": "Industry Events",
-      "categories": [
-        "Industry Events",
         "Renewable Fuels"
       ],
-      "summary": "The Passaic Valley Sewerage Commission selected Greasezilla to install its FOG separation and recovery system at Newark Bay treatment facility after an extensive industry review. The system uses heat-based separation technology to convert grease-trap waste into water, pasteurized solids, and clean brown grease without chemical polymers.",
-      "relevance_score": 5,
+      "summary": "North Texas announces free FOG recycling collection program running November 1, 2026\u2013January 31, 2027. The 2025 initiative collected 8,591 gallons of used cooking oil and grease, converting it into clean fuel feedstock.",
+      "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-06"
+      "first_seen_date": "2026-11-09"
     }
   ],
   "recent_news": [
     {
-      "date": "2026-11-03",
-      "headline": "Restaurants on the hook for sewer grease",
-      "source": "Yahoo News (AP)",
-      "source_url": "https://yahoo.com/news/articles/restaurants-hook-sewer-grease-011800258.html",
-      "category": "Industry Events",
+      "date": "2026-11-06",
+      "headline": "Industrial Grease Recovery Systems: Greasezilla Expands Operations",
+      "source": "Clean the Sky",
+      "source_url": "https://cleanthesky.com/innovation/industrial-grease-recovery-systems",
+      "category": "Public Co.",
       "categories": [
-        "Industry Events"
+        "Public Co."
       ],
-      "summary": "Waynesville is implementing an enforceable FOG management program after receiving a state violation notice for failure to comply with Department of Environmental Quality regulations. The program will require restaurants to install grease traps or interceptors and educate non-residential users about FOG prevention, with an estimated annual program cost of $112,000.",
+      "summary": "Greasezilla is expanding industrial grease recovery systems through installation at Passaic Valley Sewerage Commission's Newark Bay facility. The system processes grease-trap waste into reusable materials for renewable fuel feedstock, helping wastewater operators manage waste streams while supporting resource recovery efforts.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-09"
+    },
+    {
+      "date": "2026-11-06",
+      "headline": "UCO Fraud Alert: Malaysia Tightens Controls on Used Cooking Oil Exports",
+      "source": "Aviation Business News",
+      "source_url": "https://aviationbusinessnews.com/low-cost/latest-news-low-cost/industry-voices-the-2027-agenda",
+      "category": "ESG",
+      "categories": [
+        "ESG",
+        "Renewable Fuels"
+      ],
+      "summary": "Malaysian government tightening controls on UCO exports amid concerns that virgin palm oil may be mislabeled as waste-based feedstock. Industry warns of serious fraud risks involving UCO, with potential environmental impact on deforestation and biodiversity.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -102,18 +82,76 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-06"
+      "first_seen_date": "2026-11-09"
+    },
+    {
+      "date": "2026-11-05",
+      "headline": "5 best new restaurant openings and dining updates in Boston (November 5, 2026)",
+      "source": "Boston.com",
+      "source_url": "https://boston.com/food/restaurants/2026/11/05/best-restaurant-openings-november-5-2026",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Multiple new restaurants are opening in Boston in fall 2026, including Cini Coffee, Fumo, Uchi (high-end sushi), and Roma Pizza & Company, signaling continued market activity and expansion in the Northeast dining sector.",
+      "relevance_score": 1,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-09"
+    },
+    {
+      "date": "2026-11-04",
+      "headline": "Passaic Valley Sewerage Commission Selects Greasezilla to Process Up to 15 Million Gallons of FOG Annually",
+      "source": "PRNewswire",
+      "source_url": "https://prnewswire.com/news-releases/passaic-valley-sewerage-commission-selects-greasezilla-to-process-up-to-15-million-gallons-of-fog-annually-at-one-of-the-nations-largest-wastewater-facilities-302928780.html",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co.",
+        "Renewable Fuels"
+      ],
+      "summary": "Greasezilla announced deployment of its FOG separation and recovery system at Passaic Valley Sewerage Commission's Newark facility, capable of processing up to 15 million gallons of hauled grease-trap waste annually. The modular technology separates raw grease-trap waste into water, pasteurized solids, and clean Brown Grease without chemical polymers for renewable fuel production.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-09"
+    },
+    {
+      "date": "2026-11-04",
+      "headline": "Where to eat next: 18 new restaurants opening in November",
+      "source": "Philadelphia Inquirer",
+      "source_url": "https://inquirer.com/food/restaurants/new-restaurants-philadelphia-suburbs-november-2026-20261104.html",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Philadelphia and suburbs are seeing 18 new restaurant openings in November 2026, ranging from caviar-focused establishments near Rittenhouse Square to Japanese omakase in Cherry Hill, indicating strong new unit development activity.",
+      "relevance_score": 1,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-09"
     },
     {
       "date": "2026-11-02",
-      "headline": "Clean Harbors Revenue Surpasses $1.8 Billion as Net Income Jumps 75%",
+      "headline": "Clean Harbors Reports Record Third Quarter 2026 Results",
       "source": "Waste360",
       "source_url": "https://www.waste360.com/industry-insights/clean-harbors-revenue-surpasses-1-8-billion-as-net-income-jumps-75-",
       "category": "Public Co.",
       "categories": [
         "Public Co."
       ],
-      "summary": "Clean Harbors reported Q3 2026 record revenue of $1.87 billion (up 21% YoY) and net income of $208.1 million (up 75%). Adjusted EBITDA grew 42% to $456.1 million with record margin of 24.4%, and the company raised full-year 2026 guidance.",
+      "summary": "Clean Harbors announced Q3 2026 record revenue of $1.87 billion (up 21% year-over-year) and net income of $208.1 million (up 75%). Adjusted EBITDA increased 42% to $456.1 million with a record margin of 24.4%. The company raised full-year 2026 adjusted EBITDA guidance and credited strong environmental services demand.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -121,19 +159,20 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-06"
-    },
+      "first_seen_date": "2026-11-09"
+    }
+  ],
+  "backfill_news": [
     {
-      "date": "2026-10-31",
-      "headline": "Used Cooking Oil Market Gaining Momentum in 2026",
-      "source": "NSN Headlines",
-      "source_url": "https://www.nsnheadlines.com/post/used-cooking-oil-uco-market-transforming-waste-into-sustainable-energy",
-      "category": "ESG",
+      "date": "2026-10-29",
+      "headline": "Top 8 Softwares for Grease Trap Cleaning Businesses in 2026",
+      "source": "MyQuoteIQ",
+      "source_url": "https://myquoteiq.com/top-8-softwares-for-grease-trap-cleaning-businesses-in-2026/",
+      "category": "Technology",
       "categories": [
-        "ESG",
-        "Renewable Fuels"
+        "Technology"
       ],
-      "summary": "The UCO market is accelerating as industries prioritize renewable energy and circular economy solutions. Biodiesel production accounts for 48.65% of the market in 2025, supported by growing renewable energy demand and ESG commitments.",
+      "summary": "Comparative software guide identifying QuoteIQ as best for most grease trap operators covering recurring job scheduling, quoting, and route optimization starting at $29.99/month, with ServiceCore and PumpDocket as FOG-specific alternatives.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -141,101 +180,60 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-06"
-    },
-    {
-      "date": "2026-10-30",
-      "headline": "Wind River Environmental Expands with Acquisition of Greenway Waste Solutions & TCW Wastewater Management in Charlotte, NC",
-      "source": "Wind River Environmental Blog",
-      "source_url": "https://www.wrenvironmental.com/blog/2024/october/wind-river-environmental-acquires-greenway-waste/",
-      "category": "M&A",
-      "categories": [
-        "M&A"
-      ],
-      "summary": "Wind River Environmental announced the acquisition of Greenway Waste Solutions and TCW Wastewater Management in Charlotte, North Carolina. Greenway has 40 employees and serves the restaurant and homeowner communities across North Carolina, South Carolina, and Georgia.",
-      "relevance_score": 5,
-      "is_deal": true,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": 35.227,
-      "longitude": -80.843,
-      "zoom_hint": "narrow",
-      "first_seen_date": "2026-11-06"
+      "first_seen_date": "2026-11-09"
     }
   ],
-  "backfill_news": [],
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-11-06",
-      "headline": "Greasezilla Converts Waste Grease into Renewable Fuel Feedstock",
-      "source": "Clean the Sky",
-      "source_url": "https://cleanthesky.com/innovation/industrial-grease-recovery-systems",
-      "category": "Industry Events",
+      "date": "2026-11-09",
+      "headline": "Restaurant employment slipped by 7,200 jobs in October",
+      "source": "National Restaurant News",
+      "source_url": "https://www.nrn.com/restaurant-labor/restaurant-employment-slipped-by-7-200-jobs-in-october",
+      "category": "Restaurant",
       "categories": [
-        "Industry Events"
+        "Restaurant"
       ],
-      "summary": "Greasezilla is expanding its FOG processing infrastructure through a planned installation at the Passaic Valley Sewerage Commission's Newark Bay treatment facility in New Jersey. The system will process up to 15 million gallons of grease waste annually, separating commercial grease-trap waste into reusable materials and feedstock for renewable fuels.",
-      "relevance_score": 5,
+      "summary": "Foodservice and drinking places lost 7,200 jobs in October on a seasonally-adjusted basis, following a period of relatively steady employment earlier in 2026. Restaurant hiring has been uneven throughout the year with declines at summer start, a jump in August, and decline again in October.",
+      "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-06"
+      "first_seen_date": "2026-11-09"
     },
     {
-      "date": "2026-11-06",
-      "headline": "Nearly 70 Million Tons of Food Waste Could Be a Major Source of Renewable Energy, New Research Finds",
-      "source": "Waste360",
-      "source_url": "https://www.waste360.com/industry-insights/this-week-in-waste-top-stories-nov-2-nov-5",
+      "date": "2026-11-09",
+      "headline": "Don't let holiday cooking clog your pipes: the 2026 holiday grease roundup Is here!",
+      "source": "Audacy",
+      "source_url": "https://www.audacy.com/national/news/dont-let-holiday-cooking-clog-your-pipes-the-2026-holiday-grease-roundup-is-here",
       "category": "ESG",
       "categories": [
         "ESG",
-        "Public Co."
-      ],
-      "summary": "New research highlights the renewable energy potential of food waste, including FOG-related streams. The article discusses how waste management industry leaders are identifying energy recovery opportunities from waste sources.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-06"
-    },
-    {
-      "date": "2026-11-05",
-      "headline": "Jeff Parent's Top Picks for Nov. 5, 2026",
-      "source": "BNN Bloomberg",
-      "source_url": "https://bnnbloomberg.ca/markets/2026/11/05/jeff-parents-top-picks-for-nov-5-2026",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels",
-        "Public Co."
-      ],
-      "summary": "Portfolio manager highlights Darling Ingredients as an investment pick, noting the company's unique business model converting animal waste into feed, food ingredients, and renewable diesel, with recent support-level pricing.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-06"
-    },
-    {
-      "date": "2026-11-05",
-      "headline": "PVSC picks Greasezilla to separate fats, oils and grease at Newark Bay treatment facility",
-      "source": "NJ.com (ROI-NJ)",
-      "source_url": "https://www.roi-nj.com/2026/11/05/industry/energy-utilities/pvsc-picks-greasezilla-to-separate-fats-oils-and-grease-at-newark-bay-treatment-facility/",
-      "category": "Industry Events",
-      "categories": [
-        "Industry Events",
         "Renewable Fuels"
       ],
-      "summary": "The Passaic Valley Sewerage Commission selected Greasezilla to install its FOG separation and recovery system at Newark Bay treatment facility after an extensive industry review. The system uses heat-based separation technology to convert grease-trap waste into water, pasteurized solids, and clean brown grease without chemical polymers.",
+      "summary": "North Texas announces free FOG recycling collection program running November 1, 2026\u2013January 31, 2027. The 2025 initiative collected 8,591 gallons of used cooking oil and grease, converting it into clean fuel feedstock.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-09"
+    },
+    {
+      "date": "2026-11-06",
+      "headline": "Industrial Grease Recovery Systems: Greasezilla Expands Operations",
+      "source": "Clean the Sky",
+      "source_url": "https://cleanthesky.com/innovation/industrial-grease-recovery-systems",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "Greasezilla is expanding industrial grease recovery systems through installation at Passaic Valley Sewerage Commission's Newark Bay facility. The system processes grease-trap waste into reusable materials for renewable fuel feedstock, helping wastewater operators manage waste streams while supporting resource recovery efforts.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -243,18 +241,19 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-06"
+      "first_seen_date": "2026-11-09"
     },
     {
-      "date": "2026-11-03",
-      "headline": "Restaurants on the hook for sewer grease",
-      "source": "Yahoo News (AP)",
-      "source_url": "https://yahoo.com/news/articles/restaurants-hook-sewer-grease-011800258.html",
-      "category": "Industry Events",
+      "date": "2026-11-06",
+      "headline": "UCO Fraud Alert: Malaysia Tightens Controls on Used Cooking Oil Exports",
+      "source": "Aviation Business News",
+      "source_url": "https://aviationbusinessnews.com/low-cost/latest-news-low-cost/industry-voices-the-2027-agenda",
+      "category": "ESG",
       "categories": [
-        "Industry Events"
+        "ESG",
+        "Renewable Fuels"
       ],
-      "summary": "Waynesville is implementing an enforceable FOG management program after receiving a state violation notice for failure to comply with Department of Environmental Quality regulations. The program will require restaurants to install grease traps or interceptors and educate non-residential users about FOG prevention, with an estimated annual program cost of $112,000.",
+      "summary": "Malaysian government tightening controls on UCO exports amid concerns that virgin palm oil may be mislabeled as waste-based feedstock. Industry warns of serious fraud risks involving UCO, with potential environmental impact on deforestation and biodiversity.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -262,18 +261,76 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-06"
+      "first_seen_date": "2026-11-09"
+    },
+    {
+      "date": "2026-11-05",
+      "headline": "5 best new restaurant openings and dining updates in Boston (November 5, 2026)",
+      "source": "Boston.com",
+      "source_url": "https://boston.com/food/restaurants/2026/11/05/best-restaurant-openings-november-5-2026",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Multiple new restaurants are opening in Boston in fall 2026, including Cini Coffee, Fumo, Uchi (high-end sushi), and Roma Pizza & Company, signaling continued market activity and expansion in the Northeast dining sector.",
+      "relevance_score": 1,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-09"
+    },
+    {
+      "date": "2026-11-04",
+      "headline": "Passaic Valley Sewerage Commission Selects Greasezilla to Process Up to 15 Million Gallons of FOG Annually",
+      "source": "PRNewswire",
+      "source_url": "https://prnewswire.com/news-releases/passaic-valley-sewerage-commission-selects-greasezilla-to-process-up-to-15-million-gallons-of-fog-annually-at-one-of-the-nations-largest-wastewater-facilities-302928780.html",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co.",
+        "Renewable Fuels"
+      ],
+      "summary": "Greasezilla announced deployment of its FOG separation and recovery system at Passaic Valley Sewerage Commission's Newark facility, capable of processing up to 15 million gallons of hauled grease-trap waste annually. The modular technology separates raw grease-trap waste into water, pasteurized solids, and clean Brown Grease without chemical polymers for renewable fuel production.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-09"
+    },
+    {
+      "date": "2026-11-04",
+      "headline": "Where to eat next: 18 new restaurants opening in November",
+      "source": "Philadelphia Inquirer",
+      "source_url": "https://inquirer.com/food/restaurants/new-restaurants-philadelphia-suburbs-november-2026-20261104.html",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Philadelphia and suburbs are seeing 18 new restaurant openings in November 2026, ranging from caviar-focused establishments near Rittenhouse Square to Japanese omakase in Cherry Hill, indicating strong new unit development activity.",
+      "relevance_score": 1,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-09"
     },
     {
       "date": "2026-11-02",
-      "headline": "Clean Harbors Revenue Surpasses $1.8 Billion as Net Income Jumps 75%",
+      "headline": "Clean Harbors Reports Record Third Quarter 2026 Results",
       "source": "Waste360",
       "source_url": "https://www.waste360.com/industry-insights/clean-harbors-revenue-surpasses-1-8-billion-as-net-income-jumps-75-",
       "category": "Public Co.",
       "categories": [
         "Public Co."
       ],
-      "summary": "Clean Harbors reported Q3 2026 record revenue of $1.87 billion (up 21% YoY) and net income of $208.1 million (up 75%). Adjusted EBITDA grew 42% to $456.1 million with record margin of 24.4%, and the company raised full-year 2026 guidance.",
+      "summary": "Clean Harbors announced Q3 2026 record revenue of $1.87 billion (up 21% year-over-year) and net income of $208.1 million (up 75%). Adjusted EBITDA increased 42% to $456.1 million with a record margin of 24.4%. The company raised full-year 2026 adjusted EBITDA guidance and credited strong environmental services demand.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -281,19 +338,18 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-06"
+      "first_seen_date": "2026-11-09"
     },
     {
-      "date": "2026-10-31",
-      "headline": "Used Cooking Oil Market Gaining Momentum in 2026",
-      "source": "NSN Headlines",
-      "source_url": "https://www.nsnheadlines.com/post/used-cooking-oil-uco-market-transforming-waste-into-sustainable-energy",
-      "category": "ESG",
+      "date": "2026-10-29",
+      "headline": "Top 8 Softwares for Grease Trap Cleaning Businesses in 2026",
+      "source": "MyQuoteIQ",
+      "source_url": "https://myquoteiq.com/top-8-softwares-for-grease-trap-cleaning-businesses-in-2026/",
+      "category": "Technology",
       "categories": [
-        "ESG",
-        "Renewable Fuels"
+        "Technology"
       ],
-      "summary": "The UCO market is accelerating as industries prioritize renewable energy and circular economy solutions. Biodiesel production accounts for 48.65% of the market in 2025, supported by growing renewable energy demand and ESG commitments.",
+      "summary": "Comparative software guide identifying QuoteIQ as best for most grease trap operators covering recurring job scheduling, quoting, and route optimization starting at $29.99/month, with ServiceCore and PumpDocket as FOG-specific alternatives.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -301,26 +357,7 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-06"
-    },
-    {
-      "date": "2026-10-30",
-      "headline": "Wind River Environmental Expands with Acquisition of Greenway Waste Solutions & TCW Wastewater Management in Charlotte, NC",
-      "source": "Wind River Environmental Blog",
-      "source_url": "https://www.wrenvironmental.com/blog/2024/october/wind-river-environmental-acquires-greenway-waste/",
-      "category": "M&A",
-      "categories": [
-        "M&A"
-      ],
-      "summary": "Wind River Environmental announced the acquisition of Greenway Waste Solutions and TCW Wastewater Management in Charlotte, North Carolina. Greenway has 40 employees and serves the restaurant and homeowner communities across North Carolina, South Carolina, and Georgia.",
-      "relevance_score": 5,
-      "is_deal": true,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": 35.227,
-      "longitude": -80.843,
-      "zoom_hint": "narrow",
-      "first_seen_date": "2026-11-06"
+      "first_seen_date": "2026-11-09"
     }
   ]
 }

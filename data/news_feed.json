@@ -1,5 +1,44 @@
 [
   {
+    "date": "2026-11-09",
+    "headline": "Restaurant employment slipped by 7,200 jobs in October",
+    "source": "National Restaurant News",
+    "source_url": "https://www.nrn.com/restaurant-labor/restaurant-employment-slipped-by-7-200-jobs-in-october",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "summary": "Foodservice and drinking places lost 7,200 jobs in October on a seasonally-adjusted basis, following a period of relatively steady employment earlier in 2026. Restaurant hiring has been uneven throughout the year with declines at summer start, a jump in August, and decline again in October.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-09"
+  },
+  {
+    "date": "2026-11-09",
+    "headline": "Don't let holiday cooking clog your pipes: the 2026 holiday grease roundup Is here!",
+    "source": "Audacy",
+    "source_url": "https://www.audacy.com/national/news/dont-let-holiday-cooking-clog-your-pipes-the-2026-holiday-grease-roundup-is-here",
+    "category": "ESG",
+    "categories": [
+      "ESG",
+      "Renewable Fuels"
+    ],
+    "summary": "North Texas announces free FOG recycling collection program running November 1, 2026\u2013January 31, 2027. The 2025 initiative collected 8,591 gallons of used cooking oil and grease, converting it into clean fuel feedstock.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-09"
+  },
+  {
     "date": "2026-11-06",
     "headline": "Greasezilla Converts Waste Grease into Renewable Fuel Feedstock",
     "source": "Clean the Sky",
@@ -37,6 +76,45 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-11-06"
+  },
+  {
+    "date": "2026-11-06",
+    "headline": "Industrial Grease Recovery Systems: Greasezilla Expands Operations",
+    "source": "Clean the Sky",
+    "source_url": "https://cleanthesky.com/innovation/industrial-grease-recovery-systems",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co."
+    ],
+    "summary": "Greasezilla is expanding industrial grease recovery systems through installation at Passaic Valley Sewerage Commission's Newark Bay facility. The system processes grease-trap waste into reusable materials for renewable fuel feedstock, helping wastewater operators manage waste streams while supporting resource recovery efforts.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-09"
+  },
+  {
+    "date": "2026-11-06",
+    "headline": "UCO Fraud Alert: Malaysia Tightens Controls on Used Cooking Oil Exports",
+    "source": "Aviation Business News",
+    "source_url": "https://aviationbusinessnews.com/low-cost/latest-news-low-cost/industry-voices-the-2027-agenda",
+    "category": "ESG",
+    "categories": [
+      "ESG",
+      "Renewable Fuels"
+    ],
+    "summary": "Malaysian government tightening controls on UCO exports amid concerns that virgin palm oil may be mislabeled as waste-based feedstock. Industry warns of serious fraud risks involving UCO, with potential environmental impact on deforestation and biodiversity.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-09"
   },
   {
     "date": "2026-11-05",
@@ -77,6 +155,64 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-11-06"
+  },
+  {
+    "date": "2026-11-05",
+    "headline": "5 best new restaurant openings and dining updates in Boston (November 5, 2026)",
+    "source": "Boston.com",
+    "source_url": "https://boston.com/food/restaurants/2026/11/05/best-restaurant-openings-november-5-2026",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "summary": "Multiple new restaurants are opening in Boston in fall 2026, including Cini Coffee, Fumo, Uchi (high-end sushi), and Roma Pizza & Company, signaling continued market activity and expansion in the Northeast dining sector.",
+    "relevance_score": 1,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-09"
+  },
+  {
+    "date": "2026-11-04",
+    "headline": "Passaic Valley Sewerage Commission Selects Greasezilla to Process Up to 15 Million Gallons of FOG Annually",
+    "source": "PRNewswire",
+    "source_url": "https://prnewswire.com/news-releases/passaic-valley-sewerage-commission-selects-greasezilla-to-process-up-to-15-million-gallons-of-fog-annually-at-one-of-the-nations-largest-wastewater-facilities-302928780.html",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co.",
+      "Renewable Fuels"
+    ],
+    "summary": "Greasezilla announced deployment of its FOG separation and recovery system at Passaic Valley Sewerage Commission's Newark facility, capable of processing up to 15 million gallons of hauled grease-trap waste annually. The modular technology separates raw grease-trap waste into water, pasteurized solids, and clean Brown Grease without chemical polymers for renewable fuel production.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-09"
+  },
+  {
+    "date": "2026-11-04",
+    "headline": "Where to eat next: 18 new restaurants opening in November",
+    "source": "Philadelphia Inquirer",
+    "source_url": "https://inquirer.com/food/restaurants/new-restaurants-philadelphia-suburbs-november-2026-20261104.html",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "summary": "Philadelphia and suburbs are seeing 18 new restaurant openings in November 2026, ranging from caviar-focused establishments near Rittenhouse Square to Japanese omakase in Cherry Hill, indicating strong new unit development activity.",
+    "relevance_score": 1,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-09"
   },
   {
     "date": "2026-11-03",
@@ -213,6 +349,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-11-06"
+  },
+  {
+    "date": "2026-11-02",
+    "headline": "Clean Harbors Reports Record Third Quarter 2026 Results",
+    "source": "Waste360",
+    "source_url": "https://www.waste360.com/industry-insights/clean-harbors-revenue-surpasses-1-8-billion-as-net-income-jumps-75-",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co."
+    ],
+    "summary": "Clean Harbors announced Q3 2026 record revenue of $1.87 billion (up 21% year-over-year) and net income of $208.1 million (up 75%). Adjusted EBITDA increased 42% to $456.1 million with a record margin of 24.4%. The company raised full-year 2026 adjusted EBITDA guidance and credited strong environmental services demand.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-09"
   },
   {
     "date": "2026-11-01",
@@ -484,6 +639,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-11-05"
+  },
+  {
+    "date": "2026-10-29",
+    "headline": "Top 8 Softwares for Grease Trap Cleaning Businesses in 2026",
+    "source": "MyQuoteIQ",
+    "source_url": "https://myquoteiq.com/top-8-softwares-for-grease-trap-cleaning-businesses-in-2026/",
+    "category": "Technology",
+    "categories": [
+      "Technology"
+    ],
+    "summary": "Comparative software guide identifying QuoteIQ as best for most grease trap operators covering recurring job scheduling, quoting, and route optimization starting at $29.99/month, with ServiceCore and PumpDocket as FOG-specific alternatives.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-09"
   },
   {
     "date": "2026-10-28",
@@ -10095,518 +10269,6 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-05-27"
-  },
-  {
-    "date": "2026-05-13",
-    "headline": "Darling Ingredients' Q1 2026 Profit Rebound and Cash Outlook Reshaping Investment Case",
-    "source": "Simply Wall St News",
-    "source_url": "https://simplywall.st/stocks/us/food-beverage-tobacco/nyse-dar/darling-ingredients/news/is-darling-ingredients-profit-rebound-and-cash-outlook-resha",
-    "category": "Public Co.",
-    "summary": "Darling Ingredients reported Q1 2026 results with revenue of $1,550.82 million and net income of $134.31 million, followed by an Investor Day where management outlined three-year priorities and a Shelf Registration filing for ESOP-related shares worth about $356.28 million. The company projected $4\u20136 billion of cash generation from 2027 to 2030 to fund debt reduction, selective acquisitions, shareholder returns, and further investments in renewable fuels and collagen.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-13",
-    "categories": [
-      "Public Co."
-    ]
-  },
-  {
-    "date": "2026-05-13",
-    "headline": "WRM Acquires a Majority of Darling Ingredients' Trap Grease Business",
-    "source": "PRNewswire",
-    "source_url": "https://www.prnewswire.com/news-releases/wrm-acquires-a-majority-of-darling-ingredients-trap-grease-business-302771051.html",
-    "category": "Public Co.",
-    "summary": "Waste Resource Management, LLC (WRM) has entered a definitive agreement to acquire the majority of Darling Ingredients' trap grease collection and processing assets. The transaction expands WRM's footprint in 13 U.S. metro markets and enhances service capabilities while driving vertical integration across the platform.",
-    "relevance_score": 5,
-    "is_deal": true,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-13",
-    "categories": [
-      "Public Co.",
-      "M&A",
-      "Renewable Fuels"
-    ]
-  },
-  {
-    "date": "2026-05-13",
-    "headline": "Darling Ingredients Reports Q1 2026 Results with Strong EBITDA Growth; Provides Investor Day Guidance",
-    "source": "Simply Wall St",
-    "source_url": "https://simplywall.st/stocks/us/food-beverage-tobacco/nyse-dar/darling-ingredients/news/is-darling-ingredients-profit-rebound-and-cash-outlook-resha",
-    "category": "Public Co.",
-    "summary": "Darling Ingredients reported Q1 2026 revenue of $1,550.82M and net income of $134.31M, swinging to profitability. At an Investor Day, management outlined a three-year cash generation target of $4-6 billion from 2027-2030 for debt reduction and growth investments.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-13",
-    "categories": [
-      "Public Co."
-    ]
-  },
-  {
-    "date": "2026-05-13",
-    "headline": "WEF Purchases First U.S. Watershed-Based Carbon Offset Credits; Names Madison Metropolitan Sewerage District Official Carbon Offset Partner of WEFTEC 2026",
-    "source": "Water Environment Federation",
-    "source_url": "https://www.wef.org/about/Governance/about/",
-    "category": "Industry Events",
-    "categories": [
-      "Industry Events",
-      "ESG"
-    ],
-    "summary": "WEF announces purchase of watershed-based carbon offset credits and designates Madison Metropolitan Sewerage District as official carbon partner for WEFTEC 2026 conference scheduled for September in New Orleans.",
-    "relevance_score": 3,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-18"
-  },
-  {
-    "date": "2026-05-13",
-    "headline": "CDL Driver Shortage Continues to Affect Waste Services Across U.S.",
-    "source": "PLS Logistics",
-    "source_url": "https://www.plslogistics.com/blog/truck-driver-shortage-2026/",
-    "category": "Labor/Ops",
-    "categories": [
-      "Labor/Ops"
-    ],
-    "summary": "Trucking sector faces capacity tightening and rate increases driven by CDL shortage. Federal rule effective March 2026 restricts asylum seekers and refugees from obtaining CDLs, affecting foreign-born drivers who account for one in six truckers. Regional imbalances most acute in Southeast, Texas, and Mountain West.",
-    "relevance_score": 2,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-18"
-  },
-  {
-    "date": "2026-05-13",
-    "headline": "Waste Resource Management, Inc. to acquire Darling Ingredients' trap grease collection and processing assets",
-    "source": "MarketScreener",
-    "source_url": "https://www.marketscreener.com/news/waste-resource-management-inc-agreed-to-acquire-darling-ingredients-inc-s-trap-grease-collection-ce7f5bddd98bff26",
-    "category": "ESG",
-    "categories": [
-      "ESG",
-      "M&A",
-      "Public Co.",
-      "Renewable Fuels"
-    ],
-    "summary": "Waste Resource Management, Inc. agreed to acquire Darling Ingredients Inc.'s trap grease collection and processing assets on May 13, 2026. Darling Ingredients develops sustainable natural ingredients from animal by-products, including grease trap operations. The acquisition expands WRM's capabilities in the specialized liquid waste and grease management sector.",
-    "relevance_score": 5,
-    "is_deal": true,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-26"
-  },
-  {
-    "date": "2026-05-12",
-    "headline": "IoT-Based Industrial Equipment Monitoring System",
-    "source": "International Journal of Latest Technology in Engineering, Management & Applied Science",
-    "source_url": "https://ideas.repec.org/a/bjb/journl/v15y2026i3p727-732.html",
-    "category": "Technology",
-    "summary": "Academic paper describing IoT sensor systems for monitoring industrial equipment using accelerometers, temperature, oil leakage, and current sensors. While general industrial application, methodology relevant to grease trap monitoring and predictive maintenance.",
-    "relevance_score": 2,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-12",
-    "categories": [
-      "Technology"
-    ]
-  },
-  {
-    "date": "2026-05-12",
-    "headline": "Erving Voters to Weigh Cemetery Expansion, Wastewater Treatment Plant Upgrades",
-    "source": "Greenfield Recorder",
-    "source_url": "https://recorder.com/2026/05/11/erving-voters-capital-projects/",
-    "category": "Infrastructure",
-    "summary": "Erving, Massachusetts voters will decide on May 13 whether to approve a $1 million upgrade to the Erving Center Wastewater Treatment Plant, specifically updating secondary clarifiers installed in the 1970s. The town contracts with Erving Industries Inc. to operate the facility and maintains a cost-sharing agreement for maintenance and financing.",
-    "relevance_score": 3,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-12",
-    "categories": [
-      "Infrastructure"
-    ]
-  },
-  {
-    "date": "2026-05-12",
-    "headline": "Darling Ingredients Signals Q2 Upside, Renewable Diesel Boost at Investor Day",
-    "source": "Ticker Report",
-    "source_url": "https://www.tickerreport.com/banking-finance/13437233/darling-ingredients-signals-q2-upside-renewable-diesel-boost-at-investor-day.html",
-    "category": "Renewable Fuels",
-    "summary": "Darling Ingredients reported Q1 2026 profitability with combined adjusted EBITDA of $406.8 million, including $151.2 million from Diamond Green Diesel, signaling a turning point driven by late-March RVO and improving renewables margins. Management highlighted the Renewable Volume Obligation as a major policy tailwind, with 2026 and 2027 annual demand requirement of 5.4 billion gallons compared with 3.35 billion gallons a year earlier.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-12",
-    "categories": [
-      "Renewable Fuels",
-      "Public Co."
-    ]
-  },
-  {
-    "date": "2026-05-12",
-    "headline": "May 2026 Business Report\u2014First Quarter 2026 Solid Waste Highlights",
-    "source": "Waste360",
-    "source_url": "https://www.waste360.com/industry-insights/may-2026-business-report-first-quarter-2026-solid-waste-highlights",
-    "category": "Industry Events",
-    "summary": "Q1 2026 solid waste earnings reports from major companies show strong pricing growth and margin expansion. RNG development supported by EPA's final RVO rule and D3 RIN stabilization around $2.40\u2013$2.50, benefiting waste and energy service operators.",
-    "relevance_score": 2,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-12",
-    "categories": [
-      "Industry Events",
-      "Renewable Fuels",
-      "Regulatory"
-    ]
-  },
-  {
-    "date": "2026-05-12",
-    "headline": "US Imports More Used Cooking Oil From China for Biofuels",
-    "source": "TT News / Kpler",
-    "source_url": "https://www.ttnews.com/articles/us-imports-cooking-oil-china",
-    "category": "Renewable Fuels",
-    "summary": "Two cargoes carrying a combined 339,000 barrels of used cooking oil from China arrived in the U.S. recently, with significant volumes delivered to Port Arthur, Texas (Diamond Green Diesel facility). US biofuel-blending requirements and high energy costs make UCO imports increasingly attractive.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-12",
-    "categories": [
-      "Renewable Fuels",
-      "Public Co."
-    ]
-  },
-  {
-    "date": "2026-05-12",
-    "headline": "Vacuum Truck Market Experiences Notable Evolution Driven by Environmental Regulations and Efficiency Innovations",
-    "source": "Market Research Future",
-    "source_url": "https://www.marketresearchfuture.com/reports/vacuum-truck-market-12235",
-    "category": "Technology",
-    "summary": "Vacuum truck market report highlights electric engine segment rapidly gaining traction alongside established ICE dominance. Innovations include enhanced suction capabilities, improved fuel efficiency, and advanced filtration systems. North America accounts for 45% of global vacuum truck market share.",
-    "relevance_score": 4,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-12",
-    "categories": [
-      "Technology"
-    ]
-  },
-  {
-    "date": "2026-05-12",
-    "headline": "Waste360 Reports Q1 2026 Solid Waste Industry Business Results with Strong Pricing",
-    "source": "Waste360",
-    "source_url": "https://www.waste360.com/industry-insights/may-2026-business-report-first-quarter-2026-solid-waste-highlights",
-    "category": "Industry Events",
-    "summary": "Waste360's May 2026 Business Report recaps Q1 2026 financial results from publicly traded solid waste companies. The report notes strong pricing performance across core services and improved margin expansion, though the article is broader solid waste industry focused rather than specifically on FOG/grease/septic.",
-    "relevance_score": 2,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-12",
-    "categories": [
-      "Industry Events"
-    ]
-  },
-  {
-    "date": "2026-05-12",
-    "headline": "Renewable Fuel from Food Waste: Darling Ingredients",
-    "source": "Fintech.TV",
-    "source_url": "https://fintech.tv/how-darling-ingredients-turns-food-waste-into-renewable-fuel-and-profits/",
-    "category": "Renewable Fuels",
-    "categories": [
-      "Renewable Fuels",
-      "Public Co.",
-      "ESG"
-    ],
-    "summary": "Interview segment featuring Darling Ingredients' executive VP and CFO Bob Day discussing how the company converts food waste and animal byproducts into renewable fuel, collagen, and other value-added products. Darling Ingredients positions itself as a leader in circular economy and waste valorization.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-18"
-  },
-  {
-    "date": "2026-05-12",
-    "headline": "The 6 Biggest Chain Restaurant Closures Of 2026 So Far",
-    "source": "Tasting Table",
-    "source_url": "https://www.tastingtable.com/2168401/biggest-chain-restaurant-closures-2026/",
-    "category": "Restaurant",
-    "categories": [
-      "Restaurant"
-    ],
-    "summary": "Wendy's is closing around 300 stores in 2026, with Smokey Bones completing all closures as of April 28, 2026. Bahama Breeze closed 14 locations (half its footprint) in April, and other chains including Peet's Coffee are reducing their physical locations.",
-    "relevance_score": 2,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-18"
-  },
-  {
-    "date": "2026-05-12",
-    "headline": "Truck Driver Shortage 2026: Impact on Shippers",
-    "source": "PLS Logistics",
-    "source_url": "https://www.plslogistics.com/blog/truck-driver-shortage-2026/",
-    "category": "Labor/Ops",
-    "categories": [
-      "Labor/Ops"
-    ],
-    "summary": "A federal rule effective March 2026 prohibits asylum seekers, refugees, and DACA recipients from obtaining CDLs, shrinking the available driver pool. Foreign-born drivers account for nearly one in six truckers, and small fleets are disproportionately affected by regulatory changes.",
-    "relevance_score": 2,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-19"
-  },
-  {
-    "date": "2026-05-12",
-    "headline": "Report: Sustainable Aviation Fuel Has Benefits Beyond Just Environmental",
-    "source": "Aviation International News",
-    "source_url": "https://www.ainonline.com/aviation-news/aerospace/2026-05-12/new-report-notes-more-saf-benefits-environmental",
-    "category": "Renewable Fuels",
-    "categories": [
-      "Renewable Fuels"
-    ],
-    "summary": "Recent report examining broader benefits of SAF adoption, touching on geopolitical impacts of global oil market disruptions and relevance to renewable fuel production strategies.",
-    "relevance_score": 3,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-20"
-  },
-  {
-    "date": "2026-05-11",
-    "headline": "Electric Garbage Trucks Are The Heavy-Duty EV Story Hiding In Plain Sight",
-    "source": "CleanTechnica",
-    "source_url": "https://cleantechnica.com/2026/04/25/electric-garbage-trucks-are-the-heavy-duty-ev-story-hiding-in-plain-sight/",
-    "category": "Technology",
-    "summary": "Comprehensive analysis of electric refuse collection vehicle deployments, operational challenges including payload variability, charging infrastructure requirements, and real-world range performance across different waste collection scenarios and climate conditions.",
-    "relevance_score": 2,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-11",
-    "categories": [
-      "Technology"
-    ]
-  },
-  {
-    "date": "2026-05-11",
-    "headline": "CES 2026: AI, Electric Fleets and the Future of Waste Management",
-    "source": "Waste360",
-    "source_url": "https://www.waste360.com/industry-insights/ces-2026-ai-electric-fleets-and-the-future-of-waste-management",
-    "category": "Technology",
-    "summary": "CES 2026 coverage of Oshkosh McNeilus Volterra electric vehicles with AI-enabled bin detection, contamination detection, and the HARR-E autonomous electric refuse robot with two-piece design for improved waste handling.",
-    "relevance_score": 2,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-11",
-    "categories": [
-      "Technology",
-      "Public Co."
-    ]
-  },
-  {
-    "date": "2026-05-11",
-    "headline": "Garbage Truck Market to Reach USD 24.8 Billion by 2035 as Electric Fleets, Smart Automation, and Sustainable Waste Collection Transform Municipal Infrastructure",
-    "source": "The Auto Channel",
-    "source_url": "https://www.theautochannel.com/news/2026/05/11/1667349-garbage-truck-market-to-reach-usd-24-8-billion-by.html",
-    "category": "Technology",
-    "summary": "Global garbage truck market projected to grow from USD 15.9 billion in 2025 to USD 24.8 billion by 2035. Manufacturers integrating AI-driven fleet telematics, robotic lifting systems, electric propulsion, and advanced compaction to improve collection efficiency and meet environmental regulations.",
-    "relevance_score": 4,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-11",
-    "categories": [
-      "Technology"
-    ]
-  },
-  {
-    "date": "2026-05-11",
-    "headline": "WEF Winter Meeting - May 11-14, Kansas City",
-    "source": "Water Environment Federation",
-    "source_url": "https://www.wef.org/events--education/conferences/2026-winter-meeting/",
-    "category": "Industry Events",
-    "summary": "WEF Winter Meeting in Kansas City featuring key volunteer committees and programming development for WEFTEC. Provides opportunity for water professionals to convene on biosolids management, PFAS, resource recovery, and advanced treatment technologies.",
-    "relevance_score": 4,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-11",
-    "categories": [
-      "Industry Events"
-    ]
-  },
-  {
-    "date": "2026-05-11",
-    "headline": "Barrel Energy Inc. Announces Full SEC Reporting Status, Strengthening Marketability and Positioning Company for Expansion in Renewable and Nutritional Energy Markets",
-    "source": "PR Newswire",
-    "source_url": "https://www.prnewswire.com/news-releases/barrel-energy-inc-announces-full-sec-reporting-status-strengthening-marketability-and-positioning-company-for-expansion-in-renewable-and-nutritional-energy-markets-302768505.html",
-    "category": "Public Co.",
-    "summary": "Barrel Energy Inc. (OTC: BRLL) announced achievement of full SEC reporting status, a milestone supporting market visibility and investor engagement. Company previously acquired Happy Traps in March 2026, a waste-to-energy firm specializing in grease trap cleanings and fats/oils/grease recovery for 200+ commercial clients.",
-    "relevance_score": 5,
-    "is_deal": true,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": 43.661,
-    "longitude": -70.255,
-    "zoom_hint": "narrow",
-    "first_seen_date": "2026-05-11",
-    "categories": [
-      "Public Co.",
-      "M&A"
-    ]
-  },
-  {
-    "date": "2026-05-11",
-    "headline": "Darling Ingredients 2026 Investor Day: Q1 Adjusted EBITDA of $406.8M, Cash Generation Targets of $4\u20136B Through 2030",
-    "source": "StockTitan",
-    "source_url": "https://www.stocktitan.net/sec-filings/DAR/8-k-darling-ingredients-inc-reports-material-event-77d9d0a327aa.html",
-    "category": "Public Co.",
-    "summary": "Darling Ingredients' 2026 Investor Day outlines Q1 2026 EBITDA of $406.8M, leverage of 1.82x, and scenarios targeting $4\u20136B in cash generation through 2030 for debt reduction and growth. Management positions Diamond Green Diesel as a core earnings engine at roughly 1.2B gallons of renewable diesel capacity, including sustainable aviation fuel.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-11",
-    "categories": [
-      "Public Co.",
-      "Renewable Fuels"
-    ]
-  },
-  {
-    "date": "2026-05-11",
-    "headline": "Renewable Diesel Industry Transformation Driven by Diamond Green Diesel and RFS Support",
-    "source": "FINTECH.TV",
-    "source_url": "https://fintech.tv/how-darling-ingredients-turns-food-waste-into-renewable-fuel-and-profits/",
-    "category": "Renewable Fuels",
-    "summary": "Darling Ingredients is the largest company in the world that collects, produces, and adds value to animal byproducts and used cooking oil. Following the finalization of RFS RVO policy, the company held an investor day to discuss its renewable fuels business model.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-11",
-    "categories": [
-      "Renewable Fuels",
-      "Public Co."
-    ]
-  },
-  {
-    "date": "2026-05-11",
-    "headline": "Darling Ingredients Highlights Growth in Renewable Fuels and Collagen",
-    "source": "TipRanks / Globe and Mail",
-    "source_url": "https://www.tipranks.com/news/company-announcements/darling-ingredients-highlights-growth-in-renewable-fuels-and-collagen",
-    "category": "Renewable Fuels",
-    "categories": [
-      "Renewable Fuels",
-      "Public Co."
-    ],
-    "summary": "At its May 11, 2026 Investor Day, Darling Ingredients highlighted Diamond Green Diesel's 1.2 billion gallons of renewable diesel capacity and early SAF adoption, supported by favorable U.S. renewable fuel mandates. The company emphasized rendering, collagen, and renewable fuels as core growth drivers.",
-    "relevance_score": 5,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-18"
-  },
-  {
-    "date": "2026-05-11",
-    "headline": "The restaurant labor market in 6 key statistics",
-    "source": "Restaurant Dive",
-    "source_url": "https://www.restaurantdive.com/news/restaurant-trends-outlook-2026/810787/",
-    "category": "Restaurant",
-    "categories": [
-      "Restaurant",
-      "Public Co."
-    ],
-    "summary": "Restaurant Dive updates labor market statistics for 2026, covering employment trends and hiring challenges in the food service industry relevant to waste management service providers.",
-    "relevance_score": 2,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-18"
   },
   {
     "date": null,
