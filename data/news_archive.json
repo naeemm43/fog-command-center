@@ -1,5 +1,161 @@
 [
   {
+    "date": "2026-05-14",
+    "headline": "Top waste companies spent nearly $700M on M&A in Q1 2026",
+    "source": "Waste Dive",
+    "source_url": "https://www.wastedive.com/news/waste-companies-spent-nearly-700-million-acquisitions-q1-2026/819940/",
+    "category": "M&A",
+    "summary": "Major publicly traded solid waste and recycling companies spent nearly $700 million on M&A in Q1 2026. WM completed its acquisition of Waste Resources in California in May; Republic Services closed several deals including landfill and hauler acquisitions; GFL Environmental announced purchases including Frontier Waste Solutions.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-14",
+    "categories": [
+      "M&A",
+      "Public Co."
+    ]
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Darling Ingredients Anticipates Q2 Core Ingredients EBITDA of $260M-$275M as RVO Shifts Renewables Margins",
+    "source": "MSN Money / Darling Ingredients Earnings",
+    "source_url": "https://www.msn.com/en-us/money/other/darling-ingredients-anticipates-q2-core-ingredients-ebitda-of-260m-275m-as-rvo-shifts-renewables-margins/ar-AA227lBY",
+    "category": "Renewable Fuels",
+    "summary": "Darling Ingredients reported Q1 2026 turning point with combined adjusted EBITDA of $406.8M, including $151.2M from Diamond Green Diesel. The March RVO announcement proved \"extremely constructive\" for the company and DGD, with renewables margins showing significant improvement.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-14",
+    "categories": [
+      "Renewable Fuels",
+      "Public Co."
+    ]
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Barrel Energy Inc. 1Q 2026 Results: Revenue $42.4K, Net Loss $6.18K",
+    "source": "TradingView",
+    "source_url": "https://www.tradingview.com/news/tradingview:4539eb9e55c66:0-barrel-energy-inc-1q-2026-revenue-42-4k-net-income-6-18k-eps-0-01-10-q-summary/",
+    "category": "Public Co.",
+    "summary": "Barrel Energy Inc. reported first-quarter 2026 results with revenue of $42.4K, a net loss of $6.18K and diluted EPS of $(0.01), compared with revenue of $45.14K, net income of $16.86K and EPS of $0.02 in the year-ago quarter. The accumulated deficit reached $317,010, and management disclosed 'substantial doubt' about continuing as a going concern without new funding.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-14",
+    "categories": [
+      "Public Co."
+    ]
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Sustainable Aviation Fuel 101: Feedstocks on World Energy",
+    "source": "World Energy",
+    "source_url": "https://worldenergy.net/resource/saf-101-feedstocks/",
+    "category": "Renewable Fuels",
+    "summary": "Analysis of SAF feedstock options including HEFA technology using waste-derived feedstocks like used cooking oil and beef tallow. Waste-derived feedstocks are noted to have low carbon intensity due to avoidance of cultivation and land-use emissions, with World Energy prioritizing domestically sourced waste products for reliable supply.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-18",
+    "categories": [
+      "Renewable Fuels"
+    ]
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Barrel Energy Inc. Q1 2026 Quarterly Report Filed",
+    "source": "SEC Filing / StockTitan",
+    "source_url": "https://www.stocktitan.net/sec-filings/BRLL/10-q-barrel-energy-inc-quarterly-earnings-report-3ab095a3011a.html",
+    "category": "Public Co.",
+    "summary": "Barrel Energy reported Q1 2026 revenue of $42,395 versus $45,144 a year earlier and a net loss of $6,183 compared with prior net income of $16,859. Management disclosed 'substantial doubt' about continuing as a going concern without new funding.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-18",
+    "categories": [
+      "Public Co."
+    ]
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Clean Harbors Announces Acquisition of Terra Nova Solutions",
+    "source": "Clean Harbors Inc.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0000822818/000082281826000024/terranovapressrelease.htm",
+    "category": "M&A",
+    "categories": [
+      "M&A",
+      "Public Co."
+    ],
+    "summary": "Clean Harbors announced a $225 million acquisition of Terra Nova Solutions, a regional provider of hazardous and non-hazardous waste solutions based in the Carolinas. The deal adds five sites supporting high-margin recurring revenue streams including wastewater treatment and waste processing, with expected ~$4 million in annual synergies.",
+    "relevance_score": 4,
+    "is_deal": true,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-19"
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "DOE Launches 2026 Waste to Energy and Materials Technical Assistance Program",
+    "source": "U.S. Department of Energy",
+    "source_url": "https://www.energy.gov/cmei/fuels/waste-energy",
+    "category": "Technology",
+    "categories": [
+      "Technology"
+    ],
+    "summary": "The DOE expanded its Waste to Energy Technical Assistance Program for state and local governments, now accepting applications through May 31, 2026. The program supports evaluation of waste-to-energy projects including biogas from organic waste streams (food waste, animal waste, FOG) and other feedstocks.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-20"
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Barrel Energy Inc. Q1 2026 Earnings Report",
+    "source": "TradingView",
+    "source_url": "https://www.tradingview.com/news/tradingview:4539eb9e55c66:0-barrel-energy-inc-1q-2026-revenue-42-4k-net-income-6-18k-eps-0-01-10-q-summary/",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co.",
+      "M&A"
+    ],
+    "summary": "Barrel Energy reported Q1 2026 revenue of $42.4K with a net loss of $6.18K and diluted EPS of $(0.01). The company disclosed going concern risk with accumulated deficit of $317,010 and tight liquidity ($4,236 cash). Recent Happy Traps acquisition is expected to significantly expand revenue base in grease management services.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-27"
+  },
+  {
     "date": "2026-05-13",
     "headline": "Darling Ingredients' Q1 2026 Profit Rebound and Cash Outlook Reshaping Investment Case",
     "source": "Simply Wall St News",

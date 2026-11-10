@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-10-30",
+    "target": "Darling Ingredients' Grease Trap Operations (DAR PRO Solutions)",
+    "acquirer": "Wind River Environmental",
+    "sponsor": "Gryphon Investors",
+    "location": "Ohio, United States",
+    "deal_type": "Add-On",
+    "deal_size": null,
+    "multiple": "N/A",
+    "services": "",
+    "source": "Wind River Environmental",
+    "source_url": "https://www.wrenvironmental.com/blog/2026/october/wind-river-environmental-expands-midwest-presenc/",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "Private Equity",
+    "deal_summary": [
+      "Acquisition of remaining grease trap operations; UCO services retained by Darling Ingredients"
+    ],
+    "date_confidence": "verified",
+    "notes": "Wind River Environmental acquired the remaining grease trap service operations of Darling Ingredients Inc. (DAR PRO Solutions brand) in Ohio, expanding its commercial service capabilities in the Midwest while Darling Ingredients retains UCO collection services.",
+    "latitude": 40.388,
+    "longitude": -82.764,
+    "zoom_hint": "wide"
+  },
+  {
     "date": "2026-10-19",
     "target": "Restaurant brands (unspecified)",
     "acquirer": "Savory Fund",
