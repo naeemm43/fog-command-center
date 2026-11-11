@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-11-10T19:32:31Z",
+  "timestamp": "2026-11-11T19:28:30Z",
   "added_news_count": 3,
-  "added_deals_count": 1,
-  "archived_count": 8,
+  "added_deals_count": 0,
+  "archived_count": 3,
   "new_today_news": [],
   "recent_news": [
     {
-      "date": "2026-11-06",
-      "headline": "Used Cooking Oil Price Chart 2026: Historical Data, Market Analysis, and Outlook",
-      "source": "Global Risk Community",
-      "source_url": "https://globalriskcommunity.com/market_research/used-cooking-oil-price-chart-2026-historical-data-market-analysis",
-      "category": "Renewable Fuels",
+      "date": "2026-11-04",
+      "headline": "PCL-Stantec $552.4 Million South Bay Wastewater Plant Expansion 2026 in San Diego, USA",
+      "source": "DMC Education",
+      "source_url": "https://dmc-education.com/2026/11/04/pcl-stantec-552-4-million-south-bay-wastewater-plant-expansion-2026-in-san-diego-usa/",
+      "category": "Infrastructure",
       "categories": [
-        "Renewable Fuels"
+        "Infrastructure"
       ],
-      "summary": "Growing demand for renewable diesel, sustainable aviation fuel (SAF), and biodiesel production continued to strengthen the commercial importance of UCO as an alternative feedstock in the global renewable energy industry. In September 2026, the increase in the US Used Cooking Oil price index reflected the combined influence of inflationary conditions and higher production costs.",
+      "summary": "PCL Construction and Stantec are advancing a $552.4 million South Bay International Wastewater Treatment Plant expansion in San Diego, California, to increase the plant's average treatment capacity to 50 MGD with peak capacity of 75 MGD.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -22,89 +22,20 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-10"
+      "first_seen_date": "2026-11-11"
     }
   ],
   "backfill_news": [
     {
       "date": "2026-11-01",
-      "headline": "Greasezilla FOG Separation Technology Expands Biofuel Production Capabilities",
-      "source": "Greasezilla Blog",
-      "source_url": "https://greasezilla.com/fog-to-fuel-turning-grease2green/",
-      "category": "Technology",
+      "headline": "The $43 Billion Water Boost Is Over. Now What?",
+      "source": "Circle of Blue",
+      "source_url": "https://www.circleofblue.org/2026/water-policy-politics/the-43-billion-water-boost-is-over-now-what/",
+      "category": "Infrastructure",
       "categories": [
-        "Technology",
-        "Renewable Fuels"
+        "Infrastructure"
       ],
-      "summary": "Greasezilla's FOG separation system continues to demonstrate viability in converting brown grease and trap waste into renewable biofuel, with the energy self-sufficient system using only 5% of produced fuel internally while retaining 95% for commercial sale.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-10"
-    },
-    {
-      "date": "2026-10-30",
-      "headline": "Wind River Environmental Expands Midwest Presence with Acquisition of Darling Ingredients' Grease Trap Operations",
-      "source": "Wind River Environmental",
-      "source_url": "https://www.wrenvironmental.com/blog/2026/october/wind-river-environmental-expands-midwest-presenc/",
-      "category": "M&A",
-      "categories": [
-        "M&A",
-        "Public Co.",
-        "Renewable Fuels"
-      ],
-      "summary": "Wind River Environmental acquired the remaining grease trap service operations of Darling Ingredients Inc. (DAR PRO Solutions brand) in Ohio, expanding its commercial service capabilities in the Midwest while Darling Ingredients retains UCO collection services.",
-      "relevance_score": 5,
-      "is_deal": true,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": 40.388,
-      "longitude": -82.764,
-      "zoom_hint": "wide",
-      "first_seen_date": "2026-11-10"
-    }
-  ],
-  "new_deals": [
-    {
-      "date": "2026-10-30",
-      "target": "Darling Ingredients' Grease Trap Operations (DAR PRO Solutions)",
-      "acquirer": "Wind River Environmental",
-      "sponsor": "Gryphon Investors",
-      "location": "Ohio, United States",
-      "deal_type": "Add-On",
-      "deal_size": null,
-      "multiple": "N/A",
-      "services": "",
-      "source": "Wind River Environmental",
-      "source_url": "https://www.wrenvironmental.com/blog/2026/october/wind-river-environmental-expands-midwest-presenc/",
-      "is_target_market": false,
-      "target_market_name": null,
-      "owner_classification": "Private Equity",
-      "deal_summary": [
-        "Acquisition of remaining grease trap operations; UCO services retained by Darling Ingredients"
-      ],
-      "date_confidence": "verified",
-      "notes": "Wind River Environmental acquired the remaining grease trap service operations of Darling Ingredients Inc. (DAR PRO Solutions brand) in Ohio, expanding its commercial service capabilities in the Midwest while Darling Ingredients retains UCO collection services.",
-      "latitude": 40.388,
-      "longitude": -82.764,
-      "zoom_hint": "wide"
-    }
-  ],
-  "new_news": [
-    {
-      "date": "2026-11-06",
-      "headline": "Used Cooking Oil Price Chart 2026: Historical Data, Market Analysis, and Outlook",
-      "source": "Global Risk Community",
-      "source_url": "https://globalriskcommunity.com/market_research/used-cooking-oil-price-chart-2026-historical-data-market-analysis",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels"
-      ],
-      "summary": "Growing demand for renewable diesel, sustainable aviation fuel (SAF), and biodiesel production continued to strengthen the commercial importance of UCO as an alternative feedstock in the global renewable energy industry. In September 2026, the increase in the US Used Cooking Oil price index reflected the combined influence of inflationary conditions and higher production costs.",
+      "summary": "Federal water infrastructure funding from IIJA lapsed September 30, 2026, with State Revolving Funds expected to decrease 80 percent from prior year levels. Congress faces pressure to reauthorize funding as communities face a federal water infrastructure funding cliff.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -112,19 +43,18 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-10"
+      "first_seen_date": "2026-11-11"
     },
     {
-      "date": "2026-11-01",
-      "headline": "Greasezilla FOG Separation Technology Expands Biofuel Production Capabilities",
-      "source": "Greasezilla Blog",
-      "source_url": "https://greasezilla.com/fog-to-fuel-turning-grease2green/",
-      "category": "Technology",
+      "date": "2026-10-31",
+      "headline": "Clean Harbors Q3 2026 Earnings: Revenue Hits Record $1.87B, Adjusted EBITDA Rises 42%",
+      "source": "Clean Harbors/MarketBeat",
+      "source_url": "https://www.benzinga.com/news/26/10/62659373/clean-harbors-q3-2026-earnings-call-transcript",
+      "category": "Public Co.",
       "categories": [
-        "Technology",
-        "Renewable Fuels"
+        "Public Co."
       ],
-      "summary": "Greasezilla's FOG separation system continues to demonstrate viability in converting brown grease and trap waste into renewable biofuel, with the energy self-sufficient system using only 5% of produced fuel internally while retaining 95% for commercial sale.",
+      "summary": "Clean Harbors reported record Q3 2026 revenue of $1.87 billion, up 21% year-over-year, with adjusted EBITDA of $456.1 million, up 42%. The Environmental Services segment achieved its 18th consecutive quarter of year-over-year margin expansion. The company raised 2026 full-year adjusted EBITDA guidance to $1.44\u2013$1.48 billion.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -132,28 +62,67 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-10"
-    },
+      "first_seen_date": "2026-11-11"
+    }
+  ],
+  "new_deals": [],
+  "new_news": [
     {
-      "date": "2026-10-30",
-      "headline": "Wind River Environmental Expands Midwest Presence with Acquisition of Darling Ingredients' Grease Trap Operations",
-      "source": "Wind River Environmental",
-      "source_url": "https://www.wrenvironmental.com/blog/2026/october/wind-river-environmental-expands-midwest-presenc/",
-      "category": "M&A",
+      "date": "2026-11-04",
+      "headline": "PCL-Stantec $552.4 Million South Bay Wastewater Plant Expansion 2026 in San Diego, USA",
+      "source": "DMC Education",
+      "source_url": "https://dmc-education.com/2026/11/04/pcl-stantec-552-4-million-south-bay-wastewater-plant-expansion-2026-in-san-diego-usa/",
+      "category": "Infrastructure",
       "categories": [
-        "M&A",
-        "Public Co.",
-        "Renewable Fuels"
+        "Infrastructure"
       ],
-      "summary": "Wind River Environmental acquired the remaining grease trap service operations of Darling Ingredients Inc. (DAR PRO Solutions brand) in Ohio, expanding its commercial service capabilities in the Midwest while Darling Ingredients retains UCO collection services.",
-      "relevance_score": 5,
-      "is_deal": true,
+      "summary": "PCL Construction and Stantec are advancing a $552.4 million South Bay International Wastewater Treatment Plant expansion in San Diego, California, to increase the plant's average treatment capacity to 50 MGD with peak capacity of 75 MGD.",
+      "relevance_score": 4,
+      "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
-      "latitude": 40.388,
-      "longitude": -82.764,
-      "zoom_hint": "wide",
-      "first_seen_date": "2026-11-10"
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-11"
+    },
+    {
+      "date": "2026-11-01",
+      "headline": "The $43 Billion Water Boost Is Over. Now What?",
+      "source": "Circle of Blue",
+      "source_url": "https://www.circleofblue.org/2026/water-policy-politics/the-43-billion-water-boost-is-over-now-what/",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure"
+      ],
+      "summary": "Federal water infrastructure funding from IIJA lapsed September 30, 2026, with State Revolving Funds expected to decrease 80 percent from prior year levels. Congress faces pressure to reauthorize funding as communities face a federal water infrastructure funding cliff.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-11"
+    },
+    {
+      "date": "2026-10-31",
+      "headline": "Clean Harbors Q3 2026 Earnings: Revenue Hits Record $1.87B, Adjusted EBITDA Rises 42%",
+      "source": "Clean Harbors/MarketBeat",
+      "source_url": "https://www.benzinga.com/news/26/10/62659373/clean-harbors-q3-2026-earnings-call-transcript",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "Clean Harbors reported record Q3 2026 revenue of $1.87 billion, up 21% year-over-year, with adjusted EBITDA of $456.1 million, up 42%. The Environmental Services segment achieved its 18th consecutive quarter of year-over-year margin expansion. The company raised 2026 full-year adjusted EBITDA guidance to $1.44\u2013$1.48 billion.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-11"
     }
   ]
 }
