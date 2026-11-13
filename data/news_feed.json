@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-13",
+    "headline": "Phillips 66 secures used cooking oil supply deal to boost SAF and renewable diesel output",
+    "source": "Biofuels International Magazine / Phillips 66",
+    "source_url": "https://biofuels-news.com/news/phillips-66-secures-used-cooking-oil-supply-deal-to-boost-saf-and-renewable-diesel-output/",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant",
+      "Renewable Fuels"
+    ],
+    "summary": "Phillips 66 announced a long-term used cooking oil supply agreement with Restaurant Technologies to source UCO from U.S. restaurants for sustainable aviation fuel and renewable diesel production at the Rodeo Renewable Energy Complex in California.",
+    "relevance_score": 5,
+    "is_deal": true,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-13"
+  },
+  {
     "date": "2026-11-12",
     "headline": "Winter Garden receives nearly $9.6M in funding for wastewater treatment plant expansion",
     "source": "Click Orlando",
@@ -39,6 +59,66 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-11-12"
+  },
+  {
+    "date": "2026-11-12",
+    "headline": "Rewriting the RFS Playbook: The Coming Battle over the 2027 Biomass-Based Diesel RVOs",
+    "source": "farmdoc daily",
+    "source_url": "https://farmdocdaily.illinois.edu/2026/11/rewriting-the-rfs-playbook-the-coming-battle-over-the-2027-biomass-based-diesel-rvos.html",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels"
+    ],
+    "summary": "Governors of Louisiana and Alabama request partial waiver of 2027 RFS requirements. D4 (biomass-based diesel) net RIN generation mandates set at 8.82 billion gallons for 2026 and 11.55 billion for 2027, with tightening feedstock markets driving increased competition.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-13"
+  },
+  {
+    "date": "2026-11-12",
+    "headline": "Toss the FOG, Prevent a Clog",
+    "source": "City of Nicholasville",
+    "source_url": "https://nicholasville.org/toss-the-fog-prevent-a-clog/",
+    "category": "Infrastructure",
+    "categories": [
+      "Infrastructure"
+    ],
+    "summary": "City of Nicholasville published guidance on FOG (fats, oils, grease) management, noting that FOG-related backups cause an estimated 138,000 sewer overflows annually. The article emphasizes proper grease disposal practices and septic system protection.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-13"
+  },
+  {
+    "date": "2026-11-12",
+    "headline": "Biomass-based Diesel RFS Volumes Drive 1.4M Tons Additional Waste Fats Into US Refineries in 2026-2027",
+    "source": "Market Research Future",
+    "source_url": "https://www.marketresearchfuture.com/reports/used-cooking-oil-market-4516",
+    "category": "ESG",
+    "categories": [
+      "ESG",
+      "Public Co.",
+      "Renewable Fuels",
+      "Regulatory"
+    ],
+    "summary": "EPA's 2026-2027 Renewable Fuel Standard sets biomass-based diesel at 5.61 billion gallons, bringing approximately 1.4 million additional tons of waste fats into US refineries. Darling Ingredients operates over 200 collection and processing sites with its Diamond Green Diesel joint venture consuming substantial share of domestic waste lipids. FOG collector churn has decreased as restaurant contracts shift from spot arrangements to three-year fixed-margin structures.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-13"
   },
   {
     "date": "2026-11-11",
@@ -372,6 +452,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-11-12"
+  },
+  {
+    "date": "2026-11-05",
+    "headline": "New Research from the National Restaurant Association Identifies Connected Technology as Restaurants' Next Competitive Edge",
+    "source": "PRNewswire / National Restaurant Association",
+    "source_url": "https://www.prnewswire.com/news-releases/new-research-from-the-national-restaurant-association-identifies-connected-technology-as-restaurants-next-competitive-edge-302930067.html",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "summary": "The National Restaurant Association released new research showing technology adoption is widespread among operators. The study finds that restaurants are shifting from adopting individual tools to connecting operational intelligence systems to improve business management.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-13"
   },
   {
     "date": "2026-11-04",

@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-11-13",
+    "target": "Restaurant Technologies (supply agreement)",
+    "acquirer": "Phillips 66",
+    "sponsor": "",
+    "location": "",
+    "deal_type": "Add-On",
+    "deal_size": "Undisclosed",
+    "multiple": "N/A",
+    "services": "",
+    "source": "Biofuels International Magazine / Phillips 66",
+    "source_url": "https://biofuels-news.com/news/phillips-66-secures-used-cooking-oil-supply-deal-to-boost-saf-and-renewable-diesel-output/",
+    "is_target_market": false,
+    "target_market_name": null,
+    "owner_classification": "Unknown",
+    "deal_summary": [
+      "Long-term UCO supply agreement for renewable fuel production"
+    ],
+    "date_confidence": "verified",
+    "notes": "Phillips 66 announced a long-term used cooking oil supply agreement with Restaurant Technologies to source UCO from U.S. restaurants for sustainable aviation fuel and renewable diesel production at the Rodeo Renewable Energy Complex in California.",
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null
+  },
+  {
     "date": "2026-10-30",
     "target": "Darling Ingredients' Grease Trap Operations (DAR PRO Solutions)",
     "acquirer": "Wind River Environmental",
