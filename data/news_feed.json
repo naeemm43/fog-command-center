@@ -1,5 +1,62 @@
 [
   {
+    "date": "2026-11-17",
+    "headline": "India Gives Green Light to Commercial Sustainable Jet Fuel Production",
+    "source": "OilPrice.com",
+    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/India-Gives-Green-Light-to-Commercial-Sustainable-Jet-Fuel-Production.html",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels"
+    ],
+    "summary": "Indian Oil Corporation (IOC) has produced its first batch of sustainable aviation fuel at the country's first commercial-scale SAF plant and received government clearance for commercial supply. The Panipat Refinery will have capacity to meet India's 1% blending target for international flights in 2027.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-17"
+  },
+  {
+    "date": "2026-11-17",
+    "headline": "India fuels SAF hub ambitions, turning used cooking oil, ethanol and farm residue into jet fuel",
+    "source": "Business Today",
+    "source_url": "https://www.businesstoday.in/industry/story/india-fuels-saf-hub-ambitions-turning-used-cooking-oil-ethanol-and-farm-residue-into-jet-fuel-567965-2026-11-17",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels"
+    ],
+    "summary": "India is preparing to unveil a draft sustainable aviation fuel policy aimed at producing 10 million tonnes annually by 2040. The country aims to become a key exporter of SAF made from used cooking oil, ethanol, and agricultural residue.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-17"
+  },
+  {
+    "date": "2026-11-15",
+    "headline": "Darling Ingredients Earnings Call Signals Stronger Growth Ahead",
+    "source": "TipRanks",
+    "source_url": "https://www.tipranks.com/news/company-announcements/darling-ingredients-earnings-call-signals-stronger-growth-ahead",
+    "category": "Public Co.",
+    "categories": [
+      "Public Co."
+    ],
+    "summary": "Darling Ingredients reaffirmed FY2026 combined adjusted EBITDA guidance of $2.2\u2013$2.3B, with core business contributing ~$1.25B and DGD capturing $1.50\u2013$2.00/gallon on 1.2B gallons. Q3 nine-month revenue reached $5.1B; management expects near-double-digit collagen growth and potential Tessenderlo closing in early 2027.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-17"
+  },
+  {
     "date": "2026-11-13",
     "headline": "Phillips 66 secures used cooking oil supply deal to boost SAF and renewable diesel output",
     "source": "Biofuels International Magazine / Phillips 66",
@@ -435,6 +492,26 @@
     "first_seen_date": "2026-11-10"
   },
   {
+    "date": "2026-11-06",
+    "headline": "How a Grease Trap Works, and Where the Oil and Wash Water From a Kitchen ESP Go",
+    "source": "PolyGEEESP",
+    "source_url": "https://www.polygeeesp.com/grease-trap/",
+    "category": "ESG",
+    "categories": [
+      "ESG",
+      "Public Co."
+    ],
+    "summary": "Educational guide on grease trap operation and waste management procedures. Covers how grease traps function, pumping frequency, and regulatory compliance including FOG disposal manifests required by most municipalities in 2026.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-17"
+  },
+  {
     "date": "2026-11-05",
     "headline": "Jeff Parent's Top Picks for Nov. 5, 2026",
     "source": "BNN Bloomberg",
@@ -665,6 +742,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-11-06"
+  },
+  {
+    "date": "2026-11-03",
+    "headline": "Top 10 Best Solid Waste Routing Software of 2026",
+    "source": "Gitnux",
+    "source_url": "https://gitnux.org/best/solid-waste-routing-software/",
+    "category": "Technology",
+    "categories": [
+      "Technology"
+    ],
+    "summary": "Comprehensive guide covering solid waste routing software solutions including ORTEC, WorkWave, WasteHero, and others with sensor-based route optimization for municipal collections.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-17"
   },
   {
     "date": "2026-11-02",
@@ -10201,25 +10297,6 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-06-02"
-  },
-  {
-    "date": "2026-05-21",
-    "headline": "Waste Collection Route Optimization FAQs 2026",
-    "source": "Fleet Rabbit",
-    "source_url": "https://fleetrabbit.com/faqs/waste-collection-route-optimization-software-faqs",
-    "category": "Technology",
-    "categories": [
-      "Technology"
-    ],
-    "summary": "Comprehensive FAQ on waste collection route optimization featuring AI-powered algorithms, live traffic integration, and weather-responsive scheduling. Discusses real-world case studies showing 20-30% reductions in miles and fuel savings.",
-    "relevance_score": 3,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-21"
   },
   {
     "date": null,
