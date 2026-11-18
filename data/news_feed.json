@@ -38,6 +38,25 @@
     "first_seen_date": "2026-11-17"
   },
   {
+    "date": "2026-11-17",
+    "headline": "Your Water and Sewer Bill Is Going Up Again. Here's How to Object",
+    "source": "Bayfield Colorado Substack",
+    "source_url": "https://bayfieldcolorado.substack.com/p/your-water-and-sewer-bill-is-going",
+    "category": "Infrastructure",
+    "categories": [
+      "Infrastructure"
+    ],
+    "summary": "Bayfield, Colorado is proposing a 5% water and sewer rate increase effective January 1, 2027. The town posted Resolution 681 on November 17 with a public hearing scheduled for December 15, 2026.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-18"
+  },
+  {
     "date": "2026-11-15",
     "headline": "Darling Ingredients Earnings Call Signals Stronger Growth Ahead",
     "source": "TipRanks",
@@ -95,6 +114,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-11-16"
+  },
+  {
+    "date": "2026-11-13",
+    "headline": "Cook Like the Pros This Thanksgiving: Restaurant-Tested Food Safety Tips for the Home Kitchen",
+    "source": "National Restaurant Association",
+    "source_url": "https://restaurant.org/research-and-media/media/press-releases/",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "summary": "The National Restaurant Association shares ServSafe best practices that restaurant kitchens use daily, from handwashing to handling leftovers.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-18"
   },
   {
     "date": "2026-11-12",
@@ -198,6 +236,26 @@
     "first_seen_date": "2026-11-13"
   },
   {
+    "date": "2026-11-12",
+    "headline": "New waste briefing demonstrating subnational action launched at COP31",
+    "source": "Waste360",
+    "source_url": "https://www.waste360.com/industry-insights/new-waste-briefing-demonstrating-subnational-action-launched-at-cop31",
+    "category": "Industry Events",
+    "categories": [
+      "Industry Events",
+      "Public Co."
+    ],
+    "summary": "COP31 Presidency announcement on waste reduction targets with regulatory authority at state and regional levels affecting liquid waste management programs.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-18"
+  },
+  {
     "date": "2026-11-11",
     "headline": "Major waste companies spent $1.2B on Q3 M&A, driven by GFL",
     "source": "Waste Dive",
@@ -256,6 +314,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-11-16"
+  },
+  {
+    "date": "2026-11-11",
+    "headline": "Paris Baguette Makes Idaho Debut with New Caf\u00e9 in Meridian",
+    "source": "PR Newswire",
+    "source_url": "https://www.prnewswire.com/news-releases/consumer-products-retail-latest-news/restaurants-list/",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "summary": "Paris Baguette expands into Idaho with a new caf\u00e9 opening in Meridian.",
+    "relevance_score": 1,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-18"
   },
   {
     "date": "2026-11-10",
@@ -684,6 +761,83 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-11-12"
+  },
+  {
+    "date": "2026-11-04",
+    "headline": "States Expand Septic Repair Grants and New Regulations",
+    "source": "Pumper",
+    "source_url": "https://www.pumper.com/magazine/2026/11",
+    "category": "Industry Events",
+    "categories": [
+      "Industry Events"
+    ],
+    "summary": "Article covering expanded septic repair grant programs and new regulatory requirements affecting septic system operators across multiple states.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-18"
+  },
+  {
+    "date": "2026-11-04",
+    "headline": "Grease Trap Service, FOG Management and Disposal Case Studies",
+    "source": "Pumper",
+    "source_url": "https://www.pumper.com/magazine/2026/11",
+    "category": "Industry Events",
+    "categories": [
+      "Industry Events"
+    ],
+    "summary": "November 2026 feature presenting case studies on grease trap service operations, FOG management practices, and disposal strategies in the industry.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-18"
+  },
+  {
+    "date": "2026-11-04",
+    "headline": "COXREELS Introduces SMK-702 Swivel Mounting Brackets",
+    "source": "Pumper",
+    "source_url": "https://www.pumper.com/magazine/2026/11",
+    "category": "Industry Events",
+    "categories": [
+      "Industry Events"
+    ],
+    "summary": "COXREELS product announcement featuring new swivel mounting bracket solution for equipment used in septic and grease trap service operations.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-18"
+  },
+  {
+    "date": "2026-11-04",
+    "headline": "Carter's Septic Adds New 2026 Freightliner 108SD Plus",
+    "source": "Pumper",
+    "source_url": "https://www.pumper.com/magazine/2026/11",
+    "category": "Industry Events",
+    "categories": [
+      "Industry Events",
+      "M&A"
+    ],
+    "summary": "Carter's Septic company expansion announcement featuring acquisition of new Freightliner 108SD Plus truck for service operations.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-18"
   },
   {
     "date": "2026-11-03",
@@ -10238,65 +10392,6 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-05-29"
-  },
-  {
-    "date": "2026-05-22",
-    "headline": "Minnesota Legislature Approves $22 Million in Funding for Owatonna's Wastewater Treatment Plant Expansion Project",
-    "source": "City of Owatonna, Minnesota",
-    "source_url": "https://www.owatonna.gov/788/Wastewater-Treatment-Facility-Expansion",
-    "category": "Infrastructure",
-    "categories": [
-      "Infrastructure"
-    ],
-    "summary": "The Minnesota legislature approved $22 million in state funding on May 22, 2026, to support Owatonna's ongoing wastewater treatment plant expansion project, which is expanding capacity from 5 to 9+ MGD. An additional $4.5 million was approved for Medford to connect to the regional facility.",
-    "relevance_score": 3,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-22"
-  },
-  {
-    "date": "2026-05-22",
-    "headline": "Notice of Lodging of Proposed Modification to Consent Decree Under the Clean Water Act",
-    "source": "Federal Register",
-    "source_url": "https://www.federalregister.gov/documents/2026/05/22/2026-10252/notice-of-lodging-of-proposed-modification-to-consent-decree-under-the-clean-water-act",
-    "category": "Infrastructure",
-    "categories": [
-      "Infrastructure",
-      "Regulatory"
-    ],
-    "summary": "The Department of Justice lodged a proposed modification to the consent decree for Fort Smith, Arkansas, extending the decree term by 11.5 years to June 2038 for sewer system rehabilitation. The modification revises interim milestones and deadlines to allow the city greater flexibility and requires the city to ensure adequate funding.",
-    "relevance_score": 4,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-27"
-  },
-  {
-    "date": "2026-05-22",
-    "headline": "Waste Management Workforce Trends We're Tracking in 2026",
-    "source": "HireQuest Inc.",
-    "source_url": "https://hirequest.com/insight/waste-management-workforce-trends-2026/",
-    "category": "Labor/Ops",
-    "categories": [
-      "Labor/Ops",
-      "Public Co."
-    ],
-    "summary": "Discusses labor availability challenges in waste management, including competition from logistics and delivery services for CDL drivers, aging workforce demographics, and emphasis on safety training and retention strategies for 2026 operations.",
-    "relevance_score": 3,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-06-02"
   },
   {
     "date": null,

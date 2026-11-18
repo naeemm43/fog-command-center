@@ -1,5 +1,64 @@
 [
   {
+    "date": "2026-05-22",
+    "headline": "Minnesota Legislature Approves $22 Million in Funding for Owatonna's Wastewater Treatment Plant Expansion Project",
+    "source": "City of Owatonna, Minnesota",
+    "source_url": "https://www.owatonna.gov/788/Wastewater-Treatment-Facility-Expansion",
+    "category": "Infrastructure",
+    "categories": [
+      "Infrastructure"
+    ],
+    "summary": "The Minnesota legislature approved $22 million in state funding on May 22, 2026, to support Owatonna's ongoing wastewater treatment plant expansion project, which is expanding capacity from 5 to 9+ MGD. An additional $4.5 million was approved for Medford to connect to the regional facility.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-22"
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Notice of Lodging of Proposed Modification to Consent Decree Under the Clean Water Act",
+    "source": "Federal Register",
+    "source_url": "https://www.federalregister.gov/documents/2026/05/22/2026-10252/notice-of-lodging-of-proposed-modification-to-consent-decree-under-the-clean-water-act",
+    "category": "Infrastructure",
+    "categories": [
+      "Infrastructure",
+      "Regulatory"
+    ],
+    "summary": "The Department of Justice lodged a proposed modification to the consent decree for Fort Smith, Arkansas, extending the decree term by 11.5 years to June 2038 for sewer system rehabilitation. The modification revises interim milestones and deadlines to allow the city greater flexibility and requires the city to ensure adequate funding.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-27"
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Waste Management Workforce Trends We're Tracking in 2026",
+    "source": "HireQuest Inc.",
+    "source_url": "https://hirequest.com/insight/waste-management-workforce-trends-2026/",
+    "category": "Labor/Ops",
+    "categories": [
+      "Labor/Ops",
+      "Public Co."
+    ],
+    "summary": "Discusses labor availability challenges in waste management, including competition from logistics and delivery services for CDL drivers, aging workforce demographics, and emphasis on safety training and retention strategies for 2026 operations.",
+    "relevance_score": 3,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-06-02"
+  },
+  {
     "date": "2026-05-21",
     "headline": "Waste Collection Route Optimization FAQs 2026",
     "source": "Fleet Rabbit",
