@@ -1,38 +1,19 @@
 {
-  "timestamp": "2026-11-19T20:20:42Z",
-  "added_news_count": 3,
+  "timestamp": "2026-11-20T19:52:14Z",
+  "added_news_count": 2,
   "added_deals_count": 0,
   "archived_count": 2,
   "new_today_news": [
     {
-      "date": "2026-11-19",
-      "headline": "Global Bio-Based Sustainable Aviation Fuel (Bio-SAF) Market Size, Share, Trends, and Forecast to 2036",
-      "source": "Research and Markets / GlobeNewswire",
-      "source_url": "https://www.globenewswire.com/news-release/2026/11/19/3406878/28124/en/global-bio-based-sustainable-aviation-fuel-bio-saf-market-size-share-trends-and-forecast-to-2036-mandates-drive-23-7-cagr-and-a-42-billion-opportunity.html",
-      "category": "Renewable Fuels",
+      "date": "2026-11-20",
+      "headline": "Keeping 'FOG' Out of Your Pipes This Holiday Season",
+      "source": "Baltimore County, Maryland",
+      "source_url": "https://www.baltimorecountymd.gov/departments/public-works-and-transportation/news/keeping-fog-out-your-pipes-holiday-season",
+      "category": "Regulatory",
       "categories": [
-        "Renewable Fuels"
+        "Regulatory"
       ],
-      "summary": "Market research report reveals used cooking oil is projected to represent 57.1% of the bio-SAF market by feedstock in 2026, with global bio-SAF valued at USD 3.95 billion in 2025 and estimated at USD 4.99 billion in 2026. HEFA-SPK pathway is expected to account for 84.6% of global bio-SAF production in 2026.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-19"
-    },
-    {
-      "date": "2026-11-19",
-      "headline": "Generation, Management and Characteristics of Grease Trap Solid Waste from Malaysian Food Premises",
-      "source": "International Journal of Environmental Research and Public Health (Springer)",
-      "source_url": "https://link.springer.com/article/10.1007/s41742-026-01293-0",
-      "category": "ESG",
-      "categories": [
-        "ESG"
-      ],
-      "summary": "Research paper published today on grease trap solid waste generation and management from food service operations. Study examines waste composition and disposal practices, with implications for circular economy and resource-recovery strategies.",
+      "summary": "Baltimore County Public Works announces seasonal FOG awareness campaign emphasizing restaurant inspection protocols and proper grease disposal. Educational outreach notes that all food service establishments receive regular sewer system inspections for FOG accumulation.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -40,20 +21,21 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-19"
+      "first_seen_date": "2026-11-20"
     }
   ],
-  "recent_news": [
+  "recent_news": [],
+  "backfill_news": [
     {
-      "date": "2026-11-16",
-      "headline": "India's First Commercial-Scale Sustainable Aviation Fuel Plant Produces First Batch",
-      "source": "Jokta Academy",
-      "source_url": "https://joktacademy.com/india-first-sustainable-aviation-fuel-plant/",
-      "category": "Renewable Fuels",
+      "date": "2026-11-06",
+      "headline": "Washington County Completes Smithsburg Wastewater Treatment Plant Upgrade",
+      "source": "Washington County",
+      "source_url": "https://www.washco-md.net/news/washington-county-completes-smithsburg-wastewater-treatment-plant-upgrade/",
+      "category": "Infrastructure",
       "categories": [
-        "Renewable Fuels"
+        "Infrastructure"
       ],
-      "summary": "Indian Oil's Panipat facility produced its first SAF batch on November 16, 2026, using used cooking oil as feedstock with an annual capacity of 30,000 tonnes. The facility received Directorate General of Civil Aviation (DGCA) approvals for commercial supply.",
+      "summary": "Washington County completed an Enhanced Nutrient Removal upgrade and expansion of the Smithsburg Wastewater Treatment Plant, increasing capacity from 0.333 to 0.45 million gallons per day (a 35% increase) while improving nitrogen and phosphorus removal to meet current standards.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -61,41 +43,21 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-19"
+      "first_seen_date": "2026-11-20"
     }
   ],
-  "backfill_news": [],
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-11-19",
-      "headline": "Global Bio-Based Sustainable Aviation Fuel (Bio-SAF) Market Size, Share, Trends, and Forecast to 2036",
-      "source": "Research and Markets / GlobeNewswire",
-      "source_url": "https://www.globenewswire.com/news-release/2026/11/19/3406878/28124/en/global-bio-based-sustainable-aviation-fuel-bio-saf-market-size-share-trends-and-forecast-to-2036-mandates-drive-23-7-cagr-and-a-42-billion-opportunity.html",
-      "category": "Renewable Fuels",
+      "date": "2026-11-20",
+      "headline": "Keeping 'FOG' Out of Your Pipes This Holiday Season",
+      "source": "Baltimore County, Maryland",
+      "source_url": "https://www.baltimorecountymd.gov/departments/public-works-and-transportation/news/keeping-fog-out-your-pipes-holiday-season",
+      "category": "Regulatory",
       "categories": [
-        "Renewable Fuels"
+        "Regulatory"
       ],
-      "summary": "Market research report reveals used cooking oil is projected to represent 57.1% of the bio-SAF market by feedstock in 2026, with global bio-SAF valued at USD 3.95 billion in 2025 and estimated at USD 4.99 billion in 2026. HEFA-SPK pathway is expected to account for 84.6% of global bio-SAF production in 2026.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-19"
-    },
-    {
-      "date": "2026-11-19",
-      "headline": "Generation, Management and Characteristics of Grease Trap Solid Waste from Malaysian Food Premises",
-      "source": "International Journal of Environmental Research and Public Health (Springer)",
-      "source_url": "https://link.springer.com/article/10.1007/s41742-026-01293-0",
-      "category": "ESG",
-      "categories": [
-        "ESG"
-      ],
-      "summary": "Research paper published today on grease trap solid waste generation and management from food service operations. Study examines waste composition and disposal practices, with implications for circular economy and resource-recovery strategies.",
+      "summary": "Baltimore County Public Works announces seasonal FOG awareness campaign emphasizing restaurant inspection protocols and proper grease disposal. Educational outreach notes that all food service establishments receive regular sewer system inspections for FOG accumulation.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -103,18 +65,18 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-19"
+      "first_seen_date": "2026-11-20"
     },
     {
-      "date": "2026-11-16",
-      "headline": "India's First Commercial-Scale Sustainable Aviation Fuel Plant Produces First Batch",
-      "source": "Jokta Academy",
-      "source_url": "https://joktacademy.com/india-first-sustainable-aviation-fuel-plant/",
-      "category": "Renewable Fuels",
+      "date": "2026-11-06",
+      "headline": "Washington County Completes Smithsburg Wastewater Treatment Plant Upgrade",
+      "source": "Washington County",
+      "source_url": "https://www.washco-md.net/news/washington-county-completes-smithsburg-wastewater-treatment-plant-upgrade/",
+      "category": "Infrastructure",
       "categories": [
-        "Renewable Fuels"
+        "Infrastructure"
       ],
-      "summary": "Indian Oil's Panipat facility produced its first SAF batch on November 16, 2026, using used cooking oil as feedstock with an annual capacity of 30,000 tonnes. The facility received Directorate General of Civil Aviation (DGCA) approvals for commercial supply.",
+      "summary": "Washington County completed an Enhanced Nutrient Removal upgrade and expansion of the Smithsburg Wastewater Treatment Plant, increasing capacity from 0.333 to 0.45 million gallons per day (a 35% increase) while improving nitrogen and phosphorus removal to meet current standards.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -122,7 +84,7 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-19"
+      "first_seen_date": "2026-11-20"
     }
   ]
 }

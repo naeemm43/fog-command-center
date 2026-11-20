@@ -1,5 +1,43 @@
 [
   {
+    "date": "2026-05-24",
+    "headline": "Department of Energy Updates Sustainable Aviation Fuel Strategy",
+    "source": "U.S. Department of Energy",
+    "source_url": "https://www.energy.gov/cmei/fuels/sustainable-aviation-fuels",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels"
+    ],
+    "summary": "The DOE reaffirms SAF production from wet wastes and renewable feedstocks, including waste cooking oil and animal fats, as critical to aviation decarbonization. The Department is coordinating with USDA and DOT to scale SAF production commercially.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-27"
+  },
+  {
+    "date": "2026-05-24",
+    "headline": "Waste Hauler Insurance Rates: Liquid Waste Operations See 30\u201350% Pollution Liability Premiums",
+    "source": "Fleet Rabbit",
+    "source_url": "https://fleetrabbit.com/blogs/post/-garbage-truck-insurance-cost-reduction",
+    "category": "Labor/Ops",
+    "categories": [
+      "Labor/Ops"
+    ],
+    "summary": "Liquid waste with pollution exposure adds 30-50% to insurance costs. Article outlines 2026 insurance benchmarks for waste haulers, telematics discount opportunities, and cost-reduction strategies. Significant overhead challenge for operators in septic and liquid waste sectors.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-29"
+  },
+  {
     "date": "2026-05-23",
     "headline": "CDL-Vacuum Driver - Waste Resource Management",
     "source": "BeBee",

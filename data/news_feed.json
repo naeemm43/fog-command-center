@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-11-20",
+    "headline": "Keeping 'FOG' Out of Your Pipes This Holiday Season",
+    "source": "Baltimore County, Maryland",
+    "source_url": "https://www.baltimorecountymd.gov/departments/public-works-and-transportation/news/keeping-fog-out-your-pipes-holiday-season",
+    "category": "Regulatory",
+    "categories": [
+      "Regulatory"
+    ],
+    "summary": "Baltimore County Public Works announces seasonal FOG awareness campaign emphasizing restaurant inspection protocols and proper grease disposal. Educational outreach notes that all food service establishments receive regular sewer system inspections for FOG accumulation.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-20"
+  },
+  {
     "date": "2026-11-19",
     "headline": "Global Bio-Based Sustainable Aviation Fuel (Bio-SAF) Market Size, Share, Trends, and Forecast to 2036",
     "source": "Research and Markets / GlobeNewswire",
@@ -644,6 +663,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-11-17"
+  },
+  {
+    "date": "2026-11-06",
+    "headline": "Washington County Completes Smithsburg Wastewater Treatment Plant Upgrade",
+    "source": "Washington County",
+    "source_url": "https://www.washco-md.net/news/washington-county-completes-smithsburg-wastewater-treatment-plant-upgrade/",
+    "category": "Infrastructure",
+    "categories": [
+      "Infrastructure"
+    ],
+    "summary": "Washington County completed an Enhanced Nutrient Removal upgrade and expansion of the Smithsburg Wastewater Treatment Plant, increasing capacity from 0.333 to 0.45 million gallons per day (a 35% increase) while improving nitrogen and phosphorus removal to meet current standards.",
+    "relevance_score": 5,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-20"
   },
   {
     "date": "2026-11-05",
@@ -10366,44 +10404,6 @@
     ],
     "summary": "Legal analysis of 2026 ESG landscape including fragmented regulatory requirements, mandatory climate disclosures, Extended Producer Responsibility (EPR) legislation for packaging across multiple U.S. states, and EU sustainability directive updates.",
     "relevance_score": 2,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-29"
-  },
-  {
-    "date": "2026-05-24",
-    "headline": "Department of Energy Updates Sustainable Aviation Fuel Strategy",
-    "source": "U.S. Department of Energy",
-    "source_url": "https://www.energy.gov/cmei/fuels/sustainable-aviation-fuels",
-    "category": "Renewable Fuels",
-    "categories": [
-      "Renewable Fuels"
-    ],
-    "summary": "The DOE reaffirms SAF production from wet wastes and renewable feedstocks, including waste cooking oil and animal fats, as critical to aviation decarbonization. The Department is coordinating with USDA and DOT to scale SAF production commercially.",
-    "relevance_score": 4,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-27"
-  },
-  {
-    "date": "2026-05-24",
-    "headline": "Waste Hauler Insurance Rates: Liquid Waste Operations See 30\u201350% Pollution Liability Premiums",
-    "source": "Fleet Rabbit",
-    "source_url": "https://fleetrabbit.com/blogs/post/-garbage-truck-insurance-cost-reduction",
-    "category": "Labor/Ops",
-    "categories": [
-      "Labor/Ops"
-    ],
-    "summary": "Liquid waste with pollution exposure adds 30-50% to insurance costs. Article outlines 2026 insurance benchmarks for waste haulers, telematics discount opportunities, and cost-reduction strategies. Significant overhead challenge for operators in septic and liquid waste sectors.",
-    "relevance_score": 5,
     "is_deal": false,
     "is_target_market": false,
     "target_market_name": null,
