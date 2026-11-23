@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-11-20T19:52:14Z",
-  "added_news_count": 2,
+  "timestamp": "2026-11-23T23:41:39Z",
+  "added_news_count": 11,
   "added_deals_count": 0,
-  "archived_count": 2,
+  "archived_count": 5,
   "new_today_news": [
     {
-      "date": "2026-11-20",
-      "headline": "Keeping 'FOG' Out of Your Pipes This Holiday Season",
-      "source": "Baltimore County, Maryland",
-      "source_url": "https://www.baltimorecountymd.gov/departments/public-works-and-transportation/news/keeping-fog-out-your-pipes-holiday-season",
-      "category": "Regulatory",
+      "date": "2026-11-23",
+      "headline": "Spain tests jet fuel made from hotel cooking oil on Madrid flight",
+      "source": "Euro Weekly News",
+      "source_url": "https://euroweeklynews.com/2026/11/23/spain-tests-jet-fuel-made-from-hotel-cooking-oil-on-madrid-flight/",
+      "category": "Renewable Fuels",
       "categories": [
-        "Regulatory"
+        "Renewable Fuels"
       ],
-      "summary": "Baltimore County Public Works announces seasonal FOG awareness campaign emphasizing restaurant inspection protocols and proper grease disposal. Educational outreach notes that all food service establishments receive regular sewer system inspections for FOG accumulation.",
+      "summary": "Used cooking oil from hotels in Spain was converted into sustainable aviation fuel and blended with synthetic fuel for a test flight. The blend met EU targets for sustainable aviation fuel content on the aircraft.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -21,21 +21,173 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-20"
+      "first_seen_date": "2026-11-23"
+    },
+    {
+      "date": "2026-11-23",
+      "headline": "4 Chain Restaurant Menu Items With Price Cuts In November 2026",
+      "source": "The Takeout",
+      "source_url": "https://www.thetakeout.com/2323857/chain-restaurant-price-cuts-november-2026/",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Multiple chain restaurants including Ruby Tuesday, Chipotle, and Popeyes launched promotional pricing and discounts in late November as operators compete for holiday-season traffic amid economic headwinds.",
+      "relevance_score": 1,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-23"
+    },
+    {
+      "date": "2026-11-22",
+      "headline": "Pizza chains are under pressure. GLP-1 use is only one part of the problem",
+      "source": "CNBC",
+      "source_url": "https://cnbc.com/2026/11/22/pizza-chains-sales-glp-1-demand.html",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Pizza Hut, Domino's, and Papa John's face declining same-store sales driven by GLP-1 medication use, delivery competition, and changing eating habits. More than 9,600 pizzerias have closed since August 2019, contributing to overall industry contraction.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-23"
     }
   ],
-  "recent_news": [],
-  "backfill_news": [
+  "recent_news": [
     {
-      "date": "2026-11-06",
-      "headline": "Washington County Completes Smithsburg Wastewater Treatment Plant Upgrade",
-      "source": "Washington County",
-      "source_url": "https://www.washco-md.net/news/washington-county-completes-smithsburg-wastewater-treatment-plant-upgrade/",
+      "date": "2026-11-20",
+      "headline": "Moeve Demonstrates Sustainable Aviation Fuel Production Using Recycled Cooking Oil at San Roque",
+      "source": "EuropaWire",
+      "source_url": "https://news.europawire.eu/moeve-demonstrates-sustainable-aviation-fuel-production-using-recycled-cooking-oil-at-san-roque/eu-press-release/2026/11/20/17/14/04/188894/",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels"
+      ],
+      "summary": "Moeve demonstrated SAF production from used cooking oil at its San Roque Energy Park in Spain, showcasing the viability of UCO as a feedstock for sustainable aviation fuel.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-23"
+    },
+    {
+      "date": "2026-11-20",
+      "headline": "2026 Restaurant Industry Statistics - Asia-Pacific outgrows mature markets",
+      "source": "WIFI Talents",
+      "source_url": "https://wifitalents.com/restaurant-industry-statistics/",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Technomic data shows global restaurant industry nominal growth of 5.2% in 2026, with Asia-Pacific delivering about 4% real growth while North America and Europe grew about 1%, reflecting significant regional disparities.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-23"
+    },
+    {
+      "date": "2026-11-20",
+      "headline": "Best Commercial Recycling Route Software (2026): 8 Tools Compared",
+      "source": "Upper Inc.",
+      "source_url": "https://www.upperinc.com/blog/best-commercial-recycling-route-software/",
+      "category": "Technology",
+      "categories": [
+        "Technology"
+      ],
+      "summary": "Comparative review of route optimization platforms for waste and recycling collection, including Upper Crew, RouteSmart, AMCS, and others. Covers features such as real-time re-optimization, telematics, and commercial route design.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-23"
+    },
+    {
+      "date": "2026-11-18",
+      "headline": "Zacks Research Raises Earnings Estimates for Clean Harbors",
+      "source": "DefenseWorld",
+      "source_url": "https://www.defenseworld.net/2026/11/21/zacks-research-raises-earnings-estimates-for-clean-harbors.html",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "Zacks Research lifted Clean Harbors' FY2026 EPS estimate to $10.33 from $9.51 and Q4 2026 EPS estimate to $1.99 from $1.97. The analyst upgrades reflect strong Q3 operational performance and margin expansion in the Environmental Services segment.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-23"
+    },
+    {
+      "date": "2026-11-18",
+      "headline": "Don't Let FOG Clogs Create a Costly Holiday Plumbing Mess",
+      "source": "Oklahoma City Utilities Department",
+      "source_url": "https://okc.gov/News-articles/2026-Don%E2%80%99t-let-FOG-clogs-create-a-costly-holiday-plumbing-mess",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops"
+      ],
+      "summary": "Oklahoma City Utilities Department warned residents about FOG disposal ahead of holiday cooking season, noting that excess grease causes costly repairs and plumbing clogs. The advisory highlighted the busy service period for plumbers caused by FOG entering drains.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-23"
+    },
+    {
+      "date": "2026-11-18",
+      "headline": "Winter Garden will upgrade wastewater facility",
+      "source": "Orange Observer",
+      "source_url": "https://www.orangeobserver.com/news/2026/nov/18/winter-garden-will-upgrade-wastewater-facility/?_fcb=1795304666",
       "category": "Infrastructure",
       "categories": [
         "Infrastructure"
       ],
-      "summary": "Washington County completed an Enhanced Nutrient Removal upgrade and expansion of the Smithsburg Wastewater Treatment Plant, increasing capacity from 0.333 to 0.45 million gallons per day (a 35% increase) while improving nitrogen and phosphorus removal to meet current standards.",
+      "summary": "Winter Garden City Commission approved a resolution to implement the Crest Avenue Wastewater Treatment Facility Capacity Expansion and Process Optimization Project. The expansion will increase treatment capacity from 4.75 to 7.5 million gallons per day and address flood mitigation.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-23"
+    },
+    {
+      "date": "2026-11-16",
+      "headline": "FOG Traps Market to 2035: Expansion Driven by Stricter Sewer Discharge Rules and Foodservice Growth",
+      "source": "IndexBox",
+      "source_url": "https://www.indexbox.io/blog/fog-traps-market-to-2035-expansion-driven-by-stricter-sewer-discharge-rules-and-foodservice-growth/",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure",
+        "Regulatory"
+      ],
+      "summary": "Market analysis report on FOG traps expanding through 2035 driven by tightening sewer discharge regulations and rising foodservice demand. Municipal wastewater treatment agencies play a dual role enforcing pretreatment and deploying large-scale grease interception infrastructure.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -43,21 +195,42 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-20"
+      "first_seen_date": "2026-11-23"
+    }
+  ],
+  "backfill_news": [
+    {
+      "date": "2026-11-14",
+      "headline": "Darling Ingredients (NYSE:DAR) Stock Gets Downgrade from Wall Street Zen",
+      "source": "MarketBeat",
+      "source_url": "https://www.marketbeat.com/instant-alerts/analyst-darling-ingredients-nyse-dar-stock-gets-downgrade-from-wall-street-zen-2026-11-14/",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "Wall Street Zen downgraded Darling Ingredients from a 'strong-buy' rating to a 'buy' rating. The analyst downgrade follows Q3 earnings that missed EPS estimates, though the company maintains a consensus 'Moderate Buy' rating with an average price target of $73.80.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-23"
     }
   ],
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-11-20",
-      "headline": "Keeping 'FOG' Out of Your Pipes This Holiday Season",
-      "source": "Baltimore County, Maryland",
-      "source_url": "https://www.baltimorecountymd.gov/departments/public-works-and-transportation/news/keeping-fog-out-your-pipes-holiday-season",
-      "category": "Regulatory",
+      "date": "2026-11-23",
+      "headline": "Spain tests jet fuel made from hotel cooking oil on Madrid flight",
+      "source": "Euro Weekly News",
+      "source_url": "https://euroweeklynews.com/2026/11/23/spain-tests-jet-fuel-made-from-hotel-cooking-oil-on-madrid-flight/",
+      "category": "Renewable Fuels",
       "categories": [
-        "Regulatory"
+        "Renewable Fuels"
       ],
-      "summary": "Baltimore County Public Works announces seasonal FOG awareness campaign emphasizing restaurant inspection protocols and proper grease disposal. Educational outreach notes that all food service establishments receive regular sewer system inspections for FOG accumulation.",
+      "summary": "Used cooking oil from hotels in Spain was converted into sustainable aviation fuel and blended with synthetic fuel for a test flight. The blend met EU targets for sustainable aviation fuel content on the aircraft.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -65,18 +238,171 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-20"
+      "first_seen_date": "2026-11-23"
     },
     {
-      "date": "2026-11-06",
-      "headline": "Washington County Completes Smithsburg Wastewater Treatment Plant Upgrade",
-      "source": "Washington County",
-      "source_url": "https://www.washco-md.net/news/washington-county-completes-smithsburg-wastewater-treatment-plant-upgrade/",
+      "date": "2026-11-23",
+      "headline": "4 Chain Restaurant Menu Items With Price Cuts In November 2026",
+      "source": "The Takeout",
+      "source_url": "https://www.thetakeout.com/2323857/chain-restaurant-price-cuts-november-2026/",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Multiple chain restaurants including Ruby Tuesday, Chipotle, and Popeyes launched promotional pricing and discounts in late November as operators compete for holiday-season traffic amid economic headwinds.",
+      "relevance_score": 1,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-23"
+    },
+    {
+      "date": "2026-11-22",
+      "headline": "Pizza chains are under pressure. GLP-1 use is only one part of the problem",
+      "source": "CNBC",
+      "source_url": "https://cnbc.com/2026/11/22/pizza-chains-sales-glp-1-demand.html",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Pizza Hut, Domino's, and Papa John's face declining same-store sales driven by GLP-1 medication use, delivery competition, and changing eating habits. More than 9,600 pizzerias have closed since August 2019, contributing to overall industry contraction.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-23"
+    },
+    {
+      "date": "2026-11-20",
+      "headline": "Moeve Demonstrates Sustainable Aviation Fuel Production Using Recycled Cooking Oil at San Roque",
+      "source": "EuropaWire",
+      "source_url": "https://news.europawire.eu/moeve-demonstrates-sustainable-aviation-fuel-production-using-recycled-cooking-oil-at-san-roque/eu-press-release/2026/11/20/17/14/04/188894/",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels"
+      ],
+      "summary": "Moeve demonstrated SAF production from used cooking oil at its San Roque Energy Park in Spain, showcasing the viability of UCO as a feedstock for sustainable aviation fuel.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-23"
+    },
+    {
+      "date": "2026-11-20",
+      "headline": "2026 Restaurant Industry Statistics - Asia-Pacific outgrows mature markets",
+      "source": "WIFI Talents",
+      "source_url": "https://wifitalents.com/restaurant-industry-statistics/",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Technomic data shows global restaurant industry nominal growth of 5.2% in 2026, with Asia-Pacific delivering about 4% real growth while North America and Europe grew about 1%, reflecting significant regional disparities.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-23"
+    },
+    {
+      "date": "2026-11-20",
+      "headline": "Best Commercial Recycling Route Software (2026): 8 Tools Compared",
+      "source": "Upper Inc.",
+      "source_url": "https://www.upperinc.com/blog/best-commercial-recycling-route-software/",
+      "category": "Technology",
+      "categories": [
+        "Technology"
+      ],
+      "summary": "Comparative review of route optimization platforms for waste and recycling collection, including Upper Crew, RouteSmart, AMCS, and others. Covers features such as real-time re-optimization, telematics, and commercial route design.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-23"
+    },
+    {
+      "date": "2026-11-18",
+      "headline": "Zacks Research Raises Earnings Estimates for Clean Harbors",
+      "source": "DefenseWorld",
+      "source_url": "https://www.defenseworld.net/2026/11/21/zacks-research-raises-earnings-estimates-for-clean-harbors.html",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "Zacks Research lifted Clean Harbors' FY2026 EPS estimate to $10.33 from $9.51 and Q4 2026 EPS estimate to $1.99 from $1.97. The analyst upgrades reflect strong Q3 operational performance and margin expansion in the Environmental Services segment.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-23"
+    },
+    {
+      "date": "2026-11-18",
+      "headline": "Don't Let FOG Clogs Create a Costly Holiday Plumbing Mess",
+      "source": "Oklahoma City Utilities Department",
+      "source_url": "https://okc.gov/News-articles/2026-Don%E2%80%99t-let-FOG-clogs-create-a-costly-holiday-plumbing-mess",
+      "category": "Labor/Ops",
+      "categories": [
+        "Labor/Ops"
+      ],
+      "summary": "Oklahoma City Utilities Department warned residents about FOG disposal ahead of holiday cooking season, noting that excess grease causes costly repairs and plumbing clogs. The advisory highlighted the busy service period for plumbers caused by FOG entering drains.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-23"
+    },
+    {
+      "date": "2026-11-18",
+      "headline": "Winter Garden will upgrade wastewater facility",
+      "source": "Orange Observer",
+      "source_url": "https://www.orangeobserver.com/news/2026/nov/18/winter-garden-will-upgrade-wastewater-facility/?_fcb=1795304666",
       "category": "Infrastructure",
       "categories": [
         "Infrastructure"
       ],
-      "summary": "Washington County completed an Enhanced Nutrient Removal upgrade and expansion of the Smithsburg Wastewater Treatment Plant, increasing capacity from 0.333 to 0.45 million gallons per day (a 35% increase) while improving nitrogen and phosphorus removal to meet current standards.",
+      "summary": "Winter Garden City Commission approved a resolution to implement the Crest Avenue Wastewater Treatment Facility Capacity Expansion and Process Optimization Project. The expansion will increase treatment capacity from 4.75 to 7.5 million gallons per day and address flood mitigation.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-23"
+    },
+    {
+      "date": "2026-11-16",
+      "headline": "FOG Traps Market to 2035: Expansion Driven by Stricter Sewer Discharge Rules and Foodservice Growth",
+      "source": "IndexBox",
+      "source_url": "https://www.indexbox.io/blog/fog-traps-market-to-2035-expansion-driven-by-stricter-sewer-discharge-rules-and-foodservice-growth/",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure",
+        "Regulatory"
+      ],
+      "summary": "Market analysis report on FOG traps expanding through 2035 driven by tightening sewer discharge regulations and rising foodservice demand. Municipal wastewater treatment agencies play a dual role enforcing pretreatment and deploying large-scale grease interception infrastructure.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -84,7 +410,26 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-20"
+      "first_seen_date": "2026-11-23"
+    },
+    {
+      "date": "2026-11-14",
+      "headline": "Darling Ingredients (NYSE:DAR) Stock Gets Downgrade from Wall Street Zen",
+      "source": "MarketBeat",
+      "source_url": "https://www.marketbeat.com/instant-alerts/analyst-darling-ingredients-nyse-dar-stock-gets-downgrade-from-wall-street-zen-2026-11-14/",
+      "category": "Public Co.",
+      "categories": [
+        "Public Co."
+      ],
+      "summary": "Wall Street Zen downgraded Darling Ingredients from a 'strong-buy' rating to a 'buy' rating. The analyst downgrade follows Q3 earnings that missed EPS estimates, though the company maintains a consensus 'Moderate Buy' rating with an average price target of $73.80.",
+      "relevance_score": 4,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-23"
     }
   ]
 }
