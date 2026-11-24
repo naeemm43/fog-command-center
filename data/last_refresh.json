@@ -1,57 +1,19 @@
 {
-  "timestamp": "2026-11-23T23:41:39Z",
-  "added_news_count": 11,
+  "timestamp": "2026-11-24T22:12:43Z",
+  "added_news_count": 12,
   "added_deals_count": 0,
-  "archived_count": 5,
+  "archived_count": 3,
   "new_today_news": [
     {
-      "date": "2026-11-23",
-      "headline": "Spain tests jet fuel made from hotel cooking oil on Madrid flight",
-      "source": "Euro Weekly News",
-      "source_url": "https://euroweeklynews.com/2026/11/23/spain-tests-jet-fuel-made-from-hotel-cooking-oil-on-madrid-flight/",
+      "date": "2026-11-24",
+      "headline": "Blue Biofuels increases hand holdings to grow biofuel feedstock",
+      "source": "Bioethanol News",
+      "source_url": "https://biofuels-news.com/news/sweet-sorghum-biomass-pilot-planned-for-colombian-saf-project",
       "category": "Renewable Fuels",
       "categories": [
         "Renewable Fuels"
       ],
-      "summary": "Used cooking oil from hotels in Spain was converted into sustainable aviation fuel and blended with synthetic fuel for a test flight. The blend met EU targets for sustainable aviation fuel content on the aircraft.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-23"
-    },
-    {
-      "date": "2026-11-23",
-      "headline": "4 Chain Restaurant Menu Items With Price Cuts In November 2026",
-      "source": "The Takeout",
-      "source_url": "https://www.thetakeout.com/2323857/chain-restaurant-price-cuts-november-2026/",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "Multiple chain restaurants including Ruby Tuesday, Chipotle, and Popeyes launched promotional pricing and discounts in late November as operators compete for holiday-season traffic amid economic headwinds.",
-      "relevance_score": 1,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-23"
-    },
-    {
-      "date": "2026-11-22",
-      "headline": "Pizza chains are under pressure. GLP-1 use is only one part of the problem",
-      "source": "CNBC",
-      "source_url": "https://cnbc.com/2026/11/22/pizza-chains-sales-glp-1-demand.html",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "Pizza Hut, Domino's, and Papa John's face declining same-store sales driven by GLP-1 medication use, delivery competition, and changing eating habits. More than 9,600 pizzerias have closed since August 2019, contributing to overall industry contraction.",
+      "summary": "Blue Biofuels has leased an additional 167 acres of farmland in southwest Florida to grow king grass for bioethanol and sustainable aviation fuel production via its cellulose-to-sugar process.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -59,39 +21,116 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-23"
+      "first_seen_date": "2026-11-24"
+    },
+    {
+      "date": "2026-11-24",
+      "headline": "Full-Service Restaurant Employment Remains 165,000 Jobs Below Pre-Pandemic Levels",
+      "source": "Operators Daily",
+      "source_url": "https://www.operatorsdaily.com/blog/restaurant-hiring-staffing-job-posting-statistics",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "According to the National Restaurant Association's November 2026 update, full-service restaurant employment in September 2026 was approximately 165,000 jobs (3%) below February 2020 pre-pandemic levels, while the industry is projected to add more than 100,000 jobs in 2026 reaching 15.8 million total employees.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-24"
+    },
+    {
+      "date": "2026-11-24",
+      "headline": "Peoria says rainfall caused combined sewer overflow into Illinois River",
+      "source": "Peoria Standard",
+      "source_url": "https://peoriastandard.com/peoria-says-rainfall-caused-combined-sewer-overflow-into-illinois-river",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure",
+        "Regulatory"
+      ],
+      "summary": "City of Peoria announced a combined sewer overflow event into the Illinois River following rainfall. The city is constructing projects to reduce CSOs during wet weather as required by Clean Water Act and CSO Consent Decree; residents advised to avoid contact with affected river areas.",
+      "relevance_score": 3,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-24"
+    },
+    {
+      "date": "2026-11-23",
+      "headline": "Japanese hotel operator to supply 30 tonnes of waste oil yearly for SAF",
+      "source": "Zenbird Media",
+      "source_url": "https://zenbird.media/japanese-hotel-operator-to-supply-30-tonnes-of-waste-oil-yearly-for-saf/",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels"
+      ],
+      "summary": "Mori Trust Hotels & Resorts has expanded its UCO collection initiative to 24 facilities (22 hotels, 2 restaurants), supplying approximately 30 tonnes of used cooking oil annually as feedstock for domestic sustainable aviation fuel production in Japan.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-24"
+    },
+    {
+      "date": "2026-11-23",
+      "headline": "Toast 2026 Voice of the Restaurant Industry Survey: Inflation and Hiring Are Top Challenges",
+      "source": "Toast",
+      "source_url": "https://pos.toasttab.com/blog/data/voice-of-the-restaurant-industry-2026",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "Toast's 2026 Voice of the Restaurant Industry Survey found that inflation (27%) and hiring (22%) are the top two challenges facing operators, both up significantly from prior year. Despite challenges, 49% of operators plan to increase staffing and 48% plan to keep staffing steady over the next 12 months.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-24"
+    },
+    {
+      "date": "2026-11-23",
+      "headline": "Council Seeks Low-Interest Loan to Expand Wastewater Treatment Plant",
+      "source": "Independent Voice",
+      "source_url": "https://www.independentvoice.com/2026/11/23/592385/council-seeks-low-interest-loan-to-expand-wastewater-treatment-plant",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure"
+      ],
+      "summary": "Dixon, California city council unanimously approved equipment purchases and authorized pursuit of Clean Water State Revolving Fund (CWSRF) financing to expand its wastewater treatment facility. The facility currently operates at 70% capacity with 21,000 residents; estimated project cost is $48 million for one new process train adding 1.4 MGD capacity.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-24"
     }
   ],
   "recent_news": [
     {
       "date": "2026-11-20",
-      "headline": "Moeve Demonstrates Sustainable Aviation Fuel Production Using Recycled Cooking Oil at San Roque",
-      "source": "EuropaWire",
-      "source_url": "https://news.europawire.eu/moeve-demonstrates-sustainable-aviation-fuel-production-using-recycled-cooking-oil-at-san-roque/eu-press-release/2026/11/20/17/14/04/188894/",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels"
-      ],
-      "summary": "Moeve demonstrated SAF production from used cooking oil at its San Roque Energy Park in Spain, showcasing the viability of UCO as a feedstock for sustainable aviation fuel.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-23"
-    },
-    {
-      "date": "2026-11-20",
-      "headline": "2026 Restaurant Industry Statistics - Asia-Pacific outgrows mature markets",
-      "source": "WIFI Talents",
-      "source_url": "https://wifitalents.com/restaurant-industry-statistics/",
+      "headline": "Cincinnati Restaurant Group Abruptly Shutters All Restaurants",
+      "source": "WLWT 5 / Restaurant Dive",
+      "source_url": "https://www.restaurantdive.com/what-we-are-reading/",
       "category": "Restaurant",
       "categories": [
         "Restaurant"
       ],
-      "summary": "Technomic data shows global restaurant industry nominal growth of 5.2% in 2026, with Asia-Pacific delivering about 4% real growth while North America and Europe grew about 1%, reflecting significant regional disparities.",
+      "summary": "A Cincinnati restaurant group announced the abrupt closure of all its restaurant locations, adding to ongoing challenges facing independent and regional restaurant operators in a difficult operating environment.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -99,95 +138,18 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-23"
+      "first_seen_date": "2026-11-24"
     },
     {
-      "date": "2026-11-20",
-      "headline": "Best Commercial Recycling Route Software (2026): 8 Tools Compared",
-      "source": "Upper Inc.",
-      "source_url": "https://www.upperinc.com/blog/best-commercial-recycling-route-software/",
-      "category": "Technology",
+      "date": "2026-11-19",
+      "headline": "Moeve Produces SAF from Used Cooking Oil in San Roque",
+      "source": "Moeve",
+      "source_url": "https://www.moeveglobal.com/en/press/saf-production-used-cooking-oil-san-roque",
+      "category": "Renewable Fuels",
       "categories": [
-        "Technology"
+        "Renewable Fuels"
       ],
-      "summary": "Comparative review of route optimization platforms for waste and recycling collection, including Upper Crew, RouteSmart, AMCS, and others. Covers features such as real-time re-optimization, telematics, and commercial route design.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-23"
-    },
-    {
-      "date": "2026-11-18",
-      "headline": "Zacks Research Raises Earnings Estimates for Clean Harbors",
-      "source": "DefenseWorld",
-      "source_url": "https://www.defenseworld.net/2026/11/21/zacks-research-raises-earnings-estimates-for-clean-harbors.html",
-      "category": "Public Co.",
-      "categories": [
-        "Public Co."
-      ],
-      "summary": "Zacks Research lifted Clean Harbors' FY2026 EPS estimate to $10.33 from $9.51 and Q4 2026 EPS estimate to $1.99 from $1.97. The analyst upgrades reflect strong Q3 operational performance and margin expansion in the Environmental Services segment.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-23"
-    },
-    {
-      "date": "2026-11-18",
-      "headline": "Don't Let FOG Clogs Create a Costly Holiday Plumbing Mess",
-      "source": "Oklahoma City Utilities Department",
-      "source_url": "https://okc.gov/News-articles/2026-Don%E2%80%99t-let-FOG-clogs-create-a-costly-holiday-plumbing-mess",
-      "category": "Labor/Ops",
-      "categories": [
-        "Labor/Ops"
-      ],
-      "summary": "Oklahoma City Utilities Department warned residents about FOG disposal ahead of holiday cooking season, noting that excess grease causes costly repairs and plumbing clogs. The advisory highlighted the busy service period for plumbers caused by FOG entering drains.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-23"
-    },
-    {
-      "date": "2026-11-18",
-      "headline": "Winter Garden will upgrade wastewater facility",
-      "source": "Orange Observer",
-      "source_url": "https://www.orangeobserver.com/news/2026/nov/18/winter-garden-will-upgrade-wastewater-facility/?_fcb=1795304666",
-      "category": "Infrastructure",
-      "categories": [
-        "Infrastructure"
-      ],
-      "summary": "Winter Garden City Commission approved a resolution to implement the Crest Avenue Wastewater Treatment Facility Capacity Expansion and Process Optimization Project. The expansion will increase treatment capacity from 4.75 to 7.5 million gallons per day and address flood mitigation.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-23"
-    },
-    {
-      "date": "2026-11-16",
-      "headline": "FOG Traps Market to 2035: Expansion Driven by Stricter Sewer Discharge Rules and Foodservice Growth",
-      "source": "IndexBox",
-      "source_url": "https://www.indexbox.io/blog/fog-traps-market-to-2035-expansion-driven-by-stricter-sewer-discharge-rules-and-foodservice-growth/",
-      "category": "Infrastructure",
-      "categories": [
-        "Infrastructure",
-        "Regulatory"
-      ],
-      "summary": "Market analysis report on FOG traps expanding through 2035 driven by tightening sewer discharge regulations and rising foodservice demand. Municipal wastewater treatment agencies play a dual role enforcing pretreatment and deploying large-scale grease interception infrastructure.",
+      "summary": "Moeve's San Roque Energy Park has demonstrated its ability to produce sustainable aviation fuel using used cooking oil as feedstock, integrating UCO into existing industrial assets for SAF production.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -195,20 +157,18 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-23"
-    }
-  ],
-  "backfill_news": [
+      "first_seen_date": "2026-11-24"
+    },
     {
-      "date": "2026-11-14",
-      "headline": "Darling Ingredients (NYSE:DAR) Stock Gets Downgrade from Wall Street Zen",
-      "source": "MarketBeat",
-      "source_url": "https://www.marketbeat.com/instant-alerts/analyst-darling-ingredients-nyse-dar-stock-gets-downgrade-from-wall-street-zen-2026-11-14/",
-      "category": "Public Co.",
+      "date": "2026-11-18",
+      "headline": "India's First Commercial Sustainable Aviation Fuel Plant Ready at IOC's Panipat Refinery",
+      "source": "Dynamite News",
+      "source_url": "https://www.dynamitenews.com/national/indias-first-commercial-sustainable-aviation-fuel-plant-ready-at-iocs-panipat-refinery-ahead-of-2027-blending-targets",
+      "category": "Renewable Fuels",
       "categories": [
-        "Public Co."
+        "Renewable Fuels"
       ],
-      "summary": "Wall Street Zen downgraded Darling Ingredients from a 'strong-buy' rating to a 'buy' rating. The analyst downgrade follows Q3 earnings that missed EPS estimates, though the company maintains a consensus 'Moderate Buy' rating with an average price target of $73.80.",
+      "summary": "Indian Oil Corporation is ready to commence commercial SAF production at Panipat refinery using used cooking oil as primary feedstock, ahead of India's 2027 SAF blending targets for international flights.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -216,59 +176,103 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-23"
+      "first_seen_date": "2026-11-24"
+    },
+    {
+      "date": "2026-11-17",
+      "headline": "Renewable Energy Feedstock from Greasezilla: Brown Grease as Advanced Biofuel",
+      "source": "Greasezilla",
+      "source_url": "https://greasezilla.com/renewable-energy-feedstock/",
+      "category": "Technology",
+      "categories": [
+        "Technology",
+        "Renewable Fuels",
+        "ESG"
+      ],
+      "summary": "Greasezilla highlights brown grease from FOG waste as a renewable energy feedstock, emphasizing sustainability benefits and reduced greenhouse gas emissions in transportation and shipping sectors.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-24"
+    }
+  ],
+  "backfill_news": [
+    {
+      "date": "2026-11-15",
+      "headline": "Used Cooking Oil Biodiesel Policy 2025: Waste Grease Becomes Energy Gold",
+      "source": "Grease Connections",
+      "source_url": "https://greaseconnections.com/used-cooking-oil-biodiesel-policy-2025/",
+      "category": "ESG",
+      "categories": [
+        "ESG",
+        "Renewable Fuels",
+        "Regulatory"
+      ],
+      "summary": "Federal and state regulators are creating incentive structures for waste-derived biodiesel, including EPA's new RFS rule that doubles credits for domestically collected used cooking oil and California LCFS updates that increase value for low-carbon UCO diesel.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-24"
+    },
+    {
+      "date": "2026-11-14",
+      "headline": "EPA Develops Technology-Based Effluent Limitations and Pretreatment Standards for Industrial Categories Discharging PFAS",
+      "source": "Environment & Energy Leader",
+      "source_url": "https://www.environmentenergyleader.com/articles/5256-epa-keeps-pfoa-pfos-limits-moves-to-rescind-four-pfas-rules",
+      "category": "Regulatory",
+      "categories": [
+        "Regulatory"
+      ],
+      "summary": "EPA confirmed it is developing technology-based effluent limitations and pretreatment standards for industrial categories that discharge PFAS, with proposed rule for public comment expected in coming months. This may affect pretreatment programs at POTWs.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-24"
     }
   ],
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-11-23",
-      "headline": "Spain tests jet fuel made from hotel cooking oil on Madrid flight",
-      "source": "Euro Weekly News",
-      "source_url": "https://euroweeklynews.com/2026/11/23/spain-tests-jet-fuel-made-from-hotel-cooking-oil-on-madrid-flight/",
+      "date": "2026-11-24",
+      "headline": "Blue Biofuels increases hand holdings to grow biofuel feedstock",
+      "source": "Bioethanol News",
+      "source_url": "https://biofuels-news.com/news/sweet-sorghum-biomass-pilot-planned-for-colombian-saf-project",
       "category": "Renewable Fuels",
       "categories": [
         "Renewable Fuels"
       ],
-      "summary": "Used cooking oil from hotels in Spain was converted into sustainable aviation fuel and blended with synthetic fuel for a test flight. The blend met EU targets for sustainable aviation fuel content on the aircraft.",
-      "relevance_score": 4,
+      "summary": "Blue Biofuels has leased an additional 167 acres of farmland in southwest Florida to grow king grass for bioethanol and sustainable aviation fuel production via its cellulose-to-sugar process.",
+      "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-23"
+      "first_seen_date": "2026-11-24"
     },
     {
-      "date": "2026-11-23",
-      "headline": "4 Chain Restaurant Menu Items With Price Cuts In November 2026",
-      "source": "The Takeout",
-      "source_url": "https://www.thetakeout.com/2323857/chain-restaurant-price-cuts-november-2026/",
+      "date": "2026-11-24",
+      "headline": "Full-Service Restaurant Employment Remains 165,000 Jobs Below Pre-Pandemic Levels",
+      "source": "Operators Daily",
+      "source_url": "https://www.operatorsdaily.com/blog/restaurant-hiring-staffing-job-posting-statistics",
       "category": "Restaurant",
       "categories": [
         "Restaurant"
       ],
-      "summary": "Multiple chain restaurants including Ruby Tuesday, Chipotle, and Popeyes launched promotional pricing and discounts in late November as operators compete for holiday-season traffic amid economic headwinds.",
-      "relevance_score": 1,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-23"
-    },
-    {
-      "date": "2026-11-22",
-      "headline": "Pizza chains are under pressure. GLP-1 use is only one part of the problem",
-      "source": "CNBC",
-      "source_url": "https://cnbc.com/2026/11/22/pizza-chains-sales-glp-1-demand.html",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "Pizza Hut, Domino's, and Papa John's face declining same-store sales driven by GLP-1 medication use, delivery competition, and changing eating habits. More than 9,600 pizzerias have closed since August 2019, contributing to overall industry contraction.",
+      "summary": "According to the National Restaurant Association's November 2026 update, full-service restaurant employment in September 2026 was approximately 165,000 jobs (3%) below February 2020 pre-pandemic levels, while the industry is projected to add more than 100,000 jobs in 2026 reaching 15.8 million total employees.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -276,133 +280,38 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-23"
+      "first_seen_date": "2026-11-24"
     },
     {
-      "date": "2026-11-20",
-      "headline": "Moeve Demonstrates Sustainable Aviation Fuel Production Using Recycled Cooking Oil at San Roque",
-      "source": "EuropaWire",
-      "source_url": "https://news.europawire.eu/moeve-demonstrates-sustainable-aviation-fuel-production-using-recycled-cooking-oil-at-san-roque/eu-press-release/2026/11/20/17/14/04/188894/",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels"
-      ],
-      "summary": "Moeve demonstrated SAF production from used cooking oil at its San Roque Energy Park in Spain, showcasing the viability of UCO as a feedstock for sustainable aviation fuel.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-23"
-    },
-    {
-      "date": "2026-11-20",
-      "headline": "2026 Restaurant Industry Statistics - Asia-Pacific outgrows mature markets",
-      "source": "WIFI Talents",
-      "source_url": "https://wifitalents.com/restaurant-industry-statistics/",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "Technomic data shows global restaurant industry nominal growth of 5.2% in 2026, with Asia-Pacific delivering about 4% real growth while North America and Europe grew about 1%, reflecting significant regional disparities.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-23"
-    },
-    {
-      "date": "2026-11-20",
-      "headline": "Best Commercial Recycling Route Software (2026): 8 Tools Compared",
-      "source": "Upper Inc.",
-      "source_url": "https://www.upperinc.com/blog/best-commercial-recycling-route-software/",
-      "category": "Technology",
-      "categories": [
-        "Technology"
-      ],
-      "summary": "Comparative review of route optimization platforms for waste and recycling collection, including Upper Crew, RouteSmart, AMCS, and others. Covers features such as real-time re-optimization, telematics, and commercial route design.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-23"
-    },
-    {
-      "date": "2026-11-18",
-      "headline": "Zacks Research Raises Earnings Estimates for Clean Harbors",
-      "source": "DefenseWorld",
-      "source_url": "https://www.defenseworld.net/2026/11/21/zacks-research-raises-earnings-estimates-for-clean-harbors.html",
-      "category": "Public Co.",
-      "categories": [
-        "Public Co."
-      ],
-      "summary": "Zacks Research lifted Clean Harbors' FY2026 EPS estimate to $10.33 from $9.51 and Q4 2026 EPS estimate to $1.99 from $1.97. The analyst upgrades reflect strong Q3 operational performance and margin expansion in the Environmental Services segment.",
-      "relevance_score": 4,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-23"
-    },
-    {
-      "date": "2026-11-18",
-      "headline": "Don't Let FOG Clogs Create a Costly Holiday Plumbing Mess",
-      "source": "Oklahoma City Utilities Department",
-      "source_url": "https://okc.gov/News-articles/2026-Don%E2%80%99t-let-FOG-clogs-create-a-costly-holiday-plumbing-mess",
-      "category": "Labor/Ops",
-      "categories": [
-        "Labor/Ops"
-      ],
-      "summary": "Oklahoma City Utilities Department warned residents about FOG disposal ahead of holiday cooking season, noting that excess grease causes costly repairs and plumbing clogs. The advisory highlighted the busy service period for plumbers caused by FOG entering drains.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-23"
-    },
-    {
-      "date": "2026-11-18",
-      "headline": "Winter Garden will upgrade wastewater facility",
-      "source": "Orange Observer",
-      "source_url": "https://www.orangeobserver.com/news/2026/nov/18/winter-garden-will-upgrade-wastewater-facility/?_fcb=1795304666",
-      "category": "Infrastructure",
-      "categories": [
-        "Infrastructure"
-      ],
-      "summary": "Winter Garden City Commission approved a resolution to implement the Crest Avenue Wastewater Treatment Facility Capacity Expansion and Process Optimization Project. The expansion will increase treatment capacity from 4.75 to 7.5 million gallons per day and address flood mitigation.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-23"
-    },
-    {
-      "date": "2026-11-16",
-      "headline": "FOG Traps Market to 2035: Expansion Driven by Stricter Sewer Discharge Rules and Foodservice Growth",
-      "source": "IndexBox",
-      "source_url": "https://www.indexbox.io/blog/fog-traps-market-to-2035-expansion-driven-by-stricter-sewer-discharge-rules-and-foodservice-growth/",
+      "date": "2026-11-24",
+      "headline": "Peoria says rainfall caused combined sewer overflow into Illinois River",
+      "source": "Peoria Standard",
+      "source_url": "https://peoriastandard.com/peoria-says-rainfall-caused-combined-sewer-overflow-into-illinois-river",
       "category": "Infrastructure",
       "categories": [
         "Infrastructure",
         "Regulatory"
       ],
-      "summary": "Market analysis report on FOG traps expanding through 2035 driven by tightening sewer discharge regulations and rising foodservice demand. Municipal wastewater treatment agencies play a dual role enforcing pretreatment and deploying large-scale grease interception infrastructure.",
+      "summary": "City of Peoria announced a combined sewer overflow event into the Illinois River following rainfall. The city is constructing projects to reduce CSOs during wet weather as required by Clean Water Act and CSO Consent Decree; residents advised to avoid contact with affected river areas.",
+      "relevance_score": 3,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-24"
+    },
+    {
+      "date": "2026-11-23",
+      "headline": "Japanese hotel operator to supply 30 tonnes of waste oil yearly for SAF",
+      "source": "Zenbird Media",
+      "source_url": "https://zenbird.media/japanese-hotel-operator-to-supply-30-tonnes-of-waste-oil-yearly-for-saf/",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels"
+      ],
+      "summary": "Mori Trust Hotels & Resorts has expanded its UCO collection initiative to 24 facilities (22 hotels, 2 restaurants), supplying approximately 30 tonnes of used cooking oil annually as feedstock for domestic sustainable aviation fuel production in Japan.",
       "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
@@ -410,18 +319,94 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-23"
+      "first_seen_date": "2026-11-24"
     },
     {
-      "date": "2026-11-14",
-      "headline": "Darling Ingredients (NYSE:DAR) Stock Gets Downgrade from Wall Street Zen",
-      "source": "MarketBeat",
-      "source_url": "https://www.marketbeat.com/instant-alerts/analyst-darling-ingredients-nyse-dar-stock-gets-downgrade-from-wall-street-zen-2026-11-14/",
-      "category": "Public Co.",
+      "date": "2026-11-23",
+      "headline": "Toast 2026 Voice of the Restaurant Industry Survey: Inflation and Hiring Are Top Challenges",
+      "source": "Toast",
+      "source_url": "https://pos.toasttab.com/blog/data/voice-of-the-restaurant-industry-2026",
+      "category": "Restaurant",
       "categories": [
-        "Public Co."
+        "Restaurant"
       ],
-      "summary": "Wall Street Zen downgraded Darling Ingredients from a 'strong-buy' rating to a 'buy' rating. The analyst downgrade follows Q3 earnings that missed EPS estimates, though the company maintains a consensus 'Moderate Buy' rating with an average price target of $73.80.",
+      "summary": "Toast's 2026 Voice of the Restaurant Industry Survey found that inflation (27%) and hiring (22%) are the top two challenges facing operators, both up significantly from prior year. Despite challenges, 49% of operators plan to increase staffing and 48% plan to keep staffing steady over the next 12 months.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-24"
+    },
+    {
+      "date": "2026-11-23",
+      "headline": "Council Seeks Low-Interest Loan to Expand Wastewater Treatment Plant",
+      "source": "Independent Voice",
+      "source_url": "https://www.independentvoice.com/2026/11/23/592385/council-seeks-low-interest-loan-to-expand-wastewater-treatment-plant",
+      "category": "Infrastructure",
+      "categories": [
+        "Infrastructure"
+      ],
+      "summary": "Dixon, California city council unanimously approved equipment purchases and authorized pursuit of Clean Water State Revolving Fund (CWSRF) financing to expand its wastewater treatment facility. The facility currently operates at 70% capacity with 21,000 residents; estimated project cost is $48 million for one new process train adding 1.4 MGD capacity.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-24"
+    },
+    {
+      "date": "2026-11-20",
+      "headline": "Cincinnati Restaurant Group Abruptly Shutters All Restaurants",
+      "source": "WLWT 5 / Restaurant Dive",
+      "source_url": "https://www.restaurantdive.com/what-we-are-reading/",
+      "category": "Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "summary": "A Cincinnati restaurant group announced the abrupt closure of all its restaurant locations, adding to ongoing challenges facing independent and regional restaurant operators in a difficult operating environment.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-24"
+    },
+    {
+      "date": "2026-11-19",
+      "headline": "Moeve Produces SAF from Used Cooking Oil in San Roque",
+      "source": "Moeve",
+      "source_url": "https://www.moeveglobal.com/en/press/saf-production-used-cooking-oil-san-roque",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels"
+      ],
+      "summary": "Moeve's San Roque Energy Park has demonstrated its ability to produce sustainable aviation fuel using used cooking oil as feedstock, integrating UCO into existing industrial assets for SAF production.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-24"
+    },
+    {
+      "date": "2026-11-18",
+      "headline": "India's First Commercial Sustainable Aviation Fuel Plant Ready at IOC's Panipat Refinery",
+      "source": "Dynamite News",
+      "source_url": "https://www.dynamitenews.com/national/indias-first-commercial-sustainable-aviation-fuel-plant-ready-at-iocs-panipat-refinery-ahead-of-2027-blending-targets",
+      "category": "Renewable Fuels",
+      "categories": [
+        "Renewable Fuels"
+      ],
+      "summary": "Indian Oil Corporation is ready to commence commercial SAF production at Panipat refinery using used cooking oil as primary feedstock, ahead of India's 2027 SAF blending targets for international flights.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -429,7 +414,68 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-23"
+      "first_seen_date": "2026-11-24"
+    },
+    {
+      "date": "2026-11-17",
+      "headline": "Renewable Energy Feedstock from Greasezilla: Brown Grease as Advanced Biofuel",
+      "source": "Greasezilla",
+      "source_url": "https://greasezilla.com/renewable-energy-feedstock/",
+      "category": "Technology",
+      "categories": [
+        "Technology",
+        "Renewable Fuels",
+        "ESG"
+      ],
+      "summary": "Greasezilla highlights brown grease from FOG waste as a renewable energy feedstock, emphasizing sustainability benefits and reduced greenhouse gas emissions in transportation and shipping sectors.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-24"
+    },
+    {
+      "date": "2026-11-15",
+      "headline": "Used Cooking Oil Biodiesel Policy 2025: Waste Grease Becomes Energy Gold",
+      "source": "Grease Connections",
+      "source_url": "https://greaseconnections.com/used-cooking-oil-biodiesel-policy-2025/",
+      "category": "ESG",
+      "categories": [
+        "ESG",
+        "Renewable Fuels",
+        "Regulatory"
+      ],
+      "summary": "Federal and state regulators are creating incentive structures for waste-derived biodiesel, including EPA's new RFS rule that doubles credits for domestically collected used cooking oil and California LCFS updates that increase value for low-carbon UCO diesel.",
+      "relevance_score": 5,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-24"
+    },
+    {
+      "date": "2026-11-14",
+      "headline": "EPA Develops Technology-Based Effluent Limitations and Pretreatment Standards for Industrial Categories Discharging PFAS",
+      "source": "Environment & Energy Leader",
+      "source_url": "https://www.environmentenergyleader.com/articles/5256-epa-keeps-pfoa-pfos-limits-moves-to-rescind-four-pfas-rules",
+      "category": "Regulatory",
+      "categories": [
+        "Regulatory"
+      ],
+      "summary": "EPA confirmed it is developing technology-based effluent limitations and pretreatment standards for industrial categories that discharge PFAS, with proposed rule for public comment expected in coming months. This may affect pretreatment programs at POTWs.",
+      "relevance_score": 2,
+      "is_deal": false,
+      "is_target_market": false,
+      "target_market_name": null,
+      "latitude": null,
+      "longitude": null,
+      "zoom_hint": null,
+      "first_seen_date": "2026-11-24"
     }
   ]
 }
