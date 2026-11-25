@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-05-29",
+    "headline": "Grease Product News - May 2026",
+    "source": "Pumper",
+    "source_url": "https://www.pumper.com/bytes/2025/02/setting-the-record-straight-chemotherapy-and-septic-systems",
+    "category": "Industry Events",
+    "categories": [
+      "Industry Events"
+    ],
+    "summary": "Industry product updates and news featured in Pumper's May 2026 publication covering grease products and services within the septic and wastewater service sectors.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-29"
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "EPA Sustainable Management of Food",
+    "source": "US EPA",
+    "source_url": "https://www.epa.gov/sustainable-management-food",
+    "category": "ESG",
+    "categories": [
+      "ESG",
+      "Regulatory",
+      "Technology"
+    ],
+    "summary": "Updated EPA resources on food waste sustainable management, including the Anaerobic Digesters survey and Food Recovery Challenge program guidance. Covers methane emissions from landfilled food waste and wasted food prevention strategies.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-05-29"
+  },
+  {
     "date": "2026-05-28",
     "headline": "Fuel Crisis: The Answer Might Be Flowing Through Commercial Kitchen Drains",
     "source": "Grease Guardian",

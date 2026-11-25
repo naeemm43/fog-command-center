@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-11-25",
+    "headline": "New Pizza Shop Opens on North Queen Street",
+    "source": "WiseVoter",
+    "source_url": "https://wisevoter.com/world/us/pa/lancaster/2026/11/25/new-pizza-shop-opens-lancaster-queen-street",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "summary": "A 20-seat pizza restaurant opened in Lancaster, Pennsylvania in the former Slugger's Pizzeria space on November 25, 2026. The restaurant serves pizza, stromboli, subs, and other items, occupying a space that had been vacant since spring.",
+    "relevance_score": 1,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-25"
+  },
+  {
     "date": "2026-11-24",
     "headline": "Blue Biofuels increases hand holdings to grow biofuel feedstock",
     "source": "Bioethanol News",
@@ -56,6 +75,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-11-24"
+  },
+  {
+    "date": "2026-11-24",
+    "headline": "Pittsburgh Restaurant Openings and Closings in 2026",
+    "source": "Axios Pittsburgh",
+    "source_url": "https://www.axios.com/local/pittsburgh/2026/11/24/pittsburgh-restaurant-openings-closings-2026",
+    "category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "summary": "Axios tracked Pittsburgh-area restaurant openings and closings for November 2026, including Driftwood Oven expanding to a second location, Opal Grand Buffet opening at Homestead, Sokoya opening as a Japanese izakaya, and several closures including Fish Nor Fowl and ShadoBeni.",
+    "relevance_score": 1,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-25"
   },
   {
     "date": "2026-11-23",
@@ -151,6 +189,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-11-24"
+  },
+  {
+    "date": "2026-11-23",
+    "headline": "The Electric Waste Collection Trucks Market is Projected to Expand at a 20.3% CAGR Until 2030",
+    "source": "The Business Research Company",
+    "source_url": "https://www.openpr.com/news/4696677/the-electric-waste-collection-trucks-market-is-projected",
+    "category": "Technology",
+    "categories": [
+      "Technology"
+    ],
+    "summary": "Market report on electric waste collection trucks growing from $0.25 billion in 2025 to $0.3 billion in 2026 at 20.6% CAGR. Grundon deploys electric trucks powered by facility waste energy.",
+    "relevance_score": 2,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-25"
   },
   {
     "date": "2026-11-22",
@@ -265,6 +322,25 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-11-24"
+  },
+  {
+    "date": "2026-11-20",
+    "headline": "Used Cooking Oil (UCO) Biofuel Market: Recent Developments in Feedstock Quality and Output",
+    "source": "Global Growth Insights",
+    "source_url": "https://www.globalgrowthinsights.com/market-reports/used-cooking-oil-uco-market-122114",
+    "category": "Renewable Fuels",
+    "categories": [
+      "Renewable Fuels"
+    ],
+    "summary": "Market reporting indicates usable output from UCO collection operations increased approximately 11%, with impurity-related rejection falling nearly 9%, supporting cleaner feedstock delivery to renewable diesel producers. Roughly 62% of regional feedstock originates from foodservice sources, with renewable diesel producers absorbing 55% of collected oil.",
+    "relevance_score": 4,
+    "is_deal": false,
+    "is_target_market": false,
+    "target_market_name": null,
+    "latitude": null,
+    "longitude": null,
+    "zoom_hint": null,
+    "first_seen_date": "2026-11-25"
   },
   {
     "date": "2026-11-19",
@@ -10658,46 +10734,6 @@
     "longitude": null,
     "zoom_hint": null,
     "first_seen_date": "2026-06-08"
-  },
-  {
-    "date": "2026-05-29",
-    "headline": "Grease Product News - May 2026",
-    "source": "Pumper",
-    "source_url": "https://www.pumper.com/bytes/2025/02/setting-the-record-straight-chemotherapy-and-septic-systems",
-    "category": "Industry Events",
-    "categories": [
-      "Industry Events"
-    ],
-    "summary": "Industry product updates and news featured in Pumper's May 2026 publication covering grease products and services within the septic and wastewater service sectors.",
-    "relevance_score": 2,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-29"
-  },
-  {
-    "date": "2026-05-29",
-    "headline": "EPA Sustainable Management of Food",
-    "source": "US EPA",
-    "source_url": "https://www.epa.gov/sustainable-management-food",
-    "category": "ESG",
-    "categories": [
-      "ESG",
-      "Regulatory",
-      "Technology"
-    ],
-    "summary": "Updated EPA resources on food waste sustainable management, including the Anaerobic Digesters survey and Food Recovery Challenge program guidance. Covers methane emissions from landfilled food waste and wasted food prevention strategies.",
-    "relevance_score": 2,
-    "is_deal": false,
-    "is_target_market": false,
-    "target_market_name": null,
-    "latitude": null,
-    "longitude": null,
-    "zoom_hint": null,
-    "first_seen_date": "2026-05-29"
   },
   {
     "date": null,

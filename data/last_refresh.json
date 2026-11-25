@@ -1,136 +1,59 @@
 {
-  "timestamp": "2026-11-24T22:12:43Z",
-  "added_news_count": 12,
+  "timestamp": "2026-11-25T21:28:29Z",
+  "added_news_count": 4,
   "added_deals_count": 0,
-  "archived_count": 3,
+  "archived_count": 2,
   "new_today_news": [
     {
-      "date": "2026-11-24",
-      "headline": "Blue Biofuels increases hand holdings to grow biofuel feedstock",
-      "source": "Bioethanol News",
-      "source_url": "https://biofuels-news.com/news/sweet-sorghum-biomass-pilot-planned-for-colombian-saf-project",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels"
-      ],
-      "summary": "Blue Biofuels has leased an additional 167 acres of farmland in southwest Florida to grow king grass for bioethanol and sustainable aviation fuel production via its cellulose-to-sugar process.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-24"
-    },
-    {
-      "date": "2026-11-24",
-      "headline": "Full-Service Restaurant Employment Remains 165,000 Jobs Below Pre-Pandemic Levels",
-      "source": "Operators Daily",
-      "source_url": "https://www.operatorsdaily.com/blog/restaurant-hiring-staffing-job-posting-statistics",
+      "date": "2026-11-25",
+      "headline": "New Pizza Shop Opens on North Queen Street",
+      "source": "WiseVoter",
+      "source_url": "https://wisevoter.com/world/us/pa/lancaster/2026/11/25/new-pizza-shop-opens-lancaster-queen-street",
       "category": "Restaurant",
       "categories": [
         "Restaurant"
       ],
-      "summary": "According to the National Restaurant Association's November 2026 update, full-service restaurant employment in September 2026 was approximately 165,000 jobs (3%) below February 2020 pre-pandemic levels, while the industry is projected to add more than 100,000 jobs in 2026 reaching 15.8 million total employees.",
-      "relevance_score": 2,
+      "summary": "A 20-seat pizza restaurant opened in Lancaster, Pennsylvania in the former Slugger's Pizzeria space on November 25, 2026. The restaurant serves pizza, stromboli, subs, and other items, occupying a space that had been vacant since spring.",
+      "relevance_score": 1,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-24"
+      "first_seen_date": "2026-11-25"
     },
     {
       "date": "2026-11-24",
-      "headline": "Peoria says rainfall caused combined sewer overflow into Illinois River",
-      "source": "Peoria Standard",
-      "source_url": "https://peoriastandard.com/peoria-says-rainfall-caused-combined-sewer-overflow-into-illinois-river",
-      "category": "Infrastructure",
-      "categories": [
-        "Infrastructure",
-        "Regulatory"
-      ],
-      "summary": "City of Peoria announced a combined sewer overflow event into the Illinois River following rainfall. The city is constructing projects to reduce CSOs during wet weather as required by Clean Water Act and CSO Consent Decree; residents advised to avoid contact with affected river areas.",
-      "relevance_score": 3,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-24"
-    },
-    {
-      "date": "2026-11-23",
-      "headline": "Japanese hotel operator to supply 30 tonnes of waste oil yearly for SAF",
-      "source": "Zenbird Media",
-      "source_url": "https://zenbird.media/japanese-hotel-operator-to-supply-30-tonnes-of-waste-oil-yearly-for-saf/",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels"
-      ],
-      "summary": "Mori Trust Hotels & Resorts has expanded its UCO collection initiative to 24 facilities (22 hotels, 2 restaurants), supplying approximately 30 tonnes of used cooking oil annually as feedstock for domestic sustainable aviation fuel production in Japan.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-24"
-    },
-    {
-      "date": "2026-11-23",
-      "headline": "Toast 2026 Voice of the Restaurant Industry Survey: Inflation and Hiring Are Top Challenges",
-      "source": "Toast",
-      "source_url": "https://pos.toasttab.com/blog/data/voice-of-the-restaurant-industry-2026",
+      "headline": "Pittsburgh Restaurant Openings and Closings in 2026",
+      "source": "Axios Pittsburgh",
+      "source_url": "https://www.axios.com/local/pittsburgh/2026/11/24/pittsburgh-restaurant-openings-closings-2026",
       "category": "Restaurant",
       "categories": [
         "Restaurant"
       ],
-      "summary": "Toast's 2026 Voice of the Restaurant Industry Survey found that inflation (27%) and hiring (22%) are the top two challenges facing operators, both up significantly from prior year. Despite challenges, 49% of operators plan to increase staffing and 48% plan to keep staffing steady over the next 12 months.",
-      "relevance_score": 2,
+      "summary": "Axios tracked Pittsburgh-area restaurant openings and closings for November 2026, including Driftwood Oven expanding to a second location, Opal Grand Buffet opening at Homestead, Sokoya opening as a Japanese izakaya, and several closures including Fish Nor Fowl and ShadoBeni.",
+      "relevance_score": 1,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-24"
-    },
-    {
-      "date": "2026-11-23",
-      "headline": "Council Seeks Low-Interest Loan to Expand Wastewater Treatment Plant",
-      "source": "Independent Voice",
-      "source_url": "https://www.independentvoice.com/2026/11/23/592385/council-seeks-low-interest-loan-to-expand-wastewater-treatment-plant",
-      "category": "Infrastructure",
-      "categories": [
-        "Infrastructure"
-      ],
-      "summary": "Dixon, California city council unanimously approved equipment purchases and authorized pursuit of Clean Water State Revolving Fund (CWSRF) financing to expand its wastewater treatment facility. The facility currently operates at 70% capacity with 21,000 residents; estimated project cost is $48 million for one new process train adding 1.4 MGD capacity.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-24"
+      "first_seen_date": "2026-11-25"
     }
   ],
   "recent_news": [
     {
-      "date": "2026-11-20",
-      "headline": "Cincinnati Restaurant Group Abruptly Shutters All Restaurants",
-      "source": "WLWT 5 / Restaurant Dive",
-      "source_url": "https://www.restaurantdive.com/what-we-are-reading/",
-      "category": "Restaurant",
+      "date": "2026-11-23",
+      "headline": "The Electric Waste Collection Trucks Market is Projected to Expand at a 20.3% CAGR Until 2030",
+      "source": "The Business Research Company",
+      "source_url": "https://www.openpr.com/news/4696677/the-electric-waste-collection-trucks-market-is-projected",
+      "category": "Technology",
       "categories": [
-        "Restaurant"
+        "Technology"
       ],
-      "summary": "A Cincinnati restaurant group announced the abrupt closure of all its restaurant locations, adding to ongoing challenges facing independent and regional restaurant operators in a difficult operating environment.",
+      "summary": "Market report on electric waste collection trucks growing from $0.25 billion in 2025 to $0.3 billion in 2026 at 20.6% CAGR. Grundon deploys electric trucks powered by facility waste energy.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -138,37 +61,18 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-24"
+      "first_seen_date": "2026-11-25"
     },
     {
-      "date": "2026-11-19",
-      "headline": "Moeve Produces SAF from Used Cooking Oil in San Roque",
-      "source": "Moeve",
-      "source_url": "https://www.moeveglobal.com/en/press/saf-production-used-cooking-oil-san-roque",
+      "date": "2026-11-20",
+      "headline": "Used Cooking Oil (UCO) Biofuel Market: Recent Developments in Feedstock Quality and Output",
+      "source": "Global Growth Insights",
+      "source_url": "https://www.globalgrowthinsights.com/market-reports/used-cooking-oil-uco-market-122114",
       "category": "Renewable Fuels",
       "categories": [
         "Renewable Fuels"
       ],
-      "summary": "Moeve's San Roque Energy Park has demonstrated its ability to produce sustainable aviation fuel using used cooking oil as feedstock, integrating UCO into existing industrial assets for SAF production.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-24"
-    },
-    {
-      "date": "2026-11-18",
-      "headline": "India's First Commercial Sustainable Aviation Fuel Plant Ready at IOC's Panipat Refinery",
-      "source": "Dynamite News",
-      "source_url": "https://www.dynamitenews.com/national/indias-first-commercial-sustainable-aviation-fuel-plant-ready-at-iocs-panipat-refinery-ahead-of-2027-blending-targets",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels"
-      ],
-      "summary": "Indian Oil Corporation is ready to commence commercial SAF production at Panipat refinery using used cooking oil as primary feedstock, ahead of India's 2027 SAF blending targets for international flights.",
+      "summary": "Market reporting indicates usable output from UCO collection operations increased approximately 11%, with impurity-related rejection falling nearly 9%, supporting cleaner feedstock delivery to renewable diesel producers. Roughly 62% of regional feedstock originates from foodservice sources, with renewable diesel producers absorbing 55% of collected oil.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -176,180 +80,60 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-24"
-    },
-    {
-      "date": "2026-11-17",
-      "headline": "Renewable Energy Feedstock from Greasezilla: Brown Grease as Advanced Biofuel",
-      "source": "Greasezilla",
-      "source_url": "https://greasezilla.com/renewable-energy-feedstock/",
-      "category": "Technology",
-      "categories": [
-        "Technology",
-        "Renewable Fuels",
-        "ESG"
-      ],
-      "summary": "Greasezilla highlights brown grease from FOG waste as a renewable energy feedstock, emphasizing sustainability benefits and reduced greenhouse gas emissions in transportation and shipping sectors.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-24"
+      "first_seen_date": "2026-11-25"
     }
   ],
-  "backfill_news": [
-    {
-      "date": "2026-11-15",
-      "headline": "Used Cooking Oil Biodiesel Policy 2025: Waste Grease Becomes Energy Gold",
-      "source": "Grease Connections",
-      "source_url": "https://greaseconnections.com/used-cooking-oil-biodiesel-policy-2025/",
-      "category": "ESG",
-      "categories": [
-        "ESG",
-        "Renewable Fuels",
-        "Regulatory"
-      ],
-      "summary": "Federal and state regulators are creating incentive structures for waste-derived biodiesel, including EPA's new RFS rule that doubles credits for domestically collected used cooking oil and California LCFS updates that increase value for low-carbon UCO diesel.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-24"
-    },
-    {
-      "date": "2026-11-14",
-      "headline": "EPA Develops Technology-Based Effluent Limitations and Pretreatment Standards for Industrial Categories Discharging PFAS",
-      "source": "Environment & Energy Leader",
-      "source_url": "https://www.environmentenergyleader.com/articles/5256-epa-keeps-pfoa-pfos-limits-moves-to-rescind-four-pfas-rules",
-      "category": "Regulatory",
-      "categories": [
-        "Regulatory"
-      ],
-      "summary": "EPA confirmed it is developing technology-based effluent limitations and pretreatment standards for industrial categories that discharge PFAS, with proposed rule for public comment expected in coming months. This may affect pretreatment programs at POTWs.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-24"
-    }
-  ],
+  "backfill_news": [],
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-11-24",
-      "headline": "Blue Biofuels increases hand holdings to grow biofuel feedstock",
-      "source": "Bioethanol News",
-      "source_url": "https://biofuels-news.com/news/sweet-sorghum-biomass-pilot-planned-for-colombian-saf-project",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels"
-      ],
-      "summary": "Blue Biofuels has leased an additional 167 acres of farmland in southwest Florida to grow king grass for bioethanol and sustainable aviation fuel production via its cellulose-to-sugar process.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-24"
-    },
-    {
-      "date": "2026-11-24",
-      "headline": "Full-Service Restaurant Employment Remains 165,000 Jobs Below Pre-Pandemic Levels",
-      "source": "Operators Daily",
-      "source_url": "https://www.operatorsdaily.com/blog/restaurant-hiring-staffing-job-posting-statistics",
+      "date": "2026-11-25",
+      "headline": "New Pizza Shop Opens on North Queen Street",
+      "source": "WiseVoter",
+      "source_url": "https://wisevoter.com/world/us/pa/lancaster/2026/11/25/new-pizza-shop-opens-lancaster-queen-street",
       "category": "Restaurant",
       "categories": [
         "Restaurant"
       ],
-      "summary": "According to the National Restaurant Association's November 2026 update, full-service restaurant employment in September 2026 was approximately 165,000 jobs (3%) below February 2020 pre-pandemic levels, while the industry is projected to add more than 100,000 jobs in 2026 reaching 15.8 million total employees.",
-      "relevance_score": 2,
+      "summary": "A 20-seat pizza restaurant opened in Lancaster, Pennsylvania in the former Slugger's Pizzeria space on November 25, 2026. The restaurant serves pizza, stromboli, subs, and other items, occupying a space that had been vacant since spring.",
+      "relevance_score": 1,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-24"
+      "first_seen_date": "2026-11-25"
     },
     {
       "date": "2026-11-24",
-      "headline": "Peoria says rainfall caused combined sewer overflow into Illinois River",
-      "source": "Peoria Standard",
-      "source_url": "https://peoriastandard.com/peoria-says-rainfall-caused-combined-sewer-overflow-into-illinois-river",
-      "category": "Infrastructure",
-      "categories": [
-        "Infrastructure",
-        "Regulatory"
-      ],
-      "summary": "City of Peoria announced a combined sewer overflow event into the Illinois River following rainfall. The city is constructing projects to reduce CSOs during wet weather as required by Clean Water Act and CSO Consent Decree; residents advised to avoid contact with affected river areas.",
-      "relevance_score": 3,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-24"
-    },
-    {
-      "date": "2026-11-23",
-      "headline": "Japanese hotel operator to supply 30 tonnes of waste oil yearly for SAF",
-      "source": "Zenbird Media",
-      "source_url": "https://zenbird.media/japanese-hotel-operator-to-supply-30-tonnes-of-waste-oil-yearly-for-saf/",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels"
-      ],
-      "summary": "Mori Trust Hotels & Resorts has expanded its UCO collection initiative to 24 facilities (22 hotels, 2 restaurants), supplying approximately 30 tonnes of used cooking oil annually as feedstock for domestic sustainable aviation fuel production in Japan.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-24"
-    },
-    {
-      "date": "2026-11-23",
-      "headline": "Toast 2026 Voice of the Restaurant Industry Survey: Inflation and Hiring Are Top Challenges",
-      "source": "Toast",
-      "source_url": "https://pos.toasttab.com/blog/data/voice-of-the-restaurant-industry-2026",
+      "headline": "Pittsburgh Restaurant Openings and Closings in 2026",
+      "source": "Axios Pittsburgh",
+      "source_url": "https://www.axios.com/local/pittsburgh/2026/11/24/pittsburgh-restaurant-openings-closings-2026",
       "category": "Restaurant",
       "categories": [
         "Restaurant"
       ],
-      "summary": "Toast's 2026 Voice of the Restaurant Industry Survey found that inflation (27%) and hiring (22%) are the top two challenges facing operators, both up significantly from prior year. Despite challenges, 49% of operators plan to increase staffing and 48% plan to keep staffing steady over the next 12 months.",
-      "relevance_score": 2,
+      "summary": "Axios tracked Pittsburgh-area restaurant openings and closings for November 2026, including Driftwood Oven expanding to a second location, Opal Grand Buffet opening at Homestead, Sokoya opening as a Japanese izakaya, and several closures including Fish Nor Fowl and ShadoBeni.",
+      "relevance_score": 1,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-24"
+      "first_seen_date": "2026-11-25"
     },
     {
       "date": "2026-11-23",
-      "headline": "Council Seeks Low-Interest Loan to Expand Wastewater Treatment Plant",
-      "source": "Independent Voice",
-      "source_url": "https://www.independentvoice.com/2026/11/23/592385/council-seeks-low-interest-loan-to-expand-wastewater-treatment-plant",
-      "category": "Infrastructure",
+      "headline": "The Electric Waste Collection Trucks Market is Projected to Expand at a 20.3% CAGR Until 2030",
+      "source": "The Business Research Company",
+      "source_url": "https://www.openpr.com/news/4696677/the-electric-waste-collection-trucks-market-is-projected",
+      "category": "Technology",
       "categories": [
-        "Infrastructure"
+        "Technology"
       ],
-      "summary": "Dixon, California city council unanimously approved equipment purchases and authorized pursuit of Clean Water State Revolving Fund (CWSRF) financing to expand its wastewater treatment facility. The facility currently operates at 70% capacity with 21,000 residents; estimated project cost is $48 million for one new process train adding 1.4 MGD capacity.",
+      "summary": "Market report on electric waste collection trucks growing from $0.25 billion in 2025 to $0.3 billion in 2026 at 20.6% CAGR. Grundon deploys electric trucks powered by facility waste energy.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -357,56 +141,18 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-24"
+      "first_seen_date": "2026-11-25"
     },
     {
       "date": "2026-11-20",
-      "headline": "Cincinnati Restaurant Group Abruptly Shutters All Restaurants",
-      "source": "WLWT 5 / Restaurant Dive",
-      "source_url": "https://www.restaurantdive.com/what-we-are-reading/",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "A Cincinnati restaurant group announced the abrupt closure of all its restaurant locations, adding to ongoing challenges facing independent and regional restaurant operators in a difficult operating environment.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-24"
-    },
-    {
-      "date": "2026-11-19",
-      "headline": "Moeve Produces SAF from Used Cooking Oil in San Roque",
-      "source": "Moeve",
-      "source_url": "https://www.moeveglobal.com/en/press/saf-production-used-cooking-oil-san-roque",
+      "headline": "Used Cooking Oil (UCO) Biofuel Market: Recent Developments in Feedstock Quality and Output",
+      "source": "Global Growth Insights",
+      "source_url": "https://www.globalgrowthinsights.com/market-reports/used-cooking-oil-uco-market-122114",
       "category": "Renewable Fuels",
       "categories": [
         "Renewable Fuels"
       ],
-      "summary": "Moeve's San Roque Energy Park has demonstrated its ability to produce sustainable aviation fuel using used cooking oil as feedstock, integrating UCO into existing industrial assets for SAF production.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-24"
-    },
-    {
-      "date": "2026-11-18",
-      "headline": "India's First Commercial Sustainable Aviation Fuel Plant Ready at IOC's Panipat Refinery",
-      "source": "Dynamite News",
-      "source_url": "https://www.dynamitenews.com/national/indias-first-commercial-sustainable-aviation-fuel-plant-ready-at-iocs-panipat-refinery-ahead-of-2027-blending-targets",
-      "category": "Renewable Fuels",
-      "categories": [
-        "Renewable Fuels"
-      ],
-      "summary": "Indian Oil Corporation is ready to commence commercial SAF production at Panipat refinery using used cooking oil as primary feedstock, ahead of India's 2027 SAF blending targets for international flights.",
+      "summary": "Market reporting indicates usable output from UCO collection operations increased approximately 11%, with impurity-related rejection falling nearly 9%, supporting cleaner feedstock delivery to renewable diesel producers. Roughly 62% of regional feedstock originates from foodservice sources, with renewable diesel producers absorbing 55% of collected oil.",
       "relevance_score": 4,
       "is_deal": false,
       "is_target_market": false,
@@ -414,68 +160,7 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-24"
-    },
-    {
-      "date": "2026-11-17",
-      "headline": "Renewable Energy Feedstock from Greasezilla: Brown Grease as Advanced Biofuel",
-      "source": "Greasezilla",
-      "source_url": "https://greasezilla.com/renewable-energy-feedstock/",
-      "category": "Technology",
-      "categories": [
-        "Technology",
-        "Renewable Fuels",
-        "ESG"
-      ],
-      "summary": "Greasezilla highlights brown grease from FOG waste as a renewable energy feedstock, emphasizing sustainability benefits and reduced greenhouse gas emissions in transportation and shipping sectors.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-24"
-    },
-    {
-      "date": "2026-11-15",
-      "headline": "Used Cooking Oil Biodiesel Policy 2025: Waste Grease Becomes Energy Gold",
-      "source": "Grease Connections",
-      "source_url": "https://greaseconnections.com/used-cooking-oil-biodiesel-policy-2025/",
-      "category": "ESG",
-      "categories": [
-        "ESG",
-        "Renewable Fuels",
-        "Regulatory"
-      ],
-      "summary": "Federal and state regulators are creating incentive structures for waste-derived biodiesel, including EPA's new RFS rule that doubles credits for domestically collected used cooking oil and California LCFS updates that increase value for low-carbon UCO diesel.",
-      "relevance_score": 5,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-24"
-    },
-    {
-      "date": "2026-11-14",
-      "headline": "EPA Develops Technology-Based Effluent Limitations and Pretreatment Standards for Industrial Categories Discharging PFAS",
-      "source": "Environment & Energy Leader",
-      "source_url": "https://www.environmentenergyleader.com/articles/5256-epa-keeps-pfoa-pfos-limits-moves-to-rescind-four-pfas-rules",
-      "category": "Regulatory",
-      "categories": [
-        "Regulatory"
-      ],
-      "summary": "EPA confirmed it is developing technology-based effluent limitations and pretreatment standards for industrial categories that discharge PFAS, with proposed rule for public comment expected in coming months. This may affect pretreatment programs at POTWs.",
-      "relevance_score": 2,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-24"
+      "first_seen_date": "2026-11-25"
     }
   ]
 }
