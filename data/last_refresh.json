@@ -1,59 +1,40 @@
 {
-  "timestamp": "2026-11-25T21:28:29Z",
-  "added_news_count": 4,
+  "timestamp": "2026-11-26T21:15:23Z",
+  "added_news_count": 3,
   "added_deals_count": 0,
-  "archived_count": 2,
+  "archived_count": 0,
   "new_today_news": [
     {
-      "date": "2026-11-25",
-      "headline": "New Pizza Shop Opens on North Queen Street",
-      "source": "WiseVoter",
-      "source_url": "https://wisevoter.com/world/us/pa/lancaster/2026/11/25/new-pizza-shop-opens-lancaster-queen-street",
-      "category": "Restaurant",
+      "date": "2026-11-26",
+      "headline": "Greasezilla Wins PVSC Grease Processing Contract for Newark Bay Facility",
+      "source": "iGrow News / ROI-NJ",
+      "source_url": "https://igrownews.com/greasezilla-latest-news/",
+      "category": "Infrastructure",
       "categories": [
-        "Restaurant"
+        "Infrastructure"
       ],
-      "summary": "A 20-seat pizza restaurant opened in Lancaster, Pennsylvania in the former Slugger's Pizzeria space on November 25, 2026. The restaurant serves pizza, stromboli, subs, and other items, occupying a space that had been vacant since spring.",
-      "relevance_score": 1,
+      "summary": "Passaic Valley Sewerage Commission selected Greasezilla to install FOG separation and recovery equipment at Newark Bay treatment plant that will process up to 15 million gallons of hauled grease-trap waste annually, one of the largest systems deployed in the country.",
+      "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-25"
-    },
-    {
-      "date": "2026-11-24",
-      "headline": "Pittsburgh Restaurant Openings and Closings in 2026",
-      "source": "Axios Pittsburgh",
-      "source_url": "https://www.axios.com/local/pittsburgh/2026/11/24/pittsburgh-restaurant-openings-closings-2026",
-      "category": "Restaurant",
-      "categories": [
-        "Restaurant"
-      ],
-      "summary": "Axios tracked Pittsburgh-area restaurant openings and closings for November 2026, including Driftwood Oven expanding to a second location, Opal Grand Buffet opening at Homestead, Sokoya opening as a Japanese izakaya, and several closures including Fish Nor Fowl and ShadoBeni.",
-      "relevance_score": 1,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-25"
+      "first_seen_date": "2026-11-26"
     }
   ],
   "recent_news": [
     {
-      "date": "2026-11-23",
-      "headline": "The Electric Waste Collection Trucks Market is Projected to Expand at a 20.3% CAGR Until 2030",
-      "source": "The Business Research Company",
-      "source_url": "https://www.openpr.com/news/4696677/the-electric-waste-collection-trucks-market-is-projected",
-      "category": "Technology",
+      "date": "2026-11-24",
+      "headline": "Wellington County Tipping Fees Set to Increase 12.5 Percent in 2027",
+      "source": "Elora Fergus Today",
+      "source_url": "https://www.elorafergustoday.com/local-news/tipping-fees-continue-to-rise-at-wellington-county-waste-sites-13054284",
+      "category": "Infrastructure",
       "categories": [
-        "Technology"
+        "Infrastructure"
       ],
-      "summary": "Market report on electric waste collection trucks growing from $0.25 billion in 2025 to $0.3 billion in 2026 at 20.6% CAGR. Grundon deploys electric trucks powered by facility waste energy.",
+      "summary": "Wellington County solid waste services committee approved a 12.5 percent increase to tipping fees for the upcoming year, citing competition from neighboring municipalities and the need to preserve landfill capacity.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -61,79 +42,60 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-25"
+      "first_seen_date": "2026-11-26"
     },
     {
-      "date": "2026-11-20",
-      "headline": "Used Cooking Oil (UCO) Biofuel Market: Recent Developments in Feedstock Quality and Output",
-      "source": "Global Growth Insights",
-      "source_url": "https://www.globalgrowthinsights.com/market-reports/used-cooking-oil-uco-market-122114",
-      "category": "Renewable Fuels",
+      "date": "2026-11-23",
+      "headline": "Your backup disposal plan might not be a backup at all",
+      "source": "Waste Today",
+      "source_url": "https://wastetodaymagazine.com/news/your-backup-disposal-plan-might-not-be-a-backup-at-all",
+      "category": "Industry Events",
       "categories": [
-        "Renewable Fuels"
+        "Industry Events"
       ],
-      "summary": "Market reporting indicates usable output from UCO collection operations increased approximately 11%, with impurity-related rejection falling nearly 9%, supporting cleaner feedstock delivery to renewable diesel producers. Roughly 62% of regional feedstock originates from foodservice sources, with renewable diesel producers absorbing 55% of collected oil.",
-      "relevance_score": 4,
+      "summary": "Article published November 23, 2026 discussing disposal planning in the waste industry. Specific details not available from search results preview.",
+      "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-25"
+      "first_seen_date": "2026-11-26"
     }
   ],
   "backfill_news": [],
   "new_deals": [],
   "new_news": [
     {
-      "date": "2026-11-25",
-      "headline": "New Pizza Shop Opens on North Queen Street",
-      "source": "WiseVoter",
-      "source_url": "https://wisevoter.com/world/us/pa/lancaster/2026/11/25/new-pizza-shop-opens-lancaster-queen-street",
-      "category": "Restaurant",
+      "date": "2026-11-26",
+      "headline": "Greasezilla Wins PVSC Grease Processing Contract for Newark Bay Facility",
+      "source": "iGrow News / ROI-NJ",
+      "source_url": "https://igrownews.com/greasezilla-latest-news/",
+      "category": "Infrastructure",
       "categories": [
-        "Restaurant"
+        "Infrastructure"
       ],
-      "summary": "A 20-seat pizza restaurant opened in Lancaster, Pennsylvania in the former Slugger's Pizzeria space on November 25, 2026. The restaurant serves pizza, stromboli, subs, and other items, occupying a space that had been vacant since spring.",
-      "relevance_score": 1,
+      "summary": "Passaic Valley Sewerage Commission selected Greasezilla to install FOG separation and recovery equipment at Newark Bay treatment plant that will process up to 15 million gallons of hauled grease-trap waste annually, one of the largest systems deployed in the country.",
+      "relevance_score": 5,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-25"
+      "first_seen_date": "2026-11-26"
     },
     {
       "date": "2026-11-24",
-      "headline": "Pittsburgh Restaurant Openings and Closings in 2026",
-      "source": "Axios Pittsburgh",
-      "source_url": "https://www.axios.com/local/pittsburgh/2026/11/24/pittsburgh-restaurant-openings-closings-2026",
-      "category": "Restaurant",
+      "headline": "Wellington County Tipping Fees Set to Increase 12.5 Percent in 2027",
+      "source": "Elora Fergus Today",
+      "source_url": "https://www.elorafergustoday.com/local-news/tipping-fees-continue-to-rise-at-wellington-county-waste-sites-13054284",
+      "category": "Infrastructure",
       "categories": [
-        "Restaurant"
+        "Infrastructure"
       ],
-      "summary": "Axios tracked Pittsburgh-area restaurant openings and closings for November 2026, including Driftwood Oven expanding to a second location, Opal Grand Buffet opening at Homestead, Sokoya opening as a Japanese izakaya, and several closures including Fish Nor Fowl and ShadoBeni.",
-      "relevance_score": 1,
-      "is_deal": false,
-      "is_target_market": false,
-      "target_market_name": null,
-      "latitude": null,
-      "longitude": null,
-      "zoom_hint": null,
-      "first_seen_date": "2026-11-25"
-    },
-    {
-      "date": "2026-11-23",
-      "headline": "The Electric Waste Collection Trucks Market is Projected to Expand at a 20.3% CAGR Until 2030",
-      "source": "The Business Research Company",
-      "source_url": "https://www.openpr.com/news/4696677/the-electric-waste-collection-trucks-market-is-projected",
-      "category": "Technology",
-      "categories": [
-        "Technology"
-      ],
-      "summary": "Market report on electric waste collection trucks growing from $0.25 billion in 2025 to $0.3 billion in 2026 at 20.6% CAGR. Grundon deploys electric trucks powered by facility waste energy.",
+      "summary": "Wellington County solid waste services committee approved a 12.5 percent increase to tipping fees for the upcoming year, citing competition from neighboring municipalities and the need to preserve landfill capacity.",
       "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
@@ -141,26 +103,26 @@
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-25"
+      "first_seen_date": "2026-11-26"
     },
     {
-      "date": "2026-11-20",
-      "headline": "Used Cooking Oil (UCO) Biofuel Market: Recent Developments in Feedstock Quality and Output",
-      "source": "Global Growth Insights",
-      "source_url": "https://www.globalgrowthinsights.com/market-reports/used-cooking-oil-uco-market-122114",
-      "category": "Renewable Fuels",
+      "date": "2026-11-23",
+      "headline": "Your backup disposal plan might not be a backup at all",
+      "source": "Waste Today",
+      "source_url": "https://wastetodaymagazine.com/news/your-backup-disposal-plan-might-not-be-a-backup-at-all",
+      "category": "Industry Events",
       "categories": [
-        "Renewable Fuels"
+        "Industry Events"
       ],
-      "summary": "Market reporting indicates usable output from UCO collection operations increased approximately 11%, with impurity-related rejection falling nearly 9%, supporting cleaner feedstock delivery to renewable diesel producers. Roughly 62% of regional feedstock originates from foodservice sources, with renewable diesel producers absorbing 55% of collected oil.",
-      "relevance_score": 4,
+      "summary": "Article published November 23, 2026 discussing disposal planning in the waste industry. Specific details not available from search results preview.",
+      "relevance_score": 2,
       "is_deal": false,
       "is_target_market": false,
       "target_market_name": null,
       "latitude": null,
       "longitude": null,
       "zoom_hint": null,
-      "first_seen_date": "2026-11-25"
+      "first_seen_date": "2026-11-26"
     }
   ]
 }
